@@ -1,0 +1,800 @@
+2018-ar-sadness-train-1	Pesa mas la #rabia q el #cemento	sadness	0.521
+2018-ar-sadness-train-2	@darksbanana Deprimida estoy.	sadness	0.957
+2018-ar-sadness-train-3	La primera act en Derecho fue imaginar una soc sin Estado. La profesora ya va a conocer mi lado anarco 🙈 	sadness	0.283
+2018-ar-sadness-train-4	Ya me arrepentí de haber mandado ese mensaje. 😟	sadness	0.604
+2018-ar-sadness-train-5	Que tristeza prros. 😔	sadness	0.804
+2018-ar-sadness-train-6	Por qué te valgo tanta madre? 😢	sadness	0.652
+2018-ar-sadness-train-7	@vertvnoticias Bueno a estos le hemos escuchado decir cada cosa... !! Infeliz ...	sadness	0.583
+2018-ar-sadness-train-8	Para mí Colombia es patria, amor. Un país que siempre sale adelante, A pesar de mucha corrupción. 20 de julio GRACIAS COLOMBIA...	sadness	0.146
+2018-ar-sadness-train-9	@Heberlizeth @JESUSESA Que terrible dolor la pérdida de un hijo y peor aún cuando es asesinado impunemente.	sadness	0.958
+2018-ar-sadness-train-10	¿Por qué los zancudos me persiguen? 🙁	sadness	0.313
+2018-ar-sadness-train-11	@marisolglzz Aburrido y panza México	sadness	0.354
+2018-ar-sadness-train-12	@Grabea2010 @ertrivi69 Disfrutemos del Musicon igual Gra siento que hoy estamos sin suerte #AndaLevantaL25 	sadness	0.438
+2018-ar-sadness-train-13	@pajeranger Ay si, automaticamente al leer el mensaje más frívolo del mundo algún depresivo seguro se salva jajaja	sadness	0.229
+2018-ar-sadness-train-14	@tctelevision @calle7tc Terrible  esto!	sadness	0.521
+2018-ar-sadness-train-15	@bianca43721 Dos tweets seguidos. Vos debes tener ansiedad por el viaje me parece...	sadness	0.413
+2018-ar-sadness-train-16	Estoy cansada de que me prometan cosas y después no lo cumplan	sadness	0.848
+2018-ar-sadness-train-17	Tienes #insomnio o #depresión post #sismo? Ven a mi casa, te armo un porro. La propuesta es seria.	sadness	0.521
+2018-ar-sadness-train-18	son como Juan Carlos sacando una tirada de engaño tres para envenenar a alguien "toma este veneno DIGO... ESTA FANTA"	sadness	0.460
+2018-ar-sadness-train-19	Ya no sé si es que quedé nerviosa o es que tiembla a cada nada en estos últimos 20 minutos 😟	sadness	0.583
+2018-ar-sadness-train-20	@indpcom @Albert_Rivera @InesArrimadas Y el berrinche de Cs tres cuartos de lo mismo	sadness	0.380
+2018-ar-sadness-train-21	No quiero ir mañana a la escuela 	sadness	0.396
+2018-ar-sadness-train-22	Aveces siento que me quieren agarrar ataques de pánico	sadness	0.667
+2018-ar-sadness-train-23	realmente no los trato mal ni soy mala pero basta que lo haga una vez para sentirme de lo peor, pero en serio no es mi intención	sadness	0.652
+2018-ar-sadness-train-24	Digamos que soy una mezcla entre un carácter de mierda, y una dulzura terrible.	sadness	0.396
+2018-ar-sadness-train-25	@PLAYMFS @kukkjeon Biaaaaaaaaas 	sadness	0.354
+2018-ar-sadness-train-26	Te aprecio mucho, aunque me jodas hasta el punto del cansancio con el casamiento(?	sadness	0.500
+2018-ar-sadness-train-27	Me duele la rodilla lpmm espero sea mas que dolor 😥	sadness	0.625
+2018-ar-sadness-train-28	Estoy ante una terrible tesitura: Me muero de sueño pero Dalas ha subido un video y quiero enterarme del chisme. Espero a mañana o no? 😂	sadness	0.333
+2018-ar-sadness-train-29	Me paso de bueno en serio...	sadness	0.417
+2018-ar-sadness-train-30	@omarfdosk8 @CaracolTV @DesafioCaracol Andrea fea mala aburrida gafa odiosa estupida sisañera chismosa etc etc etc	sadness	0.333
+2018-ar-sadness-train-31	Quizás hoy si te pueda encontrar. Mas allá de toda pena, siento que la vida es buena...	sadness	0.223
+2018-ar-sadness-train-32	@oceanodelaura Lamentablemente la afinidad ideológica de la mayoría de los partidos de la MUD, los conlleva serles funcional al PSUV.	sadness	0.521
+2018-ar-sadness-train-33	Me urge un aceite de almendras 	sadness	0.271
+2018-ar-sadness-train-34	Esta madrugada se me esta haciendo eterna 	sadness	0.604
+2018-ar-sadness-train-35	@florenciagerez_ Jajajajajaj tomatela cara rota esa sos vos 	sadness	0.130
+2018-ar-sadness-train-36	Muchos entre mas tienen mas ambicionan y los pies se les alejan de la tierra por que ya no les importa que les pase a los demas egoistas 	sadness	0.522
+2018-ar-sadness-train-37	cada vez que veo una peli de este tipo se me queda un vacio muy grande porque vaya vida mas aburrida tenemos en verdad	sadness	0.625
+2018-ar-sadness-train-38	Noches de llanto 😕	sadness	0.771
+2018-ar-sadness-train-39	The radio need to stop playing all these sad songs.  Ni tengo novio pero aqui estoy llorando por el.	sadness	0.708
+2018-ar-sadness-train-40	#DanielSamperQEPD es una noticia lamentable  #SantosColombiaNoTeCree  #TodoEsCulpaDeLasFarrr	sadness	0.694
+2018-ar-sadness-train-41	Se fue ...... #tristeza	sadness	0.917
+2018-ar-sadness-train-42	Que triste admitirlo pero  "TE AMO INTERNET	sadness	0.479
+2018-ar-sadness-train-43	El fútbol colombiano sería muy aburrido sin el América y sin Millitos  😂😂😂😂😂😂😂😂😂😂😂😂😂😂	sadness	0.125
+2018-ar-sadness-train-44	Lo malo es que las personas no quieren salir conmigo 😟	sadness	0.826
+2018-ar-sadness-train-45	Y no creo que sea el único infeliz Que ameniza por ti estos tiempos complicados. ¡maldita sea!	sadness	0.717
+2018-ar-sadness-train-46	No puedo más, todas mis series fav se están terminando 	sadness	0.604
+2018-ar-sadness-train-47	Yo también 🙁	sadness	0.354
+2018-ar-sadness-train-48	EN SERIO TANTO ME VAS A COLGAR DIOS	sadness	0.625
+2018-ar-sadness-train-49	Quiero regresar al #iOS10 	sadness	0.271
+2018-ar-sadness-train-50	Desde primaria soy Fan fan fan faaaaan de hilary duff h estoy bien indignada porque no están sus albums viejos en Spotify ¡SON LOS BUENOS!	sadness	0.313
+2018-ar-sadness-train-51	Y todo fue mentira 😥	sadness	0.583
+2018-ar-sadness-train-52	@alfreserramanci @CELAGeopolitica @pagina12 @teleSURtv Terrorismo es lo que practicas tu en Venezuela, miserable!!	sadness	0.604
+2018-ar-sadness-train-53	Como estoy odiando este insomnio 😥	sadness	0.521
+2018-ar-sadness-train-54	@hramosallup tristemente ya dond este ud,rosales, y combo se relaciona con conveniencia d partido, osea +d lo mismo	sadness	0.729
+2018-ar-sadness-train-55	Al final de la oscuridad siempre se ve la luz	sadness	0.293
+2018-ar-sadness-train-56	@JoJoFactsDubs Me dio más tristeza la muerte de D I O	sadness	0.917
+2018-ar-sadness-train-57	Creí que dejar de fumar weed durante el día me haría sentirme less shitty y más productiva pero veeerga es demasiado aburrido estar sobria	sadness	0.479
+2018-ar-sadness-train-58	Hoy le compre un regalo a mi ahijada, y la mina me dice "cuanto tiene tu beba" pero por dios q mujer desagradable jajajajaj	sadness	0.063
+2018-ar-sadness-train-59	Y yo pensé q una estrella fugaz era una estrella muy bonita q tenía miedo de brillar, y huir lo más lejos posible. Un poco como tú, como yo.	sadness	0.521
+2018-ar-sadness-train-60	@Malejaaaa__ Siendo así tendría que decir "soy terrible"	sadness	0.583
+2018-ar-sadness-train-61	Nací con el viejo Linkin Park, y a pesar de que ya no era partídiario de su nuevo sonido, siempre los admiré como banda.   Descansa (1/2)	sadness	0.600
+2018-ar-sadness-train-62	Odio la gente cerrada, que no se deja ayudar. Para colmo la mayoría de la gente que quiero es así 	sadness	0.583
+2018-ar-sadness-train-63	No hay apuros para el Emperador! 	sadness	0.229
+2018-ar-sadness-train-64	Me quede dormida estudiando y me desperté a las 3:20 AM.  Adivinen quien tiene la perra al lado? Un miedo 	sadness	0.391
+2018-ar-sadness-train-65	amo porque yo soy re tímida pero en el boliche me pones música y bailo con quien sea	sadness	0.208
+2018-ar-sadness-train-66	Que tu primer dia no sea en el cumbres esta muy triste.	sadness	0.875
+2018-ar-sadness-train-67	@alvarodriguezg Es que hay algunos que se toman en serio a @13tv_es, y con ver Martín villa se han venido arriba. 😂😂😂😂	sadness	0.217
+2018-ar-sadness-train-68	Que aburrido esta este bar	sadness	0.458
+2018-ar-sadness-train-69	Alguien sabe qué pasa con el Anexo del hospital Francés de la Av Honorio Pueyrredón q supuestamente pertenece al PAMI y está abandonado?	sadness	0.479
+2018-ar-sadness-train-70	Y yo aquí, roto, dañado, un poco desesperado	sadness	0.813
+2018-ar-sadness-train-71	@RamsesGirala Pero que pez amargo que sos...	sadness	0.417
+2018-ar-sadness-train-72	Los martes yo estaba bien😡 no tenía ni que venir aquí a joder 	sadness	0.479
+2018-ar-sadness-train-73	la depresión es una enfermedad tan mortal como silenciosa, si no pides ayuda literalmente tu vida se puede ir por el caño	sadness	0.783
+2018-ar-sadness-train-74	La alarma de mi celular es re fea y ya me tiene re podrido en cualquier momento lo voy a revolear hasta la peron	sadness	0.433
+2018-ar-sadness-train-75	Voy a terminar llorando ;-;	sadness	0.813
+2018-ar-sadness-train-76	@iharting @Jullietbanda "infeliz" no es la palabra que mejor se adapta pero usted es una persona educada.	sadness	0.438
+2018-ar-sadness-train-77	Dizque a poner la alarma en el calendario xd	sadness	0.188
+2018-ar-sadness-train-78	@NTN24 Lamentable ...Sin embargo...llama la atención entre los últimos duelos del mundo del rock que hayan sido causa de suicidios	sadness	0.646
+2018-ar-sadness-train-79	Para llevar a los bebes de un lugar a otro debemos cantarles canciones...  Quiero cantarles Gunaa' nibiina (La llorona, en Zapoteco)	sadness	0.250
+2018-ar-sadness-train-80	@Javelez12 Jajajajaj no pana lo veo grave a páginas por casualidad no se metió a youtube?	sadness	0.083
+2018-ar-sadness-train-81	Me puse a llorar de mal y después paraba enojada y decia soy fuerte. Que onda Es como si el diablo me quiere mal y Dios me dice no caigas❤	sadness	0.833
+2018-ar-sadness-train-82	¿Sabéis el pulpo de buscando a Dory? ¿Recordáid que le faltaba un tentáculo y que vivía totalmente amargado y resentido?	sadness	0.542
+2018-ar-sadness-train-83	Que pena tener a Heidi como hermana, la neta	sadness	0.560
+2018-ar-sadness-train-84	@shobjin Joda verdad que si me tienen aburrida con eso no se dan cuenta que todos son como hermanos, se pasan con esas cosas	sadness	0.458
+2018-ar-sadness-train-85	Eso para vos no es un insulto?	sadness	0.313
+2018-ar-sadness-train-86	@tom_feliu12 Una fan del DT, que a pesar de los resultados del equipo expresa su amor a usted	sadness	0.227
+2018-ar-sadness-train-87	No quiero clases 🙁	sadness	0.313
+2018-ar-sadness-train-88	@Ashleymusica Sii 😂💔, eso si es incómodo Ash 😂😂	sadness	0.260
+2018-ar-sadness-train-89	Ojalá mi Dr use Twitter y me lea  *Ya dame el alta brother no puedo seguir aburrido en casa me amargo si no trabajo	sadness	0.521
+2018-ar-sadness-train-90	Que mh wacho 	sadness	0.271
+2018-ar-sadness-train-91	Estoy bien triste 😭	sadness	0.958
+2018-ar-sadness-train-92	@maknaexnochu aga pa 	sadness	0.271
+2018-ar-sadness-train-93	Mis días estaban muy lindos pero con lo de hoy quede mas triste😣 a levantar cabeza y seguir, vamos rojo!	sadness	0.783
+2018-ar-sadness-train-94	No quisiera sentir celos pero lamentablemente no se me da.	sadness	0.583
+2018-ar-sadness-train-95	@xBanshee_MS *Unos pitidos estridentes obligan a que una mano en la oscuridad tantee unos abdominales bien definidos. Vaya hacia abajo, >	sadness	0.261
+2018-ar-sadness-train-96	Estoy tan desesperado que le escribiría a alguna fea de Facebook	sadness	0.500
+2018-ar-sadness-train-97	@fgavilla @SCT_mx @galaTVMorelos veo mal o se ve hundido...?	sadness	0.313
+2018-ar-sadness-train-98	Lo más incómodo andar resfriado y con los labios hechos perrrcha	sadness	0.479
+2018-ar-sadness-train-99	Pero no se puede dejar de amar de la noche a la mañana ... o si? 😭	sadness	0.479
+2018-ar-sadness-train-100	Tengo tremendas ganas de salir a caminar ahora pa sacarme un poco la decepción y el enojo y pensar bien q voy a hacer	sadness	0.750
+2018-ar-sadness-train-101	Seguro se le apago el celular 	sadness	0.292
+2018-ar-sadness-train-102	Me kga la verga que no cuelguen la llamada en cuanto digo adiós, súper incómodo tener que esperar a que cuelguen, gastan pila.	sadness	0.348
+2018-ar-sadness-train-103	Che no hablando en serio, la joda se cancela. pd: tuccio chupapija	sadness	0.438
+2018-ar-sadness-train-104	@YixingHeartbeat loko pero q papel lamentable esta haciendo esa mira que burlarse de eso	sadness	0.729
+2018-ar-sadness-train-105	Por el único cantante que sentí tristeza cuando me enteré de su muerte fue Demis Roussos, un grande que falleció en un hospital de Egipto.	sadness	0.688
+2018-ar-sadness-train-106	Algien que alguien que me venga a alegrar la vida porque la neta soy bien amargada😂😂	sadness	0.396
+2018-ar-sadness-train-107	Bueno despues de una semana algo estresante y aburrida, mañana empieza mi fin de semana bien shingon. 😊😌😎	sadness	0.188
+2018-ar-sadness-train-108	@NoticiasVenezue En claro signo de desesperación por verse descubierto el gigantesco fraude cometido a la nación.	sadness	0.604
+2018-ar-sadness-train-109	@JulianMCespedes Para completar. Ojala no sea grave.	sadness	0.396
+2018-ar-sadness-train-110	No quería q salte mi ex y retruquemos lo q faltò, lo q no hizo, etc etc etc 😔 , es un volver al pasado , y es triste. Puto día .	sadness	0.854
+2018-ar-sadness-train-111	@juanxiomiguel @Pajaropolitico Así es. Grave error.	sadness	0.375
+2018-ar-sadness-train-112	@UnboxMeSpain una pena aunque yo no escuche su música,es simplemente trágico que muera alguien	sadness	0.696
+2018-ar-sadness-train-113	@julietaortiva q tristeza we JAJAJAAJ	sadness	0.229
+2018-ar-sadness-train-114	Asumo mis consecuencia y admito mis errores, esos que excusé, por nerviosismo, por temores.	sadness	0.563
+2018-ar-sadness-train-115	Con las semanitas agetreadas que llevo y el cansancio acumulado...me he ganado un vinito. Chin chin, salud y todo eso #BuenasNoches 🍷🍷	sadness	0.167
+2018-ar-sadness-train-116	#BetoASaber. Animarles Guzmán  tirarse abajo economía política  crear caos con su terrorismo y dar pasó a la privatización. del Perú	sadness	0.500
+2018-ar-sadness-train-117	-Cuando Ekmarim le gritaba una parte de él se enfurecía pero por otra se le notaba abatido... todos estos meses encerrado y solo +	sadness	0.604
+2018-ar-sadness-train-118	No quiero morirme sin ir a un concierto de Luis Miguel antes 😭	sadness	0.674
+2018-ar-sadness-train-119	Que dia del amigo mas aburrido pase	sadness	0.542
+2018-ar-sadness-train-120	@Vale_oliv Si, la depresión es terrible y cuando la padeces cualquier cosa por insignificante que sea va afectando a tu mundo 😔	sadness	0.854
+2018-ar-sadness-train-121	Cambie de celular y no me deja entrar a instagram de ninguna manera, estoy llorando tirada en el piso😭	sadness	0.771
+2018-ar-sadness-train-122	@AiNoSenshiYunie @darkzent Que triste que piense asi hombre, sigale hechando caca a los de morena mejor	sadness	0.717
+2018-ar-sadness-train-123	@armijo_victor JAJAJAJAJAJAJAJAJAJ Chtm, me refería a depresión wey ☹️	sadness	0.271
+2018-ar-sadness-train-124	No estás deprimido, estás distraído  Distraído de la vida que te rodea🎶👌🏽	sadness	0.457
+2018-ar-sadness-train-125	@LuuzRobledo Ah listo jajajaja, no me puedo dormir luzzz 	sadness	0.167
+2018-ar-sadness-train-126	@pxx_santos soldada ferida, #triste	sadness	0.696
+2018-ar-sadness-train-127	Cercano por así decirlo. Y debo decir que no esperaba que fuese así de terrible el padecer de anorexia. En verdad, me.alegro muchisimo+	sadness	0.417
+2018-ar-sadness-train-128	@Jhosy2121 Cuándo me he enojado contigo oe JAJAJAJA la hago un finde!	sadness	0.250
+2018-ar-sadness-train-129	Quede de cara cuando apareció donald glover en spiderman ,tremenda felicidad me dio	sadness	0.033
+2018-ar-sadness-train-130	Te necesito en mi vida 	sadness	0.674
+2018-ar-sadness-train-131	@notthefrozenguy @6baphomet Me estoy tomando el auto-odio muy en serio!!	sadness	0.630
+2018-ar-sadness-train-132	@JavierLopezDiaz Semáforo dañado en 31 ote y 14 sur. El verde no dura ni 5 segundos. Genera tráfico.	sadness	0.354
+2018-ar-sadness-train-133	Ahora se me perdió la piroba excusa.	sadness	0.391
+2018-ar-sadness-train-134	Mientras puedas mirar al cielo sin temor, sabrás que eres puro por dentro, y que, pase lo que pase, volverás a ser feliz.	sadness	0.500
+2018-ar-sadness-train-135	Hoy he llorado por ti  He llorado la rabia  La impotencia  He llorado tu risa.  #tusojosclarosonrientes #triste	sadness	0.938
+2018-ar-sadness-train-136	woa extrañar hablar con mi persona fav y no twittear gracias a que esta tonta perdió su adaptador >:v	sadness	0.480
+2018-ar-sadness-train-137	Mayco y yo organizando algo? Nc como ira a salir eso😂😂😂😂	sadness	0.167
+2018-ar-sadness-train-138	Estoy re deprimida hace meses y a nadie le importa, ni siquiera lo notan. Pero yo si me tengo que preocupar por como se sienten los demas	sadness	0.833
+2018-ar-sadness-train-139	Desesperado por encontrarte, busco un camino para olvidarte, es que esa noche que vos te fuiste me desbordaron las cicatrices 🎤💔	sadness	0.813
+2018-ar-sadness-train-140	@michellevilaroo No puedo 	sadness	0.438
+2018-ar-sadness-train-141	Ya necesito vacaciones y a penas van los primeros parciales!!! 	sadness	0.435
+2018-ar-sadness-train-142	¿Que se siente ser orgasmo y verla siempre, y que no pueda esconderse? 📚	sadness	0.396
+2018-ar-sadness-train-143	Espero qe todo este esfuerzo sirva de algo , estoy muy cansado	sadness	0.455
+2018-ar-sadness-train-144	No sé bien que pasó con la policía en la colon pero yo vivo en frente y estoy cansada de no poder dormir por el kilombo que hacen 😒	sadness	0.500
+2018-ar-sadness-train-145	Terrible lo mio de alunarme por cualquier cosa.	sadness	0.542
+2018-ar-sadness-train-146	Que asco ese perfume. Me hizo doler la cabeza 😢	sadness	0.458
+2018-ar-sadness-train-147	La depresión hace que se mate gente que en su época con su música nos ayudó a superar nuestros momentos y crisis existenciales pubertas 😢	sadness	0.750
+2018-ar-sadness-train-148	I have questions me tiene la vida triste cada vez que quiero ver el video de crying in the club	sadness	0.792
+2018-ar-sadness-train-149	No me puedo dormir, no tengo idea como me voy a levantar mañana 😟	sadness	0.479
+2018-ar-sadness-train-150	Al ritmo que voy me estoy convirtiendo en una mala persona: resentida y pesimista.	sadness	0.761
+2018-ar-sadness-train-151	No Lo Saben Pero esa chica me está gustando demasiado... Aún sabiendo que jamás pasará algo... 😢	sadness	0.563
+2018-ar-sadness-train-152	@Alealex78 @MVivasf @moniquelatil @Elenitavip JAJAJAJAJAJAJA TIENE OJOS DE BORRACHA LLORONA.!!!	sadness	0.146
+2018-ar-sadness-train-153	La silla de Annabelle se mueve sola o la está moviendo? @chekozaun @disparamargot @Horacitu @ximenadelam @szurita @faustoponce  #miedo 😖	sadness	0.458
+2018-ar-sadness-train-154	Cómo le saltan los prejuicios de clase al progre cuando ve colas de gente por un descuento. Ay que  espanto gordooo.	sadness	0.333
+2018-ar-sadness-train-155	@Gastako @realista111 Es una interesada no estaba tan enfadada con Alejandro?, Xq se fue con el al hotel? Buitre es un buitre	sadness	0.229
+2018-ar-sadness-train-156	@DebRyanShow deja de llorar #rayito !!!!	sadness	0.674
+2018-ar-sadness-train-157	odio ser tan desconfiado firme	sadness	0.458
+2018-ar-sadness-train-158	Es que estoy nerviosa y cuando lo estoy me da por comer, comer, comer y más comer 😢	sadness	0.542
+2018-ar-sadness-train-159	soy terrible yeta por la chucha por qué nací así	sadness	0.720
+2018-ar-sadness-train-160	@MariaSharapova preciosa cómo siempre , pero tu rostro es de preocupación o cansancio ?😞	sadness	0.417
+2018-ar-sadness-train-161	Me mente es demasiado horrible... No aguanto le aguanto ni me aguanto.	sadness	0.804
+2018-ar-sadness-train-162	@Profeco @SECTUR_mx Tristemente lo dudo.	sadness	0.688
+2018-ar-sadness-train-163	HOLAA, TE VI CAMINANDO EN LO OSCURO SOLA, EN ESTE JUEGO TU TIENES LA BOLA, QUIERO COMERTE COMPLETITA SOLAA, QUIERO COMERTE COMPLETITA SOLAAA	sadness	0.250
+2018-ar-sadness-train-164	4 niños escapan del sename 2 presos x robo balón gas y drogados no querrían suicidarse? niño grave cae desde 15 mts y nadie se presenta trib	sadness	0.630
+2018-ar-sadness-train-165	@nicosomerville El mejor hashtag que nunca vi! Jajaja #MejorSacarRapido #PorLasDudas 	sadness	0.188
+2018-ar-sadness-train-166	Soy muy impulsiva, en el momento que me enojo digo cosas que después me termino arrepintiendo	sadness	0.604
+2018-ar-sadness-train-167	Devuelvanme a mis amigas solteras 😭	sadness	0.500
+2018-ar-sadness-train-168	Hoy volví de brc y ya extraño todo, quiero llorar mil años basta	sadness	0.875
+2018-ar-sadness-train-169	Hoy en verdad terminé súper cansada😌	sadness	0.521
+2018-ar-sadness-train-170	Que triste querer decirle lo mucho que amo a mi novio pero mi enojo no me lo permite	sadness	0.912
+2018-ar-sadness-train-171	Que buena partida la ctm, quede con el medio hype pero no creo resistir a ver a fanatic 	sadness	0.229
+2018-ar-sadness-train-172	No estaba ofendido? ;)	sadness	0.354
+2018-ar-sadness-train-173	@losmartines Tirando facha el coach!!! Vamos hoy #PeñA!!!	sadness	0.271
+2018-ar-sadness-train-174	Perdió juventud Unida. En misiones se grita como un gol!	sadness	0.354
+2018-ar-sadness-train-175	Este es un mensaje encriptado y sólo las personas con coeficiente intelectual lo pueden leer.  	sadness	0.310
+2018-ar-sadness-train-176	De nuevo Lunes  12:00 am 😥	sadness	0.396
+2018-ar-sadness-train-177	La verdad que terrible noche, la pase genial con mis frazadas, la almohada y la cama	sadness	0.521
+2018-ar-sadness-train-178	Respeto la libertad de expresión; la defiendo... Lamentable que algunos encuentren divertido mofarse de la muerte de alguien. Quien sea.	sadness	0.604
+2018-ar-sadness-train-179	No digas que te vas Busquemos un lugar Que no haya nadie Solo haya oscuridad Y besame lento Paremos el tiempo #LocoEnamoradoVideo	sadness	0.313
+2018-ar-sadness-train-180	@AguilaRey1 El #Sismo se sintió con fuerza en Guarenas/Guatire. Por donde trabajo, la gente salió a la calle 	sadness	0.417
+2018-ar-sadness-train-181	La mejor arma es la que transforma el pesimismo en optimismo.	sadness	0.292
+2018-ar-sadness-train-182	MUY LAMENTABLE EL RELATIVISMO MORAL DE NUESTRA SOCIEDAD RESPECTO A LA VIDA. HOY SON LOS NONATOS, MAÑANA LOS ANCIANOS ...MAL, MUY MALA SEÑAL!	sadness	0.792
+2018-ar-sadness-train-183	@Santi_Calderon2 No me hagas llorar men :( encerio?	sadness	0.771
+2018-ar-sadness-train-184	fa ya se hizo un año..  si hubiera sabido que estabas te tendría conmigo 	sadness	0.543
+2018-ar-sadness-train-185	Campañon, Campañon!!! 🔴⚪⚫   Terrible lo de chaca💪💪💪💪	sadness	0.396
+2018-ar-sadness-train-186	Escuché una canción re lindaa y cuando voy a ver la traducción es re depresiva mal, weno	sadness	0.717
+2018-ar-sadness-train-187	#DraCorderoMV muy interesante  el tema. La #Depresion una enfermedad denigrada, poco entendida. Importante la cubre el  #Auge #SaludMental	sadness	0.500
+2018-ar-sadness-train-188	@DanteDelgado Lamentablemente esto es lo que se está visualizando para el 2018.	sadness	0.500
+2018-ar-sadness-train-189	Dlvv, no puedo dormir y en 12:30 hrs tengo un examen 	sadness	0.521
+2018-ar-sadness-train-190	El es "Wero" un gatito que vive afuera del Oxxo de la calzada San Pedro, súper tierno, cariñoso y muy noble 	sadness	0.208
+2018-ar-sadness-train-191	Debo ser la única persona que en vacaciones se llena de trabajo porque lo elige... acá ya estamos en el sobre, cansada y feliz 🤗☺️	sadness	0.083
+2018-ar-sadness-train-192	@Fabr1_320 Deberías quitarme de tus notificaciones, sigo ofendida por lo de la peli, cambio y fuera	sadness	0.479
+2018-ar-sadness-train-193	@unknownlxstsoul tarde puti, ya perdió la gracia	sadness	0.292
+2018-ar-sadness-train-194	Que rabia con este guri	sadness	0.543
+2018-ar-sadness-train-195	De bobera la piba esta me dejo re preocupado 😟	sadness	0.521
+2018-ar-sadness-train-196	Si tomó su vida por su decisión o por un juicio impedido por una trastorno depresivo mayor, es asunto de él. Mientras no sepan, no juzguen.	sadness	0.609
+2018-ar-sadness-train-197	por eso necesito estar re polle y perderme así las dejo de joder 	sadness	0.417
+2018-ar-sadness-train-198	@LeSet_ @_XpressTV Ahora solo existe en mi memoria 	sadness	0.479
+2018-ar-sadness-train-199	@MoyanoAgustin98 Te odio, jajajajaja. Feliz día, el mío es en serio😘😘	sadness	0.152
+2018-ar-sadness-train-200	Una lástima que se llevaran a @alo_oficial por delante... Salida perfecta, el podio estaba ahí... 😩 #Rabia #VamosFernando #GpSingapur #F1	sadness	0.604
+2018-ar-sadness-train-201	Pues nada, 2016-2017 deprimida re cayendo en el alcohol y aquí sigo...soy maricona, ahora hago ejercicio para estar bien 😅	sadness	0.813
+2018-ar-sadness-train-202	Mariscales 10 Tiburones 1. Gano Yesid Salazar. Perdió Ramón Ulacio. Destacado Edgar Muñoz de 4-3, 1 anotada y 2 impulsadas.	sadness	0.188
+2018-ar-sadness-train-203	Como cuando estás desesperada por conocer gente que comparta tus gustos, que hasta publicas en un grupo. QUÉ VERGÜENZA ME DOY. ¿????	sadness	0.814
+2018-ar-sadness-train-204	To super cansada 😴	sadness	0.479
+2018-ar-sadness-train-205	Que me perdone mica pero yo lo voy a leer 	sadness	0.292
+2018-ar-sadness-train-206	Estoy tan aburrido en estas vacaciones que soy capaz de irme a la mierda por ahí un par de días. Estoy viendo Colón entre rios.	sadness	0.479
+2018-ar-sadness-train-207	Estoy un poco deprimido, me acordé de cosas que me hicieron en mi pasado que aún no logro superar pero me ayudaron a ser mejor persona 💔🤨	sadness	0.979
+2018-ar-sadness-train-208	Una de terror 🙏🙏🙏	sadness	0.348
+2018-ar-sadness-train-209	@nirvanaxdictx Porque aya arriba Se estan mandando terrible concierto!!!! 😢😢	sadness	0.500
+2018-ar-sadness-train-210	@KloudZNiper Cosas que pasan. Estoy cansado de muchas historias a raiz del pelo. Pero mira el lado positivo, por fin te sigo.	sadness	0.438
+2018-ar-sadness-train-211	@_DAVE_fs No, sigue siendo una pesadilla..	sadness	0.542
+2018-ar-sadness-train-212	@Gonzatraverso22 Quiero saber quien	sadness	0.152
+2018-ar-sadness-train-213	@miriwonderland Como en los viejos tiempos #nostalgia	sadness	0.667
+2018-ar-sadness-train-214	"Qué significa taciturno -que le gusta andar de noche" JAJAJAJAJAJAAJAJJAAJAJJAJAJAAJJAJAJAJAJQJAJAJAAJ	sadness	0.125
+2018-ar-sadness-train-215	¡EN CHILE!  pena de muerte. a quiénes matan. ¿Porqué?  ¡MATAR! A UN ¡INOCENTE!	sadness	0.521
+2018-ar-sadness-train-216	Me he caído... nada grave... -No va a decir que Sheridan se le ha tirado encima, pero se está mareando-	sadness	0.458
+2018-ar-sadness-train-217	Cpn lo grave y preocupante que es la herida de Jaemin se burlan así lpm my boy deserves better	sadness	0.583
+2018-ar-sadness-train-218	Culiaoooooo perdió juventuuuuuud	sadness	0.370
+2018-ar-sadness-train-219	Hay cosas que no quiero volver a repetir y me toca soñarlas 	sadness	0.705
+2018-ar-sadness-train-220	A veces me gusta ser chocante	sadness	0.326
+2018-ar-sadness-train-221	Esta semana si me e cansado pero todo esfuerzo trae sus frutos	sadness	0.333
+2018-ar-sadness-train-222	@PaabloCarballo @felixsquash @LucasCsir23 @NicoFl2015 @leoferro5 @YamiLaCsir Nervioso yo??? Te pica el culo porteño. Amarguísimo	sadness	0.313
+2018-ar-sadness-train-223	Maradona puede opinar lo que quiera cabros, yo no puedo opinar de lo que dijo. porque el pobre estaba tan drogado que no le entendí nada 	sadness	0.348
+2018-ar-sadness-train-224	Qué feo irse a dormir con bronca o tristeza no se que es, pero creo que es sensibilidad 😩	sadness	0.891
+2018-ar-sadness-train-225	A mí realmente me dio pena la muerte de Cornell y #ChesterBennington	sadness	0.729
+2018-ar-sadness-train-226	@DonCokeArayaT Lamentable, naaaada es eternooooo	sadness	0.625
+2018-ar-sadness-train-227	@bdelamaza Cansado si Alexis cambia o no se club	sadness	0.417
+2018-ar-sadness-train-228	Ha saltado supersubmarina en el aleatorio y ya estoy llorando xd	sadness	0.625
+2018-ar-sadness-train-229	Estoy llorando culpa de la alergia, quiero y a la vez no ir al médico	sadness	0.674
+2018-ar-sadness-train-230	yo solo quiero dormir 	sadness	0.458
+2018-ar-sadness-train-231	Que noticia tan triste: murió  Chester Bennington, tremendo vocalista! #LinkinPark	sadness	0.875
+2018-ar-sadness-train-232	@Archipotrio joder acabo de ver a un portugues quejarse porque costaba 55 pavos y me he asustado, gracias	sadness	0.396
+2018-ar-sadness-train-233	Ellos darían hasta su vida por nosotros y hay personas que los maltratan y menosprecian. 😭	sadness	0.771
+2018-ar-sadness-train-234	tipo no sé si es peor que se lleven muy mal y sea incómodo o que se lleven muy bien y vos termines solx	sadness	0.500
+2018-ar-sadness-train-235	Ese terrible momento cuando ya por fin te acomodas en tu cama y...te dan ganas de orinar 😢	sadness	0.458
+2018-ar-sadness-train-236	puedo parecer cool y lo soy, pero realmente soy una pendeja con mucha ansiedad, depresión y sueños en la basura ¿:D?	sadness	0.813
+2018-ar-sadness-train-237	@de_sofiiaa Puto* Hubiese peleado con luna x maxi 😂😂😂	sadness	0.250
+2018-ar-sadness-train-238	No caigo todavía, quiero escuchar Meteora pero seguramente me largue a llorar	sadness	0.729
+2018-ar-sadness-train-239	Me verás volar, por la ciudad de la furia... Donde nadie sabe de mí, y yo soy parte de todos.	sadness	0.563
+2018-ar-sadness-train-240	Esa desesperación cuando se te escapa un like y lo sacas al toque😂	sadness	0.239
+2018-ar-sadness-train-241	Soy la persona mas feliz al escucharlos llorar!!!! 😍😍😍😍😍😍😍😍	sadness	0.196
+2018-ar-sadness-train-242	Necesito que alguien me consiga un epicrisis 😟	sadness	0.542
+2018-ar-sadness-train-243	@MariferBanda ??¿ me siento ofendida	sadness	0.563
+2018-ar-sadness-train-244	Taiga se enojo.	sadness	0.542
+2018-ar-sadness-train-245	Más de una hora sentada en oscuro, escuchando cantar a su tortuga mientras ella se duerme	sadness	0.646
+2018-ar-sadness-train-246	@KeikoFujimori El pueblo esta cansado de corrupcion	sadness	0.435
+2018-ar-sadness-train-247	Twitter es como un salón de clases donde estamos los desmadrosos, los persinados, los trolls, etc. Es puro mame no se lo tomen en serio.	sadness	0.208
+2018-ar-sadness-train-248	No me había dado cuenta que tengo dos semanas sobrio 😱 hoy mismo me alejo de esa infeliz vida	sadness	0.478
+2018-ar-sadness-train-249	Lo único que me esta saliendo bien este año es engordar 	sadness	0.625
+2018-ar-sadness-train-250	#triste por culpa do @prodveiga #triste	sadness	0.761
+2018-ar-sadness-train-251	@Teeo16_ la depresión existe	sadness	0.783
+2018-ar-sadness-train-252	A veces cuando estoy aburrida pienso "FUNDIC" y me río sola.	sadness	0.188
+2018-ar-sadness-train-253	tengo comezón en la garganta que desesperación	sadness	0.583
+2018-ar-sadness-train-254	Estoy cansado de siempre dar y no recibir nada a cambio.	sadness	0.813
+2018-ar-sadness-train-255	Casi la 1am y yo con este insomnio 	sadness	0.370
+2018-ar-sadness-train-256	que aburrido que estoy la re puta madre	sadness	0.521
+2018-ar-sadness-train-257	@DonajiAbarca cuando escuchas reguetón del pegajoso se queda en ti, como un chicle en el cabello, te lo quieres quitar, pero no se puede 	sadness	0.313
+2018-ar-sadness-train-258	@Twt_Nervous Y mar y 	sadness	0.250
+2018-ar-sadness-train-259	@roxinda @AngeldebritoOk Déjalo, está aburrido... 🙄	sadness	0.417
+2018-ar-sadness-train-260	@Sebass_Psi Porque soy una persona responsable, adulta, independiente, depresiva y con ganas d emorir.	sadness	0.833
+2018-ar-sadness-train-261	@rialjorge  cuando VOS y todos los q te acompañan convivan con una criatura con tdah recién ahí voy a aceptar que abran la boca dan #pena	sadness	0.479
+2018-ar-sadness-train-262	@VnzlaLinfoma1 @gladyseijas por supuesto q es serio!!	sadness	0.250
+2018-ar-sadness-train-263	compartir algo diverido en facebook me hace sentir culpa, sigue siendo normal? 🙁	sadness	0.583
+2018-ar-sadness-train-264	Usted si que no vale la pena	sadness	0.480
+2018-ar-sadness-train-265	Ojalá de contrabando, de reojo alguien lea...por lo menos no tendré seguidores pero me leen.sino es muy aburrido todo esto.	sadness	0.500
+2018-ar-sadness-train-266	@AmorAlArte_ No nada, ya habíamos quedado en algo y usted ya perdió JAJAJAJAJAAJAJAJAJAJA	sadness	0.229
+2018-ar-sadness-train-267	@MiicaaJunior Que ni culo inquieto es😒😂	sadness	0.370
+2018-ar-sadness-train-268	@TheRealS0s @oxesescom por si las dudas mejor a estar pendientes 	sadness	0.375
+2018-ar-sadness-train-269	@clarymaffeis boluda en serio no sabias es como la primer cosa de la q te enterás cuando entras a la secundaria	sadness	0.317
+2018-ar-sadness-train-270	Soy una bolita de sueño y cansancio	sadness	0.543
+2018-ar-sadness-train-271	@MilagrosLeivaG @RPPNoticias Porqué negó vínculos con apuestas y a pesar de fotos? Porqué oculta si nada teme o debe??	sadness	0.333
+2018-ar-sadness-train-272	@chelinsarc Lamentablemente estos cadáveres dirigen nuestro país	sadness	0.680
+2018-ar-sadness-train-273	@Viejastirpe Además no necesita haber pelea de por medio.	sadness	0.396
+2018-ar-sadness-train-274	tenía re abandonado twitter literal😂😂	sadness	0.313
+2018-ar-sadness-train-275	@mcaute7 Eres una increíble persona 	sadness	0.167
+2018-ar-sadness-train-276	Amo mi trabajo pero mi cansancio es otro nivel 😪	sadness	0.333
+2018-ar-sadness-train-277	Detesto que la gente que esta deprimida llegue a ponerlo a uno igual o peor.	sadness	0.646
+2018-ar-sadness-train-278	@Valyfreesh Casi te digo algo ordinario 	sadness	0.313
+2018-ar-sadness-train-279	Me da sueño y empiezo a confundir letras 	sadness	0.354
+2018-ar-sadness-train-280	@Abslx7 @karolsevilla JAJAJA WOW QUE GRAN MENSAJE Y QUE GRAN APORTACIÓN, a gran parte de los mexicanos que la admirabamos nos decepciono 	sadness	0.271
+2018-ar-sadness-train-281	No es por ser pesimista, pero algo en mi me dice que esto ya valió verga	sadness	0.760
+2018-ar-sadness-train-282	Estoy a tres episodios de acabar Futurama 🙁	sadness	0.229
+2018-ar-sadness-train-283	mi tristeza, mi locura, mi refugio	sadness	0.604
+2018-ar-sadness-train-284	El pueblo le pasa por ensima a la mud y sin conducción este espiral de violencia se volverá muerte y mas muerte lamentablemente	sadness	0.792
+2018-ar-sadness-train-285	Se acabo la joda 😭	sadness	0.500
+2018-ar-sadness-train-286	no es justo desde hace mil años llorando cada vez que las veo	sadness	0.833
+2018-ar-sadness-train-287	Escuchar musica triste y terminar mas triste que la música	sadness	0.833
+2018-ar-sadness-train-288	Cuando una mujer tiene los ojos llenos de lágrimas #YNuncaFaltaElQuePregunta  Estás llorando?... Nooo... Me entró una pestaña en el ojo... 😭	sadness	0.696
+2018-ar-sadness-train-289	Creo que el peor insulto que me han hecho es "gei"  No porque gay sea un insulto, es que lo escribieron tan mal y de paso con tanto odio...	sadness	0.458
+2018-ar-sadness-train-290	Si alguien me quiere hablar no me enojo jajajaja	sadness	0.146
+2018-ar-sadness-train-291	Estoy aburrido, tengo hambre y me siento solo. Send taquitos	sadness	0.833
+2018-ar-sadness-train-292	@Hil_dodoo mañana te dibujo sin falta, perdón por el atraso 😥	sadness	0.313
+2018-ar-sadness-train-293	su papá se irá para allá y el ira un tiempo	sadness	0.333
+2018-ar-sadness-train-294	Las malas decisiones que se toman cuando uno está aburrido 🙄 @MariaAOlivero	sadness	0.396
+2018-ar-sadness-train-295	Quiero que mi hermana mire el internado y no quiere, es una soreta.. 😭	sadness	0.479
+2018-ar-sadness-train-296	No estaría nada mal, unas caricias y unos besos que hagan contra peso al cansancio :/	sadness	0.542
+2018-ar-sadness-train-297	Faa estoy re lleno 	sadness	0.250
+2018-ar-sadness-train-298	Que desgradable no poder dormir y tener que estar en pie en unas horas 	sadness	0.729
+2018-ar-sadness-train-299	@a_tupper Un gran deportista, maldita depresión también se llevó a mi hermana menor.	sadness	0.771
+2018-ar-sadness-train-300	6TA⬆ 🚨¡HR SOLITARIO DE BELLAZETÍN!🚨 #ÁguilaDeVeracruz 2-9 #Sultanes ¡Vamos Rojos!🙌 #XSiempreÁguila ⚪🔴⚾💪	sadness	0.104
+2018-ar-sadness-train-301	Que bajón me dio ver eso 😭	sadness	0.804
+2018-ar-sadness-train-302	hay que cuidarse más 🙁	sadness	0.438
+2018-ar-sadness-train-303	La fuente de la uja a las 12:00 debe de estar hirviendo #Jaen #calorextremo	sadness	0.229
+2018-ar-sadness-train-304	@Calvi25 Jajajajajajajaj en serio???!!😮😮😮	sadness	0.042
+2018-ar-sadness-train-305	Tengo el pelo horrible, cuando cobre me voy a comprar hasta lo imposible para tenerlo hermoso	sadness	0.479
+2018-ar-sadness-train-306	@viviandecanha @thediegomen encontré suéter de conf hoy que arregle mi cuarto y me estaba acordando de todo 😢	sadness	0.543
+2018-ar-sadness-train-307	Hoy ceno café, amargo y solitario café.	sadness	0.646
+2018-ar-sadness-train-308	@zoidoJI Lo siento de corazón ❤️. Mucha fuerza le envió desde Galicia . 	sadness	0.667
+2018-ar-sadness-train-309	Cada espacio de tu cuerpo es mi desesperación 💑💑	sadness	0.417
+2018-ar-sadness-train-310	Ayer estaba hablando con mi tía del insomnio y me dijo que es de familia, TODOS tenemos el mismo problema 	sadness	0.417
+2018-ar-sadness-train-311	No esta @ferlo75 en twitter con el partido de #PeñA???	sadness	0.250
+2018-ar-sadness-train-312	@germxnthief < espalda del rubio, la cuál probablemente estaría marcada, pero ni con eso logró sofocarlo pues un gruñido salió de sus >	sadness	0.370
+2018-ar-sadness-train-313	La canción de "oye mujer" es la cosa más desagradable y corriente que puede existir ugh! No la tolero ...	sadness	0.457
+2018-ar-sadness-train-314	No importa en cuánta oscuridad está tu vida... Dios siempre enviará personas para iluminarte.	sadness	0.354
+2018-ar-sadness-train-315	Para tristeza y felicidad, Ed Sheeran al rescate.🙃	sadness	0.396
+2018-ar-sadness-train-316	Y si mejor considero todo otra vez... por que esto se está volviendo un ciclo 	sadness	0.563
+2018-ar-sadness-train-317	Lamentablemente soy muy sensible y cualquier tonteria me hace daño.	sadness	0.848
+2018-ar-sadness-train-318	Lamentable pérdida la de Chester Bennigton vocalista de Linkin Park QEPD.	sadness	0.771
+2018-ar-sadness-train-319	TUVE UN DIA TAN DE MIERDA Y LEER LO DE RICARDO ADRIÁN ME SACÓ TODA LA TRISTEZA	sadness	0.773
+2018-ar-sadness-train-320	Pero saben que si me da tristeza? Que hoy no voy a ver a mi crushito xq tengo mucho trabajo 😑	sadness	0.708
+2018-ar-sadness-train-321	K M D, puro y oscuro como el eme de, empezalo a mover, nena no seas tímida, se que querés.	sadness	0.370
+2018-ar-sadness-train-322	Llorar la perdida de alguien que todavia sigue vivo.	sadness	0.917
+2018-ar-sadness-train-323	La melancolía de morir en este mundo y de vivir sin una estúpida razón.	sadness	0.833
+2018-ar-sadness-train-324	@JHarryStylinson *c va a amenazar gente para conseguir un dm larry* ahr 😂😂💜💜todo por ustedes 💜	sadness	0.229
+2018-ar-sadness-train-325	Por 10 minutos pensé que mi perro se perdió o cayó por el balcón... Fueron los peores minutos de mi vida.	sadness	0.750
+2018-ar-sadness-train-326	@Bamf_ Pues es mejor una siesta improvisada que un video que por cansancio improvisado quizá cueste hacer jaja	sadness	0.229
+2018-ar-sadness-train-327	acabo de hacer un test de depresión y me salio 69 y el mayor grado de depresión grave es 54 opa	sadness	0.813
+2018-ar-sadness-train-328	NO más entrevistas a las 9 de la mañana please 	sadness	0.304
+2018-ar-sadness-train-329	No hay luz sin oscuridad.	sadness	0.375
+2018-ar-sadness-train-330	Thian no me suelta y quiero ir a fumar un cigarro 	sadness	0.479
+2018-ar-sadness-train-331	3 - las ratas,  las oscuridad onda total y los espíritus	sadness	0.460
+2018-ar-sadness-train-332	No soy tonta, no soy mala y no soy cobarde.	sadness	0.438
+2018-ar-sadness-train-333	es muy frustrante practicar y practicar en tu instrumento y que no sientas mejora alguna, de verdad me pone triste eso 😥	sadness	0.848
+2018-ar-sadness-train-334	Como cuando le dices a tu mamá que la amas pero te deje en visto 😟	sadness	0.625
+2018-ar-sadness-train-335	Me duele el cuello!!!! 	sadness	0.435
+2018-ar-sadness-train-336	Algunos tienen más de lo que merecen, lamentablemente siempre va a ser así.	sadness	0.625
+2018-ar-sadness-train-337	「@Rodolphustty」 «momento entendió que quería batirse en duelo con ella. Frunció el ceño al ver sus gestos mirando al cielo apuntando con la»	sadness	0.479
+2018-ar-sadness-train-338	Terrible dolor de piernas😣	sadness	0.646
+2018-ar-sadness-train-339	Vale tanto y yo no me había dado cuenta! 	sadness	0.375
+2018-ar-sadness-train-340	Tengo re abandonado el tw	sadness	0.479
+2018-ar-sadness-train-341	Muchos de los que opinan sobre la detención de Lula luego defienden a voz en cuello la no injerencia en asuntos extranjeros.	sadness	0.409
+2018-ar-sadness-train-342	Ganó morado oscuro, ahora:	sadness	0.250
+2018-ar-sadness-train-343	@camilorojasjuan Música para mis oidos, a pesar del gol aldo nos hace lentos y poco sorpresivos	sadness	0.348
+2018-ar-sadness-train-344	Dichosas las niñas que no tienen las axilas manchadas jajaja 😟	sadness	0.208
+2018-ar-sadness-train-345	La depresión te consume ue	sadness	0.833
+2018-ar-sadness-train-346	YO CREO que el único corto de casita del horror con kodos y kang que vale la pena es cuando maggie resulta ser su hija.	sadness	0.208
+2018-ar-sadness-train-347	@yeyoadbm @MConsuelofg @Pamelafy @Interpanic Oye que terrible esta gente.	sadness	0.500
+2018-ar-sadness-train-348	Me ahogo, necesito romper en llanto y no lo hago, porque no quiero, porque estoy cansada de las lágrimas, y más aún del dolor de cabeza	sadness	0.896
+2018-ar-sadness-train-349	Te doy unos cinco pesitos si me das un masajito 🙁	sadness	0.260
+2018-ar-sadness-train-350	Un euro? Se perdió el respeto.	sadness	0.271
+2018-ar-sadness-train-351	@cachermishana @manulogu2001 @__MichelleeeeV Yo también los extraño 😭	sadness	0.792
+2018-ar-sadness-train-352	@SUR_cultura @cacmalaga @ajavierlopez Pero vamos que es un poco la tesis del cura Perez Pallares de no ofender a nadie.	sadness	0.396
+2018-ar-sadness-train-353	es que archie colega sólo tienes músculos y judhead mira en serio ojalá te hubieran matado a ti y no a jason	sadness	0.271
+2018-ar-sadness-train-354	Cada vez que estoy aburrida me corto el flequillo. Pero tan pelotuda voy a ser? Encima odio como me queda	sadness	0.583
+2018-ar-sadness-train-355	#BonusPop No puedo creer la partida de Chester Bennington, vocalista de Linkin Park. Fuiste una luz que iluminó este mundo tan oscuro😭	sadness	0.688
+2018-ar-sadness-train-356	@DanyArguello3 Cama y tele 😥	sadness	0.354
+2018-ar-sadness-train-357	@haroldazuara necesito verte en Oaxaca 😭	sadness	0.583
+2018-ar-sadness-train-358	Quiero ponerme trenzas de nuevo 😭	sadness	0.354
+2018-ar-sadness-train-359	@MirnaLizeeth @clarisaagarza  @brendaatoriz  k tiempos we lloremos 😭	sadness	0.708
+2018-ar-sadness-train-360	Me enoja que me agarre imsomnio cuando no dormimos juntos 😠 No tengo a quien abrazar, ni molestar porque no puedo dormir 	sadness	0.688
+2018-ar-sadness-train-361	N-No me dejes sola... ¡E-Está muy o-oscuro! #FlakyBot	sadness	0.563
+2018-ar-sadness-train-362	La canción de oye mujer es la osa más desagradable y corriente que puede existir ugh! No la tolero ...	sadness	0.521
+2018-ar-sadness-train-363	Y pesar de todo el es la única persona por la que me arriesgaría una vez más a amar.	sadness	0.500
+2018-ar-sadness-train-364	Cansancio para regalar. Info aquí 👋	sadness	0.354
+2018-ar-sadness-train-365	aunque estoy muerta y quiero dormir mil años, voy a extrañar tanto la rutina de levantarse temprano para excursiones 	sadness	0.604
+2018-ar-sadness-train-366	No superó más la cara de la enana cuando perdió el celular y después fue a buscarlo y lo encontró	sadness	0.313
+2018-ar-sadness-train-367	se puso la 10 Flor con un buen café y peli d terror, esa es mi amiga	sadness	0.313
+2018-ar-sadness-train-368	@JSantrich_FARC Ganó o perdió peso?	sadness	0.146
+2018-ar-sadness-train-369	03:48 y yo sin poder dormirme, lpm 	sadness	0.380
+2018-ar-sadness-train-370	@Missing_Marijo Se parece mucho...... que lamentable!! 😌	sadness	0.563
+2018-ar-sadness-train-371	Tormenta con truenos 😭 	sadness	0.438
+2018-ar-sadness-train-372	Y si ya no me quiere? 	sadness	0.696
+2018-ar-sadness-train-373	vivo cansada como que el cansancio ya es parte de mi, me acostumbre	sadness	0.583
+2018-ar-sadness-train-374	Estamos todos de acuerdo cuando digo que hoy fue el día del amigo más deprimente que viví? 🙄🙄	sadness	0.917
+2018-ar-sadness-train-375	@waldorftty < Elisabeth había peleado. El espejo estaba hecho añicos, y varios tramos del suelo se habían manchado de sangre. Segundo >	sadness	0.521
+2018-ar-sadness-train-376	@sanitas_atiende estoy muy disgustada por la gestión en mi póliza y me van pasando de un lado a otro. Decepcion Es la palabra	sadness	0.625
+2018-ar-sadness-train-377	Hay manera de repetir este dia? En serio creo que nunca fui tan feliz	sadness	0.136
+2018-ar-sadness-train-378	Descansa en paz abuelito. Te me fuiste de un día para el otro💔 yo sé que estabas cansado, pero nos dejaste muy pronto...	sadness	1.000
+2018-ar-sadness-train-379	Desde ayer que vengo súper alterada y nerviosa con náuseas, y en casa me dijeron yyyy bueno MANDALE AL TILO  deja prefiero un vino	sadness	0.620
+2018-ar-sadness-train-380	Deje el cargador completo del celu en el bolsillo del pantalón y lo pusieron a lavar #Miedo	sadness	0.478
+2018-ar-sadness-train-381	🙏 dios esta conmigo 😞💔: me siento deprimida	sadness	0.833
+2018-ar-sadness-train-382	@frankymostro un favor, me ayudarías a compartir con tus seguidores una publicación mia? Es para una noble causa, se perdió mi perrita 😭	sadness	0.688
+2018-ar-sadness-train-383	Tengo miedo de hacer matrícula	sadness	0.604
+2018-ar-sadness-train-384	Siempre brillando a pesar de tanta obscuridad ✨💫	sadness	0.458
+2018-ar-sadness-train-385	@SamuelHidalg0 @MexicoMor @chochos Pues quiero pensar que no anda squeando mexico como #peña	sadness	0.313
+2018-ar-sadness-train-386	@Hironiak @Foro_TV Eso parece ... tristemente :(	sadness	0.896
+2018-ar-sadness-train-387	Patrona: Seguraaaa.. val🌼: Si ma🙄 Patrona: Mira que te pones intensa cuando estas cansada😂😂😂 val🌼: JAJAJAJAJJA	sadness	0.333
+2018-ar-sadness-train-388	@Mickey_Dozanti Lamentable para mi, no creo que sea posible vernos, y eso si me pone sad. 😢💔 Igual se divierten y la pasan bonito. 😃❤✨	sadness	0.813
+2018-ar-sadness-train-389	me parece bastante incómodo que me guste alguien porque no me gusta que me guste alguien	sadness	0.543
+2018-ar-sadness-train-390	Es legítimo responder a una provocación con agresión física como señal de imponer respeto.	sadness	0.438
+2018-ar-sadness-train-391	Hasta ahora me desocupo 	sadness	0.250
+2018-ar-sadness-train-392	Hay momentos que el cansancio emocional es tan grande...	sadness	0.867
+2018-ar-sadness-train-393	Me comi una palabra por estar enojada jaja	sadness	0.208
+2018-ar-sadness-train-394	+ detrás suyo era algo horrible o desagradable, pero no iba a verlo. Cerró sus ojos con fuerza mantenido su posición mientras sus brazos +	sadness	0.625
+2018-ar-sadness-train-395	Ya estos hps me tienen harto la verdad.😠	sadness	0.542
+2018-ar-sadness-train-396	@aguschimpf Upa, tremendo salto del gueymallen triple blanco a un Starbucks	sadness	0.229
+2018-ar-sadness-train-397	@MiguelMikegto8 Qué bueno no han sido graves, acá estamos bien espantados todos, no me quiero imaginar en Oaxaca o Guerrero 🙁	sadness	0.625
+2018-ar-sadness-train-398	Dormi bue mal fse 	sadness	0.479
+2018-ar-sadness-train-399	Ains quiero hacer el reto de los 30 días de Américan Horror Story	sadness	0.370
+2018-ar-sadness-train-400	@violekraut cuando quieras lisiada ;)   terminé de leer el tuit y se me autoguiño el ojo #miedo	sadness	0.348
+2018-ar-sadness-train-401	Detesto que me consuelen "por pesar"	sadness	0.792
+2018-ar-sadness-train-402	@KiikaVell Mamalón...pero aburrido. XD	sadness	0.340
+2018-ar-sadness-train-403	Ese tema de que Leo Castro está ansioso y por eso no marca ni por error ya no se lo traga ni tu Abuela; El nivel es PERVERSO!!	sadness	0.438
+2018-ar-sadness-train-404	Culia le di rt a a un tw citado de annabelle y al segundo me salio que mirara debajo de la cama 	sadness	0.479
+2018-ar-sadness-train-405	Paciencia. Conozco gente que por no tener paciencia, fe y confianza perdió tanto q hoy podría disfrutar. Hay q ser leal a quien cree en ti.	sadness	0.479
+2018-ar-sadness-train-406	aliade: las mujeres son x si solas no x un hombre sí al poder de decisión💪 *se entera de que tienes novi* aliade: bua m enfado y no rspiro	sadness	0.409
+2018-ar-sadness-train-407	¡VIDA, QUÉ QUIERES DE MÍ! ¡YA NO TENGO NADA MÁS QUE VOMITAR! 	sadness	0.604
+2018-ar-sadness-train-408	Odio ser tan llorona	sadness	0.696
+2018-ar-sadness-train-409	No me puedo dormir 	sadness	0.478
+2018-ar-sadness-train-410	@volvocar_es V40 D2 nuevo adquirido en Valencia, 2 meses, rota la caja de cambio y el embrague, además me insinúan q por mi culpa #triste	sadness	0.417
+2018-ar-sadness-train-411	@ghiskon no, no ofendido no jaja pero no saludarme....😂😂	sadness	0.152
+2018-ar-sadness-train-412	Y me acuerdo que a veces me daba rabia pq no me hablaba, pasaba semanas ignroada por el pndejo y luego no recuerdo pq nos hicimos más unidos	sadness	0.688
+2018-ar-sadness-train-413	@tayyjaguarr Es que esto es mucho ya wey nomms por eso pongo esto tipo de cosas 	sadness	0.435
+2018-ar-sadness-train-414	unas ganas d llorar tas loco	sadness	0.813
+2018-ar-sadness-train-415	Temor a estar solos.	sadness	0.542
+2018-ar-sadness-train-416	Devuelvanme la vitalidad que tenía en selectivo 	sadness	0.583
+2018-ar-sadness-train-417	Estoy cansado de estar en mi casa haciendo nada, necesito trabajar.	sadness	0.479
+2018-ar-sadness-train-418	ufff cuando vaya con luna a capi me llevo el parlantito y a full los red dios que nostalgia	sadness	0.625
+2018-ar-sadness-train-419	Yo quiero que @JEYMAMMON sea mi amigo. En serio. Lo quiero ❤️	sadness	0.304
+2018-ar-sadness-train-420	@ischargro @dgannio Es mucho Peor d lo q dice el MENTIROSO d GONZALES FRAGA. Hay HAMBRE, POBREZA, TRISTEZA, DESAZÓN, HAMBRUNA, MUERTE.	sadness	0.696
+2018-ar-sadness-train-421	Adivinen quien tiene médico el lunes que viene y tiene miedo porque la van a pesar 😣	sadness	0.604
+2018-ar-sadness-train-422	A pesar de tantos enojos, y dolores de cabeza hay alguien que esta ahí para hacerte reír al final del día 😍	sadness	0.386
+2018-ar-sadness-train-423	@pablopecaro @poderAGMX @arnemx @arelibiciteka @banquetalibre @LBallesterosM @ReyPeatonCDMX @Peaton_No A pesar de que mueran ciclistas.	sadness	0.500
+2018-ar-sadness-train-424	@luciasvt eso me habían dicho mis papás pero no sabía que estaba tan mal ay lucía que tristeza :((((((	sadness	0.917
+2018-ar-sadness-train-425	Fav si "Heroes" te dio nostalgia cuando la tocó King Crimson.	sadness	0.413
+2018-ar-sadness-train-426	@NestorReverol Es lamentable tanto odio inoculado de la derecha fascistas! por eso NO VOLVERAN !	sadness	0.625
+2018-ar-sadness-train-427	@letyduranhdez Mira tu niña aburrida cuando tiene una super nieta y nieto...no es para aburrirse😂😂	sadness	0.375
+2018-ar-sadness-train-428	Ohhh hasta se me fue el sueño del disgusto 😔	sadness	0.583
+2018-ar-sadness-train-429	@lilycaulfield que cuando estas deprimido severamente no se te ocurre algo tan simple como decir QUE PENDEJADA ESTOY PENSANDO	sadness	0.652
+2018-ar-sadness-train-430	@c_milo2 Y es que de cuando acá necesitas de novio para ser feliz ? Pfff estas grave Pepe	sadness	0.479
+2018-ar-sadness-train-431	@SoyPabloMiguel Expedito, porque es de las causas urgentes. Ideal para gente ansiosa, como sho.	sadness	0.360
+2018-ar-sadness-train-432	Horrible es todo lo que te aferras y lo difícil que es soltar	sadness	0.783
+2018-ar-sadness-train-433	Me puse a escuchar spring day mientras comía papas fritas y terminé llorando me supero cada día	sadness	0.771
+2018-ar-sadness-train-434	Esto es tan doloroso 😭 Ya dejen de sufrir 😭	sadness	0.917
+2018-ar-sadness-train-435	@hcapriles @NicolasMaduro Y ellos que se dejan humillar... definitivamente un grupo de vzlanos perdió su dignidad....	sadness	0.471
+2018-ar-sadness-train-436	@mjriverar_ @ElSantinoBoy Majo, me destruíste con este gif..no sabes cuánto odio a este payaso 😭	sadness	0.500
+2018-ar-sadness-train-437	@SEAT_Mexico Valdrá la pena después de  60 días de lo sucedido ?? Lo hecho, hecho está	sadness	0.600
+2018-ar-sadness-train-438	Me estoy empezando a asustar.	sadness	0.522
+2018-ar-sadness-train-439	@RobertGarciaP ustedes mismo son los que están matando a su propia gente eso si es lamentable lo que están haciendo	sadness	0.630
+2018-ar-sadness-train-440	-provocar. Tengo que comentar algo al respecto???	sadness	0.333
+2018-ar-sadness-train-441	Por la chucha ya empezaron las noches calurosas 😥	sadness	0.524
+2018-ar-sadness-train-442	En momentos de cansancio como este me dan ganas de renunciar	sadness	0.604
+2018-ar-sadness-train-443	"No tengo números,tengo sensaciones"(Brancatelli).Si fuera meteorólogo diría q va a llover xq le duelen los callos.Q serio #JuevesIntratable	sadness	0.354
+2018-ar-sadness-train-444	Me gusta y te habló #Aburrido	sadness	0.109
+2018-ar-sadness-train-445	Soy pesimista siempre, pero por los motivos que saramago casualmente, sin embargo creo que estamos a tiempo de recuperar espacio perdido.	sadness	0.500
+2018-ar-sadness-train-446	@revistaproceso Ya me dio desconfianza el nuevo túnel en Acapulco!	sadness	0.478
+2018-ar-sadness-train-447	@Jos3M4rtin3z @maruarias123 no brother, bien criada, sino tendrás un asesino, los que son así lamentablemente hay que dormirlos	sadness	0.542
+2018-ar-sadness-train-448	Lamentablemente... Esto ya llegó a su fin.  —Sí, está cantando. —  Lamentablemente... ya ni me acuerdo de ti.	sadness	0.792
+2018-ar-sadness-train-449	@Vale_Karumi ES QUE EL MUY HDP SÓLO PIENSA EN LOS JAPONESES AGFHSBFDHDGDGFGDF  Siempre pasa algo viendo debería dormirme temprano 	sadness	0.478
+2018-ar-sadness-train-450	@AmericadeCali @tulioagomez debería probar con Blanco , Bernal y Tipton de titulares y ojalá no vendan a Borja porq grave Olmes y Silva	sadness	0.271
+2018-ar-sadness-train-451	el que se fue de la silla perdió su villa	sadness	0.313
+2018-ar-sadness-train-452	Que negros de mierda,se tiene que morir todos esos hijos de puta	sadness	0.458
+2018-ar-sadness-train-453	Es terrible lo de Chester Bennington. No lo puedo creer todavia. Gracias por llenar mis oidos en los años donde aprendí a amar la musica	sadness	0.696
+2018-ar-sadness-train-454	@gvvvalentino uff, terrible	sadness	0.542
+2018-ar-sadness-train-455	ENCIMA AHORA TIENE PELÍCULA EN SOLITARIO 😵🔫	sadness	0.396
+2018-ar-sadness-train-456	ALIVIANATE CON LIVIA cuantas veces te dije llorando no juegues conmigo ni me eches mentiras	sadness	0.833
+2018-ar-sadness-train-457	@yiixings Ya me has sustituido! 	sadness	0.543
+2018-ar-sadness-train-458	#RecuerdosDeChibolo ser el mas tímido de mi clase 😌😌😌	sadness	0.354
+2018-ar-sadness-train-459	"Uno no sabe lo que tiene hasta que lo pierde" La pura verdad 🙁	sadness	0.826
+2018-ar-sadness-train-460	« daño que le hiciera a pesar de ser un crío desde su punto de vista. Ni cómo podía acabar. Volvió a pegarle una vez más, esta vez en la »	sadness	0.500
+2018-ar-sadness-train-461	Ya quiereme, te pago 😥	sadness	0.565
+2018-ar-sadness-train-462	ay nooo que horrible... me acordé cuando me pasó lo mismo hace como dos años ajjajajajaja	sadness	0.313
+2018-ar-sadness-train-463	Siento que en cualquier momento voy a valer 	sadness	0.646
+2018-ar-sadness-train-464	Pero nose si el se enojo o yo	sadness	0.479
+2018-ar-sadness-train-465	Estoy muriendo de sueño 	sadness	0.354
+2018-ar-sadness-train-466	@VBajardepeso Nel, es terrible, odio tener boobs grandes	sadness	0.500
+2018-ar-sadness-train-467	Tendria que estar cansada pero tengo una pilaaaaa a milll	sadness	0.304
+2018-ar-sadness-train-468	Ya dormí 	sadness	0.196
+2018-ar-sadness-train-469	Un mes separados mamita linda!! Te extraño 😭	sadness	0.913
+2018-ar-sadness-train-470	@AnnaMariela96 @nataliaiv21 Kheeee?????? No saben tus señores padres @nataliaiv21  🙁	sadness	0.333
+2018-ar-sadness-train-471	Quiero tener ya el uniforme de egresados 😥	sadness	0.333
+2018-ar-sadness-train-472	@_pgl99 @TatianaQuinones Pelea de parejas a otro ladito.	sadness	0.208
+2018-ar-sadness-train-473	Recuerdo insultar a Miare jajajajajajajajajajajajajajaajjajajajaajajajajajajaja no soy para más. Pero del lado oscuro se sale.	sadness	0.060
+2018-ar-sadness-train-474	Abs espero volverlos a ver pronto 	sadness	0.500
+2018-ar-sadness-train-475	@xbxbygirl_x A-ah... —se sentía intimidado solo con verla fruncir el ceño, se agarró un hombro y desvió la mirada— Pedirte perdón...	sadness	0.478
+2018-ar-sadness-train-476	@BNE_biblioteca @PostigoElena ...para gran disgusto de Quevedo 😝	sadness	0.333
+2018-ar-sadness-train-477	Estoy tan aburrida😩	sadness	0.521
+2018-ar-sadness-train-478	Como será uno ser extra de tu voz estéreo. #tristeza	sadness	0.708
+2018-ar-sadness-train-479	@ObservadBinario @nakamartinez Berro larguísima!! Todo esta muy tétrico esto va mas allá de tensa calma	sadness	0.458
+2018-ar-sadness-train-480	Quiero un perrito!!!.. Osea tengo 3, pero son de mi hermana y mi papá.. quiero uno que sea mio de mi! 	sadness	0.174
+2018-ar-sadness-train-481	No coger los auriculares ha sido totalmente ilegal 	sadness	0.354
+2018-ar-sadness-train-482	HOLAA, TE VI CAMINANDO EN LO OSCURO SOLA, EN ESTE JUEGO TU TIENES LA BOLA, QUIERO COMERTE COMPLETITA TODAA, QUIERO COMERTE COMPLETITA SOLAAA	sadness	0.182
+2018-ar-sadness-train-483	Anoche me enamore de un pibe por sus ojos, pero lo vi una sola ves estoy llorando VUELVE QUE SIN TI LA VIDA SE ME VAAAAAA OOOO VUELVEEE	sadness	0.391
+2018-ar-sadness-train-484	No se, que hago todavía despierta 😟	sadness	0.386
+2018-ar-sadness-train-485	Ojalá hubieses podido resistir un poco más. La depresión y las drogas ganaron otra batalla... Descansa en paz.	sadness	0.870
+2018-ar-sadness-train-486	Que noche más aburrida.	sadness	0.458
+2018-ar-sadness-train-487	que asco la gente que esta tweeteando canciones de linkin park para sacar un par de rts, me parece desagradable.	sadness	0.688
+2018-ar-sadness-train-488	Tomando birras porque por un tiempo muy largo no voy a poder #Tristeza 😖🍺	sadness	0.848
+2018-ar-sadness-train-489	Por trágica noticia, puse a profundizar un cachito, como para hablar con propiedad. Conclusión es la misma: qué completa mierda Linkin Park.	sadness	0.563
+2018-ar-sadness-train-490	@ObservadBinario Totalmente no. Solamente la planta baja lamentablemente. Más de 12 negocios devastados	sadness	0.604
+2018-ar-sadness-train-491	Qué amargo sabor a despedida todos los momentos musicales del #DesayunoDeLas10 de esta semana. @carlespena @antoniofraguas @HoyPorHoy	sadness	0.500
+2018-ar-sadness-train-492	Que lluvia de mierda 	sadness	0.609
+2018-ar-sadness-train-493	La parte en la que Clegane le dice "No engañas a nadie con ese rodete. Calvo de mierda" 😂😂😂😂 yo estaba llorando	sadness	0.542
+2018-ar-sadness-train-494	Sin tomar un migral cdo me duele la cabeza no se q haría 😥	sadness	0.604
+2018-ar-sadness-train-495	ssssta maldita alergia q no se me va 😥	sadness	0.625
+2018-ar-sadness-train-496	@los14polichacao Lamentablemente a este gobierno no le importa paren la huelga. Los necesitamos vivos	sadness	0.708
+2018-ar-sadness-train-497	Nunca jueguen con mi ansiedad	sadness	0.583
+2018-ar-sadness-train-498	Me voy a llorar, que aún después del escrito no me he desahogado	sadness	0.979
+2018-ar-sadness-train-499	Genial, depresión y bulimia.  Qué más #peña que más...!	sadness	0.833
+2018-ar-sadness-train-500	la valija podia pesar hasta 23 y pesó 22 con algo, eso es vivir al limite bebé	sadness	0.250
+2018-ar-sadness-train-501	@HistoryLA Muy lamentable, 😭	sadness	0.729
+2018-ar-sadness-train-502	Muero por un abrazo de mi mamá y de Priscila !! La extraño demasiado 	sadness	0.854
+2018-ar-sadness-train-503	@elcapiperez ¡ay no digas que la lucha libre es mentira! El niño Dios va llorar y yo también 	sadness	0.543
+2018-ar-sadness-train-504	Que triste lo de Chester	sadness	0.739
+2018-ar-sadness-train-505	No puedo dormir otra vez y mañana tengo escuela. 😟	sadness	0.438
+2018-ar-sadness-train-506	Aaaaaa creo que entré en depresión culia	sadness	0.604
+2018-ar-sadness-train-507	@SergioNovelli @hcapriles @ElNacionalWeb Condecorado, abandonado y preso MUY PRONTO	sadness	0.417
+2018-ar-sadness-train-508	SORPRESA EN LA PUERTA: ¬°unas tentadoras cajas de regalo rojas y amarillas est√°n causando revuelo en las puertas! #SmurfsVillage @SmurfsG	sadness	0.142
+2018-ar-sadness-train-509	@Brendaa_C Todos chiquita....todos 🙁	sadness	0.438
+2018-ar-sadness-train-510	Terrible asado con los pibesss	sadness	0.327
+2018-ar-sadness-train-511	HIJO DE TU REPUTOSIMA BOMBA PERRA ESTUPIDA BABOSA MADRE😡😡😡😡😡😡😡sin ofender a su mama no la conozco es solamente una expresión de odio así el	sadness	0.438
+2018-ar-sadness-train-512	una compañera del colegio subió la foto de su bebé y parecía tener una tenaza en vez de pie 	sadness	0.354
+2018-ar-sadness-train-513	Pinta escuchar Numb hasta dormirse de la depresión 💔	sadness	0.860
+2018-ar-sadness-train-514	Te siento en carne viva ,me desperté llorando y supe ,supe que hoy volvías	sadness	0.783
+2018-ar-sadness-train-515	No hay mal que dure 100 años ni cuerpo que lo aguante!!! Gracias a muchos por su preocupación 😽😽😽	sadness	0.292
+2018-ar-sadness-train-516	Esta alarma está establecida para dentro de 4 hs y 12 min, estoy llorando	sadness	0.813
+2018-ar-sadness-train-517	@agujeado Pero no está. Se perdió :(	sadness	0.583
+2018-ar-sadness-train-518	Kimberly me tiene más nerviosa	sadness	0.417
+2018-ar-sadness-train-519	Eli está viendo un capítulo de ppl y me pregunta que pasa más adelante  , ansiosa donde ?	sadness	0.417
+2018-ar-sadness-train-520	@Itzykes @Paco_Salazar7 Oye es muy tarde para que andes repartiendo nostalgia 😢	sadness	0.729
+2018-ar-sadness-train-521	Ni dormir puedo 	sadness	0.457
+2018-ar-sadness-train-522	El diagnóstico de depresión se hace al existir los 3 sínt. princip. (tristeza, anhedonia e ideación suicida) más otros 2 de los mencionados	sadness	0.604
+2018-ar-sadness-train-523	@AndreaBathory sigo viendo Mai-hime. Weeey como extrañaba a Nao y Natsuki 😭 a Alyssa y Miyu awsaydkkskd incluso a la loca de Midori 😭	sadness	0.438
+2018-ar-sadness-train-524	Andaría necesitando masajes 	sadness	0.391
+2018-ar-sadness-train-525	Estar lavando a esta hora, debe ser un delito 	sadness	0.370
+2018-ar-sadness-train-526	Ahora va a poder comerse a las que quiera ya que tan desesperado estaba	sadness	0.377
+2018-ar-sadness-train-527	No puedo de la tristeza, que mierda todo.	sadness	0.986
+2018-ar-sadness-train-528	@Lucas_Castel me vas a hacer llorar lucas	sadness	0.750
+2018-ar-sadness-train-529	Jajajaja de lejos veía a Fran re desesperado por ver a los chicos 😝	sadness	0.229
+2018-ar-sadness-train-530	Que cansado estoy de las comidas típicas😳	sadness	0.396
+2018-ar-sadness-train-531	@REINALDOERNESTO El lado oscuro de la ley	sadness	0.292
+2018-ar-sadness-train-532	Y esto de la recuperación a casi una semana... Imposible !! #Dolor #desolación #angustia  #tristeza  #perdida #muerte #impotencia	sadness	0.875
+2018-ar-sadness-train-533	Son las 12:40 am. y ni a esta hora aunque no haya estudiado nada puedo dejar de estar viendo historias y leyendo estados 	sadness	0.292
+2018-ar-sadness-train-534	Qué tristeza sentir que uno no es suficiente para nada ni para nadie. Meh, matenme que ya ni yo me aguanto.	sadness	0.833
+2018-ar-sadness-train-535	@lutero_marrano El título del libro es terrible y muchos de los planteamientos de Beck son ingenuos, pero me agradó esa parte.	sadness	0.313
+2018-ar-sadness-train-536	En vez de estar abandonada y aborrecida, tanto que nadie pasaba por ti, haré que seas una gloria eterna, el gozo de todos los siglos.	sadness	0.396
+2018-ar-sadness-train-537	Merlí, How to get away, 13 reasons, Stranger things, Narcos.. se van a dignar en aparecer denuevo algun dia? Me tienen abandonada..	sadness	0.438
+2018-ar-sadness-train-538	@Ojitoschinooos Esa quien? Porq siempre tenes q meter a alguien che pajerito resentido jajajajajajaja	sadness	0.104
+2018-ar-sadness-train-539	Quiero tener sueño 	sadness	0.438
+2018-ar-sadness-train-540	estoy aburrido me voy hacer una mascarilla	sadness	0.354
+2018-ar-sadness-train-541	@marcelofh60 Por qué 😢	sadness	0.396
+2018-ar-sadness-train-542	@ArgTylerPosey @DEMIF4NCY Esto es deprimente :'(	sadness	0.977
+2018-ar-sadness-train-543	@diegosaviola10 @Equidadfutbol @AmericadeCali Sufriendo y con la contención en el banco, perdió america por la terquedad de el Dt	sadness	0.521
+2018-ar-sadness-train-544	EL PUEBLO DESPERTO , Y VA A CRISTALIZAR LA LIBERTAD DESTRUIDA POR TODOS AQUELLOS QUE LA JUSTICIA LOS ESPERA CON MUCHA ANSIEDAD T ANHELO	sadness	0.333
+2018-ar-sadness-train-545	Si antes no me daba sueño, ahora menos... que estrés. 	sadness	0.500
+2018-ar-sadness-train-546	ya hubiese querido yo que aquí en el meet nos hubieran dejado saludar a todos, qué depresión	sadness	0.875
+2018-ar-sadness-train-547	@_rodriggl98 Giles nomas jajajaj que onda vos, aburrido alla(?	sadness	0.167
+2018-ar-sadness-train-548	-¡Me cagan los lunes! -Pero si ya es martes. -Ya sé, pero todavía me acuerdo. 😒💔😡	sadness	0.520
+2018-ar-sadness-train-549	Quiero ver The Last Jedi yaaaa 	sadness	0.292
+2018-ar-sadness-train-550	Acabo de dedicarle una historia de insta al crush y lo mejor es que creo que el crush sabe que es crush y llorará cuando lo vea(no)	sadness	0.500
+2018-ar-sadness-train-551	-respecto a lo de antes, provocar o que me provoquen mientras juego o juegan.	sadness	0.479
+2018-ar-sadness-train-552	Necesitaria que alguien me salve la.noche por qué caigo en depresión un poco mas	sadness	0.792
+2018-ar-sadness-train-553	@AllDiscourages_ Por tu culpa me he acordado del crush y #tristeza	sadness	0.646
+2018-ar-sadness-train-554	La carita de desquiciada de hatice  #ElSultan	sadness	0.313
+2018-ar-sadness-train-555	Ya estaba dormida y no sé por qué me desperté 	sadness	0.413
+2018-ar-sadness-train-556	Cuando valga la pena,lo voy a hacer	sadness	0.438
+2018-ar-sadness-train-557	Los antidepresivos buscan "sacar" a la persona del potencial peligro que implica la depresión mayo (la ideación suicida). Sin embargo,(1/2)	sadness	0.500
+2018-ar-sadness-train-558	Todos estos días he estado durmiendo demasiado mal. No sé si es el país o mi ansiedad natural.	sadness	0.771
+2018-ar-sadness-train-559	Extraño a mi azul 	sadness	0.652
+2018-ar-sadness-train-560	Estoy viendo fotos de cuando era flaca, por llorar y comiendo un kit kat	sadness	0.604
+2018-ar-sadness-train-561	@Jhendelyn Que terrible....  Casi se me quebraron los dientes y me da un infarto...  Qué mujer por Dios 😍😍😍	sadness	0.375
+2018-ar-sadness-train-562	Tal vez Abraham tiene razón y debo hacerlo, pero soy muy cobarde esa es la verdad.	sadness	0.521
+2018-ar-sadness-train-563	Un asco me quedo el pelo 😤😤	sadness	0.479
+2018-ar-sadness-train-564	Mi prima está internada con parto inducido,  Ambar apúrate que tu madrina no da más y quiere conocerte😍😍😍 estoy ansiosa les juro jajaja	sadness	0.125
+2018-ar-sadness-train-565	Mejor me voy a tratar de dormir 🙁	sadness	0.370
+2018-ar-sadness-train-566	Por qué los putos de @TwitterSupport me suspendieron mi cuenta @xhisho 	sadness	0.458
+2018-ar-sadness-train-567	@AlbertoRaimundi Hoy me convenciste, me ganaste por cansancio, sos un abosoluto HDP, jajajaja.	sadness	0.174
+2018-ar-sadness-train-568	A veces no quisiera ser tan serio 😥	sadness	0.500
+2018-ar-sadness-train-569	—da un pisotón en el suelo y coloca los brazos en jarra, todo ofendido—. ¡Oe! ¡Oxigenada!	sadness	0.348
+2018-ar-sadness-train-570	Dicen que alguien ya vino y se fue, dicen que pasa las noches llorando por el 🎶	sadness	0.625
+2018-ar-sadness-train-571	@elcapiperez deberías de hacer una resolana que dure 7 horas, o en lo que amanece, pues ya me da temor en la noche y no puedo dormir 😟	sadness	0.565
+2018-ar-sadness-train-572	@KlaifeClashMx @TrainerOween No te mando captura porque ya se me perdió la partida manquito🌚	sadness	0.326
+2018-ar-sadness-train-573	Yo y mi suerte para cruzarme con chabones con hijas y las hermosas madres celosas👏👏😡	sadness	0.523
+2018-ar-sadness-train-574	Si mensa, se nota tu desesperación ya todos lo notamos ntp	sadness	0.354
+2018-ar-sadness-train-575	José me comprometió y no tuve a mi abuela para llamarla y contarle ni a mis dos mejores amigas para escribirle 	sadness	0.708
+2018-ar-sadness-train-576	Depresión rima con Bennington, coincidencia? No lo creo.	sadness	0.500
+2018-ar-sadness-train-577	La reflexión que nos deja el video de silvestre es que, A Otro Nivel es otro programa de la televisión Colombiana que es pregrabado. #Triste	sadness	0.500
+2018-ar-sadness-train-578	Aquí el más depresivo.¿	sadness	0.659
+2018-ar-sadness-train-579	por esas cosas de la vida, ayer tristeza, hoy alegría	sadness	0.438
+2018-ar-sadness-train-580	Kimberly, si me lee, perdió la apuesta que un día hicimos JAJAJAJAJAJAJAJAJAJA.	sadness	0.196
+2018-ar-sadness-train-581	...indicativos de inteligencia y experiencia adquiridas por malas situaciones, lamentable, pero aun así, totalmente necesarias...	sadness	0.646
+2018-ar-sadness-train-582	@ToadAmarillo Todas las partidas de worlds y trasnochado a clases 😢	sadness	0.333
+2018-ar-sadness-train-583	Y yo, lo único que quería es que lucharás por mi, por nosotros 	sadness	0.750
+2018-ar-sadness-train-584	@aripiaa 🙁 No sé si sea por la situación del sismo o por otra cosa. Pero si necesitas que alguien te escuche, aquí estoy. Mucha fuerza. 🙌	sadness	0.521
+2018-ar-sadness-train-585	Chester fue la adolescencia de mi viejo y cuando supo se largó a llorar, se me partió el alma	sadness	0.891
+2018-ar-sadness-train-586	@gnomowl @Alfresarpo @LoroHomero Uno de los mas votados de AP...terrible como se equivoca el pueblo al q todavía le venden espejos..	sadness	0.500
+2018-ar-sadness-train-587	😱😱😱😱escucharon ese trueno? ⚡️	sadness	0.375
+2018-ar-sadness-train-588	Fooaaaaa cansada de la misma mierda de siempre❌🚫	sadness	0.625
+2018-ar-sadness-train-589	Cierta oscuridad a veces es necesaria para ver las estrellas. 🌌	sadness	0.521
+2018-ar-sadness-train-590	Impresionante lo cansado q estoy, todo el día con los pibes y los quiero ver a ma noche peeeero estoy con un sueñote	sadness	0.521
+2018-ar-sadness-train-591	Me acabo de enterar que se murió el cantante de Linkin Park. No lo puedo creer. Que tristeza u.u	sadness	0.833
+2018-ar-sadness-train-592	@Vale_oliv Si eso es lo lamentable que es tarde para ayudarlos y terminan así 😢	sadness	0.729
+2018-ar-sadness-train-593	Siempre estoy enojada, es mi don.. mi maldición.	sadness	0.667
+2018-ar-sadness-train-594	@jordievole @jatirado @ManuelBartual Tranquilo! En Valencia hemos visto que la imprenta de @compromis  no tiene #Porno y tiene 	sadness	0.313
+2018-ar-sadness-train-595	Hoy fue un día muy agotador, estoy muy cansada!!! Necesito masajeees	sadness	0.688
+2018-ar-sadness-train-596	@MrMisingno @VidaModernaOML A QUIÉN LLAMAS RARO, ESTOY OFENDIDO.	sadness	0.500
+2018-ar-sadness-train-597	Se ve que es hiper difícil preguntar en lugar de que te llueva el cabreo de la otra persona y encima llamarle amargado. xD	sadness	0.479
+2018-ar-sadness-train-598	Te contestara tu estado pero eres tan culon que me eliminaste en una pelea similar👀😂	sadness	0.313
+2018-ar-sadness-train-599	si yo no te vuelvo a ver, yo me voy a enloquecer, es para mí, la locura automática	sadness	0.625
+2018-ar-sadness-train-600	Hoy pase bañándome sin mentir como hora y media y en serio que me siento más blanca no jodas haha	sadness	0.146
+2018-ar-sadness-train-601	@mgallegos_ Que Grave eres, estoy tan contenta que no pienso responder si no sabes el contexto de las cosas no opines. .	sadness	0.292
+2018-ar-sadness-train-602	@MayrhenMaria Nosotros a pesar de ser invisibles; en.mi caso te amamos por tu autenticidad!! Adelante; la Armada te respalda...je.😉	sadness	0.250
+2018-ar-sadness-train-603	¿Neta CDMX? 3 bloqueos en toda la ciudad. 3 pinches bloqueos y perder 3 horas en el tráfico. ¿Neta? 😠😠😠	sadness	0.625
+2018-ar-sadness-train-604	@Nalgonauta Jajajajajajaja jajaj esa foto debe ser medio desagradable	sadness	0.130
+2018-ar-sadness-train-605	@TAMARA_SUJU Este como que se fumo una lumpia o esta cansado	sadness	0.271
+2018-ar-sadness-train-606	@seniorita_weed @itsdanibeltran Es muy aburrida y es como el primer capitulo de nada.	sadness	0.458
+2018-ar-sadness-train-607	Hay tanta timidez en mi cuando se trata de ti.	sadness	0.354
+2018-ar-sadness-train-608	No puedo dormir 	sadness	0.517
+2018-ar-sadness-train-609	Yo indignada en 2017 por series de 2007, la película. Ah no, que seguro que la quitarían también.	sadness	0.413
+2018-ar-sadness-train-610	@OfBlueHeart + y decaído, era una trágica imagen que sin duda le gustaría ahorrarse y ahorrarle de alguna manera. Mas él no estaba en +	sadness	0.625
+2018-ar-sadness-train-611	Algo que jamas habra en tecmilenio: elotero en la salida #Triste 😢	sadness	0.604
+2018-ar-sadness-train-612	@EdgarSmithV Wuajajaja es que ya me había aburrido esa! 😂😂😂😂	sadness	0.174
+2018-ar-sadness-train-613	Como que ya no me está gustando estar de aquí para allá. 😢	sadness	0.646
+2018-ar-sadness-train-614	Mi más terrible año fueron los 12 😖😖	sadness	0.625
+2018-ar-sadness-train-615	really paula chaves es una de las mejores modelos de arg con esa walk? lamentable	sadness	0.563
+2018-ar-sadness-train-616	@julisologaistoa Vos que vas a saber si sos una amargada que no quiere que la llame 😢	sadness	0.543
+2018-ar-sadness-train-617	Se la dan de hombrecitos y mujercitas en Yodel, bien que si te tienen en frente no le dan los huevos para decirte las cosas, q pena dan ajaj	sadness	0.333
+2018-ar-sadness-train-618	OJO QUE SE VIENE LA VENGANZA 	sadness	0.396
+2018-ar-sadness-train-619	Golpeas pataleas y haces berrinche porque no quiero ser tu novio 😝#JustFriends	sadness	0.333
+2018-ar-sadness-train-620	Que deprimente todo esto	sadness	0.813
+2018-ar-sadness-train-621	La depresión es una enfermedad tan incapacitante como cualquier trastorno orgánico (diábetes, hipertensión, cáncer) y requiere at. médica	sadness	0.688
+2018-ar-sadness-train-622	A veces siento la necesidad de hablarle sabiendo que está tan mal porque a pesar de todo me duele aún, lo que le pase y dejé de pasar.	sadness	0.917
+2018-ar-sadness-train-623	La vida ya de por sí es muy peligrosa, no por las personas que hacen mal, sino por las que se sientan a ver lo que pasa.	sadness	0.532
+2018-ar-sadness-train-624	@Profeco buenas noches, donde podria levantar una queja de un equipaje dañado que no me quiere pagar @viajaVolaris? Tengo todas las pruebas!	sadness	0.522
+2018-ar-sadness-train-625	Critíquenme si quieren, ando viendo el final de Teen Wolf 😭	sadness	0.438
+2018-ar-sadness-train-626	@teamlibertywalk @forumpandlr Ah, vdd, so de ver a make ja fico cansada de imaginar	sadness	0.396
+2018-ar-sadness-train-627	@softestangcl No me enojo, es una expresión :( me refería a molestarlo un poco. Gerardito jajaj qué lindos podo(?	sadness	0.271
+2018-ar-sadness-train-628	me acabo de acordar de que este curso hago selectividad y tengo 	sadness	0.333
+2018-ar-sadness-train-629	@Manu96304678 @Rubiu5 Que triste noticia ! Una gran pérdida :(	sadness	0.854
+2018-ar-sadness-train-630	Por que el te grite por algo  no significa que te tengo mas que desagradable con migo 😣😒😒	sadness	0.646
+2018-ar-sadness-train-631	q hermosas prsonas conoci gracias a mis idolos y hoy son mis amigos, voy a llorar quien diría q las mejores personas las iba a encontrar aca	sadness	0.333
+2018-ar-sadness-train-632	Es la primera vez que me pongo de nerviosa así jajj	sadness	0.250
+2018-ar-sadness-train-633	amelia entró en pánico	sadness	0.522
+2018-ar-sadness-train-634	Solo de abrir Facebook es una depresión masiva la que me invade... *toxico* 😒	sadness	0.833
+2018-ar-sadness-train-635	Acabo de ver Okja y estoy llorando mares, que película del bien	sadness	0.652
+2018-ar-sadness-train-636	Paula Chavez debe ser hermosa hasta en la oscuridad	sadness	0.125
+2018-ar-sadness-train-637	Que aburrida vida tengo	sadness	0.583
+2018-ar-sadness-train-638	Extraño muchisimo a Nacho 	sadness	0.771
+2018-ar-sadness-train-639	Hola Como amaneciste?  Akostado  Jajaja .ue gracioso! Como estas?  Sentado  Jaja En serio!  Que mas?  No, no quemo.	sadness	0.167
+2018-ar-sadness-train-640	Oks estoy r3 cansado ganas de dormir y fue	sadness	0.375
+2018-ar-sadness-train-641	me tengo que levantar a las nueve 	sadness	0.177
+2018-ar-sadness-train-642	Es lunes y yo no puedo dormir 	sadness	0.417
+2018-ar-sadness-train-643	Acá (Merlo) hay un almacén que atiende de 18 a 01... En epokas de oscurantismo K eran 20 m de cola a esta hora, hoy juegan al solitario.	sadness	0.375
+2018-ar-sadness-train-644	@NanaBlurl Como asturiana postiza estoy: indignada.	sadness	0.571
+2018-ar-sadness-train-645	@pollitou_ @SoyGerardCortez Culpas a la víctima de un abuso de confianza grave.	sadness	0.500
+2018-ar-sadness-train-646	Mejor Dime Que Me Extrañas! 🙁	sadness	0.625
+2018-ar-sadness-train-647	Hoy comi como 🐷 y ya me dio hambre otra vez 	sadness	0.313
+2018-ar-sadness-train-648	Que aburrido ni se para que tengo whatsaa	sadness	0.458
+2018-ar-sadness-train-649	Necesito q alguien q me abrace fuerte y no me suelte mas 	sadness	0.813
+2018-ar-sadness-train-650	Los dos queremos pero nos mata la cobardía !!!	sadness	0.479
+2018-ar-sadness-train-651	¿Por qué no calculan clases en mi escuela? No hice la exposición 	sadness	0.370
+2018-ar-sadness-train-652	@xBlackeneD Melanie ha abandonado la conversación	sadness	0.375
+2018-ar-sadness-train-653	Y es entonces cuando te das cuenta de las cosas solo pasan una vez, y por más que te esfuerces ya no puedes volver a querer 3MSC.... 😭	sadness	0.813
+2018-ar-sadness-train-654	Hoy me sentí como mi ídolo, si como Julio César Chavez Jr. En su pelea con el Canelo.	sadness	0.217
+2018-ar-sadness-train-655	Si estás ahí arriba Superman, ayúdame 	sadness	0.500
+2018-ar-sadness-train-656	A pesar de todo eres el mejor hermano ❣👫	sadness	0.271
+2018-ar-sadness-train-657	Dos inyecciones mas 😥	sadness	0.458
+2018-ar-sadness-train-658	@DuvDaz Mucha amargura, bye	sadness	0.688
+2018-ar-sadness-train-659	Ya estoy en mi casa, ya le puedo llorar a @ChesterBe 😭	sadness	0.708
+2018-ar-sadness-train-660	Nunca pensé ser tan especial para alguien 	sadness	0.208
+2018-ar-sadness-train-661	@MelissaCh_07 Sho! 🔫🔪 dejame! A estoy haciendo lo biología! 😭	sadness	0.313
+2018-ar-sadness-train-662	No es verdad lo q me esta pasando... q he madrugado para una hora de clase solo... yo me mato 	sadness	0.729
+2018-ar-sadness-train-663	Hacia mucho no lloraba gracias 	sadness	0.688
+2018-ar-sadness-train-664	Paula está indignada y yo que no tengo ni para indignarme	sadness	0.583
+2018-ar-sadness-train-665	Solo si leo a la velocidad de la luz voy a poder terminar mis trabajos. 	sadness	0.313
+2018-ar-sadness-train-666	@LericaMusic @AbrahamMateo Jajajajajajajajsja vaya cultura musical más deprimente	sadness	0.229
+2018-ar-sadness-train-667	SI TE ELEGÍ COMO AMIGA ES PORQUE ESTAS IGUAL DE PINCHE LOCA Y DESQUICIADA IGUAL QUE YO	sadness	0.188
+2018-ar-sadness-train-668	Pero y esa furia? No te ajites te puede dar algo !🤔😂😂	sadness	0.417
+2018-ar-sadness-train-669	@JudysLullaby Porque a mi 😣 cuando sera el dia que una de las expocomic inviten a judy a san luis 	sadness	0.438
+2018-ar-sadness-train-670	#FanArmyFaceOff #Army @BTS_twt  Se me amortiguaron los brazos de tener el telefono agarrado retwtteando todo el dia XD pero vale la pena >:v	sadness	0.125
+2018-ar-sadness-train-671	Llegué a la conclusión de que la única manera de que se me pase la constante depresión en la que vivo es yéndome a vivir a NYC.	sadness	0.729
+2018-ar-sadness-train-672	@mateodelorto pero no estoy llorando ahre	sadness	0.522
+2018-ar-sadness-train-673	No es de resentimiento madre pero hubiese preferido que me pusieses en el polivalente	sadness	0.647
+2018-ar-sadness-train-674	Qué pasa que si no eres alguien conocido no te toman en serio o qué	sadness	0.542
+2018-ar-sadness-train-675	@Enanin_V Tristemente sí :(	sadness	0.771
+2018-ar-sadness-train-676	che ya se que soy aburrida pero bueno q se le va a hacer	sadness	0.708
+2018-ar-sadness-train-677	Ser feliz no es tener una vida perfecta; ser feliz es reconocer que la vida vale la pena, a pesar de las dificultades.	sadness	0.402
+2018-ar-sadness-train-678	Amo tanto a mi hermanito a pesar de todo 👫😍💗💗	sadness	0.217
+2018-ar-sadness-train-679	#GÉMINIS: ¿que por qué eres el mejor signo? porque sin ti, todo es más aburrido de lo normal, das esa chispa de locura a cualquier fiesta	sadness	0.292
+2018-ar-sadness-train-680	ewe estoy aburrido qui hago	sadness	0.313
+2018-ar-sadness-train-681	me iba a quejar de cansancio y mis 'tragedias' pero las comparé con las reales y se me pasa.	sadness	0.500
+2018-ar-sadness-train-682	Simplemente corruptos e infames los diputados, cubriendo sus espaldas #NoMásCorrupción #enojado #triste #Guatemala	sadness	0.543
+2018-ar-sadness-train-683	¿POR QUÉ LA ESCENA DE LILY DISFRAZADA DE BALLENA EN EL APARTAMENTO VACÍO ME HIZO LLORAR TANTO? AHHH	sadness	0.646
+2018-ar-sadness-train-684	via @glendyvasquez: @carloshenrypari  Amargado ... Solo era una pregunta y yaaa ... Deje la amargura	sadness	0.500
+2018-ar-sadness-train-685	Que horrible dormir con pantalon lpm	sadness	0.521
+2018-ar-sadness-train-686	Porque demoran en Venirme a buscar?😠😠😅	sadness	0.479
+2018-ar-sadness-train-687	@SayaTsundere17 saya se me acabo el cafe amargo!!	sadness	0.229
+2018-ar-sadness-train-688	@AsisOberdan: "Lo de Lula me parece un espanto"	sadness	0.587
+2018-ar-sadness-train-689	Oye @PcSegob hay momentos, de la nada, que mi corazoncito late rápid, no puedo respirar y siento que todo vibra 😭 Qué se hace? #mexico	sadness	0.625
+2018-ar-sadness-train-690	¡Mas cansada,  imposible!	sadness	0.458
+2018-ar-sadness-train-691	Creo que karol hizo bien en no ir a fans, estoy segura que se iba a sentir incómoda con las preguntas que seguro le harían	sadness	0.326
+2018-ar-sadness-train-692	@Lovelyccano 😞 era en serio. Lo eres	sadness	0.409
+2018-ar-sadness-train-693	Quiero ir a lo del negro pero me gana el cansancio	sadness	0.500
+2018-ar-sadness-train-694	@AmericadeCali vamos con toda equipo. Saludos desde Villavicencio. #mechita. Se perdió una ballata mas no la guerra	sadness	0.292
+2018-ar-sadness-train-695	Dios bendice al pueblo de Venezuela en esta horas de oscuridad, que llegue la luz!!!	sadness	0.375
+2018-ar-sadness-train-696	Pelea con mi mama #triste	sadness	0.938
+2018-ar-sadness-train-697	Inhala-exhala, no voy a caer en el juego, inhala-exhala... 	sadness	0.333
+2018-ar-sadness-train-698	Mi cerebro está cansado	sadness	0.396
+2018-ar-sadness-train-699	the boy in the striped pajamas siempre me hara llorar	sadness	0.625
+2018-ar-sadness-train-700	@sorlandoponce Juan Carlos le pregunto temeroso y con mucho respeto a Pinto,luego queda hablando en el programa	sadness	0.375
+2018-ar-sadness-train-701	@edioaraque Otro héroe que se marcha, triste 🙁	sadness	0.813
+2018-ar-sadness-train-702	@Darkphan Pues ya ves!!  	sadness	0.261
+2018-ar-sadness-train-703	@ponchito_rubio Es el requisito número uno para ser papás we jajajaja echarse un caldazo hirviendo para combatir fuego con fuego. 🔥	sadness	0.125
+2018-ar-sadness-train-704	@terko2013 @fffnav @rfeiBJ @Gregoriodalbon @Pontifex_es @CFKArgentina Vi imágenes de que tiran la leche en campo !!eso es terrible!!!	sadness	0.500
+2018-ar-sadness-train-705	Un mes y ya estoy pensando en LA Nostalgia que se viene 💃🏽	sadness	0.750
+2018-ar-sadness-train-706	Se antes pensaba que eras tremendo pelotudo pero por lo poco que te conozco sos muy piola, espero conocerte mejor	sadness	0.313
+2018-ar-sadness-train-707	@AMERICA_1916 A pesar de ser chivista, si es buen jugador lo que pasa es que falla demasiadas, le falta ser un poco autocrático y humilde.	sadness	0.292
+2018-ar-sadness-train-708	Siempre sale uno enojado cuando jugamos a la lotería😂	sadness	0.292
+2018-ar-sadness-train-709	Estoy tan ansiosa con el estreno de Game of Throne que ya me siento una Targaryen.	sadness	0.152
+2018-ar-sadness-train-710	@MQuevedoF lamentable todos los destrozos y muertes a la GMV..nos da mas razon p la CONSTITUYENTE. VENCEREMOS.....!!!	sadness	0.609
+2018-ar-sadness-train-711	Hace dos días no tenía ni idea de qué era Castlevania y hoy estoy enfadada porque solo hay 4 capítulos de mierda.	sadness	0.478
+2018-ar-sadness-train-712	@HyliaHale De lo que uno se pierde por no tener instagram 	sadness	0.280
+2018-ar-sadness-train-713	Que lindo saber que hay gente que me quiere por como soy y a pesar de todo seguimos adelante con la amistad..	sadness	0.250
+2018-ar-sadness-train-714	Esas personas que viven la #depresión y a oscuridad. No hay dinero que compre la salida, no la hay.	sadness	0.674
+2018-ar-sadness-train-715	No sabía que estabas tan desesperada, chére.	sadness	0.521
+2018-ar-sadness-train-716	Caliéntame con besos que yo no me enojo por eso.	sadness	0.188
+2018-ar-sadness-train-717	Lamentablemente "por uno pagan todos".	sadness	0.563
+2018-ar-sadness-train-718	No han sacado nada de Banri ni Itaru y me siento muy indignada.	sadness	0.609
+2018-ar-sadness-train-719	@laclaux Bah, era como evoluciones del mismo sueño, sobre una casa en Córdoba. Hace un par de años la encontré. 	sadness	0.354
+2018-ar-sadness-train-720	A pero que lindo que anda el internet 🙄😒	sadness	0.250
+2018-ar-sadness-train-721	@MirreyNoble Tus frases son bien tontas pero bien ciertas. Estoy llorando.	sadness	0.880
+2018-ar-sadness-train-722	Me acordé de una foto, me puse a buscarla, vi todo el álbum y boom. Nostalgia.	sadness	0.729
+2018-ar-sadness-train-723	Hablar de mi curso me da rabia y mucha tristeza al mismo tiempo	sadness	0.750
+2018-ar-sadness-train-724	@ElNacionalWeb Después de que ha fregado a un montón de gente como miembro del Colectivo La Piedrita, va a salir con ese llanto. Cobarde.	sadness	0.521
+2018-ar-sadness-train-725	@iharting @MeOpongoVenz Más que infeliz un CDEM	sadness	0.625
+2018-ar-sadness-train-726	@anablabla "Ay no, yo también estoy triste por muchas cosas y no por eso tengo ganas de morirme mi alma"	sadness	0.698
+2018-ar-sadness-train-727	@Seargee Pero es que a mi me gusta VLC 😥 pero si ya abri bs player :(	sadness	0.417
+2018-ar-sadness-train-728	Necesito salir en la oscuridad veo más claro que con dos soles, y es una porquería todo lo que se me atraviesa 😂	sadness	0.521
+2018-ar-sadness-train-729	Las rolas de CoF SIEMPRE son larguísimas y siempre me sacan letras rebuscadas me cagan alv 😢	sadness	0.500
+2018-ar-sadness-train-730	@derba75_ Mm pas 	sadness	0.167
+2018-ar-sadness-train-731	No llevo ni 1h despierto y ya he tenido que pegarme una carrera para intentar pillar el tren... y perderlo. 😥	sadness	0.458
+2018-ar-sadness-train-732	Jamás debi dejar ese lugar 🙁	sadness	0.646
+2018-ar-sadness-train-733	Se que te sientes abandonada pero ma' yo estoy aqui.👫❤️	sadness	0.636
+2018-ar-sadness-train-734	Aburrido!!!!!!!!!	sadness	0.438
+2018-ar-sadness-train-735	Me da miedo encontrar a alguien con quien me encariñe mucho y que después se vaya. 🙇🏻‍♀️	sadness	0.740
+2018-ar-sadness-train-736	@Sr_Carlitos_ Tu me llevaste al lado oscuro 😏	sadness	0.375
+2018-ar-sadness-train-737	@Lupitaaa27 @SofiaHdz1724 Jajaja i was a little but eres mi amiga no me enojo para siempre 🙄🌚	sadness	0.261
+2018-ar-sadness-train-738	"No creo en el pesimismo. Si las cosas no salieron como lo esperabas, sigue adelante. Si te empeñas lo consigues". Clint Eastwood	sadness	0.354
+2018-ar-sadness-train-739	Hace 2 noches me siento una abuela por dormirme a las 11 pero el cansancio que tengo es inexplicable.	sadness	0.563
+2018-ar-sadness-train-740	Sanguíneos en muchos casos. Se indica SIEMPRE que las pastillas pueden provocar trombosis y tienen otros efectos secundarios.	sadness	0.417
+2018-ar-sadness-train-741	Mi mayor problema es que no puedo estar enfadado. Siempre termino perdonando a las personas, incluso cuando no lo merecen.😚	sadness	0.604
+2018-ar-sadness-train-742	Queramos o no vivimos en una sociedad cobarde, que cuando la ves te sonríen pero al darles la espalda te apuñalan.	sadness	0.750
+2018-ar-sadness-train-743	🎵No me folles con tus barbas🎵 que las tienes pringadicaaaaas 🎵y si lo haces, por venganza🎵 yo te pego mis ladillaaaaas🎵🎵 #SilvesJotero	sadness	0.208
+2018-ar-sadness-train-744	Sin dudas, 1 Verse siempre será el sencillo en solitario de Bangtan que, hasta el día de hoy, todos sabemos mereció mucho más.	sadness	0.479
+2018-ar-sadness-train-745	Día tan re aburrido u_u	sadness	0.583
+2018-ar-sadness-train-746	@edrovill @JocF08 Te encargo lo incómodo que es 😥	sadness	0.458
+2018-ar-sadness-train-747	@etronvar @MikeJoestar Chicos dejen de tomarse un post en joda tan en serio	sadness	0.396
+2018-ar-sadness-train-748	Mañana voy a lo de la colo y quiero ver películas de terror pero no me va a poner pq no le gustan	sadness	0.434
+2018-ar-sadness-train-749	Me impresiona todo el amor que me tiene Leia a pesar de que cada 4 días la dejo sola 😭 💔	sadness	0.478
+2018-ar-sadness-train-750	características quieren gobernar a la República Bolivariana de Venezuela, incluyendo el terrible racismo que poseen. Sean responsables de	sadness	0.543
+2018-ar-sadness-train-751	Y de golpe son las 7 de la tarde 😱😩⛈ 	sadness	0.354
+2018-ar-sadness-train-752	Tantas cosas por las cuales quejarse y ustedes se quejan de eso, qué hijueputez.	sadness	0.500
+2018-ar-sadness-train-753	Miedo de llevar a mis pequeñas  ala escuela 😟 sus	sadness	0.630
+2018-ar-sadness-train-754	Ya ni se por donde empezar. 😥	sadness	0.522
+2018-ar-sadness-train-755	Sigo creyendo que soy la persona mas solitaria del mundo	sadness	0.819
+2018-ar-sadness-train-756	#PameAlaTarde Moria la tiene ca.....do a Pamela·!  Voy a opinar dice xq me tienen pintada!!! ahora los panelistas le piden opinión. #miedo?	sadness	0.500
+2018-ar-sadness-train-757	@alexisperezf25 alegría inmensa y nostalgia porque no estas acá. te recordamos mucho	sadness	0.727
+2018-ar-sadness-train-758	Quemada es poco😤	sadness	0.396
+2018-ar-sadness-train-759	Hoy me contaron "historias de horror en un parto en el seguro social" jajajajajajaja y neta no puedo estar más agradecida con Dani...	sadness	0.333
+2018-ar-sadness-train-760	@NatashaCoronel No es nio tan grave, no se le desea que se le descomponga la ducha ni a tu peor enemigo 💔	sadness	0.543
+2018-ar-sadness-train-761	@PrincxssGrimes «pesar de su dolor se levanto, me enfrento y asintió, pude notar la rabia en sus ojos, pero lo que mas dolió no fue saber»	sadness	0.688
+2018-ar-sadness-train-762	El descontento, el cansancio, la obstinacion, LA ARRECHERA esta tomando el plano atmosférico en mi país!	sadness	0.813
+2018-ar-sadness-train-763	@lilycaulfield curioso, precisamente ese recurso es invisible durante un episodio depresivo mayor	sadness	0.609
+2018-ar-sadness-train-764	Odio irme a dormir sola 😢	sadness	0.587
+2018-ar-sadness-train-765	@Patriciomonero Jajajaja, te faltó poner o todos son iguales... porque es difícil decidir, yo digo q está entre #peña y #Fox	sadness	0.064
+2018-ar-sadness-train-766	Ya nose más ni que pensar con todo esto 	sadness	0.587
+2018-ar-sadness-train-767	Le tomo mucha importancia a las bandas que escuchó, porque sus canciones me han ayudado a salir en momentos de tristeza, me han motivado.	sadness	0.620
+2018-ar-sadness-train-768	No puedo creer lo de chester, estoy deprimido	sadness	0.896
+2018-ar-sadness-train-769	@amparychilena @Cooperativa Tipico de amargada,que triste tu vida pabree,y tontorrona🙊	sadness	0.667
+2018-ar-sadness-train-770	Qué más me da no tener clase si me despierto a las 7 igualmente 😥	sadness	0.313
+2018-ar-sadness-train-771	Crecí escuchando  Linkin Park y verdaderamente hoy es un día trágico para la música en general #RIPChester Gracias por mi gran infancia	sadness	0.652
+2018-ar-sadness-train-772	Una nena de 9 años q dice “me quiero morir, me dicen gorda” e intenta suicidarse tomando pastillas.Q MAL ESTAMOS X FAVOR! #Tristeza	sadness	0.880
+2018-ar-sadness-train-773	Me desperté y estaba la ventana abierta. 	sadness	0.326
+2018-ar-sadness-train-774	Dormí toda la tarde y ya no tengo sueño. Lo peor de todo es que mañana tengo clase de 8 	sadness	0.304
+2018-ar-sadness-train-775	@Macnusxdxd Me metieron algo en el.....   Porq tenia un problema grave: :'v	sadness	0.565
+2018-ar-sadness-train-776	Quiero abrazar. Quiero querer. Me hace falta el cariño de mi gente. 🙁	sadness	0.729
+2018-ar-sadness-train-777	@rafael_lombardo Valió la pena!!!	sadness	0.146
+2018-ar-sadness-train-778	jajajajajaj seguimos resentida??	sadness	0.196
+2018-ar-sadness-train-779	@CONCHETUNlALL En serio? Ooooh wn que bacán 😘😘 deberías ser mi ibf ya que la dafne es más lenta pa responder que la chucha	sadness	0.250
+2018-ar-sadness-train-780	No confundas la velocidad de mi amabilidad y cortesía, con el atropello de tu imaginación	sadness	0.333
+2018-ar-sadness-train-781	Hoy me dispongo a ver el partido para distraerme de la depresión de no haber ido al MAT🙂🙂	sadness	0.674
+2018-ar-sadness-train-782	@__pacorocha Yo vivo buscando sus canciones en live para llorar. Es que ella es otra cosa, su voz es perfecta. Y sus letras, todo.	sadness	0.667
+2018-ar-sadness-train-783	Pensé que al leer me daría sueño pero nada 😟	sadness	0.271
+2018-ar-sadness-train-784	@TRADEOSREYSA y yo lo tendre hasta el 29 😥	sadness	0.217
+2018-ar-sadness-train-785	Estoy muy indignado, ellos estan ebrios y flayean que yo estoy ebrio y no me dejan tomar, alta familia	sadness	0.563
+2018-ar-sadness-train-786	@DanielPonne: grave y brutal represión  sufre en estos momentos la comunidad de San Jacinto y Mara Norte de Maracaibo	sadness	0.688
+2018-ar-sadness-train-787	Donde tas mi @PulgarinMaite ....toy 3 veces desanimado...un saludito tuyo me reconfortara!!!!	sadness	0.521
+2018-ar-sadness-train-788	Que triste que me subestimes así (que triste que no me tengas tantito miedo). #Depresión	sadness	0.854
+2018-ar-sadness-train-789	Ah caray...ya no entiendo nada 😟	sadness	0.413
+2018-ar-sadness-train-790	@UrreliG Si es por eso qué tengo yo super depresión	sadness	0.896
+2018-ar-sadness-train-791	Les juro que mi desesperación es demasiada, a cada oxxo o 7-eleven que voy las busco, cada tienda... 😫😭😭💔	sadness	0.729
+2018-ar-sadness-train-792	@GusMenFox @clubleonfc Muy feo!! Horrible se ve la publicidad !!	sadness	0.417
+2018-ar-sadness-train-793	Si eres tranquilo y confiado, o miedoso y con baja autoestima, depende de la dopamina (hormona del placer).	sadness	0.438
+2018-ar-sadness-train-794	Locooo estoy re preocupada 	sadness	0.458
+2018-ar-sadness-train-795	El suicidio es el capítulo final de una novela más larga e incomprendida. No se resuelve diciéndole a alguien que "no esté triste" y ya.	sadness	0.667
+2018-ar-sadness-train-796	MI HERMANA SE ACABA DE LEVANTAR Y HA EMPEZADO A HABLAR PERO NO HA DICHO NADA EN ESPAÑOL Y ESTABA DORMIDA 	sadness	0.375
+2018-ar-sadness-train-797	Recordé que un dentista estaba revisando mis dientes, se quitó los guantes e hizo movimientos obscenos con sus dedos en mi boca. 	sadness	0.375
+2018-ar-sadness-train-798	@ResistentPatria @ScarletMoly ya estamos cansado d tanta baina x fabor	sadness	0.479
+2018-ar-sadness-train-799	@BernalCH2 ODIO esa tontera, es igual de cansado 🙄	sadness	0.417
+2018-ar-sadness-train-800	No qiero ser aprensiva pero ... si se perdió mi saco favorito del mundo .. si me voy a emputar y a sentir muy decepcionada d mi misma 😩	sadness	0.646
