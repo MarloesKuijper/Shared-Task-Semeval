@@ -1,4 +1,4 @@
-@relation repo/data/es/2018-EI-reg-Es-sadness-train.txt
+@relation ../../new_train/es/2018-EI-reg-es-sadness-train1.txt
 
 @attribute id numeric 
 @attribute tweet string
@@ -23,7 +23,7 @@
 15,"@bianca43721 Dos tweets seguidos. Vos debes tener ansiedad por el viaje me parece...","sadness",0.413
 16,"Estoy cansada de que me prometan cosas y después no lo cumplan","sadness",0.848
 17,"Tienes #insomnio o #depresión post #sismo? Ven a mi casa, te armo un porro. La propuesta es seria.","sadness",0.521
-18,"son como Juan Carlos sacando una tirada de engaño tres para envenenar a alguien "toma este veneno DIGO... ESTA FANTA"","sadness",0.460
+18,"son como Juan Carlos sacando una tirada de engaño tres para envenenar a alguien toma este veneno DIGO... ESTA FANTA","sadness",0.460
 19,"Ya no sé si es que quedé nerviosa o es que tiembla a cada nada en estos últimos 20 minutos 😟","sadness",0.583
 20,"@indpcom @Albert_Rivera @InesArrimadas Y el berrinche de Cs tres cuartos de lo mismo","sadness",0.380
 21,"No quiero ir mañana a la escuela ","sadness",0.396
@@ -47,7 +47,7 @@
 39,"The radio need to stop playing all these sad songs.  Ni tengo novio pero aqui estoy llorando por el.","sadness",0.708
 40,"#DanielSamperQEPD es una noticia lamentable  #SantosColombiaNoTeCree  #TodoEsCulpaDeLasFarrr","sadness",0.694
 41,"Se fue ...... #tristeza","sadness",0.917
-42,"Que triste admitirlo pero  "TE AMO INTERNET","sadness",0.479
+42,"Que triste admitirlo pero  TE AMO INTERNET","sadness",0.479
 43,"El fútbol colombiano sería muy aburrido sin el América y sin Millitos  😂😂😂😂😂😂😂😂😂😂😂😂😂😂","sadness",0.125
 44,"Lo malo es que las personas no quieren salir conmigo 😟","sadness",0.826
 45,"Y no creo que sea el único infeliz Que ameniza por ti estos tiempos complicados. ¡maldita sea!","sadness",0.717
@@ -63,9 +63,9 @@
 55,"Al final de la oscuridad siempre se ve la luz","sadness",0.293
 56,"@JoJoFactsDubs Me dio más tristeza la muerte de D I O","sadness",0.917
 57,"Creí que dejar de fumar weed durante el día me haría sentirme less shitty y más productiva pero veeerga es demasiado aburrido estar sobria","sadness",0.479
-58,"Hoy le compre un regalo a mi ahijada, y la mina me dice "cuanto tiene tu beba" pero por dios q mujer desagradable jajajajaj","sadness",0.063
+58,"Hoy le compre un regalo a mi ahijada, y la mina me dice cuanto tiene tu beba pero por dios q mujer desagradable jajajajaj","sadness",0.063
 59,"Y yo pensé q una estrella fugaz era una estrella muy bonita q tenía miedo de brillar, y huir lo más lejos posible. Un poco como tú, como yo.","sadness",0.521
-60,"@Malejaaaa__ Siendo así tendría que decir "soy terrible"","sadness",0.583
+60,"@Malejaaaa__ Siendo así tendría que decir soy terrible","sadness",0.583
 61,"Nací con el viejo Linkin Park, y a pesar de que ya no era partídiario de su nuevo sonido, siempre los admiré como banda.   Descansa (1/2)","sadness",0.600
 62,"Odio la gente cerrada, que no se deja ayudar. Para colmo la mayoría de la gente que quiero es así ","sadness",0.583
 63,"No hay apuros para el Emperador! ","sadness",0.229
@@ -81,7 +81,7 @@
 73,"la depresión es una enfermedad tan mortal como silenciosa, si no pides ayuda literalmente tu vida se puede ir por el caño","sadness",0.783
 74,"La alarma de mi celular es re fea y ya me tiene re podrido en cualquier momento lo voy a revolear hasta la peron","sadness",0.433
 75,"Voy a terminar llorando ;-;","sadness",0.813
-76,"@iharting @Jullietbanda "infeliz" no es la palabra que mejor se adapta pero usted es una persona educada.","sadness",0.438
+76,"@iharting @Jullietbanda infeliz no es la palabra que mejor se adapta pero usted es una persona educada.","sadness",0.438
 77,"Dizque a poner la alarma en el calendario xd","sadness",0.188
 78,"@NTN24 Lamentable ...Sin embargo...llama la atención entre los últimos duelos del mundo del rock que hayan sido causa de suicidios","sadness",0.646
 79,"Para llevar a los bebes de un lugar a otro debemos cantarles canciones...  Quiero cantarles Gunaa' nibiina (La llorona, en Zapoteco)","sadness",0.250
@@ -195,7 +195,7 @@
 187,"#DraCorderoMV muy interesante  el tema. La #Depresion una enfermedad denigrada, poco entendida. Importante la cubre el  #Auge #SaludMental","sadness",0.500
 188,"@DanteDelgado Lamentablemente esto es lo que se está visualizando para el 2018.","sadness",0.500
 189,"Dlvv, no puedo dormir y en 12:30 hrs tengo un examen ","sadness",0.521
-190,"El es "Wero" un gatito que vive afuera del Oxxo de la calzada San Pedro, súper tierno, cariñoso y muy noble ","sadness",0.208
+190,"El es Wero un gatito que vive afuera del Oxxo de la calzada San Pedro, súper tierno, cariñoso y muy noble ","sadness",0.208
 191,"Debo ser la única persona que en vacaciones se llena de trabajo porque lo elige... acá ya estamos en el sobre, cansada y feliz 🤗☺️","sadness",0.083
 192,"@Fabr1_320 Deberías quitarme de tus notificaciones, sigo ofendida por lo de la peli, cambio y fuera","sadness",0.479
 193,"@unknownlxstsoul tarde puti, ya perdió la gracia","sadness",0.292
@@ -219,7 +219,7 @@
 211,"@_DAVE_fs No, sigue siendo una pesadilla..","sadness",0.542
 212,"@Gonzatraverso22 Quiero saber quien","sadness",0.152
 213,"@miriwonderland Como en los viejos tiempos #nostalgia","sadness",0.667
-214,""Qué significa taciturno -que le gusta andar de noche" JAJAJAJAJAJAAJAJJAAJAJJAJAJAAJJAJAJAJAJQJAJAJAAJ","sadness",0.125
+214,"Qué significa taciturno -que le gusta andar de noche JAJAJAJAJAJAAJAJJAAJAJJAJAJAAJJAJAJAJAJQJAJAJAAJ","sadness",0.125
 215,"¡EN CHILE!  pena de muerte. a quiénes matan. ¿Porqué?  ¡MATAR! A UN ¡INOCENTE!","sadness",0.521
 216,"Me he caído... nada grave... -No va a decir que Sheridan se le ha tirado encima, pero se está mareando-","sadness",0.458
 217,"Cpn lo grave y preocupante que es la herida de Jaemin se burlan así lpm my boy deserves better","sadness",0.583
@@ -257,7 +257,7 @@
 249,"Lo único que me esta saliendo bien este año es engordar ","sadness",0.625
 250,"#triste por culpa do @prodveiga #triste","sadness",0.761
 251,"@Teeo16_ la depresión existe","sadness",0.783
-252,"A veces cuando estoy aburrida pienso "FUNDIC" y me río sola.","sadness",0.188
+252,"A veces cuando estoy aburrida pienso FUNDIC y me río sola.","sadness",0.188
 253,"tengo comezón en la garganta que desesperación","sadness",0.583
 254,"Estoy cansado de siempre dar y no recibir nada a cambio.","sadness",0.813
 255,"Casi la 1am y yo con este insomnio ","sadness",0.370
@@ -294,7 +294,7 @@
 286,"no es justo desde hace mil años llorando cada vez que las veo","sadness",0.833
 287,"Escuchar musica triste y terminar mas triste que la música","sadness",0.833
 288,"Cuando una mujer tiene los ojos llenos de lágrimas #YNuncaFaltaElQuePregunta  Estás llorando?... Nooo... Me entró una pestaña en el ojo... 😭","sadness",0.696
-289,"Creo que el peor insulto que me han hecho es "gei"  No porque gay sea un insulto, es que lo escribieron tan mal y de paso con tanto odio...","sadness",0.458
+289,"Creo que el peor insulto que me han hecho es gei  No porque gay sea un insulto, es que lo escribieron tan mal y de paso con tanto odio...","sadness",0.458
 290,"Si alguien me quiere hablar no me enojo jajajaja","sadness",0.146
 291,"Estoy aburrido, tengo hambre y me siento solo. Send taquitos","sadness",0.833
 292,"@Hil_dodoo mañana te dibujo sin falta, perdón por el atraso 😥","sadness",0.313
@@ -318,7 +318,7 @@
 310,"Ayer estaba hablando con mi tía del insomnio y me dijo que es de familia, TODOS tenemos el mismo problema ","sadness",0.417
 311,"No esta @ferlo75 en twitter con el partido de #PeñA???","sadness",0.250
 312,"@germxnthief < espalda del rubio, la cuál probablemente estaría marcada, pero ni con eso logró sofocarlo pues un gruñido salió de sus >","sadness",0.370
-313,"La canción de "oye mujer" es la cosa más desagradable y corriente que puede existir ugh! No la tolero ...","sadness",0.457
+313,"La canción de oye mujer es la cosa más desagradable y corriente que puede existir ugh! No la tolero ...","sadness",0.457
 314,"No importa en cuánta oscuridad está tu vida... Dios siempre enviará personas para iluminarte.","sadness",0.354
 315,"Para tristeza y felicidad, Ed Sheeran al rescate.🙃","sadness",0.396
 316,"Y si mejor considero todo otra vez... por que esto se está volviendo un ciclo ","sadness",0.563
@@ -406,7 +406,7 @@
 398,"Dormi bue mal fse ","sadness",0.479
 399,"Ains quiero hacer el reto de los 30 días de Américan Horror Story","sadness",0.370
 400,"@violekraut cuando quieras lisiada ;)   terminé de leer el tuit y se me autoguiño el ojo #miedo","sadness",0.348
-401,"Detesto que me consuelen "por pesar"","sadness",0.792
+401,"Detesto que me consuelen por pesar","sadness",0.792
 402,"@KiikaVell Mamalón...pero aburrido. XD","sadness",0.340
 403,"Ese tema de que Leo Castro está ansioso y por eso no marca ni por error ya no se lo traga ni tu Abuela; El nivel es PERVERSO!!","sadness",0.438
 404,"Culia le di rt a a un tw citado de annabelle y al segundo me salio que mirara debajo de la cama ","sadness",0.479
@@ -430,7 +430,7 @@
 422,"A pesar de tantos enojos, y dolores de cabeza hay alguien que esta ahí para hacerte reír al final del día 😍","sadness",0.386
 423,"@pablopecaro @poderAGMX @arnemx @arelibiciteka @banquetalibre @LBallesterosM @ReyPeatonCDMX @Peaton_No A pesar de que mueran ciclistas.","sadness",0.500
 424,"@luciasvt eso me habían dicho mis papás pero no sabía que estaba tan mal ay lucía que tristeza :((((((","sadness",0.917
-425,"Fav si "Heroes" te dio nostalgia cuando la tocó King Crimson.","sadness",0.413
+425,"Fav si Heroes te dio nostalgia cuando la tocó King Crimson.","sadness",0.413
 426,"@NestorReverol Es lamentable tanto odio inoculado de la derecha fascistas! por eso NO VOLVERAN !","sadness",0.625
 427,"@letyduranhdez Mira tu niña aburrida cuando tiene una super nieta y nieto...no es para aburrirse😂😂","sadness",0.375
 428,"Ohhh hasta se me fue el sueño del disgusto 😔","sadness",0.583
@@ -448,7 +448,7 @@
 440,"-provocar. Tengo que comentar algo al respecto???","sadness",0.333
 441,"Por la chucha ya empezaron las noches calurosas 😥","sadness",0.524
 442,"En momentos de cansancio como este me dan ganas de renunciar","sadness",0.604
-443,""No tengo números,tengo sensaciones"(Brancatelli).Si fuera meteorólogo diría q va a llover xq le duelen los callos.Q serio #JuevesIntratable","sadness",0.354
+443,"No tengo números,tengo sensaciones(Brancatelli).Si fuera meteorólogo diría q va a llover xq le duelen los callos.Q serio #JuevesIntratable","sadness",0.354
 444,"Me gusta y te habló #Aburrido","sadness",0.109
 445,"Soy pesimista siempre, pero por los motivos que saramago casualmente, sin embargo creo que estamos a tiempo de recuperar espacio perdido.","sadness",0.500
 446,"@revistaproceso Ya me dio desconfianza el nuevo túnel en Acapulco!","sadness",0.478
@@ -464,7 +464,7 @@
 456,"ALIVIANATE CON LIVIA cuantas veces te dije llorando no juegues conmigo ni me eches mentiras","sadness",0.833
 457,"@yiixings Ya me has sustituido! ","sadness",0.543
 458,"#RecuerdosDeChibolo ser el mas tímido de mi clase 😌😌😌","sadness",0.354
-459,""Uno no sabe lo que tiene hasta que lo pierde" La pura verdad 🙁","sadness",0.826
+459,"Uno no sabe lo que tiene hasta que lo pierde La pura verdad 🙁","sadness",0.826
 460,"« daño que le hiciera a pesar de ser un crío desde su punto de vista. Ni cómo podía acabar. Volvió a pegarle una vez más, esta vez en la »","sadness",0.500
 461,"Ya quiereme, te pago 😥","sadness",0.565
 462,"ay nooo que horrible... me acordé cuando me pasó lo mismo hace como dos años ajjajajajaja","sadness",0.313
@@ -498,7 +498,7 @@
 490,"@ObservadBinario Totalmente no. Solamente la planta baja lamentablemente. Más de 12 negocios devastados","sadness",0.604
 491,"Qué amargo sabor a despedida todos los momentos musicales del #DesayunoDeLas10 de esta semana. @carlespena @antoniofraguas @HoyPorHoy","sadness",0.500
 492,"Que lluvia de mierda ","sadness",0.609
-493,"La parte en la que Clegane le dice "No engañas a nadie con ese rodete. Calvo de mierda" 😂😂😂😂 yo estaba llorando","sadness",0.542
+493,"La parte en la que Clegane le dice No engañas a nadie con ese rodete. Calvo de mierda 😂😂😂😂 yo estaba llorando","sadness",0.542
 494,"Sin tomar un migral cdo me duele la cabeza no se q haría 😥","sadness",0.604
 495,"ssssta maldita alergia q no se me va 😥","sadness",0.625
 496,"@los14polichacao Lamentablemente a este gobierno no le importa paren la huelga. Los necesitamos vivos","sadness",0.708
@@ -562,7 +562,7 @@
 554,"La carita de desquiciada de hatice  #ElSultan","sadness",0.313
 555,"Ya estaba dormida y no sé por qué me desperté ","sadness",0.413
 556,"Cuando valga la pena,lo voy a hacer","sadness",0.438
-557,"Los antidepresivos buscan "sacar" a la persona del potencial peligro que implica la depresión mayo (la ideación suicida). Sin embargo,(1/2)","sadness",0.500
+557,"Los antidepresivos buscan sacar a la persona del potencial peligro que implica la depresión mayo (la ideación suicida). Sin embargo,(1/2)","sadness",0.500
 558,"Todos estos días he estado durmiendo demasiado mal. No sé si es el país o mi ansiedad natural.","sadness",0.771
 559,"Extraño a mi azul ","sadness",0.652
 560,"Estoy viendo fotos de cuando era flaca, por llorar y comiendo un kit kat","sadness",0.604
@@ -693,7 +693,7 @@
 685,"Que horrible dormir con pantalon lpm","sadness",0.521
 686,"Porque demoran en Venirme a buscar?😠😠😅","sadness",0.479
 687,"@SayaTsundere17 saya se me acabo el cafe amargo!!","sadness",0.229
-688,"@AsisOberdan: "Lo de Lula me parece un espanto"","sadness",0.587
+688,"@AsisOberdan: Lo de Lula me parece un espanto","sadness",0.587
 689,"Oye @PcSegob hay momentos, de la nada, que mi corazoncito late rápid, no puedo respirar y siento que todo vibra 😭 Qué se hace? #mexico","sadness",0.625
 690,"¡Mas cansada,  imposible!","sadness",0.458
 691,"Creo que karol hizo bien en no ir a fans, estoy segura que se iba a sentir incómoda con las preguntas que seguro le harían","sadness",0.326
@@ -722,7 +722,7 @@
 714,"Esas personas que viven la #depresión y a oscuridad. No hay dinero que compre la salida, no la hay.","sadness",0.674
 715,"No sabía que estabas tan desesperada, chére.","sadness",0.521
 716,"Caliéntame con besos que yo no me enojo por eso.","sadness",0.188
-717,"Lamentablemente "por uno pagan todos".","sadness",0.563
+717,"Lamentablemente por uno pagan todos.","sadness",0.563
 718,"No han sacado nada de Banri ni Itaru y me siento muy indignada.","sadness",0.609
 719,"@laclaux Bah, era como evoluciones del mismo sueño, sobre una casa en Córdoba. Hace un par de años la encontré. ","sadness",0.354
 720,"A pero que lindo que anda el internet 🙄😒","sadness",0.250
@@ -731,7 +731,7 @@
 723,"Hablar de mi curso me da rabia y mucha tristeza al mismo tiempo","sadness",0.750
 724,"@ElNacionalWeb Después de que ha fregado a un montón de gente como miembro del Colectivo La Piedrita, va a salir con ese llanto. Cobarde.","sadness",0.521
 725,"@iharting @MeOpongoVenz Más que infeliz un CDEM","sadness",0.625
-726,"@anablabla "Ay no, yo también estoy triste por muchas cosas y no por eso tengo ganas de morirme mi alma"","sadness",0.698
+726,"@anablabla Ay no, yo también estoy triste por muchas cosas y no por eso tengo ganas de morirme mi alma","sadness",0.698
 727,"@Seargee Pero es que a mi me gusta VLC 😥 pero si ya abri bs player :(","sadness",0.417
 728,"Necesito salir en la oscuridad veo más claro que con dos soles, y es una porquería todo lo que se me atraviesa 😂","sadness",0.521
 729,"Las rolas de CoF SIEMPRE son larguísimas y siempre me sacan letras rebuscadas me cagan alv 😢","sadness",0.500
@@ -743,7 +743,7 @@
 735,"Me da miedo encontrar a alguien con quien me encariñe mucho y que después se vaya. 🙇🏻‍♀️","sadness",0.740
 736,"@Sr_Carlitos_ Tu me llevaste al lado oscuro 😏","sadness",0.375
 737,"@Lupitaaa27 @SofiaHdz1724 Jajaja i was a little but eres mi amiga no me enojo para siempre 🙄🌚","sadness",0.261
-738,""No creo en el pesimismo. Si las cosas no salieron como lo esperabas, sigue adelante. Si te empeñas lo consigues". Clint Eastwood","sadness",0.354
+738,"No creo en el pesimismo. Si las cosas no salieron como lo esperabas, sigue adelante. Si te empeñas lo consigues. Clint Eastwood","sadness",0.354
 739,"Hace 2 noches me siento una abuela por dormirme a las 11 pero el cansancio que tengo es inexplicable.","sadness",0.563
 740,"Sanguíneos en muchos casos. Se indica SIEMPRE que las pastillas pueden provocar trombosis y tienen otros efectos secundarios.","sadness",0.417
 741,"Mi mayor problema es que no puedo estar enfadado. Siempre termino perdonando a las personas, incluso cuando no lo merecen.😚","sadness",0.604
@@ -764,7 +764,7 @@
 756,"#PameAlaTarde Moria la tiene ca.....do a Pamela·!  Voy a opinar dice xq me tienen pintada!!! ahora los panelistas le piden opinión. #miedo?","sadness",0.500
 757,"@alexisperezf25 alegría inmensa y nostalgia porque no estas acá. te recordamos mucho","sadness",0.727
 758,"Quemada es poco😤","sadness",0.396
-759,"Hoy me contaron "historias de horror en un parto en el seguro social" jajajajajajaja y neta no puedo estar más agradecida con Dani...","sadness",0.333
+759,"Hoy me contaron historias de horror en un parto en el seguro social jajajajajajaja y neta no puedo estar más agradecida con Dani...","sadness",0.333
 760,"@NatashaCoronel No es nio tan grave, no se le desea que se le descomponga la ducha ni a tu peor enemigo 💔","sadness",0.543
 761,"@PrincxssGrimes «pesar de su dolor se levanto, me enfrento y asintió, pude notar la rabia en sus ojos, pero lo que mas dolió no fue saber»","sadness",0.688
 762,"El descontento, el cansancio, la obstinacion, LA ARRECHERA esta tomando el plano atmosférico en mi país!","sadness",0.813
@@ -800,7 +800,7 @@
 792,"@GusMenFox @clubleonfc Muy feo!! Horrible se ve la publicidad !!","sadness",0.417
 793,"Si eres tranquilo y confiado, o miedoso y con baja autoestima, depende de la dopamina (hormona del placer).","sadness",0.438
 794,"Locooo estoy re preocupada ","sadness",0.458
-795,"El suicidio es el capítulo final de una novela más larga e incomprendida. No se resuelve diciéndole a alguien que "no esté triste" y ya.","sadness",0.667
+795,"El suicidio es el capítulo final de una novela más larga e incomprendida. No se resuelve diciéndole a alguien que no esté triste y ya.","sadness",0.667
 796,"MI HERMANA SE ACABA DE LEVANTAR Y HA EMPEZADO A HABLAR PERO NO HA DICHO NADA EN ESPAÑOL Y ESTABA DORMIDA ","sadness",0.375
 797,"Recordé que un dentista estaba revisando mis dientes, se quitó los guantes e hizo movimientos obscenos con sus dedos en mi boca. ","sadness",0.375
 798,"@ResistentPatria @ScarletMoly ya estamos cansado d tanta baina x fabor","sadness",0.479

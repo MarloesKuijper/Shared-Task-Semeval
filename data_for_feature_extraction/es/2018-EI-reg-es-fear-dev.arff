@@ -1,4 +1,4 @@
-@relation repo/data/es/2018-EI-reg-Es-fear-dev.txt
+@relation ../../new_train/es/2018-EI-reg-es-fear-dev1.txt
 
 @attribute id numeric 
 @attribute tweet string
@@ -18,7 +18,7 @@
 10,"@Leila_Nash @chrisortizr_10 @danieljadue El cara de raja es un cobarde ni siquiera contesta","fear",0.438
 11,"Hoy comprobe que mi temor a las alturas es peor de lo que pensaba...","fear",0.896
 12,"@_chiarabisso Si escucho la alarma voy","fear",0.188
-13,"MEO: "En la Araucania NO hay terrorismo" #ElInformante","fear",0.333
+13,"MEO: En la Araucania NO hay terrorismo #ElInformante","fear",0.333
 14,"Me siento hasta nerviosa","fear",0.750
 15,"A veces me gusta ser chocante","fear",0.115
 16,"pensé que era algo malo. No me gustaba hacer esas cosas. Fue la noche más horrible de mi vida.","fear",0.875
@@ -64,7 +64,7 @@
 56,"@AguilaRey1 El #Sismo se sintió con fuerza en Guarenas/Guatire. Por donde trabajo, la gente salió a la calle ","fear",0.833
 57,"@violetlightstar @sarcasmshouts @arrowsftcry @delusivcbes @gcldndark Me perdí la pelea del año.","fear",0.292
 58,"Menos mal que remata al suelo! ","fear",0.354
-59,"Una persona misteriosa (no vale dejar comentarios) me pidio fotos.. supuestamente para un video "sorpresa" ??? ","fear",0.625
+59,"Una persona misteriosa (no vale dejar comentarios) me pidio fotos.. supuestamente para un video sorpresa ??? ","fear",0.625
 60,"Normalmente me chupa todo un huevo pero hoy estoy preocupado.","fear",0.761
 61,"No me enojo si alguien me da las buenas noches,ahr","fear",0.250
 62,"Me metí en la cama sin cenar de tan cansada que estoy, quiero  ver algo divertido, liviano pero no tonto. Qué veo en Netflix?","fear",0.196
@@ -75,7 +75,7 @@
 67,"Soy más ansiedad que persona","fear",0.729
 68,"Miedo es la primera vez que no puedes hechar el segundo; pánico, la segunda vez que no puedes hechar el primero. ","fear",0.667
 69,"okay hablando en serio, es a las 5am..... tendré que poner mi alarma t_t","fear",0.348
-70,""Esta alarma está establecida para dentro de 4 hs y 11 min", estoy llorando","fear",0.572
+70,"Esta alarma está establecida para dentro de 4 hs y 11 min, estoy llorando","fear",0.572
 71,"Yo tengo dos tipos de celos, los normales donde hasta digo que estoy celoso y en los que me enojo y me voy.","fear",0.563
 72,"T paso alguna vez?Vi x la puerta d la pieza pasar a alguien x el pasillo. Miro y no hay nadie.  #raro #Tepaso   #Espanto ","fear",0.813
 73,"Ayer antes de irme me salió lo de la escoba y hoy cuando me levanto sigue todo igual. ","fear",0.625
@@ -173,7 +173,7 @@
 165,"Necesito un abrazo sincero ","fear",0.413
 166,"@eloina_mogollon Si, se sintiò bastante fuerte en Guarenas el temblor ","fear",0.783
 167,"A ctm....estan pasando aviones cerca ...y helicópteros  .....estoy asustado necesito un abacho ;_;","fear",0.884
-168,"#Ollantahumala Espinoza: "El viaje de sus hijas a EEUU no constituye peligro de fuga porque aún depende de sus padres" @NuevoSolPeru","fear",0.417
+168,"#Ollantahumala Espinoza: El viaje de sus hijas a EEUU no constituye peligro de fuga porque aún depende de sus padres @NuevoSolPeru","fear",0.417
 169,"@ElAgussMoree Para no se ni que escribi , esto de ponerme ansiosa no es lo mio","fear",0.771
 170,"Mi única preocupación es que el wifi esté conectado","fear",0.604
 171,"Ambiente perfecto en #huesca para ver una peli de terror @DarkTV_es #tormenta #rayos terror ambiental uuuuuu #susto","fear",0.604
@@ -205,4 +205,4 @@
 197,"¿Que se siente ser orgasmo y verla siempre, y que no pueda esconderse? 📚","fear",0.521
 198,"@ImmersionMak En serio??? Jajaja en el mismo tren? ","fear",0.063
 199,"La puta madre que susto me pegué jajajajaja","fear",0.854
-200,""Si no conoces a los enemigos, ni te conoces a ti mismo, correrás peligro en cada batalla", #SunTzu.","fear",0.521
+200,"Si no conoces a los enemigos, ni te conoces a ti mismo, correrás peligro en cada batalla, #SunTzu.","fear",0.521

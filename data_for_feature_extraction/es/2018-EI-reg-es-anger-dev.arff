@@ -1,4 +1,4 @@
-@relation repo/data/es/2018-EI-reg-Es-anger-dev.txt
+@relation ../../new_train/es/2018-EI-reg-es-anger-dev1.txt
 
 @attribute id numeric 
 @attribute tweet string
@@ -11,10 +11,10 @@
 3,"Mi bateria se fue alv, no pude estar en Wattpad, que rabia :/","anger",0.854
 4,"#5HEsTrending Necesito verlas por favor 😭","anger",0.313
 5,"NOOO WE NO ESTOY ENOJADO, asi soy normalmente 🙄","anger",0.604
-6,"Está claro que están más de acuerdo con la ladrona de bebés en plan "una acusación sin pruebas" "Doña Dolores Baeza ha resultado ofendida"","anger",0.604
+6,"Está claro que están más de acuerdo con la ladrona de bebés en plan una acusación sin pruebas Doña Dolores Baeza ha resultado ofendida","anger",0.604
 7,"@MomokaRage Eso es que la habrá dejado un friki y estaba resentida.","anger",0.500
 8,"Dime si es verdad, me dijeron que estás cansado #SebastianVillalobos #PDCs #KCAMexico","anger",0.417
-9,""Si se enojan, no pequen; que el enojo no les dure todo el día. No le de oportunidad al diablo."","anger",0.354
+9,"Si se enojan, no pequen; que el enojo no les dure todo el día. No le de oportunidad al diablo.","anger",0.354
 10,"@narielg La pizza te quita el enojo? No comprendo tu sentir","anger",0.458
 11,"Dudes! Neta que se necesita estar bien pendejitos de la cabeza si piensan que con snaps asquerosos provocarán algo en una mujer.","anger",0.900
 12,"soy capaz de cualquier cosa, lo que sea con tal de provocar esa sonrisa en tu rostro mi amor.","anger",0.188
@@ -32,7 +32,7 @@
 24,"@danigr29 Y la foto como desde mucho antes 😂 aah pero ahí estás ignorando cuando te escribo por jugar de resentida","anger",0.543
 25,"@Irene_Montero_ Es el dinero de todas y debe responder. Que indignación y q impotencia.","anger",0.938
 26,"¿Habeis visto un dia de furia?. Hoy estoy de ese pelo, solo que no tengo motivos para estarlo. Igual es la edad, yo que se.","anger",0.625
-27,"Si me van a bardear busquen otro "insulto" porque el puta y quedada ya lo quemaron (Y me chupa un huevo también). Beso","anger",0.875
+27,"Si me van a bardear busquen otro insulto porque el puta y quedada ya lo quemaron (Y me chupa un huevo también). Beso","anger",0.875
 28,"Baby a veces me hago la enojada solo porque quiero el sexo de reconciliación.","anger",0.271
 29,"Habíamos peleando con Andrea y me dice para tomar Fernet y se me pasó el enojo Jejee (amordehermanas)♥♥♥","anger",0.370
 30,"@Factanonverbaa_ Quién cojones eres y por qué me estás stalkeando si no me he dirigido a ti en la vida. Serás otro ofendido en fin. Block.","anger",0.833
@@ -63,7 +63,7 @@
 55,"Cuando Me Enojo, Me Enojo Encerio.","anger",0.688
 56,"Mf chau re enojado","anger",0.854
 57,"Tuve gripe por dos días, mi mamá dice que sólo era llanto contenido: le creo. 😢","anger",0.292
-58,"No hay que dejar que el sentimiento se convierta en resentimiento. "No ha muchos nos pasa"","anger",0.354
+58,"No hay que dejar que el sentimiento se convierta en resentimiento. No ha muchos nos pasa","anger",0.354
 59,"@NanaBlurl Quien mierda es simone 😡","anger",0.646
 60,"Que partido se me fue de las manos la concha de la lora 😠","anger",0.771
 61,"Pasito a pasito, suave suavecito Nos vamos pegando, poquito a poquito, Hasta provocar tus gritos Y que olvides tu apellido.. DESPACITOOO","anger",0.239
@@ -78,7 +78,7 @@
 70,"Si prensa y opinión pública tolera la indignación con Ramos por irse igual del vecino, ¿por qué nosotros somos palmeros por indignarnos?","anger",0.583
 71,"Recién levantado y ya enfadado! Muy bien todo . Buenos días","anger",0.565
 72,"Me enferma estar enojada y que se rían, si me vieran la cara de orto no se reirían.","anger",0.833
-73,"Pues en su intento por insultarme me dijo "negro" y "marico" y me pregunto que cuál será el nivel de este ser al decirme eso como insulto","anger",0.625
+73,"Pues en su intento por insultarme me dijo negro y marico y me pregunto que cuál será el nivel de este ser al decirme eso como insulto","anger",0.625
 74,"@TubinoCarlos @KeikoFujimori Bah..solo vi la resentida de siempre!","anger",0.625
 75,"A veces me pregunto si soy yo la loca de mierda que se pelea con todo el mundo o las personas son tan pelotudas y tan problemáticas?!?!?!?!?","anger",0.729
 76,"Me gustaría ser político, pero ya tengo suficiente con la vergüenza ajena provocada por todos los partidos.","anger",0.489
@@ -125,7 +125,7 @@
 117,"No hay cristiano maduro, plantado en la Palabra, que tenga una excusa razonable para vivir su vida ofendido. - Pastor Brian Huston","anger",0.354
 118,"Coño! He acabado la carrera y aún no he sacado el libro de Física I del coche, ahí sigue decolorándose al sol! #venganza","anger",0.542
 119,"@LechugaEdson01 De ti no lo acepto sigo indignada","anger",0.688
-120,""Es que mi nivel de madurez es superior al de los demás"  - Una amargada.","anger",0.521
+120,"Es que mi nivel de madurez es superior al de los demás  - Una amargada.","anger",0.521
 121,"@FerivRivera Pero una que busca algo bien, ellos solo quieren diversión ","anger",0.313
 122,"Que incómoda me siento a veces","anger",0.370
 123,"Mae me enoja tener que dormirme enojada.","anger",0.792
@@ -164,7 +164,7 @@
 156,"OIGAAA COMO PUEDE VER MIS HISTORIAS DE INSTAGRAM SÍ NO ACEPTÉ LA SOLICITUD DE SEGUIMIENTO 😡","anger",0.688
 157,"Que feo,que anden matando gente en la calle,se ah puesto peligroso en Danlí,ya ni se puede salir a pie a comprar a la Pulpería. 😓😔😖","anger",0.563
 158,"Me enfurece la gente que desconoce la importancia de cada delegación en la Cd de México #ira 😠","anger",0.833
-159,""Nada se olvida más despacio que una ofensa; y nada, más rápido que un favor" Martin Luther King BUENOS DÍAS FELIZ MIÉRCOLES","anger",0.354
+159,"Nada se olvida más despacio que una ofensa; y nada, más rápido que un favor Martin Luther King BUENOS DÍAS FELIZ MIÉRCOLES","anger",0.354
 160,"Yo soy tannnn poco sentimental, tannn odiosa y tannn amargada q a veces pienso q a mí no me daban tetero sino ácido sulfúrico","anger",0.625
 161,"@TheRedPika Pero si no insulto a mi cuñado que cojones hago entonces","anger",0.729
 162,"@negrabh Qué pasó Eimmy? 🙁","anger",0.188

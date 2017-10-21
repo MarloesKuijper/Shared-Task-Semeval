@@ -1,4 +1,4 @@
-@relation repo/data/es/2018-EI-reg-Es-joy-train.txt
+@relation ../../new_train/es/2018-EI-reg-es-joy-train1.txt
 
 @attribute id numeric 
 @attribute tweet string
@@ -15,7 +15,7 @@
 7,"@AwadaNai la mala suerte del gato fichame la cara de help me pls","joy",0.250
 8,"#2MillonesDeMorrillos @heyitspriscila El sabado te vere hermosa,aqui en tijuana,estoy mega emocionada!!😍♥️","joy",0.833
 9,"@_Laura24 Esta bien hableme que yo no soy orgulloso","joy",0.450
-10,"a mi me dijeron "feliz dia" y no entendía porque, que garrón ser amigo mio","joy",0.354
+10,"a mi me dijeron feliz dia y no entendía porque, que garrón ser amigo mio","joy",0.354
 11,"Solicito seriamente que haya un festivo todas las semanas💋","joy",0.457
 12,"Nube, regresame las estrellas yo quiero encontrar la más brillante de ellas,  sueña corazón💙😇🎶","joy",0.542
 13,"nunca puede faltar una gallina de la suerte en votaciones #CD9 #Coders #AlonsoVillalpandoTrendy #KCAMexico","joy",0.523
@@ -64,7 +64,7 @@
 56,"@Genrus tu cumple y yo en las babas. Te quiero un mundo y deseo para ti todo lo bonito y lo sublime. Sé dichoso infinitamente. Besote, Juan.","joy",0.813
 57,"Orgullosa de ser aquella que tiene problemas y sonrie.","joy",0.542
 58,"Bojan no me tiene contenta.","joy",0.168
-59,""El dolor interior te está devorando, robándote la alegría y paralizando tu capacidad de amar... debes perdonar".","joy",0.208
+59,"El dolor interior te está devorando, robándote la alegría y paralizando tu capacidad de amar... debes perdonar.","joy",0.208
 60,"El sábado andaba como pico y las pibas de tango me trataron re bien, re cariñosas. Parece que tengo que andar así, para que me traten bien ","joy",0.548
 61,"Aparecen fotos de todos lados culia ","joy",0.188
 62,"Amo el negro Mario ","joy",0.646
@@ -97,7 +97,7 @@
 89,"Ya rompí récord ","joy",0.542
 90,"Extraño sentir sus manitos en mi cara, su risa, TODO 😭👶💕","joy",0.227
 91,"@Aaron070604 Estoy muy feliz en estos momentos de mi vida. Que significa que ando conociendo chicas 😄","joy",0.913
-92,"Cuando no están a mi nivel de ternura o buena onda u optimismo, me "molesto" un poquito🙂😂","joy",0.208
+92,"Cuando no están a mi nivel de ternura o buena onda u optimismo, me molesto un poquito🙂😂","joy",0.208
 93,"Es idea mía o tembló? Quizás estoy hueona y solo se me movió el piso a mi (? 😅","joy",0.500
 94,"Ver las imágenes que he subido a Twitter es que si lo más vergonzoso ","joy",0.208
 95,"Quien tiene un amigo, tiene dos almas... Feliz día !","joy",0.826
@@ -135,7 +135,7 @@
 127,"Estoy muy contento 😋😋😋 #FelizLunes #LunesDeGanarSeguidores #Contento #25Sep","joy",0.938
 128,"Mi sobrino hoy ayer se graduó del kinder y no saben la dicha y el orgullo que me siento de el:')","joy",0.813
 129,"A veces no sé como hago para hablar tantas cagadas con total naturalidad... ","joy",0.250
-130,"@_HijaDeMiMadre Ahhh jajaj leí "yo quería dormir hoy" ","joy",0.545
+130,"@_HijaDeMiMadre Ahhh jajaj leí yo quería dormir hoy ","joy",0.545
 131,"A disfrutar este fin de semana porque el lunes se me acaba la dicha.😶","joy",0.333
 132,"@mariobautista_ Nos vemos muy pronto, estoy muy orgullosa de ti gracias por todo🙈❣️","joy",0.739
 133,"@vianeySk Éxito éxito éxito!  🙌  Si se puede 😊","joy",0.750
@@ -170,7 +170,7 @@
 162,"Muriéndome de sueño pero aquí ando y mañana me despierto a las 5 AM, muy bien Eveleen ","joy",0.313
 163,"@DebRyanShow #Rayito hay un ligero punto donde ya parece trabajo de tanto que publicas y deja de ser divertido 😥","joy",0.125
 164,"Es el chiste más gracioso que me han contado 🤗😂","joy",0.804
-165,"@yicoretas Jajajaja super joto "en la pgr para denunciar sus @"  ","joy",0.413
+165,"@yicoretas Jajajaja super joto en la pgr para denunciar sus @  ","joy",0.413
 166,"Estoy escabiando desde las 11 de la mañana tipo me desayune una birra y me voy a ir tomando una ","joy",0.354
 167,"JASJJAJSJA En definitiva no hay nada mas chistoso que mi papá con celos.","joy",0.870
 168,"Soy una fan oculta de damas gratis ","joy",0.543
@@ -225,7 +225,7 @@
 217,"@mandrilles Descanse en la tarde. gracias amigo.   ","joy",0.521
 218,"@laresolana @elcapiperez no me hagas esto, ya me quería dormir y ahora tendré que ver la resolana ","joy",0.217
 219,"@KayleMathers_ @softrapline me estoy quemando la cabeza leyendo en inglés y tratando de hacer teorías. tu amiga es afortunada xD 💟","joy",0.313
-220,""Rock of ages" de Tom Cruise en argumento no es tan buena, pero su soundtrack es espectacular. Para los amantes de la música de los 80s ","joy",0.479
+220,"Rock of ages de Tom Cruise en argumento no es tan buena, pero su soundtrack es espectacular. Para los amantes de la música de los 80s ","joy",0.479
 221,"@Ivonnepapa O ustedes que todavía tienen a quien besar ","joy",0.500
 222,"@KevenYHensy Una madre tiene que estar orgullosa de su hijo, más con ustedes, que han hecho tanto.😅💙","joy",0.652
 223,"He tomado la decisión de no utilizar Waa por un tiempo, no debo explicaciones a nadie del por qué lo he hecho. Hay muchos ardidos por eso. 😅","joy",0.188
@@ -238,11 +238,11 @@
 230,"Juega escuhar musica 🤙🏼","joy",0.438
 231,"@MilyGrandis Jaja de nada. ","joy",0.563
 232,"@Miguel_layun Hay que cosas le sale lo gruñon a @JorgeGonzalezGo animo optimista te sigo apoyando","joy",0.771
-233,"(...) que vos muchachita sigas alegre y dolorida  poniendo en tus ojos el alma  y tu mano en mi mano."  Mario Benedetti","joy",0.438
+233,"(...) que vos muchachita sigas alegre y dolorida  poniendo en tus ojos el alma  y tu mano en mi mano.  Mario Benedetti","joy",0.438
 234,"@NicoChiessa Ajajaj ahora estaba leyendo sobre ese ","joy",0.521
 235,"Vivo #feliz, #vivo #Danzando, vivo mi #música, vivo #bailando","joy",0.813
 236,"Que genial esas personas que no llevas ni 10 minutos hablando y ya te habla con altísima confianza, aguante la gente confite caretas","joy",0.652
-237,""Estoy perdiendo como 2 cm de músculo por estar hablando contigo." -@Eozmar ","joy",0.208
+237,"Estoy perdiendo como 2 cm de músculo por estar hablando contigo. -@Eozmar ","joy",0.208
 238,"@CandeMazzuchino 😹😹😹 quiero estar BIEN negra radiante","joy",0.604
 239,"Hoy anduve re Chinito esto de la resaca jaj ","joy",0.438
 240,"@MexicanCodersMX Ya me había emocionado  #CD9 #Coders #AlonsoVillalpandoTrendy #HarryStyles #KCAMexico","joy",0.604
@@ -264,7 +264,7 @@
 256,"No que loco,@AlvaroAmbrosi10  le puso fv a mis cosas. me siento famoso jaja ","joy",0.604
 257,"@_Vikinga_ @whitesheeptw jajajaja así es  ","joy",0.708
 258,"Mis viejos recien ahora me cargan por algo que paso hace como dos días, ya se de dónde salí tan colgada ","joy",0.304
-259,"Mi momento favorito de Cirque Du Soleil fue cuando se escuchó un hermoso "@sebastianpinera conshetumare" seguido de aplausos.","joy",0.667
+259,"Mi momento favorito de Cirque Du Soleil fue cuando se escuchó un hermoso @sebastianpinera conshetumare seguido de aplausos.","joy",0.667
 260,"Hoy les iba a contar una historia bien chistosa de algo que pasó en la defensoría, pero ya tengo sueño. Mejor mañana. :3","joy",0.500
 261,"Ahora si dormiré tranquilo 😅","joy",0.522
 262,"Raúl se ha vuelto tan grosero ","joy",0.146
@@ -280,7 +280,7 @@
 272,"| Esa imagen mental es la segunda más graciosa que tengo en este aspecto.","joy",0.652
 273,"@Maribolika ¿Qué se te antoja? ","joy",0.217
 274,"Liar , liar , liar ","joy",0.152
-275,"Me dice "Feliz dia" y me lo re trance, amigos son los de abajo y se golpean😂👋","joy",0.522
+275,"Me dice Feliz dia y me lo re trance, amigos son los de abajo y se golpean😂👋","joy",0.522
 276,"Aprendí que mi felicidad depende mas de mi y que la familia es la única que siempre esta pa' ti.","joy",0.668
 277,"@bravedreammer @marcelosopla @zinxsoficial pelotuda jajjajaj 5 años de comu y se comunican con gifs ","joy",0.563
 278,"@HeavyDirtyLine_ ¡¡¡FELIZ CUMPLEAÑOS!!! Fuiste una de las primeras personas que conocí y aunque casi no nos hablemos te tengo en mi corazón.","joy",0.771
@@ -294,7 +294,7 @@
 286,"Me usaron de amuleto sin que yo sepa y central perdió 4-0 ","joy",0.188
 287,"Que rara se siente esta nueva vida. Ya no recordaba lo que era estar en mi casa a las 5pm #Felicidad","joy",0.500
 288,"@sashncastillo Tenemos que ir a quitarnos ese antojo ","joy",0.458
-289,"Necesito personas que digan a todo "si" y no que salgan con "peros" ","joy",0.313
+289,"Necesito personas que digan a todo si y no que salgan con peros ","joy",0.313
 290,"Todavía tengo amigos que me quieren como soy. ¡Feliz día del amigo!","joy",0.833
 291,"Me dan risa los memes de 3 doritos después, pero tambien me ponen triste.","joy",0.396
 292,"@El_Universal_Mx Pues a esperar más explosiones de júbilo y alegría por dicho nombramiento.","joy",0.727
@@ -307,14 +307,14 @@
 299,"@Juliococo Ojalá alguien tenga el guaramo de pronunciarse. Aunque no soy muy optimista al respecto. Surgirá un milagro???","joy",0.292
 300,"La oportunidad de estudiar una carrera, se que desde el cielo estás muy orgulloso de... #SebastianVillalobos #PDCs #SaakTrendy #KCAMexico","joy",0.500
 301,"@soumya_sajal @itsrkkc Super 30 confirmed ","joy",0.438
-302,"Me gustó el anuncio de #TAKIS, el del "ex" jajajajaa ","joy",0.688
+302,"Me gustó el anuncio de #TAKIS, el del ex jajajajaa ","joy",0.688
 303,"Tomó coca cola y leo ganglios de la base ","joy",0.333
 304,"@tintadearena Qué bien! 😃","joy",0.563
 305,"Hace mucho que no veía 50 sombras de Grey. ","joy",0.479
 306,"@NekoJitaBlog Pues eso, que él defiende que deben dormirse en su cama... ","joy",0.188
 307,"Quiero hacer mis propias viñetas y una ilustradora random...soñare en un personaje(:  deseadme suerte","joy",0.565
 308,"@fotosguate Dichoso que tienes, yo debo, pero pagarlo😢 😂😂😂","joy",0.250
-309,""Aries, entre menos en serio te tomes el amor mejor te irá" 😂","joy",0.521
+309,"Aries, entre menos en serio te tomes el amor mejor te irá 😂","joy",0.521
 310,"A las 8 me tengo que levantar y no puedo dormir ","joy",0.229
 311,"Ise muchas cosas por vos que hoy en día no me arrepiento ","joy",0.375
 312,"Que sea lo que dios quiera, que sea 😃","joy",0.521
@@ -347,11 +347,11 @@
 339,"Me parece increíble los consejos que me da mi bestie. ","joy",0.647
 340,"Ir a su casa y ponerle una goliza en el FIFA: me siento entretenido(a)","joy",0.609
 341,"La noche está bien, ahora, elevate hasta el cielo, hazme sonreír así para siempre.","joy",0.833
-342,""Quien tributa en tu país ayuda a mejorar tu bienestar" Eso ponía en un taxi. Qué mal se defienden.","joy",0.333
+342,"Quien tributa en tu país ayuda a mejorar tu bienestar Eso ponía en un taxi. Qué mal se defienden.","joy",0.333
 343,"@Frantuitti Te llevarás mejor con mi mamá xd ven a ver sus dramas a la casa... Lo ama con pasión y locura ","joy",0.587
 344,"Todos los días me despierto orgulloso de los amigxs que elegí 😀","joy",0.833
 345,"@Mirandasv10 Llámame vos ","joy",0.283
-346,"3. Pero lo mejor fue la estocada: Lizarazo, sonriente, mira a Escobar Gil y le dice: "Por cierto, el ponente de esta sentencia fue Ud." ¡Ja!","joy",0.542
+346,"3. Pero lo mejor fue la estocada: Lizarazo, sonriente, mira a Escobar Gil y le dice: Por cierto, el ponente de esta sentencia fue Ud. ¡Ja!","joy",0.542
 347,"@itsjoelpimentel ¡Estoy tan emocionada, mañana voy al concierto!🎉🙃","joy",0.891
 348,"@clssypoetry Al carajo, te amo infinitamente. Soy afortunado de tenerte y saber que estas para mi. Siempre estaré a tu lado, mi niña.","joy",0.771
 349,"Juega vivo y piensa mal","joy",0.250
@@ -388,7 +388,7 @@
 380,"Guanlin con quince es el segundo más alto del grupo. El basquet le va perfecto así seguramente juega muy bien.","joy",0.438
 381,"@lennycia Jajaja...  Ya seee ","joy",0.458
 382,"@AlexMurilIo Si, que ella anda en carro y tú a pie ","joy",0.167
-383,"Lo bueno, respecto a mi Husky y luego de ver "todos los perritos se van al cielo" y "el propósito de un perro", guardo alegría y esperanza.","joy",0.478
+383,"Lo bueno, respecto a mi Husky y luego de ver todos los perritos se van al cielo y el propósito de un perro, guardo alegría y esperanza.","joy",0.478
 384,"@DebRyanShow @TecnopolisNC #RutaPais2032 Mucha suerte🙏❤","joy",0.563
 385,"Cosquin, Tandil, Tucuman, Jujuy y Salta. Y todavia falta V. Gral Belgrano y Cataratas 😍 Creo que este  fue el año que mas viaje #felicidad","joy",0.891
 386,"Amo tu sonrisa...","joy",0.717
@@ -409,13 +409,13 @@
 401,"Lo peor es que ella habla como si en católica te preguntaran nombres de autores y cosas así, por ser literatura, es tan gracioso.","joy",0.522
 402,"No pagues mas karaoke con animación luces pantallas humo y toda la diversión Separa tu fecha 9811864230","joy",0.479
 403,"@AndresParcerito Y yo de la limonada de limón ","joy",0.500
-404,"Yo no hago las cosas para "callar bocas", yo las hago por satisfacción propia, locas.","joy",0.458
+404,"Yo no hago las cosas para callar bocas, yo las hago por satisfacción propia, locas.","joy",0.458
 405,"Sé que revisas mi perfil así mira esto MI AMOR! #FELIZ #PorelMundo #contigoemtodolado","joy",0.652
 406,"Real ver a Mario es como si me dieran una fórmula para sonreír todo el tiempo.","joy",0.750
 407,"Ya los vans ahora ahorrar 110 para los suede😂 suerte Lorena😩","joy",0.370
 408,"@riveraalfaro_ A mi me resultaba con cosas heladas siempre tomaba helado en esos casos 😅","joy",0.479
 409,"Esto esta entretenido no me pinta dormirme ni ahi","joy",0.500
-410,""Siempre rie cuando puedas!... Es medicina barata: 👌😜💪  Lord Byron  #Sencillo #Felíz #HayQueReir #ParaNoLLorar","joy",0.750
+410,"Siempre rie cuando puedas!... Es medicina barata: 👌😜💪  Lord Byron  #Sencillo #Felíz #HayQueReir #ParaNoLLorar","joy",0.750
 411,"@BBarbip Jajajajajajaja no puedo, es de confidencialidad eso ","joy",0.563
 412,"brayand y yo no nos podemos  juntar porque la descargamos  con todo el mundo ","joy",0.333
 413,"@Letibohemio Repechaje amiga ","joy",0.313
@@ -489,7 +489,7 @@
 481,"@anettemicheltv me podrías mandar un 💋 de Buenas Noches? ","joy",0.522
 482,"No tengas un cuerpo delgado, ten uno fuerte, rápido, ágil y en forma.","joy",0.409
 483,"@Luladebrackets Rose, la de Titanic ","joy",0.354
-484,""Salimos" pone en la foto jajajajajajajajajaja, amo a mi mamá ","joy",0.870
+484,"Salimos pone en la foto jajajajajajajajajaja, amo a mi mamá ","joy",0.870
 485,"¿Juega desde ya?","joy",0.458
 486,"Si me gusto la feria 😍","joy",0.708
 487,"Sabes que no hay marcha atrás cuando comienzas a sonreír cada vez que hablas con esa persona. 😊","joy",0.833
@@ -507,7 +507,7 @@
 499,"A mi aveces se me olvida que existe Messenger y respondo a las horasss jaja ","joy",0.457
 500,"@YamelPO97 A mi me estresan pdl pero no puedo dejar de verlos ","joy",0.348
 501,"@mariobautista_ Y sho que :v ntc te amo mi amor 11:14 orgullosa de decir q soy bautister","joy",0.854
-502,"@Karinabarbosa kari? Te refieres a . .  "orco" el de la serie animada . . . . . He-Man?","joy",0.378
+502,"@Karinabarbosa kari? Te refieres a . .  orco el de la serie animada . . . . . He-Man?","joy",0.378
 503,"Zuckerberg como no me venís a tocar el himno de la alegría con la quena, guampudo.","joy",0.478
 504,"@sigridalegria Siempre brilla la #Alegría 😉","joy",0.826
 505,"@cllnahhue JAJAJAJA estallé mal, cualquier parecido con la realidad es pura coincidencia 😅","joy",0.630
@@ -539,7 +539,7 @@
 531,"Personas, momentos, mensajes, cosas que te llenan el alma. #Feliz","joy",0.875
 532,"@francellabrenes Literal no he ni visto el temario ni nada ","joy",0.271
 533,"Veo mis notas en la U y por primera vez me siento orgulloso, increible","joy",0.833
-534,""Queee pesados están los atunes"  -Mi hermana acomodando los viveres en la escuela ","joy",0.292
+534,"Queee pesados están los atunes  -Mi hermana acomodando los viveres en la escuela ","joy",0.292
 535,"¿Que sería de mi sin esos tres “jajaja”? Siempre me salvan de dejar en visto a la gente que medio me agrada 😂","joy",0.708
 536,"@Ana_Monjes14 Que persona agradable es usted","joy",0.609
 537,"31 la mejor por lejos, te adoro un monton, nunca me faltes, responde algo lindo o borro el tw ","joy",0.521
@@ -588,7 +588,7 @@
 580,"@TaniaPiri18 Ven tu amiga , estoy viendo greys ","joy",0.409
 581,"La milsgros me mando un mensaje y me puso TE AMO , jamas en la vida me habia demostrado tanto amor.. estoy emocionada","joy",0.875
 582,"Me comí el cereal ya ","joy",0.391
-583,"@aliciaenp Ajajjaa somos del clan twitteras perdidas pa eventos "importantes" ","joy",0.542
+583,"@aliciaenp Ajajjaa somos del clan twitteras perdidas pa eventos importantes ","joy",0.542
 584,"No debe haber cosa mas linda que ver a la gente sonreír !!","joy",0.875
 585,"@mac1eod te acompaño 😊","joy",0.542
 586,"Después de un día CERO productivo, ya quiero ir a trabajar ","joy",0.354
@@ -629,7 +629,7 @@
 621,"Feliiiz Cumple Pasala Genial te Kiero Pibeee!❤ @BarnecheMatias","joy",0.913
 622,"@Jseute Las mejores personas llegan sin buscarlas.  😄","joy",0.542
 623,"Soy la más emocionada porque ya puedo poner emojis a mis contactos 🎉","joy",0.826
-624,""Hasta el hueso" una de las pelis que quería que durará más ","joy",0.457
+624,"Hasta el hueso una de las pelis que quería que durará más ","joy",0.457
 625,"Ya estaba emocionada de tener roomie 🙄","joy",0.478
 626,"La estrella más grande y brillante eres tú 👼","joy",0.708
 627,"@celinegm_ @RudneyCoelho @lindberghfarias Coméquedorme ","joy",0.326
@@ -658,7 +658,7 @@
 650,"Me bajo mucho en la hermana del  raton, pero es que es igual de invivible que el. ","joy",0.354
 651,"Me da risa caerle mal a la gente","joy",0.348
 652,"@Sargentoleon @PremiosTuMundo ¡ A  VOTAR !  Todas las bendiciones y éxito , LeónHermozaa , ❤🙏👏 y  ¡SUERTE! 😍😘","joy",0.813
-653,"Días singulares, donde Papá ve "Los Pitufos", Mamá hace un flan a las 1am, mi hermano ve maratón de OITNB y yo hago hotcakes a las 3 am ","joy",0.545
+653,"Días singulares, donde Papá ve Los Pitufos, Mamá hace un flan a las 1am, mi hermano ve maratón de OITNB y yo hago hotcakes a las 3 am ","joy",0.545
 654,"Te quedo Rico Angela 😀 #MasterChefMx","joy",0.521
 655,"Sin duda, por fortuna, ahora me encuentro lejos de tener los nudillos reventados y la mente atormentada.","joy",0.477
 656,"No superó la noche  de ayer ","joy",0.458
@@ -705,7 +705,7 @@
 697,"Es muy fácil sonreír  y filosofar cuando es otro el que esta echo mierda","joy",0.208
 698,"@michellelovera5 @chochos Jajaja  igualitas ","joy",0.652
 699,"@cacorrorrea77 @ZeusSuspendido La meta la pones tú 👊🏼! ah no perdón me equivoqué de bebida ","joy",0.375
-700,"Los memes de "1min, no menos, como a 5" mejoraron mi fin de semana ","joy",0.542
+700,"Los memes de 1min, no menos, como a 5 mejoraron mi fin de semana ","joy",0.542
 701,"@audiomano A mí tampoco me agrado mucho eso. Especialmente por tratarse de él. No hay justificación.","joy",0.104
 702,"Creo que voy a borrar snapchat a la mierda ","joy",0.125
 703,"Lo crucé a Damian disfrazado todo loco ","joy",0.542
@@ -716,7 +716,7 @@
 708,"Hay gente que merece que le hagas una diapositiva en un pendrive explicándole todo y asi pueden irse a L.C.D.S.M ","joy",0.146
 709,"@adosvoces_tn jaja que genial bonelli y compañia, ahora creen en encuestas? Gano Vidal 😳 Gano Trump 😳 y dijeron q no servian! #PocaMemoria","joy",0.370
 710,"@ViviendodelasP un cago de risa esa escena. tambien la de burbage con molly y cuando agnes recibe a marlowe.","joy",0.646
-711,"@Javan_nunez Lo gracioso es que mucha gente no se da cuenta de eso, que solo son "personajes"...","joy",0.479
+711,"@Javan_nunez Lo gracioso es que mucha gente no se da cuenta de eso, que solo son personajes...","joy",0.479
 712,"Solo espero que la persona que te gusta no te felicite hoy.  ¡Feliz Día del amigo!","joy",0.583
 713,"@ItzelBarajaas Te sigo de hace tiempo, y hoy tuve la fortuna de verte en el estadio, quise hablarte pero me dio pena😂🔴⚪","joy",0.478
 714,"@CristinaMachuca Chuuu.. tengo mala suerte en el juego, siempre!","joy",0.196
@@ -745,7 +745,7 @@
 737,"@MoeR_10 hasta ahora nunca he entrado a una clase de perspectiva ","joy",0.438
 738,"Hoy me atendió un mozo q me gustó. Llegué a mi casa y no se cómo mierda hice pero ya averigüe nombre apellido y gusto musical entre otros.","joy",0.583
 739,"@Danmaldonado18 Chamo, son las 12:44 am ","joy",0.283
-740,""agustina es la primera vez que sale y no está contenta eso xq no va algún chongo de ella seguro" Chicas basta.","joy",0.167
+740,"agustina es la primera vez que sale y no está contenta eso xq no va algún chongo de ella seguro Chicas basta.","joy",0.167
 741,"mañana sin verano #felicidad","joy",0.771
 742,"Ahora se viene la mejor parte de Encantada lpm✨✨✨✨","joy",0.604
 743,"Estaba animado a hacer algo k no es usual en la mua pero este dia se fue del qlo >:v","joy",0.375
@@ -754,7 +754,7 @@
 746,"@Nicotalleres98 Jajajaja Naa 😆","joy",0.667
 747,"La Selección De #Panama Es Muy Conformista, Jugar Bien Y No Ganar Es Aplauso Y Victoria? Hasta Cuando Con Eso? #CopaOro","joy",0.354
 748,"Mañana es festivo y por alguna extraña razón estoy triste.","joy",0.125
-749,""Se vale estar triste, Se vale no siempre ser la persona alegre que todos quieren, Se vale no querer hablar con nadie. Se vale ser humano."","joy",0.167
+749,"Se vale estar triste, Se vale no siempre ser la persona alegre que todos quieren, Se vale no querer hablar con nadie. Se vale ser humano.","joy",0.167
 750,"Me aburre la gente que sigue a las masas, que no se la juega, que no rompe reglas.","joy",0.208
 751,"dame de tus labios, quiero verte sonreír","joy",0.521
 752,"No entiendo porqué tengo que madrugar un festivo, no entieeendo.","joy",0.174
@@ -767,7 +767,7 @@
 759,"@KevenYHensy Hasta Yo Estoy Orgullosa😍","joy",0.688
 760,"@nidiaferr_ Con mucho gusto 🌮😂","joy",0.708
 761,"el directo de hernan me dio toda la felicidad, @hchampionsliga te voy a escuchar siempre.","joy",0.813
-762,"@blackjim7 JAJAJAJAJAJAJA pinche manchado, versión "te lo juro que no estoy amargada" ","joy",0.646
+762,"@blackjim7 JAJAJAJAJAJAJA pinche manchado, versión te lo juro que no estoy amargada ","joy",0.646
 763,"@avilesmgl Yo tenia años sin ir, me gusto volver; hay agua, no como hace años. Descansa ","joy",0.625
 764,"Me imagino a los narcos yendo a la pape por sus cartulinas de colores 😂","joy",0.455
 765,"Las ganas que tenia de tomar una cerveza bien friaaa, lo unico que pude aprovechar hoy de la carpa 😂","joy",0.625
@@ -798,7 +798,7 @@
 790,"@Ceci_Remigio @Julia_ChefMX Es tan neta cómo el fin del mundo pasado ","joy",0.458
 791,"@karma_guizmo En lugar de un novio, te brindo un amigo sincero que disfrute la peli que elijas ","joy",0.417
 792,"@Mariangel1888 De cerca no es tan buena 😂","joy",0.438
-793,""El único Espada que me resulta ligeramente agradable es Zommari. Me respeta como superior y no perturba mi existencia."","joy",0.625
+793,"El único Espada que me resulta ligeramente agradable es Zommari. Me respeta como superior y no perturba mi existencia.","joy",0.625
 794,"Juega conmigo lorena ah","joy",0.292
 795,"Parce pues normal ","joy",0.374
 796,"@martamendoza5 Has el baloto porque estas de una suerte bravaaaaa","joy",0.370

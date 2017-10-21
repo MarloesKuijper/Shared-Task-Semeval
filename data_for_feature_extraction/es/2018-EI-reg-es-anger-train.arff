@@ -1,4 +1,4 @@
-@relation repo/data/es/2018-EI-reg-Es-anger-train.txt
+@relation ../../new_train/es/2018-EI-reg-es-anger-train1.txt
 
 @attribute id numeric 
 @attribute tweet string
@@ -6,14 +6,14 @@
 @attribute score numeric 
 
 @data
-1,"Siempre me parecio un insulto,considerar que el vulgo necesita lideres que les orienten y den ejemplo Iluso, pense que no necesitaban \"guia\"","anger",0.609
+1,"Siempre me parecio un insulto,considerar que el vulgo necesita lideres que les orienten y den ejemplo Iluso, pense que no necesitaban guia","anger",0.609
 2,"Historias de un toledano enfurecido","anger",0.604
 3,"@danuhfX Este tweet ha ofendido a los latinoamericanos","anger",0.646
 4,"@michellevilaroo No puedo ","anger",0.354
 5,"Algunos tienen más de lo que merecen, lamentablemente siempre va a ser así.","anger",0.479
 6,"Un asco me quedo el pelo 😤😤","anger",0.521
 7,"Yo no me enojo, solo me decepciono, miro, pienso y me alejo si es necesario.","anger",0.583
-8,"'Sé que no es una ofensa pero me la voy a tomar como tal.' @suicidiofeliz","anger",0.500
+8,"Sé que no es una ofensa pero me la voy a tomar como tal. @suicidiofeliz","anger",0.500
 9,"@alejandromesias Justo eso quiero evitar... la tristeza!","anger",0.313
 10,"@Matglez Vergonzoso el papelito del Madrid. Hace como que va a pagar más para provocar la negativa y así ahorrarse la pasta. Patéticos","anger",0.820
 11,"@sunb8er @SangradoDurazno @strngmxc papi acá ya lo están contratando para que tome unas fotos de una pelea","anger",0.348
@@ -41,7 +41,7 @@
 33,"@CyDLeonesa mucho NO SOCIO pasando en la cola delante de socios eligiendo sitio.  Mucho socio indignado y esto va lento no, lo siguiente.","anger",0.750
 34,"@Fginer @CsValencia_C @CsCValenciana @CiudadanoVille @Albert_Rivera 👏🏻👏🏻👏🏻 ¡Muchas gracias por haberlo peleado!!","anger",0.333
 35,"Indignación e impotencia al ver como nos ningunean, nos faltan al respeto y pisotean el escudo de nuestro club.","anger",0.833
-36,"@ZettaOfficial El \"lobo\" de los tres cerditos. Sigo indignado.","anger",0.727
+36,"@ZettaOfficial El lobo de los tres cerditos. Sigo indignado.","anger",0.727
 37,"Los débiles toman venganza, los fuertes perdonan y los inteligentes simplemente los ignoran.","anger",0.438
 38,"Hoy, a pesar de los reclamos de miles de ciudadanos, el @INEMexico aprobó por unanimidad lineamientos para censurar las redes sociales.","anger",0.563
 39,"Tengo un antojo terrible de cafesito 😢","anger",0.250
@@ -58,8 +58,8 @@
 50,"Hoy me tomé el caffè mocha más amargo de mi vida.","anger",0.396
 51,"No me duro ni medio día el enojo, eso es bueno y significa mucho","anger",0.333
 52,"kihyun perdió el piedra, papel o tijera con wonho y le dio tremendo empujón a hyungwon JASJASJSAJSAJSAJ","anger",0.313
-53,"Defensa de #OllantaHumala dijo que fiscal señala \"las niñas generan peligro\". Parece que no se entero de los millóncitos de esas niñas.","anger",0.500
-54,"Mi superagenda handmade me dice hoy:\"Por cada minuto que estas enfadada pierdes sesenta segundos de felicidad\"😀😀😀","anger",0.396
+53,"Defensa de #OllantaHumala dijo que fiscal señala las niñas generan peligro. Parece que no se entero de los millóncitos de esas niñas.","anger",0.500
+54,"Mi superagenda handmade me dice hoy:Por cada minuto que estas enfadada pierdes sesenta segundos de felicidad😀😀😀","anger",0.396
 55,"Me volveré amargo si un dulce  no toca mi corazón","anger",0.250
 56,"Me rechoca este wey 😠","anger",0.792
 57,"@mtzmariana5 Aun no sabe ? Le ira bien !","anger",0.125
@@ -126,7 +126,7 @@
 118,"@luciamcias La vida esta enojada conmigo, yo soy feliz","anger",0.283
 119,"#CuandoTengoHambre HUYE. En serio, todo lo que puedas. Cuanto más lejos mejor o mi ira caerá sobre tu vaca, tu familia y sobre ti.","anger",0.604
 120,"amelia entró en pánico","anger",0.479
-121,"Echenique:\"Esto le sirve al PP para insultar a Carmena1mujer q es jueza y q ha luchado toda su vidaxlo derechos humanos\".👏 #HomenajeBlancoEP","anger",0.563
+121,"Echenique:Esto le sirve al PP para insultar a Carmena1mujer q es jueza y q ha luchado toda su vidaxlo derechos humanos.👏 #HomenajeBlancoEP","anger",0.563
 122,"Mc estar enojada con mi hermano porque veo algo y lo quiero etiquetar pero mi orgullo no me dejaaa","anger",0.563
 123,"Bola de pendejos sin madre los que están asaltando coches en medio del tráfico #Rabia","anger",0.966
 124,"Soy el perfecto ejemplo de una tuitera enojada y tiste. Bye.","anger",0.739
@@ -217,7 +217,7 @@
 209,"Es peligroso acostumbrarse a alguien","anger",0.547
 210,"La ironía que amo las plantas y nunca me regalaron ni un ramo de flores cortado de una alguna casa #Tristeza","anger",0.542
 211,"A veces, cuando horadaban una pared en busca de oro, encontraban en su lugar vapor, o agua hirviendo, o roca fundida.","anger",0.313
-212,"El suicidio es el capítulo final de una novela más larga e incomprendida. No se resuelve diciéndole a alguien que \"no esté triste\" y ya.","anger",0.458
+212,"El suicidio es el capítulo final de una novela más larga e incomprendida. No se resuelve diciéndole a alguien que no esté triste y ya.","anger",0.458
 213,"Ninguna de mis amigas me escucha cuando les hablo. ","anger",0.646
 214,"tengo un sueño cb y Edwin sigue hirviendo huevo","anger",0.354
 215,"Nooo hoy quedo sola ","anger",0.354
@@ -244,9 +244,9 @@
 236,"« daño que le hiciera a pesar de ser un crío desde su punto de vista. Ni cómo podía acabar. Volvió a pegarle una vez más, esta vez en la »","anger",0.521
 237,"Que perra del orto no para mas de torear","anger",0.875
 238,"@Rubensalazar02 visita villa del cielo bajando por mi vaquita, una pelea de ayer que solo puede ser noticia en cartagena hoy, sin licencia!","anger",0.523
-239,"Como se dice \"el tren atropello al perro\" en frances? Le chu chx mato le gua gua...","anger",0.146
+239,"Como se dice el tren atropello al perro en frances? Le chu chx mato le gua gua...","anger",0.146
 240,"Un asco a la gente resentida..","anger",0.630
-241,"\"Practiquen el derecho y la justicia. Libren al oprimido del poder del opresor.\" - Jeremias 22:3","anger",0.313
+241,"Practiquen el derecho y la justicia. Libren al oprimido del poder del opresor. - Jeremias 22:3","anger",0.313
 242,"Preguntame si vamos a ir con toda la furia este sab","anger",0.609
 243,"Mi mamá me puso a cocinar con la Olla de presión, es normal que le tenga pánico a ese artefacto de cocina ?? ","anger",0.333
 244,"@WindyGirk me puedes pasar pack sin ofender porfavor","anger",0.326
@@ -276,11 +276,11 @@
 268,"@nxtciphermr_ [ + ] niño de 13 años amargado y cruel, pero eso no impidió que su curiosidad hacía aquel evento se [ + ]","anger",0.438
 269,"Iría a molestar a mi amiga Laura porque estoy tan aburrida. Pero esta re frío.","anger",0.333
 270,"Ahora pasé de estar enojada a decepcionada","anger",0.604
-271,"Me dicen \"sin ofender\" y me ofende un vergo","anger",0.729
+271,"Me dicen sin ofender y me ofende un vergo","anger",0.729
 272,"Estoy segura de que este hilo es especista y he ofendido a no menos de cinco o seis colectivos oprimidos. Lo siento de veras.","anger",0.413
 273,"Pero me aguanté y me intenté volver a dormir y me levanté como a las 6/6:30, y ahora estoy cansado y furioso","anger",0.917
 274,"*llevo un mes tosiendo* La médica: no se te ve nada, tendrás la garganta irritada Tu eres tonta o qué? Claro que si, y por eso he venido","anger",0.708
-275,"Me da mucha rabia cuando poneis: \"ay si yo hablara....\" HOLA????? PUES CUENTALOOOOOOOOO","anger",0.688
+275,"Me da mucha rabia cuando poneis: ay si yo hablara.... HOLA????? PUES CUENTALOOOOOOOOO","anger",0.688
 276,"Mi novio subió una foto conmigo durmiendo a instahistory y recién la veo. La venganza sera terrible 😘😘😘","anger",0.563
 277,"Cómo justificáis el desprecio de Carmena al #HomenajeBlancoEP? Cómo podéis decir que Otegi es un luchador por la paz? Os importa ofender?","anger",0.708
 278,"Hoy mi papá me dijo que está preocupado porque aún no tengo novio 😂🤷🏻‍♀️💔","anger",0.271
@@ -300,7 +300,7 @@
 292,"@PaisdePrimera50 @PedroBordaberry Uhhhh salio el insulto infaltable","anger",0.543
 293,"@40Andaya @djdanimoreno Hoy se estan pasando mucho contigo Dani,espero que tu venganza se cocine a fuego lento en tu restaurante#AndaYaChef","anger",0.500
 294,"@tizii_belen pero no lo queria perder yo","anger",0.531
-295,"\"Cuarenta años estuve disgustado con la nación, Y dije: Pueblo es que divaga de corazón, Y no han conocido mis caminos.\"","anger",0.604
+295,"Cuarenta años estuve disgustado con la nación, Y dije: Pueblo es que divaga de corazón, Y no han conocido mis caminos.","anger",0.604
 296,"Pierna de mierda ,cansada de no poder hacer cosas que antes la hacía tan fácil ","anger",0.804
 297,"Tengo el pelo horrible, cuando cobre me voy a comprar hasta lo imposible para tenerlo hermoso","anger",0.375
 298,"@floxwerchild enojado no, emputado sí","anger",0.729
@@ -317,7 +317,7 @@
 309,"Me duele un dedo del pie. Me voy sentando a ver cómo he ofendido a 20 colectivos con esto.","anger",0.333
 310,"@Viejastirpe Además no necesita haber pelea de por medio.","anger",0.333
 311,"Que hago despierta a ésta hora la concha de la lora. Estoy indignada","anger",0.833
-312,"Xq el silencio de los \"opositores\" @SergioMassa y @RandazzoF sobre el atropello a la procuraduría??","anger",0.625
+312,"Xq el silencio de los opositores @SergioMassa y @RandazzoF sobre el atropello a la procuraduría??","anger",0.625
 313,"Que necesidad hay de quererle tanto carajo 😭","anger",0.375
 314,"@morastronauta Estoy enojado.","anger",0.792
 315,"@cia si, hay para todos. Cuando me enfado si. Si, estoy riendome ultimamente. Pero bueno, soy actor.*","anger",0.417
@@ -358,7 +358,7 @@
 350,"@vaymosxpartes Insultos, denunciar la corrupción es insultar?","anger",0.565
 351,"Ya me voy a cortar el cabello, no puedo hacer nada con el con lo largo que está ","anger",0.417
 352,"Podría ir llegando mi familia, hace media hora está la comida","anger",0.396
-353,"@VidaModernaOML Es el \"BUF MADRE MÍA QUÉ OFENDIDO QUE ESTOY\" sin entender absolutamente nada de lo que estás viendo.","anger",0.750
+353,"@VidaModernaOML Es el BUF MADRE MÍA QUÉ OFENDIDO QUE ESTOY sin entender absolutamente nada de lo que estás viendo.","anger",0.750
 354,"Eso sí, lo tengo hirviendo, puedo freír perfectamente un huevo en mi brazo.","anger",0.500
 355,"Es solo enojo por no por comprenderte u.u","anger",0.708
 356,"-provocar. Tengo que comentar algo al respecto???","anger",0.667
@@ -383,7 +383,7 @@
 375,"Tremendo estalcaso con mg incluido jaja","anger",0.208
 376,"En mi trabajo hay una app donde  nos tenemos que dar estrellas entre compañeros.. #BlackMirror #IsHappening 😱🤔 ","anger",0.283
 377,"@josedli24 Que horror q dientes tan amarillos y q cara tan fea además yo soy más bella q vos","anger",0.596
-378,"\"El bien es sólo un punto de vista\". (Star Wars- Ep. III - La Venganza de los Sith)","anger",0.109
+378,"El bien es sólo un punto de vista. (Star Wars- Ep. III - La Venganza de los Sith)","anger",0.109
 379,"Llevo 24 horas sintiéndome mal. ","anger",0.417
 380,"No creo que puedan comprender mi enojo eterno porque a Cinépolis se le ocurrió proyectar Mulan cuando estoy fuera del país 😡😡","anger",0.667
 381,"Ah y se me abrió todo esto en la cuenta de mi hermano y cuando quise cambiar le perfil veo q el perfil de mi hermano no tiene cara ","anger",0.396
@@ -423,7 +423,7 @@
 415,"una dosis necesaria de adrenalina, puteadas y gente a quien insultar sin motivo🤪","anger",0.646
 416,"Ando resentida, mejor me voy","anger",0.729
 417,"@indpcom @Albert_Rivera @InesArrimadas Y el berrinche de Cs tres cuartos de lo mismo","anger",0.563
-418,"\" LIKE SI ERES ARMY \" \" REPORTENSE ARMYS \"\" Y TODAS ESAS WEAS .... NO QUIERO OFENDER ,PERO ME TURBO CAGAN ESAS WEA AAAAAAH - c muere - ;;;;","anger",0.813
+418," LIKE SI ERES ARMY   REPORTENSE ARMYS  Y TODAS ESAS WEAS .... NO QUIERO OFENDER ,PERO ME TURBO CAGAN ESAS WEA AAAAAAH - c muere - ;;;;","anger",0.813
 419,"Y ya he hecho la ofensa del día. Buenos días.","anger",0.438
 420,"#TotalmenteDivaMega grrrr la mitad del capitulo dio aller 😤😤😤😤😤","anger",0.478
 421,"@ElMiyashiro creen que Floyd a pactado esta pelea para perder? va ser lo mismo que con Pacman.🤔","anger",0.354
@@ -468,8 +468,8 @@
 460,"@violekraut cuando quieras lisiada ;)   terminé de leer el tuit y se me autoguiño el ojo #miedo","anger",0.583
 461,"Algien que alguien que me venga a alegrar la vida porque la neta soy bien amargada😂😂","anger",0.563
 462,"@Norwichtty Buenas, señorita. Algo aburrida, usted?","anger",0.148
-463,"\"La voluntad de provocar un estado de terror\" la del PP, obviamente. A ver si sale otra ETA que rentabilizar.","anger",0.625
-464,"ESTAS\"FANS\"NUEVAS QUE HAN SALIDO DE LOS CHICOS SON FALSAS Y VIENEN A INSULTAR AL FANDOM DE 1D PENDEJA NI SIQUIERA HAZ VIVIDO LO QUE FUE ESO","anger",0.917
+463,"La voluntad de provocar un estado de terror la del PP, obviamente. A ver si sale otra ETA que rentabilizar.","anger",0.625
+464,"ESTASFANSNUEVAS QUE HAN SALIDO DE LOS CHICOS SON FALSAS Y VIENEN A INSULTAR AL FANDOM DE 1D PENDEJA NI SIQUIERA HAZ VIVIDO LO QUE FUE ESO","anger",0.917
 465,"En la pelea, se conoce al soldado; solo en la Victoria, we conoce al caballero. - Jacinto ,enavente.","anger",0.229
 466,"@fiooresilva Fuera de joda si vi a tu hermana, vos sos la unica amargada que no sale nunca!!","anger",0.708
 467,"@softestangcl No me enojo, es una expresión :( me refería a molestarlo un poco. Gerardito jajaj qué lindos podo(?","anger",0.479
@@ -494,7 +494,7 @@
 486,"Sentir como un terrible vacío en el pecho, lo peor💔","anger",0.625
 487,"Espero que la prensa no titubee y sea implacable. Es lo mínimo que se le pide a una profesión digna (o que debe serlo).","anger",0.646
 488,"@milebebe claro, mira el tolima perdió con nosotros por igual marcador y hoy ganó","anger",0.438
-489,"\"voy a tratar de no ser tan renegada\" claramente mucho no me duró 😤","anger",0.438
+489,"voy a tratar de no ser tan renegada claramente mucho no me duró 😤","anger",0.438
 490,"Culiaaaaaaa pesadaso mal😤","anger",0.646
 491,"Sigo indignada. Como vamos a usar NEGROOO??? Diablo perdónalos no saben lo que hacen 😂😠👊","anger",0.729
 492,"Seremos Hnas , Pero Ya No Te Aguanto  ","anger",0.783
@@ -517,7 +517,7 @@
 509,"@DavidChoro Y mira que para que te espanten a ti.... 😈 ","anger",0.354
 510,"Si haces sangrar a un dios la gente dejara de creer en el, el agua se teñira de rojo y asistirán los tiburones","anger",0.521
 511,"Que rabia sentirme preocupada y no poder evadirlo😬😡","anger",0.813
-512,"\"No me va a temblar el dedo\" -antonella bernal","anger",0.333
+512,"No me va a temblar el dedo -antonella bernal","anger",0.333
 513,"Digo yo no, no se puede sacarse sangre tipo 9:30? NO A LAS 8:30 😤😤","anger",0.479
 514,"@UPYD @upyd_prensa @UPyDValencia  Antes de hablar de Miguel Ángel Blanco lávate la boca, @AlfonsoAznar, responde y  deja de insultar","anger",0.625
 515,"@AsgardianEyra No hay ningún bebe en camino-murmura serio con el ceño fruncido","anger",0.438
@@ -538,7 +538,7 @@
 530,"@PahParla lágrimas e indignación al ver que ya no importa que una mujer con niños hoy no tenga donde dormir.","anger",0.792
 531,"No quiero ofender a nadie pero todo esto del ThisCrush y el CuriousCat está para que os regalen la oreja, porque os gusta ser protagonistas.","anger",0.604
 532,"@Julio_Camejo @multimediostv @LisVega Sr. Julio camejo ke no le influya chavana se ve ke los kiere intimidar.","anger",0.646
-533,"@lizardo_jesus Ya estoy cansada de llorar ,ya quiero q se acabe está pesadilla ,que desgracia el día q Chávez dijo \"por ahora \".","anger",0.729
+533,"@lizardo_jesus Ya estoy cansada de llorar ,ya quiero q se acabe está pesadilla ,que desgracia el día q Chávez dijo por ahora .","anger",0.729
 534,"RT DeboRecordarles: Hacen falta cuarenta músculos para fruncir el ceño, pero tan sólo quince para sonreír","anger",0.229
 535,"Me da cualquier rabia que nadie linchó a @MarisolTurres cuando dijo que habían violaciones violentas y no violentas. Vieja ridícula.","anger",0.870
 536,"aMARgado ayer tarde por nadar a la mañana,hoy en la mañana agujas en el brazo entraron a despertar las Olas  fluyen dentro del ohmbrito","anger",0.521
@@ -566,7 +566,7 @@
 558,"@TaquitoDeCecina Tiene muchos retuits. 😟","anger",0.146
 559,"Alguien anda resentido. 😂😂😂😂","anger",0.375
 560,"@gealintia ya pero tampoco es algo con lo que sentirse ofendido idk, ojala yo ser de ahi","anger",0.333
-561,"@VidaModernaOML \"ESTOY OFENDIDO ERGO TENGO RAZÓN\".","anger",0.708
+561,"@VidaModernaOML ESTOY OFENDIDO ERGO TENGO RAZÓN.","anger",0.708
 562,"Me pusieron el primer parcial el 29 d agosto.. De psicologia.. sos joda loco.. Era en septiembre.. Por q lo cambian 😠😠","anger",0.604
 563,"Me pronostican lluvia toda la semana. #Depresión","anger",0.521
 564,"@RamsesGirala Pero que pez amargo que sos...","anger",0.604
@@ -584,10 +584,10 @@
 576,"@FedericaaAraujo Me estabas echando por demostrarte mi amor. Estoy ofendido","anger",0.542
 577,"siempre igual ya estoy harto #indignado #enfadado","anger",0.891
 578,"@Alba_Scandic Pobre... necesitas comida para que se te pase el disgusto :p","anger",0.458
-579,"Usar \"LOL\" y \"equisdé\" en público y otras maneras de provocar.","anger",0.542
+579,"Usar LOL y equisdé en público y otras maneras de provocar.","anger",0.542
 580,"2. Niños. Sus berrinches me dan ganas de ahorcarlos, sus preguntas me hartan hasta lpm, todo rompen. NIÑO, HAZ UN FAVOR Y DEJA DE RESPIRAR","anger",0.896
 581,"@lchaux Soy un juegooo, tú en mi buscas venganza y yo en ti busco un sueño. Dime entonces qué hacemoss","anger",0.333
-582,"Me asusté mirando \"la momia\" y nisiquiera era de terror.. a mí nomas me pasa esto jaajaj","anger",0.174
+582,"Me asusté mirando la momia y nisiquiera era de terror.. a mí nomas me pasa esto jaajaj","anger",0.174
 583,"@Ashleymusica Sii 😂💔, eso si es incómodo Ash 😂😂","anger",0.333
 584,"Si alguien me habla no me enojo😜","anger",0.188
 585,"Ser feliz no es tener una vida perfecta; ser feliz es reconocer que la vida vale la pena, a pesar de las dificultades.","anger",0.104
@@ -603,7 +603,7 @@
 595,"me voy porque quiero hacer grandes cosas y no vivir amargada con un trabajo que ni siquiera me gusta.","anger",0.583
 596,"ness no te pienso responder toy enojado.","anger",0.854
 597,"@frataslafraok Maaal, lo vi la semana pasada, saben mas de mi vida q yo misma!! ","anger",0.333
-598,"@Muzskatolista Eso de \"sin ofender\" sobra en Twitter","anger",0.583
+598,"@Muzskatolista Eso de sin ofender sobra en Twitter","anger",0.583
 599,"@mxgglxFK @KohlerLayla @ThxScottishFrxs Me enfado y nos peleamos, chau.","anger",0.604
 600,"@SrDiegoPollo El mio no ya me encabrone, veré luego mi peli. ","anger",0.604
 601,"Me da risa que sigan usando lo del cabello para insultar a las Bautisters. Por dios les juro que en vez de ofendernos, nos da risa.😂","anger",0.396
@@ -645,7 +645,7 @@
 637,"No hay alguna opción de Twitter para bloquear los tweets de minita resentida?","anger",0.604
 638,"Hoy he soñado que la gente de mi pueblo me volvía a insultar en el instituto y mira, qué asco y qué odio.","anger",0.771
 639,"¿Qué tan resentida puedes estar para querer meterte en una relación? ¿Quién te hizo tanto daño? 🤔","anger",0.625
-640,"Me acaban de \"insultar\" diciéndome Maluma y pos na'a que ver","anger",0.521
+640,"Me acaban de insultar diciéndome Maluma y pos na'a que ver","anger",0.521
 641,"¿Soy el único amargado que se le hace estúpido estarse contestando con puros memes?","anger",0.646
 642,"He notado que cuando tengo depresión no puedo dejar de comer, me agarra ansiedad","anger",0.389
 643,"Soy el terrible farsante oe","anger",0.542
@@ -659,7 +659,7 @@
 651,"@DanielaBlume ayer vi la fiesta Argentina en Gh, probaste el mate amargo bien argentino? Tienes que aprender a tomarlo para el desayuno😄","anger",0.250
 652,"Ella se ve fria, pero no lo es, en realidad es muy dulce y tierna, solo tiene miedo a que la lastimen","anger",0.271
 653,"Jajajajajajajajaajjajajaajaj era peligrosa la tecnica","anger",0.229
-654,"Gracias al sony ahora digo \"ira ira\" involuntariamente","anger",0.348
+654,"Gracias al sony ahora digo ira ira involuntariamente","anger",0.348
 655,"Yo tengo miedo de que me guste y que vaya enloquecer 💆🏻","anger",0.188
 656,"Lo buena que está la película de rápido y furioso 8 😎🤣. Si yo la miro un mes después del estreno por qué soy un crack","anger",0.208
 657,"Quiero ponerme trenzas de nuevo 😭","anger",0.217
@@ -668,7 +668,7 @@
 660,"to2 me responden la hist de ig como si hubiera echo algo grave lloro JSJAJAJ","anger",0.333
 661,"@blavkdog @cherflIoyd Pues nel, nomas nos vienes a insultar mejor dinos cosas bonitas.","anger",0.542
 662,"Mi enojo dura 5 minutos y después ya te extraño.","anger",0.333
-663,"@PrincessPrian q dira  @RegidorSeriHmo d q tú usas \"belleza autoctona\" como insulto racial? Esas lagrimas ni tú t la crees hipo cr ita 😕😮😇","anger",0.708
+663,"@PrincessPrian q dira  @RegidorSeriHmo d q tú usas belleza autoctona como insulto racial? Esas lagrimas ni tú t la crees hipo cr ita 😕😮😇","anger",0.708
 664,"@brenbarrios123 Se me ríe el tuje gagaga #indignada","anger",0.458
 665,"Y qué es lo que tu amigo más te dice? Otros: te quiero, te extraño, vamos a comer. A mí: Qué sufrida eres csmr.   Te odio. 😢","anger",0.563
 666,"Pues hoy me he vuelto a poner unos shorts. Porque me gusta provocar y hoy quiero que me llamen la atención.","anger",0.292
@@ -681,7 +681,7 @@
 673,"@manueljmontes @DiegoVentura82 Es un atropello en toda regla.","anger",0.565
 674,"Tragos de amargo liqor, que no me hasen olvidar que asta me pongo a llorar","anger",0.563
 675,"@feernandatj FERNANDA YA TE DIJE QUE NO","anger",0.667
-676,"Pon a cantar rancheras a Vicente Fernández y José José. Uno no domina el género, sería 1 encuentro ridículo. Lo mismo pienso de esta \"pelea\"","anger",0.354
+676,"Pon a cantar rancheras a Vicente Fernández y José José. Uno no domina el género, sería 1 encuentro ridículo. Lo mismo pienso de esta pelea","anger",0.354
 677,"Se antes pensaba que eras tremendo pelotudo pero por lo poco que te conozco sos muy piola, espero conocerte mejor","anger",0.438
 678,"Ojalá que la rabia que tengo se quede en rabia y no se transforme en tristeza","anger",0.667
 679,"Ejercicio para el Alma: Piensa en un futuro hermoso y no te quedes atrapado en un Pasado Amargo  ¡ Amate a ti mismo(a) ! .","anger",0.042
@@ -753,14 +753,14 @@
 745,"yo no soy de amenazar me gusta hablar con echossssss...","anger",0.458
 746,"Yo sé que no me ha dado sueño porque estoy indignado.","anger",0.688
 747,"El corazón amargo come a su dueño.","anger",0.396
-748,"\"-te ves como de 25 -sí, ya se  -¿qué te dieron de chiquita para verte tan grande?\"  Wey, ya se que tengo cuerpo de treintona y soy amargada","anger",0.667
+748,"-te ves como de 25 -sí, ya se  -¿qué te dieron de chiquita para verte tan grande?  Wey, ya se que tengo cuerpo de treintona y soy amargada","anger",0.667
 749,"Hace mucho que no me enojo queestápasandooo","anger",0.333
 750,"@olvihormigos Pues nada, el CM a la calle. Más de uno sabría hacerlo mejor sin ofender a nadie","anger",0.829
 751,"No puede ser tan resentido DIOMIO","anger",0.521
 752,"Desde primaria soy Fan fan fan faaaaan de hilary duff h estoy bien indignada porque no están sus albums viejos en Spotify ¡SON LOS BUENOS!","anger",0.729
 753,"Dios bendice al pueblo de Venezuela en esta horas de oscuridad, que llegue la luz!!!","anger",0.229
 754,"@Cheboludomr ¿ya comenzarás con eso?, búscate un nuevo insulto.","anger",0.750
-755,"He soñado que me declaraba a un chaval, después de salvarle la vida, y me rechaza porque estoy \"rellenita\". Decía que no era por ofender »","anger",0.576
+755,"He soñado que me declaraba a un chaval, después de salvarle la vida, y me rechaza porque estoy rellenita. Decía que no era por ofender »","anger",0.576
 756,"cuando le erras a las teclas...#Rabia #Traición #Histeriquismo","anger",0.708
 757,"@kasoamp Qué horror este engendro. Repulsivo.","anger",0.826
 758,"@kevinalonsobg Le pondre la pelea d naruto vs pain y le dire si nagato pudo cambiar tu tmb","anger",0.354
@@ -771,7 +771,7 @@
 763,"@LasMayores Pues falta Osuna o que ser mexicano no cuenta como latino? ⚾😡😉","anger",0.500
 764,"Fui hecha mierda a la cancha pero que manera de disfrutarrrrr, terrible partido","anger",0.417
 765,"Y por ello, al ser una espera dramática y televisada, marco un antes y un después, una reacción lógica de ira del pueblo, q fué descafeinada","anger",0.500
-766,"@btiradotrad Te iba a decir algo de la palabra \"Empoderado\", pero resulta que está admitida por la RAE y ahora estoy enfadado con la RAE :(","anger",0.674
+766,"@btiradotrad Te iba a decir algo de la palabra Empoderado, pero resulta que está admitida por la RAE y ahora estoy enfadado con la RAE :(","anger",0.674
 767,"Estoy muy enfadada con el mundo y con la manera en que despreciáis la relaciones humanas.","anger",0.896
 768,"Es la venganza de todos los tacos que comimos en Culiacán","anger",0.333
 769,"quiero papas locas del Rabioso 🤦🏻‍♀️","anger",0.304
@@ -793,7 +793,7 @@
 785,"Cabeza e' mango està perdido. La Humanidad en vilo porque su reserva intelectual està en peligro...","anger",0.396
 786,"@MySugarComa Si lo piensas bien, he ofendido a dos colectivos, el de los muertos y el de la gente que no tiene muertos.","anger",0.458
 787,"que dolor de cabeza","anger",0.478
-788,"Mira eh,Si el dia ya lo tenia malo,me faltaba tener a @DanielaBlume \"enfadada\" por comentarios estupidos. 😡😡😡😡😡😡😡","anger",0.833
+788,"Mira eh,Si el dia ya lo tenia malo,me faltaba tener a @DanielaBlume enfadada por comentarios estupidos. 😡😡😡😡😡😡😡","anger",0.833
 789,"Estoy ante una terrible tesitura: Me muero de sueño pero Dalas ha subido un video y quiero enterarme del chisme. Espero a mañana o no? 😂","anger",0.354
 790,"@ErickLindoro Siii, súper triste 😩","anger",0.370
 791,"@infobae Apuesto que no sale!!alguien se va a ofender, a alguien no le va a cerrar el proyecto xq ñañaña","anger",0.375

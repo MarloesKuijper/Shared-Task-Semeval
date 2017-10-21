@@ -1,4 +1,4 @@
-@relation repo/data/es/2018-EI-reg-Es-sadness-dev.txt
+@relation ../../new_train/es/2018-EI-reg-es-sadness-dev1.txt
 
 @attribute id numeric 
 @attribute tweet string
@@ -29,7 +29,7 @@
 21,"Qué rabia cuando hay una tercera persona en la relación.","sadness",0.878
 22,"La depresión es cabrona 😥","sadness",0.833
 23,"Lo lamento tuve que irme estaba cansada de gritos de lo tóxico de mentiras y de tu ego. Si, si te extrañare, si te amo pero me amo mas a mi.","sadness",0.854
-24,""Cuarenta años estuve disgustado con la nación, Y dije: Pueblo es que divaga de corazón, Y no han conocido mis caminos."","sadness",0.667
+24,"Cuarenta años estuve disgustado con la nación, Y dije: Pueblo es que divaga de corazón, Y no han conocido mis caminos.","sadness",0.667
 25,"Cuando viva sola voy a pesar 300 kg","sadness",0.292
 26,"1o de julio: fue cuando empezaste a cambiar conmigo. Han pasado 86 días y sigo extrañándote mucho. Tus palabras, las llamadas inesperadas. ","sadness",0.875
 27,"mera dale estoy aburrido","sadness",0.250
@@ -71,7 +71,7 @@
 63,"Entonces: ¿para quién fue la sorpresa? Se pregunta @DeniseMaerker tras revelar que la @SCT_mx estaba avisada del problema en el #PasoExpres","sadness",0.396
 64,"aquela nostalgia gostosa escutando audioslave","sadness",0.625
 65,"La canción de la familia me da tanta nostalgia de mi cumpleaños 🔙🔙","sadness",0.771
-66,""Practiquen el derecho y la justicia. Libren al oprimido del poder del opresor." - Jeremias 22:3","sadness",0.292
+66,"Practiquen el derecho y la justicia. Libren al oprimido del poder del opresor. - Jeremias 22:3","sadness",0.292
 67,"@arodsol1 TAMBIÉN YOOOOOO, y en mty no hay ","sadness",0.208
 68,"@lautaro_capitan Jajajajajaja no me podía resistir, en serio!!!!!","sadness",0.274
 69,"kihyun perdió el piedra, papel o tijera con wonho y le dio tremendo empujón a hyungwon JASJASJSAJSAJSAJ","sadness",0.125
@@ -97,7 +97,7 @@
 89,"Que aburrida la gente que quiere quedar bien con todo el mundo siempre","sadness",0.604
 90,"Sufro de insomnio provocado por la estupida guardia","sadness",0.604
 91,"@Melizzarp Lamentablemente estamos estancados porque precisamente no vemos el problemas desde la raiz. Buenas noches","sadness",0.542
-92,"@lizardo_jesus Ya estoy cansada de llorar ,ya quiero q se acabe está pesadilla ,que desgracia el día q Chávez dijo "por ahora ".","sadness",0.913
+92,"@lizardo_jesus Ya estoy cansada de llorar ,ya quiero q se acabe está pesadilla ,que desgracia el día q Chávez dijo por ahora .","sadness",0.913
 93,"Ya quiero que sea vierneeees ","sadness",0.208
 94,"@Juliococo Es lamentable pero así es que se acabará el chavismo, esto si es pueblo","sadness",0.542
 95,"@Ivandagu @cmbustamante Es una acusación bastante grave, de la cual no tienes ninguna prueba","sadness",0.460
@@ -117,7 +117,7 @@
 109,"Ojala y no sea nada grave","sadness",0.688
 110,"Vale .... tengo depresión y mis padres quieren llevarme un rato al departamento de mis abuelos a las 9:48Pm y encima a obligación","sadness",0.717
 111,"Viene mi hna con las amigas y se quedan a dormir y yo aca del helado de la musica depre y llorando van a pensar que estoy loca bueno","sadness",0.833
-112,"| Caity: "Sara siendo intimidada por Supergirl"   —Muere—","sadness",0.458
+112,"| Caity: Sara siendo intimidada por Supergirl   —Muere—","sadness",0.458
 113,"@esposlittle Eeeeepa, gracias! Tu cuenta parece tremenda","sadness",0.229
 114,"@Sabanero_91 ganó el junior o perdió el América? Cómo fue?","sadness",0.250
 115,"Que mierda que por un abuso sexual, exceso de drogas y depresión te lleven a quitarte la vida.. ojalá ahora estés en paz #ChesterBennington","sadness",0.783
@@ -127,7 +127,7 @@
 119,"Quiero hacer muchas intervenciones e instalaciones pero no tengo espacio/dinero 😭","sadness",0.563
 120,"Quejarse de los spinners es igual de pendejo que usarlos.","sadness",0.348
 121,"En serio no puedo creerlo.. estoy en shock","sadness",0.583
-122,"JAJAJAJAJAJAJJAJA la Andrea está viendo "Laura" que tanto está aburrida","sadness",0.063
+122,"JAJAJAJAJAJAJJAJA la Andrea está viendo Laura que tanto está aburrida","sadness",0.063
 123,"#Nostalgia En unas horas es el lanzamiento oficial de la secuela de Splatoon 😆 siempre recordaré al primero con mucho gusto. 😢","sadness",0.500
 124,"hice mi hermana fan de pll ","sadness",0.326
 125,"@osoriojdanielp no joda eso sí da rabia hp","sadness",0.500
@@ -159,7 +159,7 @@
 151,"Trate por mi misma pero no pude me venció el cansancio que tengan buenas noches yo a ver si puedo....mañana es otro dia...","sadness",0.500
 152,"Tantos cambios y la vida no te pregunta si los quieres, casi siempre los impone y las dos opciones que quedan es aceptar o seguir llorando.","sadness",0.771
 153,"Estoy aburrida y mi linda no se conecta :c","sadness",0.396
-154,"Lo que más me da tristeza es que es "aparente suicidio". Nunca sabes lo que otra persona sufre, nunca te lo imaginas.  #RIPChesterBennigton","sadness",0.729
+154,"Lo que más me da tristeza es que es aparente suicidio. Nunca sabes lo que otra persona sufre, nunca te lo imaginas.  #RIPChesterBennigton","sadness",0.729
 155,"Que aburrido mi dia del amigo!!!","sadness",0.563
 156,"Asi o mas sospechoso 🤔😂✌️","sadness",0.208
 157,"Bueno amigo déjame tranquila me tienes cansada","sadness",0.587

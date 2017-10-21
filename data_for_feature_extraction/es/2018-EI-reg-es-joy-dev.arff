@@ -1,4 +1,4 @@
-@relation repo/data/es/2018-EI-reg-Es-joy-dev.txt
+@relation ../../new_train/es/2018-EI-reg-es-joy-dev1.txt
 
 @attribute id numeric 
 @attribute tweet string
@@ -23,7 +23,7 @@
 15,"@AstionStimatiX @TheGrylleX @Marpha03 si al menos tuvieras buen gusto en 2d se te perdonaria","joy",0.326
 16,"@Camila_Cabello @BrunoMars JAJDLZOXKSÑXJA estoy muy emocionada por ti, te lo mereces chica, te quiero","joy",0.854
 17,"@Marcusftty Auch!! -relame sus labios al mismo tiempo que deja salir una sonrisa-. Mmh, no mucho. Traje otra mascota. -sonríe-.","joy",0.521
-18,""La riqueza más grande es hacer un mundo que le pertenezca a la gente y lo sientan suyo, porque eso es lo que da felicidad."","joy",0.761
+18,"La riqueza más grande es hacer un mundo que le pertenezca a la gente y lo sientan suyo, porque eso es lo que da felicidad.","joy",0.761
 19,"@KevenYHensy Quien no estaría orgullosa 😂 mi Amirsotee 😂😍","joy",0.750
 20,"#felizdiadelamigo al amor de mi vida, que es, a su vez, mi más valioso amigo. ¡Feliz día, mi corazón!!","joy",0.875
 21,"@jeremiasmacario me puso contenta leer eso jajajaja yo a ustedes también, banco a ese grupito","joy",0.833
@@ -104,7 +104,7 @@
 96,"Siento alivio al escribirlo.  ","joy",0.396
 97,"@CesarTeo señora... Me pongo de pie por la platica tan dinámica, divertida, versátil, fresca, fluida... 33 mins de amenidad en mi vida!","joy",0.708
 98,"Me hubiera encantado conocerte de otra forma, pero me estoy enamorando de tu interior, que eso es lo que realmente me importa","joy",0.604
-99,"Aún existe gente que "amenaza" con dar unfollow 😂","joy",0.292
+99,"Aún existe gente que amenaza con dar unfollow 😂","joy",0.292
 100,"Cuando le gustas a una morra linda, femenina y divertida pero extrañas a una culera, medio vato y bien amargada. 💭","joy",0.333
 101,"@SeleneS06 Es festivo! Pero a mi me toca ir a trabajar! 😧","joy",0.250
 102,"En qué momento me hice así ajjjajjajajaa ","joy",0.604
@@ -128,7 +128,7 @@
 120,"@chochos JAJAJAJAJAKA no te pases de corneta ","joy",0.604
 121,"@angiesmitha269 Yo másssss❤, por dicha ya pasó❤","joy",0.659
 122,"Increíble la cantidad de pelotudeces que hablamos con esta mina ","joy",0.370
-123,"La #frasedeldia "el amor es la mayor necesidad del ser humano". Perlas de Sabidurìa. #amor #Motivacion #Felicidad","joy",0.696
+123,"La #frasedeldia el amor es la mayor necesidad del ser humano. Perlas de Sabidurìa. #amor #Motivacion #Felicidad","joy",0.696
 124,"@SuperIvo7 Estaría entretenida y cansada, más cansada ..confirmado jajaajja","joy",0.522
 125,"A veces siento que la soledad es mas agradable!!","joy",0.250
 126,"@OscarG93_ Jajaj Gracias Oscarin!! 😊","joy",0.696
@@ -152,7 +152,7 @@
 144,"@OZphotograph JuajuajuajuajauJauJuJajajuajaua que chistoso ","joy",0.739
 145,"Tengo mucha suerte ❤","joy",0.792
 146,"Yo creo que me voy a hacer un tatuaje, o menos como cinco. ","joy",0.396
-147,"Le mande un mensaje lindo a sofia y me manda "ANTES DE LEER ESTO QUIERO DECIRTE QUE ENTRE PARA PASARTE UN VIDEO CHISTOSO AHORA LEO TE AMO"","joy",0.667
+147,"Le mande un mensaje lindo a sofia y me manda ANTES DE LEER ESTO QUIERO DECIRTE QUE ENTRE PARA PASARTE UN VIDEO CHISTOSO AHORA LEO TE AMO","joy",0.667
 148,"@PabloEmanuel299 LAMENTO MI CONFUSIÓN DE RAMA LEGISLATIVA : Habida cuenta, publicamente corregí. Espero haber satisfecho el reclamo.","joy",0.205
 149,"Cuando se tienen muchas cosas que meter en él, el día tiene cien bolsillos #motivación #superación #felicidad","joy",0.667
 150,"Hoy me ha pasado una de esas cosas tan importantes que no pueden contarse en Twitter pero que darán mucho que hablar #feliz","joy",0.771
@@ -164,10 +164,10 @@
 156,"@paolastonexxx Que afortunado!! cojerse tan buena vieja","joy",0.625
 157,"Soy libre de hacer circular el amor y la alegría por todas partes en mi mundo ,amo la vida.","joy",0.891
 158,"Vine a ver si se habían muerto en el apocalipsis y aún sigo leyendo sus tuits bien de la chingada ","joy",0.310
-159,"Mi sobrina vio la foto que esta en la pared, la que estoy con vos y me dijo "Mira tía cuando ahí estabas contenta" @AbrahamMateo","joy",0.375
+159,"Mi sobrina vio la foto que esta en la pared, la que estoy con vos y me dijo Mira tía cuando ahí estabas contenta @AbrahamMateo","joy",0.375
 160,"Mañana es festivo 😍","joy",0.688
 161,"Siempre que quiero escribir una nota utilizo twitter para que se quede como borrador ","joy",0.413
-162,""Grandes cosas ha hecho el Señor con nosotros;  Estamos alegres." #Salmo 126:3 #ConfidenteEspiritual  #Alegría #Espiritualidad","joy",0.826
+162,"Grandes cosas ha hecho el Señor con nosotros;  Estamos alegres. #Salmo 126:3 #ConfidenteEspiritual  #Alegría #Espiritualidad","joy",0.826
 163,"@Zita_Zaa Fue suave y corto. No alcanzó ni a prometer ","joy",0.250
 164,"Lo llame a mi novio que dormía, solamente para cagarme de risa dos hs","joy",0.646
 165,"Es gracioso como la gente que me trató como basura, hoy me salude para el día del amigo.","joy",0.430
@@ -201,7 +201,7 @@
 193,"@FelipeCacahuate Es entretenida, te la recomiendo","joy",0.604
 194,"@anapxulaa Jajajajjaaaaa creí que era el pirata de Culiacán JAJAJJAJA ","joy",0.717
 195,"Tengo mi propia versión del optimismo. Si no puedo cruzar una puerta, cruzaré otra o haré otra puerta.  Rabindranath Tagore","joy",0.587
-196,"El "hey me gustas quieres salir con tal y no se que" es lo que mas me ha dado risa en mucho tiempo","joy",0.729
+196,"El hey me gustas quieres salir con tal y no se que es lo que mas me ha dado risa en mucho tiempo","joy",0.729
 197,"@katyburghetti Jajajaja lose wachita ","joy",0.458
 198,"Lo quise correr a Matias y me sangró la boca, tan agradable mi novio","joy",0.313
 199,"Yo no les digo Feliz día a mis amigos porque son mis hermanos! Bro bro bro","joy",0.708
