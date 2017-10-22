@@ -13,6 +13,9 @@ reload(sys)
 import os
 import re
 import numpy as np
+from os import listdir
+from os.path import isfile, join
+from os import walk
 
 ## Keras
 
@@ -35,7 +38,7 @@ from sklearn.pipeline import Pipeline
 
 def create_arg_parser():
 	parser = argparse.ArgumentParser()
-	parser.add_argument("-f1", required = True, type=str, help="Input csv file")
+	parser.add_argument("-f1", required = True, type=str, help="Input folder")
 	args = parser.parse_args()
 	return args
 
@@ -59,22 +62,33 @@ def train_test_pearson(clf, X_train, y_train, X_test, y_test):
 
 if __name__ == "__main__":
 	args = create_arg_parser()
-	
-	## load dataset ##
-	dataset = np.loadtxt(args.f1, delimiter=",", skiprows = 1)
-	
-	## split into input (X) and output (Y) variables ##
-	X = dataset[:,0:-1] #select everything but last column (label)
-	Y = dataset[:,-1]   #select column
-	X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=0)
-	
-	## SVM test ##
-	svm_clf = svm.SVR()
-	print('Training SVM...\n')
-	train_test_pearson(svm_clf, X_train, y_train, X_test, y_test)
-	
-	## Running baseline neural model ##
-	print('Training neural baseline...\n')
-	input_dim = len(X_train[0]) #input dimension is a necessary argument for the baseline model
-	estimator = KerasRegressor(build_fn=baseline_model, nodes = 150, input_dim = input_dim, nb_epoch=100, batch_size=5, verbose=0)
-	train_test_pearson(estimator, X_train, y_train, X_test, y_test)
+
+	# arg f1 is now a folder to get the files from (e.g. just ./features/en or ./features to get all languages)
+	print(args)
+	print(args.f1)
+	filenames = []
+	for (dirpath, dirnames, files) in walk(args.f1):
+	    for name in files:
+	    	filenames.append(os.path.join(dirpath, name))
+	print(filenames)
+	print("done")
+	for file in filenames:
+		## load dataset ##
+		dataset = np.loadtxt(file, delimiter=",", skiprows = 1)
+		
+		## split into input (X) and output (Y) variables ##
+		X = dataset[:,0:-1] #select everything but last column (label)
+		Y = dataset[:,-1]   #select column
+		X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=0)
+		
+		print("PREDICTIONS ", file)
+		## SVM test ##
+		svm_clf = svm.SVR()
+		print('Training SVM...\n')
+		train_test_pearson(svm_clf, X_train, y_train, X_test, y_test)
+		
+		## Running baseline neural model ##
+		print('Training neural baseline...\n')
+		input_dim = len(X_train[0]) #input dimension is a necessary argument for the baseline model
+		estimator = KerasRegressor(build_fn=baseline_model, nodes = 150, input_dim = input_dim, nb_epoch=100, batch_size=5, verbose=0)
+		train_test_pearson(estimator, X_train, y_train, X_test, y_test)
