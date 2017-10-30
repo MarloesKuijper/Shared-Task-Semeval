@@ -1,0 +1,87 @@
+Summaries
+
+WASSA-2017 Shared Task on Emotion Intensity
+	Report on a previous competition involving the detection of Emotion Intensity from tweets.
+	
+	Details 
+	Set-up of competition: Codalabs was used as the platform. Given a tweet and an emotion X, automatic systems have to determine the intensity or degree of emotion X felt by the speaker—a real-valued score between 0 and 1.
+
+	Creation of the datasets: Emotion Intensity annotation scheme was Best-Worst Scaling (BWS). For each emotion 50-100 query terms were used as indicators of different intensity levels. These query words were derived from a thesaurus.
+	
+	Baseline system
+	Used the package Affective Tweets to calculate feature vectors from the emotion-intensity-labeled tweets and train Weka regression models on this transformed data. 
+	Features used: word and character N-grams, word embeddings (word2vec used), affect lexicons (several of them).
+	
+	Summaries are given on the performance of the contestants: the best performing system, Prayas, obtained a Pearson correlation of 0.747 with the gold annotations.
+	
+	The top ranking systems used ensembles of multiple models.
+	
+	Keras was the most widely used ready-made package, using TensorFlow as its base.
+	
+	Commonly used features for the best performers were low-dimensional distributed word/sentence representations: word embeddings (word2vec for the top 4) and sentence embeddings, the latter learned using neural networks (CNN and LSTM for the top 2).
+	The top teams also used affect lexicons, and more of them than less well-performing teams.
+	
+	Top 3:
+	Prayas
+	IMS
+	SeerNet
+	
+	Did not use WEKA: Nr.4 : Uwaterloo
+	
+SeerNet: Duppada & Hiray 2017
+
+	Came in 3rd for Task 1 at Wassa/EMoInt 2017
+	
+	System
+	Tweets are pre-processed with tweetokenize, replacing some user-specific information to general tokens (USERNAME, PHONENUMBER etc.).
+	
+	Features (total of 14):
+		Lexicons: 
+		AFINN: words manually rated for valence
+		Bing Liu: Opinion lexicon
+		+/-EffectWordNet: sense level lexicon
+		NRC Affect Intensity: real valued affect intensity
+		NRC Word-Emotion Association Lexicon: 8 sense level associations + 2 sentiment level associations (negative and positive)
+		Expanded NRC Word-Emotion Association Lexicon: same as above, but specified for twitter language
+		NRC Hashtag Emotion Lexicon: emotion word associations computed on emotion labeled twitter corpus via Hashtags
+		NRC Hashtag Sentiment Lexicon + Sentiment140 Lexicon: sentiment word associations computed on twitter corpus via Hashtags and Emoticons
+		SentiWordNet: sentiment scores of synsets of WordNet
+		Negation lexicons: to count negative words
+		Sentistrength: to estimate strength of positive and negative sentiment in tweets
+		
+		Word Vectors:
+		Primarily word embeddings created using the dataset and GloVe (unsupervised algorithm for vector represenatations for words. Result is 200-dimensional GloVe embeddings.
+		Edinburgh Embeddings: skip-gram model trained on Edinburgh corpus
+		Emoji Embeddings:  obtained for each tweet by summing up individual word vectors and then dividing by the number of tokens in that tweet.
+		
+		Syntactic Features ( NOT used in final system)
+		Word N-grams
+		Part-Of-Speech N-grams
+		Brown Cluster N-grams: obtained with TweetNLP
+		
+		Final feature: concatenation of all individual features. combination of average word vectors,  sum of NRC affect intensities etc. 
+		
+	Regression
+	Train and development sets merged (dev set was small).
+	10-fold cross validation
+	Regressors:
+		Support Vector Regression
+		AdaBoost
+		RandomForestRegressor
+		BaggingRegressor (sklearn)
+		
+	Top models chosen by comparing Pearson’s Correlation Coefficient and Spearman’s rank-order correlation
+	
+	Parameter optimization: 'Extensive' grid search using scikit-Learn
+	
+	Results:
+	Syntactic features (N-grams) dropped from system (did not perform well)
+	Emoji embeddings performed better than GloVe or Edinburgh embeddings
+	
+	Features thought to be most important were:
+		+/-EffectWordNet
+		NRC Hashtag Sentiment Lexicon
+		Sentiment140 Lexicon
+		NRC HashtagEmotion Lexicon\
+		
+	Performance was poor with sarcasm and short sentences
