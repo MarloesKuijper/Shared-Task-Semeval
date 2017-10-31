@@ -85,3 +85,67 @@ SeerNet: Duppada & Hiray 2017
 		NRC HashtagEmotion Lexicon\
 		
 	Performance was poor with sarcasm and short sentences
+
+Prayas at Emoint
+
+Best scoring system at EmoInt 2017
+Applied three different deep neural network based models and use an ensemble as final model
+Pearson r: 74.7, spearman 73.5
+
+First model: Feed-forward neural network: 
+-	tweet representation using word2vec word embeddings ACL W-NUT Shared Task 2015 (400 dimensiosn)
+-	TweetToLexiconFeatureVector (43 dimensions)
+-	443 dimensions passed into 4 hidden layers, relu activation function for all hidden layers
+-	4th hidden layer followed by single sigmoid neuron which predicts intensity between 0 and 1
+-	Back-propagation through layers via Mini-batch Gradient Descent
+-	Batch size 8, 30 training epochs, Adam optimization
+Second model: multitask deep learning
+-	Input same 443 dimensional vector
+-	The 4 emotions are treated as different subtasks to apply multitask learning
+-	Two hidden layers shared between 4 regressors (for all 4 subtasks) and the last 2 layers are allowed tob e different across the differnet subtasks
+-	Back-propagation through layers via Mini-batch Gradient Descent (cost function right?)
+-	Batch size 8, 30 training epochs, Adam optimization
+-	Trained in 4 cycles per epoch (one cycle for each emotion)
+Third model: sequence modeling using CNN and LSTMs
+-	Input 400 dimensional word vectors (word embeddings), this time they concatenate the word vectors instead of averaging them
+-	Fixe length at 50
+-	Every tweet (50,400) vector
+-	Fed to LSTM or CNN and then to fully connected dense hidden layers
+-	The representation learned in the final layer is fed to a single sigmoid neuron which returns intensity between 0 and 1 
+-	Relu activation used in hidden layers, dropout set to 0.2
+-	Minimizing Mean Absolute Error, optimization through back-propagation through layers via Mini-Batch Gradient Descent with batch size 8, 15 training epochs and Adam optimization
+-	CNN best for sadness and anger (2 or 3 out of 3 models of this approach use it), LSTM best for joy and fear (2/3)
+
+Weighted average of model 1, 2, 3 (3 different ones for model 3) so 5 models in total.
+Weights determined by cross validation. Weights: 1 for model 1, 3 for model 2, 3 for the 2 best approaches in model 3, 2 for the 3rd best approach of model 3. 
+Average score of 75.26% (CV) and 74.70% (test). Beats baseline by 14% and 10% resp.
+Of all their models individually, model 3 scored best, followed by model 1 and model 2. 
+Suggests that CNNs and LSTMs are better-suited than feed-forward NNs. Note that the ensemble outperforms all of these standalone systems!
+
+IMS at EmoInt2017
+
+They combined the following in a Random Forest Regressor:
+1.	Manually created resources
+2.	Automatically extended lexicons
+3.	The output of a CNN/LSTM NN for sentence regression
+
+The individual features perform similarly (ca. 0.67 on test), but together they get a better correlation (0.72 on test set)
+Used Weka Baseline Lexicons (not the other features) 
+Lexicon extension created using 3 different approaches: 
+- apply supervised method to extend the Weka lexicons to larger Twitter specific vocabulary, 
+- learning a new rating score for every word and not just highly associataed terms and, 
+- including novel rating categories that provide complementary and potentially useful information, such as valence, arousal, dominance and concreteness.
+
+Tweet regression. CNN/LSTM Neural Network trained on word embeddings (twitter corpus 2016, 50 mil. Tweets) of the tweets (50x300) to predict intensity. 
+Input > convolution > max pooling > LSTM
+
+Two handcrafted features: boolean feature if exclamation mark is present in tweet, number of tokens in tweet
+Each emotion gets separate model
+
+For the full and final system they combine all features in a random forest regressor using Weka with 800 trees.
+The automatically extended corpora (with in-domain twitter embeddings) in combination with the baseline perform well, increase performance in all 4 emotions.
+
+They also use the prediction of other emotions based on tweet as feature (4 extra features), so e.g. a happy tweet might have a sadness intensity of 0.01. 
+
+Takeaway: ensemble, in-domain embeddings, in-domain lexicons, emotion intensity scores as feature
+
