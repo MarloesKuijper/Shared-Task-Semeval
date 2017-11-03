@@ -4,7 +4,7 @@ WASSA-2017 Shared Task on Emotion Intensity
 	Report on a previous competition involving the detection of Emotion Intensity from tweets.
 	
 	Details 
-	Set-up of competition: Codalabs was used as the platform. Given a tweet and an emotion X, automatic systems have to determine the intensity or degree of emotion X felt by the speaker—a real-valued score between 0 and 1.
+	Set-up of competition: Codalabs was used as the platform. Given a tweet and an emotion X, automatic systems have to determine the intensity or degree of emotion X felt by the speakerâ€”a real-valued score between 0 and 1.
 
 	Creation of the datasets: Emotion Intensity annotation scheme was Best-Worst Scaling (BWS). For each emotion 50-100 query terms were used as indicators of different intensity levels. These query words were derived from a thesaurus.
 	
@@ -70,7 +70,7 @@ SeerNet: Duppada & Hiray 2017
 		RandomForestRegressor
 		BaggingRegressor (sklearn)
 		
-	Top models chosen by comparing Pearson’s Correlation Coefficient and Spearman’s rank-order correlation
+	Top models chosen by comparing Pearsonâ€™s Correlation Coefficient and Spearmanâ€™s rank-order correlation
 	
 	Parameter optimization: 'Extensive' grid search using scikit-Learn
 	
@@ -149,3 +149,50 @@ They also use the prediction of other emotions based on tweet as feature (4 extr
 
 Takeaway: ensemble, in-domain embeddings, in-domain lexicons, emotion intensity scores as feature
 
+
+
+Feature-Enriched Character-Level Convolutions for Text Regression
+
+	20th at EMoInt 2017
+	Combined 'engineered features' and character-level information (embeddings) through deep parallel convolution stacks, multi-layer perceptrons and multitask learning
+
+	System was designed for two tasks: EMoInt and Quality estimation. Focussing on Emotion intensity results. The main innovation comes from application of Neural Networks (deep convolutional networks) and multi-task learning. Emphasis on exploiting character-level information from the text.
+
+	System: 
+		model is divided in three sections:
+			Deep convolution layer: 
+			for input tweet, converting to character embeddings
+			
+			multi-layer perceptron (neural network): 
+			for engineered features
+			
+			multi-layer perceptron: 
+			combining information above
+			
+		One model trained for each emotion, using
+			First over the sentiment positivity values from the Stanford Sentiment Treebank until convergence (Stochastic Gradient Descent).
+			
+			Then over the emotion intensity training sets of the contest until convergence (Mean Squared Error).
+			
+			Output is Multi-task: both the tweet's emotion intensity and positivity value.
+		
+	Features:
+		Character embeddings: 
+		the assumption is that character sequences hold important clues to emotion of text. In this case emojis, exclamation marks etc.
+		
+		Engineered features: character embeddings
+		Authors produced own feature sets (a lexicon of sorts): 
+			Minimum, maximum and average positivity of:
+			
+			single words in the tweet
+			
+			bigrams in the tweet
+			
+			trigrams in the tweet
+	
+	Results:
+		Model is outperformed by other strategies, notably those that use more engineered features and external resources. That is, this group used no lexicons!
+	
+		Still, authors claim character-level features improved peformance scores when dadded to engineered features.
+		
+		Multi-task learning was deemed a failure, likely due to limited nature of Stanford Sentiment Treebank from which positivity values were drawn.
