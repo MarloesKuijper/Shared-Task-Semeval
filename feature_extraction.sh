@@ -26,6 +26,9 @@ LEXICONS_AR2="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run -F weka.filt
 weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile C:/Users/marlo/wekafiles/packages/AffectiveTweets/lexicons/arabic/SemEval2016-Arabic-Twitter-Lexicon/list-Arabic-negators.arff -B ArabicNegations -A 1\" -I 1 -U"
 
 EMBEDDINGS_EN="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToEmbeddingsFeatureVector -I 1 -B C:/Users/marlo/wekafiles/packages/AffectiveTweets/resources/w2v.twitter.edinburgh.100d.csv.gz -S 0 -K 15 -L -O"
+EMBEDDINGS_ES="java -Xmx4G -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToEmbeddingsFeatureVector -I 1 -B C:/Users/marlo/Documents/school/master/shared_task/wordembeddings/sbw_vectors/sbw_vectors_ordered.csv.gz -S 0 -K 15 -L -O"
+EMBEDDINGS_AR="java -Xmx4G -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToEmbeddingsFeatureVector -I 1 -B C:/Users/marlo/Documents/school/master/shared_task/wordembeddings/wiki.ar_reordered_test.csv.gz -S 0 -K 15 -L -O"
+
 
 # step 3: reorder
 REORDER="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.Reorder -R 4-last,3"
@@ -196,7 +199,8 @@ function feat_extractor {
 
 # function: parameter 1 = language abbreviation, parameter 2 = option (pick option between 1 and 7, see function), 3 = files for that language
 # you can change the language here: change both the first and third parameter (first == language, third == files for that language)
-# right now only ngrams work for arabic (lexicon has a bug somehow) and for spanish only ngrams and lexicon and ngram + lexicon
-feat_extractor "es" 5 "$FILES_ES"
+# right now only ngrams and embeddings work for arabic and spanish
+feat_extractor "ar" 6 "$FILES_AR"
+
 
 

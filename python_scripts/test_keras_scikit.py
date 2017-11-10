@@ -36,7 +36,7 @@ from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import KFold
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
-
+from tqdm import tqdm
 
 def create_arg_parser():
 	parser = argparse.ArgumentParser()
@@ -74,7 +74,7 @@ if __name__ == "__main__":
 	    	filenames.append(os.path.join(dirpath, name))
 	excel_data = []
 
-	for file in filenames:
+	for file in tqdm(filenames):
 		## load dataset ##
 		task = "EI-REG"
 		lang = file.split("\\")[0].split("/")[-1]  # do this differently if you do not use -f1 = ./features
@@ -110,7 +110,7 @@ if __name__ == "__main__":
 
 
 	keys = ["task", "lang", "emotion", "ngrams", "ngrams-embeddings", "ngrams-lexicons", "ngrams-lexicons-embeddings", "lexicons", "lexicons-embeddings", "embeddings"]
-	with open('results_rounded.csv', 'w') as output_file:
+	with open('results_rounded_new.csv', 'w') as output_file:
 	    dict_writer = csv.DictWriter(output_file, fieldnames=keys, delimiter=";")
 	    dict_writer.writeheader()
 	    for row in excel_data:
