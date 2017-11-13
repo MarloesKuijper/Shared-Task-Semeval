@@ -1,10 +1,9 @@
-@relation 'ElhPolar_esV1proc_edited Lexicon-weka.filters.unsupervised.attribute.Remove-weka.filters.unsupervised.attribute.RemoveByName-E^.*id$'
+@relation 'ElhPolar_esV1proc_edited Lexicon'
 
 @attribute term string
-@attribute polarity {negative,positive}
+@attribute polarity {negative, positive}
 
 @data
-
 a_ciegas,negative
 a_flote,positive
 a_la_deriva,negative

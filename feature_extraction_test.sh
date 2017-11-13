@@ -13,6 +13,8 @@ FILES_EN=$(find $DATA_FOLDER/en -type f)
 FILES_ES=$(find $DATA_FOLDER/es -type f)
 FILES_AR=$(find $DATA_FOLDER/ar -type f)
 
+OPTION="2"
+TARGET_LANGUAGE="es"
 
 TEST_LEXICON_PATH="C:\\Users\\Mike\\Desktop\\Shared-Task-Semeval\\lexicons\\spanish\\ElhPolar_esV1proc.arff"
 
@@ -20,14 +22,16 @@ TEST_LEXICON_PATH="C:\\Users\\Mike\\Desktop\\Shared-Task-Semeval\\lexicons\\span
 REMOVE_ID="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.RemoveByName -E ^.*id$"
 
 # step 2: add filter tweettosparse > change output work in progress
-NGRAMS="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToSparseFeatureVector -M 0 -I 1 -Q 1 -D 3 -E 5 -L -F -G 0 -I 0 -i $SHARED_TASK_FOLDER/tmp1.arff -o $SHARED_TASK_FOLDER/tmp2.arff"
+# NGRAMS="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToSparseFeatureVector -M 0 -I 1 -Q 1 -D 3 -E 5 -L -F -G 0 -I 0 -i $SHARED_TASK_FOLDER/tmp1.arff -o $SHARED_TASK_FOLDER/tmp2.arff"
 # LEXICONS_EN="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToLexiconFeatureVector -I 1 -A -D -F -H -J -L -N -P -Q -R -T -U -O"
-LEXICONS_ES="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile "$TEST_LEXICON_PATH" -B SpanishEmotionLex -A 1\" -I 1 -U"
-# LEXICONS_AR="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile C:/Users/marlo/wekafiles/packages/AffectiveTweets/lexicons/arabic/SemEval2016-Arabic-Twitter-Lexicon/SemEval2016-Arabic-Twitter-Lexicon_adjusted.arff -B ArabicSemevalLex -A 1\" -I 1 -U"
+LEXICONS_ES="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToLexiconFeatureVector -I 1 -A -D -F -H -J -L -N -P -Q -R -T -U -O"
+
+# LEXICONS_ES="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile "$TEST_LEXICON_PATH" -B SpanishEmotionLex -A 1\" -I 1 -U"
+# LEXICONS_ES="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run -F weka.filters.MultiFilter weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile "$TEST_LEXICON_PATH" -B ArabicSemevalLex -A 1\" -I 1 -U \""
 
 # deze gebruiken met meerdere lexicons tegelijk (naam veranderen (2 weghalen))
-LEXICONS_AR2="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run -F weka.filters.MultiFilter weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile C:/Users/marlo/wekafiles/packages/AffectiveTweets/lexicons/arabic/SemEval2016-Arabic-Twitter-Lexicon/SemEval2016-Arabic-Twitter-Lexicon_adjusted.arff -B ArabicSemevalLex -A 1\" -I 1 -U \
-weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile C:/Users/marlo/wekafiles/packages/AffectiveTweets/lexicons/arabic/SemEval2016-Arabic-Twitter-Lexicon/list-Arabic-negators.arff -B ArabicNegations -A 1\" -I 1 -U"
+# LEXICONS_AR2="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run -F weka.filters.MultiFilter weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile C:/Users/marlo/wekafiles/packages/AffectiveTweets/lexicons/arabic/SemEval2016-Arabic-Twitter-Lexicon/SemEval2016-Arabic-Twitter-Lexicon_adjusted.arff -B ArabicSemevalLex -A 1\" -I 1 -U \
+# weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile C:/Users/marlo/wekafiles/packages/AffectiveTweets/lexicons/arabic/SemEval2016-Arabic-Twitter-Lexicon/list-Arabic-negators.arff -B ArabicNegations -A 1\" -I 1 -U"
 
 EMBEDDINGS_EN="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToEmbeddingsFeatureVector -I 1 -B C:/Users/marlo/wekafiles/packages/AffectiveTweets/resources/w2v.twitter.edinburgh.100d.csv.gz -S 0 -K 15 -L -O"
 
@@ -62,6 +66,11 @@ function feat_extractor {
 			echo "option 2: lexicons"
 			# select the right lexicon for the language in question
 			lang=`echo $1 | tr [a-z] [A-Z]`
+			echo ""
+			echo $3
+			echo ""
+			echo $2
+
 			LEXICONS=LEXICONS_${lang}
 			for item in $3
 			do
@@ -202,6 +211,6 @@ function feat_extractor {
 # function: parameter 1 = language abbreviation, parameter 2 = option (pick option between 1 and 7, see function), 3 = files for that language
 # you can change the language here: change both the first and third parameter (first == language, third == files for that language)
 # right now only ngrams work for arabic (lexicon has a bug somehow) and for spanish only ngrams and lexicon and ngram + lexicon
-feat_extractor "es" 2 "$FILES_ES"
+feat_extractor "$TARGET_LANGUAGE" "$OPTION" "$FILES_ES"
 
 
