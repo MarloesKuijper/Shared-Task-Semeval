@@ -82,18 +82,18 @@ if __name__ == "__main__":
 		feat = file.split("\\")[-1][:-4]
 		print(task, lang, emotion, feat)
 		dataset = np.loadtxt(file, delimiter=",", skiprows = 1)
-		
+
 		## split into input (X) and output (Y) variables ##
 		X = dataset[:,0:-1] #select everything but last column (label)
 		Y = dataset[:,-1]   #select column
 		X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=0)
-		
+
 		print("PREDICTIONS ", file)
 		## SVM test ##
 		svm_clf = svm.SVR()
 		print('Training SVM...\n')
 		pearson_svm = train_test_pearson(svm_clf, X_train, y_train, X_test, y_test)
-		
+
 		## Running baseline neural model ##
 		print('Training neural baseline...\n')
 		input_dim = len(X_train[0]) #input dimension is a necessary argument for the baseline model
@@ -110,7 +110,7 @@ if __name__ == "__main__":
 
 
 	keys = ["task", "lang", "emotion", "ngrams", "ngrams-embeddings", "ngrams-lexicons", "ngrams-lexicons-embeddings", "lexicons", "lexicons-embeddings", "embeddings"]
-	with open('results_rounded_new.csv', 'w') as output_file:
+	with open('results_rounded_with_translated_en_to_es.csv', 'w') as output_file:
 	    dict_writer = csv.DictWriter(output_file, fieldnames=keys, delimiter=";")
 	    dict_writer.writeheader()
 	    for row in excel_data:

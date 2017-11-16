@@ -1,2087 +1,815 @@
-@relation wekafiles/packages/AffectiveTweets/lexicons/spanishemotionlexicon.txt-weka.filters.unsupervised.attribute.Remove-weka.filters.unsupervised.attribute.RemoveByName-E^.*id$-weka.filters.unsupervised.attribute.TweetToLexiconFeatureVector-I1-A-D-F-H-J-L-N-P-Q-R-T-U-O
+@relation ../../new_train/es/2018-EI-reg-es-joy-train1.txt-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.RemoveByName-E^.*id$-weka.filters.unsupervised.attribute.TweetToLexiconFeatureVector-I1-H-J-R-T-U
 
-@attribute word string
-@attribute score numeric
+@attribute tweet string
 @attribute emotion string
-@attribute mpqa-posCount numeric
-@attribute mpqa-negCount numeric
-@attribute BingLiu-posCount numeric
-@attribute BingLiu-negCount numeric
-@attribute AFINN-posScore numeric
-@attribute AFINN-negScore numeric
+@attribute score numeric
 @attribute S140-posScore numeric
 @attribute S140-negScore numeric
 @attribute NRC-Hash-Sent-posScore numeric
 @attribute NRC-Hash-Sent-negScore numeric
-@attribute NRC-10-anger numeric
-@attribute NRC-10-anticipation numeric
-@attribute NRC-10-disgust numeric
-@attribute NRC-10-fear numeric
-@attribute NRC-10-joy numeric
-@attribute NRC-10-sadness numeric
-@attribute NRC-10-surprise numeric
-@attribute NRC-10-trust numeric
-@attribute NRC-10-negative numeric
-@attribute NRC-10-positive numeric
-@attribute NRC-10-Expanded-anger numeric
-@attribute NRC-10-Expanded-anticipation numeric
-@attribute NRC-10-Expanded-disgust numeric
-@attribute NRC-10-Expanded-fear numeric
-@attribute NRC-10-Expanded-joy numeric
-@attribute NRC-10-Expanded-sadness numeric
-@attribute NRC-10-Expanded-surprise numeric
-@attribute NRC-10-Expanded-trust numeric
-@attribute NRC-10-Expanded-negative numeric
-@attribute NRC-10-Expanded-positive numeric
-@attribute NRC-Hash-Emo-anger numeric
-@attribute NRC-Hash-Emo-anticipation numeric
-@attribute NRC-Hash-Emo-disgust numeric
-@attribute NRC-Hash-Emo-fear numeric
-@attribute NRC-Hash-Emo-joy numeric
-@attribute NRC-Hash-Emo-sadness numeric
-@attribute NRC-Hash-Emo-surprise numeric
-@attribute NRC-Hash-Emo-trust numeric
-@attribute SentiWordnet-posScore numeric
-@attribute SentiWordnet-negScore numeric
 @attribute Emoticons-posScore numeric
 @attribute Emoticons-negScore numeric
 @attribute Negation-negationCount numeric
 
 @data
 
-{0 abundancia,1 0.83,2 Joy}
-{0 acabalar,1 0.396,2 Joy}
-{0 acallar,1 0.198,2 Joy}
-{0 acatar,1 0.198,2 Joy}
-{0 acci�n,1 0.397,2 Joy}
-{0 aceptable,1 0.594,2 Joy}
-{0 aceptaci�n,1 0.696,2 Joy}
-{0 acicate,1 0.429,2 Joy}
-{0 aclamaci�n,1 0.799,2 Joy}
-{0 aclamar,1 0.799,2 Joy}
-{0 acogedor,1 0.83,2 Joy}
-{0 acoger,1 0.729,2 Joy}
-{0 acomodadamente,1 0.729,2 Joy}
-{0 acuciar,1 0.264,2 Joy}
-{0 acucioso,1 0.232,2 Joy}
-{0 adecuar,1 0.331,2 Joy}
-{0 adicto,1 0.429,2 Joy}
-{0 admirable,1 0.764,2 Joy,3 1,5 1,9 1.147,11 0.883,17 1,20 1,22 1,41 0.666667}
-{0 admirablemente,1 0.765,2 Joy}
-{0 admiraci�n,1 0.765,2 Joy}
-{0 admirar,1 0.731,2 Joy}
-{0 admitir,1 0.53,2 Joy}
-{0 adorable,1 0.898,2 Joy,3 1,5 1,7 3,9 1.331,11 1.247,17 1,22 1,37 0.060404,39 0.641065,40 0.501205,41 0.25}
-{0 adorablemente,1 0.865,2 Joy}
-{0 adoraci�n,1 0.765,2 Joy}
-{0 adorador,1 0.664,2 Joy}
-{0 adorar,1 0.764,2 Joy}
-{0 afable,1 0.696,2 Joy}
-{0 af�n,1 0.764,2 Joy}
-{0 afectivo,1 0.864,2 Joy}
-{0 afecto,1 0.899,2 Joy}
-{0 afectuosamente,1 0.966,2 Joy}
-{0 afectuosidad,1 0.932,2 Joy}
-{0 afectuoso,1 0.898,2 Joy}
-{0 afervorizar,1 0.731,2 Joy}
-{0 afici�n,1 0.729,2 Joy}
-{0 aficionar,1 0.595,2 Joy}
-{0 afortunadamente,1 0.831,2 Joy}
-{0 afortunado,1 0.932,2 Joy}
-{0 agradable,1 0.899,2 Joy}
-{0 agradar,1 0.798,2 Joy}
-{0 agradecer,1 0.763,2 Joy}
-{0 agradecido,1 0.764,2 Joy}
-{0 agudeza,1 0.331,2 Joy}
-{0 aguzar,1 0.199,2 Joy}
-{0 ah�nco,1 0.73,2 Joy}
-{0 ah�to,1 0.564,2 Joy}
-{0 airoso,1 0.565,2 Joy}
-{0 alabar,1 0.53,2 Joy}
-{0 alborozar,1 0.899,2 Joy}
-{0 alborozo,1 0.899,2 Joy}
-{0 alegrar,1 0.966,2 Joy}
-{0 alegre,1 1,2 Joy,10 -0.381,23 0.090622,24 0.061354,25 0.024497,26 0.025863,27 0.059776,28 0.026194,29 0.039177,30 0.077787,31 0.229092,32 0.135837}
-{0 alegremente,1 1,2 Joy}
-{0 Joy,1 1,2 Joy,3 1,5 1,7 3,9 0.443,11 1.126,17 1,22 1,37 1.947305,41 0.5}
-{0 alentar,1 0.73,2 Joy}
-{0 aliviar,1 0.763,2 Joy}
-{0 alivio,1 0.763,2 Joy}
-{0 allegar,1 0.364,2 Joy}
-{0 alma,1 0.397,2 Joy,9 0.742,11 0.814,23 0.013314,24 0.070305,25 0.003903,26 0.013448,27 0.062109,28 0.009112,29 0.016887,30 0.109793,31 0.026659,32 0.336684}
-{0 altivo,1 0.132,2 Joy}
-{0 altruismo,1 0.529,2 Joy}
-{0 alzar,1 0.298,2 Joy}
-{0 amabilidad,1 0.728,2 Joy}
-{0 amable,1 0.762,2 Joy}
-{0 amablemente,1 0.762,2 Joy}
-{0 amante,1 0.731,2 Joy}
-{0 amar,1 0.899,2 Joy,9 0.965,12 -0.214,23 0.092519,24 0.048131,25 0.016567,26 0.041847,27 0.018723,28 0.022305,29 0.040447,30 0.206883,31 0.277544,32 0.128513}
-{0 amartelado,1 0.966,2 Joy}
-{0 amartelar,1 0.731,2 Joy}
-{0 amativo,1 0.764,2 Joy}
-{0 amatorio,1 0.832,2 Joy}
-{0 ambici�n,1 0.429,2 Joy}
-{0 ambicioso,1 0.363,2 Joy}
-{0 amigabilidad,1 0.898,2 Joy}
-{0 amigable,1 0.898,2 Joy}
-{0 amigablemente,1 0.864,2 Joy}
-{0 amigo,1 0.898,2 Joy,9 0.677,11 0.072,23 0.04454,24 0.049141,25 0.016356,26 0.012274,27 0.035131,28 0.004416,29 0.019322,30 0.082286,31 0.141648,32 0.160819,41 0.125}
-{0 amistad,1 0.966,2 Joy}
-{0 amistosamente,1 0.898,2 Joy}
-{0 amistoso,1 0.966,2 Joy}
-{0 amor,1 0.966,2 Joy,9 0.049,11 0.766,23 0.036995,24 0.036517,25 0.009319,26 0.019594,27 0.052698,28 0.02236,29 0.015573,30 0.09155,31 0.18047,32 0.144552}
-{0 amorosamente,1 0.932,2 Joy}
-{0 amorosidad,1 0.898,2 Joy}
-{0 amoroso,1 0.898,2 Joy}
-{0 amuleto,1 0.398,2 Joy}
-{0 anhelo,1 0.297,2 Joy}
-{0 animaci�n,1 0.562,2 Joy}
-{0 animado,1 0.865,2 Joy,23 0.085198,24 0.018902,25 0.094833,26 0.079268,27 0.002484,28 0.03259,29 0.029635,30 0.00611,31 0.604854,32 0.007093}
-{0 animar,1 0.797,2 Joy}
-{0 �nimo,1 0.864,2 Joy}
-{0 animoso,1 0.83,2 Joy}
-{0 anticipar,1 0.231,2 Joy}
-{0 apaciguar,1 0.298,2 Joy}
-{0 apasionadamente,1 0.663,2 Joy}
-{0 apasionamiento,1 0.696,2 Joy}
-{0 apasionante,1 0.798,2 Joy}
-{0 apego,1 0.597,2 Joy}
-{0 apetecer,1 0.363,2 Joy}
-{0 aplaudir,1 0.797,2 Joy}
-{0 aplauso,1 0.763,2 Joy}
-{0 apreciar,1 0.629,2 Joy}
-{0 aprobaci�n,1 0.596,2 Joy}
-{0 aprobar,1 0.664,2 Joy}
-{0 aprobatorio,1 0.732,2 Joy}
-{0 aquietar,1 0.165,2 Joy}
-{0 ardiente,1 0.33,2 Joy}
-{0 ardor,1 0.265,2 Joy,3 1,5 1,22 1,41 0.135417}
-{0 armon�a,1 0.864,2 Joy}
-{0 arreglar,1 0.33,2 Joy}
-{0 arrobo,1 0.631,2 Joy}
-{0 arrojo,1 0.363,2 Joy}
-{0 asombro,1 0.396,2 Joy}
-{0 atracci�n,1 0.663,2 Joy}
-{0 atractivo,1 0.696,2 Joy}
-{0 atraer,1 0.631,2 Joy}
-{0 atrayente,1 0.53,2 Joy}
-{0 atrayentemente,1 0.497,2 Joy}
-{0 autocomplacencia,1 0.63,2 Joy}
-{0 autorizaci�n,1 0.397,2 Joy}
-{0 autorrespeto,1 0.598,2 Joy}
-{0 autosatisfacci�n,1 0.798,2 Joy}
-{0 autosatisfecho,1 0.796,2 Joy}
-{0 autosuficiencia,1 0.764,2 Joy}
-{0 �vido,1 0.198,2 Joy}
-{0 avivar,1 0.33,2 Joy}
-{0 benefactor,1 0.562,2 Joy,3 1,5 1,7 2,20 1,22 1}
-{0 beneficencia,1 0.596,2 Joy}
-{0 beneficiado,1 0.83,2 Joy}
-{0 beneficiar,1 0.729,2 Joy}
-{0 beneficio,1 0.898,2 Joy}
-{0 beneficiosamente,1 0.797,2 Joy}
-{0 beneficioso,1 0.864,2 Joy}
-{0 ben�fico,1 0.831,2 Joy}
-{0 benepl�cito,1 0.564,2 Joy}
-{0 ben�volamente,1 0.462,2 Joy}
-{0 benevolencia,1 0.462,2 Joy}
-{0 benevolente,1 0.528,2 Joy}
-{0 ben�volo,1 0.495,2 Joy}
-{0 benignamente,1 0.465,2 Joy}
-{0 benigno,1 0.465,2 Joy}
-{0 bien,1 0.798,2 Joy,9 0.619,11 0.701,23 0.051036,24 0.049331,25 0.011551,26 0.011721,27 0.021304,28 0.009604,29 0.034495,30 0.040667,31 0.204456,32 0.145576,35 0.908995}
-{0 bienandanza,1 0.765,2 Joy}
-{0 bienaventurado,1 0.831,2 Joy}
-{0 bienaventuranza,1 0.63,2 Joy}
-{0 bienestar,1 0.932,2 Joy}
-{0 bienhechor,1 0.695,2 Joy}
-{0 bienquerencia,1 0.729,2 Joy}
-{0 bienquerer,1 0.762,2 Joy}
-{0 bizbirondo,1 0.899,2 Joy}
-{0 blando,1 0.198,2 Joy}
-{0 blandura,1 0.132,2 Joy}
-{0 bondad,1 0.696,2 Joy}
-{0 bondadosamente,1 0.696,2 Joy}
-{0 bondadoso,1 0.763,2 Joy}
-{0 bonhom�a,1 0.462,2 Joy}
-{0 brillante,1 0.663,2 Joy}
-{0 br�o,1 0.463,2 Joy}
-{0 brioso,1 0.463,2 Joy}
-{0 bromear,1 0.831,2 Joy}
-{0 bueno,1 0.898,2 Joy,10 -0.952,11 0.19,23 0.193764,24 0.01987,25 0.142161,26 0.090559,27 0.002243,28 0.23594,29 0.018736,30 0.005261,31 0.754061,32 0.009853,33 0.631408,36 0.747981}
-{0 bullanguero,1 0.664,2 Joy}
-{0 bullicioso,1 0.664,2 Joy}
-{0 burla,1 0.364,2 Joy}
-{0 burlar,1 0.431,2 Joy}
-{0 cabal,1 0.264,2 Joy,16 1,21 1}
-{0 calidez,1 0.628,2 Joy}
-{0 c�lido,1 0.43,2 Joy}
-{0 caliente,1 0.264,2 Joy,9 0.56,23 0.14293,24 0.047238,25 0.044057,26 0.055283,27 0.034335,28 0.013252,29 0.045459,30 0.019437,31 0.34117,32 0.12957}
-{0 calmado,1 0.231,2 Joy}
-{0 calor,1 0.099,2 Joy,23 0.212342,24 0.023308,25 0.269217,26 0.166195,27 0.002686,28 0.057328,29 0.035109,30 0.004515,31 0.803402,32 0.006664}
-{0 calurosamente,1 0.365,2 Joy}
-{0 camarader�a,1 0.63,2 Joy}
-{0 campante,1 0.529,2 Joy}
-{0 captivar,1 0.43,2 Joy}
-{0 capturar,1 0.099,2 Joy}
-{0 carcajada,1 0.932,2 Joy}
-{0 caridad,1 0.63,2 Joy}
-{0 cari�o,1 0.864,2 Joy}
-{0 cari�osamente,1 0.764,2 Joy}
-{0 cari�oso,1 0.83,2 Joy}
-{0 caritativo,1 0.63,2 Joy}
-{0 cautivador,1 0.628,2 Joy}
-{0 cautivadoramente,1 0.595,2 Joy}
-{0 cautivar,1 0.562,2 Joy}
-{0 celebrar,1 0.933,2 Joy}
-{0 celo,1 0.132,2 Joy}
-{0 celosamente,1 0.066,2 Joy}
-{0 celoso,1 0.033,2 Joy}
-{0 chancear,1 0.698,2 Joy}
-{0 chanza,1 0.598,2 Joy}
-{0 chotear,1 0.665,2 Joy}
-{0 choteo,1 0.564,2 Joy}
-{0 chulear,1 0.629,2 Joy}
-{0 clemente,1 0.264,2 Joy,10 -0.798,11 1.577,23 0.051013,24 0.023336,25 0.010318,26 0.028893,27 0.025662,28 0.016171,29 0.01846,30 0.059176,31 0.1041,32 0.078624}
-{0 cogida,1 0.199,2 Joy}
-{0 cogollo,1 0.066,2 Joy}
-{0 colmar,1 0.165,2 Joy}
-{0 colosal,1 0.463,2 Joy}
-{0 c�modamente,1 0.629,2 Joy}
-{0 comodidad,1 0.662,2 Joy}
-{0 c�modo,1 0.695,2 Joy}
-{0 compa�erismo,1 0.73,2 Joy}
-{0 compasi�n,1 0.364,2 Joy}
-{0 compasivo,1 0.43,2 Joy}
-{0 compatibilidad,1 0.496,2 Joy}
-{0 compatible,1 0.462,2 Joy,3 1,5 1,10 -1.348,12 -1.226,22 1,38 1.447392,41 0.46875}
-{0 compatiblemente,1 0.363,2 Joy}
-{0 compensaci�n,1 0.331,2 Joy}
-{0 complacencia,1 0.629,2 Joy}
-{0 complacer,1 0.73,2 Joy}
-{0 complacible,1 0.595,2 Joy}
-{0 complacido,1 0.864,2 Joy}
-{0 complaciente,1 0.73,2 Joy}
-{0 comprensivo,1 0.562,2 Joy}
-{0 concernir,1 0.066,2 Joy}
-{0 condescender,1 0.363,2 Joy}
-{0 condescendiente,1 0.396,2 Joy}
-{0 condimento,1 0.099,2 Joy}
-{0 condolencia,1 0.132,2 Joy}
-{0 confiado,1 0.297,2 Joy}
-{0 confirmaci�n,1 0.363,2 Joy}
-{0 confirmar,1 0.363,2 Joy}
-{0 confort,1 0.596,2 Joy}
-{0 confortable,1 0.663,2 Joy}
-{0 confortablemente,1 0.595,2 Joy}
-{0 confortaci�n,1 0.529,2 Joy}
-{0 confortador,1 0.496,2 Joy}
-{0 confortar,1 0.529,2 Joy}
-{0 confraternidad,1 0.73,2 Joy}
-{0 congeniar,1 0.628,2 Joy}
-{0 congraciar,1 0.594,2 Joy}
-{0 congratular,1 0.731,2 Joy}
-{0 conmiseraci�n,1 0.066,2 Joy}
-{0 conmover,1 0.165,2 Joy}
-{0 conquista,1 0.463,2 Joy}
-{0 consenso,1 0.33,2 Joy}
-{0 consentimiento,1 0.396,2 Joy}
-{0 consideraci�n,1 0.396,2 Joy}
-{0 considerar,1 0.396,2 Joy}
-{0 consolaci�n,1 0.397,2 Joy}
-{0 consolador,1 0.331,2 Joy}
-{0 consolar,1 0.397,2 Joy}
-{0 consuelo,1 0.43,2 Joy}
-{0 consumar,1 0.364,2 Joy}
-{0 contemporizar,1 0.165,2 Joy}
-{0 contentar,1 0.762,2 Joy}
-{0 contento,1 0.966,2 Joy}
-{0 copiosidad,1 0.562,2 Joy}
-{0 copioso,1 0.462,2 Joy}
-{0 coraz�n,1 0.33,2 Joy}
-{0 cordial,1 0.629,2 Joy,3 1,9 0.3,11 0.008,23 0.066022,24 0.017273,25 0.017812,26 0.013627,27 0.016786,28 0.015777,29 0.00996,30 0.034528,31 0.188838,32 0.07956,41 0.416667}
-{0 cordialidad,1 0.663,2 Joy}
-{0 cordialmente,1 0.729,2 Joy}
-{0 cortes�a,1 0.695,2 Joy}
-{0 cosquillear,1 0.764,2 Joy}
-{0 cosquilleo,1 0.764,2 Joy}
-{0 crecer,1 0.53,2 Joy}
-{0 cuidar,1 0.33,2 Joy}
-{0 culminaci�n,1 0.398,2 Joy}
-{0 culto,1 0.264,2 Joy}
-{0 cumplido,1 0.529,2 Joy}
-{0 cumplimentar,1 0.364,2 Joy}
-{0 cumplir,1 0.496,2 Joy}
-{0 decorativo,1 0.363,2 Joy}
-{0 dedicar,1 0.462,2 Joy}
-{0 deferencia,1 0.495,2 Joy}
-{0 deleitar,1 0.796,2 Joy}
-{0 del�itese,1 0.695,2 Joy}
-{0 delicadeza,1 0.264,2 Joy}
-{0 delicado,1 0.165,2 Joy}
-{0 delicia,1 0.663,2 Joy}
-{0 desagraviar,1 0.231,2 Joy}
-{0 desahogo,1 0.363,2 Joy}
-{0 desear,1 0.396,2 Joy}
-{0 desempe�ar,1 0.463,2 Joy}
-{0 desempe�o,1 0.529,2 Joy}
-{0 desenvoltura,1 0.264,2 Joy}
-{0 deseoso,1 0.398,2 Joy}
-{0 despenar,1 0.297,2 Joy}
-{0 despertar,1 0.198,2 Joy}
-{0 despreocupaci�n,1 0.563,2 Joy}
-{0 devoci�n,1 0.497,2 Joy}
-{0 devoto,1 0.463,2 Joy}
-{0 dicha,1 0.731,2 Joy}
-{0 dichosamente,1 0.764,2 Joy}
-{0 dichoso,1 0.832,2 Joy}
-{0 dignificar,1 0.462,2 Joy}
-{0 dilecci�n,1 0.563,2 Joy}
-{0 disfrutar,1 0.83,2 Joy}
-{0 disfrute,1 0.898,2 Joy}
-{0 divertidamente,1 0.966,2 Joy}
-{0 divertid�simamente,1 1,2 Joy}
-{0 divertido,1 1,2 Joy}
-{0 divertir,1 0.966,2 Joy}
-{0 divinizar,1 0.363,2 Joy}
-{0 divino,1 0.563,2 Joy}
-{0 donaire,1 0.396,2 Joy}
-{0 dulce,1 0.562,2 Joy,9 0.049,11 0.989,23 0.037517,24 0.028535,25 0.020654,26 0.012774,27 0.022819,28 0.012198,29 0.029109,30 0.032384,31 0.223563,32 0.097437}
-{0 dulzura,1 0.663,2 Joy}
-{0 edificante,1 0.497,2 Joy}
-{0 edificar,1 0.363,2 Joy}
-{0 efusi�n,1 0.497,2 Joy}
-{0 efusivamente,1 0.73,2 Joy}
-{0 efusivo,1 0.764,2 Joy}
-{0 ejemplo,1 0.231,2 Joy}
-{0 elecci�n,1 0.264,2 Joy}
-{0 elegante,1 0.231,2 Joy}
-{0 elevar,1 0.165,2 Joy}
-{0 elogio,1 0.463,2 Joy}
-{0 embebecer,1 0.596,2 Joy}
-{0 embelesar,1 0.596,2 Joy}
-{0 embeleso,1 0.497,2 Joy}
-{0 embobar,1 0.298,2 Joy}
-{0 emborrachar,1 0.562,2 Joy}
-{0 embriagar,1 0.562,2 Joy}
-{0 embromar,1 0.595,2 Joy}
-{0 embrujar,1 0.132,2 Joy}
-{0 embrujo,1 0.099,2 Joy}
-{0 emoci�n,1 0.798,2 Joy}
-{0 emocionante,1 0.831,2 Joy}
-{0 emocionar,1 0.831,2 Joy}
-{0 emotivo,1 0.763,2 Joy}
-{0 empat�a,1 0.462,2 Joy}
-{0 emp�tico,1 0.396,2 Joy}
-{0 empe�o,1 0.396,2 Joy}
-{0 enaltecer,1 0.496,2 Joy}
-{0 enamoramiento,1 0.864,2 Joy}
-{0 enamorar,1 0.831,2 Joy}
-{0 encalmar,1 0.198,2 Joy}
-{0 encantado,1 0.495,2 Joy}
-{0 encantador,1 0.695,2 Joy}
-{0 encanto,1 0.562,2 Joy}
-{0 encomiar,1 0.529,2 Joy}
-{0 endiosar,1 0.396,2 Joy}
-{0 energ�a,1 0.496,2 Joy}
-{0 engrandecer,1 0.53,2 Joy}
-{0 ennoblecer,1 0.463,2 Joy}
-{0 enorgullecer,1 0.797,2 Joy}
-{0 enternecimiento,1 0.564,2 Joy}
-{0 entra�a,1 0.099,2 Joy}
-{0 entra�able,1 0.298,2 Joy}
-{0 entrar,1 0.165,2 Joy,23 0.107723,24 0.01708,25 0.049863,26 0.062151,27 0.001727,28 0.09002,29 0.0189,30 0.010558,31 0.663295,32 0.005551}
-{0 entregar,1 0.231,2 Joy}
-{0 entusiasmado,1 0.864,2 Joy}
-{0 entusiasmar,1 0.83,2 Joy}
-{0 entusiasmo,1 0.864,2 Joy}
-{0 entusiasta,1 0.864,2 Joy}
-{0 er�tico,1 0.529,2 Joy}
-{0 espectacular,1 0.563,2 Joy}
-{0 esperanza,1 0.495,2 Joy}
-{0 esperanzado,1 0.496,2 Joy}
-{0 espl�ndido,1 0.696,2 Joy}
-{0 estimar,1 0.629,2 Joy}
-{0 estimulante,1 0.497,2 Joy}
-{0 estimular,1 0.496,2 Joy}
-{0 estremecer,1 0.495,2 Joy}
-{0 estupendo,1 0.864,2 Joy}
-{0 euforia,1 0.663,2 Joy}
-{0 euf�rico,1 0.663,2 Joy}
-{0 euforizante,1 0.663,2 Joy}
-{0 exaltar,1 0.563,2 Joy}
-{0 excelente,1 0.763,2 Joy,9 0.965,23 0.122818,24 0.054671,25 0.042998,26 0.071899,27 0.046971,28 0.010671,29 0.094905,30 0.023542,31 0.426934,32 0.108923}
-{0 excitante,1 0.864,2 Joy}
-{0 excitar,1 0.764,2 Joy}
-{0 exhortar,1 0.165,2 Joy}
-{0 �xito,1 0.864,2 Joy}
-{0 expansivo,1 0.363,2 Joy}
-{0 expectaci�n,1 0.264,2 Joy}
-{0 expectativa,1 0.297,2 Joy}
-{0 explosi�n,1 0.198,2 Joy}
-{0 expresi�n,1 0.297,2 Joy}
-{0 extasiante,1 0.796,2 Joy}
-{0 extasiar,1 0.762,2 Joy}
-{0 extenso,1 0.099,2 Joy}
-{0 exuberante,1 0.396,2 Joy}
-{0 exuberantemente,1 0.363,2 Joy}
-{0 exultar,1 0.796,2 Joy}
-{0 familiar,1 0.529,2 Joy,9 1.116,12 -0.882,20 1,22 1,34 0.62804,36 0.119372,38 0.254469,39 0.345818,41 0.304167}
-{0 familiaridad,1 0.629,2 Joy}
-{0 fantas�a,1 0.596,2 Joy}
-{0 fascinaci�n,1 0.898,2 Joy}
-{0 fascinado,1 0.898,2 Joy}
-{0 fascinante,1 0.932,2 Joy}
-{0 fascinar,1 0.731,2 Joy}
-{0 fasto,1 0.265,2 Joy}
-{0 fastuoso,1 0.363,2 Joy}
-{0 fausto,1 0.363,2 Joy}
-{0 favor,1 0.33,2 Joy,3 1,5 1,7 2,9 0.975,12 -0.582,33 0.028583,35 0.393181,41 0.61875}
-{0 favorable,1 0.596,2 Joy,3 1,5 1,7 2,10 -0.461,14 1,17 1,19 1,20 1,22 1,41 0.679167}
-{0 favorablemente,1 0.563,2 Joy}
-{0 favorecedor,1 0.562,2 Joy}
-{0 favorecimiento,1 0.562,2 Joy}
-{0 felicidad,1 1,2 Joy}
-{0 felicitar,1 0.831,2 Joy}
-{0 feliz,1 0.966,2 Joy,9 1.958,11 0.478,23 0.039828,24 0.130842,25 0.008541,26 0.009399,27 0.275341,28 0.010984,29 0.092164,30 0.066974,31 0.086576,32 0.344442}
-{0 felizmente,1 0.966,2 Joy}
-{0 feraz,1 0.33,2 Joy}
-{0 fervor,1 0.597,2 Joy,3 1,5 1,13 1,17 1,22 1,41 0.104167}
-{0 fervoroso,1 0.564,2 Joy}
-{0 festivo,1 0.729,2 Joy}
-{0 fetiche,1 0.265,2 Joy}
-{0 fibra,2 Joy}
-{0 fidelidad,1 0.43,2 Joy}
-{0 fiebre,1 0.132,2 Joy}
-{0 fiel,1 0.463,2 Joy}
-{0 fiesta,1 0.83,2 Joy,9 0.509,11 1.759,14 1,17 1,19 1,20 1,22 1,33 0.388462}
-{0 fijar,1 0.132,2 Joy}
-{0 filantropo,1 0.463,2 Joy}
-{0 final,1 0.198,2 Joy,10 -0.162,11 0.56,36 0.797771,39 0.054317,42 -0.15625}
-{0 fino,1 0.198,2 Joy}
-{0 flechar,1 0.297,2 Joy}
-{0 florecer,1 0.595,2 Joy}
-{0 fogosidad,1 0.561,2 Joy}
-{0 fraternidad,1 0.595,2 Joy}
-{0 fraternizar,1 0.529,2 Joy}
-{0 furor,1 0.496,2 Joy,4 1,6 1,13 1,21 1,41 0.083333}
-{0 gala,1 0.297,2 Joy,9 0.419,11 1.066}
-{0 gana,1 0.463,2 Joy,9 0.154,11 0.478,23 0.076141,24 0.060047,25 0.019066,26 0.038695,27 0.014665,28 0.027124,29 0.015246,30 0.035763,31 0.245279,32 0.089316}
-{0 ganar,1 0.764,2 Joy}
-{0 generosidad,1 0.628,2 Joy}
-{0 generoso,1 0.628,2 Joy}
-{0 genial,1 0.864,2 Joy,3 1,5 1,7 3,9 2.246,17 1,22 1,41 0.53125}
-{0 gloria,1 0.797,2 Joy,9 0.238,11 0.324,23 0.051341,24 0.0291,25 0.008899,26 0.04675,27 0.072104,28 0.042837,29 0.031442,30 0.243911,31 0.107006,32 0.345162}
-{0 gloriar,1 0.562,2 Joy}
-{0 glorificar,1 0.529,2 Joy}
-{0 goce,1 0.763,2 Joy}
-{0 gozar,1 0.831,2 Joy}
-{0 gozo,1 0.831,2 Joy}
-{0 gozosamente,1 0.765,2 Joy}
-{0 gozoso,1 0.798,2 Joy}
-{0 gracia,1 0.597,2 Joy}
-{0 gracioso,1 0.83,2 Joy}
-{0 grande,1 0.396,2 Joy,9 0.742,11 1.833,23 0.017376,24 0.051803,25 0.003321,26 0.008512,27 0.053692,28 0.007664,29 0.028452,30 0.096507,31 0.048642,32 0.181523,33 0.225943}
-{0 grandioso,1 0.564,2 Joy}
-{0 gratificador,1 0.664,2 Joy}
-{0 gratificante,1 0.697,2 Joy}
-{0 gratificar,1 0.598,2 Joy}
-{0 gratis,1 0.563,2 Joy}
-{0 grato,1 0.663,2 Joy}
-{0 guasa,1 0.429,2 Joy}
-{0 gustar,1 0.596,2 Joy}
-{0 gusto,1 0.629,2 Joy,3 1,5 1,10 -0.342,12 -1.718,23 0.12884,24 0.051317,25 0.017192,26 0.026183,27 0.047438,28 0.016765,29 0.049324,30 0.048564,31 0.208811,32 0.18974,41 0.375}
-{0 gustoso,1 0.762,2 Joy}
-{0 halagar,1 0.563,2 Joy}
-{0 halag�e�o,1 0.396,2 Joy}
-{0 hartar,1 0.033,2 Joy}
-{0 hechizar,1 0.231,2 Joy}
-{0 hechizo,1 0.198,2 Joy}
-{0 hermandad,1 0.561,2 Joy}
-{0 hilarante,1 0.63,2 Joy}
-{0 hilarantemente,1 0.597,2 Joy}
-{0 hilaridad,1 0.664,2 Joy}
-{0 hipnotizar,1 0.165,2 Joy}
-{0 holgura,1 0.265,2 Joy}
-{0 honorable,1 0.53,2 Joy,3 1,5 1,9 2.128,11 0.296,20 1,22 1,41 0.7625}
-{0 honrar,1 0.396,2 Joy}
-{0 honrosamente,1 0.429,2 Joy}
-{0 hospitalario,1 0.563,2 Joy}
-{0 hospitalidad,1 0.629,2 Joy}
-{0 humanidad,1 0.33,2 Joy}
-{0 humanitarismo,1 0.264,2 Joy}
-{0 humor,1 0.73,2 Joy,3 1,5 1,7 2,9 1.226,11 0.691,23 0.023909,24 0.088471,25 0.016225,26 0.007922,27 0.209954,28 0.014727,29 0.048477,30 0.137067,31 0.059631,32 0.632049,37 0.542317,38 0.306933,40 0.524164,41 0.404167}
-{0 identificar,1 0.132,2 Joy}
-{0 idilio,1 0.396,2 Joy}
-{0 ilusionadamente,1 0.462,2 Joy}
-{0 ilusionar,1 0.495,2 Joy}
-{0 impactar,1 0.363,2 Joy}
-{0 �mpetu,1 0.529,2 Joy}
-{0 impetuosidad,1 0.463,2 Joy}
-{0 impresionar,1 0.397,2 Joy}
-{0 impulsar,1 0.363,2 Joy}
-{0 inclinaci�n,1 0.099,2 Joy}
-{0 inmortalizar,1 0.198,2 Joy}
-{0 inspirar,1 0.53,2 Joy}
-{0 inter�s,1 0.33,2 Joy}
-{0 intoxicante,1 0.066,2 Joy}
-{0 jacarero,1 0.664,2 Joy}
-{0 jarana,1 0.365,2 Joy}
-{0 jocoso,1 0.564,2 Joy}
-{0 jocundo,1 0.763,2 Joy}
-{0 jovial,1 0.73,2 Joy,3 1,5 1,7 2,11 0.478,17 1,22 1,41 0.3125}
-{0 j�bilo,1 0.83,2 Joy}
-{0 jubilosamente,1 0.73,2 Joy}
-{0 jubiloso,1 0.731,2 Joy}
-{0 juerga,1 0.531,2 Joy}
-{0 laudable,1 0.363,2 Joy,3 1,5 1,22 1,41 0.3125}
-{0 leal,1 0.463,2 Joy,41 0.1875}
-{0 lealtad,1 0.463,2 Joy}
-{0 ledamente,1 0.731,2 Joy}
-{0 lenificar,1 0.265,2 Joy}
-{0 lenizar,1 0.199,2 Joy}
-{0 levantar,1 0.198,2 Joy}
-{0 libre,1 0.696,2 Joy,9 1.078,12 -0.907,23 0.080653,24 0.045669,25 0.018793,26 0.019283,27 0.037359,28 0.008567,29 0.05179,30 0.046739,31 0.169399,32 0.184167}
-{0 lisonjero,1 0.73,2 Joy}
-{0 llenar,1 0.33,2 Joy}
-{0 loable,1 0.33,2 Joy}
-{0 lograr,1 0.663,2 Joy}
-{0 lucro,1 0.198,2 Joy}
-{0 macanudo,1 0.528,2 Joy}
-{0 magia,1 0.561,2 Joy}
-{0 magnetizar,1 0.132,2 Joy}
-{0 magnif�co,1 0.798,2 Joy}
-{0 magno,1 0.365,2 Joy}
-{0 majo,1 0.429,2 Joy}
-{0 maravillar,1 0.729,2 Joy}
-{0 maravillosamente,1 0.729,2 Joy}
-{0 mejorar,1 0.529,2 Joy}
-{0 meloso,1 0.396,2 Joy}
-{0 miramiento,1 0.231,2 Joy}
-{0 mirar,1 0.165,2 Joy}
-{0 misericordia,1 0.198,2 Joy}
-{0 mitigar,1 0.165,2 Joy}
-{0 mollar,1 0.099,2 Joy}
-{0 motivar,1 0.597,2 Joy}
-{0 mover,1 0.099,2 Joy,10 -0.173,12 -0.62,22 1}
-{0 oferta,1 0.165,2 Joy}
-{0 opimo,1 0.396,2 Joy}
-{0 op�paro,1 0.396,2 Joy}
-{0 orgullo,1 0.596,2 Joy}
-{0 orgullosamente,1 0.697,2 Joy}
-{0 orgulloso,1 0.531,2 Joy}
-{0 ovaci�n,1 0.796,2 Joy}
-{0 ovacionar,1 0.663,2 Joy}
-{0 pacificar,1 0.332,2 Joy}
-{0 paladear,1 0.33,2 Joy}
-{0 palmas,1 0.496,2 Joy}
-{0 parranda,1 0.628,2 Joy}
-{0 pasi�n,1 0.763,2 Joy}
-{0 paz,1 0.63,2 Joy,10 -0.798,11 0.883,23 0.052632,24 0.028885,25 0.016034,26 0.015072,27 0.020075,28 0.022283,29 0.023411,30 0.030687,31 0.212412,32 0.107064}
-{0 piadoso,1 0.363,2 Joy}
-{0 piedad,1 0.297,2 Joy}
-{0 placentero,1 0.796,2 Joy}
-{0 placer,1 0.864,2 Joy,9 5,23 0.02675,24 0.071212,25 0.015841,26 0.011598,27 0.031145,28 0.008471,29 0.013825,30 0.083766,31 0.104159,32 0.213478,41 0.0625}
-{0 pleites�a,1 0.199,2 Joy}
-{0 preferencia,1 0.397,2 Joy}
-{0 prerrogativa,1 0.231,2 Joy}
-{0 preservar,1 0.165,2 Joy}
-{0 presumir,1 0.264,2 Joy}
-{0 prever,1 0.264,2 Joy}
-{0 privilegio,1 0.463,2 Joy}
-{0 probar,1 0.198,2 Joy}
-{0 profusi�n,1 0.198,2 Joy}
-{0 propiciar,1 0.264,2 Joy}
-{0 propicio,1 0.33,2 Joy}
-{0 pr�spero,1 0.762,2 Joy}
-{0 protectoramente,1 0.231,2 Joy}
-{0 proteger,1 0.231,2 Joy}
-{0 provecho,1 0.463,2 Joy,23 0.038553,24 0.049911,25 0.016354,26 0.014765,27 0.041359,28 0.0041,29 0.060663,30 0.02329,31 0.193691,32 0.156077}
-{0 provechoso,1 0.53,2 Joy}
-{0 providencial,1 0.231,2 Joy}
-{0 pujanza,1 0.165,2 Joy}
-{0 querer,1 0.63,2 Joy}
-{0 quietud,1 0.198,2 Joy}
-{0 quillotrar,1 0.363,2 Joy}
-{0 radiante,1 0.53,2 Joy}
-{0 ratificar,1 0.132,2 Joy}
-{0 realizaci�n,1 0.364,2 Joy}
-{0 realizar,1 0.231,2 Joy}
-{0 recoger,1 0.132,2 Joy}
-{0 recogimiento,1 0.132,2 Joy}
-{0 recomendar,1 0.297,2 Joy}
-{0 recompensa,1 0.629,2 Joy}
-{0 reconfortante,1 0.797,2 Joy}
-{0 reconfortar,1 0.696,2 Joy}
-{0 recrear,1 0.497,2 Joy}
-{0 refocilar,1 0.563,2 Joy}
-{0 regalo,1 0.764,2 Joy}
-{0 regocijadamente,1 0.763,2 Joy}
-{0 regocijar,1 0.696,2 Joy}
-{0 regocijo,1 0.764,2 Joy}
-{0 regodear,1 0.43,2 Joy}
-{0 regodeo,1 0.363,2 Joy}
-{0 reidor,1 0.798,2 Joy}
-{0 relamer,1 0.396,2 Joy}
-{0 reparaci�n,1 0.198,2 Joy}
-{0 reproducir,1 0.264,2 Joy}
-{0 respetar,1 0.531,2 Joy}
-{0 respeto,1 0.497,2 Joy}
-{0 respetuoso,1 0.531,2 Joy}
-{0 resplandecer,1 0.598,2 Joy}
-{0 reverencia,1 0.364,2 Joy}
-{0 risa,1 0.932,2 Joy,23 0.158756,24 0.039625,25 0.090674,26 0.056321,27 0.045063,28 0.025176,29 0.108281,30 0.022643,31 0.405995,32 0.059667}
-{0 risue�o,1 0.932,2 Joy}
-{0 rom�ntico,1 0.63,2 Joy}
-{0 saber,1 0.297,2 Joy,10 -1.896,11 5,13 1,16 1,21 1}
-{0 saborear,1 0.43,2 Joy}
-{0 saciar,1 0.464,2 Joy}
-{0 saciedad,1 0.464,2 Joy}
-{0 sandunga,1 0.629,2 Joy}
-{0 satisfacci�n,1 0.864,2 Joy}
-{0 satisfacer,1 0.83,2 Joy}
-{0 satisfacible,1 0.763,2 Joy}
-{0 satisfactoriamente,1 0.831,2 Joy}
-{0 satisfactorio,1 0.831,2 Joy}
-{0 satisfecho,1 0.864,2 Joy}
-{0 seducci�n,1 0.529,2 Joy}
-{0 seducir,1 0.496,2 Joy}
-{0 seductivo,1 0.596,2 Joy}
-{0 seguro,1 0.465,2 Joy}
-{0 selecto,1 0.364,2 Joy}
-{0 serenar,1 0.231,2 Joy}
-{0 sereno,1 0.198,2 Joy}
-{0 simpat�a,1 0.797,2 Joy}
-{0 simp�tico,1 0.83,2 Joy}
-{0 simpatizar,1 0.83,2 Joy}
-{0 sincero,1 0.397,2 Joy}
-{0 soberbio,1 0.165,2 Joy}
-{0 sociable,1 0.53,2 Joy,3 1,5 1,9 0.049,12 -0.907,22 1,41 0.5}
-{0 solaz,1 0.198,2 Joy}
-{0 solazar,1 0.264,2 Joy}
-{0 solidaridad,1 0.464,2 Joy}
-{0 sonriente,1 0.966,2 Joy}
-{0 sortilegio,1 0.264,2 Joy}
-{0 sosegar,1 0.264,2 Joy}
-{0 suave,1 0.231,2 Joy,3 1,5 1,7 2,9 0.965,11 1.394,23 0.027169,24 0.019583,25 0.033451,26 0.016565,27 0.073781,28 0.001323,29 0.019051,30 0.103751,31 0.067358,32 0.660494,41 0.395833}
-{0 suavidad,1 0.231,2 Joy}
-{0 subyugar,1 0.099,2 Joy}
-{0 superabundancia,1 0.564,2 Joy}
-{0 superabundante,1 0.63,2 Joy}
-{0 suspender,1 0.099,2 Joy,12 -1.313}
-{0 terneza,1 0.397,2 Joy}
-{0 ternura,1 0.529,2 Joy}
-{0 tes�n,1 0.132,2 Joy}
-{0 tiernamente,1 0.53,2 Joy}
-{0 tierno,1 0.53,2 Joy}
-{0 tranquilizar,1 0.364,2 Joy}
-{0 tranquilo,1 0.397,2 Joy}
-{0 transportar,1 0.199,2 Joy}
-{0 tratable,1 0.297,2 Joy}
-{0 triunfador,1 0.796,2 Joy}
-{0 triunfal,1 0.796,2 Joy}
-{0 triunfalmente,1 0.728,2 Joy}
-{0 triunfante,1 0.796,2 Joy}
-{0 triunfantemente,1 0.796,2 Joy}
-{0 triunfar,1 0.83,2 Joy}
-{0 triunfo,1 0.864,2 Joy}
-{0 tuitivo,1 0.298,2 Joy}
-{0 ub�rrimo,1 0.165,2 Joy}
-{0 ufanamente,1 0.132,2 Joy}
-{0 ufan�a,1 0.099,2 Joy}
-{0 ufano,1 0.132,2 Joy}
-{0 ultimar,1 0.165,2 Joy}
-{0 unci�n,1 0.231,2 Joy}
-{0 uni�n,1 0.297,2 Joy}
-{0 �til,1 0.429,2 Joy}
-{0 val�a,1 0.43,2 Joy}
-{0 valimiento,1 0.331,2 Joy}
-{0 valorar,1 0.497,2 Joy}
-{0 vehemencia,1 0.331,2 Joy}
-{0 vehemente,1 0.331,2 Joy}
-{0 vencedor,1 0.696,2 Joy}
-{0 veneraci�n,1 0.496,2 Joy}
-{0 venerar,1 0.463,2 Joy}
-{0 ventajosamente,1 0.297,2 Joy}
-{0 ventajoso,1 0.33,2 Joy}
-{0 venturosamente,1 0.53,2 Joy}
-{0 venturoso,1 0.63,2 Joy}
-{0 victorear,1 0.563,2 Joy}
-{0 victoria,1 0.763,2 Joy,9 0.522,11 1.001,34 0.003886,38 0.077962,39 0.301482}
-{0 victorioso,1 0.797,2 Joy}
-{0 vigor,1 0.497,2 Joy,7 3,22 1,41 0.03125}
-{0 v�tor,1 0.297,2 Joy}
-{0 vitorear,1 0.297,2 Joy}
-{0 vivaz,1 0.563,2 Joy}
-{0 viveza,1 0.629,2 Joy}
-{0 vivificar,1 0.563,2 Joy}
-{0 vivir,1 0.63,2 Joy}
-{0 abominable,1 0.53,2 Anger,4 1,6 1,10 -1.742,15 1,16 1,21 1,42 -0.416667}
-{0 abominaci�n,1 0.464,2 Anger}
-{0 abominar,1 0.696,2 Anger}
-{0 aborrecer,1 0.798,2 Anger}
-{0 aborrecible,1 0.729,2 Anger}
-{0 aborreciblemente,1 0.629,2 Anger}
-{0 aborrecimiento,1 0.663,2 Anger}
-{0 abusar,1 0.463,2 Anger}
-{0 acometedor,1 0.463,2 Anger}
-{0 acometer,1 0.497,2 Anger}
-{0 acometiente,1 0.464,2 Anger}
-{0 acometimiento,1 0.431,2 Anger}
-{0 acometividad,1 0.397,2 Anger}
-{0 acosar,1 0.465,2 Anger}
-{0 acribillar,1 0.666,2 Anger}
-{0 acrimonia,1 0.363,2 Anger}
-{0 acritud,1 0.33,2 Anger}
-{0 adversario,1 0.363,2 Anger}
-{0 aferrar,1 0.265,2 Anger}
-{0 afrenta,1 0.53,2 Anger}
-{0 agarrar,1 0.231,2 Anger}
-{0 agobiar,1 0.297,2 Anger}
-{0 agobio,1 0.231,2 Anger}
-{0 agravamiento,1 0.397,2 Anger}
-{0 agravante,1 0.463,2 Anger}
-{0 agravar,1 0.43,2 Anger}
-{0 agraviar,1 0.597,2 Anger}
-{0 agravio,1 0.43,2 Anger}
-{0 agresividad,1 0.831,2 Anger}
-{0 agresivo,1 0.865,2 Anger}
-{0 agresor,1 0.83,2 Anger}
-{0 agriado,1 0.497,2 Anger}
-{0 airadamente,1 0.596,2 Anger}
-{0 airamiento,1 0.563,2 Anger}
-{0 airar,1 0.663,2 Anger}
-{0 alevos�a,1 0.396,2 Anger}
-{0 altivez,1 0.264,2 Anger}
-{0 altivo,1 0.33,2 Anger}
-{0 amargar,1 0.363,2 Anger}
-{0 amargo,1 0.165,2 Anger}
-{0 amargor,1 0.132,2 Anger}
-{0 amohinar,1 0.599,2 Anger}
-{0 amoscamiento,1 0.397,2 Anger}
-{0 animadversi�n,1 0.497,2 Anger}
-{0 �nimo,1 0.099,2 Anger}
-{0 animosidad,1 0.132,2 Anger}
-{0 antag�nico,1 0.199,2 Anger}
-{0 antagonismo,1 0.364,2 Anger}
-{0 antipat�a,1 0.662,2 Anger}
-{0 antip�tico,1 0.695,2 Anger}
-{0 apesadumbrar,1 0.495,2 Anger}
-{0 arrebatamiento,1 0.63,2 Anger}
-{0 arrebato,1 0.497,2 Anger}
-{0 arrojar,1 0.496,2 Anger}
-{0 asar,1 0.165,2 Anger}
-{0 asediar,1 0.364,2 Anger}
-{0 aspereza,1 0.298,2 Anger}
-{0 asurar,1 0.398,2 Anger}
-{0 atacar,1 0.832,2 Anger}
-{0 ataque,1 0.899,2 Anger}
-{0 atizar,1 0.465,2 Anger}
-{0 atormentar,1 0.664,2 Anger}
-{0 atosigar,1 0.563,2 Anger}
-{0 atrabiliario,1 0.664,2 Anger}
-{0 atrocidad,1 0.331,2 Anger}
-{0 atropellar,1 0.398,2 Anger}
-{0 atropello,1 0.397,2 Anger}
-{0 atroz,1 0.697,2 Anger}
-{0 atufar,1 0.398,2 Anger}
-{0 azuzar,1 0.264,2 Anger}
-{0 baquetear,1 0.365,2 Anger}
-{0 barbaridad,1 0.364,2 Anger}
-{0 batallar,1 0.463,2 Anger}
-{0 belicosidad,1 0.53,2 Anger}
-{0 belicoso,1 0.53,2 Anger}
-{0 beligerante,1 0.396,2 Anger}
-{0 berrinche,1 0.629,2 Anger}
-{0 bilis,1 0.532,2 Anger}
-{0 bochinche,1 0.363,2 Anger}
-{0 bravo,1 0.563,2 Anger,5 1,9 1.072,11 1.199,23 0.068698,24 0.143556,25 0.010073,26 0.028554,27 0.351698,28 0.004598,29 0.101842,30 0.283229,31 0.045821,32 0.591828,39 0.591434,41 0.083333}
-{0 bufar,1 0.532,2 Anger}
-{0 cabrear,1 0.597,2 Anger}
-{0 cargoso,1 0.363,2 Anger}
-{0 celos,1 0.63,2 Anger}
-{0 chalar,1 0.232,2 Anger}
-{0 chinche,1 0.396,2 Anger}
-{0 cinismo,1 0.298,2 Anger}
-{0 ciza�ar,1 0.463,2 Anger}
-{0 cocol�a,1 0.53,2 Anger}
-{0 c�lera,1 0.73,2 Anger}
-{0 col�ricamente,1 0.83,2 Anger}
-{0 col�rico,1 0.762,2 Anger}
-{0 concitar,1 0.363,2 Anger}
-{0 contrariar,1 0.463,2 Anger}
-{0 contrariedad,1 0.331,2 Anger}
-{0 convulsi�n,1 0.198,2 Anger}
-{0 coraje,1 0.899,2 Anger}
-{0 corajudo,1 0.831,2 Anger}
-{0 corroer,1 0.297,2 Anger}
-{0 crispar,1 0.43,2 Anger}
-{0 crucificar,1 0.198,2 Anger}
-{0 cuenta,2 Anger,23 0.111781,24 0.018306,25 0.052936,26 0.037684,27 0.005397,28 0.023788,29 0.027043,30 0.017822,31 0.448535,32 0.02669}
-{0 decepci�n,1 0.33,2 Anger}
-{0 decepcionar,1 0.297,2 Anger}
-{0 delicado,1 0.066,2 Anger}
-{0 demente,1 0.364,2 Anger}
-{0 demonio,1 0.497,2 Anger}
-{0 denigrar,1 0.496,2 Anger}
-{0 desaforo,1 0.132,2 Anger}
-{0 desagradable,1 0.53,2 Anger}
-{0 desagradar,1 0.628,2 Anger}
-{0 desagrado,1 0.595,2 Anger}
-{0 desairar,1 0.53,2 Anger}
-{0 desaire,1 0.53,2 Anger}
-{0 desaprobar,1 0.463,2 Anger}
-{0 desaz�n,1 0.231,2 Anger}
-{0 descaro,1 0.563,2 Anger}
-{0 descontentar,1 0.562,2 Anger}
-{0 descontento,1 0.629,2 Anger}
-{0 desd�n,1 0.463,2 Anger}
-{0 desde�ar,1 0.397,2 Anger}
-{0 deseable,1 0.099,2 Anger}
-{0 desear,1 0.033,2 Anger}
-{0 desesperante,1 0.496,2 Anger}
-{0 desm�n,1 0.529,2 Anger}
-{0 desorden,1 0.496,2 Anger}
-{0 despecho,1 0.662,2 Anger}
-{0 desplacer,1 0.595,2 Anger}
-{0 despreciar,1 0.696,2 Anger}
-{0 desprecio,1 0.696,2 Anger}
-{0 desquiciante,1 0.83,2 Anger}
-{0 desquiciar,1 0.898,2 Anger}
-{0 destemplar,1 0.397,2 Anger}
-{0 desvar�o,1 0.231,2 Anger}
-{0 detestable,1 0.73,2 Anger,4 1,6 1,42 -0.458333}
-{0 detestablemente,1 0.662,2 Anger}
-{0 detestaci�n,1 0.595,2 Anger}
-{0 detestar,1 0.663,2 Anger}
-{0 diantre,1 0.432,2 Anger}
-{0 discordia,1 0.562,2 Anger}
-{0 discrepancia,1 0.33,2 Anger}
-{0 disgustar,1 0.729,2 Anger}
-{0 disgusto,1 0.762,2 Anger}
-{0 displacer,1 0.463,2 Anger}
-{0 disputa,1 0.763,2 Anger}
-{0 doloso,1 0.397,2 Anger}
-{0 embestir,1 0.564,2 Anger}
-{0 embravecer,1 0.731,2 Anger}
-{0 emperrarse,1 0.764,2 Anger}
-{0 emponzo�ar,1 0.665,2 Anger}
-{0 enajenaci�n,1 0.397,2 Anger}
-{0 enajenar,1 0.33,2 Anger}
-{0 encabritar,1 0.83,2 Anger}
-{0 encalabrinar,1 0.563,2 Anger}
-{0 encocorar,1 0.664,2 Anger}
-{0 encolerizar,1 0.83,2 Anger}
-{0 enconar,1 0.331,2 Anger}
-{0 encono,1 0.298,2 Anger}
-{0 encorajinar,1 0.831,2 Anger}
-{0 endemoniar,1 0.83,2 Anger}
-{0 enemigo,1 0.83,2 Anger}
-{0 enemistad,1 0.831,2 Anger}
-{0 enemistoso,1 0.797,2 Anger}
-{0 en�rgico,1 0.431,2 Anger}
-{0 enfadado,1 0.932,2 Anger}
-{0 enfadar,1 0.898,2 Anger}
-{0 enfado,1 0.898,2 Anger}
-{0 enfadoso,1 0.864,2 Anger}
-{0 enfierecido,1 0.864,2 Anger}
-{0 enfurecer,1 0.932,2 Anger}
-{0 enfurecimiento,1 0.864,2 Anger}
-{0 enfurru�amiento,1 0.696,2 Anger}
-{0 enganza,1 0.596,2 Anger}
-{0 engativamente,1 0.563,2 Anger}
-{0 engorro,1 0.264,2 Anger}
-{0 engorroso,1 0.264,2 Anger}
-{0 enloquecedor,1 0.463,2 Anger}
-{0 enloquecer,1 0.463,2 Anger}
-{0 enloquecimiento,1 0.43,2 Anger}
-{0 enojadizo,1 0.864,2 Anger}
-{0 enojado,1 0.966,2 Anger}
-{0 enojamiento,1 0.898,2 Anger}
-{0 enojar,1 0.966,2 Anger}
-{0 Anger,1 0.966,2 Anger,4 1,6 1,8 -3,10 -0.255,12 -0.478,13 1,21 1,33 1.257907,42 -0.34375}
-{0 Angersamente,1 0.932,2 Anger}
-{0 Angerso,1 0.932,2 Anger}
-{0 enrabiar,1 0.966,2 Anger}
-{0 enrabietar,1 0.932,2 Anger}
-{0 ensa�amiento,1 0.596,2 Anger}
-{0 ensa�ar,1 0.596,2 Anger}
-{0 entuerto,1 0.298,2 Anger}
-{0 envenenar,1 0.364,2 Anger}
-{0 envidia,1 0.496,2 Anger}
-{0 envidioso,1 0.462,2 Anger}
-{0 escandalizar,1 0.297,2 Anger}
-{0 esc�ndalo,1 0.198,2 Anger}
-{0 estafar,1 0.43,2 Anger}
-{0 estorbar,1 0.331,2 Anger}
-{0 estorbo,1 0.331,2 Anger}
-{0 estropear,1 0.53,2 Anger}
-{0 exabrupto,1 0.663,2 Anger}
-{0 exacerbaci�n,1 0.729,2 Anger}
-{0 exacerbante,1 0.729,2 Anger}
-{0 exacerbar,1 0.73,2 Anger}
-{0 exagerar,1 0.33,2 Anger}
-{0 exasperaci�n,1 0.63,2 Anger}
-{0 exasperante,1 0.696,2 Anger}
-{0 exasperar,1 0.696,2 Anger}
-{0 excandecencia,1 0.731,2 Anger}
-{0 exceso,1 0.198,2 Anger}
-{0 excitar,1 0.265,2 Anger}
-{0 execrar,1 0.299,2 Anger}
-{0 fastidiado,1 0.729,2 Anger}
-{0 fastidiante,1 0.729,2 Anger}
-{0 fastidiar,1 0.796,2 Anger}
-{0 fastidio,1 0.762,2 Anger}
-{0 fastidioso,1 0.762,2 Anger}
-{0 feo,1 0.165,2 Anger}
-{0 fiera,1 0.53,2 Anger}
-{0 fracaso,1 0.43,2 Anger}
-{0 fren�tico,1 0.496,2 Anger}
-{0 fruncir,1 0.496,2 Anger}
-{0 furia,1 0.866,2 Anger}
-{0 furibundamente,1 0.831,2 Anger}
-{0 furibundo,1 0.831,2 Anger}
-{0 furiosamente,1 0.933,2 Anger}
-{0 furioso,1 0.833,2 Anger}
-{0 furor,1 0.566,2 Anger,4 1,6 1,13 1,21 1,41 0.083333}
-{0 fustigar,1 0.397,2 Anger}
-{0 genio,1 0.43,2 Anger}
-{0 grima,1 0.465,2 Anger}
-{0 gru��n,1 0.763,2 Anger}
-{0 guerra,1 0.832,2 Anger,11 0.478,23 0.128772,24 0.016775,25 0.058681,26 0.040587,27 0.007547,28 0.027409,29 0.020897,30 0.029346,31 0.406896,32 0.043845}
-{0 hartar,1 0.898,2 Anger}
-{0 hastiar,1 0.629,2 Anger}
-{0 hastioso,1 0.629,2 Anger}
-{0 hiel,1 0.595,2 Anger}
-{0 hostigador,1 0.563,2 Anger}
-{0 hostigar,1 0.53,2 Anger}
-{0 hostil,1 0.564,2 Anger}
-{0 hostilidad,1 0.564,2 Anger}
-{0 hostilizar,1 0.564,2 Anger}
-{0 humor,1 0.265,2 Anger,3 1,5 1,7 2,9 1.226,11 0.691,23 0.023909,24 0.088471,25 0.016225,26 0.007922,27 0.209954,28 0.014727,29 0.048477,30 0.137067,31 0.059631,32 0.632049,37 0.542317,38 0.306933,40 0.524164,41 0.404167}
-{0 impacientar,1 0.529,2 Anger}
-{0 importunar,1 0.496,2 Anger}
-{0 importuno,1 0.462,2 Anger}
-{0 improperio,1 0.429,2 Anger}
-{0 inaguantable,1 0.563,2 Anger}
-{0 incomodar,1 0.529,2 Anger}
-{0 incomodidad,1 0.463,2 Anger}
-{0 incontrol,1 0.363,2 Anger}
-{0 incordiar,1 0.531,2 Anger}
-{0 incordio,1 0.531,2 Anger}
-{0 indignaci�n,1 0.563,2 Anger}
-{0 indignado,1 0.597,2 Anger}
-{0 indignante,1 0.597,2 Anger}
-{0 indignar,1 0.597,2 Anger}
-{0 infamar,1 0.43,2 Anger}
-{0 inicuo,1 0.364,2 Anger}
-{0 injuriar,1 0.563,2 Anger}
-{0 inquina,1 0.463,2 Anger}
-{0 insatisfecho,1 0.462,2 Anger}
-{0 insidia,1 0.43,2 Anger}
-{0 insultar,1 0.832,2 Anger}
-{0 insulto,1 0.798,2 Anger}
-{0 intratable,1 0.696,2 Anger}
-{0 ira,1 0.966,2 Anger,9 0.636,11 0.478,23 0.019774,24 0.066602,25 0.005064,26 0.017043,27 0.023237,28 0.011906,29 0.023024,30 0.120037,31 0.072344,32 0.181582,35 1.196677,42 -0.15625}
-{0 iracundia,1 0.697,2 Anger}
-{0 iracundo,1 0.797,2 Anger}
-{0 irascible,1 0.731,2 Anger,6 1,42 -0.354167}
-{0 irritabilidad,1 0.864,2 Anger}
-{0 irritable,1 0.898,2 Anger,4 1,6 1,10 -2.348,12 -0.06,13 1,21 1,33 1.02445,42 -0.125}
-{0 irritaci�n,1 0.796,2 Anger}
-{0 irritado,1 0.83,2 Anger}
-{0 irritante,1 0.83,2 Anger}
-{0 irritar,1 0.796,2 Anger}
-{0 jaqueca,1 0.528,2 Anger}
-{0 jorobar,1 0.697,2 Anger}
-{0 latoso,1 0.63,2 Anger}
-{0 loco,1 0.396,2 Anger,9 0.519,11 0.478,23 0.195096,24 0.028575,25 0.034643,26 0.042732,27 0.014965,28 0.016276,29 0.029979,30 0.015663,31 0.462746,32 0.046912,42 -0.1875}
-{0 lrascible,1 0.463,2 Anger}
-{0 majadero,1 0.63,2 Anger}
-{0 mal,1 0.53,2 Anger,9 0.39,12 -1.824,23 0.120025,24 0.042919,25 0.016851,26 0.095954,27 0.002914,28 0.010819,29 0.045882,30 0.021019,31 0.386289,32 0.01586,37 2.072974}
-{0 maldici�n,1 0.664,2 Anger}
-{0 maldito,1 0.665,2 Anger,23 0.35505,24 0.014167,25 0.339802,26 0.187177,27 0.001185,28 0.119835,29 0.022188,30 0.003776,31 0.941577,32 0.005576}
-{0 mal�volo,1 0.595,2 Anger}
-{0 malhumor,1 0.764,2 Anger}
-{0 malhumorado,1 0.797,2 Anger}
-{0 malicia,1 0.595,2 Anger}
-{0 maliciar,1 0.562,2 Anger}
-{0 malignidad,1 0.462,2 Anger}
-{0 maligno,1 0.528,2 Anger}
-{0 malo,1 0.561,2 Anger,9 0.56,23 0.105141,24 0.019905,25 0.127703,26 0.065476,27 0.005759,28 0.031563,29 0.033894,30 0.01068,31 0.542544,32 0.022836}
-{0 malpensado,1 0.33,2 Anger}
-{0 malquerencia,1 0.396,2 Anger}
-{0 malvadamente,1 0.495,2 Anger}
-{0 malvado,1 0.595,2 Anger}
-{0 man�a,1 0.231,2 Anger}
-{0 martirio,1 0.298,2 Anger}
-{0 martirizar,1 0.397,2 Anger}
-{0 misone�smo,1 0.099,2 Anger}
-{0 moh�no,1 0.498,2 Anger}
-{0 molestar,1 0.696,2 Anger}
-{0 molesto,1 0.696,2 Anger}
-{0 molestoso,1 0.696,2 Anger}
-{0 mortificar,1 0.397,2 Anger}
-{0 mosconear,1 0.332,2 Anger}
-{0 nervioso,1 0.165,2 Anger}
-{0 obstaculizar,1 0.231,2 Anger}
-{0 odiar,1 0.932,2 Anger}
-{0 odio,1 0.932,2 Anger,23 0.206084,24 0.012233,25 0.18784,26 0.117505,27 0.001468,28 0.137448,29 0.018599,30 0.007842,31 0.704631,32 0.00939}
-{0 ofensa,1 0.764,2 Anger}
-{0 ofensividad,1 0.729,2 Anger}
-{0 ofensivo,1 0.696,2 Anger}
-{0 ojeriza,1 0.429,2 Anger}
-{0 opresi�n,1 0.396,2 Anger}
-{0 pelea,1 0.73,2 Anger}
-{0 pendenciar,1 0.463,2 Anger}
-{0 pendenciero,1 0.463,2 Anger}
-{0 pernicioso,1 0.396,2 Anger}
-{0 perseguir,1 0.264,2 Anger}
-{0 pesado,1 0.264,2 Anger}
-{0 pestilente,1 0.265,2 Anger}
-{0 picar,1 0.132,2 Anger}
-{0 pique,1 0.429,2 Anger,4 1,6 1,8 -2,11 0.478,13 1,21 1,42 -0.25}
-{0 prender,1 0.231,2 Anger}
-{0 provocaci�n,1 0.561,2 Anger}
-{0 provocar,1 0.528,2 Anger}
-{0 puchero,1 0.231,2 Anger}
-{0 pugna,1 0.198,2 Anger}
-{0 pugnante,1 0.165,2 Anger}
-{0 punzar,1 0.165,2 Anger}
-{0 quejar,1 0.561,2 Anger}
-{0 querellar,1 0.529,2 Anger}
-{0 quicio,1 0.596,2 Anger}
-{0 rabia,1 0.898,2 Anger}
-{0 rabiosamente,1 0.864,2 Anger}
-{0 rabioso,1 0.797,2 Anger}
-{0 rega�adientes,1 0.728,2 Anger}
-{0 rega�o,1 0.729,2 Anger}
-{0 rencilloso,1 0.496,2 Anger}
-{0 rencor,1 0.764,2 Anger}
-{0 rencorosamente,1 0.73,2 Anger}
-{0 rencoroso,1 0.764,2 Anger}
-{0 repudiar,1 0.898,2 Anger}
-{0 repugnancia,1 0.765,2 Anger}
-{0 repugnar,1 0.798,2 Anger}
-{0 resentido,1 0.731,2 Anger}
-{0 resentimiento,1 0.731,2 Anger}
-{0 resentir,1 0.698,2 Anger}
-{0 respingar,1 0.396,2 Anger}
-{0 resquemor,1 0.298,2 Anger}
-{0 retar,1 0.396,2 Anger}
-{0 revancha,1 0.33,2 Anger}
-{0 ri�a,1 0.764,2 Anger}
-{0 rivalidad,1 0.595,2 Anger}
-{0 sa�a,1 0.763,2 Anger}
-{0 sa�oso,1 0.629,2 Anger}
-{0 suplicio,1 0.298,2 Anger}
-{0 tenso,1 0.264,2 Anger,23 0.099959,24 0.023425,25 0.106904,26 0.063181,27 0.00766,28 0.030462,29 0.042906,30 0.008148,31 0.654812,32 0.012411}
-{0 tirria,1 0.463,2 Anger}
-{0 torear,1 0.297,2 Anger}
-{0 tormento,1 0.365,2 Anger}
-{0 tropel�a,1 0.297,2 Anger}
-{0 ultrajar,1 0.595,2 Anger}
-{0 ultraje,1 0.596,2 Anger}
-{0 vejaci�n,1 0.529,2 Anger}
-{0 vejar,1 0.564,2 Anger}
-{0 venganza,1 0.864,2 Anger}
-{0 vengar,1 0.864,2 Anger}
-{0 vengativo,1 0.864,2 Anger}
-{0 vesania,1 0.698,2 Anger}
-{0 ves�nico,1 0.665,2 Anger}
-{0 vilipendiar,1 0.529,2 Anger}
-{0 vilipendio,1 0.496,2 Anger}
-{0 vinagre,1 0.165,2 Anger}
-{0 violencia,1 0.932,2 Anger}
-{0 violento,1 0.932,2 Anger}
-{0 viperino,1 0.132,2 Anger}
-{0 vituperio,1 0.264,2 Anger}
-{0 voraz,1 0.231,2 Anger}
-{0 zaherir,1 0.396,2 Anger}
-{0 abominable,1 0.797,2 Fear,4 1,6 1,10 -1.742,15 1,16 1,21 1,42 -0.416667}
-{0 accidente,1 0.696,2 Fear}
-{0 acobardar,1 0.865,2 Fear}
-{0 acomplejado,1 0.597,2 Fear}
-{0 acoquinamiento,1 0.598,2 Fear}
-{0 acoquinar,1 0.831,2 Fear}
-{0 ag�ero,1 0.297,2 Fear}
-{0 ahuyentar,1 0.696,2 Fear}
-{0 alarma,1 0.596,2 Fear}
-{0 alarmado,1 0.695,2 Fear}
-{0 alarmante,1 0.595,2 Fear}
-{0 alarmar,1 0.63,2 Fear}
-{0 alertar,1 0.53,2 Fear}
-{0 alma,1 0.066,2 Fear,9 0.742,11 0.814,23 0.013314,24 0.070305,25 0.003903,26 0.013448,27 0.062109,28 0.009112,29 0.016887,30 0.109793,31 0.026659,32 0.336684}
-{0 amedentrar,1 0.898,2 Fear}
-{0 amedrentador,1 0.831,2 Fear}
-{0 amedrentamiento,1 0.831,2 Fear}
-{0 amenazar,1 0.865,2 Fear}
-{0 amilanar,1 0.831,2 Fear}
-{0 angustia,1 0.797,2 Fear}
-{0 angustiado,1 0.831,2 Fear}
-{0 angustiosamente,1 0.831,2 Fear}
-{0 ansioso,1 0.264,2 Fear}
-{0 aprensi�n,1 0.397,2 Fear}
-{0 aprensivo,1 0.364,2 Fear}
-{0 ara�a,1 0.463,2 Fear}
-{0 arredrar,1 0.463,2 Fear}
-{0 asesinar,1 0.73,2 Fear}
-{0 asustadizo,1 0.864,2 Fear}
-{0 asustar,1 0.864,2 Fear}
-{0 atemorizado,1 0.932,2 Fear}
-{0 atemorizante,1 0.932,2 Fear}
-{0 atemorizar,1 0.932,2 Fear}
-{0 atento,1 0.099,2 Fear}
-{0 aterrado,1 0.966,2 Fear}
-{0 aterrador,1 1,2 Fear}
-{0 aterradoramente,1 1,2 Fear}
-{0 aterrar,1 1,2 Fear}
-{0 aterrorizador,1 0.966,2 Fear}
-{0 aterrorizar,1 0.966,2 Fear}
-{0 atroz,1 0.696,2 Fear}
-{0 avergonzado,1 0.297,2 Fear}
-{0 avergonzar,1 0.33,2 Fear}
-{0 azoramiento,1 0.529,2 Fear}
-{0 azorar,1 0.696,2 Fear}
-{0 barbarie,1 0.463,2 Fear}
-{0 bruja,1 0.495,2 Fear}
-{0 brujo,1 0.495,2 Fear}
-{0 cadaver,1 0.697,2 Fear,15 1,16 1,18 1,19 1,21 1}
-{0 calaca,1 0.462,2 Fear}
-{0 calamidad,1 0.396,2 Fear}
-{0 calamitoso,1 0.363,2 Fear}
-{0 calofr�o,1 0.463,2 Fear}
-{0 cohibici�n,1 0.463,2 Fear}
-{0 cohibidamente,1 0.43,2 Fear}
-{0 cohibir,1 0.496,2 Fear}
-{0 confuso,1 0.099,2 Fear}
-{0 conminar,1 0.529,2 Fear}
-{0 convulsi�n,1 0.33,2 Fear}
-{0 cortar,1 0.297,2 Fear}
-{0 cortedad,1 0.165,2 Fear}
-{0 cruento,1 0.33,2 Fear}
-{0 demonio,1 0.63,2 Fear}
-{0 desesperado,1 0.33,2 Fear}
-{0 desfallecer,1 0.364,2 Fear}
-{0 desfallecimiento,1 0.43,2 Fear}
-{0 desgracia,1 0.629,2 Fear}
-{0 desmayar,1 0.363,2 Fear}
-{0 desorientado,1 0.132,2 Fear}
-{0 despavorir,1 0.864,2 Fear}
-{0 despeluznante,1 0.831,2 Fear}
-{0 despeluznar,1 0.696,2 Fear}
-{0 despiadadamente,1 0.663,2 Fear}
-{0 despiadado,1 0.663,2 Fear}
-{0 diablo,1 0.664,2 Fear,9 0.3,23 0.092317,24 0.082696,25 0.008039,26 0.096752,27 0.015565,28 0.007773,29 0.034367,30 0.04134,31 0.167608,32 0.085019}
-{0 encoger,1 0.399,2 Fear}
-{0 enfriar,1 0.066,2 Fear}
-{0 escalofr�o,1 0.73,2 Fear}
-{0 espantable,1 0.831,2 Fear}
-{0 espantadizo,1 0.899,2 Fear}
-{0 espantar,1 0.899,2 Fear}
-{0 espanto,1 0.899,2 Fear}
-{0 espantoso,1 0.899,2 Fear}
-{0 espeluznante,1 0.932,2 Fear}
-{0 espeluznar,1 0.932,2 Fear}
-{0 esperpento,1 0.529,2 Fear}
-{0 espiritu,1 0.231,2 Fear}
-{0 estremecer,1 0.628,2 Fear}
-{0 execrable,1 0.429,2 Fear,42 -0.645833}
-{0 exorcismo,1 0.629,2 Fear}
-{0 fantasma,1 0.596,2 Fear}
-{0 fealdad,1 0.396,2 Fear}
-{0 feo,1 0.297,2 Fear}
-{0 fobia,1 0.932,2 Fear}
-{0 fr�o,1 0.099,2 Fear}
-{0 friolero,1 0.099,2 Fear}
-{0 gallina,1 0.265,2 Fear}
-{0 hechizo,1 0.297,2 Fear}
-{0 helado,1 0.099,2 Fear}
-{0 helar,1 0.033,2 Fear}
-{0 histeria,1 0.562,2 Fear}
-{0 hist�ricamente,1 0.496,2 Fear}
-{0 hist�rico,1 0.497,2 Fear}
-{0 histerismo,1 0.463,2 Fear}
-{0 horrendamente,1 0.731,2 Fear}
-{0 horrendo,1 0.764,2 Fear}
-{0 horrible,1 0.83,2 Fear,4 1,6 1,8 -3,10 -1.951,12 -1.291,13 1,15 1,16 1,21 1,33 0.021928,35 0.72434,38 0.017978,42 -0.3125}
-{0 horriblemente,1 0.83,2 Fear}
-{0 h�rrido,1 0.731,2 Fear}
-{0 horrificar,1 0.798,2 Fear}
-{0 horripilaci�n,1 0.798,2 Fear}
-{0 horripilante,1 0.831,2 Fear}
-{0 horripilar,1 0.798,2 Fear}
-{0 horr�sono,1 0.663,2 Fear}
-{0 horror,1 0.966,2 Fear,4 1,10 -0.041,12 -0.646,13 1,15 1,16 1,18 1,19 1,21 1,34 0.310053,36 0.704772,42 -0.229167}
-{0 horrorizado,1 0.898,2 Fear}
-{0 horrorizante,1 0.898,2 Fear}
-{0 horrorizar,1 0.898,2 Fear}
-{0 horrorosamente,1 0.831,2 Fear}
-{0 horroroso,1 0.865,2 Fear}
-{0 huidizo,1 0.764,2 Fear}
-{0 impotente,1 0.396,2 Fear}
-{0 incertidumbre,1 0.396,2 Fear}
-{0 indeciso,1 0.331,2 Fear}
-{0 inquietantemente,1 0.496,2 Fear}
-{0 inquietar,1 0.463,2 Fear}
-{0 inquieto,1 0.364,2 Fear}
-{0 insecto,1 0.298,2 Fear}
-{0 inseguro,1 0.331,2 Fear}
-{0 intimidaci�n,1 0.629,2 Fear}
-{0 intimidar,1 0.595,2 Fear}
-{0 intrinquilo,1 0.496,2 Fear}
-{0 leng�icorto,1 0.397,2 Fear}
-{0 maldad,1 0.596,2 Fear}
-{0 maligno,1 0.764,2 Fear}
-{0 malo,1 0.663,2 Fear,9 0.56,23 0.105141,24 0.019905,25 0.127703,26 0.065476,27 0.005759,28 0.031563,29 0.033894,30 0.01068,31 0.542544,32 0.022836}
-{0 medrana,1 0.797,2 Fear}
-{0 medroso,1 0.831,2 Fear}
-{0 mieditis,1 0.831,2 Fear}
-{0 Fear,1 0.932,2 Fear,4 1,6 1,8 -2,10 -0.451,11 0.091,13 1,16 1,21 1,36 1.708723,42 -1.125}
-{0 Fear,1 0.932,2 Fear,4 1,6 1,8 -2,10 -0.451,11 0.091,13 1,16 1,21 1,36 1.708723,42 -1.125}
-{0 Fearso,1 0.932,2 Fear}
-{0 monstruosamente,1 0.797,2 Fear}
-{0 monstruoso,1 0.831,2 Fear}
-{0 mortuorio,1 0.764,2 Fear}
-{0 mounstro,1 0.797,2 Fear}
-{0 muerte,1 0.865,2 Fear}
-{0 neblina,1 0.33,2 Fear}
-{0 niebla,1 0.331,2 Fear}
-{0 nublar,1 0.099,2 Fear}
-{0 ominar,1 0.231,2 Fear}
-{0 palidecer,1 0.53,2 Fear}
-{0 palido,1 0.529,2 Fear}
-{0 p�nico,1 0.898,2 Fear}
-{0 pante�n,1 0.596,2 Fear}
-{0 p�vido,1 0.763,2 Fear}
-{0 pavor,1 0.898,2 Fear}
-{0 pavorosamente,1 0.83,2 Fear}
-{0 pavoroso,1 0.83,2 Fear}
-{0 pena,1 0.33,2 Fear,10 -1.049,23 0.13208,24 0.019812,25 0.106508,26 0.107555,27 0.003631,28 0.107265,29 0.042465,30 0.014817,31 0.67749,32 0.019679}
-{0 penumbra,1 0.496,2 Fear}
-{0 pose�do,1 0.63,2 Fear}
-{0 premonici�n,1 0.33,2 Fear}
-{0 preocupaci�n,1 0.529,2 Fear}
-{0 preocupadamente,1 0.563,2 Fear}
-{0 preocupado,1 0.53,2 Fear}
-{0 pusil�nime,1 0.364,2 Fear}
-{0 pusilanimidad,1 0.364,2 Fear}
-{0 rata,1 0.231,2 Fear}
-{0 recelo,1 0.531,2 Fear}
-{0 receloso,1 0.497,2 Fear}
-{0 rodeor,1 0.231,2 Fear}
-{0 sangre,1 0.396,2 Fear}
-{0 sangriento,1 0.496,2 Fear}
-{0 sanguinario,1 0.629,2 Fear}
-{0 satan,1 0.631,2 Fear,10 -0.113,12 -0.737,23 0.3353,24 0.071547,25 0.439498,26 0.520616,27 0.030171,28 0.28426,29 0.069984,30 0.057777,31 0.7205,32 0.078293,33 0.068939,34 0.519827,35 0.269336,42 -0.125}
-{0 secuestro,1 0.765,2 Fear}
-{0 sevicia,1 0.495,2 Fear}
-{0 sobrecoger,1 0.729,2 Fear}
-{0 sobrecogimiento,1 0.729,2 Fear}
-{0 sobresaltar,1 0.729,2 Fear}
-{0 sombra,1 0.264,2 Fear}
-{0 suspenso,1 0.628,2 Fear}
-{0 susto,1 0.864,2 Fear}
-{0 temblor,1 0.562,2 Fear}
-{0 temer,1 0.932,2 Fear}
-{0 temerosamente,1 0.864,2 Fear}
-{0 temeroso,1 0.898,2 Fear}
-{0 temible,1 0.932,2 Fear}
-{0 temor,1 0.932,2 Fear}
-{0 temorosamente,1 0.864,2 Fear}
-{0 tenso,1 0.496,2 Fear,23 0.099959,24 0.023425,25 0.106904,26 0.063181,27 0.00766,28 0.030462,29 0.042906,30 0.008148,31 0.654812,32 0.012411}
-{0 terremoto,1 0.631,2 Fear}
-{0 terrible,1 0.898,2 Fear,4 1,6 1,8 -3,10 -1.766,12 -1.856,13 1,15 1,16 1,18 1,21 1,33 0.024347,35 0.330105,38 0.31214,42 -0.847917}
-{0 terriblemente,1 0.796,2 Fear}
-{0 terror,1 0.966,2 Fear,4 1,6 1,8 -3,10 -0.104,12 -0.62,16 1,21 1,36 1.68625,42 -0.34375}
-{0 terror�fico,1 0.898,2 Fear}
-{0 t�midamente,1 0.596,2 Fear}
-{0 timidez,1 0.497,2 Fear}
-{0 t�mido,1 0.531,2 Fear}
-{0 timorato,1 0.631,2 Fear}
-{0 tragedia,1 0.561,2 Fear}
-{0 tremebundo,1 0.731,2 Fear}
-{0 tremendo,1 0.564,2 Fear}
-{0 ultimatum,1 0.297,2 Fear,4 1,6 1,10 -0.962,12 -0.214,13 1,16 1,21 1}
-{0 ultratumba,1 0.663,2 Fear}
-{0 verecundia,1 0.264,2 Fear}
-{0 verecundio,1 0.264,2 Fear}
-{0 verecundo,1 0.264,2 Fear}
-{0 vergonzoso,1 0.396,2 Fear}
-{0 vitando,1 0.397,2 Fear}
-{0 abominablemente,1 0.73,2 Disgust}
-{0 abominar,1 0.797,2 Disgust}
-{0 aborrecer,1 0.966,2 Disgust}
-{0 aborrecible,1 0.966,2 Disgust}
-{0 aborrecimiento,1 0.966,2 Disgust}
-{0 abusar,1 0.697,2 Disgust}
-{0 adversi�n,1 0.497,2 Disgust}
-{0 alergia,1 0.397,2 Disgust}
-{0 ampolla,1 0.497,2 Disgust}
-{0 animadversi�n,1 0.664,2 Disgust}
-{0 animosidad,1 0.297,2 Disgust}
-{0 antipat�a,1 0.662,2 Disgust}
-{0 antip�tico,1 0.728,2 Disgust}
-{0 apestar,1 0.831,2 Disgust}
-{0 apestoso,1 0.899,2 Disgust}
-{0 aprensi�n,1 0.529,2 Disgust}
-{0 ara�a,1 0.429,2 Disgust}
-{0 asco,1 0.966,2 Disgust}
-{0 asqueadamente,1 0.932,2 Disgust}
-{0 asquear,1 0.932,2 Disgust}
-{0 asquerosamente,1 0.966,2 Disgust}
-{0 asqueroso,1 1,2 Disgust}
-{0 astroso,1 0.629,2 Disgust}
-{0 aversi�n,1 0.629,2 Disgust}
-{0 basca,1 0.865,2 Disgust}
-{0 bascosidad,1 0.798,2 Disgust}
-{0 bascoso,1 0.664,2 Disgust}
-{0 basura,1 0.796,2 Disgust}
-{0 birria,1 0.331,2 Disgust}
-{0 borracho,1 0.563,2 Disgust}
-{0 caca,1 0.898,2 Disgust,12 -0.62,23 0.248589,24 0.017036,25 0.550862,26 0.231587,27 0.002628,28 0.097294,29 0.038399,30 0.011776,31 0.863202,32 0.007262}
-{0 carro�a,1 0.864,2 Disgust}
-{0 cicatriz,1 0.396,2 Disgust}
-{0 co�gulo,1 0.397,2 Disgust}
-{0 cochino,1 0.562,2 Disgust}
-{0 cocol�a,1 0.631,2 Disgust}
-{0 contaminar,1 0.63,2 Disgust}
-{0 corromper,1 0.596,2 Disgust}
-{0 cortar,1 0.165,2 Disgust}
-{0 desagradable,1 0.898,2 Disgust}
-{0 desagradablemente,1 0.831,2 Disgust}
-{0 desagrado,1 0.798,2 Disgust}
-{0 desasosegar,1 0.298,2 Disgust}
-{0 descomposic�n,1 0.763,2 Disgust}
-{0 deshonrar,1 0.63,2 Disgust}
-{0 desperdicio,1 0.562,2 Disgust}
-{0 detestable,1 0.966,2 Disgust,4 1,6 1,42 -0.458333}
-{0 detestablemente,1 0.932,2 Disgust}
-{0 detestaci�n,1 0.932,2 Disgust}
-{0 diarrea,1 0.697,2 Disgust}
-{0 disgustar,1 0.595,2 Disgust}
-{0 disgusto,1 0.595,2 Disgust}
-{0 distanciamiento,1 0.363,2 Disgust}
-{0 empalagamiento,1 0.33,2 Disgust}
-{0 empalagar,1 0.33,2 Disgust}
-{0 empalagoso,1 0.363,2 Disgust}
-{0 emporcar,1 0.595,2 Disgust}
-{0 enfermedad,1 0.463,2 Disgust}
-{0 enfermizo,1 0.496,2 Disgust}
-{0 enfermo,1 0.564,2 Disgust}
-{0 ensuciar,1 0.662,2 Disgust}
-{0 envilecer,1 0.798,2 Disgust}
-{0 escr�pulo,1 0.33,2 Disgust}
-{0 espanto,1 0.264,2 Disgust}
-{0 esti�rcol,1 0.73,2 Disgust}
-{0 excremento,1 0.798,2 Disgust}
-{0 execrable,1 0.763,2 Disgust,42 -0.645833}
-{0 execrablemente,1 0.763,2 Disgust}
-{0 fastidiar,1 0.53,2 Disgust}
-{0 fastidio,1 0.597,2 Disgust}
-{0 f�tido,1 0.898,2 Disgust}
-{0 fila,1 0.366,2 Disgust,10 -4.999,11 0.324,23 0.076708,24 0.011687,25 0.146279,26 0.060718,27 0.003134,28 0.026305,29 0.008037,30 0.010364,31 0.524389,32 0.013936}
-{0 fobia,1 0.663,2 Disgust}
-{0 gases,1 0.663,2 Disgust,11 1.171,23 0.014729,24 0.03246,25 0.004444,26 0.005726,27 0.018842,28 0.007257,29 0.00591,30 0.027099,31 0.066924,32 0.080528}
-{0 gelatinoso,1 0.231,2 Disgust}
-{0 grima,1 0.629,2 Disgust}
-{0 gu�cala,1 0.966,2 Disgust}
-{0 gusano,1 0.462,2 Disgust}
-{0 harto,1 0.497,2 Disgust}
-{0 hastiar,1 0.596,2 Disgust}
-{0 hast�o,1 0.563,2 Disgust}
-{0 hediondo,1 0.864,2 Disgust}
-{0 herida,1 0.33,2 Disgust}
-{0 hincha,1 0.664,2 Disgust}
-{0 hinchado,1 0.565,2 Disgust}
-{0 hongos,1 0.396,2 Disgust}
-{0 horrendo,1 0.731,2 Disgust}
-{0 horrible,1 0.764,2 Disgust,4 1,6 1,8 -3,10 -1.951,12 -1.291,13 1,15 1,16 1,21 1,33 0.021928,35 0.72434,38 0.017978,42 -0.3125}
-{0 horripilaci�n,1 0.697,2 Disgust}
-{0 horror,1 0.764,2 Disgust,4 1,10 -0.041,12 -0.646,13 1,15 1,16 1,18 1,19 1,21 1,34 0.310053,36 0.704772,42 -0.229167}
-{0 horroroso,1 0.764,2 Disgust}
-{0 hostil,1 0.498,2 Disgust}
-{0 imp�dico,1 0.496,2 Disgust}
-{0 impuro,1 0.597,2 Disgust}
-{0 incasto,1 0.43,2 Disgust}
-{0 indecente,1 0.63,2 Disgust}
-{0 indecoroso,1 0.563,2 Disgust}
-{0 indisponer,1 0.364,2 Disgust}
-{0 infame,1 0.63,2 Disgust}
-{0 infecci�n,1 0.531,2 Disgust}
-{0 infecto,1 0.664,2 Disgust}
-{0 infrahumano,1 0.431,2 Disgust}
-{0 inframundo,1 0.597,2 Disgust}
-{0 injuriante,1 0.498,2 Disgust}
-{0 injuriar,1 0.597,2 Disgust}
-{0 injurioso,1 0.597,2 Disgust}
-{0 inmoral,1 0.598,2 Disgust}
-{0 inmundo,1 0.932,2 Disgust}
-{0 inquina,1 0.665,2 Disgust}
-{0 insubordinar,1 0.365,2 Disgust}
-{0 insultante,1 0.73,2 Disgust}
-{0 insulto,1 0.764,2 Disgust}
-{0 insurrecci�n,1 0.264,2 Disgust}
-{0 insurreccionar,1 0.264,2 Disgust}
-{0 intranquilo,1 0.132,2 Disgust}
-{0 lepra,1 0.765,2 Disgust}
-{0 licencioso,1 0.63,2 Disgust}
-{0 mal,1 0.598,2 Disgust,9 0.39,12 -1.824,23 0.120025,24 0.042919,25 0.016851,26 0.095954,27 0.002914,28 0.010819,29 0.045882,30 0.021019,31 0.386289,32 0.01586,37 2.072974}
-{0 malasangre,1 0.798,2 Disgust}
-{0 malquerencia,1 0.798,2 Disgust}
-{0 malvado,1 0.798,2 Disgust}
-{0 mancha,1 0.496,2 Disgust}
-{0 man�a,1 0.264,2 Disgust}
-{0 marrano,1 0.664,2 Disgust}
-{0 mef�tico,1 0.664,2 Disgust}
-{0 moco,1 0.798,2 Disgust,23 0.031574,24 0.012962,25 0.040964,26 0.010742,27 0.005751,28 0.00577,29 0.002785,30 0.017852,31 0.140211,32 0.023276}
-{0 m�rbido,1 0.398,2 Disgust}
-{0 morboso,1 0.73,2 Disgust}
-{0 mosca,1 0.531,2 Disgust}
-{0 mugre,1 0.732,2 Disgust}
-{0 n�usea,1 0.865,2 Disgust}
-{0 nauseabundamente,1 0.831,2 Disgust}
-{0 nauseabundo,1 0.865,2 Disgust}
-{0 nausear,1 0.831,2 Disgust}
-{0 n�useas,1 0.898,2 Disgust}
-{0 nefasto,1 0.831,2 Disgust}
-{0 obsceno,1 0.764,2 Disgust}
-{0 odio,1 0.764,2 Disgust,23 0.206084,24 0.012233,25 0.18784,26 0.117505,27 0.001468,28 0.137448,29 0.018599,30 0.007842,31 0.704631,32 0.00939}
-{0 odiosamente,1 0.73,2 Disgust}
-{0 odioso,1 0.764,2 Disgust}
-{0 ofender,1 0.697,2 Disgust}
-{0 ofensivo,1 0.697,2 Disgust}
-{0 ojeriza,1 0.662,2 Disgust}
-{0 oponer,1 0.363,2 Disgust}
-{0 orina,1 0.563,2 Disgust}
-{0 patol�gico,1 0.332,2 Disgust}
-{0 pecaminoso,1 0.464,2 Disgust}
-{0 pedo,1 0.865,2 Disgust,10 -0.643,12 -0.907,23 0.557344,24 0.016214,25 0.592619,26 0.490142,27 0.003822,28 0.1486,29 0.082576,30 0.006155,31 0.984784,32 0.004576,35 1.042526}
-{0 p�rfido,1 0.766,2 Disgust}
-{0 perinquina,1 0.763,2 Disgust}
-{0 perverso,1 0.698,2 Disgust}
-{0 pervertir,1 0.698,2 Disgust}
-{0 p�simo,1 0.63,2 Disgust}
-{0 peste,1 0.864,2 Disgust,10 -0.867}
-{0 pestilente,1 0.864,2 Disgust}
-{0 podrido,1 0.797,2 Disgust}
-{0 podrir,1 0.764,2 Disgust}
-{0 popo,1 0.797,2 Disgust,10 -0.173,12 -0.214,23 0.099791,24 0.022207,25 0.056945,26 0.150103,27 0.002405,28 0.01184,29 0.036641,30 0.018801,31 0.53693,32 0.02511}
-{0 pornogr�fico,1 0.663,2 Disgust}
-{0 procaz,1 0.565,2 Disgust}
-{0 protervo,1 0.664,2 Disgust}
-{0 puaf,1 0.165,2 Disgust}
-{0 puercamente,1 0.864,2 Disgust}
-{0 puerco,1 0.763,2 Disgust}
-{0 pus,1 0.765,2 Disgust,10 -0.238,11 0.478,15 1,21 1,42 -0.083333}
-{0 putrefacci�n,1 0.865,2 Disgust}
-{0 putrefacci�n,1 0.865,2 Disgust}
-{0 putrido,1 0.865,2 Disgust}
-{0 rabia,1 0.763,2 Disgust}
-{0 rastrero,1 0.564,2 Disgust}
-{0 rata,1 0.531,2 Disgust}
-{0 rechazamiento,1 0.664,2 Disgust}
-{0 rechazar,1 0.73,2 Disgust}
-{0 rechazo,1 0.696,2 Disgust}
-{0 reherir,1 0.629,2 Disgust}
-{0 rencor,1 0.83,2 Disgust}
-{0 repeler,1 0.697,2 Disgust}
-{0 repelo,1 0.664,2 Disgust}
-{0 repudiable,1 0.898,2 Disgust}
-{0 repudiar,1 0.898,2 Disgust}
-{0 repudio,1 0.898,2 Disgust}
-{0 repugnadamente,1 0.932,2 Disgust}
-{0 repugnancia,1 0.932,2 Disgust}
-{0 repugnante,1 0.932,2 Disgust}
-{0 repugnantemente,1 0.932,2 Disgust}
-{0 repugnar,1 0.932,2 Disgust}
-{0 repulsar,1 0.932,2 Disgust}
-{0 Disgust,1 0.966,2 Disgust,4 1,6 1,8 -3,10 -0.704,12 -2.995,13 1,15 1,16 1,18 1,21 1,35 1.499284,42 -0.229167}
-{0 repulsivamente,1 1,2 Disgust}
-{0 repulsivo,1 1,2 Disgust}
-{0 rufi�n,1 0.697,2 Disgust}
-{0 ruin,1 0.731,2 Disgust,4 1,6 1,8 -2,10 -0.915,12 -0.495,16 1,18 1,21 1,33 0.593336,35 0.249749,42 -0.78631}
-{0 sangre,1 0.364,2 Disgust}
-{0 sangriento,1 0.496,2 Disgust}
-{0 secreci�n,1 0.697,2 Disgust}
-{0 s�rdido,1 0.697,2 Disgust}
-{0 submundo,1 0.498,2 Disgust}
-{0 sucio,1 0.73,2 Disgust}
-{0 tirria,1 0.629,2 Disgust}
-{0 tripas,1 0.463,2 Disgust}
-{0 ultrajante,1 0.596,2 Disgust}
-{0 usgo,1 0.765,2 Disgust}
-{0 vejar,1 0.664,2 Disgust}
-{0 vil,1 0.696,2 Disgust,11 0.478}
-{0 v�scera,1 0.631,2 Disgust}
-{0 viscoso,1 0.464,2 Disgust}
-{0 vomito,1 0.899,2 Disgust}
-{0 zaherir,1 0.697,2 Disgust}
-{0 zahiriente,1 0.731,2 Disgust}
-{0 abierto,1 0.298,2 Surprise}
-{0 abobamiento,1 0.199,2 Surprise}
-{0 abobar,1 0.298,2 Surprise}
-{0 acertijo,1 0.531,2 Surprise}
-{0 acojonante,1 0.73,2 Surprise}
-{0 adivinanza,1 0.498,2 Surprise}
-{0 admirable,1 0.73,2 Surprise,3 1,5 1,9 1.147,11 0.883,17 1,20 1,22 1,41 0.666667}
-{0 admirablemente,1 0.663,2 Surprise}
-{0 admiracion,1 0.664,2 Surprise}
-{0 admiraci�n,1 0.764,2 Surprise}
-{0 admirar,1 0.73,2 Surprise}
-{0 agenciar,1 0.198,2 Surprise}
-{0 alcanzar,1 0.265,2 Surprise}
-{0 alelamiento,1 0.198,2 Surprise}
-{0 alelar,1 0.132,2 Surprise}
-{0 anonadamiento,1 0.765,2 Surprise}
-{0 anonadar,1 0.731,2 Surprise}
-{0 apote�sico,1 0.598,2 Surprise}
-{0 arrocinar,1 0.165,2 Surprise}
-{0 asombramiento,1 0.932,2 Surprise}
-{0 asombrar,1 0.966,2 Surprise}
-{0 asombro,1 0.966,2 Surprise}
-{0 asombrosamente,1 0.966,2 Surprise}
-{0 asombroso,1 0.966,2 Surprise}
-{0 atarantar,1 0.132,2 Surprise}
-{0 atolondrar,1 0.199,2 Surprise}
-{0 at�nito,1 0.799,2 Surprise}
-{0 atontamiento,1 0.232,2 Surprise}
-{0 atontar,1 0.232,2 Surprise}
-{0 atrapar,1 0.463,2 Surprise}
-{0 atronar,1 0.265,2 Surprise}
-{0 aturdimiento,1 0.165,2 Surprise}
-{0 aturdir,1 0.165,2 Surprise}
-{0 aturrullar,1 0.165,2 Surprise}
-{0 aturullar,1 0.165,2 Surprise}
-{0 batir,1 0.066,2 Surprise}
-{0 bizco,1 0.265,2 Surprise}
-{0 bobalic�n,1 0.066,2 Surprise}
-{0 bobo,1 0.099,2 Surprise,9 0.216,12 -4.999,23 0.056703,24 0.027497,25 0.026857,26 0.01626,27 0.023737,28 0.00808,29 0.026629,30 0.082941,31 0.202337,32 0.161621}
-{0 bombo,1 0.331,2 Surprise}
-{0 boquiabierto,1 0.799,2 Surprise}
-{0 bruto,1 0.165,2 Surprise}
-{0 chasco,1 0.399,2 Surprise}
-{0 coger,1 0.429,2 Surprise}
-{0 confundir,1 0.264,2 Surprise}
-{0 confusi�n,1 0.264,2 Surprise}
-{0 conmoci�n,1 0.631,2 Surprise}
-{0 conmocionar,1 0.663,2 Surprise}
-{0 conseguir,1 0.33,2 Surprise}
-{0 consternaci�n,1 0.463,2 Surprise}
-{0 consternar,1 0.43,2 Surprise}
-{0 conturbar,1 0.632,2 Surprise}
-{0 descomunalmente,1 0.798,2 Surprise}
-{0 desconcertar,1 0.664,2 Surprise}
-{0 desconcierto,1 0.631,2 Surprise}
-{0 descuidar,1 0.363,2 Surprise}
-{0 deslumbramiento,1 0.597,2 Surprise}
-{0 deslumbrantemente,1 0.664,2 Surprise}
-{0 deslumbrar,1 0.664,2 Surprise}
-{0 desmayar,1 0.53,2 Surprise}
-{0 desmayo,1 0.53,2 Surprise}
-{0 despampanante,1 0.833,2 Surprise}
-{0 despistar,1 0.297,2 Surprise}
-{0 desprevenido,1 0.661,2 Surprise}
-{0 distra�do,1 0.463,2 Surprise}
-{0 embobamiento,1 0.132,2 Surprise}
-{0 embobar,1 0.099,2 Surprise}
-{0 embobecer,1 0.165,2 Surprise}
-{0 embrutecer,1 0.165,2 Surprise}
-{0 encandilar,1 0.597,2 Surprise}
-{0 enigma,1 0.565,2 Surprise,9 1.589,42 -0.083333}
-{0 enmudecer,1 0.664,2 Surprise}
-{0 entontecer,1 0.198,2 Surprise}
-{0 entontecimiento,1 0.099,2 Surprise}
-{0 espantar,1 0.831,2 Surprise}
-{0 espanto,1 0.831,2 Surprise}
-{0 est�lido,1 0.099,2 Surprise}
-{0 estrellas,1 0.232,2 Surprise}
-{0 estruendo,1 0.497,2 Surprise}
-{0 estupefacci�n,1 0.798,2 Surprise}
-{0 estupefacto,1 0.899,2 Surprise}
-{0 estupendamente,1 0.664,2 Surprise}
-{0 estupendo,1 0.698,2 Surprise}
-{0 est�pido,1 0.099,2 Surprise}
-{0 estupor,1 0.765,2 Surprise}
-{0 exclamaci�n,1 0.497,2 Surprise}
-{0 extra�ar,1 0.198,2 Surprise}
-{0 extra�eza,1 0.464,2 Surprise}
-{0 extraordinario,1 0.665,2 Surprise}
-{0 fabuloso,1 0.597,2 Surprise}
-{0 fant�sticamente,1 0.696,2 Surprise}
-{0 fant�stico,1 0.763,2 Surprise}
-{0 fascinacion,1 0.663,2 Surprise}
-{0 fascinante,1 0.73,2 Surprise}
-{0 frustrar,1 0.165,2 Surprise}
-{0 golpe,1 0.265,2 Surprise}
-{0 grandioso,1 0.63,2 Surprise}
-{0 gritar,1 0.528,2 Surprise}
-{0 grito,1 0.528,2 Surprise}
-{0 horrible,1 0.429,2 Surprise,4 1,6 1,8 -3,10 -1.951,12 -1.291,13 1,15 1,16 1,21 1,33 0.021928,35 0.72434,38 0.017978,42 -0.3125}
-{0 idiotizar,1 0.099,2 Surprise}
-{0 imb�cil,1 0.033,2 Surprise}
-{0 impactar,1 0.732,2 Surprise}
-{0 impresi�n,1 0.731,2 Surprise}
-{0 impresionante,1 0.899,2 Surprise}
-{0 impresionar,1 0.865,2 Surprise}
-{0 inaudito,1 0.899,2 Surprise}
-{0 increible,1 0.966,2 Surprise,23 0.134701,24 0.037364,25 0.053123,26 0.058917,27 0.012021,28 0.021073,29 0.053193,30 0.01305,31 0.427061,32 0.053301}
-{0 incre�blemente,1 0.899,2 Surprise}
-{0 inepto,1 0.066,2 Surprise}
-{0 interrogante,1 0.298,2 Surprise}
-{0 interrogar,1 0.331,2 Surprise}
-{0 intrigar,1 0.429,2 Surprise}
-{0 lelo,1 0.066,2 Surprise}
-{0 llegar,1 0.165,2 Surprise,23 0.114051,24 0.043921,25 0.035012,26 0.040253,27 0.012821,28 0.021466,29 0.072723,30 0.017963,31 0.336458,32 0.035356}
-{0 llevar,1 0.132,2 Surprise}
-{0 macanudo,1 0.73,2 Surprise}
-{0 maravilla,1 0.899,2 Surprise}
-{0 maravillar,1 0.898,2 Surprise}
-{0 maravillosamente,1 0.932,2 Surprise}
-{0 maravilloso,1 0.966,2 Surprise}
-{0 Fear,1 0.297,2 Surprise,4 1,6 1,8 -2,10 -0.451,11 0.091,13 1,16 1,21 1,36 1.708723,42 -1.125}
-{0 milagro,1 0.764,2 Surprise}
-{0 mir�fico,1 0.933,2 Surprise}
-{0 misterio,1 0.331,2 Surprise}
-{0 mistificar,1 0.132,2 Surprise}
-{0 mudo,1 0.198,2 Surprise}
-{0 nefando,1 0.066,2 Surprise}
-{0 noqueado,1 0.297,2 Surprise}
-{0 noquear,1 0.231,2 Surprise}
-{0 obtuso,1 0.066,2 Surprise}
-{0 ofuscar,1 0.264,2 Surprise}
-{0 pasmar,1 0.597,2 Surprise}
-{0 pasmo,1 0.398,2 Surprise}
-{0 pasmosamente,1 0.431,2 Surprise}
-{0 pasmoso,1 0.564,2 Surprise}
-{0 perplejidad,1 0.731,2 Surprise}
-{0 perplejo,1 0.764,2 Surprise}
-{0 portento,1 0.696,2 Surprise}
-{0 portentosamente,1 0.63,2 Surprise}
-{0 portentoso,1 0.696,2 Surprise}
-{0 preguntar,1 0.198,2 Surprise}
-{0 prodigiosamente,1 0.596,2 Surprise}
-{0 prodigiosidad,1 0.563,2 Surprise}
-{0 prodigioso,1 0.629,2 Surprise}
-{0 quedar,1 0.33,2 Surprise}
-{0 quim�rico,1 0.364,2 Surprise}
-{0 quisicosa,1 0.33,2 Surprise}
-{0 recibir,1 0.364,2 Surprise}
-{0 repente,1 0.63,2 Surprise}
-{0 repentino,1 0.696,2 Surprise}
-{0 rompecabezas,1 0.099,2 Surprise}
-{0 shock,1 0.664,2 Surprise,4 1,6 1,8 -2,10 -0.29,12 -0.242,13 1,16 1,19 1,21 1,35 0.139965,39 0.710525,42 -0.652976}
-{0 shoqueado,1 0.731,2 Surprise}
-{0 sobrecoger,1 0.397,2 Surprise}
-{0 sobrecogimiento,1 0.431,2 Surprise}
-{0 sobresalto,1 0.565,2 Surprise}
-{0 sonso,1 0.066,2 Surprise}
-{0 sorprendente,1 0.966,2 Surprise}
-{0 sorprendentemente,1 0.932,2 Surprise}
-{0 sorprender,1 0.966,2 Surprise}
-{0 Surprise,1 0.966,2 Surprise,9 0.87,11 0.167,16 1,17 1,19 1,22 1,34 0.259217,39 0.854858,41 0.010417}
-{0 sorpresivamente,1 0.966,2 Surprise}
-{0 sorpresivo,1 0.966,2 Surprise}
-{0 subito,1 0.662,2 Surprise,19 1}
-{0 suspenso,1 0.529,2 Surprise}
-{0 susto,1 0.663,2 Surprise}
-{0 tambaleante,1 0.132,2 Surprise}
-{0 tambalear,1 0.132,2 Surprise}
-{0 titubeante,1 0.099,2 Surprise}
-{0 titubear,1 0.099,2 Surprise}
-{0 traspi�s,1 0.033,2 Surprise}
-{0 tremendo,1 0.429,2 Surprise}
-{0 zonzo,1 0.066,2 Surprise}
-{0 zopenco,1 0.066,2 Surprise}
-{0 abajamiento,1 0.497,2 Sadness}
-{0 abajo,1 0.364,2 Sadness}
-{0 abandonamiento,1 0.865,2 Sadness}
-{0 abandonar,1 0.898,2 Sadness}
-{0 abatidamente,1 0.832,2 Sadness}
-{0 abatido,1 0.865,2 Sadness}
-{0 abatimiento,1 0.798,2 Sadness}
-{0 abatir,1 0.765,2 Sadness}
-{0 abochornar,1 0.264,2 Sadness}
-{0 abrumar,1 0.43,2 Sadness}
-{0 aburrir,1 0.264,2 Sadness}
-{0 aciago,1 0.563,2 Sadness}
-{0 acongojar,1 0.796,2 Sadness}
-{0 acuitadamente,1 0.463,2 Sadness}
-{0 acuitar,1 0.562,2 Sadness}
-{0 adolecer,1 0.563,2 Sadness}
-{0 adverso,1 0.464,2 Sadness}
-{0 aflicci�n,1 0.764,2 Sadness}
-{0 afligidamente,1 0.83,2 Sadness}
-{0 afligido,1 0.83,2 Sadness}
-{0 afligir,1 0.796,2 Sadness}
-{0 agobiado,1 0.764,2 Sadness}
-{0 agobiante,1 0.73,2 Sadness}
-{0 agobiantemente,1 0.73,2 Sadness}
-{0 agobiar,1 0.697,2 Sadness}
-{0 agraviar,1 0.331,2 Sadness}
-{0 aguantar,1 0.364,2 Sadness}
-{0 aherrojar,1 0.198,2 Sadness}
-{0 ahogo,1 0.463,2 Sadness}
-{0 alica�do,1 0.464,2 Sadness}
-{0 aliquebrado,1 0.497,2 Sadness}
-{0 alma,1 0.165,2 Sadness,9 0.742,11 0.814,23 0.013314,24 0.070305,25 0.003903,26 0.013448,27 0.062109,28 0.009112,29 0.016887,30 0.109793,31 0.026659,32 0.336684}
-{0 amargo,1 0.264,2 Sadness}
-{0 amargura,1 0.528,2 Sadness}
-{0 amurriar,1 0.697,2 Sadness}
-{0 angustia,1 0.763,2 Sadness}
-{0 angustiadamente,1 0.697,2 Sadness}
-{0 angustiar,1 0.729,2 Sadness}
-{0 angustioso,1 0.763,2 Sadness}
-{0 aniquilar,1 0.463,2 Sadness}
-{0 a�icos,1 0.463,2 Sadness}
-{0 apabullar,1 0.429,2 Sadness}
-{0 apenar,1 0.397,2 Sadness}
-{0 apiadarse,1 0.464,2 Sadness}
-{0 aplanar,1 0.166,2 Sadness}
-{0 aplastar,1 0.232,2 Sadness}
-{0 aquejar,1 0.497,2 Sadness}
-{0 arrastradamente,1 0.297,2 Sadness}
-{0 arrastrar,1 0.198,2 Sadness}
-{0 arrepentimiento,1 0.462,2 Sadness}
-{0 arrepentir,1 0.462,2 Sadness}
-{0 asolar,1 0.53,2 Sadness}
-{0 atormentadamente,1 0.496,2 Sadness}
-{0 atormentar,1 0.53,2 Sadness}
-{0 atribular,1 0.529,2 Sadness}
-{0 atrici�n,1 0.495,2 Sadness}
-{0 avergonzar,1 0.297,2 Sadness}
-{0 bajo,1 0.264,2 Sadness}
-{0 cabizbajo,1 0.898,2 Sadness}
-{0 cabizca�do,1 0.898,2 Sadness}
-{0 caer,1 0.528,2 Sadness}
-{0 caerse,1 0.462,2 Sadness}
-{0 ca�da,1 0.529,2 Sadness}
-{0 ca�do,1 0.528,2 Sadness}
-{0 calvario,1 0.763,2 Sadness}
-{0 cancamurria,1 0.799,2 Sadness}
-{0 carcel,1 0.596,2 Sadness}
-{0 carecer,1 0.529,2 Sadness}
-{0 cargar,1 0.33,2 Sadness}
-{0 castigo,1 0.595,2 Sadness}
-{0 cetrino,1 0.165,2 Sadness}
-{0 compadecer,1 0.564,2 Sadness}
-{0 compasi�n,1 0.63,2 Sadness}
-{0 compasivo,1 0.63,2 Sadness}
-{0 compunci�n,1 0.464,2 Sadness}
-{0 compungidamente,1 0.331,2 Sadness}
-{0 compungir,1 0.397,2 Sadness}
-{0 condolencia,1 0.796,2 Sadness}
-{0 condoler,1 0.796,2 Sadness}
-{0 confuso,1 0.231,2 Sadness}
-{0 congoja,1 0.496,2 Sadness}
-{0 congojoso,1 0.529,2 Sadness}
-{0 consternaci�n,1 0.595,2 Sadness}
-{0 contrici�n,1 0.429,2 Sadness}
-{0 contristar,1 0.663,2 Sadness}
-{0 contrito,1 0.63,2 Sadness}
-{0 crisis,1 0.696,2 Sadness,4 1,6 1,8 -3,10 -0.245,12 -0.359,21 1,36 1.298027,42 -0.0625}
-{0 cuita,1 0.73,2 Sadness}
-{0 cuitado,1 0.597,2 Sadness}
-{0 culpa,1 0.598,2 Sadness,23 0.058848,24 0.019943,25 0.159987,26 0.074524,27 0.001701,28 0.142284,29 0.027275,30 0.011946,31 0.742254,32 0.008689}
-{0 culpabilidad,1 0.631,2 Sadness}
-{0 culpable,1 0.565,2 Sadness,4 1,6 1,21 1,42 -0.4375}
-{0 culpado,1 0.631,2 Sadness}
-{0 culposo,1 0.631,2 Sadness}
-{0 da�ino,1 0.562,2 Sadness}
-{0 debilitar,1 0.33,2 Sadness}
-{0 decaer,1 0.729,2 Sadness}
-{0 deca�do,1 0.831,2 Sadness}
-{0 decaimiento,1 0.797,2 Sadness}
-{0 decepci�n,1 0.898,2 Sadness}
-{0 decepcionar,1 0.898,2 Sadness}
-{0 defectuoso,1 0.33,2 Sadness}
-{0 deficiente,1 0.363,2 Sadness}
-{0 dejarse,1 0.233,2 Sadness}
-{0 dejaz�n,1 0.166,2 Sadness}
-{0 deplorable,1 0.563,2 Sadness,4 1,6 1,12 -4.999,13 1,15 1,16 1,18 1,21 1,42 -1.010417}
-{0 deplorablemente,1 0.563,2 Sadness}
-{0 deplorar,1 0.53,2 Sadness}
-{0 depresi�n,1 0.898,2 Sadness}
-{0 depresivo,1 0.898,2 Sadness}
-{0 deprimente,1 0.898,2 Sadness}
-{0 deprimir,1 0.864,2 Sadness}
-{0 derribado,1 0.563,2 Sadness}
-{0 derribar,1 0.431,2 Sadness}
-{0 derrota,1 0.764,2 Sadness}
-{0 desafortunado,1 0.898,2 Sadness}
-{0 desalentadamente,1 0.797,2 Sadness}
-{0 desalentar,1 0.764,2 Sadness}
-{0 desaliento,1 0.797,2 Sadness}
-{0 desalojar,1 0.496,2 Sadness}
-{0 desamparar,1 0.629,2 Sadness}
-{0 desamparo,1 0.596,2 Sadness}
-{0 desanimado,1 0.729,2 Sadness}
-{0 desanimar,1 0.729,2 Sadness}
-{0 des�nimo,1 0.762,2 Sadness}
-{0 desaquellar,1 0.596,2 Sadness}
-{0 desarrapado,1 0.198,2 Sadness}
-{0 desastrado,1 0.232,2 Sadness}
-{0 desaz�n,1 0.165,2 Sadness}
-{0 desazonar,1 0.165,2 Sadness}
-{0 descaecimiento,1 0.331,2 Sadness}
-{0 descomponer,1 0.264,2 Sadness}
-{0 desconsolado,1 0.83,2 Sadness}
-{0 desconsolador,1 0.73,2 Sadness}
-{0 desconsolar,1 0.73,2 Sadness}
-{0 desconsuelo,1 0.83,2 Sadness}
-{0 descontento,1 0.397,2 Sadness}
-{0 descorazonamiento,1 0.43,2 Sadness}
-{0 descorazonar,1 0.463,2 Sadness}
-{0 descuajar,1 0.198,2 Sadness}
-{0 desdicha,1 0.83,2 Sadness}
-{0 desdichado,1 0.83,2 Sadness}
-{0 desenga�o,1 0.663,2 Sadness}
-{0 desesperaci�n,1 0.464,2 Sadness}
-{0 desesperadamente,1 0.464,2 Sadness}
-{0 desesperanza,1 0.698,2 Sadness}
-{0 desesperanzar,1 0.764,2 Sadness}
-{0 desesperar,1 0.332,2 Sadness}
-{0 desestimar,1 0.265,2 Sadness}
-{0 desestimular,1 0.264,2 Sadness}
-{0 desfallecer,1 0.429,2 Sadness}
-{0 desfallecimiento,1 0.429,2 Sadness}
-{0 desgarrador,1 0.564,2 Sadness}
-{0 desgarro,1 0.397,2 Sadness}
-{0 desgastar,1 0.365,2 Sadness}
-{0 desgracia,1 0.83,2 Sadness}
-{0 desgraciar,1 0.73,2 Sadness}
-{0 deshecho,1 0.531,2 Sadness}
-{0 deshincharse,1 0.099,2 Sadness}
-{0 deshonrar,1 0.429,2 Sadness}
-{0 desierto,1 0.099,2 Sadness}
-{0 desinflar,1 0.198,2 Sadness}
-{0 deslucir,1 0.132,2 Sadness}
-{0 desmadejado,1 0.165,2 Sadness}
-{0 desmalazado,1 0.264,2 Sadness}
-{0 desmayadamente,1 0.132,2 Sadness}
-{0 desmayado,1 0.132,2 Sadness}
-{0 desmayar,1 0.099,2 Sadness}
-{0 desmedrar,1 0.165,2 Sadness}
-{0 desmoralizaci�n,1 0.529,2 Sadness}
-{0 desmoralizador,1 0.595,2 Sadness}
-{0 desmoralizante,1 0.595,2 Sadness}
-{0 desmoralizar,1 0.562,2 Sadness}
-{0 desmotivar,1 0.762,2 Sadness}
-{0 desolaci�n,1 0.762,2 Sadness}
-{0 desolar,1 0.729,2 Sadness}
-{0 despojar,1 0.496,2 Sadness}
-{0 desposeer,1 0.297,2 Sadness}
-{0 desprivar,1 0.264,2 Sadness}
-{0 desprotecci�n,1 0.264,2 Sadness}
-{0 desprotegido,1 0.363,2 Sadness}
-{0 destartalado,1 0.33,2 Sadness}
-{0 destrozo,1 0.562,2 Sadness}
-{0 desventura,1 0.729,2 Sadness}
-{0 desventurado,1 0.629,2 Sadness}
-{0 devastar,1 0.764,2 Sadness}
-{0 doler,1 0.764,2 Sadness}
-{0 doliente,1 0.832,2 Sadness}
-{0 dolor,1 0.832,2 Sadness,18 1,21 1,42 -0.4375}
-{0 dolorido,1 0.832,2 Sadness}
-{0 doloroso,1 0.866,2 Sadness}
-{0 duelo,1 0.497,2 Sadness}
-{0 echar,1 0.099,2 Sadness}
-{0 encoger,1 0.264,2 Sadness}
-{0 encuitar,1 0.232,2 Sadness}
-{0 enervar,1 0.231,2 Sadness}
-{0 enfermedad,1 0.629,2 Sadness}
-{0 enflaquecer,1 0.563,2 Sadness}
-{0 enlutar,1 0.797,2 Sadness}
-{0 ensombrecer,1 0.697,2 Sadness}
-{0 entristecedor,1 0.899,2 Sadness}
-{0 entristecer,1 0.932,2 Sadness}
-{0 entristecimiento,1 0.899,2 Sadness}
-{0 escarmentar,1 0.331,2 Sadness}
-{0 escasez,1 0.398,2 Sadness}
-{0 escaso,1 0.365,2 Sadness}
-{0 espl�n,1 0.466,2 Sadness}
-{0 estragar,1 0.165,2 Sadness}
-{0 flaquear,1 0.396,2 Sadness}
-{0 flaqueza,1 0.363,2 Sadness}
-{0 fl�bil,1 0.697,2 Sadness}
-{0 fr�o,1 0.198,2 Sadness}
-{0 frustaci�n,1 0.396,2 Sadness}
-{0 f�nebre,1 0.696,2 Sadness}
-{0 f�nebremente,1 0.662,2 Sadness}
-{0 funeral,1 0.763,2 Sadness,8 -1,10 -1.984,12 -0.375,18 1,35 0.161327,38 1.468594}
-{0 funerario,1 0.764,2 Sadness}
-{0 funesto,1 0.497,2 Sadness}
-{0 grave,1 0.463,2 Sadness,4 1,8 -2,10 -0.417,12 -1.393,16 1,18 1,21 1,35 0.888375,38 0.497816,42 -0.3125}
-{0 gris,1 0.564,2 Sadness}
-{0 hambre,1 0.331,2 Sadness,23 0.103749,24 0.053238,25 0.130978,26 0.0645,27 0.004624,28 0.035722,29 0.043413,30 0.00846,31 0.579592,32 0.019441}
-{0 hu�rfano,1 0.764,2 Sadness}
-{0 humilde,1 0.396,2 Sadness}
-{0 humillar,1 0.496,2 Sadness}
-{0 hundido,1 0.496,2 Sadness}
-{0 hundir,1 0.464,2 Sadness}
-{0 hund�rsele,1 0.299,2 Sadness}
-{0 imperfecto,1 0.231,2 Sadness}
-{0 impotencia,1 0.53,2 Sadness}
-{0 impotente,1 0.464,2 Sadness}
-{0 inconforme,1 0.33,2 Sadness}
-{0 inconformidad,1 0.264,2 Sadness}
-{0 inconsolable,1 0.732,2 Sadness,4 1,6 1,42 -0.375}
-{0 indigente,1 0.398,2 Sadness}
-{0 infausto,1 0.53,2 Sadness}
-{0 infectar,1 0.297,2 Sadness}
-{0 infedelidad,1 0.597,2 Sadness}
-{0 infelicidad,1 0.898,2 Sadness}
-{0 infeliz,1 0.966,2 Sadness}
-{0 inferior,1 0.264,2 Sadness,4 1,6 1,8 -2,10 -0.761,12 -1.872,18 1,21 1,42 -0.973214}
-{0 infortunado,1 0.73,2 Sadness}
-{0 infortunio,1 0.729,2 Sadness}
-{0 inhabitado,1 0.33,2 Sadness}
-{0 injusticia,1 0.496,2 Sadness}
-{0 inmoral,1 0.464,2 Sadness}
-{0 innoble,1 0.463,2 Sadness}
-{0 inquietud,1 0.231,2 Sadness}
-{0 insatisfacci�n,1 0.297,2 Sadness}
-{0 insatisfecho,1 0.331,2 Sadness}
-{0 lacerar,1 0.529,2 Sadness}
-{0 laceria,1 0.463,2 Sadness}
-{0 lacrimoso,1 0.63,2 Sadness}
-{0 l�grima,1 0.763,2 Sadness}
-{0 lagrimar,1 0.763,2 Sadness}
-{0 l�grimas,1 0.763,2 Sadness}
-{0 lagrimear,1 0.762,2 Sadness}
-{0 lagrimoso,1 0.662,2 Sadness}
-{0 laido,1 0.53,2 Sadness}
-{0 lamentable,1 0.629,2 Sadness,4 1,6 1,42 -0.5}
-{0 lamentablemente,1 0.597,2 Sadness}
-{0 lamentar,1 0.729,2 Sadness}
-{0 lamento,1 0.729,2 Sadness}
-{0 lamentoso,1 0.729,2 Sadness}
-{0 l�nguidamente,1 0.496,2 Sadness}
-{0 l�nguido,1 0.496,2 Sadness}
-{0 larga,1 0.066,2 Sadness}
-{0 lastima,1 0.73,2 Sadness}
-{0 lastimeramente,1 0.696,2 Sadness}
-{0 lastimero,1 0.73,2 Sadness}
-{0 lastimoso,1 0.763,2 Sadness}
-{0 llanto,1 0.865,2 Sadness}
-{0 llorar,1 0.865,2 Sadness}
-{0 llor�n,1 0.763,2 Sadness}
-{0 lloroso,1 0.797,2 Sadness}
-{0 l�bregamente,1 0.463,2 Sadness}
-{0 l�brego,1 0.464,2 Sadness}
-{0 luctuosamente,1 0.83,2 Sadness}
-{0 luctuoso,1 0.898,2 Sadness}
-{0 l�gubre,1 0.865,2 Sadness}
-{0 lugubres,1 0.865,2 Sadness}
-{0 luto,1 0.932,2 Sadness}
-{0 lutoso,1 0.932,2 Sadness}
-{0 macabro,1 0.199,2 Sadness}
-{0 mal,1 0.431,2 Sadness,9 0.39,12 -1.824,23 0.120025,24 0.042919,25 0.016851,26 0.095954,27 0.002914,28 0.010819,29 0.045882,30 0.021019,31 0.386289,32 0.01586,37 2.072974}
-{0 malandante,1 0.363,2 Sadness}
-{0 malaventurado,1 0.63,2 Sadness}
-{0 malcontento,1 0.563,2 Sadness}
-{0 maldito,1 0.264,2 Sadness,23 0.35505,24 0.014167,25 0.339802,26 0.187177,27 0.001185,28 0.119835,29 0.022188,30 0.003776,31 0.941577,32 0.005576}
-{0 malhadado,1 0.529,2 Sadness}
-{0 malhumorar,1 0.297,2 Sadness}
-{0 malo,1 0.265,2 Sadness,9 0.56,23 0.105141,24 0.019905,25 0.127703,26 0.065476,27 0.005759,28 0.031563,29 0.033894,30 0.01068,31 0.542544,32 0.022836}
-{0 maltrecho,1 0.33,2 Sadness}
-{0 melancol�a,1 0.865,2 Sadness}
-{0 melanc�licamente,1 0.865,2 Sadness}
-{0 melanc�lico,1 0.865,2 Sadness}
-{0 menesteroso,1 0.462,2 Sadness}
-{0 menguante,1 0.099,2 Sadness}
-{0 mezquinamente,1 0.231,2 Sadness}
-{0 mezquindad,1 0.231,2 Sadness}
-{0 miserable,1 0.628,2 Sadness,4 1,6 1,8 -3,10 -1.832,12 -0.283,13 1,15 1,18 1,21 1,35 0.242234,38 0.921299,42 -1.20625}
-{0 miserablemente,1 0.661,2 Sadness}
-{0 m�seramente,1 0.596,2 Sadness}
-{0 miseria,1 0.596,2 Sadness}
-{0 m�sero,1 0.562,2 Sadness}
-{0 mis�rrimamente,1 0.463,2 Sadness}
-{0 molestar,1 0.132,2 Sadness}
-{0 morri�a,1 0.532,2 Sadness}
-{0 muerte,1 0.865,2 Sadness}
-{0 muerto,1 0.731,2 Sadness}
-{0 mustiamente,1 0.298,2 Sadness}
-{0 mustio,1 0.365,2 Sadness}
-{0 necesitado,1 0.497,2 Sadness}
-{0 nefasto,1 0.33,2 Sadness}
-{0 negro,1 0.198,2 Sadness,9 0.742,12 -2.294,18 1,21 1}
-{0 nocturno,1 0.033,2 Sadness}
-{0 nost�lgico,1 0.831,2 Sadness}
-{0 obscuridad,1 0.265,2 Sadness}
-{0 obscuro,1 0.265,2 Sadness}
-{0 onerosamente,1 0.165,2 Sadness}
-{0 opacidad,1 0.264,2 Sadness}
-{0 opresi�n,1 0.264,2 Sadness}
-{0 opresivamente,1 0.396,2 Sadness}
-{0 opresivo,1 0.363,2 Sadness}
-{0 oprimente,1 0.396,2 Sadness}
-{0 oprimir,1 0.198,2 Sadness}
-{0 oscuramente,1 0.033,2 Sadness}
-{0 oscurecer,1 0.066,2 Sadness}
-{0 oscuridad,1 0.099,2 Sadness}
-{0 oscuro,1 0.066,2 Sadness}
-{0 padecer,1 0.429,2 Sadness}
-{0 padecimiento,1 0.429,2 Sadness}
-{0 pante�n,1 0.563,2 Sadness}
-{0 partir,1 0.596,2 Sadness,23 0.035188,24 0.036627,25 0.006687,26 0.013415,27 0.055708,28 0.005858,29 0.083583,30 0.081204,31 0.087731,32 0.135592}
-{0 pat�tico,1 0.165,2 Sadness}
-{0 paup�rrimamente,1 0.232,2 Sadness}
-{0 paup�rrimo,1 0.232,2 Sadness}
-{0 pena,1 0.695,2 Sadness,10 -1.049,23 0.13208,24 0.019812,25 0.106508,26 0.107555,27 0.003631,28 0.107265,29 0.042465,30 0.014817,31 0.67749,32 0.019679}
-{0 penalidad,1 0.331,2 Sadness}
-{0 penar,1 0.628,2 Sadness}
-{0 penitencia,1 0.496,2 Sadness}
-{0 penitente,1 0.496,2 Sadness}
-{0 penosamente,1 0.396,2 Sadness}
-{0 penoso,1 0.363,2 Sadness}
-{0 penumbra,1 0.364,2 Sadness}
-{0 perder,1 0.629,2 Sadness,23 0.117753,24 0.021902,25 0.068837,26 0.091784,27 0.002609,28 0.104731,29 0.031346,30 0.012702,31 0.665514,32 0.009}
-{0 p�rdida,1 0.864,2 Sadness}
-{0 perseguir,1 0.231,2 Sadness}
-{0 perverso,1 0.132,2 Sadness}
-{0 pesadumbre,1 0.496,2 Sadness}
-{0 pesar,1 0.562,2 Sadness}
-{0 pesaroso,1 0.496,2 Sadness}
-{0 pesimismo,1 0.429,2 Sadness}
-{0 pisotear,1 0.33,2 Sadness}
-{0 pobre,1 0.462,2 Sadness,10 -2.348,23 0.251191,24 0.009053,25 0.268491,26 0.189246,27 0.000881,28 0.112986,29 0.029898,30 0.00383,31 0.907958,32 0.002226}
-{0 pobremente,1 0.396,2 Sadness}
-{0 pobrete,1 0.363,2 Sadness}
-{0 pobreto,1 0.363,2 Sadness}
-{0 pobreza,1 0.396,2 Sadness}
-{0 podrir,1 0.297,2 Sadness}
-{0 preocupar,1 0.462,2 Sadness}
-{0 presionar,1 0.264,2 Sadness}
-{0 privar,1 0.496,2 Sadness}
-{0 quebranto,1 0.628,2 Sadness}
-{0 reducir,1 0.099,2 Sadness}
-{0 remordimiento,1 0.595,2 Sadness}
-{0 ruina,1 0.43,2 Sadness}
-{0 serio,1 0.132,2 Sadness,23 0.097139,24 0.017497,25 0.074669,26 0.036922,27 0.00662,28 0.022773,29 0.019659,30 0.012999,31 0.567162,32 0.022334}
-{0 soledad,1 0.763,2 Sadness,23 0.097904,24 0.01678,25 0.012241,26 0.049211,27 0.008975,28 0.010094,29 0.008997,30 0.054312,31 0.18145,32 0.088542}
-{0 solitario,1 0.83,2 Sadness}
-{0 sollozar,1 0.798,2 Sadness}
-{0 solo,1 0.729,2 Sadness,9 0.065,11 1.142,34 0.467698,36 0.042411,37 0.354052,38 0.023358,39 0.29355,42 -0.1875}
-{0 sombr�o,1 0.397,2 Sadness}
-{0 sufrimiento,1 0.898,2 Sadness}
-{0 sufrir,1 0.898,2 Sadness}
-{0 sumisamente,1 0.43,2 Sadness}
-{0 taciturnidad,1 0.431,2 Sadness}
-{0 taciturno,1 0.464,2 Sadness}
-{0 temor,1 0.198,2 Sadness}
-{0 tenebrosamente,1 0.198,2 Sadness}
-{0 tenebrosidad,1 0.132,2 Sadness}
-{0 tenebroso,1 0.132,2 Sadness}
-{0 t�trico,1 0.199,2 Sadness}
-{0 tormento,1 0.53,2 Sadness}
-{0 triste,1 0.966,2 Sadness,10 -3.779,23 0.246929,24 0.013032,25 0.349295,26 0.195136,27 0.000782,28 0.502443,29 0.018397,30 0.001836,31 0.95137,32 0.001433}
-{0 tristemente,1 0.966,2 Sadness}
-{0 Sadness,1 0.966,2 Sadness,4 1,6 1,10 -2.14,12 -0.32,18 1,20 1,21 1,37 0.262114,38 1.787718,42 -0.802083}
-{0 trizas,1 0.464,2 Sadness}
-{0 vejaci�n,1 0.297,2 Sadness}
-{0 vejar,1 0.396,2 Sadness}
-{0 vergonzoso,1 0.231,2 Sadness}
-{0 zangarriana,1 0.53,2 Sadness}
+{0 '@Abran_Dalmr @Gustavo_Soagui @Annett83236709 @SkyAlertMx Si muchas gracias ',1 joy,2 0.614,3 2.064,4 -0.491,5 0.478,6 -0.665}
+{0 '@miliylauri Mucha suerte.',1 joy,2 0.435,3 0.627,4 -0.062,5 0.246,6 -0.06}
+{0 'Lo bueno es que me veo de 19 y nadie sabe cuántos cumplí ',1 joy,2 0.587,3 1.017,4 -7.537,5 1.237,6 -2.907}
+{0 'No puedo evitar cagarme de risa con los movimientos que no se le dan 😂😂',1 joy,2 0.854,3 2.19,4 -5.08,5 2.522,6 -3.432,9 2}
+{0 '@Jipstaah Suerte que ya soy papa casada ah',1 joy,2 0.542,3 0.942,4 -0.903,5 1.07,6 -1.154}
+{0 '@ElmemoV De hecho que si, pero es algo casi imposible, la única solución es que se me joda el cel ',1 joy,2 0.208,3 1.329,4 -3.282,5 2.95,6 -4.683}
+{0 '@AwadaNai la mala suerte del gato fichame la cara de help me pls',1 joy,2 0.25,3 1.644,4 -1.401,5 3.952,6 -1.647}
+{0 '#2MillonesDeMorrillos @heyitspriscila El sabado te vere hermosa,aqui en tijuana,estoy mega emocionada!!😍♥️',1 joy,2 0.833,3 3.303,4 -0.811,5 1.501,6 -0.317,7 3}
+{0 '@_Laura24 Esta bien hableme que yo no soy orgulloso',1 joy,2 0.45,3 1.838,4 -1.449,5 0.831,6 -3.406,9 1}
+{0 'a mi me dijeron feliz dia y no entendía porque, que garrón ser amigo mio',1 joy,2 0.354,3 3.213,4 -3.833,5 1.587,6 -3.064,9 1}
+{0 'Solicito seriamente que haya un festivo todas las semanas💋',1 joy,2 0.457,3 0.21,4 -0.555,5 0.2,6 -1.752}
+{0 'Nube, regresame las estrellas yo quiero encontrar la más brillante de ellas,  sueña corazón💙😇🎶',1 joy,2 0.542,3 2.868,4 -1.159,5 6.148,6 -1.229}
+{0 'nunca puede faltar una gallina de la suerte en votaciones #CD9 #Coders #AlonsoVillalpandoTrendy #KCAMexico',1 joy,2 0.523,3 2.519,4 -1.271,5 1.681,6 -0.95,9 1}
+{0 '@LaTardeEnCasa Un gusto estar con ustedes',1 joy,2 0.771,3 0.025,4 -1.918,5 0.692,6 -2.238}
+{0 '@TzuAG Aún así la amo ',1 joy,2 0.542,3 0.982,4 -0.461,5 1.088,6 -0.214}
+{0 'Ya está pidiendo demasiado ',1 joy,2 0.159,3 0.454,4 -0.695,6 -1.297}
+{0 'Que satisfacción encontrar Diles remix pero aja esperaba mucho más',1 joy,2 0.5,3 2.4,4 -1.592,5 0.631,6 -2.607}
+{0 'El viernes 28 viajo a USA y mi hna esta + emocionada q yo, nose si pq me voy o pq le compre todo lo q me pidio. Donde esta el amor de hnas??',1 joy,2 0.636,3 2.549,4 -4.616,5 4.729,6 -3.666}
+{0 'Buenas noches mis princesas, que tengan dulces sueños💕😴 MAÑANA NUEVO VIDEOOOOO estoy muy emocionada ya las extraño 😢❤️ las amo',1 joy,2 0.938,3 4.868,4 -7.674,5 6.518,6 -2.428}
+{0 '@allisonlopez_ @aramirodriguez @rociomeza_ Ah ya, nosotros fuimos su diversión y ahora quieren salir sin nosotros? Ok Marta',1 joy,2 0.292,3 1.461,4 -2.51,5 1.037,6 -3.474}
+{0 'Que te duela la panza de tanto reirte, eso no se paga con nada ',1 joy,2 0.813,3 1.616,4 -3.718,5 2.921,6 -2.833,9 2}
+{0 'Una locura, baila orgulloso, hoy se presenta este corazón alegre y caprichoso',1 joy,2 0.729,3 4.825,4 -1.185,5 2.994,6 -6.023}
+{0 '@shaiel_kosinski Sos re chistosa eh (extraño el rubio)',1 joy,2 0.667,3 1.711,4 -6.033,5 1.25,6 -4.23}
+{0 'Compartimos el gusto por los gatos y el odio por el llanto de los niños.',1 joy,2 0.417,3 0.942,4 -3.374,5 2.043,6 -10.048}
+{0 '¡Feliz día a todos los que saben que son mis amigos! (Responde este tweet, si le doy fav eres uno de ellos :D)',1 joy,2 0.688,3 9.066,4 -1.853,5 6.035,6 -5.137}
+{0 'JAJAJAJAJAJAJAJJAJAJAA yo no te la puedo creerrrrr ',1 joy,2 0.813,3 0.474,4 -3.814,5 0.61,6 -1.799,9 1}
+{0 'En realidad mi cumpleaños me chupa un huevo, solamente me aprovecho de ese tabú para comer muchas cosas ',1 joy,2 0.391,3 5.646,4 -3.511,5 1.82,6 -3.461}
+{0 'Frecuentemente se castiga, le pone trabas a la alegría sin entender, sin entender que lo tiene todo',1 joy,2 0.229,3 1.313,4 -3.932,5 3.297,6 -3.08}
+{0 'no sé sonreír',1 joy,2 0.146,4 -2.722,6 -0.628,9 1}
+{0 '@ReniGenzano No entiendo que es lo que te causa risa, ballena mantenida 😒❤️',1 joy,2 0.205,3 1.743,4 -3.558,5 0.654,6 -3.739,9 1}
+{0 'Últimamente Kai me atrae de sobre manera lpm es que es tan piola, tan alegre, tan hermoso, tan dios del baile, tan bebé tierno, tan bebo',1 joy,2 0.674,3 5.374,4 -3.991,5 4.616,6 -4.732}
+{0 '@hills_fuck Tu argumento es invalido, ya vete a estudiar ',1 joy,2 0.19,3 0.815,4 -0.594,5 0.271,6 -1.917}
+{0 '2. Solo a dos ',1 joy,2 0.364,4 -1.674,5 0.207,6 -0.06}
+{0 '@Panagiotios ME agrada ver tus videos,aunq sean losos como el de los marshmallows! Ese fue muy gracioso!',1 joy,2 0.75,3 6.023,4 -1.362,5 4.549,6 -2.792}
+{0 '@NathalieeParraa Tranquila después de la noche más oscura llega el día más brillante',1 joy,2 0.438,3 1.546,4 -0.987,5 4.125,6 -0.75}
+{0 'Mañana es festivo y tengo que madrugar amo mi vida',1 joy,2 0.417,3 0.9,4 -2.379,5 1.277,6 -1.547}
+{0 'Yo me encargo del presente el futuro es asunto de Dios ',1 joy,2 0.436,3 1.907,4 -1.811,5 2.97,6 -1.95}
+{0 '@raquel_rivarola Siempre tan amable romantica y agradable....',1 joy,2 0.652,3 1.079,4 -0.778,5 0.989,6 -0.617}
+{0 'esto es muy emocionante #HaroldAzuara #KCAMexico',1 joy,2 0.833,3 0.78,4 -0.854,6 -0.936}
+{0 'Uy la paraste de pelo ',1 joy,2 0.292,3 2.177,5 1.274,6 -0.214}
+{0 '@velnti10 Perdón perdón ',1 joy,2 0.167,3 2.346,6 -0.428}
+{0 '0:01 veo en ti la oportunidad de sonreír de nuevo.',1 joy,2 0.708,3 2.164,4 -0.316,5 3.588,6 -0.06}
+{0 'Que lindo es que re rasquen la espalda 😉 pero soy tan cosquilluda ',1 joy,2 0.727,3 1.887,4 -1.313,5 0.765,6 -2.818}
+{0 'Yo si que soy afortunada de las amigas que tengo, HAY QUE AGUANTARME A MI E.',1 joy,2 0.682,3 1.281,4 -3.863,5 1.169,6 -3.666}
+{0 '@JaviGaudino_ Nadie me reconoce por ese simple hecho ',1 joy,2 0.333,3 0.633,4 -5.32,6 -2.12}
+{0 'Parezco 🍅!!! ',1 joy,2 0.417,3 0.241}
+{0 'Pocos pero los mejores. ¡Feliz día!',1 joy,2 0.667,3 0.915,4 -0.571,5 2.091,6 -0.88}
+{0 '¡FELIZ #DiaDeLaIndependencia COLOMBIA! 😎😎😎😇😇🙌🙌🙌🙌🙌🙌🙌 @eldiariodedross @GermanGarmendia @JolinboYT',1 joy,2 0.813,3 0.449,4 -0.022,5 0.686}
+{0 'no se por que me caliento , si era de esperarse . la prioridad primero y tercero con suerte lo mio',1 joy,2 0.389,3 2.093,4 -2.292,5 3.48,6 -4.279,9 1}
+{0 'El viernes se viene el frío con lluvia. Ya era necesario, ese clima me pone de buenas y cero amargado. 😀',1 joy,2 0.521,3 3.268,4 -4.426,5 4.346,6 -3.348}
+{0 '@Ronald_MacKay Que verga ',1 joy,2 0.109,4 -0.091,6 -0.638}
+{0 'Este año me tocará ir sola a la Convención de DB 😬 Vamo a conocer otakus ',1 joy,2 0.333,3 0.91,4 -0.622,5 1.412,6 -1.763}
+{0 'Que dicha que mañana no tengo clases .😛',1 joy,2 0.717,4 -2.859,5 0.68,6 -2.029,9 1}
+{0 '@MINDSREV0LUTI0N @PabloHiriart Tú ni filosofía tienes, solovino enajenado, solo entras a zurrar en la red a nombre de tu mesías ',1 joy,2 0.37,3 4.322,4 -2.193,5 2.493,6 -2.745}
+{0 'Hoy fue un hermoso día! Que satisfacción 😊',1 joy,2 0.896,3 1.248,4 -1.108,5 1.737,6 -1.158}
+{0 '@Genrus tu cumple y yo en las babas. Te quiero un mundo y deseo para ti todo lo bonito y lo sublime. Sé dichoso infinitamente. Besote, Juan.',1 joy,2 0.813,3 7.197,4 -6.32,5 10.627,6 -4.615}
+{0 'Orgullosa de ser aquella que tiene problemas y sonrie.',1 joy,2 0.542,3 0.409,4 -2.257,5 0.664,6 -1.989}
+{0 'Bojan no me tiene contenta.',1 joy,2 0.168,4 -1.574,6 -1.093,9 1}
+{0 'El dolor interior te está devorando, robándote la alegría y paralizando tu capacidad de amar... debes perdonar.',1 joy,2 0.208,3 4.109,4 -5.495,5 3.1,6 -3.664}
+{0 'El sábado andaba como pico y las pibas de tango me trataron re bien, re cariñosas. Parece que tengo que andar así, para que me traten bien ',1 joy,2 0.548,3 2.954,4 -4.41,5 2.699,6 -9.891}
+{0 'Aparecen fotos de todos lados culia ',1 joy,2 0.188,3 2.196,4 -0.04,5 0.664,6 -0.457}
+{0 'Amo el negro Mario ',1 joy,2 0.646,3 1.274,5 0.672,6 -2.294}
+{0 '¿Te ha divertido el día de hoy? #bot',1 joy,2 0.458,3 1.893,4 -0.15,5 1.966,6 -1.572}
+{0 '@EsquivelMaylet @OLeovan Ya fui hoy 😅 ya que ustedes no quisieron acompañarme alguien más si quiso',1 joy,2 0.438,3 0.129,4 -2.935,5 0.33,6 -4.281,9 1}
+{0 '@moises32g Orale va se juega Pero no empiezas de gay',1 joy,2 0.292,3 0.409,4 -1.963,5 1.206,6 -1.556,9 1}
+{0 'tuve un lindo domingo ',1 joy,2 0.667,3 1.156,4 -0.151,5 0.563,6 -0.52}
+{0 '@VallOPerroLoco Juega :v los juegos friv alv :v',1 joy,2 0.417,3 0.134,4 -0.012,5 0.478,6 -0.202}
+{0 '|. Basta que me acordé que yo tengo una cuenta del padre Gabriel y la tentación ',1 joy,2 0.438,3 2.874,4 -3.678,5 1.954,6 -7.075}
+{0 'Al decano no más ya me falta hacerle una sesión en la Poli ',1 joy,2 0.271,3 1.747,4 -3.964,5 2.409,6 -1.914,9 1}
+{0 '@sergiod_riverae Feliz noche Sergio Chulo! Un abrazo',1 joy,2 0.646,3 3.562,5 2.456,6 -0.52}
+{0 '@DebRyanShow @AlexXxStrecci #rayito claro que si, un cambio es genial',1 joy,2 0.75,3 1.526,4 -1.254,5 0.671,6 -2.259}
+{0 '@lvm__20 @rolandoB13 te hablan x2 ',1 joy,2 0.292,3 0.269,4 -0.173,5 1.038,6 -0.317}
+{0 '@Pezonia Así será querida Natalia ',1 joy,2 0.313,3 0.534,4 -0.461,5 0.478,6 -0.214}
+{0 'lo mas gracioso es q es verdad, hace 2 años no me cagaba tanto de frio',1 joy,2 0.479,3 2.801,4 -3.487,5 1.881,6 -3.416,9 1}
+{0 '15 días para inscribir materias y casi un mes para entrar de nuevo. Que está dicha tan hpta!',1 joy,2 0.5,3 1.519,4 -1.787,5 1.76,6 -2.52}
+{0 'La felicidad no consiste en todo tener, sino en saber sacar lo bueno que te da. #Fav #RT #FF #UnaVidaPk #felicidad',1 joy,2 0.609,3 4.51,4 -3.011,5 11.803,6 -2.815,9 1}
+{0 'Ya no se difenciar un festivo de un día normal :( que rutinaria mi puta lífe',1 joy,2 0.13,3 0.978,4 -2.097,5 2.037,6 -4.082,8 -2,9 1}
+{0 '@MuziTizi @juliibenzo @paulifernande14 @ro_cavallo1 @ValeBenzo @valengodino @marti Feliz día estrelladas🌟 las amo!',1 joy,2 0.854,3 2.79,5 2.195}
+{0 'Soy hambre 24/7 ',1 joy,2 0.271,3 0.178,4 -0.254,6 -0.259}
+{0 '@Nachojmontero No era para que llores.. pero sentite orgulloso jajajaj',1 joy,2 0.799,3 1.838,4 -1.789,5 0.917,6 -2.371,9 1}
+{0 '@_julipinto yo se q no es gracioso pero me rei t amo',1 joy,2 0.565,3 3.001,4 -1.974,5 1.02,6 -4.16,9 1}
+{0 '@Victoria_Fons No no me pega 😅',1 joy,2 0.417,4 -1.828,6 -1.539,9 2}
+{0 '@kateOFF_ @cathy La cagó ah ',1 joy,2 0.05,3 0.52,5 0.777}
+{0 '@MarianaRodrigzC Jajajajajaja como cuando te exponen 😅',1 joy,2 0.667,3 0.605,4 -0.221,6 -1.917}
+{0 '@JOELSHAMPU TE AMO❤FELIZ DÍA BIABOR',1 joy,2 0.773,3 2.425,5 1.787,6 -0.317}
+{0 '@KidGuilty @cathy @cokep Y cuando mató a otro q no me acuerdo pero una wna fue con su mamá al hospital de Buin 😂',1 joy,2 0.326,3 1.512,4 -6.437,5 1.674,6 -5.308,9 1}
+{0 '@NuriGutierrez1D JAJAJAJAJA nosotras en el amor en un tweet ',1 joy,2 0.667,3 0.761,4 -0.825,5 1.229,6 -1.04}
+{0 '@DragonMaidSucks genial, ahora me explico, esa era una imagen que era para apoyar tu ideología xd',1 joy,2 0.438,3 3.488,4 -1.057,5 0.917,6 -2.693}
+{0 'Ya rompí récord ',1 joy,2 0.542,4 -0.405,6 -0.414}
+{0 'Extraño sentir sus manitos en mi cara, su risa, TODO 😭👶💕',1 joy,2 0.227,3 2.262,4 -6.577,5 0.775,6 -8.464}
+{0 '@Aaron070604 Estoy muy feliz en estos momentos de mi vida. Que significa que ando conociendo chicas 😄',1 joy,2 0.913,3 2.666,4 -3.271,5 2.938,6 -3.224}
+{0 'Cuando no están a mi nivel de ternura o buena onda u optimismo, me molesto un poquito🙂😂',1 joy,2 0.208,3 5.706,4 -1.616,5 2.99,6 -2.338,9 1}
+{0 'Es idea mía o tembló? Quizás estoy hueona y solo se me movió el piso a mi (? 😅',1 joy,2 0.5,3 1.063,4 -3.694,5 0.97,6 -4.42}
+{0 'Ver las imágenes que he subido a Twitter es que si lo más vergonzoso ',1 joy,2 0.208,3 0.77,4 -0.729,5 0.838,6 -7.978}
+{0 'Quien tiene un amigo, tiene dos almas... Feliz día !',1 joy,2 0.826,3 2.571,4 -2.204,5 1.881,6 -1.139}
+{0 'Me encanta ver a mi crush estudiar y que ella vaya entendiendo solita las cosas, me encanta ver su entusiasmo y como le brillan sus ojitos.',1 joy,2 0.783,3 6.599,4 -2.447,5 1.004,6 -10.697}
+{0 'jajajajaaj por que le contestaba asi ',1 joy,2 0.577,3 0.245,4 -0.365,6 -1.683}
+{0 'En Disney estaba dando encantada pero dibujito, pongo ahora porque no hay nada para ver y está encantada pero de carne y hueso (? Ok',1 joy,2 0.438,3 1.877,4 -6.932,5 2.283,6 -6.507,9 2}
+{0 '@Camila_Cabello @BrunoMars YAAAAS ESTOY EMOCIONADA POR TI BEBE',1 joy,2 0.875,3 0.014,4 -0.89,5 2.427,6 -0.379}
+{0 'Odio usar el celular cargando es como que me envenena mucho ',1 joy,2 0.065,3 0.415,4 -4.677,5 0.213,6 -5.551}
+{0 'Llevo desde las 6 en pie y quería dormir. Pues no podré con la emoción #felicidad❤',1 joy,2 0.717,3 2.194,4 -3.103,5 6.039,6 -1.284,9 1}
+{0 '@RamaPorchietti Feliz día amigo. Tkm',1 joy,2 0.717,3 1.516,4 -0.062,5 1.309,6 -0.383}
+{0 'Anoche soñé que los monstruos del Festival del Terror de Six Flags me perseguían. Mis preocupaciones son muchas ',1 joy,2 0.102,3 4.21,4 -1.335,5 6.463,6 -2.914}
+{0 'Quisiera volver a tener 17 mi vida era más divertida 😩',1 joy,2 0.229,3 0.444,4 -0.797,5 0.119,6 -0.863}
+{0 'Niñas, quédense con quién les de perico,bareta y las trate mal.porque tranquilidad, respeto, comprensión, y compromiso no cualquiera. 😅',1 joy,2 0.396,3 2.755,4 -6.256,5 3.389,6 -6.929,9 1}
+{0 'Necesito esa puerta que me dabas para entrar a tu mundo,  ese trocito de azúcar verde, de redondo alegre.',1 joy,2 0.476,3 4.64,4 -3.235,5 3.227,6 -1.855}
+{0 '@mariobautista_ Tu me das tanta felicidad desde él primer día que te conocí',1 joy,2 0.938,3 3.115,4 -0.58,5 1.82,6 -2.965}
+{0 'Tengo tres dias sin fumar mota, me siento orgullosa jaja.',1 joy,2 0.565,3 1.222,4 -3.139,5 0.271,6 -1.359}
+{0 '@JadedStew La Rambla y en San Felipe ya hay colas . Imaginate ',1 joy,2 0.125,3 1.075,4 -2.547,5 1.322,6 -1.138}
+{0 'Aunque sean estupideces, de todo lo q he hecho ha valido la pena y eso cuenta haberme encantado contigo',1 joy,2 0.667,3 4.231,4 -3.471,5 3.548,6 -3.684}
+{0 '@CesarinaViz Pila de intensos ',1 joy,2 0.292,3 0.409,4 -0.562,5 0.664,6 -0.151}
+{0 'Esta demasiado orgullosa en verdad🌚',1 joy,2 0.5,4 -0.513,5 0.161,6 -0.263}
+{0 'PERO. YA LE HABLÉ. Y PARECE AGRADABLE. ¡ME DEDICÓ UN LOGRO!',1 joy,2 0.625,3 2.386,4 -2.436,5 1.618,6 -3.653}
+{0 '@guaperro1 Demasiado dulce 😅',1 joy,2 0.563,3 0.049,4 -0.29,5 0.989,6 -0.263}
+{0 'La verdad es que me hubiese encantado que me hable.',1 joy,2 0.333,3 2.321,4 -0.711,5 1.573,6 -2.74}
+{0 'No mames, qué fino. ',1 joy,2 0.522,3 0.2,4 -0.911,5 0.271,6 -1.255,9 1}
+{0 '@Alondra_7250 estas bien fea mija ',1 joy,2 0.146,3 0.685,4 -0.206,6 -1.184}
+{0 '@babyqueenm Jajajaja no manches ',1 joy,2 0.604,3 0.636,4 -0.826,6 -0.628,9 1}
+{0 '@Bueenito No sabe lo que se pierde, tan divertida que anda la chaviza😂',1 joy,2 0.646,3 0.608,4 -3.971,5 1.806,6 -3.58,9 1}
+{0 'Wow!! Que día el de hoy!!! 😍 muy cansada pero todo quedo genial!! Ahora en casita a descansar',1 joy,2 0.783,3 1.58,4 -1.929,5 2.488,6 -1.927}
+{0 'Cariño y admiración a quienes ejercen esta profesión #Feliz #DíaDelimpresor @mexicoimprime #MéxicoImprimeBien 🇲🇽',1 joy,2 0.75,3 5.948,4 -1.245,5 1.171,6 -1.781}
+{0 '@JohncarlosLeon Jajaja ojalá! Suerte ',1 joy,2 0.729,3 1.499,5 0.932}
+{0 'Mi hermano es un boom en Instagram 😆 toy perdiendo plata creo',1 joy,2 0.458,3 1.115,4 -2.94,5 1.788,6 -1.873}
+{0 'Ir al café de cadena y publicarlo en tus redes es de bien mal gusto 😂',1 joy,2 0.271,3 2.985,4 -4.935,5 2.813,6 -7.247}
+{0 'Está obsesionado ',1 joy,2 0.292,3 0.878,5 0.653}
+{0 'Ah ya que estoy emocionada 🙆🏻🙆🏻🙆🏻',1 joy,2 0.729,3 0.315,4 -0.906,5 0.095,6 -1.052}
+{0 'Estoy muy contento 😋😋😋 #FelizLunes #LunesDeGanarSeguidores #Contento #25Sep',1 joy,2 0.938,4 -0.729,6 -0.469}
+{0 'Mi sobrino hoy ayer se graduó del kinder y no saben la dicha y el orgullo que me siento de el:\')',1 joy,2 0.813,3 1.888,4 -3.292,5 3.873,6 -2.922,9 1}
+{0 'A veces no sé como hago para hablar tantas cagadas con total naturalidad... ',1 joy,2 0.25,3 0.336,4 -3.331,5 0.778,6 -2.019,9 1}
+{0 '@_HijaDeMiMadre Ahhh jajaj leí yo quería dormir hoy ',1 joy,2 0.545,3 5.918,4 -0.358,5 1.174,6 -0.854}
+{0 'A disfrutar este fin de semana porque el lunes se me acaba la dicha.😶',1 joy,2 0.333,3 0.785,4 -2.385,5 2.524,6 -0.717}
+{0 '@mariobautista_ Nos vemos muy pronto, estoy muy orgullosa de ti gracias por todo🙈❣️',1 joy,2 0.739,3 0.635,4 -1.623,5 1.686,6 -2.962}
+{0 '@vianeySk Éxito éxito éxito!  🙌  Si se puede 😊',1 joy,2 0.75,3 3.988,4 -0.244,5 4.722,6 -0.665}
+{0 '¡¡Feliz  día amigos hermanos que nos encontramos por este paso que se llama vida..¡¡',1 joy,2 0.917,3 1.536,4 -1.052,5 1.982,6 -3.236}
+{0 '@ImLizzieM @LizmarRodz que risa me ha dado estooo!!!🤣🤣🤣🤣',1 joy,2 0.804,3 2.386,4 -1.085,6 -1.974}
+{0 '@Aguarin531 Nah, por ahorita no. Pero deseáme suerte pa después',1 joy,2 0.313,3 1.127,4 -2.233,5 0.589,6 -2.847,9 1}
+{0 'Esto del fin del mundo ya es como Juanito y el lobo, un día de estos ya no vamos a creer y boom desintegrados ',1 joy,2 0.292,3 4.846,4 -3.393,5 6.294,6 -5.657,9 1}
+{0 'No se para que puse  de contraseña la huella digital, si sigo usando el patrón 😅',1 joy,2 0.295,3 1.231,4 -2.766,5 3.356,6 -2.012,9 1}
+{0 '@TheHatman666  ¿Tampoco has dormido bien?  Bon dia ',1 joy,2 0.438,3 2.516,4 -0.854,5 2.871,6 -1.879}
+{0 'Esta bien divertido ver streams mientras estas con amigos aunque sea en discord',1 joy,2 0.604,3 0.943,4 -0.495,5 1.572,6 -1.704}
+{0 'No vale la pena aferrarte a algo sólo porque te hace sonreír de vez en cuando.',1 joy,2 0.167,3 1.149,4 -4.928,5 1.435,6 -4.664,9 1}
+{0 '@Nallelf Que triste, pero los cambios son muy buenos. Hoy tengo en mi vida personas que me hacen más feliz y no me arrepiento de nada. 🤷🏻‍♀️',1 joy,2 0.646,3 3.182,4 -9.862,5 2.501,6 -8.873,9 2}
+{0 'No hay cosa que me alegre más el día que ir guiando y ver un perrito en la ventana otro carro jugando con el viento :\')',1 joy,2 0.705,3 1.214,4 -4.898,5 6.09,6 -4.303,9 1}
+{0 'Adivinen quién se va #Cuzco el próximo mes 🙋 #Feliz ❤👌',1 joy,2 0.813,3 2.41,4 -0.649,5 0.893,6 -0.609}
+{0 'No puedo creer que me haya animado a mandar un mail para audicionar!! Oh por dios 😱',1 joy,2 0.565,3 0.422,4 -6.288,5 0.887,6 -2.448,9 1}
+{0 '@MarioJinset @sergiomaeko @ledicenkar Como discutirle a Yisus?  ',1 joy,2 0.292,3 0.533,6 -2.008}
+{0 'Cerrar el día con él al lado. Sólo eso pedía y eso tengo, gracias ',1 joy,2 0.792,3 0.612,4 -3.876,5 2.909,6 -1.5}
+{0 'Si hay algo q me da miedo es equivocarme de grupo y mandarme el moco del año o de la vida ',1 joy,2 0.326,3 1.64,4 -4.702,5 3.641,6 -5.694}
+{0 '@JSalazar9 Nah es entretenido sacarlo de sus casillas...',1 joy,2 0.375,3 1.437,4 -0.211,5 0.664,6 -7.226}
+{0 'Tiene dos versiones de negro: negro mate (Black) y negro brillante (Jet Black).  #Rayito',1 joy,2 0.333,3 3.089,4 -1.197,5 4.562,6 -9.042}
+{0 'Te amo entendelo jaja ',1 joy,2 0.696,3 1.054,5 0.478,6 -0.531}
+{0 'Acá acostada re depre viendo #CaniggiaLibre  jajajaja ',1 joy,2 0.177,3 1.283,6 -0.399}
+{0 'Creo que si fuera más copada o divertida tendría más amigos pero no #felizdiadelamigo',1 joy,2 0.479,3 0.185,4 -3.329,6 -3.894,9 1}
+{0 'Al menos ya se que no me tengo que ilusionar ',1 joy,2 0.239,3 0.15,4 -2.87,5 0.666,6 -2.806,9 1}
+{0 '@n_scout Prometo que el miércoles no me pasa ',1 joy,2 0.261,3 0.079,4 -1.96,5 0.141,6 -1.898,9 1}
+{0 'No me gusta desear el mal pero... Ojala todo le vuelva ',1 joy,2 0.063,3 0.079,4 -5.713,5 0.213,6 -4.627,9 1}
+{0 'Me da risa cuando nadie me cree que me sigue Justin Bieber yyyyyyy me mando dm ',1 joy,2 0.565,3 3.851,4 -6.55,5 0.206,6 -5.551}
+{0 'Tengo ganas de robarte una sonrisa y decirte que te quiero✨🎶',1 joy,2 0.75,3 3.506,4 -1.591,5 2.107,6 -1.765}
+{0 '@MARTUVERA2 Jajajajajaja desde ese lunes 😅',1 joy,2 0.771,3 0.272}
+{0 '@hernanmontes32 Dichoso tu que tienes esa mujer hermosa todos los dias para quererla de todas las formas 😈',1 joy,2 0.609,3 7,4 -0.4,5 4.471,6 -1.621}
+{0 'Nosotros los colombianos tenemos un festivo para todo marica, literal en un año tenemos aproximadamente 18 festivos. Somos lo mas.',1 joy,2 0.479,3 2.417,4 -1.204,5 2.615,6 -2.313}
+{0 'Muriéndome de sueño pero aquí ando y mañana me despierto a las 5 AM, muy bien Eveleen ',1 joy,2 0.313,3 0.794,4 -4.668,5 3.535,6 -3.455}
+{0 '@DebRyanShow #Rayito hay un ligero punto donde ya parece trabajo de tanto que publicas y deja de ser divertido 😥',1 joy,2 0.125,3 0.963,4 -6.921,5 1.47,6 -10.959}
+{0 'Es el chiste más gracioso que me han contado 🤗😂',1 joy,2 0.804,3 1.142,4 -0.573,5 0.141,6 -5.522}
+{0 '@yicoretas Jajajaja super joto en la pgr para denunciar sus @  ',1 joy,2 0.413,3 1.583,4 -0.328,5 1.62,6 -5.011}
+{0 'Estoy escabiando desde las 11 de la mañana tipo me desayune una birra y me voy a ir tomando una ',1 joy,2 0.354,3 3.96,4 -1.648,5 2.463,6 -1.907}
+{0 'JASJJAJSJA En definitiva no hay nada mas chistoso que mi papá con celos.',1 joy,2 0.87,3 0.192,4 -4.308,5 1.177,6 -3.156,9 2}
+{0 'Soy una fan oculta de damas gratis ',1 joy,2 0.543,3 1.358,4 -0.254,5 0.664,6 -0.316}
+{0 'Me gusta verte, jaja es como si cada pequeña parte de ti le diera más alegría a mi vida',1 joy,2 0.896,3 1.678,4 -2.132,5 2.797,6 -4.235}
+{0 'Sean humildes Wlbs que todo baja ',1 joy,2 0.333,3 0.433,4 -2.161,5 1.828,6 -0.638}
+{0 '@glucksburg_ Soy genial.',1 joy,2 0.543,4 -0.316,6 -0.162}
+{0 '@JAlejandroBM JAJAAJAJ totalmente tu ',1 joy,2 0.604,3 0.615,4 -0.867,6 -1.79}
+{0 'Nos encontramos por casualidad, tú tan radiante como siempre...💜🎶',1 joy,2 0.792,3 3.456,4 -0.565,5 2.695,6 -2.72}
+{0 '@MiguelStraube 😱😱 5 años ya no lo puedo creer ',1 joy,2 0.391,3 0.154,4 -4.281,5 0.544,6 -1.25,9 1}
+{0 'A mi familia le debo todo, desde mis fracasos hasta mis triunfos. #Fav #RT #FF #UnaVidaPk #felicidad #familia',1 joy,2 0.688,3 2.75,4 -3.764,5 13.15,6 -3.153}
+{0 'Me acaba de decir mi hermana que si me ve llorando una vez más, va a romper mi disco favorito para que llore con razón ',1 joy,2 0.208,3 2.294,4 -6.731,5 3.026,6 -5.443}
+{0 '@seokjinstaner @Nampeachoonie Jajajajaja yo no bueno si, bueno no, bueno no sé Jajajaja ',1 joy,2 0.795,3 1.036,4 -8.099,5 1.112,6 -3.403,9 3}
+{0 'Cuantos amigos conoci y cuantos que perdi, pero sigo con los que mas queria ❤️ ¡Feliz dia a ellos, mi cable a tierra!',1 joy,2 0.87,3 2.556,4 -8.64,5 3.01,6 -9.696}
+{0 '@R8nita Optimista - @elcaloncho',1 joy,2 0.417,3 1.201,4 -1.56,5 1.014}
+{0 '@nevadohcris Noooo, que era bromaaa  Veremos en un par de horas si piensas lo mismo o que ',1 joy,2 0.296,3 1.242,4 -3.508,5 2.053,6 -3.851}
+{0 '@martinapalomequ -lloro de felicidad- yo también te quiero',1 joy,2 0.833,3 0.912,4 -0.987,5 0.864,6 -1.171}
+{0 '@pacitamona Jajajaja que genial, entonces tienes la mejor sensei, tenís que puro aprovechar 😊☺️',1 joy,2 0.717,3 4.429,4 -0.692,5 2.445,6 -2.406}
+{0 '@jorbiazzo Te veo en el recreo, y me vuelvo loco',1 joy,2 0.565,3 0.856,4 -0.695,5 0.573,6 -1.781}
+{0 '@fabricelelous Yo tuve muy bonita compañía 😊',1 joy,2 0.583,3 0.943,4 -0.523,5 0.084,6 -1.76}
+{0 'No juzgues cada día por lo que cosechas, sino por lo que plantas. #Feliz inicio de semana.',1 joy,2 0.5,3 3.787,4 -1.921,5 4.61,6 -3.15,9 1}
+{0 '@annia_isabella Llevo toda la semana viendo juego de tronos, dejame hablar poeticamente jajajaja ',1 joy,2 0.522,3 1.846,4 -0.661,5 3.378,6 -0.36}
+{0 'Veo a todos subiendo fotos con los amigos y me quedo re contenta porque le dije a mis amigos del alma todo por chat en priv sólo para ellos♡',1 joy,2 0.696,3 3.697,4 -4.788,5 4.521,6 -4.545}
+{0 '@nachosaldes #TodosSomosFake  y si te vas más en la volá, en la vida real muchos lo son ',1 joy,2 0.271,3 1.898,4 -1.308,5 3.198,6 -3.389}
+{0 'Jajajajajajajaja ta loco la minita ',1 joy,2 0.75,3 0.637,5 0.61,6 -1.394}
+{0 'Aqui convenciendo a mis amigas con novio que me lleven de violín al cine en el 3x2 de cinemarck ',1 joy,2 0.313,3 2.835,4 -1.801,5 6.549,6 -1.055}
+{0 'Esta semana estaré ocupada con el tema de la Uni, me pasaré a ratos ',1 joy,2 0.375,3 0.936,4 -1.272,5 3.526,6 -0.283}
+{0 '@radiolared @califidalgo @soymarcelobaffa Q pedazo de caripelas ',1 joy,2 0.229,3 0.413,5 0.664,6 -0.055}
+{0 'Estoy muy contenta contigo y tu carita 😻.',1 joy,2 0.813,3 0.615,4 -1.128,6 -1.785}
+{0 '@df_casado Hola, me agrado tu perfil',1 joy,2 0.479,3 2.507,4 -0.176,5 0.762,6 -0.943}
+{0 '@D99Radio @enjambremx @enjambremx @D99Radio Samantha Sofía Elizondo Gzz 👉👈 😅 😅😅 #SiTePreguntanSoloD99',1 joy,2 0.543,3 0.014,5 0.558}
+{0 'Me mantuvo entretenida pero no tanto como quisiera... si lo suficiente para seguirla... siempre y cuando no hagan lo mismo del 1 ep.',1 joy,2 0.457,3 1.812,4 -5.047,5 4.911,6 -5.294,9 2}
+{0 'Hoy fui a las oficinas de Google y me hice la cool pero la verdad si estaba emocionada ajajajaja',1 joy,2 0.75,3 2.981,4 -1.688,5 2.414,6 -3.694}
+{0 'Que ningún gil apague tu sonrisa',1 joy,2 0.479,3 2.676,4 -0.091,5 1.443,6 -1.512,9 1}
+{0 'Se cortó la luz. Alguien va a dejar de estudiar que alegría',1 joy,2 0.625,3 1.057,4 -1.463,5 3.548,6 -1.905}
+{0 'Me cago de risa viendo vídeos de @Rubeooh 😂😍',1 joy,2 0.813,3 2.41,4 -0.176,5 1.366,6 -0.787}
+{0 '@Daniel_lgp Jajajaja tenes que buscar un nuevo mecanismo para secar tenis entonces. ',1 joy,2 0.543,3 2.144,4 -0.257,5 1.197,6 -1.432}
+{0 'Les juro que no esperaba que la diversión de la peda fuera ver al hijo de alguien bailar, si tiene un año.',1 joy,2 0.583,3 2.055,4 -3.406,5 3.206,6 -5.881,9 1}
+{0 'Le dije a mi papá que le ponga los punto a sus jugadores, con la mirada me dijo todo ',1 joy,2 0.25,3 1.865,4 -2.406,5 2.123,6 -9.165}
+{0 'Uno parece pendeja ganándose enemigas por un men ',1 joy,2 0.25,3 0.624,4 -0.725,5 0.036,6 -1.57}
+{0 'Neta estoy muy emocionado por el nuevo trabajo loooool a la semana ya me voy a querer salir',1 joy,2 0.646,3 1.822,4 -2.584,5 1.725,6 -4.598}
+{0 'Check list: Boleta de @BrunoMars: ✅😍 Viaje de playa: ✅😍💜 #Felicidad',1 joy,2 0.958,3 2.356,5 7.794,6 -0.477}
+{0 '@_Enri2_ Cuentaaaa! No me podré dormir hoy sin saber!! ',1 joy,2 0.292,3 1.701,4 -2.007,5 0.538,6 -1.345,9 1}
+{0 'También se antoja que me haga suya la dvd, pero ese ya es otro asunto 😊',1 joy,2 0.542,3 0.919,4 -1.814,5 2.517,6 -3.293}
+{0 '@Juan33Martinez Te fuiste al carajo ',1 joy,2 0.174,3 0.419,5 0.124,6 -0.317}
+{0 'DEJEN DE PONERSE EL NOMBRE DE SEBASTIÁN Y SU FOTO QUE NO ES NADA GRACIOSO AHORA #SebastianVillalobos #PDCs #SaakTrendy #KCAMexico',1 joy,2 0.146,3 3.056,4 -2.199,5 1.767,6 -4.767,9 2}
+{0 '@mariobautista_ Ya me imagino la carita de felicidad de estrellita al verte ❤️ eres una persona increíble nunca cambies ❤️',1 joy,2 0.813,3 6.386,4 -1.379,5 5.15,6 -2.076,9 1}
+{0 '@medicendaysi El martes no hay examen, así que que sea lo que Dios quiera ',1 joy,2 0.521,3 0.433,4 -4.744,5 1.389,6 -2.756,9 1}
+{0 '. Y tiene muchos chistes locales por lo que si no sabes nada de Japón como yo se vuelve más chistoso porque no entiendes nada de nada.',1 joy,2 0.542,3 1.717,4 -6.4,5 2.253,6 -9.949,9 5}
+{0 'Esta vuelta a Capital tiene gustito a que el 5 vuelvo 😊',1 joy,2 0.667,3 0.313,4 -1.128,5 0.374,6 -0.866}
+{0 '@OscarAlessandr0 @GolDNakama Estoy al día con el manga y te dire una cosa, esa chica no es el waifu ideal para Tatara ',1 joy,2 0.25,3 3.748,4 -2.935,5 3.918,6 -4.46,9 1}
+{0 'Los vídeos de @_ELBRAYAN_ me hicieron la noche, lo amo. ',1 joy,2 0.63,3 2.445,4 -0.238,5 3.4,6 -0.343}
+{0 '@mandrilles Descanse en la tarde. gracias amigo.   ',1 joy,2 0.521,3 0.789,4 -0.593,5 2.707,6 -0.443}
+{0 '@laresolana @elcapiperez no me hagas esto, ya me quería dormir y ahora tendré que ver la resolana ',1 joy,2 0.217,3 1.344,4 -2.599,5 1.425,6 -3.035,9 1}
+{0 '@KayleMathers_ @softrapline me estoy quemando la cabeza leyendo en inglés y tratando de hacer teorías. tu amiga es afortunada xD 💟',1 joy,2 0.313,3 3.084,4 -2.798,5 1.917,6 -4.537}
+{0 'Rock of ages de Tom Cruise en argumento no es tan buena, pero su soundtrack es espectacular. Para los amantes de la música de los 80s ',1 joy,2 0.479,3 6.111,4 -2.475,5 10.289,6 -3.733,9 1}
+{0 '@Ivonnepapa O ustedes que todavía tienen a quien besar ',1 joy,2 0.5,4 -1.591,6 -1.12}
+{0 '@KevenYHensy Una madre tiene que estar orgullosa de su hijo, más con ustedes, que han hecho tanto.😅💙',1 joy,2 0.652,3 1.959,4 -4.448,5 2.04,6 -4.273}
+{0 'He tomado la decisión de no utilizar Waa por un tiempo, no debo explicaciones a nadie del por qué lo he hecho. Hay muchos ardidos por eso. 😅',1 joy,2 0.188,3 3.444,4 -15.506,5 3.272,6 -5.81,9 2}
+{0 'Muy entretenida la conversación...',1 joy,2 0.521,3 1.132,4 -0.415,5 0.646,6 -0.469}
+{0 '2242. Que sean tan creídas y llenas de mañas 🙄 cómo que si no cagaran igual que todos nosotros ',1 joy,2 0.125,3 2.685,4 -1.955,5 1.345,6 -3.88,9 1}
+{0 '@rocKo_roll Verga, bueno el martes ',1 joy,2 0.292,3 0.279,4 -0.952,5 0.602}
+{0 '@Gabymarr_10 Jajaja chistosa 😂😂😂😂 En nuestro caso no aplica eso jajajaja',1 joy,2 0.652,3 1.242,4 -1.764,5 0.883,6 -6.447,9 1}
+{0 'tengo una alegría cabrona 😤',1 joy,2 0.667,3 1.392,4 -1.163,5 1.126,6 -0.214}
+{0 'Gracias al Lcad Segundo Hinojosa Cruz por la invitación al grupo la alegría del vivir',1 joy,2 0.646,3 2.579,4 -0.287,5 4.455,6 -1.292}
+{0 'Juega escuhar musica 🤙🏼',1 joy,2 0.438,3 0.385}
+{0 '@MilyGrandis Jaja de nada. ',1 joy,2 0.563,3 0.417,4 -0.489,5 0.664,6 -0.711,9 1}
+{0 '@Miguel_layun Hay que cosas le sale lo gruñon a @JorgeGonzalezGo animo optimista te sigo apoyando',1 joy,2 0.771,3 2.123,4 -2.569,5 1.873,6 -1.407}
+{0 '(...) que vos muchachita sigas alegre y dolorida  poniendo en tus ojos el alma  y tu mano en mi mano.  Mario Benedetti',1 joy,2 0.438,3 3.527,4 -2.956,5 1.958,6 -3.183}
+{0 '@NicoChiessa Ajajaj ahora estaba leyendo sobre ese ',1 joy,2 0.521,3 2.112,4 -0.168,5 0.767}
+{0 'Vivo #feliz, #vivo #Danzando, vivo mi #música, vivo #bailando',1 joy,2 0.813,3 4.45,4 -0.366,5 3.043,6 -0.439}
+{0 'Que genial esas personas que no llevas ni 10 minutos hablando y ya te habla con altísima confianza, aguante la gente confite caretas',1 joy,2 0.652,3 2.657,4 -3.208,5 1.638,6 -6.75,9 1}
+{0 'Estoy perdiendo como 2 cm de músculo por estar hablando contigo. -@Eozmar ',1 joy,2 0.208,3 1.135,4 -6.571,5 1.856,6 -2.565}
+{0 '@CandeMazzuchino 😹😹😹 quiero estar BIEN negra radiante',1 joy,2 0.604,3 1.658,4 -2.153,5 2.424,6 -1.184}
+{0 'Hoy anduve re Chinito esto de la resaca jaj ',1 joy,2 0.438,3 1.198,4 -0.57,5 1.941,6 -0.554}
+{0 '@MexicanCodersMX Ya me había emocionado  #CD9 #Coders #AlonsoVillalpandoTrendy #HarryStyles #KCAMexico',1 joy,2 0.604,4 -0.581,5 1.864,6 -0.697}
+{0 '@Silencios_5678 Buenos días Daniel ',1 joy,2 0.542,3 1.542,4 -0.142,5 0.638}
+{0 'Uh me re emocione con esa canción ',1 joy,2 0.75,3 2.317,4 -0.643,5 1.076,6 -1.359}
+{0 'Que lindo desactivar la alarma y dormir hasta cuando yo quiera, asi sí vale arrancar la semana 😄',1 joy,2 0.792,3 4.051,4 -1.895,5 2.645,6 -3.467}
+{0 'Programación de la Cuarta jornada a realizarse el día de hoy jueves 20 de Julio. Suerte a todos los equipos👏👏👏 @SecryGamer @seba1746',1 joy,2 0.522,3 4.563,4 -0.279,5 4.628,6 -0.667}
+{0 '@1Ballesta1 nojoda que risa yo pq no te grabe ? ah verdad no tenía cel aún',1 joy,2 0.438,3 2.216,4 -3.516,5 1.233,6 -4.822,9 2}
+{0 '@alvarojoa28 Feliz día amiguito ♥️',1 joy,2 0.771,3 2.108,5 1.309,7 3}
+{0 '@Lu_naiir @NatuliaNaty Amiga de mi hermano me encanta tu sonrisa❣',1 joy,2 0.792,3 3.74,4 -0.651,5 0.664,6 -1.106}
+{0 '@YazminCantuT Aplausos a la. Suegra',1 joy,2 0.559,3 1.17,4 -0.062,5 1.935,6 -0.06}
+{0 'Hace una hora esta x venir a buscarme ',1 joy,2 0.408,3 1.163,4 -0.882,5 1.061,6 -0.649}
+{0 'Yo amo el grupo ',1 joy,2 0.787,3 1.059,4 -0.204,5 0.619,6 -0.922}
+{0 '@kaarenganem Tú no te hagas la graciosa que si los pides',1 joy,2 0.348,3 1.59,4 -1.121,5 1.088,6 -2.635,9 1}
+{0 '@Pa_Lii Jajajajaj soy de lo de verdah, la pali no sé que da atrás si ',1 joy,2 0.479,3 1.422,4 -3.554,5 2.592,6 -3.382,9 1}
+{0 '@laresolana ya quiero que empiece!!! Y mañana no me podré levantar ',1 joy,2 0.604,3 0.241,4 -2.925,5 0.68,6 -2.559,9 1}
+{0 'La fundadora de mi academia de piano es una señora viejita y orgullosa de sus éxitos. Espero poder llegar a ser como ella!!',1 joy,2 0.896,3 5.483,4 -2.824,5 4.407,6 -8.458}
+{0 '@Rodrigo38740672 jajaja 28 decís? ',1 joy,2 0.604,3 0.838,5 0.478,6 -0.962}
+{0 'No que loco,@AlvaroAmbrosi10  le puso fv a mis cosas. me siento famoso jaja ',1 joy,2 0.604,3 1.796,4 -3.08,5 1.809,6 -3.221,9 1}
+{0 '@_Vikinga_ @whitesheeptw jajajaja así es  ',1 joy,2 0.708,3 0.636,4 -0.576,6 -0.456}
+{0 'Mis viejos recien ahora me cargan por algo que paso hace como dos días, ya se de dónde salí tan colgada ',1 joy,2 0.304,3 0.959,4 -3.599,5 3.142,6 -4.86}
+{0 'Mi momento favorito de Cirque Du Soleil fue cuando se escuchó un hermoso @sebastianpinera conshetumare seguido de aplausos.',1 joy,2 0.667,3 5.079,4 -1.556,5 9.542,6 -0.938}
+{0 'Hoy les iba a contar una historia bien chistosa de algo que pasó en la defensoría, pero ya tengo sueño. Mejor mañana. :3',1 joy,2 0.5,3 2.768,4 -3.997,5 6.472,6 -4.445}
+{0 'Ahora si dormiré tranquilo 😅',1 joy,2 0.522,3 0.156,4 -0.372,5 0.569,6 -0.665}
+{0 'Raúl se ha vuelto tan grosero ',1 joy,2 0.146,3 1.025,4 -0.897,5 0.542,6 -2.055}
+{0 'lo peor es que estaba cantando re emocionada y se me re cambio la voz de tristeza JAJAJA',1 joy,2 0.417,3 2.293,4 -5.193,5 6.055,6 -4.842}
+{0 'Gracias WINSTON por traer tanto entretenimiento a nuestras pantallas por eso y más 🇻🇪 ✊❤️ #SomosTVES',1 joy,2 0.521,3 0.077,4 -2.921,5 1.641,6 -1.729}
+{0 'voy a volver a ver el episodio de bangtan en los billboard para llorar y revivir ese momento que me hace sentir orgullosa',1 joy,2 0.667,3 2.033,4 -1.263,5 2.354,6 -1.952}
+{0 '@LaPanteraAugust sos una persona muy agradable y muy graciosa!!! Amo juntarme con vos y tus amigos. Te quiero panterita 💖',1 joy,2 0.875,3 4.777,4 -2.563,5 1.681,6 -3.351}
+{0 '@Barby_kinomoto Jajajjaa no 😢 bueno pero despuesito vale ',1 joy,2 0.375,3 0.266,4 -2.287,5 0.19,6 -1.999,9 1}
+{0 'Soy bien pinche Jodon  Apoco No ',1 joy,2 0.396,4 -1.113,6 -1.914,9 1}
+{0 '—Sonrisa victoriosa y un gran beso a la tabla, su preciosa.',1 joy,2 0.688,3 3.13,4 -0.634,5 3.006,6 -2.163}
+{0 '@VichoDiazArt Me fui a la csm! Eliminé los nombres para no perjudicar a nadie ',1 joy,2 0.208,3 1.46,4 -6.105,5 1.382,6 -2.208,9 1}
+{0 '@MartinezTobias1 AAAAA feliz día loquito,te extrañoo',1 joy,2 0.604,3 1.848,4 -0.962,5 6.58,6 -0.317}
+{0 '| Esa imagen mental es la segunda más graciosa que tengo en este aspecto.',1 joy,2 0.652,3 1.994,4 -1.785,5 1.014,6 -2.061}
+{0 '@Maribolika ¿Qué se te antoja? ',1 joy,2 0.217,3 0.466,4 -0.04,5 0.542,6 -1.012}
+{0 'Liar , liar , liar ',1 joy,2 0.152,3 0.4,5 0.542}
+{0 'Me dice Feliz dia y me lo re trance, amigos son los de abajo y se golpean😂👋',1 joy,2 0.522,3 5.186,4 -1.835,5 3.582,6 -3.452}
+{0 'Aprendí que mi felicidad depende mas de mi y que la familia es la única que siempre esta pa\' ti.',1 joy,2 0.668,3 3.202,4 -1.825,5 3.871,6 -4.579}
+{0 '@bravedreammer @marcelosopla @zinxsoficial pelotuda jajjajaj 5 años de comu y se comunican con gifs ',1 joy,2 0.563,3 0.409,4 -1.151,5 3.23,6 -0.804}
+{0 '@HeavyDirtyLine_ ¡¡¡FELIZ CUMPLEAÑOS!!! Fuiste una de las primeras personas que conocí y aunque casi no nos hablemos te tengo en mi corazón.',1 joy,2 0.771,3 2.723,4 -3.999,5 1.102,6 -4.997,9 1}
+{0 '@BTS_twt estoy re emocionada y orgullosa por el mixtape de hoseok, apoyenlo. Es un ángel.',1 joy,2 0.826,3 1.873,4 -0.986,5 3.925,6 -2.218}
+{0 '@mariobautista_ ya me confundi ',1 joy,2 0.229,4 -0.581,6 -0.697}
+{0 '@MirandaCKte No la es para nada ',1 joy,2 0.217,3 0.205,4 -1.472,5 0.696,6 -1.307,9 2}
+{0 'que partida emocionante agora, holy',1 joy,2 0.74,3 0.98,4 -0.091,5 0.271,6 -0.67}
+{0 'Por los que siempre Estan,por los que ya no estan y por los que estan por venir. ¡Feliz dia!💖🍻',1 joy,2 0.688,3 2.569,4 -5.05,5 2.679,6 -5.132,9 1}
+{0 'Terminé bien el domingo 😌 😊 ahora quiero dormirmeeeeeeeeeeeee....',1 joy,2 0.479,3 0.079,4 -1.323,5 0.908,6 -1.184}
+{0 'Quiero ser la parte divertida de tu libro.',1 joy,2 0.409,3 1.816,4 -1.322,5 2.117,6 -0.871}
+{0 'Me usaron de amuleto sin que yo sepa y central perdió 4-0 ',1 joy,2 0.188,3 0.721,4 -1.663,5 1.045,6 -2.805}
+{0 'Que rara se siente esta nueva vida. Ya no recordaba lo que era estar en mi casa a las 5pm #Felicidad',1 joy,2 0.5,3 3.267,4 -5.34,5 5.679,6 -3.3,9 1}
+{0 '@sashncastillo Tenemos que ir a quitarnos ese antojo ',1 joy,2 0.458,3 0.371,4 -0.091,6 -0.719}
+{0 'Necesito personas que digan a todo si y no que salgan con peros ',1 joy,2 0.313,4 -4.212,5 0.764,6 -4.258,9 1}
+{0 'Todavía tengo amigos que me quieren como soy. ¡Feliz día del amigo!',1 joy,2 0.833,3 1.453,4 -2.17,5 2.383,6 -3.178}
+{0 'Me dan risa los memes de 3 doritos después, pero tambien me ponen triste.',1 joy,2 0.396,3 2.533,4 -5.884,5 2.65,6 -4.539}
+{0 '@El_Universal_Mx Pues a esperar más explosiones de júbilo y alegría por dicho nombramiento.',1 joy,2 0.727,3 4.003,4 -0.809,5 1.79,6 -2.353}
+{0 '@MarceloSureno Jajaajajajaja idiota!!! Oyeee suerte!!! Si ganas me debes unos churros! ☝️ acuérdate! 😂😂😂😂😂😂',1 joy,2 0.708,3 2.007,4 -1.395,5 2.393,6 -1.688}
+{0 '@andrizek @EuclidesFla JAIR VENTURA!!!',1 joy,2 0.438,3 0.385,5 1.171}
+{0 'El chamaco es risueño y tú haciéndole cosquillas #posoye',1 joy,2 0.563,3 1.061,4 -0.452,5 0.141,6 -1.225}
+{0 '@edusadeci es correcto, pero es ilegal… en cualquier país ',1 joy,2 0.239,3 0.2,4 -1.454,5 0.735,6 -2.315}
+{0 '@mpz1005 Jajajaja es una comedia española, chistosa pero salen españolas muy guapas la verdad. Jajajaa',1 joy,2 0.667,3 3.191,4 -1.005,5 1.153,6 -2.401}
+{0 'Mi mejor me hizo llorar con las cosas tan hermosas que me escribió 😭 qué afortunada soy',1 joy,2 0.783,3 0.835,4 -1.578,5 2.416,6 -2.108}
+{0 '@Juliococo Ojalá alguien tenga el guaramo de pronunciarse. Aunque no soy muy optimista al respecto. Surgirá un milagro???',1 joy,2 0.292,3 1.864,4 -2.377,5 2.348,6 -2.986,9 1}
+{0 'La oportunidad de estudiar una carrera, se que desde el cielo estás muy orgulloso de... #SebastianVillalobos #PDCs #SaakTrendy #KCAMexico',1 joy,2 0.5,3 4.607,4 -0.548,5 5.253,6 -1.724}
+{0 '@soumya_sajal @itsrkkc Super 30 confirmed ',1 joy,2 0.438,4 -0.325,5 1.095}
+{0 'Me gustó el anuncio de #TAKIS, el del ex jajajajaa ',1 joy,2 0.688,3 1.539,4 -0.863,5 2.561,6 -1.585}
+{0 'Tomó coca cola y leo ganglios de la base ',1 joy,2 0.333,3 2.103,4 -0.832,5 3.361,6 -1.277}
+{0 '@tintadearena Qué bien! 😃',1 joy,2 0.563,3 0.449,4 -0.056,5 0.208,6 -1.751}
+{0 'Hace mucho que no veía 50 sombras de Grey. ',1 joy,2 0.479,3 0.606,4 -2.156,5 0.89,6 -2.535,9 1}
+{0 '@NekoJitaBlog Pues eso, que él defiende que deben dormirse en su cama... ',1 joy,2 0.188,3 1.037,4 -1.835,5 1.103,6 -7.943}
+{0 'Quiero hacer mis propias viñetas y una ilustradora random...soñare en un personaje(:  deseadme suerte',1 joy,2 0.565,3 2.07,4 -2.433,5 1.679,6 -1.33,7 2}
+{0 '@fotosguate Dichoso que tienes, yo debo, pero pagarlo😢 😂😂😂',1 joy,2 0.25,3 2.119,4 -0.804,5 3.585,6 -2.312}
+{0 'Aries, entre menos en serio te tomes el amor mejor te irá 😂',1 joy,2 0.521,3 2.331,4 -0.833,5 2.492,6 -2.482}
+{0 'A las 8 me tengo que levantar y no puedo dormir ',1 joy,2 0.229,3 1.103,4 -5.753,5 0.288,6 -2.145,9 1}
+{0 'Ise muchas cosas por vos que hoy en día no me arrepiento ',1 joy,2 0.375,3 2.306,4 -1.425,5 1.345,6 -1.928,9 1}
+{0 'Que sea lo que dios quiera, que sea 😃',1 joy,2 0.521,3 0.354,4 -1.322,5 0.77,6 -1.914}
+{0 'El David no me quiere jugar más a la play jajajajaja 6 le metí ',1 joy,2 0.583,3 0.499,4 -3.107,5 1.596,6 -2.094,9 1}
+{0 '#DeColombiaMeGusta la cultura, la alegría y las mujeres.',1 joy,2 0.708,3 1.977,4 -0.399,5 2.817,6 -2.832}
+{0 'Que chistosa situación; le escribo y existen mil ocupaciones. Dejo de hacerlo y esas ocupaciones por arte de magia desaparecen 😂😂',1 joy,2 0.565,3 1.813,4 -1.971,5 4.082,6 -3.635}
+{0 'Vaya, no había tenido la oportunidad de escuchar detenidamente  Blonde de Frank Ocean (a pesar de ser del 2016). Qué agradable es.',1 joy,2 0.646,3 4.128,4 -1.829,5 6.924,6 -2.361,9 1}
+{0 '@JHopeMex 😍😍😍 Jin se coló ',1 joy,2 0.477,4 -0.476,5 0.542}
+{0 'Todavía tengo amigos que me quieren como soy.  ¡Feliz día del amigo!',1 joy,2 0.783,3 1.453,4 -2.17,5 2.383,6 -3.178}
+{0 'En Maipú hace falta una peluquería ATR ',1 joy,2 0.25,3 0.949,4 -2.261,5 0.639,6 -0.649}
+{0 '#FloresParaNairo y como no enviárselas si @NairoQuinCo me hace sentir muy orgulloso de esta tierra que tantos hacen quedar mal',1 joy,2 0.543,3 2.583,4 -5.062,5 1.495,6 -11.85,9 1}
+{0 'Que felicidad cuando están ahí apoyándote y abrazándote a pesar de todo💕',1 joy,2 0.896,3 1.476,4 -0.649,5 1.581,6 -1.521}
+{0 '@Paau_Liiz @GERARDONAVARR0 Es que ay :( ',1 joy,2 0.188,4 -0.285,6 -1.263,8 -2}
+{0 'Sonreír siempre ha sido más fácil que explicar por qué estás triste',1 joy,2 0.271,3 1.842,4 -4.429,5 0.09,6 -4.262}
+{0 'Jamás me voy a negar a eso 😊',1 joy,2 0.396,3 1.07,4 -0.78,6 -0.283}
+{0 '@DHermoso08 Y ayudando con manos, corazón y buevitos, muchos buevitos 😆',1 joy,2 0.563,3 0.616,4 -1.257,5 1.373,6 -1.876}
+{0 'hoy después de 39 semanas haré vida social estoy emocionado',1 joy,2 0.813,3 1.361,4 -1.642,5 1.231,6 -0.803}
+{0 'Soy la persona mas buena y pelotuda a la vez, pero cuando me canso ya no estoy más ',1 joy,2 0.292,3 1.489,4 -3.73,5 3.392,6 -3.941,9 1}
+{0 'Me parece muy gracioso ver como las personas reaparecen en tu vida cuando les conviene',1 joy,2 0.37,3 2.224,4 -1.641,5 0.735,6 -6.153}
+{0 'quedarme con los momentos hermosos que me hizo pasar, y verla sonreír aunque sea sin mi me hace bien, otra no queda, a seguir para adelante',1 joy,2 0.522,3 2.013,4 -5.1,5 4.043,6 -4.981,9 1}
+{0 '@2010MisterChip #ElSalvador #ElSalvador #ElSalvador Pero juega bonito y no se puede aspirar a mas, porque no hacen los goles 💙💙',1 joy,2 0.478,3 1.904,4 -4.098,5 1.615,6 -3.046,9 2}
+{0 'Me da muchisimo gusto que lograras tu meta del mercedes, pero... ya eres mejor persona?',1 joy,2 0.455,3 4.575,4 -1.619,5 3.513,6 -6.836}
+{0 '@IisMgbs Yo diría:  caída libre a la felicidad! Jeje 😂',1 joy,2 0.833,3 3.549,4 -0.793,5 2.487,6 -1.761}
+{0 '@pistxls Hades bebé, sabes que te adoro, eres mi girl crush. Amo lo graciosa que eres y que siempre te preocupas por los demás. +',1 joy,2 0.795,3 6.93,4 -2.437,5 3.254,6 -3.718}
+{0 '@mariobautista_ Eres una persona genial @mariobautista_  por eso todas tus bautisters te amos  Eres el mejor ídolo TE AMO !! <3',1 joy,2 0.813,3 11.122,4 -0.604,5 5.523,6 -1.663,7 3}
+{0 'La felicidad está sobrevalorada.',1 joy,2 0.146,3 1.454,4 -0.062,5 1.527,6 -0.06}
+{0 '@moontxars Que afortunada es Crystal.',1 joy,2 0.565,4 -0.268,6 -0.94}
+{0 '¡FELIZ 20 DE JULIO!',1 joy,2 0.682,3 1.089,4 -0.067,5 0.872,6 -0.21}
+{0 '@Andresf1404 Que salga el sol por donde tenga que salir negrito ',1 joy,2 0.375,3 0.093,4 -0.79,5 1.312,6 -1.655}
+{0 'Me parece increíble los consejos que me da mi bestie. ',1 joy,2 0.647,3 2.25,4 -1.596,5 3.521,6 -8.177}
+{0 'Ir a su casa y ponerle una goliza en el FIFA: me siento entretenido(a)',1 joy,2 0.609,3 1.866,4 -2.235,5 1.759,6 -2.3}
+{0 'La noche está bien, ahora, elevate hasta el cielo, hazme sonreír así para siempre.',1 joy,2 0.833,3 1.935,4 -0.828,5 3.415,6 -1.676}
+{0 'Quien tributa en tu país ayuda a mejorar tu bienestar Eso ponía en un taxi. Qué mal se defienden.',1 joy,2 0.333,3 1.255,4 -6.566,5 1.116,6 -7.227}
+{0 '@Frantuitti Te llevarás mejor con mi mamá xd ven a ver sus dramas a la casa... Lo ama con pasión y locura ',1 joy,2 0.587,3 3.088,4 -1.948,5 4.984,6 -11.103}
+{0 'Todos los días me despierto orgulloso de los amigxs que elegí 😀',1 joy,2 0.833,3 4.03,4 -0.999,5 3.238,6 -0.921}
+{0 '@Mirandasv10 Llámame vos ',1 joy,2 0.283}
+{0 '3. Pero lo mejor fue la estocada: Lizarazo, sonriente, mira a Escobar Gil y le dice: Por cierto, el ponente de esta sentencia fue Ud. ¡Ja!',1 joy,2 0.542,3 3.868,4 -3.5,5 4.88,6 -9.432}
+{0 '@itsjoelpimentel ¡Estoy tan emocionada, mañana voy al concierto!🎉🙃',1 joy,2 0.891,3 1.91,4 -0.56,5 2.201,6 -0.017}
+{0 '@clssypoetry Al carajo, te amo infinitamente. Soy afortunado de tenerte y saber que estas para mi. Siempre estaré a tu lado, mi niña.',1 joy,2 0.771,3 4.86,4 -1.758,5 3.059,6 -2.639}
+{0 'Juega vivo y piensa mal',1 joy,2 0.25,3 0.005,4 -2.981,5 0.353,6 -3.281}
+{0 '@dianaguzmang27 Le fallé a la comunidad memera, explicame andale ',1 joy,2 0.261,3 1.031,4 -0.274,5 1.37,6 -0.452}
+{0 'Pandi 🦄✋🍃  -Osos(? -Kard -Una acc fav  -agradable persona ahre  No llegó a 5💔',1 joy,2 0.396,3 1.401,4 -0.826,5 1.862,6 -3.072,9 1}
+{0 '@titifenycia A feminista chorona ',1 joy,2 0.313,3 1.37,5 0.883}
+{0 '“la Teoría del chicle” 😂 @Es_Kennia',1 joy,2 0.591,3 1.291,5 3.021}
+{0 '@IchB0nerge ¿Cuál? ¿El fin del mundo o el sexo? ',1 joy,2 0.396,3 1.732,4 -0.385,5 2.16,6 -1.415}
+{0 'Si quieres verla sonreír háblale de mi y ella te dirá cómo fue que se le olvido todo aquello que eras tú cuando me conoció a mi',1 joy,2 0.636,3 2.363,4 -3.943,5 1.92,6 -5.086}
+{0 'Soy orgulloso, pero también sé pedir perdón a las personas que lo merecen.',1 joy,2 0.438,3 3.784,4 -2.83,5 1.885,6 -2.927}
+{0 '@Dianitha3 ¿Esto también será de familia? ',1 joy,2 0.396,3 1.003,5 1.337,6 -0.695}
+{0 'Le dije por su nombre y cerró la cuenta 😆',1 joy,2 0.333,3 0.925,4 -1.672,5 1.461,6 -3.746}
+{0 'Cuando veo una foto de ella sonriendo, me hace sonreír como idiota.',1 joy,2 0.708,3 4.575,4 -1.725,5 2.156,6 -3.39}
+{0 'No puedo clavar el visto, aunque sea con una carita te contesto ',1 joy,2 0.391,3 1.769,4 -3.849,5 1.104,6 -1.671,9 1}
+{0 '@IgnacioBuiatti @ElchuiucalYT No era lo que esperaba pero estoy satisfecho AHRE',1 joy,2 0.479,3 1.216,4 -2.095,5 1.059,6 -2.371,9 1}
+{0 'A veces, lo que una persona necesita no es una mente brillante que le hable, sino un corazon paciente que le escuche.',1 joy,2 0.521,3 4.05,4 -1.824,5 3.505,6 -5.132,9 1}
+{0 '@NoTodoPasaTyC @Diego_DeGregori @LombaCaruso Y si, juega en milan. Vangioni también y Heinze jugó en el United y en el real. No jodamos',1 joy,2 0.333,3 1.149,4 -2.875,5 1.469,6 -4.042,9 1}
+{0 'Sinceramente es muy raro de mi, que este enojada, o triste. Siempre me van a ver contenta, y con la re buena onda.',1 joy,2 0.458,3 4.88,4 -5.573,5 4.741,6 -5.842}
+{0 '@albertoperezs90 Ya aguantas más que yo y eso que no fumo ',1 joy,2 0.25,4 -2.73,6 -4.143,9 1}
+{0 '@twentyone5sos_ 🤣 vale!!! tú dale no mas ',1 joy,2 0.292,3 1.681,4 -0.921,5 1.06,6 -1.566,9 1}
+{0 '@valentinabz Un aplauso para la gente guevona.',1 joy,2 0.146,3 2.055,4 -0.166,5 0.856,6 -0.58}
+{0 '@espefimbres igual pero con mi apa.. i have daddy issues okno ',1 joy,2 0.375,4 -1.566,5 1.17,6 -1.063}
+{0 'Decepcionada fin .  😃',1 joy,2 0.217,4 -0.42,5 0.147,6 -0.06}
+{0 'Su sonrisa es perfecta ',1 joy,2 0.652,3 1.879,4 -0.35,5 1.443,6 -1.229}
+{0 '@rutty315 Muchas gracias Pequeña, que descanses... 😘 el sentimiento es Mutuo, mi venezolana Favorita ',1 joy,2 0.667,3 3.423,4 -1.895,5 1.303,6 -0.951}
+{0 'Cosas que hago que al parecer no le molestan a nadie: -Respirar  -Comer -Existir ',1 joy,2 0.318,3 0.617,4 -6.281,5 0.359,6 -2.777,9 1}
+{0 'Gracias por aparecer en mi vida y llenarla siempre de alegría y amor, los amo❤ @Erika_Ailen6183 @ani_sanabrya @Tonaa15Vega @RuppFranco',1 joy,2 0.917,3 2.415,4 -1.509,5 4.541,6 -1.646}
+{0 'Mañana es festivo y quiero pasar todo el día viendo películas tristes.',1 joy,2 0.132,3 0.774,4 -2.114,5 2.648,6 -0.936}
+{0 'Una esperanza ya se Escucha #Nuvipa Es el tiempo para la prosperidad y alegría de nuestra Nación #SiHayFuturo',1 joy,2 0.652,3 5.297,4 -6,5 3.351,6 -2.496}
+{0 'Mi papa se arrecha y no me manda nada y cuando se contenta me arrecho yo y de igualito no me manda un coño. 😒😒',1 joy,2 0.13,3 1.402,4 -4.76,5 2.477,6 -7.106,9 3}
+{0 'Que felicidad poder decir con orgullo que mis amigas son las hermanas que me dió la vida ;tanto amistades de 6/7 años como de casi 1 o 3 ya💛',1 joy,2 0.979,3 4.365,4 -4.273,5 6.356,6 -4.956}
+{0 '#SanJoséDelGuaviare #Guaviare, la independencia hoy nos abraza a todos los colombianos ¡Feliz #20DeJulio! #UnLíderParaTodos',1 joy,2 0.667,3 3.18,4 -0.366,5 1.897,6 -0.795}
+{0 '@PaoDEdwards Te aviso pues, lo más probable que un viernes de 4-6 ',1 joy,2 0.25,3 1.894,4 -1.413,5 1.318,6 -3.159}
+{0 'Guanlin con quince es el segundo más alto del grupo. El basquet le va perfecto así seguramente juega muy bien.',1 joy,2 0.438,3 2.558,4 -2.152,5 2.983,6 -4.153}
+{0 '@lennycia Jajaja...  Ya seee ',1 joy,2 0.458,3 0.971,4 -0.501,5 0.478,6 -1.544}
+{0 '@AlexMurilIo Si, que ella anda en carro y tú a pie ',1 joy,2 0.167,3 1.231,4 -2.344,5 0.852,6 -2.624}
+{0 'Lo bueno, respecto a mi Husky y luego de ver todos los perritos se van al cielo y el propósito de un perro, guardo alegría y esperanza.',1 joy,2 0.478,3 4.573,4 -3.199,5 7.173,6 -3.881}
+{0 '@DebRyanShow @TecnopolisNC #RutaPais2032 Mucha suerte🙏❤',1 joy,2 0.563}
+{0 'Cosquin, Tandil, Tucuman, Jujuy y Salta. Y todavia falta V. Gral Belgrano y Cataratas 😍 Creo que este  fue el año que mas viaje #felicidad',1 joy,2 0.891,3 1.177,4 -4.824,5 5.576,6 -3.184}
+{0 'Amo tu sonrisa...',1 joy,2 0.717,3 3.271,4 -0.096,5 1.921,6 -0.66}
+{0 'Odio matemáticas pero él es una bonita vista ',1 joy,2 0.25,3 1.76,4 -3.294,5 0.766,6 -4.075}
+{0 '@wichouya Que diosito te escuche jaja ',1 joy,2 0.583,3 0.277,4 -0.091,6 -1.169}
+{0 '@Prisicila_RV @AylinMadridG Ya lo sabía solo no quería decirlo ',1 joy,2 0.208,3 0.154,4 -2.384,5 0.421,6 -1.042,9 1}
+{0 'Hoy no fue un día agradable...',1 joy,2 0.137,3 1.021,4 -1.939,5 1.834,6 -1.148,9 1}
+{0 'Taba Chica La Cara ',1 joy,2 0.25,3 0.546,4 -0.285,5 0.61,6 -1.052}
+{0 '@vannemagic Ah! Pues si... ',1 joy,2 0.326,3 1.601,4 -0.3,5 0.303,6 -0.665}
+{0 '@MaiteOficial ¿Cuál fue la última experiencia divertida con tus fans?#MaitePlaticandoConSusLocas 😁',1 joy,2 0.563,3 2.22,4 -1.106,5 1.758,6 -0.695}
+{0 '@JaYcob2423 @J_Tanie @annafvbiola Mucho gusto Juan jajajaja',1 joy,2 0.563,3 0.756,4 -1.162,5 0.344,6 -2.492}
+{0 '@VichoDiazArt Wajajajajajaja ohhh está para meme esta imagen xd! La leo y muero ',1 joy,2 0.696,3 2.939,4 -0.525,5 2.288,6 -1.544}
+{0 '@irusanabria Se me van a ver los rollos más que la tanga si sigo con mi felicidad jejej',1 joy,2 0.708,3 1.427,4 -2.288,5 3.972,6 -2.032}
+{0 'Nos estamos enviando nudes con mi amiga ',1 joy,2 0.479,3 0.955,4 -0.821,5 0.692,6 -0.905}
+{0 'Yo agrego algunas personas a Facebook solo para jugar stop, me paso de boba ',1 joy,2 0.417,3 0.892,4 -2.269,5 1.537,6 -4.067}
+{0 'Mi pacman significa pelea :v ',1 joy,2 0.333,3 1.26,4 -0.366,5 0.388,6 -0.845}
+{0 'Me pide un consejo y creo que soy la persona menos indicada para aconsejar sobre temas de pareja ',1 joy,2 0.304,3 2.587,4 -2.252,5 1.36,6 -3.886}
+{0 'Lo peor es que ella habla como si en católica te preguntaran nombres de autores y cosas así, por ser literatura, es tan gracioso.',1 joy,2 0.522,3 4.542,4 -4.39,5 2.153,6 -9.294}
+{0 'No pagues mas karaoke con animación luces pantallas humo y toda la diversión Separa tu fecha 9811864230',1 joy,2 0.479,3 3.15,4 -1.744,5 3.277,6 -2.526,9 1}
+{0 '@AndresParcerito Y yo de la limonada de limón ',1 joy,2 0.5,3 2.339,4 -0.541,5 3.749,6 -1.45}
+{0 'Yo no hago las cosas para callar bocas, yo las hago por satisfacción propia, locas.',1 joy,2 0.458,3 1.612,4 -1.4,5 1.257,6 -4.242,9 1}
+{0 'Sé que revisas mi perfil así mira esto MI AMOR! #FELIZ #PorelMundo #contigoemtodolado',1 joy,2 0.652,3 3.255,4 -3.6,5 1.381,6 -6.554}
+{0 'Real ver a Mario es como si me dieran una fórmula para sonreír todo el tiempo.',1 joy,2 0.75,3 1.643,4 -6.556,5 1.085,6 -3.91}
+{0 'Ya los vans ahora ahorrar 110 para los suede😂 suerte Lorena😩',1 joy,2 0.37,3 0.895,4 -1.044,5 1.737,6 -0.414}
+{0 '@riveraalfaro_ A mi me resultaba con cosas heladas siempre tomaba helado en esos casos 😅',1 joy,2 0.479,3 0.311,4 -3.048,5 1.795,6 -0.358}
+{0 'Esto esta entretenido no me pinta dormirme ni ahi',1 joy,2 0.5,3 0.668,4 -2.211,6 -2.258,9 1}
+{0 'Siempre rie cuando puedas!... Es medicina barata: 👌😜💪  Lord Byron  #Sencillo #Felíz #HayQueReir #ParaNoLLorar',1 joy,2 0.75,3 0.717,4 -1.648,5 3.126,6 -1.132}
+{0 '@BBarbip Jajajajajajaja no puedo, es de confidencialidad eso ',1 joy,2 0.563,3 0.609,4 -4.329,5 0.935,6 -0.87,9 1}
+{0 'brayand y yo no nos podemos  juntar porque la descargamos  con todo el mundo ',1 joy,2 0.333,3 0.835,4 -3.892,5 1.899,6 -3.072,9 1}
+{0 '@Letibohemio Repechaje amiga ',1 joy,2 0.313,3 0.588}
+{0 '@NQueipul Chamuyatelo! 😉 Debe tener plata! ',1 joy,2 0.563,3 1.083,5 1.323,6 -1.09}
+{0 '@YoSoyAlita Amiga sería mega genial que puedas ir a ese lugar el 26!🙈🙊, esperemos que si se cumpla tu deseo!😉',1 joy,2 0.625,3 2.765,4 -1.955,5 1.549,6 -2.942}
+{0 '@ZauberinB Buenos días !!! A por él ',1 joy,2 0.512,3 1.375,4 -0.455,5 0.032,6 -1.06}
+{0 'a los fake me los imagino así como craig el gordito de malcolm 😆',1 joy,2 0.25,3 2.379,4 -0.637,5 2.16,6 -2.178}
+{0 '@Aleprezav Qué? Acaso me ves entretenida? 🤦🏻‍♀️',1 joy,2 0.283,3 1.947,4 -0.199,6 -2.24}
+{0 'Que agradable señora',1 joy,2 0.729,3 1.285,4 -0.091,5 0.796,6 -0.638}
+{0 'Juega arrancar el GYM de nuevo pero con este frío como que no da 😧❄',1 joy,2 0.304,3 1.415,4 -2.681,5 2.688,6 -4.571,9 1}
+{0 'Se acuerdan de esa época en twitter en que las polémicas eran del nivel de la #pipetón? Qué ordinarias las de ahora. ',1 joy,2 0.375,3 3.365,4 -0.748,5 5.499,6 -2.495}
+{0 'Acabo de ver en el cine la peor pelicula de terror pero la mas divertida y con la mejor audiencia😂😂',1 joy,2 0.813,3 2.043,4 -2.788,5 6.459,6 -3.883}
+{0 'Mañana me saco la duda 😊',1 joy,2 0.326,3 0.205,4 -0.969,5 1.29,6 -1.643}
+{0 'No la voy a odiar tanto a ver si mi hijo/a no sale igual a ella ',1 joy,2 0.109,3 1.296,4 -4.106,5 1.007,6 -2.33,9 2}
+{0 'Y empeze a estar orgulloso de mi desde el año pasado que aprendi a soltar todo aquello que ya no se quiera quedar.',1 joy,2 0.667,3 2.326,4 -4.967,5 2.258,6 -3.54,9 1}
+{0 'Una canción triste en un disco alegre. 💿🎶  Un grito ahogado. 😵  Un elefante en un pesebre. 🐘  #CosasSad ☹️',1 joy,2 0.217,3 2.375,4 -8.897,5 1.783,6 -5.084}
+{0 '@iivansalazar Todos los dias te pisan los pies ',1 joy,2 0.208,3 3.066,4 -0.621,5 0.956,6 -0.445}
+{0 '@kareennevrez @carolynaat Jajajaja ayer ya no quería sacar cuentas jajaja ',1 joy,2 0.469,3 1.059,4 -1.72,5 0.621,6 -2.504,9 1}
+{0 '@vito_cfc @SSFE2017 Jjaakjak , pronto lo haré ',1 joy,2 0.5,3 0.366,5 0.654,6 -1.025}
+{0 '#FrotaLaLamparaAS definitivo este tipo Suro es cero aporte y jura que es chistoso y hay que decirlo no lo es!',1 joy,2 0.409,3 1.243,4 -4.092,5 0.721,6 -6.179,9 1}
+{0 'Copia de seguridad: recreo para fijarte twitter',1 joy,2 0.239,3 1.484,4 -0.485,5 0.962,6 -1.26}
+{0 'No hay cosa más divertida que ir con @Tanvillegasc a ponerle etiqueta a todos los outfits 😂',1 joy,2 0.783,3 3.141,4 -2.702,5 1.23,6 -2.32,9 1}
+{0 'Se viene el MEJOR cumpleaños del mundo ! Noviembre llega rápido !  #feliz ❤',1 joy,2 0.913,3 4.643,4 -0.04,5 4.797,6 -0.765}
+{0 '@gigif3 Fue gracioso me vio con cara de mierda y ahora que hago',1 joy,2 0.479,3 1.505,4 -3.029,5 2.062,6 -4.075}
+{0 'Me toco la mejor taxista, volumen justo y terremoto pa tu cola, olvídate que mujer tan agradable',1 joy,2 0.5,3 2.304,4 -2.083,5 3.834,6 -2.624}
+{0 'como sabrá que la amas ahre estoy viendo encantada',1 joy,2 0.625,3 0.637,4 -0.501,5 2.292,6 -1.989}
+{0 '@cynthialrm @Karina750901 Me incluyo y no estoy orgulloso de ello 😓',1 joy,2 0.283,3 3.569,4 -1.749,5 2.378,6 -1.507,9 1}
+{0 'Y después a lo de mi padrino que es el cumple 😄',1 joy,2 0.667,3 1.027,4 -1.586,5 3.28,6 -1.547}
+{0 'estoy bien feliz pero bien triste a la vez por qué ya casi termino mi serie :( es como que siiiii😬 pero noooooo 😢',1 joy,2 0.435,3 1.89,4 -9.407,5 1.088,6 -11.55,8 -2}
+{0 '@goldevenezuela La prohibicion es solo para funcionarios chavistas. 😅',1 joy,2 0.563,3 0.205,4 -1.434,5 0.734,6 -0.302}
+{0 '@Daniel_ChefMX Eso depende mucho jajajaja ',1 joy,2 0.63,3 0.88,4 -1.424,6 -2.063}
+{0 'Me siento muy bendecida por Dios ',1 joy,2 0.75,3 0.014,4 -2.293,5 0.116,6 -1.131}
+{0 'No voy a decir que borralo porque cada vez que lo digo es peor ',1 joy,2 0.104,3 1.27,4 -4.52,5 0.453,6 -4.367,9 1}
+{0 'Juro que me estoy amando en este momento 😊',1 joy,2 0.826,3 0.14,4 -0.859,5 0.305,6 -0.921}
+{0 'Que finde tan largo y tan lindo 😊',1 joy,2 0.75,3 3.259,4 -1.079,5 0.085,6 -1.636}
+{0 '@DebRyanShow #Rayito creo que eres la persona más famosa que hay en este mes , eres genial por eso tienes tantos seguidores xD',1 joy,2 0.652,3 6.417,4 -3.314,5 1.172,6 -3.544}
+{0 '@cesciano Yo la voy a ver. Desde hoy ya por fin tengo Netflix. ',1 joy,2 0.667,3 1.31,4 -2.667,5 1.877,6 -1.767}
+{0 '@poxoleytor Cagamos amika ',1 joy,2 0.429}
+{0 'Si a mi me ponen fortuna eterna llena de lujos y demases, vendo hasta mi madre, eso de los valores y principios solo existe para conformarse',1 joy,2 0.435,3 2.961,4 -4.32,5 2.779,6 -4.384}
+{0 '@kalebalemayehu_ @NOCHlLLVlNES yo wtf ',1 joy,2 0.229,4 -1.609,6 -2.409}
+{0 '#SabadoJaqueMate juega y juega la free @JaqueMateDisco',1 joy,2 0.458,3 0.205,4 -0.337,5 0.61,6 -0.596}
+{0 '@FloresconVeneno ¿contenta?    de nada pequeña Lulú,  Muchos abrazos para vos y tu beba',1 joy,2 0.636,3 1.421,4 -0.935,5 1.021,6 -3.197,9 1}
+{0 '@rodotailhade / estoy orgullosa de Ud diputado . Honra su su banca, a la Patria, a nosotros, y a la verdad',1 joy,2 0.543,3 3.226,4 -1.356,5 4.584,6 -5.449}
+{0 '11:42 y no he estudiado un culito ',1 joy,2 0.188,3 0.025,4 -1.463,6 -1.744,9 1}
+{0 'Mañana empiezo otras materias pero me va seguir dando clases la única maestra que me caga ',1 joy,2 0.146,3 0.205,4 -3.397,5 1.29,6 -3.113}
+{0 '@VZaferson @diegoreba Difiero ',1 joy,2 0.333}
+{0 'Una sonrisa puede ocultar mil emociones',1 joy,2 0.304,3 3.182,4 -0.438,5 1.443,6 -0.978}
+{0 'Que dicha como uno va descubriendo la clase de personas con las q se relaciona.. ',1 joy,2 0.458,3 2.82,4 -1.199,5 3.222,6 -5.406}
+{0 'Aqui viendo la guerra de memes -los guarda-  ',1 joy,2 0.522,3 1.477,5 1.274,6 -1.411}
+{0 '@SamsungMobile Que genial yo lo quierooo',1 joy,2 0.604,3 0.154,4 -0.295,5 0.383,6 -1.492}
+{0 '[20/7 1:21] Juli: A ésta hora tendríamos que estar tomando [20/7 1:21] Juli: Chupadas [20/7 1:24] Juli: Yendonos en sangreeeee ✨FELIZ DÍA✨',1 joy,2 0.563,3 5.871,4 -7.188,5 2.736,6 -1.439}
+{0 'Yo la engañaría con otras y ella lo sabría y no diría nada para poder seguir viviendo en mi casa gozando de mi fortuna.',1 joy,2 0.208,3 1.231,4 -4.475,5 2.837,6 -3.911,9 2}
+{0 '@chicaelectric_a Es que de verdad, lo único que hice fue cocinar y ver tele jajaja ',1 joy,2 0.5,3 2.889,4 -1.965,5 2.213,6 -3.047}
+{0 '@Bordeline10 tampoco me interesaba la verdad , solo que soy demasiado bueno recordando caras . No tengo ningun otro “talento” ',1 joy,2 0.354,3 2.671,4 -5.8,5 1.289,6 -4.577,9 1}
+{0 'Le dije a mi papá que me trajera cena y me dijo que si.... Llegó con sopa Maruchan ',1 joy,2 0.542,3 0.488,4 -2.716,5 2.015,6 -5.913}
+{0 'En dos findes o tres voy a estar en corboda 😀',1 joy,2 0.354,3 1.07,4 -1.901,5 0.394,6 -0.393}
+{0 'La vdd es que ya me quiero ir a SF, porque emocionado',1 joy,2 0.604,3 0.575,4 -3.13,5 0.881,6 -2.2}
+{0 '@LaurenJauregui No tienes idea lo emocionada que estoy por lo que tú y las chicas están preparando. Buenas Noches. Te quiero Lauren.❤🌹',1 joy,2 0.896,3 4.837,4 -3.722,5 3.123,6 -5.144,9 1}
+{0 '@hey_is_valerie Las leyes en México son un chiste de mal gusto',1 joy,2 0.229,3 1.766,4 -3.443,5 1.025,6 -6.139}
+{0 '@jbryan_x Fui a verla el año pasado y tuvo su toque divertido pero esperaba más, ya veremos cómo va esta 😃',1 joy,2 0.5,3 0.536,4 -3.009,5 0.42,6 -4.49}
+{0 'Diablo ni yo me lo creo ',1 joy,2 0.188,3 0.401,4 -1.771,5 0.383,6 -1.843}
+{0 'Por que hptas tengo que ser tan orgullosa cuando se trata de el :(',1 joy,2 0.043,3 0.735,4 -2.336,5 1.347,6 -2.36,8 -2}
+{0 '#CaniggiaLibre que pelotudossss jajaj los amo ',1 joy,2 0.739,3 5.911,4 -0.091,5 0.956,6 -0.638}
+{0 'Pero la verdad es que por muy mierda que sea la Selecta, nos da más alegría que los 84 hijos de puta que solo van a ver porno a la AL (2/2)',1 joy,2 0.196,3 3.051,4 -4.263,5 7.362,6 -10.398}
+{0 '@haditarabiosa @viry_chio JAJAJAJA 😂',1 joy,2 0.75,3 0.636}
+{0 '@LaPauHC @lily_v13 Soy taaaaaaan chistoso. ¿Verdad?',1 joy,2 0.543,3 0.197,4 -0.316,6 -0.857}
+{0 'Menos mal mañana es festivo.',1 joy,2 0.609,4 -3.131,5 0.68,6 -2.331}
+{0 'Pensando fríamente él wall no me gusto 😕',1 joy,2 0.188,4 -1.657,6 -3.31,9 1}
+{0 '@CarlosDonoso @AlfredoVallejos @flor_azul_64 Yo estoy pobre :(. ',1 joy,2 0.182,4 -3.024,6 -3.651,8 -2}
+{0 'JAAAA Q GONZALO DE MIERDA ',1 joy,2 0.333,3 0.413,4 -0.866,5 0.664,6 -0.852}
+{0 '@anettemicheltv me podrías mandar un 💋 de Buenas Noches? ',1 joy,2 0.522,3 2.471,4 -1.466,5 1.214,6 -1.498}
+{0 'No tengas un cuerpo delgado, ten uno fuerte, rápido, ágil y en forma.',1 joy,2 0.409,3 1.533,4 -2.019,5 1.052,6 -2.379,9 1}
+{0 '@Luladebrackets Rose, la de Titanic ',1 joy,2 0.354,3 0.814,5 1.545}
+{0 'Salimos pone en la foto jajajajajajajajajaja, amo a mi mamá ',1 joy,2 0.87,3 1.716,4 -0.974,5 1.551,6 -0.089}
+{0 '¿Juega desde ya?',1 joy,2 0.458,3 0.197,4 -0.405,6 -1.109}
+{0 'Si me gusto la feria 😍',1 joy,2 0.708,3 0.205,4 -0.722,5 0.917,6 -2.666}
+{0 'Sabes que no hay marcha atrás cuando comienzas a sonreír cada vez que hablas con esa persona. 😊',1 joy,2 0.833,3 0.896,4 -3.642,5 1.056,6 -2.864,9 1}
+{0 'Las cosas las tienes que hacer porque quieres y apetece, no para esperar nada a cambio #felicidad #actitud #valores',1 joy,2 0.604,3 1.069,4 -4.322,5 6.996,6 -2.867,9 2}
+{0 'Los sueños no se deben quedar sólo como sueños! Hay que hacerlos realidad 🌟👑🌼💧#Feliz 😊',1 joy,2 0.667,3 3.474,4 -2.92,5 1.882,6 -3.601,9 1}
+{0 '@anasof_cg Casi 10 años de entretenimiento gratis 💁🏻💗🤘🏼#YoNuncaHeLlorado #SoloElla',1 joy,2 0.609,3 0.409,4 -0.64,5 0.729,6 -0.571}
+{0 'Angeles me cuidan y guían mi bienestar🎵',1 joy,2 0.646,3 0.237,4 -0.879,5 0.255,6 -0.95}
+{0 'Activos de nuevo ',1 joy,2 0.565,3 1.088,5 1.348}
+{0 'Cuando tenía 16 , veía a los de 25 como mayores , súper mayores , meeeega mayores ! 😆 ay papá!',1 joy,2 0.521,3 2.626,4 -0.776,5 2.371,6 -2.815}
+{0 'Siempre es bueno leer los tuits del 2011 ',1 joy,2 0.479,3 0.563,4 -1.067,5 2.133,6 -0.246}
+{0 'Me gusta cuando me hablan para ver que se hará en mi cumple ',1 joy,2 0.739,3 0.406,4 -2.109,5 1.487,6 -2.182}
+{0 'Acá bien alegre con mi laboratorio de mate pa\' mañana',1 joy,2 0.609,3 0.86,4 -1.921,5 2.939,6 -1.663}
+{0 'Cuando te llaman de apple y te cambian el dia 😊 #alegria',1 joy,2 0.958,3 2.222,4 -0.558,5 1.571,6 -1.517}
+{0 'Estoy emocionada af porque el viernes voy a ver a mis amigos los darkies de la prepa y haremos una pedísima. 💕',1 joy,2 0.833,3 3.052,4 -4.717,5 3.42,6 -1.754}
+{0 'A mi aveces se me olvida que existe Messenger y respondo a las horasss jaja ',1 joy,2 0.457,3 0.193,4 -1.73,5 0.742,6 -3.098}
+{0 '@YamelPO97 A mi me estresan pdl pero no puedo dejar de verlos ',1 joy,2 0.348,3 0.409,4 -4.661,5 0.664,6 -1.802,9 1}
+{0 '@mariobautista_ Y sho que :v ntc te amo mi amor 11:14 orgullosa de decir q soy bautister',1 joy,2 0.854,3 2.284,4 -1.048,5 1.908,6 -2.067}
+{0 '@Karinabarbosa kari? Te refieres a . .  orco el de la serie animada . . . . . He-Man?',1 joy,2 0.378,3 2.796,4 -0.434,5 2.992,6 -2.901}
+{0 'Zuckerberg como no me venís a tocar el himno de la alegría con la quena, guampudo.',1 joy,2 0.478,3 2.702,4 -1.303,5 4.114,6 -7.462,9 1}
+{0 '@sigridalegria Siempre brilla la #Alegría 😉',1 joy,2 0.826,3 0.471,5 0.61,6 -0.004}
+{0 '@cllnahhue JAJAJAJA estallé mal, cualquier parecido con la realidad es pura coincidencia 😅',1 joy,2 0.63,3 3.612,4 -3.336,5 1.609,6 -2.771}
+{0 '@atomicbold Gracias! Buenas noches ',1 joy,2 0.417,3 2.289,4 -0.528,5 1.236}
+{0 '@Marielle_Lovee @Gee_Matas @BIackppIvlnes @PauletteGold No me estén asustando por favor ',1 joy,2 0.37,3 0.708,4 -2.312,6 -2.572,9 1}
+{0 'Ya había olvidado lo agradable que se sentía pasarme por acá.',1 joy,2 0.792,3 0.981,4 -0.598,5 1.689,6 -1.491}
+{0 'viaje de Lampa a Puente Alto solo para comprarle la dichosa cortina culiá a mi amiga, solo un amigo puede hacer eso',1 joy,2 0.375,3 2.529,4 -3.533,5 2.589,6 -1.128}
+{0 '@_stf1006 @Tota_Reloaded Igualito ',1 joy,2 0.292}
+{0 '@aparego Siii! Genial!!!',1 joy,2 0.739,3 0.69,5 0.208}
+{0 'Cada dia mas me enamoro eres mi fortuna y mi orooooo',1 joy,2 0.869,3 4.025,4 -1.245,5 1.265,6 -1.021}
+{0 'Ahora sólo me da miedo que mi vecina @prettyfreckles me vea en ropa interior en lo que pongo las cortinas ',1 joy,2 0.205,3 0.384,4 -2.989,5 1.763,6 -4.083}
+{0 'Y por los hombros le agarra /de puntitas/ para que pare de ejecutar dicha acción.   — Eso es mentira, Lotte. ¿Quién te ha dicho eso?',1 joy,2 0.271,3 3.68,4 -3.077,5 2.02,6 -4.657}
+{0 '@Persefone95 antes de ver el que estoy viendo pase por dos primeros capitulos de dos doramas que iugh, hasta que vi ese que me gusto',1 joy,2 0.438,3 3.23,4 -1.37,5 2.617,6 -6.032}
+{0 'La actitud no se negocia ',1 joy,2 0.373,3 1.08,4 -1.222,5 1.723,6 -1.941,9 1}
+{0 'EXPECTATIVA:  —Cuando hablemos le voy a decir esto, le preguntaré esto, hay tantas cosas por hablar  REALIDAD:  —¿Y qué más? —Bien  —Ah ya 😅',1 joy,2 0.435,3 5.447,4 -3.992,5 1.562,6 -5.682}
+{0 '@jimeramirez0109 Si por dicha ❤',1 joy,2 0.646,3 0.014,4 -0.204,6 -1.044}
+{0 'Pero sigo siendo el reeeey. 🎶 De los pendejos. ',1 joy,2 0.167,3 0.622,4 -1.5,5 1.283,6 -0.94}
+{0 'Se duerme el enano y ya no se que hacer. Despertate ,dale,no ,mejor seguí durmiendo 😅',1 joy,2 0.457,3 1.315,4 -3.177,5 4.738,6 -2.964,9 2}
+{0 'Juro que cuando mande ese wpp no me pude haber emocionado tanto, pero lo tenia que hacer 💪espero que lo lea😄😄',1 joy,2 0.625,3 0.78,4 -8.628,5 1.179,6 -3.932,9 1}
+{0 '@Natrioshka Yo a veces entro a twitter solo para leer a esta mujer. 😀 Un saludo srta!',1 joy,2 0.457,3 2.191,4 -1.564,5 1.046,6 -2.033}
+{0 '@FlavioKisuc Por favor ',1 joy,2 0.375,3 0.708,6 -0.961}
+{0 'Dejen cenar a gusto mbre',1 joy,2 0.354,4 -0.342,6 -1.718}
+{0 'Nos pusimos a guliar fiambre con las pibas y mayo ',1 joy,2 0.375,3 0.367,4 -0.792,5 1.351,6 -1.216}
+{0 'Lo lindo de sentir cerca a esa gente con la que compartiste tanto, eso es amistad! 😍 Soy una afortunada de tener a la gente que me rodea! ❤',1 joy,2 0.978,3 7.395,4 -3.379,5 5.015,6 -4.329}
+{0 'Es frustrante ver como se aleja tu felicidad en cuestión de segundos. Como si de ello dependiera tu vida, ese incómodo nudo en la garganta',1 joy,2 0.104,3 6.594,4 -5.782,5 6.043,6 -5.951}
+{0 'Meraaaaaa vossssss juajua ',1 joy,2 0.458}
+{0 'Mañana es festivo, claro, todos cuando no he entrado a clases todo bien prrs',1 joy,2 0.391,3 3.216,4 -2.331,5 1.694,6 -2.406,9 1}
+{0 '@chillywilly8888 No entendí ',1 joy,2 0.271,4 -0.826,6 -0.628,9 1}
+{0 'Personas, momentos, mensajes, cosas que te llenan el alma. #Feliz',1 joy,2 0.875,3 3.886,4 -0.509,5 2.043,6 -2.953}
+{0 '@francellabrenes Literal no he ni visto el temario ni nada ',1 joy,2 0.271,3 1.013,4 -2.749,5 0.141,6 -3.265,9 2}
+{0 'Veo mis notas en la U y por primera vez me siento orgulloso, increible',1 joy,2 0.833,3 2.823,4 -2.843,5 3.379,6 -1.775}
+{0 'Queee pesados están los atunes  -Mi hermana acomodando los viveres en la escuela ',1 joy,2 0.292,3 1.438,4 -0.242,5 2.919,6 -0.038}
+{0 '¿Que sería de mi sin esos tres “jajaja”? Siempre me salvan de dejar en visto a la gente que medio me agrada 😂',1 joy,2 0.708,3 3.688,4 -2.333,5 2.651,6 -3.288}
+{0 '@Ana_Monjes14 Que persona agradable es usted',1 joy,2 0.609,3 0.921,4 -0.206,5 0.511,6 -1.316}
+{0 '31 la mejor por lejos, te adoro un monton, nunca me faltes, responde algo lindo o borro el tw ',1 joy,2 0.521,3 2.548,4 -1.866,5 3.973,6 -3.394,9 1}
+{0 'Hoy es otro de esas días dónde no puedo dormir y mañana tengo que madrugar, que dicha.',1 joy,2 0.375,3 1.527,4 -6.6,5 1.977,6 -3.242,9 1}
+{0 'Tía meli @meliromeo214 veni a dormir a tu sobrino que no se quiere dormir ',1 joy,2 0.354,3 2.774,4 -1.857,5 0.804,6 -2.282,9 1}
+{0 '@perrusky @Carlarendon @jvillalpandoc No dones perrus, neta ni una vez te hemos pedido eso ',1 joy,2 0.271,3 1.418,4 -2.598,5 0.271,6 -1.799,9 1}
+{0 'Estoy tan emocionada con todo lo que tenga que ver con Disney y Marvel, que hasta ganas de brincar y gritar me dieron. 😍',1 joy,2 0.955,3 1.597,4 -2.836,5 3.586,6 -3.68}
+{0 'Llegó la hora de descansar,mañana juega el TIBU⚽.',1 joy,2 0.542,3 1.117,4 -0.873,5 3.707,6 -0.06}
+{0 '@maria208055 @tonysan777 Yo solo os acompañaré una semana, pero os animaré la que os queda!',1 joy,2 0.583,3 1.947,4 -5.365,5 3.187,6 -2.526}
+{0 '@caminantv Ánimo! ',1 joy,2 0.438,3 1.894,5 0.773}
+{0 '@kareen_sh Super si Bebé, el viernes, hay peda con Alda🙊 Yo más forever, eres la más divertida JAJAJAJA💓',1 joy,2 0.87,3 3.138,4 -2.332,5 3.117,6 -2.269}
+{0 'algunas personas tienen suerte de q tenga tanta paciencia xq ya las hubiese mando a la mierda',1 joy,2 0.146,3 1.883,4 -2.338,5 1.72,6 -2.839}
+{0 '@haroldazuara Tira el miedo cuando vayas al baño ',1 joy,2 0.375,3 0.229,4 -1.146,5 0.623,6 -0.287}
+{0 '#Felíz #Aniversario de #Amistad en #Facebook y que sean muchos más 📷🍸🍰💖💋💋💋',1 joy,2 0.75,3 0.842,4 -1.359,5 4.764,6 -3.245}
+{0 'Me hacen mucho bien esos videos jajajaja ',1 joy,2 0.854,3 0.636,4 -1.029,6 -2.241}
+{0 'Me acorde del momento de ayer e instantáneamente sonreí, enganchada? No, ni ahí ',1 joy,2 0.5,3 1.319,4 -2.694,5 3.515,6 -2.246,9 1}
+{0 'Es que me dicen que comeré perche y se me pone una sonrisa de oreja a oreja❤️',1 joy,2 0.792,3 3.237,4 -3.386,5 3.059,6 -2.894}
+{0 'Tan rico un mensaje que me animé, me alegre la noche, que me sienta querida!',1 joy,2 0.667,3 1.533,4 -1.64,5 2.38,6 -3.592}
+{0 '@darlyssolanof @VictorBolivarM @AnaMarcelaPint0 Yo no hice bloqueo ',1 joy,2 0.292,3 1.06,4 -1.611,6 -2.764,9 1}
+{0 '@dejatelopavo En la fave de los pelos ',1 joy,2 0.413,3 1.608,4 -0.182,5 3.118}
+{0 'Pero otro día ',1 joy,2 0.205,3 0.183,4 -0.72,5 0.831,6 -1.145}
+{0 '@millarayfgh Que eres chistosa😂😂😂',1 joy,2 0.729,3 2.128,4 -0.091,6 -0.638}
+{0 '6:45 go to badajoz. Empieza la época con cambios ',1 joy,2 0.479,3 0.493,4 -2.196,5 1.544,6 -0.88}
+{0 'Le mandaría eso a Sofi pero no soy tan mala porque sé que de verdad le asusta las arañas ',1 joy,2 0.152,3 0.958,4 -7.792,5 1.342,6 -4.799,9 1}
+{0 'Hoy si me di gusto jugando xbox',1 joy,2 0.625,3 0.555,4 -1.504,5 0.74,6 -2.782}
+{0 '@almadepudin Jajaja cada quien tiene sus gustos 😊',1 joy,2 0.587,3 1.217,4 -1.559,5 0.548,6 -5.463}
+{0 'It: Me gustó, pero en mi opinión le faltó algo, nose. Ojalá la hubieran pasado en 3D. En la espera del capítulo dos ',1 joy,2 0.5,3 4.904,4 -2.732,5 5.121,6 -4.173}
+{0 '@futpicante La expresión es divertida, soez claro pero nunca homofóbica. Considero una agresión a nuestra cultura el prohibirnos expresarnos',1 joy,2 0.5,3 4.381,4 -1.484,5 1.494,6 -2.626,9 1}
+{0 'Perfil:  — Bien webon. — Bien inocente. — Solamente juega juegos.  — Tiene actitudes de matanza.  — Seguramente me mate luego de esto¿',1 joy,2 0.109,3 3.797,4 -1.416,5 2.157,6 -6.829}
+{0 'Uy, mira, ya todos están casados, que divertido  Mientras todos disfrutan su matrimonio yo ando cogiendome a todas, que envidia, que envidia',1 joy,2 0.364,3 5.514,4 -3.451,5 2.607,6 -9.966}
+{0 'Al que no ha visto, no le consta. Por ende no inventen chismes ',1 joy,2 0.146,3 2.721,4 -2.905,5 0.395,6 -4.336,9 3}
+{0 '@sweetmygomez awww linda :’) don’t worry, a mi también se me pasa 😅',1 joy,2 0.521,3 1.227,4 -1.821,5 1.709,6 -0.703}
+{0 '@itsLuanx_ JAJAJAJAJAJAJAJA se me salio lo lesbiana, perdón por tan poco ',1 joy,2 0.539,3 1.836,4 -0.469,5 1.477,6 -0.893}
+{0 '@IsaCamargoSoto Siiiiiiii verdad mañana es festivo, me confundí',1 joy,2 0.604,3 0.515,4 -0.598,5 0.951,6 -1.121}
+{0 'Creas una dependencia de la verga por que extrañas a cierta persona, sus labios, su sonrisa, la luz de su mirada, sus caricias, sus chistes.',1 joy,2 0.364,3 8.148,4 -2.046,5 6.522,6 -20.557}
+{0 '@javier_ruescas Deberías cantar junto a @verogv15 la canción de tu canal bienvenidos al canal de @javier_ruescas que divertido saludos',1 joy,2 0.604,3 4.727,4 -1.217,5 5.21,6 -2.014}
+{0 '@MiluuGonzalez__ Muy grave para mi gusto, me wa mori',1 joy,2 0.271,3 0.2,4 -1.91,5 0.357,6 -3.966}
+{0 'Yo mee sientoo orgullosa de ser parte del mejor fan club de mty ! #FusionCncoMty',1 joy,2 0.688,3 1.93,4 -0.723,5 4.307,6 -1.587}
+{0 '@lifeislali Para mi todos no! No creo que taaaan justo Nicolás la lleve a donde están todos los malos ',1 joy,2 0.333,3 3.818,4 -4.993,5 1.441,6 -2.711,9 2}
+{0 'Tengo frío ',1 joy,2 0.354,4 -2.179,5 0.377}
+{0 'Me voy de viaje el domingo y no estoy emocionada, bueno solamente por toda la comida que comeré 🤤',1 joy,2 0.521,3 2.403,4 -3.116,5 2.961,6 -2.524,9 1}
+{0 '@bellapussyxxx he aprendido a ser menos egoísta y más tragon gracias a ti, así que cuenta conmigo para todo ',1 joy,2 0.542,3 0.2,4 -3.415,5 1.18,6 -4.874}
+{0 'Pican jjjuerte los mosquitos ',1 joy,2 0.208,3 0.134,4 -1.195,5 0.733}
+{0 'la satisfacción de hablar solo',1 joy,2 0.438,3 1.205,4 -1.153,5 1.518}
+{0 'El gozo del Señor es contagioso. #LaAdoraciónADiosEngrandeceLaNación',1 joy,2 0.563,3 0.975,4 -0.177,5 3.125,6 -0.302}
+{0 '@TaniaPiri18 Ven tu amiga , estoy viendo greys ',1 joy,2 0.409,3 1.499,4 -1.516,5 1.037,6 -0.698}
+{0 'La milsgros me mando un mensaje y me puso TE AMO , jamas en la vida me habia demostrado tanto amor.. estoy emocionada',1 joy,2 0.875,3 2.166,4 -2.948,5 3.878,6 -2.573}
+{0 'Me comí el cereal ya ',1 joy,2 0.391,3 0.108,4 -0.581,5 0.368,6 -0.697}
+{0 '@aliciaenp Ajajjaa somos del clan twitteras perdidas pa eventos importantes ',1 joy,2 0.542,3 0.831,4 -0.193,5 2.099,6 -0.109}
+{0 'No debe haber cosa mas linda que ver a la gente sonreír !!',1 joy,2 0.875,3 2.541,4 -0.954,5 1.225,6 -2.575,9 1}
+{0 '@mac1eod te acompaño 😊',1 joy,2 0.542,3 0.269,6 -0.317}
+{0 'Después de un día CERO productivo, ya quiero ir a trabajar ',1 joy,2 0.354,3 1.845,4 -2.169,5 2.806,6 -1.922}
+{0 '@paspadita Dale, lo vicho! Muchas gracias!! 😊',1 joy,2 0.652,3 3.201,4 -0.382,5 2.076}
+{0 '@D99Radio @enjambremx @enjambremx @D99Radio Samantha Sofía Elizondo Gzz 😊 #SiTePreguntanSoloD99',1 joy,2 0.542,3 0.014,5 0.558}
+{0 'este momentazo para entrar en el #felizlunes 😀 #quetengasunbuendia  rt el ajedrez me enseñó que con un mal movimiento puedes perder a tu',1 joy,2 0.543,3 1.892,4 -3.662,5 1.867,6 -4.004}
+{0 '@_Dannieladc No maaaa, estoy muuuuy emocionada. 🔝 Cadena de oración para que mamá Ara te deje. ❤',1 joy,2 0.826,3 2.036,4 -1.95,5 1.339,6 -3.456,9 1}
+{0 '@Camila_Cabello @BrunoMars QUE LINDO TODO ESTOT MUY EMOCIONADA',1 joy,2 0.75,3 1.131,4 -0.92,5 2.056,6 -1.107}
+{0 'Que chevere editar/animar imagen con bonitos colores <3',1 joy,2 0.688,3 1.511,4 -0.33,5 5.225,6 -1.452,7 3}
+{0 'Hoy he puesto la carretera de chiclana-Medina-puerto real!!! Ya hoy me puedo dar por satisfecha!',1 joy,2 0.79,3 1.324,4 -4.311,5 3.041,6 -2.297}
+{0 'Entonces te das cuenta que no es quien te mueve el piso, sino quien te centra ',1 joy,2 0.479,3 2.506,4 -4.529,5 0.801,6 -3.769,9 1}
+{0 'Ahora tengo dos trabajos jeje. Al menos el segundo es divertido',1 joy,2 0.529,3 1.089,4 -2.215,5 0.665,6 -1.527}
+{0 '@JannaMaciel @Erimily_C Hahah que vaa! No hay tamaño pa dedicarse a eso, ya quisiera yo😢 Janna, si me hago famosa ya tu sabe, contratada ',1 joy,2 0.5,3 2.423,4 -5.108,5 1.021,6 -4.733,9 1}
+{0 'No supero mas lo del sábado en él auto de Fer cuando nos agarro la policía ',1 joy,2 0.298,3 1.467,4 -2.391,5 3.486,6 -4.327,9 1}
+{0 'Jajaja este gurí ',1 joy,2 0.652,3 0.515,5 0.608}
+{0 'Es horrible cuando todo juega en tu contra, incluso a quienes quieres',1 joy,2 0.146,3 0.815,4 -3.527,5 0.504,6 -3.163}
+{0 'Se ponen a vender twits y todavía se indignan ',1 joy,2 0.271,3 0.534,4 -0.841,5 1.084,6 -1.215}
+{0 'daa en serio se van a poner a subir fotos con todos sus amigos? es más divertido ver un documental de como crece el pasto',1 joy,2 0.313,3 4.417,4 -1.671,5 3.308,6 -10.742}
+{0 'Es la pendejada mas grande dicha por ti',1 joy,2 0.182,3 0.492,4 -0.187,5 2.659,6 -0.621}
+{0 'Como cuando a algún man le parece súper linda una vieja y uno le daña la ilusión mostrándole todo el Photoshop que usa ',1 joy,2 0.146,3 5.109,4 -2.553,5 0.955,6 -10.375}
+{0 '@framsnunez_ De teh quiz teh quiz ',1 joy,2 0.25,3 0.409,4 -0.082,5 0.664}
+{0 'Siempre que llego a casa de noche mi perro me viene a saludar y se va corriendo a mi cama antes que llegue yo ',1 joy,2 0.523,3 1.534,4 -3.387,5 3.194,6 -3.525}
+{0 '@dani_moram Legalmente tenia ganas de quedarme ahí tirado ',1 joy,2 0.333,3 0.631,5 1.365}
+{0 '@josecuellar93 JAJAJAJAJA cerote si supiste como cagarte en mi tweet de optimismo',1 joy,2 0.479,3 3.571,4 -1.213,5 1.303,6 -2.569}
+{0 '@miledelval La dicha se repitita?',1 joy,2 0.354,3 0.402,4 -0.04,5 1.152,6 -0.695}
+{0 'extraño messenger era divertido',1 joy,2 0.229,4 -5.258,6 -1.658}
+{0 '@mariadenext Jaajajjajaa Deneeeeb ',1 joy,2 0.625}
+{0 'Te dice mejor ser soltero y lo primero que hace es tener novia jaja😂😂Tanta risa me das ya nene aburres con tus mentiras de bebe xD Suerte😘😘',1 joy,2 0.478,3 5.621,4 -2.786,5 3.471,6 -5.771}
+{0 '@AlexXxStrecci @Angela_ChefMX La van a eliminar ',1 joy,2 0.283,3 0.205,5 0.61}
+{0 'Mi ego aumentó un poquito con eso jajaja 😄',1 joy,2 0.652,3 1.508,4 -1.209,5 1.712,6 -0.824}
+{0 'No alardees que un hombre comprometido está tras tuyo,eso le sucede a cualquiera; siéntete orgullosa cuando lo RECHACES a pesar de quererlo.',1 joy,2 0.417,3 1.244,4 -3.464,5 1.743,6 -3.912,9 1}
+{0 'No me convenció nadie, me convenció tu sonrisa 🎵',1 joy,2 0.583,3 2.952,4 -6.177,5 1.714,6 -2.275,9 1}
+{0 '@TamezGaby Cada día te ves más hermosa y que hermosa sonrisa tienes saludos desde aquí cerca desde Cozumel bendiciones 😘',1 joy,2 0.708,3 9.76,4 -0.94,5 5.305,6 -3.853}
+{0 'Me dicen que no me ilusione pero soy tan terca que me estoy ilusionando  porque pues asi soy',1 joy,2 0.333,3 1.068,4 -4.776,6 -4.382,9 1}
+{0 '—Ugh mental para ambos adultos.—   Que soez es uno y gracioso el otro.',1 joy,2 0.313,3 2.907,4 -3.08,5 0.376,6 -4.405}
+{0 'LA VIDA  ES TAN BELLA  QUE  VALE LA PENA SONREÍR 😅',1 joy,2 0.813,3 0.831,4 -1.508,5 1.847,6 -2.938}
+{0 'por toda una vida junto a la familia que uno elige. los que están siempre, los de verdad. ¡feliz día! 💗',1 joy,2 0.717,3 4.852,4 -0.306,5 4.375,6 -3.119}
+{0 'Feliiiz Cumple Pasala Genial te Kiero Pibeee!❤ @BarnecheMatias',1 joy,2 0.913,3 1.103,5 0.651,6 -0.317}
+{0 '@Jseute Las mejores personas llegan sin buscarlas.  😄',1 joy,2 0.542,3 0.185,4 -0.935,5 0.415,6 -1.587}
+{0 'Soy la más emocionada porque ya puedo poner emojis a mis contactos 🎉',1 joy,2 0.826,3 0.205,4 -6.573,5 2.206,6 -1.604}
+{0 'Hasta el hueso una de las pelis que quería que durará más ',1 joy,2 0.457,3 1.973,4 -0.921,5 1.005,6 -2.136}
+{0 'Ya estaba emocionada de tener roomie 🙄',1 joy,2 0.478,3 0.444,4 -0.405,5 1.569,6 -0.414}
+{0 'La estrella más grande y brillante eres tú 👼',1 joy,2 0.708,3 4.656,4 -0.509,5 3.416,6 -1.358}
+{0 '@celinegm_ @RudneyCoelho @lindberghfarias Coméquedorme ',1 joy,2 0.326}
+{0 '@AlvaritoMorales siempre queriendote hacer el gracioso eres malísimo.',1 joy,2 0.167,3 3.392,4 -0.195,5 0.141,6 -0.791}
+{0 'Ya funciona, gracias @CinthitaLeon 😘. Ya nada @NetflixLAT 😀',1 joy,2 0.682,3 0.2,4 -3.839,5 0.749,6 -1.325,9 1}
+{0 'No me gusta leer fics donde los Cullen y Bella son vampiros, pero me acabo d encontrar uno, ya me leí 3 caps y me esta gustando 😆',1 joy,2 0.458,3 3.475,4 -4.459,5 3.183,6 -6.156,9 1}
+{0 '@SherKitt No hay pena de carcel? ',1 joy,2 0.229,3 0.606,4 -3.212,5 0.664,6 -2.813,9 1}
+{0 'Quería escuchar Night rather than day pero se puso Eclipse, no es lo que esperaba pero estoy satisfecha.',1 joy,2 0.521,3 0.695,4 -2.562,5 3.016,6 -3.208,9 1}
+{0 'Que bendición es la gente que me rodea, que bueno es sentir el amor, que lindo es saber que nunca estoy sola ',1 joy,2 0.833,3 4.353,4 -3.136,5 3.942,6 -4.928,9 1}
+{0 '@Alan_frete13 Igual me respondió hace casi mes pero la felicidad sigue ahi💕💕💕💕',1 joy,2 0.609,3 2.199,4 -1.677,5 1.527,6 -2.147}
+{0 'Murió en el apogeo de su carrera. Ahora está en el cielo cantando junto a Amy Winehouse y mientras Hendrix toca la guitarra. #QEPDLeTongue',1 joy,2 0.13,3 6.415,4 -1.23,5 9.032,6 -2.106}
+{0 'Yo solo he ido a @ElAlbanBorja a Correos del Ecuador, a acompañar a una amiga a una reunión de Lbel 😅 y a ver a Papá Noel... porque pobre 😁',1 joy,2 0.458,3 4.864,4 -8.142,5 4.119,6 -11.087}
+{0 'Aunque siempre de las piernas porque siempre duermo sin camisa ',1 joy,2 0.341,3 1.439,4 -3.071,5 1.486,6 -0.816}
+{0 '@o_solorzano78 @tinunjei @javi1dc Estaba siguiendo el debate y ví que al final te quedaste solo, igual que tu partido. Chao ',1 joy,2 0.223,3 2.81,4 -2.651,5 0.665,6 -4.395}
+{0 'Pensé que era joda que se iba a poner ese nombre ',1 joy,2 0.37,3 0.978,4 -0.537,5 2.629,6 -2.073}
+{0 '+ actitud adversa cuando tropezó, le habría agradecido su preocupación.  Ahora bien; era en cierta forma muy divertido entablar una +',1 joy,2 0.478,3 4.836,4 -1.753,5 6.01,6 -5.047}
+{0 'Me hace enojar pero lo quiero igual ',1 joy,2 0.174,3 0.154,4 -1.805,5 0.383,6 -1.538}
+{0 'Que bien se siente pelear de nuevo, aunque esté bien tronco ',1 joy,2 0.438,3 1.063,4 -1.419,5 3.332,6 -3.572}
+{0 '@Ana_PaYT nwn thx Ana 😄  también quería poner a Endi pero ya no me dió tiempo 😥 mejor para la otra 😜',1 joy,2 0.438,3 2.237,4 -8.825,5 3.245,6 -2.481,9 1}
+{0 'y pensar que David ayudó a escribir el 2x25 es más emocionante, bc ha tenido continuación',1 joy,2 0.522,3 3.657,4 -1.983,5 1.679,6 -2.953}
+{0 'A ver cuál de mis amigos se la juega con un chocolate? ahre jajajajajaja',1 joy,2 0.667,3 1.478,4 -1.181,5 5.626,6 -1.269}
+{0 'Si la tristeza y el dolor continuarán mientras siga viviendo, ¿pero es normal? Yo quiero vivir con ese dolor. #feliz #lunes #felizlunes',1 joy,2 0.292,3 3.336,4 -8.39,5 2.178,6 -7.258}
+{0 '@Punchline04 Jajaja dale, de ti dependerá mi credibilidad aquí ',1 joy,2 0.542,3 1.892,4 -0.555,5 2.422,6 -2.74}
+{0 'No puedo dormir, emocionado como cabro chico porque mañana voy a Santiago 😂 Ay señor porque soy tan huaso 🙄',1 joy,2 0.813,3 3.574,4 -7.623,5 1.248,6 -3.501,9 1}
+{0 '@Genesisca7 En serio? Es bien sencillo hacerlo ',1 joy,2 0.5,3 0.197,4 -0.855,5 0.161,6 -3.217}
+{0 'Me bajo mucho en la hermana del  raton, pero es que es igual de invivible que el. ',1 joy,2 0.354,3 1.056,4 -2.695,5 3.191,6 -3.735}
+{0 'Me da risa caerle mal a la gente',1 joy,2 0.348,3 2.23,4 -2.745,5 0.61,6 -3.745}
+{0 '@Sargentoleon @PremiosTuMundo ¡ A  VOTAR !  Todas las bendiciones y éxito , LeónHermozaa , ❤🙏👏 y  ¡SUERTE! 😍😘',1 joy,2 0.813,3 5.066,4 -0.674,5 2.886,6 -1.192}
+{0 'Días singulares, donde Papá ve Los Pitufos, Mamá hace un flan a las 1am, mi hermano ve maratón de OITNB y yo hago hotcakes a las 3 am ',1 joy,2 0.545,3 2.188,4 -2.914,5 8.687,6 -3.491}
+{0 'Te quedo Rico Angela 😀 #MasterChefMx',1 joy,2 0.521,3 0.663,4 -0.084,5 0.227,6 -0.837}
+{0 'Sin duda, por fortuna, ahora me encuentro lejos de tener los nudillos reventados y la mente atormentada.',1 joy,2 0.477,3 1.924,4 -4.143,5 5.247,6 -2.229}
+{0 'No superó la noche  de ayer ',1 joy,2 0.458,3 1.951,4 -1.046,5 2.778,6 -0.628,9 1}
+{0 '@Mary_Gmz4 Me conoce bien esa mujer, ¿Qué esperabas? ',1 joy,2 0.304,3 1.637,4 -0.209,5 0.764,6 -2.233}
+{0 'Mi bien ponderada @piCkOL, ¡feliz cumpleaños! Me tomo tres cervezas a tu salud. Abrazo grande pa\' ti.',1 joy,2 0.729,3 4.409,4 -1.51,5 5.628,6 -3.415}
+{0 'Me tengo que hacer análisis, ya estoy sintiendo el llanto ',1 joy,2 0.188,3 0.279,4 -2.38,5 0.412,6 -1.429}
+{0 '@Kait_ec Sé fuerte, no caigas en tentación ',1 joy,2 0.375,3 0.536,4 -2.904,5 0.432,6 -1.382,9 1}
+{0 '@Eduardo_GarzaT Ventura Knight, me gusta mucho, saludos',1 joy,2 0.614,3 2.097,4 -1.749,5 4.27,6 -1.677}
+{0 '@TotoGameplays_ Posiblemente, el handicap me canso y tengo equipo full oro brillante jajajaja',1 joy,2 0.708,3 1.928,4 -2.983,5 1.958,6 -2.961}
+{0 'Mas allá de como juega, se nos va una amiga, entiendan😐',1 joy,2 0.25,3 2.874,4 -0.671,5 2.072,6 -2.207}
+{0 'Ella dijo que me enviaría a un colegio por meses y por un lado me alegre',1 joy,2 0.646,3 0.078,4 -1.971,5 0.914,6 -4.203}
+{0 'No puedo creer como Junior Arias puede ser titular en un cuadro argentino ',1 joy,2 0.188,3 0.916,4 -4.556,5 0.171,6 -3.665,9 1}
+{0 'TE VALGO VERGA AMA porque no veo que me lleves por jeringas ',1 joy,2 0.167,3 0.514,4 -2.757,5 0.853,6 -2.619,9 1}
+{0 '@sxnrisee si te llegó el tweet anterior, ignoralo mi amor, nada que ver. ',1 joy,2 0.25,3 1.986,4 -1.15,5 2.53,6 -3.232,9 1}
+{0 '@Liev_Melenas La resurrección de Nikki ',1 joy,2 0.457,3 1.296,5 1.752,6 -0.348}
+{0 '@camitalaveraa si sos un fracaso ',1 joy,2 0.109,3 0.025,4 -1.552,6 -1.552}
+{0 'se viene la segunda función #Feliz ❤️',1 joy,2 0.75,3 2.309,4 -0.758,5 1.35,6 -0.492}
+{0 '@Yessdavsw Hermosa y sexy como siempre!! Te quedan genial eso leggins, los llenas a reventar 😍😵',1 joy,2 0.545,3 3.102,4 -0.941,5 1.859,6 -3.255}
+{0 '@CynthiaCayo10 Que vendría a ser lo gracioso ? 🤔 @DAngeloLu1',1 joy,2 0.375,3 1.27,4 -0.568,5 0.383,6 -2.211}
+{0 '@varo2114 @abi_quesada Mejor me aman y ya así se llevan menos colerones! ',1 joy,2 0.563,3 0.613,4 -1.497,5 2.381,6 -1.712}
+{0 '❤️✌🏾Ya somos 400 Seguidoresss✌🏾❤️ #gracias #Feliz #FelizLunes #LunesDeGanarSeguidores #SIGUEMEYTESIGO #SiguemeYTeSigoDeVuelta #Rt',1 joy,2 0.783,3 2.24,5 2.208,6 -0.638}
+{0 '@arca_fidelidad ¡Hola! Es un gusto ayudarte, me brindas tu número vía DM, por favor.  *Moy.',1 joy,2 0.5,3 3.341,4 -2.333,5 0.818,6 -5.443}
+{0 '@muriodeasco es re gracioso ver saludos de compañeros de la secundaria que si ahora nos vemos agachamos la mirada para no saludarnos',1 joy,2 0.405,3 4.608,4 -1.759,5 5.735,6 -4.658,9 1}
+{0 '@xsangrelatina Y las respuestas de la mina fueron súper agresivas, según ella porque es de color colo y lo hizo a propósito ',1 joy,2 0.217,3 2.842,4 -3.508,5 3.597,6 -4.328}
+{0 '🎵 San Cristobal, San Francisco y mi San Andrés Xecul. yo te canto emocionado cuna de Atanasio Tzul.',1 joy,2 0.565,3 1.06,4 -1.709,5 3.573,6 -2.376}
+{0 '-Mi amiga de la ibero que siempre me visita cuando estoy triste en León. Te quiero un buen amo la vibra y la alegría que siempre transmites.',1 joy,2 0.674,3 5.208,4 -7.391,5 10.317,6 -5.486}
+{0 '@ToritaMyQueen @Valentin_Ass Eso lo hace más gracioso aún',1 joy,2 0.646,3 1.073,4 -1.113,5 0.383,6 -1.537}
+{0 'Voy a ver una pelicula asi full love por que no es full HD 😅',1 joy,2 0.583,3 2.285,4 -1.16,5 1.138,6 -2.315,9 1}
+{0 'Jajajaja soy un paranoico de mierda 😅',1 joy,2 0.333,3 1.07,4 -1.12,5 0.664,6 -1.419}
+{0 '@MrkHdz El chiste es ayudar colega! En todos lados es bueno 🙌 por eso me caes reeeeeebien 😊',1 joy,2 0.688,3 2.057,4 -2.246,5 0.7,6 -2.829}
+{0 '@kavegav Jajajaja para nada ',1 joy,2 0.563,3 0.636,4 -0.531,5 0.086,6 -0.437,9 1}
+{0 '@zumbado_valeria Yo sé que es duro amiga, pero te amo ',1 joy,2 0.5,3 1.834,4 -3.399,5 0.749,6 -3.119}
+{0 '#DeColombiaMeGusta Las Mujeres, La humildad, La Alegría Colombiana, La Bandeja Paisa Mijoooo🇨🇴',1 joy,2 0.729,3 7.054,4 -0.626,5 4.11,6 -2.094}
+{0 '@armandozhoil Cierto... ¡Disfrútalo! ',1 joy,2 0.625,3 0.9,4 -0.096,5 0.208}
+{0 '@ysoniaaparicio_ jajajajj postaa deja ni fiesta vamos directo al civil. Yo me enamoro minimo 2 veces por dia en el subte ',1 joy,2 0.659,3 3.359,4 -3.068,5 3.048,6 -12.724}
+{0 'Que lindo es revivir viejos tiempos 😀',1 joy,2 0.646,3 1.131,4 -0.259,5 0.085,6 -0.88}
+{0 '@AgustinTerrazaa Ya lo sé ',1 joy,2 0.313,3 0.154,4 -2.301,5 0.383,6 -0.414}
+{0 'Hubiese sido la yo del domingo y estaria hecha un mar de lágrimas ',1 joy,2 0.188,3 0.802,4 -2.786,5 4.362,6 -2.256}
+{0 'Fav si qres una ft mia muy feto y graciosa',1 joy,2 0.522,3 1.97,4 -1.008,5 2.351,6 -1.944}
+{0 '@hum0r @EPN ajajajjaa. Perdón, my Lord. Estoy a 1 minuto de que deje de darme risa, no a menos, como a 5 😂',1 joy,2 0.75,3 4.067,4 -1.863,5 2.302,6 -3.645,9 1}
+{0 'Lo mejor es confiar en que vas a pasar el examen con lo poco que se te grabo en clase ',1 joy,2 0.458,3 1.637,4 -2.134,5 5.61,6 -2.769}
+{0 '#MeAlegraElDía Una sonrisa especial, de una persona muy especial.',1 joy,2 0.936,3 5.972,4 -0.381,5 3.432,6 -1.393}
+{0 'Planeaba dormirme temprano pero están pasando Encantada en Disney Channel😘',1 joy,2 0.521,3 0.462,4 -6.461,5 1.238,6 -1.309}
+{0 'Es muy fácil sonreír  y filosofar cuando es otro el que esta echo mierda',1 joy,2 0.208,3 0.616,4 -2.316,5 0.231,6 -3.596}
+{0 '@michellelovera5 @chochos Jajaja  igualitas ',1 joy,2 0.652,3 0.423,5 0.478}
+{0 '@cacorrorrea77 @ZeusSuspendido La meta la pones tú 👊🏼! ah no perdón me equivoqué de bebida ',1 joy,2 0.375,3 4.216,4 -1.002,5 2.665,6 -1.568,9 1}
+{0 'Los memes de 1min, no menos, como a 5 mejoraron mi fin de semana ',1 joy,2 0.542,3 1.688,4 -2.076,5 4.117,6 -3.242,9 1}
+{0 '@audiomano A mí tampoco me agrado mucho eso. Especialmente por tratarse de él. No hay justificación.',1 joy,2 0.104,3 0.518,4 -5.527,5 0.664,6 -4.108,9 1}
+{0 'Creo que voy a borrar snapchat a la mierda ',1 joy,2 0.125,3 1.275,4 -1.6,5 0.61,6 -1.752}
+{0 'Lo crucé a Damian disfrazado todo loco ',1 joy,2 0.542,3 1.378,4 -0.51,5 1.403,6 -0.585}
+{0 '@SuperIvo7 Estaría entretenida ...',1 joy,2 0.5,4 -0.096}
+{0 'Me contaron que retomó los estudios, al parecer le va bien y que conoció a un nueva persona. Me pone contenta eso le deseo lo mejor SIEMPRE❤',1 joy,2 0.543,3 3.616,4 -4.29,5 3.499,6 -5.842}
+{0 'Bendito sea el que estuvo antes de mi. ',1 joy,2 0.313,3 3.254,4 -0.519,5 2.335,6 -0.769}
+{0 'Si no encuentro algo entretenido, me largo a dormir',1 joy,2 0.273,3 1.118,4 -1.418,5 0.749,6 -2.817,9 1}
+{0 'Hay gente que merece que le hagas una diapositiva en un pendrive explicándole todo y asi pueden irse a L.C.D.S.M ',1 joy,2 0.146,3 2.749,4 -2.822,5 0.233,6 -4.474}
+{0 '@adosvoces_tn jaja que genial bonelli y compañia, ahora creen en encuestas? Gano Vidal 😳 Gano Trump 😳 y dijeron q no servian! #PocaMemoria',1 joy,2 0.37,3 1.6,4 -1.941,5 0.929,6 -5.054,9 1}
+{0 '@ViviendodelasP un cago de risa esa escena. tambien la de burbage con molly y cuando agnes recibe a marlowe.',1 joy,2 0.646,3 4.27,4 -1.281,5 2.765,6 -2.596}
+{0 '@Javan_nunez Lo gracioso es que mucha gente no se da cuenta de eso, que solo son personajes...',1 joy,2 0.479,3 2.587,4 -3.842,5 1.898,6 -4.865,9 1}
+{0 'Solo espero que la persona que te gusta no te felicite hoy.  ¡Feliz Día del amigo!',1 joy,2 0.583,3 1.783,4 -3.482,5 3.361,6 -3.977,9 1}
+{0 '@ItzelBarajaas Te sigo de hace tiempo, y hoy tuve la fortuna de verte en el estadio, quise hablarte pero me dio pena😂🔴⚪',1 joy,2 0.478,3 2.238,4 -7.837,5 3.43,6 -2.76}
+{0 '@CristinaMachuca Chuuu.. tengo mala suerte en el juego, siempre!',1 joy,2 0.196,3 1.621,4 -2.278,5 1.505,6 -0.326}
+{0 '@LesleyNieto y mucho pinchi chamaca ',1 joy,2 0.304,4 -1.157,6 -1.37}
+{0 'La vida no tiene sentido Cuándo le gustas a una morra linda, femenina y divertida pero extrañas a una culera, medio vato y bien amargada. 💭',1 joy,2 0.25,3 3.972,4 -4.29,5 2.147,6 -5.221,9 1}
+{0 '@DebRyanShow @TecnopolisNC #rayito te irá genial',1 joy,2 0.646,3 0.269,6 -0.317}
+{0 'Ambos ojos amplió por las acciones ejecutadas por el más alto, aunque no le molestó en lo absoluto; solo se estremeció por dicha acción. >',1 joy,2 0.333,3 1.886,4 -3.257,5 5.986,6 -3.393,9 1}
+{0 '@armymxvotes @BTS_twt Sería divertido xD #BTS #ARMY #KCAMexico',1 joy,2 0.646,3 0.726,4 -4.999,6 -0.569}
+{0 '11:45 @Bryan_SKabeche @Eddy_SKabeche Los amo demasiado,gracias por hacerme sonreír siempre😍❤️',1 joy,2 0.875,3 1.174,4 -0.577,5 1.705,6 -0.642}
+{0 '¡Feliz día del amigo! Les dejamos este espacio para que le dediquen unas palabras a esa persona especial que merece ser llamada como tal, x.',1 joy,2 0.75,3 4.736,4 -1.919,5 4.052,6 -7.002}
+{0 '@valebr2015 Feliz día valeee',1 joy,2 0.771,3 1.379,5 1.309}
+{0 '@rvenegasq Hoy todo es fake ',1 joy,2 0.146,4 -0.775,5 0.402,6 -0.242}
+{0 'Qué loco ha sido mi 2017 ',1 joy,2 0.435,3 1.102,4 -0.753,6 -2.134}
+{0 'Según Facebook, hace 7 años andaba con Fernanda ',1 joy,2 0.104,3 0.395,4 -0.922,5 1.583,6 -1.573}
+{0 '@Miguel_layun  te quiero conocer soy tu fan gracias a ti me gustó el fútbol todo es tu culpa layun ',1 joy,2 0.646,3 2.187,4 -3.21,5 0.964,6 -3.811}
+{0 '@Naano_MB Jajajajajajaja estamos enfermos ',1 joy,2 0.75,6 -0.521}
+{0 'No estoy rota, estoy rompida ',1 joy,2 0.205,3 0.2,4 -3.206,5 0.271,6 -0.66,9 1}
+{0 '@GolDNakama Jaja pobre Tatara ',1 joy,2 0.455,3 0.008,4 -2.348,6 -2.951}
+{0 '@Daurreaq @OrangeSoxTeam Ponte a dieta y ready para la receptoría 😂',1 joy,2 0.458,3 0.205,4 -0.746,5 0.696,6 -0.76}
+{0 'Yo no tengo suerte en esto #GisselleKuri #SebastiánVillalobos #PDCs #KCAMexico',1 joy,2 0.304,3 0.627,4 -2.795,5 0.407,6 -1.675,9 1}
+{0 'Por tanto aguante. Gracias 💛 ¡feliz día!',1 joy,2 0.667,3 0.646,4 -1.84,5 1.659,6 -0.439}
+{0 '@Morgenstern2707 Y tú a mi ',1 joy,2 0.417,3 0.982,4 -0.703,6 -1.054}
+{0 '@lanaranja @ClubNaranjeros Jamás, mis propósitos son semanales ',1 joy,2 0.333,3 1.501,4 -0.902,5 1.543,6 -0.081}
+{0 '@abi_quesada @AleVarela08 Tan violenta ',1 joy,2 0.37,4 -0.253,6 -0.017}
+{0 'Tu pasando pena y yo muriéndome de la risa😂',1 joy,2 0.771,3 1.229,4 -2.361,5 1.274,6 -4.089}
+{0 '@MoeR_10 hasta ahora nunca he entrado a una clase de perspectiva ',1 joy,2 0.438,3 1.709,4 -1.787,5 1.516,6 -2.091,9 1}
+{0 'Hoy me atendió un mozo q me gustó. Llegué a mi casa y no se cómo mierda hice pero ya averigüe nombre apellido y gusto musical entre otros.',1 joy,2 0.583,3 5.079,4 -5.202,5 2.395,6 -7.944,9 1}
+{0 '@Danmaldonado18 Chamo, son las 12:44 am ',1 joy,2 0.283,3 0.385,5 0.471}
+{0 'agustina es la primera vez que sale y no está contenta eso xq no va algún chongo de ella seguro Chicas basta.',1 joy,2 0.167,3 1.619,4 -6.726,5 1.274,6 -5.581,9 2}
+{0 'mañana sin verano #felicidad',1 joy,2 0.771,4 -1.289,5 4.657,6 -0.434}
+{0 'Ahora se viene la mejor parte de Encantada lpm✨✨✨✨',1 joy,2 0.604,3 1,4 -0.208,5 3.73}
+{0 'Estaba animado a hacer algo k no es usual en la mua pero este dia se fue del qlo >:v',1 joy,2 0.375,3 2.897,4 -2.73,5 4.457,6 -2.049,9 1}
+{0 'Un beso es un agradable recordatorio de que dos cabezas son mejores que una.',1 joy,2 0.604,3 4.379,4 -0.398,5 1.523,6 -3.698}
+{0 '@novaimperio @ROYALE_ARGENTO @CCRCUP Y para q lo hacen si concuerdan? ',1 joy,2 0.458,3 0.355,4 -0.645,5 0.469,6 -2.011}
+{0 '@Nicotalleres98 Jajajaja Naa 😆',1 joy,2 0.667,3 0.861,6 -0.214}
+{0 'La Selección De #Panama Es Muy Conformista, Jugar Bien Y No Ganar Es Aplauso Y Victoria? Hasta Cuando Con Eso? #CopaOro',1 joy,2 0.354,3 3.126,4 -3.146,5 3.198,6 -6.107,9 1}
+{0 'Mañana es festivo y por alguna extraña razón estoy triste.',1 joy,2 0.125,3 0.014,4 -5.274,5 0.68,6 -3.269}
+{0 'Se vale estar triste, Se vale no siempre ser la persona alegre que todos quieren, Se vale no querer hablar con nadie. Se vale ser humano.',1 joy,2 0.167,3 3.851,4 -13.716,5 4.554,6 -7.531,9 2}
+{0 'Me aburre la gente que sigue a las masas, que no se la juega, que no rompe reglas.',1 joy,2 0.208,3 3.37,4 -3.306,5 2.504,6 -4.966,9 2}
+{0 'dame de tus labios, quiero verte sonreír',1 joy,2 0.521,3 2.313,4 -0.783,5 1.027,6 -0.629}
+{0 'No entiendo porqué tengo que madrugar un festivo, no entieeendo.',1 joy,2 0.174,3 0.225,4 -4.71,5 0.271,6 -2.474,9 2}
+{0 '@CChavez1993 Esto lo he dicho toda mi vida, al fin alguien entiende ',1 joy,2 0.304,3 0.927,4 -2.186,5 1.044,6 -3.088}
+{0 'Otra vez se me viene esta frase tan graciosa que una vez compartio una amiga y me quedo sonando.....',1 joy,2 0.813,3 3.014,4 -3.762,5 0.954,6 -2.909}
+{0 '#Feliz día a todos',1 joy,2 0.646,3 3.693,5 0.831,6 -0.368}
+{0 'Que manera de cargarme de risa en ese baby shawer. ',1 joy,2 0.75,3 2.303,4 -0.335,5 1.489,6 -1.917}
+{0 '@janapaula_gr Ya se, vlv. 🤦🤦🤦 Por eso pura agua desde entonces. ',1 joy,2 0.396,3 0.489,4 -1.411,5 1.28,6 -0.913}
+{0 '@bahia_mall En @ElAlbanBorja no hay ñengosos!!! ',1 joy,2 0.229,3 0.241,4 -2.345,5 0.161,6 -0.628,9 1}
+{0 '@KevenYHensy Hasta Yo Estoy Orgullosa😍',1 joy,2 0.688,3 0.351,4 -0.614,6 -1.068}
+{0 '@nidiaferr_ Con mucho gusto 🌮😂',1 joy,2 0.708,4 -1.401,5 0.692,6 -2.492}
+{0 'el directo de hernan me dio toda la felicidad, @hchampionsliga te voy a escuchar siempre.',1 joy,2 0.813,3 3.979,4 -0.238,5 3.081,6 -1.191}
+{0 '@blackjim7 JAJAJAJAJAJAJA pinche manchado, versión te lo juro que no estoy amargada ',1 joy,2 0.646,3 0.871,4 -1.327,5 1.168,6 -1.583,9 1}
+{0 '@avilesmgl Yo tenia años sin ir, me gusto volver; hay agua, no como hace años. Descansa ',1 joy,2 0.625,3 1.109,4 -4.391,5 1.294,6 -6.222,9 1}
+{0 'Me imagino a los narcos yendo a la pape por sus cartulinas de colores 😂',1 joy,2 0.455,3 2.177,4 -0.21,5 1.808,6 -6.25}
+{0 'Las ganas que tenia de tomar una cerveza bien friaaa, lo unico que pude aprovechar hoy de la carpa 😂',1 joy,2 0.625,3 3.026,4 -6.298,5 4.989,6 -2.674}
+{0 '@SKabecheTV En todas te ves genial',1 joy,2 0.646,3 1.822,4 -0.182,5 0.161,6 -0.317}
+{0 'Dicen que las cataratas cumplen sueños, milagros y deseos! Gracias Dios por éste viaje! #Feliz',1 joy,2 0.89,3 6.108,4 -2.449,5 3.725,6 -3.207}
+{0 'no tienen una idea de lo orgullosa q estoy de guanlin',1 joy,2 0.708,3 1.925,4 -1.733,5 1.711,6 -1.671,9 1}
+{0 'Por gusto y no por gustar, nunca para demostrar, siempre para sumar 6/6  #AhoraoNunca #ControversialTonyFlow #CosaNostra #comingsoon',1 joy,2 0.292,3 1.302,4 -2.511,5 2.291,6 -4.433,9 2}
+{0 '@pepecandelaria @joelcanojr Con orgullo soy chillahermano. Chillé de alegría cuando les ganamos el campeonato.',1 joy,2 0.688,3 1.427,4 -0.838,5 2.623,6 -1.818}
+{0 '@romiolivera4 un peligro tenerte de fav a vos😂 Feliz día olvidadora, te amoooo💕💕💕💕',1 joy,2 0.875,3 2.923,4 -0.38,5 3.28,6 -1.457}
+{0 '@vicky_rayada Nambre como crees? Sabes mucho más que los que se dicen periodistas👉 (Víctor Hdz)👈 ',1 joy,2 0.304,3 1.006,4 -1.214,5 1.02,6 -5.086}
+{0 'No sé cómo mi hermana se dejó que le decolorara el cabello sin saber nada ',1 joy,2 0.283,3 0.33,4 -4.798,5 0.904,6 -2.698,9 2}
+{0 'Los efectos en star wars me encantan, es genial ver cómo se esforzaban antes para que todo pareciera real.',1 joy,2 0.604,3 1.043,4 -1.826,5 2.371,6 -2.064}
+{0 'Pero igual más adelante puedo hacer otros sondeos jajaja ',1 joy,2 0.75,3 1.222,4 -3.598,5 0.478,6 -2.132}
+{0 '#LaPrimavera #Vichada, en cada corazón de los colombianos late el orgullo por nuestra patria ¡Feliz #20DeJulio! #UnLíderParaTodos',1 joy,2 0.717,3 1.981,4 -0.459,5 3.488,6 -0.489}
+{0 'Como se atreve a venir a mi casa asi como asi ',1 joy,2 0.182,3 1.134,4 -0.781,5 0.678,6 -3.125}
+{0 '@pauesbonita Disculpa mi francés ',1 joy,2 0.229,4 -0.45,6 -1.839}
+{0 '¡Feliz cumpleaños, #Gordito @kossajah! Hay que irnos a festejar 🎂👍😁🎉🍻',1 joy,2 0.771,3 1.319,4 -1.428,5 0.479,6 -1.035}
+{0 '@vicki_castillo @JonyBethen Jajajajaja que gracioso, porque le dan rt pensando que lo tuiteaste em serio',1 joy,2 0.708,3 2.755,4 -2.877,5 0.838,6 -3.868}
+{0 'Que agradable sujeto el Valentín',1 joy,2 0.543,3 0.892,4 -0.091,5 0.652,6 -1.032}
+{0 '@rosarioa Culisuelta se nace ',1 joy,2 0.25,4 -0.04,5 0.542}
+{0 '✴Feliz Día ✴  para quienes se considera un amigo..',1 joy,2 0.542,3 0.394,4 -0.144,5 1.459,6 -5.842}
+{0 '@sopitas Ahora sabemos porque tan sonriente en las fotos, seguramente decía pobres pendejos los que creen esto',1 joy,2 0.292,3 1.193,4 -2.674,5 1.399,6 -2.187}
+{0 'Mi relacion con yerko es un cague de risa',1 joy,2 0.717,3 1.554,4 -0.72,5 1.356,6 -1.299}
+{0 'Alguien puede explicarme la lógica de #TripTank? Por más que le busco lo gracioso, sólo quedo con la sensación de #WTF?',1 joy,2 0.326,3 3.238,4 -3.251,5 3.894,6 -8.059}
+{0 'Tu eres mi felicidad #SebastianVillalobos #PDCs #SaaKTrendy #KCAMexico',1 joy,2 0.854,3 3.81,4 -0.366,5 0.917,6 -0.731}
+{0 'Un domingo muy diferente a los que estoy acostumbrado a pasar fue el de hoy 😊',1 joy,2 0.604,3 0.926,4 -2.275,5 2.731,6 -1.712}
+{0 'JAJAJAJAJAJAJAJA, admito que eso me dio risa, me lo imagine',1 joy,2 0.882,3 1.678,4 -1.047,5 0.925,6 -1.687}
+{0 '@Ceci_Remigio @Julia_ChefMX Es tan neta cómo el fin del mundo pasado ',1 joy,2 0.458,3 0.921,4 -1.366,5 2.016,6 -0.411}
+{0 '@karma_guizmo En lugar de un novio, te brindo un amigo sincero que disfrute la peli que elijas ',1 joy,2 0.417,3 1.661,4 -0.575,5 1.933,6 -3.323}
+{0 '@Mariangel1888 De cerca no es tan buena 😂',1 joy,2 0.438,3 0.988,4 -1.512,5 2.241,6 -2.711,9 1}
+{0 'El único Espada que me resulta ligeramente agradable es Zommari. Me respeta como superior y no perturba mi existencia.',1 joy,2 0.625,3 1.435,4 -5.11,5 1.141,6 -9.831,9 1}
+{0 'Juega conmigo lorena ah',1 joy,2 0.292,3 0.315,5 0.095}
+{0 'Parce pues normal ',1 joy,2 0.374,3 1.173,6 -0.36}
+{0 '@martamendoza5 Has el baloto porque estas de una suerte bravaaaaa',1 joy,2 0.37,3 2.749,4 -1.56,5 1.051,6 -0.588}
+{0 'MB si no me equivoco una vez me confundi de snap y te mande terrible escracho mio jaja,me re copa q estes estudiando el prof suerte con eso💪',1 joy,2 0.5,3 3.595,4 -6.21,5 3.053,6 -6.942,9 1}
+{0 'Nunca había visto una serie 🙊ya veo lo interesante y entretenido!',1 joy,2 0.583,3 3.031,4 -1.135,5 0.725,6 -3.339,9 1}
+{0 '¡Feliz día a todos mis amigos y a los caretas que dicen serlos síganla chupando!',1 joy,2 0.673,3 2.466,4 -2.311,5 2.789,6 -2.709}
+{0 'Mañana seguritito todos se van a querer sentar cerca de la puerta.. llegaré temprano 😅',1 joy,2 0.69,3 2.129,4 -6.085,5 3.293,6 -1.824}

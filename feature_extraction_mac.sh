@@ -24,13 +24,32 @@ REMOVE_ID="java -cp /Users/Mike/Desktop/Weka-3-8-1/weka.jar weka.Run weka.filter
 # step 2: add filter tweettosparse > change output work in progress
 # NGRAMS="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToSparseFeatureVector -M 0 -I 1 -Q 1 -D 3 -E 5 -L -F -G 0 -I 0 -i $SHARED_TASK_FOLDER/tmp1.arff -o $SHARED_TASK_FOLDER/tmp2.arff"
 # LEXICONS_EN="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToLexiconFeatureVector -I 1 -A -D -F -H -J -L -N -P -Q -R -T -U -O"
-LEXICONS_ES="java -cp /Users/Mike/Desktop/Weka-3-8-1/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToLexiconFeatureVector -I 1 -A -D -F -H -J -L -N -P -Q -R -T -U -O"
+LEXICONS_ES="java -cp /Users/Mike/Desktop/Weka-3-8-1/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToLexiconFeatureVector -I 1 -F -H -J -L -R -T -U"
 
-# LEXICONS_ES="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile "$TEST_LEXICON_PATH" -B SpanishEmotionLex -A 1\" -I 1 -U"
-# LEXICONS_ES="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run -F weka.filters.MultiFilter weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile "$TEST_LEXICON_PATH" -B ArabicSemevalLex -A 1\" -I 1 -U \""
+# weka.filters.unsupervised.attribute.TweetToLexiconFeatureVector -I 1 -A -D -F -H -J -L -N -P -Q -R -T -U -O
+
+
+
+
+# weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector "affective.core.ArffLexiconEvaluator -lexiconFile /Desktop/Shared-Task-Semeval/lexicons/spanish/spanishemotionlexicon_translated_emote.arff -B TEST -A 1"
+
+### LEXICONS_ES="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile "$TEST_LEXICON_PATH" -B SpanishEmotionLex -A 1\" -I 1 -U"
+
+# LEXICONS_ES="java -cp /Users/Mike/Desktop/Weka-3-8-1/weka.jar weka.Run weka.filters.MultiFilter weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -lexicon_evaluator affective.core.ArffLexiconEvaluator -lexiconFile $TEST_LEXICON_PATH -B lexicon_name -A "
 
 # deze gebruiken met meerdere lexicons tegelijk (naam veranderen (2 weghalen))
-# LEXICONS_AR2="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run -F weka.filters.MultiFilter weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile C:/Users/marlo/wekafiles/packages/AffectiveTweets/lexicons/arabic/SemEval2016-Arabic-Twitter-Lexicon/SemEval2016-Arabic-Twitter-Lexicon_adjusted.arff -B ArabicSemevalLex -A 1\" -I 1 -U \
+
+# LEXICONS_ES="java -cp /Users/Mike/Desktop/Weka-3-8-1/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -i -lexicon_evaluator affective.core.ArffLexiconEvaluator -lexiconFile /Desktop/Shared-Task-Semeval/lexicons/spanish/spanishemotionlexicon_translated_emote.arff -B TEST -A 1"
+
+# LEXICONS_ES="java -cp /Users/Mike/Desktop/Weka-3-8-1/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector  -i  $HOME/wekafiles/packages/AffectiveTweets/data/sent140test.arff.gz -o proc_data.arff -lexicon_evaluator "affective.core.ArffLexiconEvaluator -lexiconFile /Users/admin/wekafiles/packages/AffectiveTweets/lexicons/arff_lexicons/NRC-AffectIntensity-Lexicon.arff -B NRC-Affect-Intensity -A 1""
+
+# \ weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile C:/Users/marlo/wekafiles/packages/AffectiveTweets/lexicons/arabic/SemEval2016-Arabic-Twitter-Lexicon/list-Arabic-negators.arff -B ArabicNegations -A 1\" -I 1 -U"
+
+# deze gebruiken met meerdere lexicons tegelijk (naam veranderen (2 weghalen))
+# LEXICONS_ES="java -cp /Users/Mike/Desktop/Weka-3-8-1/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -lexiconFile TEST_LEXICON_PATH    "
+# weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile C:/Users/marlo/wekafiles/packages/AffectiveTweets/lexicons/arabic/SemEval2016-Arabic-Twitter-Lexicon/list-Arabic-negators.arff -B ArabicNegations -A 1\" -I 1 -U"
+
+# LEXICONS_ES="java -cp /Users/Mike/Desktop/Weka-3-8-1/weka.jar weka.Run weka.filters.MultiFilter weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile C:/Users/marlo/wekafiles/packages/AffectiveTweets/lexicons/arabic/SemEval2016-Arabic-Twitter-Lexicon/SemEval2016-Arabic-Twitter-Lexicon_adjusted.arff -B ArabicSemevalLex -A 1\" -I 1 -U \
 # weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile C:/Users/marlo/wekafiles/packages/AffectiveTweets/lexicons/arabic/SemEval2016-Arabic-Twitter-Lexicon/list-Arabic-negators.arff -B ArabicNegations -A 1\" -I 1 -U"
 
 # EMBEDDINGS_EN="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToEmbeddingsFeatureVector -I 1 -B C:/Users/marlo/wekafiles/packages/AffectiveTweets/resources/w2v.twitter.edinburgh.100d.csv.gz -S 0 -K 15 -L -O"
@@ -66,22 +85,19 @@ function feat_extractor {
 			echo "option 2: lexicons"
 			# select the right lexicon for the language in question
 			lang=`echo $1 | tr [a-z] [A-Z]`
-			echo ""
-			echo $3
-			echo ""
-			echo $2
-
 			LEXICONS=LEXICONS_${lang}
+			echo $LEXICONS
 			for item in $3
 			do
 				echo $item
 				cd $REPO_FOLDER
 				FEATURE_NAME="lexicons.csv"
-				FILE_NAME=`echo $item | sed 's/.\{5\}$//' | xargs -d '-' -n3 | tail -2 | sed '/^$/d'`
-				EMOTION=`echo $FILE_NAME | cut -d' ' -f 2`
-				TYPE=`echo $FILE_NAME | cut -d' ' -f 3`
-				# cd features/$1/$EMOTION/$TYPE = de oude goede
-				cd features/$1/
+				FILE_NAME=`echo $item | sed 's/.\{5\}$//' | xargs -I '-' -n3 | tail -2 | sed '/^$/d'`
+
+				EMOTION=`echo $FILE_NAME | cut -d'-' -f7`
+
+				TYPE=`echo $FILE_NAME | cut -d'-' -f8`
+				cd features/$1/$EMOTION/$TYPE
 				eval $REMOVE_ID "-i $item -o $SHARED_TASK_FOLDER/tmp1.arff"
 				eval ${!LEXICONS} "-i $SHARED_TASK_FOLDER/tmp1.arff -o $SHARED_TASK_FOLDER/tmp2.arff"
 				eval $REORDER "-i $SHARED_TASK_FOLDER/tmp2.arff -o $SHARED_TASK_FOLDER/tmp.arff"
