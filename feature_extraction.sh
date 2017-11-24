@@ -8,9 +8,8 @@ REPO_FOLDER=C:/Users/marlo/Documents/school/master/shared_task/repo/
 DATA_FOLDER=~/Documents/school/master/shared_task/repo/data_for_feature_extraction
 FEATURE_FOLDER=~/Documents/school/master/shared_task/repo/features/
 
-FILES_EN=$(find $DATA_FOLDER/en -type f)
+#FILES_EN=$(find $DATA_FOLDER/en -type f)
 FILES_ES=$(find $DATA_FOLDER/es -type f)
-FILES_AR=$(find $DATA_FOLDER/ar -type f)
 
 # step 1: remove id
 REMOVE_ID="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.RemoveByName -E ^.*id$"
@@ -19,14 +18,25 @@ REMOVE_ID="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.un
 NGRAMS="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToSparseFeatureVector -M 0 -I 1 -Q 1 -D 3 -E 5 -L -F -G 0 -I 0 -i $SHARED_TASK_FOLDER/tmp1.arff -o $SHARED_TASK_FOLDER/tmp2.arff"
 LEXICONS_EN="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToLexiconFeatureVector -I 1 -A -D -F -H -J -L -N -P -Q -R -T -U -O"
 LEXICONS_ES="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile C:\\Users\\marlo\\wekafiles\\packages\\AffectiveTweets\\lexicons\\spanishemotionlexicon.arff -B SpanishEmotionLex -A 1\" -I 1 -U"
-LEXICONS_AR="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile C:/Users/marlo/wekafiles/packages/AffectiveTweets/lexicons/arabic/SemEval2016-Arabic-Twitter-Lexicon/SemEval2016-Arabic-Twitter-Lexicon_adjusted.arff -B ArabicSemevalLex -A 1\" -I 1 -U"
+#LEXICONS_AR="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile C:/Users/marlo/wekafiles/packages/AffectiveTweets/lexicons/arabic/SemEval2016-Arabic-Twitter-Lexicon/SemEval2016-Arabic-Twitter-Lexicon_adjusted.arff -B ArabicSemevalLex -A 1\" -I 1 -U"
 
-# deze gebruiken met meerdere lexicons tegelijk (naam veranderen (2 weghalen))
-LEXICONS_AR2="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run -F weka.filters.MultiFilter weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile C:/Users/marlo/wekafiles/packages/AffectiveTweets/lexicons/arabic/SemEval2016-Arabic-Twitter-Lexicon/SemEval2016-Arabic-Twitter-Lexicon_adjusted.arff -B ArabicSemevalLex -A 1\" -I 1 -U \
-weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile C:/Users/marlo/wekafiles/packages/AffectiveTweets/lexicons/arabic/SemEval2016-Arabic-Twitter-Lexicon/list-Arabic-negators.arff -B ArabicNegations -A 1\" -I 1 -U"
+# deze gebruiken met meerdere lexicons tegelijk (naam veranderen (2 weghalen)) BETA
+# LEXICONS_AR_COMBINE="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run -F weka.filters.MultiFilter weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile C:/Users/marlo/wekafiles/packages/AffectiveTweets/lexicons/arabic/SemEval2016-Arabic-Twitter-Lexicon/SemEval2016-Arabic-Twitter-Lexicon_adjusted.arff -B ArabicSemevalLex -A 1\" -I 1 -U \
+#weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile C:/Users/marlo/wekafiles/packages/AffectiveTweets/lexicons/arabic/SemEval2016-Arabic-Twitter-Lexicon/list-Arabic-negators.arff -B ArabicNegations -A 1\" -I 1 -U"
+
+# LEXICONS_AR_BL="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile C:/Users/marlo/Documents/school/master/shared_task/repo/lexicons/arabic/translated_from_english/raw+arff/bingliu_ar.arff -B bingliu -A 1\" -I 1 -U"
+
+# LEXICONS_AR_MPQA="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile C:/Users/marlo/Documents/school/master/shared_task/repo/lexicons/arabic/translated_from_english/raw+arff/MPQA_ar.arff -B mpqa -A 1\" -I 1 -U"
+
+# LEXICONS_AR_S140="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile C:/Users/marlo/Documents/school/master/shared_task/repo/lexicons/arabic/translated_from_english/raw+arff/S140-unigrams-pmilexicon_ar.arff -B s140 -A 1\" -I 1 -U"
+
+# LEXICONS_AR_NRC_HS="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile C:/Users/marlo/Documents/school/master/shared_task/repo/lexicons/arabic/translated_from_english/raw+arff/NRC-HS-unigrams-pmilexicon_ar.arff -B nrc_hashtag -A 1\" -I 1 -U"
+
+# LEXICONS_AR_NRC_EMO="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToInputLexiconFeatureVector -O -lexicon_evaluator \"affective.core.ArffLexiconEvaluator -lexiconFile C:/Users/marlo/Documents/school/master/shared_task/repo/lexicons/arabic/translated_from_english/raw+arff/nrc_emotion_ar.arff -B nrc_emotion -A 1\" -I 1 -U"
+
 
 EMBEDDINGS_EN="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToEmbeddingsFeatureVector -I 1 -B C:/Users/marlo/wekafiles/packages/AffectiveTweets/resources/w2v.twitter.edinburgh.100d.csv.gz -S 0 -K 15 -L -O"
-EMBEDDINGS_ES="java -Xmx4G -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToEmbeddingsFeatureVector -I 1 -B C:/Users/marlo/Documents/school/master/shared_task/wordembeddings/sbw_vectors/sbw_vectors_ordered.csv.gz -S 0 -K 15 -L -O"
+EMBEDDINGS_ES="java -Xmx4G -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToEmbeddingsFeatureVector -I 1 -B C:/Users/marlo/Documents/school/master/shared_task/wordembeddings/Scraped_tok_embeddings.csv.gz -S 0 -K 15 -L -O"
 EMBEDDINGS_AR="java -Xmx4G -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToEmbeddingsFeatureVector -I 1 -B C:/Users/marlo/Documents/school/master/shared_task/wordembeddings/wiki.ar_reordered_test.csv.gz -S 0 -K 15 -L -O"
 
 
@@ -66,13 +76,14 @@ function feat_extractor {
 			do
 				echo $item
 				cd $REPO_FOLDER
-				FEATURE_NAME="lexicons.csv"
+				FEATURE_NAME="nrc_emotion.csv"
 				FILE_NAME=`echo $item | sed 's/.\{5\}$//' | xargs -d '-' -n3 | tail -2 | sed '/^$/d'`
 				EMOTION=`echo $FILE_NAME | cut -d' ' -f 2`
 				TYPE=`echo $FILE_NAME | cut -d' ' -f 3`
 				cd features/$1/$EMOTION/$TYPE
 				eval $REMOVE_ID "-i $item -o $SHARED_TASK_FOLDER/tmp1.arff"
 				eval ${!LEXICONS} "-i $SHARED_TASK_FOLDER/tmp1.arff -o $SHARED_TASK_FOLDER/tmp2.arff"
+				echo "reorder coming up"
 				eval $REORDER "-i $SHARED_TASK_FOLDER/tmp2.arff -o $SHARED_TASK_FOLDER/tmp.arff"
 				eval $SAVE "./$FEATURE_NAME"
 			done;;
@@ -86,7 +97,7 @@ function feat_extractor {
 			do
 				echo $item
 				cd $REPO_FOLDER
-				FEATURE_NAME="embeddings.csv"
+				FEATURE_NAME="embeddings_espana_1.csv"
 				FILE_NAME=`echo $item | sed 's/.\{5\}$//' | xargs -d '-' -n3 | tail -2 | sed '/^$/d'`
 				EMOTION=`echo $FILE_NAME | cut -d' ' -f 2`
 				TYPE=`echo $FILE_NAME | cut -d' ' -f 3`
@@ -197,10 +208,6 @@ function feat_extractor {
 
 }
 
-# function: parameter 1 = language abbreviation, parameter 2 = option (pick option between 1 and 7, see function), 3 = files for that language
-# you can change the language here: change both the first and third parameter (first == language, third == files for that language)
-# right now only ngrams and embeddings work for arabic and spanish
-feat_extractor "ar" 6 "$FILES_AR"
 
-
+feat_extractor "es" 3 "$FILES_ES"
 

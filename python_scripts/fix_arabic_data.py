@@ -79,7 +79,22 @@ def mpqa_to_arff(infile, outfile, delimiter=" ", parts=8):
 			after.write(new_line)
 			after.write("\n")
 
+def spanishemotionlexicon_to_arff(infile, outfile, delimiter="", parts=3):
+	"""first remove all instructions at the top, only provide the lines of actual data of the file """
+	with open(infile, "r", encoding="utf-8") as before, open(outfile, "w", encoding="utf-8") as after:
+		header='@relation '+infile+'\n\n@attribute spanish string \n@attribute emotion string\n@attribute score numeric\n\n@data\n'
+		after.write(header)
+		for line in before:
+			print(line)
+			parts = line.split()
+			spanish = parts[0]
+			emotion = parts[2]
+			score = parts[1]
+			new_line = '"{0}","{1}",{2}'.format(spanish, emotion, score)
+			after.write(new_line)
+			after.write("\n")
+
 if __name__ == "__main__":
 	args = create_arg_parser()
-	nrc_hashtag_s140_to_arff(args.f, args.o)
+	spanishemotionlexicon_to_arff(args.f, args.o)
 
