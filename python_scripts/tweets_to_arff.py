@@ -14,7 +14,7 @@
 # tweets_to_arff.py
 # felipebravom
 # Running example: python tweets_to_arff data/anger-ratings-0to1.test.target.tsv data/anger-ratings-0to1.test.target.arff
-import sys
+import sys, os, re
 
 
 def create_arff(input_file,output_file):
@@ -25,17 +25,17 @@ def create_arff(input_file,output_file):
 
 
 
-    out=open(output_file,"w")
-    header='@relation '+input_file+'\n\n@attribute id numeric \n@attribute tweet string\n@attribute emotion string\n@attribute score numeric \n\n@data\n'
+    out=open(output_file,"w", encoding="utf-8")
+    header='@relation '+ '"' + input_file+ '"' + '\n\n@attribute id string \n@attribute tweet string\n@attribute emotion string\n@attribute score numeric \n\n@data\n'
     out.write(header)
 
 
 
-    f=open(input_file, "rb")
+    f=open(input_file, "r", encoding="utf-8")
     lines=f.readlines()
 
 
-    for line in lines:
+    for line in lines[1:]:
         parts=line.split("\t")
         if len(parts)==4:
 
@@ -45,8 +45,9 @@ def create_arff(input_file,output_file):
             score=parts[3].strip()
             score = score if score != "NONE" else "?"
 
-            out_line=id+',\"'+tweet+'\",'+'\"'+emotion+'\",'+score+'\n'
+            out_line='"{0}","{1}","{2}", {3}'.format(id, tweet, emotion, score)
             out.write(out_line)
+            out.write("\n")
         else:
             print("Wrong format")
 
@@ -55,14 +56,13 @@ def create_arff(input_file,output_file):
     out.close()
 
 
-
-
-
-def main(argv):
-    input_file=argv[0]
-    output_file=argv[1]
-    create_arff(input_file,output_file)
-
-
 if __name__ == "__main__":
-    main(sys.argv[1:])
+    # find files in certain directory that need to be converted
+    for root, dirs, files in os.walk("./files_to_convert"):
+        for file in files:
+            if file.endswith(".txt"):
+                file = os.path.join(root, file)
+                name = re.split('[.]', file)
+                out = "." + name[1] + ".arff"
+                print(out)
+                create_arff(file, out)

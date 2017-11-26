@@ -1,14 +1,31 @@
 # -*- coding: utf-8 -*-
 import re
+import sys
+import glob, os
 
-f = "../../train_data/Ar-train/txt/2018-EI-reg-Ar-sadness-dev.txt"
-o = "../../new_train/ar/2018-EI-reg-ar-sadness-dev.txt"
 
-with open(f, encoding="UTF-8") as infile, open(o, "a+", encoding="UTF-8") as outfile:
-	infile = infile.readlines()
-	for line in infile:
-		line_id, tweet, emotion, intensity = line.split("\t")
-		new_tweet = tweet.replace('"', '')
-		new_line = "\t".join([line_id, new_tweet, emotion, intensity])
-		outfile.write(new_line)
 
+def remove_quotes(input, output):
+	# write to temp
+	with open(input, "r", encoding="UTF-8") as infile, open(output, "w", encoding="UTF-8") as outfile:
+		infile = infile.readlines()
+		for line in infile:
+			line_id, tweet, emotion, intensity = line.split("\t")
+			new_tweet = tweet.replace('"', '')
+			new_line = "\t".join([line_id, new_tweet, emotion, intensity])
+			outfile.write(new_line)
+	# write to input file from temp
+	with open(output, "r", encoding="utf-8") as infile, open(input, "w", encoding="utf-8") as outfile:
+		for line in infile:
+			outfile.write(line)
+
+
+if __name__ == "__main__":
+	# find files in certain directory that need to be converted
+	for root, dirs, files in os.walk("./files_to_convert"):
+	    for file in files:
+	        if file.endswith(".txt"):
+	             file = os.path.join(root, file)
+	             print(file)
+	             remove_quotes(file, "temp.txt")
+   	
