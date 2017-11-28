@@ -34,8 +34,8 @@ def clean_tweets(tweets):
     tweets_final = []
     for line in tweets:
         # fetch only the tweet, not metadata
-        #tweet = line.split("\t")[0]
-        tweet = tokenize_tweet(line)
+        tweet = line.split("\t")[0]
+        tweet = tokenize_tweet(tweet)
         cleaned_tweet = retweet_remove(url_to_placeholder(number_to_placeholder(reference_to_placeholder(tweet))))
         if min_length(cleaned_tweet):
             tweets_final.append(cleaned_tweet)
