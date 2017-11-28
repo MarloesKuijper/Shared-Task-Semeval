@@ -93,4 +93,4 @@ def gzip_reordered_file(reordered_dir):
 
 reorder(rootdir, reordered_dir)
 
-gzip(reordered_dir)
+gzip_reordered_file(reordered_dir)
