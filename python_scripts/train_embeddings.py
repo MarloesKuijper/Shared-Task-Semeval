@@ -1,7 +1,7 @@
 # import modules & set up logging
 import gensim, logging
 from gensim.models.word2vec import LineSentence
-import os, re, shlex
+import os, re, shlex, sys
 import subprocess
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
@@ -23,9 +23,10 @@ def change_columns(f):
 	return new_list	
  
 # file which contains the preprocessed tweets
-preprocessed_text_file = '../embedding_files/1st_batch_prepro.txt'
+# '../embedding_files/1st_batch_prepro.txt'
+preprocessed_text_file = sys.argv[1]
 # loads data_file as sentences of tokens (automatically splits the data for us)
-sentences = LineSentence(preprocessed_text_file)
+# sentences = LineSentence(preprocessed_text_file)
 
 # ignore for now, this is to merge the first and second batch and train on the total
 # sentences2 = LineSentence('../embedding_files/2nd_batch_prepro.txt')
@@ -49,11 +50,11 @@ alpha = []
 ## CREATE FOR LOOP HERE OVER THE DIFFERENT PARAMETERS: e.g. for item in min_count: for item in size etc. and then train model for each combination
 
 # train word2vec on the data > Insert this into your for loop (see above) and change parameters of model here to index of lists above e.g.  min_count=min_count[i] or something
-model = gensim.models.Word2Vec(sentences, min_count=10, size=200, workers=1)
+# model = gensim.models.Word2Vec(sentences, min_count=10, size=200, workers=1)
 
-# save model and change output file name to something that includes the parameter settings e.g. spanish_embeddings_mincount_10_size_100_workers_4.txt
-outfile_name = "../trained_embeddings/tweets_1stbatch_2.txt"
-model.wv.save_word2vec_format(outfile_name, binary=False)
+# # save model and change output file name to something that includes the parameter settings e.g. spanish_embeddings_mincount_10_size_100_workers_4.txt
+# outfile_name = "../trained_embeddings/tweets_1stbatch_2.txt"
+# model.wv.save_word2vec_format(outfile_name, binary=False)
 
 # this is to load the model: you can play around with it, and check stuff if you suspect something is wrong > e.g. you can print the vocabulary
 #new_model = gensim.models.KeyedVectors.load_word2vec_format('tweets_1stbatch.txt')
@@ -91,6 +92,6 @@ def gzip_reordered_file(reordered_dir):
 
 			
 
-reorder(rootdir, reordered_dir)
+#reorder(rootdir, reordered_dir)
 
 gzip_reordered_file(reordered_dir)
