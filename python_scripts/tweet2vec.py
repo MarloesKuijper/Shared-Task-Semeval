@@ -42,8 +42,6 @@ if __name__ == "__main__":
 
 	# Loading data
 	def ingest():
-		#need to change to argument
-		# data = pd.read_csv('/home/unseen/Documents/University/tweets/spanish/Es-dev.csv')
 		data = pd.read_table(args.i, header=None)
 		print 'dataset loaded with shape', data.shape    
 		return data
@@ -57,11 +55,6 @@ if __name__ == "__main__":
 		try:
 			tweet = unicode(tweet.decode('utf-8').lower())
 			tokens = tokenizer.tokenize(tweet)
-			tokens = filter(lambda t: not t.startswith('@'), tokens)
-			tokens = filter(lambda t: not t.startswith('#'), tokens)
-			tokens = filter(lambda t: not t.startswith('http'), tokens)
-			tokens = filter(lambda t: not t.startswith('u'), tokens)
-			tokens = filter(lambda t: not t.startswith('r'), tokens)
 			return tokens
 		except:
 			return 'NC'
@@ -69,7 +62,6 @@ if __name__ == "__main__":
 	def postprocess(data, n=data.shape[0]):
 		data = data.head(n)
 		data['tokens'] = data[0].progress_map(tokenize)  ## progress_map is a variant of the map function plus a progress bar. Handy to monitor DataFrame creations.
-		data = data[data.tokens != 'NC']
 		data.reset_index(inplace=True)
 		data.drop('index', inplace=True, axis=1)
 		return data
@@ -78,7 +70,7 @@ if __name__ == "__main__":
 
 	#-------------------------------------------------------------------------
 	# Building word2vec model
-	n = data.shape[0] #Dont know, n is not defined? 2000 Seems to be length of dataset 
+	n = data.shape[0] #length of dataset
 	x_train, x_test = train_test_split(np.array(data.head(n).tokens),
 			                                             test_size=0.2)
 
@@ -94,16 +86,13 @@ if __name__ == "__main__":
 
 	x_train[2]
 
-	n_dim = 200 #added through helpful comment
+	n_dim = 200 #added through helpful comment. !should be argument!
 	tweet_w2v = Word2Vec(size=n_dim, min_count=10)
 	tweet_w2v.build_vocab([x.words for x in tqdm(x_train)])
-	#tweet_w2v.train([x.words for x in tqdm(x_train)])
-	#replaced through helpful comment
 	tweet_w2v.train([x.words for x in tqdm(x_train)],total_examples=tweet_w2v.corpus_count, epochs=tweet_w2v.iter)
 
 	#-------------------------------------------------------------------------
 	#storing embeddings
-	# tweet_w2v.wv.save_word2vec_format('/home/unseen/Documents/University/tweets/spanish/Es-dev_embeddings.txt', binary=False)
-	tweet_w2v.wv.save_word2vec_format(args.o, binary=False)
+	tweet_w2v.wv.save_word2vec_format(args.o, fvocab=None, binary=False, total_vec=None)
 
-# python tweet2vec.py -i /home/unseen/Documents/University/tweets/spanish/Es-dev.csv -o /home/unseen/Documents/University/tweets/spanish/Es-dev_embeddings.txt
+# python tweet2vec.py -i /home/unseen/Documents/University/tweets/Spanish/Scraped/test_filt_tok.txt -o /home/unseen/Documents/University/embeddings/Spanish/test_tok_filt.csv

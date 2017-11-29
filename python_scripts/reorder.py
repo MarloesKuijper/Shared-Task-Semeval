@@ -37,7 +37,7 @@ def change_columns(f):
 	
 if __name__ == "__main__":
 	args = create_arg_parser()
-	print("args returened")
+	print("args returned")
 	new_list = change_columns(args.f)
 	print("colums changed")
 	write_to_file(new_list, args.o) #write output	
