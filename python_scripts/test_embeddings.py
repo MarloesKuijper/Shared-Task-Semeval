@@ -52,6 +52,8 @@ def get_files(files):
 def extract_features(feat_dir, trained_embeddings, emotion_data):
 	'''Extract features from files and save in feat_dir'''
 	
+	#Save names with embedding file so that we can find the best embedding set more easily later
+	
 	for embedding in trained_embeddings:
 		for emotion_file in emotion_data:
 
@@ -69,7 +71,7 @@ def extract_features(feat_dir, trained_embeddings, emotion_data):
 				embedding = embedding.replace("\\", "/")
 					
 			feature_name = feat_dir + embedding_name + "_" + emotion_name + ".csv"
-	
+			
 			# runt een bash script dat de features uit de embeddings haalt
 			os_call = " ".join([script, embedding, emotion_file, feature_name])
 			subprocess.call(os_call, shell=True)
@@ -101,7 +103,14 @@ if __name__ == "__main__":
 	feature_vectors = get_files(args.features)
 	
 	## Run different algorithm on all feature vectors, print results
+	
+	emb_dict = {} #different embeddings
+	
 	for f in feature_vectors:
+		
+		## Get embedding type - works for Linux please check if it does for Windows - if it doesn't
+		## do a similar if/else construction as in extract_features()
+		emb_type = f.split('/')[-1].split('-')[0] 
 		dataset = np.loadtxt(f, delimiter=",", skiprows = 1)
 
 		## split into input (X) and output (Y) variables ##
@@ -114,3 +123,19 @@ if __name__ == "__main__":
 		svm_clf = svm.SVR()
 		print('Training SVM...\n')
 		pearson_svm = train_test_pearson(svm_clf, X_train, y_train, X_test, y_test)
+		
+		## Save results in dictionary
+		if emb_type in emb_dict:
+			emb_dict[emb_type].append(pearson_svm)
+		else:
+			emb_dict[emb_type] = [pearson_svm]
+		
+	## Get best embeddings (average of 4 scores)	
+	best_score = 0	
+	for emb in emb_dict:
+		score = float(sum(emb_dict[emb])) / len(emb_dict[emb])
+		if score > best_score:
+			best_score = score
+			best_embed = emb
+	
+	print ('Best embedding: {0}\nWith score: {1}'.format(best_embed, best_score))			
