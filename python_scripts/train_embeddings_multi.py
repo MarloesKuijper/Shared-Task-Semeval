@@ -37,10 +37,12 @@ sentences = LineSentence(preprocessed_text_file)
 # default of min_count = 5
 min_count = [0,5,10]
 # default of size = 100
-size = [200,300,400]
+size = [150,200,250]
+# default size = ?
+window = [1,5,20]
 # default = 1
 workers = [] # not sure about this
-# sg defines the training algorithm > sg=0 is CBOW sg=1 is skipgram 
+# sg defines the training algorithm > sg=0 is CBOW sg=1 is skipgram. Most seem to use Skip-gram?
 sg = [0, 1]
 # sample = threshold for configuring which higher-frequency words are randomly downsampled; default is 1e-3, useful range is (0, 1e-5).
 sample = []
@@ -50,13 +52,14 @@ alpha = []
 ## CREATE FOR LOOP HERE OVER THE DIFFERENT PARAMETERS: e.g. for item in min_count: for item in size etc. and then train model for each combination
 for imin in min_count:
 	for isize in size:
+		for iwin in window:
 
-		# train word2vec on the data > Insert this into your for loop (see above) and change parameters of model here to index of lists above e.g.  min_count=min_count[i] or something
-		model = gensim.models.Word2Vec(sentences, min_count=imin, size=isize, workers=1)
+			# train word2vec on the data > Insert this into your for loop (see above) and change parameters of model here to index of lists above e.g.  min_count=min_count[i] or something
+			model = gensim.models.Word2Vec(sentences, min_count=imin, size=isize, window=iwin, workers=1)
 
-		# # save model and change output file name to something that includes the parameter settings e.g. spanish_embeddings_mincount_10_size_100_workers_4.txt
-		outfile_name = "../trained_embeddings/1000test"+"_min"+str(imin)+"_size"+str(isize)+".txt"
-		model.wv.save_word2vec_format(outfile_name, binary=False)
+			# # save model and change output file name to something that includes the parameter settings e.g. spanish_embeddings_mincount_10_size_100_workers_4.txt
+			outfile_name = "../trained_embeddings/1000test"+"_min"+str(imin)+"_size"+str(isize)+"_win"+ str(iwin)+ ".txt"
+			model.wv.save_word2vec_format(outfile_name, binary=False)
 
 # this is to load the model: you can play around with it, and check stuff if you suspect something is wrong > e.g. you can print the vocabulary
 #new_model = gensim.models.KeyedVectors.load_word2vec_format('tweets_1stbatch.txt')
