@@ -1,0 +1,15 @@
+outraged  0.964  anger
+brutality  0.959  anger
+hatred  0.953  anger
+hateful  0.940  anger
+terrorize  0.939  anger
+outraged  0.964  anger
+brutality  0.959  anger
+hatred  0.953  anger
+hateful  0.940  anger
+terrorize  0.939  anger
+outraged  0.964  anger
+brutality  0.959  anger
+hatred  0.953  anger
+hateful  0.940  anger
+terrorize  0.939  anger

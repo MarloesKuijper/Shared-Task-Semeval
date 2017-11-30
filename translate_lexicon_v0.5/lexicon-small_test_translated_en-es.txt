@@ -1,0 +1,15 @@
+indignado	0.964	anger
+brutalidad	0.959	anger
+aversión	0.953	anger
+hateful	0.940	anger
+terrorize	0.939	anger
+indignado	0.964	anger
+brutalidad	0.959	anger
+aversión	0.953	anger
+hateful	0.940	anger
+terrorize	0.939	anger
+indignado	0.964	anger
+brutalidad	0.959	anger
+aversión	0.953	anger
+hateful	0.940	anger
+terrorize	0.939	anger
