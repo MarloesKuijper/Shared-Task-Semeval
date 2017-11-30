@@ -8,13 +8,11 @@
 
 """
 
-import os, sys, re, subprocess, shlex
-## Keras
-
-import keras
-from keras.models import Sequential
-from keras.layers import Dense
-from keras.wrappers.scikit_learn import KerasRegressor
+import os, sys, re, subprocess, shlex, argparse
+from tqdm import tqdm
+import numpy as np
+import pyexcel as p
+import csv
 
 ## Sklearn
 
@@ -27,19 +25,20 @@ from sklearn.model_selection import KFold
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
 
-from tqdm import tqdm
-import numpy as np
-import pyexcel as p
-import csv
 
-### USAGE: python test_embeddings.py trained_embeddings_dir emotion_data_dir feature_dir
+### USAGE: python test_embeddings.py - w trained_embeddings_dir -e emotion_data_dir  -f feature_dir [--no_extract] [--unix]
 
-# zonder trailing /
-trained_embeddings_dir = sys.argv[1]
-# met es van espanol
-emotion_data_dir = sys.argv[2]
-# met trailing /
-feature_dir = sys.argv[3]
+
+def create_arg_parser():
+	parser = argparse.ArgumentParser()
+	parser.add_argument("-e","--emotion", required=True, type=str, help="Directory with emotion files")
+	parser.add_argument("-w","--word_embeddings", required=True, type=str, help="Directory with word embedding files")
+	parser.add_argument("-f","--features", required=True, type=str, help="Directory to save extracted feature-files to (or only get features if using --no_extract)")
+	parser.add_argument("-n","--no_extract", action = 'store_true', help="We only have to do feature extraction once, by including this parameter we just read the features from --features")
+	parser.add_argument("-u","--unix", action = 'store_true', help="If you run on some Linux system there is a different way of splitting paths etc, so then add this")
+	args = parser.parse_args()
+	return args
+
 
 def get_files(files):
 	""" returns files from directory (and subdirectories) """ 
@@ -49,29 +48,34 @@ def get_files(files):
 	        file_list.append(os.path.join(path, name))
 	return file_list
 
-trained_embeddings = get_files(trained_embeddings_dir)
-emotion_data = get_files(emotion_data_dir)
 
 def extract_features(feat_dir, trained_embeddings, emotion_data):
-	for embedding in trained_embeddings[:1]:
-		for emotion_file in emotion_data[:1]:
-			print(emotion_file)
-			embedding_name =  re.split("[.]", embedding.split("\\")[-1])[0]
-			emotion_name = re.split("[.]", emotion_file.split("\\")[-1])[0]
+	'''Extract features from files and save in feat_dir'''
+	
+	for embedding in trained_embeddings:
+		for emotion_file in emotion_data:
+
+			## Solve issues with splitting file paths in unix/windows (mac?)
+			if args.unix:
+				embedding_name = embedding.replace('..','').split('.')[0].split('/')[-1]
+				emotion_name = emotion_file.replace('..','').split('.')[0].split('/')[-1]
+				script = './embedding_test.sh'
+			else:
+				embedding_name =  re.split("[.]", embedding.split("\\")[-1])[0]
+				emotion_name = re.split("[.]", emotion_file.split("\\")[-1])[0]
+				script = 'embedding_test.sh'
+				# dit zijn windows issues met backslash en forwardslash 
+				emotion_file = emotion_file.replace("\\", "/")
+				embedding = embedding.replace("\\", "/")
+					
 			feature_name = feat_dir + embedding_name + "_" + emotion_name + ".csv"
-
-			# dit zijn windows issues met backslash en forwardslash 
-			emotion_file = emotion_file.replace("\\", "/")
-			embedding = embedding.replace("\\", "/")
-
+	
 			# runt een bash script dat de features uit de embeddings haalt
-			subprocess.call(["embedding_test.sh", embedding, emotion_file, feature_name], shell=True)
+			os_call = " ".join([script, embedding, emotion_file, feature_name])
+			subprocess.call(os_call, shell=True)
 			
-			print("features successfully extracted")
+	print("Features successfully extracted")
 
-
-
-#extract_features(feature_dir, trained_embeddings, emotion_data)
 
 def train_test_pearson(clf, X_train, y_train, X_test, y_test):
 	'''Function that does fitting and pearson correlation'''
@@ -81,35 +85,32 @@ def train_test_pearson(clf, X_train, y_train, X_test, y_test):
 
 	return pearsonr(res, y_test)[0]
 
-def baseline_model(nodes, input_dim):
-	# create model
-	model = Sequential()
-	model.add(Dense(nodes, input_dim = input_dim, kernel_initializer='normal', activation='relu'))
-	model.add(Dense(1, kernel_initializer='normal'))
-	# Compile model
-	model.compile(loss='mean_squared_error', optimizer='adam')
-	return model
 
+if __name__ == "__main__":
+	args = create_arg_parser()
+	
+	## Get files from directories
+	trained_embeddings 	= get_files(args.word_embeddings)
+	emotion_data 		= get_files(args.emotion)
+	
+	## Skip feature extraction if we already did that in a previous run
+	if not args.no_extract:	
+		extract_features(args.features, trained_embeddings, emotion_data)
+	
+	## Get feature vectors from directory
+	feature_vectors = get_files(args.features)
+	
+	## Run different algorithm on all feature vectors, print results
+	for f in feature_vectors:
+		dataset = np.loadtxt(f, delimiter=",", skiprows = 1)
 
+		## split into input (X) and output (Y) variables ##
+		X = dataset[:,0:-1] #select everything but last column (label)
+		Y = dataset[:,-1]   #select column
+		X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=0)
 
-feature_vectors = get_files(feature_dir)
-
-for file in feature_vectors:
-	dataset = np.loadtxt(file, delimiter=",", skiprows = 1)
-
-	## split into input (X) and output (Y) variables ##
-	X = dataset[:,0:-1] #select everything but last column (label)
-	Y = dataset[:,-1]   #select column
-	X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=0)
-
-	print("PREDICTIONS ", file)
-	## SVM test ##
-	svm_clf = svm.SVR()
-	print('Training SVM...\n')
-	pearson_svm = train_test_pearson(svm_clf, X_train, y_train, X_test, y_test)
-
-	## Running baseline neural model ##
-	print('Training neural baseline...\n')
-	input_dim = len(X_train[0]) #input dimension is a necessary argument for the baseline model
-	estimator = KerasRegressor(build_fn=baseline_model, nodes = 150, input_dim = input_dim, nb_epoch=100, batch_size=5, verbose=0)
-	pearson_neural = train_test_pearson(estimator, X_train, y_train, X_test, y_test)
+		print("PREDICTIONS: \n", f)
+		## SVM test ##
+		svm_clf = svm.SVR()
+		print('Training SVM...\n')
+		pearson_svm = train_test_pearson(svm_clf, X_train, y_train, X_test, y_test)

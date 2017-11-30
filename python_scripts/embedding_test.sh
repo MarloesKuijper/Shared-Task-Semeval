@@ -1,22 +1,26 @@
-#!bin/bash
+#!/bin/bash
 
+## Script to extract features for certain trained word embeddings + data file
+
+#source config file to have $WEKA_HOME
+source /home/p266548/Documents/affect_tweets/Shared-Task-Semeval/config.sh
+
+#get files from command line parameters
 EMBEDDING_FILE=$1
 EMOTION_FILE=$2
 FEATURE_FILE=$3
 
-echo $EMBEDDING_FILE
-echo $EMOTION_FILE
-echo $FEATURE_FILE
-# step 1: remove id
-# REMOVE_ID="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.RemoveByName -E ^.*id$"
-# EMBEDDINGS_ES="java -Xmx4G -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToEmbeddingsFeatureVector -I 1 -B C:/Users/marlo/Documents/school/master/shared_task/wordembeddings/Scraped_tok_embeddings.csv.gz -S 0 -K 15 -L -O"
-# # step 3: reorder
-# REORDER="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.Reorder -R 4-last,3"
+WEKA_JAR='weka.jar'
+WEKA_CALL=$WEKA_HOME$WEKA_JAR
 
-# # step 4: save
-# SAVE="java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.core.converters.CSVSaver -i tmp.arff -o"
+#Remove ID
+eval "java -cp $WEKA_CALL weka.Run weka.filters.unsupervised.attribute.RemoveByName -E ^.*id$ -i $EMOTION_FILE -o tmp1.arff"
 
-eval "java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.RemoveByName -E ^.*id$ -i $EMOTION_FILE -o tmp1.arff"
-eval "java -Xmx4G -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.TweetToEmbeddingsFeatureVector -I 1 -B $EMBEDDING_FILE -S 0 -K 15 -L -O -i tmp1.arff -o tmp2.arff"
-eval "java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.filters.unsupervised.attribute.Reorder -R 4-last,3 -i tmp2.arff -o tmp.arff"
-eval "java -cp /c/Program\ Files/Weka-3-8/weka.jar weka.Run weka.core.converters.CSVSaver -i tmp.arff -o $FEATURE_FILE"
+#Add embeddings
+eval "java -Xmx4G -cp $WEKA_CALL weka.Run weka.filters.unsupervised.attribute.TweetToEmbeddingsFeatureVector -I 1 -B $EMBEDDING_FILE -S 0 -K 15 -L -O -i tmp1.arff -o tmp2.arff"
+
+#Reorder to have correct format
+eval "java -cp $WEKA_CALL weka.Run weka.filters.unsupervised.attribute.Reorder -R 4-last,3 -i tmp2.arff -o tmp.arff"
+
+#Save features
+eval "java -cp $WEKA_CALL weka.Run weka.core.converters.CSVSaver -i tmp.arff -o $FEATURE_FILE"
