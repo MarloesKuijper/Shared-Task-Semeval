@@ -32,13 +32,14 @@ def save_tokens_from_original_lexicon(directory, input_token_file, target_file):
                     #########################################################################################
                     #   Warning!                                                                            #
                     #   The position of token(s) to be translated depends on the original lexicon format    #
-                                                                  #
+                                                                #
                     #                                                                                       #
                     #########################################################################################
 
                     new_token = input_tokens[index]
                     new_token = new_token.rstrip()
 
+                    print(new_token.split())
 
                     # remove de, la and las
                     if 'de ' in new_token or 'la ' in new_token or 'las ' in new_token:
@@ -48,7 +49,7 @@ def save_tokens_from_original_lexicon(directory, input_token_file, target_file):
 
 
                     # remove other multi tokens and write new token to file
-                    if len(new_token) == 2:
+                    if len(new_token.split()) == 1:
                         print(new_token)
                         outfile.write(new_token.rstrip() + "\n")  # write line to new file
 

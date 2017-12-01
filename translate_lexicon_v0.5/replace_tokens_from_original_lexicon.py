@@ -40,11 +40,17 @@ def replace_tokens_in_original_lexicon(lexicon, directory, target_file, token_po
                     #########################################################################################
 
 
-                    new_token = input_tokens[index]
-                    new_token = new_token.rstrip()
+                    if replace_tokens_in_original_lexicon:
+                        new_token = input_tokens[index]
+                        new_token = new_token.rstrip()
+
+                        if new_token == "":
+                            continue
 
                         if token_position == 0:
+                            # print(new_token)
                             new_line = str(new_token) + "\t" + str(tokens[1]) + "\t" + str(tokens[2])  #
+                            print(new_line)
 
                         if token_position == 1:
                             new_line = str(tokens[0]) + "\t" + str(new_token) + "\t" + str(tokens[2])  #
@@ -67,10 +73,8 @@ def main():
     t0 = time.time()
 
     # argument control / start the process
-
-    print(len(sys.argv))
     if len(sys.argv) != 5:
-        print("Usage: save_tokens_from_original_lexicon.py <lexicon> <target_file> <token_input_list> <token_position> ")  # token position starts from 0!
+        print("Usage: save_tokens_from_original_lexicon.py  <lexicon>    <target_file>  <token_position_to_replace>  <token_input_list>")  # token position starts from 0!
         print()
         print("Usage: python3 bash.py NRC-emotion-lexicon-wordlevel-v0.92.txt NRC-translated.txt 0")
         sys.exit (1)
