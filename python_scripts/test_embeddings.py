@@ -20,7 +20,7 @@ from sklearn import svm
 from sklearn.model_selection import train_test_split
 from sklearn import datasets
 from scipy.stats import pearsonr
-from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import cross_val_predict
 from sklearn.model_selection import KFold
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
@@ -83,12 +83,14 @@ def extract_features(feat_dir, trained_embeddings, emotion_data):
 
 
 def train_test_pearson(clf, X_train, y_train, X_test, y_test):
-	'''Function that does fitting and pearson correlation'''
+	'''Function that does fitting and pearson correlation
+	   Note: added cross validation'''
+	
 	clf.fit(X_train, y_train)
-	res = clf.predict(X_test)
+	res = cross_val_predict(clf, X_test, y_test, cv=len(X_test))
 	print("Pearson coefficient: {0}\n".format(pearsonr(res,y_test)[0]))
 
-	return pearsonr(res, y_test)[0]
+	return round(pearsonr(res, y_test)[0],4)
 
 
 if __name__ == "__main__":
@@ -132,13 +134,16 @@ if __name__ == "__main__":
 			emb_dict[emb_type].append(pearson_svm)
 		else:
 			emb_dict[emb_type] = [pearson_svm]
+	
+	
 		
-	## Get best embeddings (average of 4 scores)	
-	best_score = 0	
+	## Print sorted scores	
+	new_dict = {}
 	for emb in emb_dict:
 		score = float(sum(emb_dict[emb])) / len(emb_dict[emb])
-		if score > best_score:
-			best_score = score
-			best_embed = emb
+		new_dict[emb] = score
 	
-	print ('Best embedding: {0}\nWith score: {1}'.format(best_embed, best_score))			
+	print ('Sorted ranking of scores: \n')
+	
+	for w in sorted(new_dict, key=new_dict.get, reverse=True):
+		print (w, new_dict[w])		
