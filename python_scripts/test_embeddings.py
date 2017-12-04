@@ -82,15 +82,14 @@ def extract_features(feat_dir, trained_embeddings, emotion_data):
 	print("Features successfully extracted")
 
 
-def train_test_pearson(clf, X_train, y_train, X_test, y_test):
+def train_test_pearson(clf, X, Y):
 	'''Function that does fitting and pearson correlation
 	   Note: added cross validation'''
-	
-	clf.fit(X_train, y_train)
-	res = cross_val_predict(clf, X_test, y_test, cv=len(X_test))
-	print("Pearson coefficient: {0}\n".format(pearsonr(res,y_test)[0]))
 
-	return round(pearsonr(res, y_test)[0],4)
+	res = cross_val_predict(clf, X, Y, cv=10)
+	print("Pearson coefficient: {0}\n".format(pearsonr(res,Y)[0]))
+
+	return round(pearsonr(res, Y)[0],4)
 
 
 if __name__ == "__main__":
@@ -121,13 +120,12 @@ if __name__ == "__main__":
 		## split into input (X) and output (Y) variables ##
 		X = dataset[:,0:-1] #select everything but last column (label)
 		Y = dataset[:,-1]   #select column
-		X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=0)
 
 		print("PREDICTIONS: \n", f)
 		## SVM test ##
 		svm_clf = svm.SVR()
 		print('Training SVM...\n')
-		pearson_svm = train_test_pearson(svm_clf, X_train, y_train, X_test, y_test)
+		pearson_svm = train_test_pearson(svm_clf, X, Y)
 		
 		## Save results in dictionary
 		if emb_type in emb_dict:
