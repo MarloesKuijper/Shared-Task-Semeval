@@ -36,16 +36,19 @@ def create_arg_parser():
 	parser.add_argument("-f","--features", required=True, type=str, help="Directory to save extracted feature-files to (or only get features if using --no_extract)")
 	parser.add_argument("-n","--no_extract", action = 'store_true', help="We only have to do feature extraction once, by including this parameter we just read the features from --features")
 	parser.add_argument("-u","--unix", action = 'store_true', help="If you run on some Linux system there is a different way of splitting paths etc, so then add this")
+	parser.add_argument("-ee","--emb_ext", default = '.csv.gz', type=str, help="Extension of word embedding file (default .csv.gz)")
 	args = parser.parse_args()
 	return args
 
 
-def get_files(files):
-	""" returns files from directory (and subdirectories) """ 
+def get_files(files, ext):
+	""" returns files from directory (and subdirectories) 
+		Only get files with certain extension, but if ext == 'all' we get everything """ 
 	file_list = []
 	for path, subdirs, files in os.walk(files):
-	    for name in files:
-	        file_list.append(os.path.join(path, name))
+		for name in files:
+			if name.endswith(ext) or ext == 'all':
+				file_list.append(os.path.join(path, name))
 	return file_list
 
 
@@ -92,15 +95,15 @@ if __name__ == "__main__":
 	args = create_arg_parser()
 	
 	## Get files from directories
-	trained_embeddings 	= get_files(args.word_embeddings)
-	emotion_data 		= get_files(args.emotion)
+	trained_embeddings 	= get_files(args.word_embeddings, args.emb_ext)
+	emotion_data 		= get_files(args.emotion, '.arff')
 	
 	## Skip feature extraction if we already did that in a previous run
 	if not args.no_extract:	
 		extract_features(args.features, trained_embeddings, emotion_data)
 	
 	## Get feature vectors from directory
-	feature_vectors = get_files(args.features)
+	feature_vectors = get_files(args.features, 'all')
 	
 	## Run different algorithm on all feature vectors, print results
 	
