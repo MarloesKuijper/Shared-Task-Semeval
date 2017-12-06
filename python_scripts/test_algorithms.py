@@ -58,7 +58,7 @@ if __name__ == "__main__":
 	##Loop over different scores per file
 	for f in feature_vectors:
 		## Try a few different regression algorithms -- taken from http://scikit-learn.org/stable/supervised_learning.html
-		print 'Start testing different algorithms for {0}'.format(f)
+		print ('Start testing different algorithms for {0}'.format(f))
 		dataset = np.loadtxt(f, delimiter=",", skiprows = 1)
 
 		## split into input (X) and output (Y) variables ##
@@ -115,6 +115,6 @@ if __name__ == "__main__":
 		all_ids = ['svm_default', 'ridge', 'lasso', 'knn', 'tree', 'mlp', 'forrests', 'adaboost', 'gradient', 'best_knn', 'best_svm']
 		
 		for s,i in zip(all_scores, all_ids):
-			print i, s
+			print (i, s)
 		
 		print ('\nBest algorithm: {0} with score {1}'.format(all_ids[all_scores.index(max(all_scores))], max(all_scores)))
