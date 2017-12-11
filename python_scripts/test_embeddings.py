@@ -9,7 +9,6 @@
 """
 
 import os, sys, re, subprocess, shlex, argparse
-from tqdm import tqdm
 import numpy as np
 import pyexcel as p
 import csv
@@ -75,9 +74,10 @@ def extract_features(feat_dir, trained_embeddings, emotion_data):
 					
 			feature_name = feat_dir + embedding_name + "_" + emotion_name + ".csv"
 			
-			# runt een bash script dat de features uit de embeddings haalt
-			os_call = " ".join([script, embedding, emotion_file, feature_name])
-			subprocess.call(os_call, shell=True)
+			if not os.path.isfile(feature_name):
+				# runt een bash script dat de features uit de embeddings haalt -- only if file does not exist
+				os_call = " ".join([script, embedding, emotion_file, feature_name])
+				subprocess.call(os_call, shell=True)
 			
 	print("Features successfully extracted")
 
@@ -95,21 +95,27 @@ def train_test_pearson(clf, X, Y):
 if __name__ == "__main__":
 	args = create_arg_parser()
 	
+	## Create directory to save results to
+	result_dir = args.features + 'results'
+	result_file = result_dir + '/results.txt'
+	subprocess.call("mkdir -p {0}".format(result_dir), shell = True)
+	
 	## Get files from directories
 	trained_embeddings 	= get_files(args.word_embeddings, args.emb_ext)
 	emotion_data 		= get_files(args.emotion, '.arff')
-	
+
 	## Skip feature extraction if we already did that in a previous run
 	if not args.no_extract:	
 		extract_features(args.features, trained_embeddings, emotion_data)
 	
 	## Get feature vectors from directory
-	feature_vectors = get_files(args.features, 'all')
+	feature_vectors = get_files(args.features, '.csv')
 	
 	## Run different algorithm on all feature vectors, print results
 	
 	emb_dict = {} #different embeddings
 	
+	print ('Start looping over feature vectors, train SVM for each\n')
 	for f in feature_vectors:
 		
 		## Get embedding type - works for Linux please check if it does for Windows - if it doesn't
@@ -121,10 +127,8 @@ if __name__ == "__main__":
 		X = dataset[:,0:-1] #select everything but last column (label)
 		Y = dataset[:,-1]   #select column
 
-		print("PREDICTIONS: \n", f)
 		## SVM test ##
 		svm_clf = svm.SVR()
-		print('Training SVM...\n')
 		pearson_svm = train_test_pearson(svm_clf, X, Y)
 		
 		## Save results in dictionary
@@ -134,14 +138,14 @@ if __name__ == "__main__":
 			emb_dict[emb_type] = [pearson_svm]
 	
 	
-		
-	## Print sorted scores	
+	## Reorder dict so we can sort in the next step
 	new_dict = {}
 	for emb in emb_dict:
 		score = float(sum(emb_dict[emb])) / len(emb_dict[emb])
 		new_dict[emb] = score
 	
-	print ('Sorted ranking of scores: \n')
-	
-	for w in sorted(new_dict, key=new_dict.get, reverse=True):
-		print (w, new_dict[w])		
+	## Print sorted results to file
+	with open(result_file, 'w') as out_f:
+		out_f.write('Sorted ranking of scores: \n\n')
+		for w in sorted(new_dict, key=new_dict.get, reverse=True):
+			out_f.write(str(w) + ' ' + str(new_dict[w]) + '\n')		
