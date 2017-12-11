@@ -77,7 +77,7 @@ def get_train_data(d, ext):
 	sents = []
 	for root, dirs, files in os.walk(d):
 		for f in files:
-			if f.endswith(ext) and '2015' not in f and '6th' not in f: #found file to keep
+			if f.endswith(ext): #found file to keep
 				cur_sents = LineSentence(os.path.join(root, f))
 				sents += cur_sents
 
