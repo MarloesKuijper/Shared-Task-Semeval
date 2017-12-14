@@ -1,0 +1,4 @@
+
+Work(Y/N)/T(translated)/tp(tobepacked)	lexicon
+YT					AFINN-111.txt.gz	Y					AFINN-emoticon-8.txt.gzYT					AFINN-en-165.txt.gzYT					BingLiu.csv.gzYT					mpqa.txt.gzYT					NegatingWordList.txt.gzNT					NRC-emotion-lexicon-wordlevel-v0.92.txt.gzYT					NRC-Hashtag-Emotion-Lexicon-v0.2.txt.gzYT					NRC-Hashtag-Sentiment-Lexicon-v0.1YT					Sentiment140-Lexicon-v0.1YT					SentiStrengthNT					SentiWordNet_3.0.0.txt.gzYT					w2v-dp-BCC-Lex.csv.gz
+
