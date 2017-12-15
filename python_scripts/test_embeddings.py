@@ -9,7 +9,6 @@
 """
 
 import os, sys, re, subprocess, shlex, argparse
-from tqdm import tqdm
 import numpy as np
 import pyexcel as p
 import csv
@@ -20,7 +19,7 @@ from sklearn import svm
 from sklearn.model_selection import train_test_split
 from sklearn import datasets
 from scipy.stats import pearsonr
-from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import cross_val_predict
 from sklearn.model_selection import KFold
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
@@ -36,16 +35,19 @@ def create_arg_parser():
 	parser.add_argument("-f","--features", required=True, type=str, help="Directory to save extracted feature-files to (or only get features if using --no_extract)")
 	parser.add_argument("-n","--no_extract", action = 'store_true', help="We only have to do feature extraction once, by including this parameter we just read the features from --features")
 	parser.add_argument("-u","--unix", action = 'store_true', help="If you run on some Linux system there is a different way of splitting paths etc, so then add this")
+	parser.add_argument("-ee","--emb_ext", default = '.csv.gz', type=str, help="Extension of word embedding file (default .csv.gz)")
 	args = parser.parse_args()
 	return args
 
 
-def get_files(files):
-	""" returns files from directory (and subdirectories) """ 
+def get_files(files, ext):
+	""" returns files from directory (and subdirectories) 
+		Only get files with certain extension, but if ext == 'all' we get everything """ 
 	file_list = []
 	for path, subdirs, files in os.walk(files):
-	    for name in files:
-	        file_list.append(os.path.join(path, name))
+		for name in files:
+			if name.endswith(ext) or ext == 'all':
+				file_list.append(os.path.join(path, name))
 	return file_list
 
 
@@ -72,40 +74,48 @@ def extract_features(feat_dir, trained_embeddings, emotion_data):
 					
 			feature_name = feat_dir + embedding_name + "_" + emotion_name + ".csv"
 			
-			# runt een bash script dat de features uit de embeddings haalt
-			os_call = " ".join([script, embedding, emotion_file, feature_name])
-			subprocess.call(os_call, shell=True)
+			if not os.path.isfile(feature_name):
+				# runt een bash script dat de features uit de embeddings haalt -- only if file does not exist
+				os_call = " ".join([script, embedding, emotion_file, feature_name])
+				subprocess.call(os_call, shell=True)
 			
 	print("Features successfully extracted")
 
 
-def train_test_pearson(clf, X_train, y_train, X_test, y_test):
-	'''Function that does fitting and pearson correlation'''
-	clf.fit(X_train, y_train)
-	res = clf.predict(X_test)
-	print("Pearson coefficient: {0}\n".format(pearsonr(res,y_test)[0]))
+def train_test_pearson(clf, X, Y):
+	'''Function that does fitting and pearson correlation
+	   Note: added cross validation'''
 
-	return pearsonr(res, y_test)[0]
+	res = cross_val_predict(clf, X, Y, cv=10)
+	print("Pearson coefficient: {0}\n".format(pearsonr(res,Y)[0]))
+
+	return round(pearsonr(res, Y)[0],4)
 
 
 if __name__ == "__main__":
 	args = create_arg_parser()
 	
-	## Get files from directories
-	trained_embeddings 	= get_files(args.word_embeddings)
-	emotion_data 		= get_files(args.emotion)
+	## Create directory to save results to
+	result_dir = args.features + 'results'
+	result_file = result_dir + '/results.txt'
+	subprocess.call("mkdir -p {0}".format(result_dir), shell = True)
 	
+	## Get files from directories
+	trained_embeddings 	= get_files(args.word_embeddings, args.emb_ext)
+	emotion_data 		= get_files(args.emotion, '.arff')
+
 	## Skip feature extraction if we already did that in a previous run
 	if not args.no_extract:	
 		extract_features(args.features, trained_embeddings, emotion_data)
 	
 	## Get feature vectors from directory
-	feature_vectors = get_files(args.features)
+	feature_vectors = get_files(args.features, '.csv')
 	
 	## Run different algorithm on all feature vectors, print results
 	
 	emb_dict = {} #different embeddings
 	
+	print ('Start looping over feature vectors, train SVM for each\n')
 	for f in feature_vectors:
 		
 		## Get embedding type - works for Linux please check if it does for Windows - if it doesn't
@@ -116,26 +126,26 @@ if __name__ == "__main__":
 		## split into input (X) and output (Y) variables ##
 		X = dataset[:,0:-1] #select everything but last column (label)
 		Y = dataset[:,-1]   #select column
-		X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=0)
 
-		print("PREDICTIONS: \n", f)
 		## SVM test ##
 		svm_clf = svm.SVR()
-		print('Training SVM...\n')
-		pearson_svm = train_test_pearson(svm_clf, X_train, y_train, X_test, y_test)
+		pearson_svm = train_test_pearson(svm_clf, X, Y)
 		
 		## Save results in dictionary
 		if emb_type in emb_dict:
 			emb_dict[emb_type].append(pearson_svm)
 		else:
 			emb_dict[emb_type] = [pearson_svm]
-		
-	## Get best embeddings (average of 4 scores)	
-	best_score = 0	
+	
+	
+	## Reorder dict so we can sort in the next step
+	new_dict = {}
 	for emb in emb_dict:
 		score = float(sum(emb_dict[emb])) / len(emb_dict[emb])
-		if score > best_score:
-			best_score = score
-			best_embed = emb
+		new_dict[emb] = score
 	
-	print ('Best embedding: {0}\nWith score: {1}'.format(best_embed, best_score))			
+	## Print sorted results to file
+	with open(result_file, 'w') as out_f:
+		out_f.write('Sorted ranking of scores: \n\n')
+		for w in sorted(new_dict, key=new_dict.get, reverse=True):
+			out_f.write(str(w) + ' ' + str(new_dict[w]) + '\n')		

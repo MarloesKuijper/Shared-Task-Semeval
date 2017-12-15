@@ -3,7 +3,7 @@
 ## Script to extract features for certain trained word embeddings + data file
 
 #source config file to have $WEKA_HOME
-source /home/p266548/Documents/affect_tweets/Shared-Task-Semeval/config.sh
+source ../../config.sh
 
 #get files from command line parameters
 EMBEDDING_FILE=$1
