@@ -1,3 +1,0 @@
-
-Yes/no/T(translated)	lexicon
-YT		AFINN-111.txt.gz	Y		AFINN-emoticon-8.txt.gzN		AFINN-en-165.txt.gzN		BingLiu.csv.gzN		mpqa.txt.gzYT		NegatingWordList.txt.gzYT		NRC-emotion-lexicon-wordlevel-v0.92.txt.gzN		NRC-Hashtag-Emotion-Lexicon-v0.2.txt.gzN		NRC-Hashtag-Sentiment-Lexicon-v0.1N		Sentiment140-Lexicon-v0.1N		SentiStrengthNT		SentiWordNet_3.0.0.txt.gzN		w2v-dp-BCC-Lex.csv.gz
