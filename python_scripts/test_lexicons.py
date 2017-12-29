@@ -26,7 +26,8 @@ from sklearn.pipeline import Pipeline
 def create_arg_parser():
 	parser = argparse.ArgumentParser()
 	parser.add_argument("-e","--emotion", required=True, type=str, help="Directory with emotion files")
-	parser.add_argument("-f","--features", required=True, type=str, help="Directory to save extracted feature-files to (or only get features if using --no_extract)")
+	parser.add_argument("-f","--features", required=True, type=str, help="Directory to save (ALL) extracted feature-files to (or only get features if using --no_extract)")
+	parser.add_argument("-best","--bestfeatures", required=True, type=str, help="Directory to save BEST feature-files to (USE DATE AS FOLDER NAME!)")
 	parser.add_argument("-emb", "--embeddings", required=True, type=str, help="Embeddings file to use")
 	parser.add_argument("-n","--no_extract", action = 'store_true', help="We only have to do feature extraction once, by including this parameter we just read the features from --features")
 	parser.add_argument("-u","--unix", action = 'store_true', help="If you run on some Linux system there is a different way of splitting paths etc, so then add this")
@@ -38,6 +39,7 @@ def get_files(files, lexicon_dir=False, emotion=""):
 	file_list = []
 	for path, subdirs, files in os.walk(files):
 	    for name in files:
+	    	print(name)
 	    	if lexicon_dir:
 	    		# when loading features from lexicon directory, only take those that have trained on 1 lexicon:
 	    		if len(name.split("_")[0].split("-")) == 1:
@@ -49,18 +51,21 @@ def get_files(files, lexicon_dir=False, emotion=""):
 	    				file_list.append(os.path.join(path, name))
 	    	# if not in lexicon dir (but in emotion dir), if a specific emotion is selected, only take those files related to that emotion
 	    	elif emotion:
-	    		if emotion.lower() in name:
+	    		if emotion in name:
 	    			file_list.append(os.path.join(path, name))
 	    	else:
 	        	file_list.append(os.path.join(path, name))
+
+	print(file_list)
 	return file_list
 
 
 def extract_features(feat_dir, emotion_data, lexicons_to_use, lexicons_data):
 	'''Extract features from files and save in feat_dir'''
-		
+	print(emotion_data)
 	for lex in lexicons_to_use:
-		for emotion_file in emotion_data[1:]:
+		print(lex)
+		for emotion_file in emotion_data:
 			## Solve issues with splitting file paths in unix/windows (mac?)
 			if args.unix:
 				emotion_name = emotion_file.replace('..','').split('.')[0].split('/')[-1]
@@ -183,11 +188,11 @@ def test_all_lexicons_together(lexicons_to_use, emotion_data, lexicons_data, fea
 		all_current_lexicons = [lexicons_data[item] for item in lexicons_to_use]
 		print(all_current_lexicons)
 		print(len(all_current_lexicons), len(lexicons_to_use))
-		if "separate" in all_current_lexicons:
-			all_current_lexicons.remove("separate")
+		if "sentistrength" in all_current_lexicons:
+			all_current_lexicons.remove("sentistrength")
 			lexicons = " ".join(all_current_lexicons)
 			print(lexicons)
-			os_call = " ".join([script, emotion_file, feature_name, args.embeddings, "separate" + " " + lexicons])
+			os_call = " ".join([script, emotion_file, feature_name, args.embeddings, "sentistrength" + " " + lexicons])
 			subprocess.call(os_call, shell=True)
 		else:
 			lexicons = " ".join(all_current_lexicons)
@@ -224,11 +229,11 @@ def check_relevance(top_lexicons, lexicon_to_test, emotion_data, lexicons_data, 
 		all_current_lexicons = selection_top
 		all_current_lexicons.append(selection_new)
 		print(all_current_lexicons)
-		if "separate" in all_current_lexicons:
-			all_current_lexicons.remove("separate")
+		if "sentistrength" in all_current_lexicons:
+			all_current_lexicons.remove("sentistrength")
 			lexicons = " ".join(all_current_lexicons)
 			print(lexicons)
-			os_call = " ".join([script, emotion_file, feature_name, args.embeddings, "separate" + " " + lexicons])
+			os_call = " ".join([script, emotion_file, feature_name, args.embeddings, "sentistrength" + " " + lexicons])
 			subprocess.call(os_call, shell=True)
 		else:
 			# selection_top = " ".join([lexicons_data[item] for item in top_lexicons])
@@ -241,11 +246,12 @@ def check_relevance(top_lexicons, lexicon_to_test, emotion_data, lexicons_data, 
 	lex_dict = get_svm_results(feature_vectors)
 	best_lex, best_score = get_best_score(lex_dict)
 
-	return best_score
+	return best_score, feature_name
 
 def get_best_starting_lexicon(emotion=""):
 	## Get feature vectors from directory for each indiv. lexicon
 	feature_vectors = get_files(args.features, lexicon_dir=True, emotion=emotion)
+	print(feature_vectors)
 
 	## Run different algorithm on all feature vectors, print results
 	result_dict = get_svm_results(feature_vectors)
@@ -258,17 +264,19 @@ def get_best_starting_lexicon(emotion=""):
 
 def find_optimal_lexicon_set(lexicons_to_use, lexicons_top, emotion_data, lexicons, best_score):
 	top_lexicons = lexicons_top
+	feature_names = []
 	for i in range(len(lexicons_to_use)):
-		new_score = check_relevance(lexicons_top, lexicons_to_use[i], emotion_data, lexicons, args.features)
+		new_score, feature_name = check_relevance(lexicons_top, lexicons_to_use[i], emotion_data, lexicons, args.features)
 		#print(new_score)
 		if new_score > best_score:
 			print("new best score: ", new_score)
 			best_score = new_score
 			top_lexicons.append(lexicons_to_use[i])
+			feature_names.append(feature_name)
 			print("new best lexicons: ", " ".join(top_lexicons))
 			#lexicons_to_use.remove(lexicons_to_use[i])
 
-	return top_lexicons
+	return top_lexicons, best_score, feature_names[-1]
 
 def test_only_embeddings(emotion_data, feat_dir):
 	feature_vectors = []
@@ -297,52 +305,64 @@ def test_only_embeddings(emotion_data, feat_dir):
 
 
 if __name__ == "__main__":
-	args = create_arg_parser()
 
-	## to do: make cl args
-	TEST_ALL_EMOTIONS = True
-	emotion_to_test = ""
-	if TEST_ALL_EMOTIONS:
-		emotion_data = get_files(args.emotion)
-	else:
+	args = create_arg_parser()
+	emotions = ["anger", "fear", "joy", "sadness"]
+	best_feature_vecs = []
+	best_lexicons = []
+	best_scores = []
+	for emotion_to_test in emotions:
 		emotion_data = get_files(args.emotion, emotion=emotion_to_test)
 
-	feature_dir = args.features
+		feature_dir = args.features
 
-	lexicons = {"afinn": "-F", "bingliu": "-D", 
-			"emoticons": "-R", "mpqa": "-A",
-			 "negation": "-T",  "nrc10": "-L",
-			 "nrc10expanded": "-N", "nrchashemo": "-P",
-			 "nrc10hashsent": "-J", "s140": "-H",
-			 "sentiwordnet": "-Q", "sentistrength": "separate"}
+		lexicons = {"afinn": "-F", "bingliu": "-D", 
+				"emoticons": "-R", "mpqa": "-A",
+				 "negation": "-T",  "nrc10": "-L",
+				 "nrc10expanded": "-N", "nrchashemo": "-P",
+				 "nrc10hashsent": "-J", "s140": "-H",
+				 "sentiwordnet": "-Q", "sentistrength": "sentistrength"}
 
-	# first you put all lexicons you wanna test in here
-	lexicons_to_use = ["mpqa", "bingliu", "afinn", "negation", "s140", "emoticons", "nrc10", "nrchashemo", "nrc10hashsent", "sentistrength"]
-	# you add the best lexicons (that make a difference) here
-	lexicons_top = []
-	# you keep iterating > extracting combinations of features and calculating svm scores until score does not improve
+		# first you put all lexicons you wanna test in here
+		lexicons_to_use = ["mpqa", "bingliu", "afinn", "negation", "s140", "emoticons", "nrc10", "nrchashemo", "nrc10hashsent", "sentistrength"]
+		# you add the best lexicons (that make a difference) here
+		lexicons_top = []
+		
+		# only use for the final 'test' phase to write stuff to extract features of test/dev and write to new file
+		#extract_features("../../test_sample/", ["../../test_sample/2018-EI-reg-es-anger-dev.arff", "../../test_sample/2018-EI-reg-es-anger-train.arff"], ["sentistrength"], lexicons)
+		#predict_and_write_output("../../test_sample/sentistrength_.csv",  "../../test_sample/sentistrength_dev.csv", "../../test_sample/test/2018-EI-reg-Es-anger-dev.txt", "../../test_sample/predictions.csv")
 
-	# only use for the final 'test' phase to write stuff to extract features of test/dev and write to new file
-	#extract_features("../../test_sample/", ["../../test_sample/2018-EI-reg-es-anger-dev.arff", "../../test_sample/2018-EI-reg-es-anger-train.arff"], ["sentistrength"], lexicons)
-	#predict_and_write_output("../../test_sample/sentistrength_.csv",  "../../test_sample/sentistrength_dev.csv", "../../test_sample/test/2018-EI-reg-Es-anger-dev.txt", "../../test_sample/predictions.csv")
+		## Skip feature extraction if we already did that in a previous run
+		if not args.no_extract:	
+			extract_features(args.features, emotion_data, lexicons_to_use, lexicons)
 
-	## Skip feature extraction if we already did that in a previous run
-	if not args.no_extract:	
-		extract_features(args.features, emotion_data, lexicons_to_use, lexicons)
-
-	# which lexicon is the best? > starting point
-	if TEST_ALL_EMOTIONS:
-		best_lex, best_score = get_best_starting_lexicon()
-	else:
+		# which lexicon is the best? > starting point
 		best_lex, best_score = get_best_starting_lexicon(emotion=emotion_to_test)
-	lexicons_top.append(best_lex)
-	lexicons_to_use.remove(best_lex)
+		lexicons_top.append(best_lex)
+		lexicons_to_use.remove(best_lex)
 
-	# # find optimal set of lexicons
-	top_lexicons = find_optimal_lexicon_set(lexicons_to_use, lexicons_top, emotion_data, lexicons, best_score)
+		# # find optimal set of lexicons
+		top_lexicons, top_score, best_feature_vector = find_optimal_lexicon_set(lexicons_to_use, lexicons_top, emotion_data, lexicons, best_score)
+		best_feature_vecs.append(best_feature_vector)
+		top_lexicons = " ".join(top_lexicons)
+		best_lexicons.append(top_lexicons)
+		best_scores.append(str(top_score))
 
-	#test_only_embeddings(emotion_data, feature_dir)
-	#test_all_lexicons_together(lexicons_to_use, emotion_data, lexicons, feature_dir)
+
+	if len(best_feature_vecs) == 4:
+		## move these items to feature folder with date of today (args.bestembeddings)
+		script = "copy_best_features.sh"
+		best_features = " ".join(best_feature_vecs)
+		os_call = " ".join([script, args.bestfeatures, best_features])
+		subprocess.call(os_call, shell=True)
+		# write results to txt file
+		with open(args.bestfeatures + "/RESULTS.txt", "w", encoding="utf-8") as outfile:
+			for i in range(4):
+				text = "Best results emotion {0}: {1} with {2}, feature file {3} with embeddings {4}".format(emotions[i], best_scores[i], best_lexicons[i], best_feature_vecs[i], args.embeddings)
+				outfile.write(text)
+				outfile.write("\n")
+
+
 
     ## STUFF THAT I'VE TESTED:
     ## test embeddings individually

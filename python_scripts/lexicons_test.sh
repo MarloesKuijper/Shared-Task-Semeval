@@ -20,7 +20,7 @@ WEKA_CALL=$WEKA_HOME$WEKA_JAR
 echo "$2"
 
 
-if [ $4 == "separate" ];
+if [ $4 == "sentistrength" ];
 then
 	if [ -n "$5" ];
 	then
