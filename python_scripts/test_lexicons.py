@@ -324,7 +324,7 @@ if __name__ == "__main__":
 				 "sentiwordnet": "-Q", "sentistrength": "sentistrength"}
 
 		# first you put all lexicons you wanna test in here
-		lexicons_to_use = ["mpqa", "bingliu", "afinn", "negation", "s140", "emoticons", "nrc10", "nrchashemo", "nrc10hashsent", "sentistrength"]
+		lexicons_to_use = ["mpqa", "bingliu", "afinn", "negation", "s140", "emoticons", "nrc10", "nrc10expanded", "nrchashemo", "nrc10hashsent", "sentistrength", "sentiwordnet"]
 		# you add the best lexicons (that make a difference) here
 		lexicons_top = []
 		
