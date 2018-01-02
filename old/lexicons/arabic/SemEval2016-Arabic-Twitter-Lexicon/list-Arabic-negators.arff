@@ -1,0 +1,21 @@
+@relation wekafiles/packages/AffectiveTweets/lexicons/arabic/SemEval2016-Arabic-Twitter-Lexicon/list-Arabic-negators.txt
+
+@attribute word string
+
+@data
+ليس
+ما
+لا
+لم
+لن
+مش
+ليست
+لسنا
+لستما
+ليسا
+ليستا
+لسنا
+لستم
+لستن
+ليسوا
+لسن
