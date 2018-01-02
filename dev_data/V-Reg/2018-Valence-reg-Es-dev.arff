@@ -1,0 +1,237 @@
+@relation "temp2.txt"
+
+@attribute id string 
+@attribute tweet string
+@attribute emotion string
+@attribute score numeric 
+
+@data
+"00766"," Dios que susto lpmmm 🙏 😡 ","valence", 0.250
+"01333"," Que lindo que es viajar en moto vieja ","valence", 0.792
+"06190"," que ansiedad de mierda vo ","valence", 0.146
+"05144"," La ansiedad no desaprovecha ni un segundo . ","valence", 0.239
+"04187"," @username Mucho gusto . ","valence", 0.750
+"03080"," @username Fala tu ","valence", 0.380
+"00352"," NOOO WE NO ESTOY ENOJADO, asi soy normalmente 🙄","valence", 0.304
+"02237"," @username LA MEJOR DE TODAS ! ! ❤ ❤ ❤ Feliz dia Andrea ! ! ! Gracias por todooo ","valence", 0.958
+"05705"," Mandar a la mierda no es un insulto, es una buena manera de ayudar a cierta gente a encontrar su camino.","valence", 0.386
+"05350"," Vine a ver si se habían muerto en el apocalipsis y aún sigo leyendo sus tuits bien de la chingada ","valence", 0.391
+"02391"," @username Desgraciado infeliz jajaj ","valence", 0.174
+"03661"," Creo que me quede libre hace un montón y todavía me queda un trimestre ","valence", 0.457
+"06235"," @username te saqué la careta ... economista y asustás a la gente . Vos sos El hombre de la bolsa ! ","valence", 0.391
+"05066"," @username Se vio muy feo ? andas igual ? Vos no tenes corazón cierto ? ","valence", 0.370
+"05918"," Que nunca te ame de verdad, que rabia me da 🎵","valence", 0.409
+"00455"," fav y te mando privado 😊 ","valence", 0.770
+"00226"," Me alegro la noche este gil ","valence", 0.750
+"05005"," @username se te atoró el escabio hdnum ","valence", 0.517
+"04721"," Se ira quien se tenga que ir y se quedará quien tenga que quedarse . ","valence", 0.494
+"02679"," #Nostalgia En unas horas es el lanzamiento oficial de la secuela de Splatoon 😆 siempre recordaré al primero con mucho gusto . 😢 ","valence", 0.479
+"05422"," Ya se a quien sacó la mala ortografía la pobre ","valence", 0.391
+"02639"," Si prensa y opinión pública tolera la indignación con Ramos por irse igual del vecino, ¿por qué nosotros somos palmeros por indignarnos?","valence", 0.354
+"06483"," A veces estoy tan cansada que no puedo dormir #ironía ","valence", 0.354
+"05515"," Necesito compartir con alguien la alegría que me da ver las puertas de guido kaczka ","valence", 0.667
+"05043"," @username #Rayito ¿ Cuando nos das la sorpresa de que seras papa ? 🙈 😂 ","valence", 0.739
+"00792"," @username en realidad si me interesaba porque trabaja en street machine y hay ropa bonita . Lo hice por eso, por un descuento ","valence", 0.500
+"01800"," Se hace el enojado cuando yo debería estar cagandolo a piñas . ","valence", 0.208
+"00744"," @username el mejor smeralda en scoria, el mas wn pero se te aprecia bro  no tengo el agrado de conocerte mucho pero por lo poco me caes bn","valence", 0.625
+"03942"," Luis y yo nos vamos a ir al infierno por ser así ","valence", 0.354
+"03006"," / / Soy un Batman super chistoso . Ni confirmen 🤣 🤣 ","valence", 0.688
+"01248"," Empiezo los cursos y estoy súper contenta ","valence", 0.917
+"00318"," @username Ahora para ser gay se debe ser mayor de edad #ironia #calmapueblo ","valence", 0.271
+"06435"," num me enteré un par tuyas, sos peligrosa","valence", 0.182
+"05936"," @username Es graciosa la situación jajajajajja ","valence", 0.891
+"01243"," Lo de solucionar las cosas con violencia es de un gran ejemplo para la sociedad . Enhorabuena ! #ironía ","valence", 0.188
+"04140"," @username Con amar azul estoy 😄 ","valence", 0.833
+"05710"," este Tito me hace llorar de la risa ","valence", 0.848
+"01555"," @username @username Creo que me tienes que seguir, para poder mandarte dm ","valence", 0.625
+"01882"," num horas trabajando verg que cansancio ","valence", 0.292
+"00899"," Lo sé, soy hermosa!: me siento genial","valence", 0.909
+"05827"," Ya quiero que sea vierneees ","valence", 0.563
+"06347"," #DesafioSuperHumanos aquí pensando como serán las pestañas de Valentina cuando vaya mañana a @username #Susto ","valence", 0.500
+"00178"," @username @username Todo muy del estilo Dinamarca del Sur . Jaja . #ironía ","valence", 0.241
+"05341"," Estoy re boba hoy ","valence", 0.523
+"00354"," @username El bis de furia jajaja lastima que ahora se juega armas T_T ","valence", 0.542
+"04128"," Hug Hefner invirtio $ num,000 prestados y los volvió $20mill. Mensuales🤷🏼‍♂️#crack Hug Hefner en lugar de venirse, se fué! 😌#Ironía","valence", 0.458
+"03092"," Ya quiero que sea la pelea de Conor McGregor y Floyd Mayweather #McGregorVsMayweather ","valence", 0.543
+"01810"," @username @username KKK emocionado cara 🤦 🏼 ‍ ♀ ️ ","valence", 0.739
+"00064"," @username @username Me cago en la puta ","valence", 0.208
+"03950"," David Bowie decía : La religión es para la gente que tiene miedo de irse al infierno . La espiritualidad es para aquellos que han estado allí . ","valence", 0.565
+"04134"," Todo llega en su momento, vive el #presente ríe, siente, baila, enamorate de cada minuto vivido, vive la #Felicidad","valence", 0.833
+"01608"," @username El insomnio es divertido a veces ","valence", 0.609
+"04129"," El sol, los perros y una birra ! #felicidad","valence", 0.826
+"00202"," ¿ Como puede hacer la gente para no sentir odio y resentimiento en sus corazones ? ","valence", 0.292
+"00511"," Necesito abrazar a alguien el nudo en la garganta es tremendo ","valence", 0.238
+"04898"," @username eso es raro, desaparece el comisario del pueblo y a nadie le parece llamativo, no hace el intento de buscarlo? 😅 sospechosa la we..","valence", 0.604
+"04933"," gabriel bola atoa, pavor","valence", 0.521
+"00791"," Coño ! He acabado la carrera y aún no he sacado el libro de Física I del coche, ahí sigue decolorándose al sol! #venganza","valence", 0.523
+"02181"," #FelizLunes cosas hermosas ! #Feliz ","valence", 0.935
+"02378"," @username Perdona ! Pero a mi no me tienen miedo jajajaja 😂 ","valence", 0.761
+"01451"," Pa qué me enojo con gente que se le hace trágica la numeración de butacas ... ","valence", 0.271
+"00987"," Amo joderlo a franco o hacerme la enojada con el 😂 💞 ","valence", 0.688
+"05188"," Si como amiga me seguía los caprichos no me imagino que pasará ahora, próximamente termino tinturado ","valence", 0.553
+"01419"," OIGAAA COMO PUEDE VER MIS HISTORIAS DE INSTAGRAM SÍ NO ACEPTÉ LA SOLICITUD DE SEGUIMIENTO 😡 ","valence", 0.146
+"06052"," + emocionante . ¿ No era algo hermoso, que la música pudiera conectar a todas las personas? ~  Sí señor, si lo era.  A este paso acabaron +","valence", 0.688
+"02006"," Ya ahora la palabra no vale nada ? #ironía ","valence", 0.360
+"06696"," Un semáforo malogrado cumple mejor función que un policía de transito 😤 ","valence", 0.413
+"02879"," Lo que más me da tristeza es que es aparente suicidio . Nunca sabes lo que otra persona sufre, nunca te lo imaginas.  #RIPChesterBennigton","valence", 0.125
+"01720"," Ya siento tus pasos acercarse, Señor. Tiempos de llanto y también de regocijo. Cúbreme con la justicia de Cristo. ¡VEN, SEÑOR JESÚS!","valence", 0.542
+"02531"," La Mastrofobia es el miedo a los senos ","valence", 0.430
+"06580"," Fui a comer con mis amigos y ya estoy comiendo compota en mi casa, estoy muy ansiosa.","valence", 0.646
+"03008"," @username Resentido, 👋","valence", 0.146
+"01963"," Loca se enojo conmigo pq segun ella lo acababa d conocer y ya le hablaba como si fuera de hace mucho PERO PARALE LOCA ","valence", 0.396
+"03882"," Se mandan tarde los tweets ","valence", 0.391
+"01195"," Después de tres meses sin agua esta llego #Feliz gracias intergaláctico hasta que ustedes llegaron . Las tuberías no existían #NMJ 😤 😤 😤 ","valence", 0.583
+"00516"," @username Que graciosa he 😢 ","valence", 0.545
+"03410"," @username Haste la muertita ","valence", 0.438
+"05592"," ¿ Sabéis que Yoli tiene num años ? Yo por poco no me entero . Solo lo ha dicho una vez . #GalanumGH #ironia ","valence", 0.720
+"00971"," Con num semanas intensas de Squad Battles te dan un trofeo en el que pone que te has pasado Ultimate Team #Ironía #FIFAnum ","valence", 0.500
+"04168"," @username se re nota que es una resentida, por favor mamita supéralo JAJAJA","valence", 0.333
+"04022"," Soy tan orgullosa que no le voy a decir Felíz día . ","valence", 0.771
+"02698"," @username Cómo me haría falta ese taller en estos momentos, carajo...  #Novela #Miedo #Temor #Bloqueo #ParálisisMental #NoSeaCoyón","valence", 0.396
+"01413"," Q agradable sujeto Icardi jajajaja ","valence", 0.632
+"04075"," El tiempo pasa incluso aunque parezck imposible, incluso a pesar de que cada movimiento de la manecilla uel reloj duela.","valence", 0.292
+"00192"," @username Me importa un reverendo coño ver programas de interés social exclusivo de personas con menos de dos dedos de frente 😀 ","valence", 0.292
+"03123"," @username JuajuajuajuajauJauJuJajajuajaua que chistoso ","valence", 0.771
+"03903"," Una persona puede dar mucho o poco, todo a su manera, pero no esta nada padre que lo vean a reclamo cuando solo quieres su bienestar.","valence", 0.438
+"02089"," @username @username Gracias a la cnstituyente ","valence", 0.548
+"00957"," Te bajan al ex . Y estás llorando ? POR FAVOR . Nadie pelea por un pendejo ! ","valence", 0.261
+"06850"," Yo creo que me voy a hacer un tatuaje, o menos como cinco. ","valence", 0.646
+"04008"," De lo que se entera uno 😂 ","valence", 0.587
+"05268"," Va a tener que pedir perdón por celebrar el día de Catalunya e ir con su bandera, porque eso es ser anti español. Claro que sí. #Ironía","valence", 0.438
+"04449"," No te olvides : el #ejercicio y la #actividadfísica mejoran el #ánimo, estimula la agilidad mental y alivia la #depresión. #CuidaTuVida","valence", 0.750
+"04519"," En qué momento me hice así ajjjajjajajaa ","valence", 0.833
+"03208"," @username Oye carnal ya no me gusto la pinche vieja se volvio muy pinche sangrona ","valence", 0.261
+"00262"," Estoy muy emocionada, ni hablar de lo que voy a llorar cuando me digan que ya nació Vamos princesa❤👶","valence", 0.930
+"02293"," @username Logré ver esto y dije ; ¿ mi amigo ? Me da alegría saber que lo puede lograr, es más esto merece comida, ¿nos fuimos? 😂","valence", 0.612
+"03816"," Peli de terror,toy re cagada","valence", 0.354
+"03483"," Al principio no me llamó la atención, luego lo vi sonreír y fue como aplicar mil filtros de Instagram.","valence", 0.773
+"01620"," ¡ LAMENTABLE ! Andrés Uzcátegui murió al explotarle mortero en el pechohttp :/ / www.lechuguinos.com/andres-uzcategui-murio-mortero/ ","valence", 0.292
+"00200"," @username Susto * * ","valence", 0.457
+"05136"," @username en mi escuela lo hicieron y las profesoras hicieron un drama y los encerraron todo el recreo para hablarles de dios ","valence", 0.417
+"00809"," @username @username Ya pasó ","valence", 0.646
+"06904"," Lo bueno es que las mentiras tienen patas cortas y las caretas se caen solas 😉 lo bueno de tener la consciencia limpia ... 😊 ","valence", 0.500
+"03098"," Siento alivio al escribirlo . ","valence", 0.688
+"06156"," En el tráfico pedís vía y no te la dan luego el que no te dio vía pide vía adelante y quiere que alguien más haga lo que el no hace #Ironía ","valence", 0.354
+"06344"," Tu clamor pone al diablo a temblar, tu Alabanza lo confunde. #LaAdoraciónADiosEngrandeceLaNación","valence", 0.667
+"03724"," @username @username LPM ESTOY TAN EMOCIONADA COMO TÚ ","valence", 0.826
+"01197"," @username el salto de cama de la presentadora fue un intento de tener audiencia ? ","valence", 0.500
+"05802"," Baby a veces me hago la enojada solo porque quiero el sexo de reconciliación . ","valence", 0.542
+"04499"," Aveces le tengo tanta bronca a la sarnoza de mi hermana 🙄 😤 ","valence", 0.250
+"02241"," Cagaron a tiro a alguien y si todo esos tiros fue para alguna persona la dejaron echo un colador 😂 ","valence", 0.521
+"02168"," @username exactamente, con eso queda claro lo mierda que está todo ahora ","valence", 0.239
+"01442"," @username fernan por que no eres animado #FERNANYANOESCOMOANTES ","valence", 0.564
+"04286"," @username ¡ Buenos días ! Yo tengo un social 😥 ","valence", 0.708
+"01280"," Para que me bloqueas hija de tu pu * a madre ","valence", 0.087
+"01036"," Si se enojan, no pequen; que el enojo no les dure todo el día. No le de oportunidad al diablo.","valence", 0.333
+"04515"," La mamá de gaby me manda mensajes y me dice que deje de tomar ","valence", 0.420
+"01235"," El mundo es un lugar peligroso . ","valence", 0.208
+"00560"," Menos mal que el #ReydeBastos nos ha dicho que estemos tranquilos, pensaba que esta noche no dormía sin escucharle... #ironía","valence", 0.458
+"04622"," #felizdiadelamigo al amor de mi vida, que es, a su vez, mi más valioso amigo. ¡Feliz día, mi corazón!!","valence", 0.958
+"03843"," Solo le dije feliz dia a una persona jajja nose en la unica que pense 😏 ","valence", 0.708
+"05779"," Robben en banca y Muller titular #Irónico 🤦 ‍ ♂ ️ ","valence", 0.609
+"06326"," @username Jajajaja no el chiste es que sea un buen susto jajaja ","valence", 0.854
+"06869"," @username Estaría genial, ya que en otros lados no se fabrican  y se los llevarían.","valence", 0.688
+"02614"," num semana que no fui al colegio ","valence", 0.500
+"06619"," Cursar tanto me estresa #sarcasmo ","valence", 0.417
+"02390"," No les conté pero hoy me fue genial con la nutricionista ! ! num % menos de grasa corporal y subí num.num kg en músculo 🙌 🏻 💪 🏻 con edad metabólica de num ","valence", 0.854
+"03829"," Lo llame a mi novio que dormía, solamente para cagarme de risa dos hs","valence", 0.688
+"00475"," @username jaja y quedarte dormida del susto no ? ? jaja ","valence", 0.667
+"04770"," Mis sueños me dan miedo 😥 ","valence", 0.180
+"04747"," @username Víctimas dl terrorismo en Argentina sin DDHH . Terrorista con cenotafio q figuran en muro de MEMORIA ! ! Cdo tendrán justicia ? ","valence", 0.174
+"05502"," Que triste lo mio, Ni amigas tengo ","valence", 0.104
+"06272"," @username @username El sarcasmo esta bajito ","valence", 0.509
+"06073"," Llorarás más de diez veces por amorrr ","valence", 0.229
+"04211"," Solamente aquel que es demasiado fuerte para perdonar, una ofensa sabe amar. #RT #FF #amor","valence", 0.491
+"06808"," #NoVolveriaA bloquearte porque ya me das igual ","valence", 0.396
+"04713"," Yo se que le gusto, ajá, pero mejor así. No quiero nada serio con alguien..","valence", 0.396
+"05344"," ¡ Cómo me fascina hacer el trabajo que pertenece a otros departamentos ! #Ironia 😧 ","valence", 0.360
+"00698"," Como estoy un poco aburrida ... Cada fav / mg es un dato de mi . ","valence", 0.333
+"00330"," En estos partidos es cuando mi corazón se divide terrible, me siento tan santandereana como rola.","valence", 0.458
+"00122"," Estoy a dos de entregarte mi corazón, yo creo que a menos como 5 ","valence", 0.682
+"01038"," Dios yo se qué tu tienes los planes originales pero si son iguales a los míos no me enojo ","valence", 0.458
+"06284"," @username Tras de matón ladron ? Bueno algo así dice el dicho ","valence", 0.480
+"02274"," @username @username Felicitaciones keiko ","valence", 0.729
+"00372"," [ num/num num:num AM ] Traidora : Ay te amo ❤ Feliz día mi puti . Otro año mas con vos . Sos única siendo como sos, y te amo así. Mañana estamos juntas","valence", 0.896
+"01832"," Expresión que da a entender algocontrario o diferente de lo que se dice, generalmente como burla disimulada. #ironía","valence", 0.440
+"04367"," es gracioso ver gente q nunca se conforma con el amor que le brindan, siempre quieren más y más y más y PARA UN POCO LOCA YA TENÉS A ALGUIEN","valence", 0.413
+"00659"," Resaca le mandó gallardo Pero hacete culiar amargo ","valence", 0.304
+"03746"," Que no me falte nunca mi amigo ale ","valence", 0.792
+"01412"," @username Olé de verdad #Ironía ","valence", 0.543
+"02685"," @username @username @username @username Esa es la idea Claro . #ironía ","valence", 0.542
+"02910"," ibas a patin, nunca te conoci bien pero me caes genial","valence", 0.813
+"06016"," @username Si no decime a mi que bese el piso ","valence", 0.420
+"04355"," Mi no tolerar a ese par . @username dame cachetadas por fa . ¡ Feliz dia del amigo cariño a ti y a @username los quiero ! 💖 ","valence", 0.739
+"06127"," @username No se te vaya a olvidar, yo que tú lo fijaba ","valence", 0.646
+"02510"," @username Para no se ni que escribi, esto de ponerme ansiosa no es lo mio","valence", 0.333
+"03199"," Siempre tiene que estar Dios primero en tu vida y te ira bien ! ","valence", 0.780
+"02856"," Estoy muy aburrido . ","valence", 0.250
+"03153"," @username Lamentablemente asi es mucha gente ","valence", 0.164
+"02115"," Miedo es la primera vez que no puedes hechar el segundo ; pánico, la segunda vez que no puedes hechar el primero. ","valence", 0.479
+"03808"," He ido a donar sangre al Clínico para los num heridos del domingo y hemos acabado cantando el Imagine . Piel de gallina #ironía ","valence", 0.646
+"06708"," Se me pasó volando la estudiantina ","valence", 0.509
+"02091"," Acabo de abrir mi snap y tengo fotos guardadas del finde y me quiero MORIRRR JAJAJA POR KEEE ","valence", 0.542
+"05215"," @username me cae re bien, tremenda diosa, ella y su grupo me odian creopp igual la mejor","valence", 0.604
+"04663"," @username @username Teniendo en cuenta que esas denuncias sólo ocurren cuando está la derecha en el poder ... Tiene su gracia . #Ironía ","valence", 0.479
+"06616"," Vamos esta noche a enloquecer 🎶 ","valence", 0.833
+"02382"," La única razón por la que me esta gustando insultar es solo para provocarle . ","valence", 0.370
+"05666"," Sigo pensando, en que suerte que esa vez que tuve parálisis del sueño estaba durmiendo conmigo,  si no me moría del susto sola.","valence", 0.313
+"02477"," @username @username Esto es terrible e inaceptable . ","valence", 0.152
+"04006"," La #Felicidad se guarda en naftalina, se esconde de los malos debajo de la cama  🎈  - @montanertwiter","valence", 0.667
+"00283"," Me caga dormirme enojado carajo ","valence", 0.135
+"02498"," @username #ironía El ciudadano tuvo num años para prepararse ante los sismos y aprender sobre ellos y hoy todo es como arte de magia . ","valence", 0.391
+"03728"," Ademas andan leyendo los insultos y sintiéndose mal por eso . #ModoHumor #Ironía ","valence", 0.400
+"03037"," @username @username @username @username ¡ Que no lo veamos ! #susto ","valence", 0.300
+"02398"," Ha sido larga la comparecencia del Rey sobre la crisis de estado que estamos sufriendo ... #ironía . #numOct ","valence", 0.239
+"02738"," Yo : flotaras pa . El : no puedo flotar por qué estoy gordito . ","valence", 0.521
+"04709"," T paso alguna vez ? Vi x la puerta d la pieza pasar a alguien x el pasillo . Miro y no hay nadie . #raro #Tepaso #Espanto ","valence", 0.458
+"02721"," @username @username ESTOY EMOCIONADA AAAH ","valence", 0.948
+"00074"," @username jaj tan resentido ? ","valence", 0.333
+"06583"," Fin de semana de descanso total, dormir + de 10 horas seguidas, comer rico con heladito incluido y 24 hrs viendo the big bang theory 😋#feliz","valence", 0.977
+"02626"," @username bebito, ¡feliz cumpleaños! espero que disfrutes mucho el día 🤗 eres el mejor.","valence", 0.917
+"01308"," @username FELICIDADES FER 💕 QUE ESTA PASANDO AL AGUS PARA DARLE LIKE A FOTOS DE CARO JAJAAA ","valence", 0.700
+"01658"," Nada se olvida más despacio que una ofensa ; y nada, más rápido que un favor Martin Luther King BUENOS DÍAS FELIZ MIÉRCOLES","valence", 0.717
+"03348"," Lo peor andar en el @username q gente más mal educada 😡 ","valence", 0.164
+"00590"," Más bellaquera, menos timidez","valence", 0.522
+"06425"," Que feo está el cielo ","valence", 0.458
+"01748"," Estoy tan contenta, goddddddd, voy pa Grecia","valence", 0.938
+"03015"," @username Preparando la venganza 😚 😀 ","valence", 0.479
+"04032"," @username Es el CuriousCat en versión moderna ","valence", 0.652
+"06338"," Que feo se siente perder a una persona muy cercana 😥 ","valence", 0.125
+"03825"," Tan resentida vas a estar locaaa ? ","valence", 0.375
+"04763"," Poder sorprender y que te sorprendan . Qué fortuna . ","valence", 0.875
+"05384"," Brillante @username gran monologo ! ! ! ","valence", 0.708
+"03250"," @username pero es con cariño, si no te quisiera no hubiera caído en tu chantaje del piojito ","valence", 0.565
+"03397"," @username Es lo más probable ","valence", 0.563
+"02777"," Hacia tanto tiempo que no sonreía tanto a mi celular mientras hablaba con alguien 😊 ","valence", 0.875
+"03777"," Pucha ya no me sirven todos los carros a Rondizzoni ... #ironía jajajjajaja #unañomas ","valence", 0.540
+"00291"," Me agarro sueño que miedo ","valence", 0.333
+"01579"," Siguen los amigos que quiero tener, no me puedo quejar... Gracias por todo, ¡Feliz día! 💘","valence", 0.955
+"05739"," @username El que nunca me saluda 😟 ","valence", 0.333
+"05538"," @username anon sos terrible cornuda y bla etc ","valence", 0.250
+"01228"," @username Cabal ! Ahí van bolos, no crudos. ","valence", 0.545
+"02128"," @username Me pone nervioso que tenga el pecho tan grande 😂 ","valence", 0.720
+"01420"," Soñe contigo, más que una sonrisa me sacaste.","valence", 0.696
+"03688"," @username @username Son tipos de doble rasero, se creen abanderados de la justicia, permitan que me sonría 😀","valence", 0.380
+"05016"," @username En caso de ser mujer ... Piensan en embarazo, quisiera tener anemia en ese caso. 😅","valence", 0.583
+"04414"," Una maravilla del mundo es beber café hirviendo a esta hora . ","valence", 0.783
+"01701"," Feliz día a todos los amigos ! ! ! ","valence", 0.740
+"00983"," Si espera rencor o alegría de verme sufrir ... ","valence", 0.419
+"01986"," Mañana es festivo 😍 ","valence", 0.868
+"01485"," Me tiene todo tan cansada ","valence", 0.306
+"04564"," @username Ahi vas a poder ahora . ","valence", 0.604
+"04784"," @username Las apoderadas son lo pior ! ! ! ","valence", 0.326
+"01623"," x dios q aburrida estoy q alguien me charle un rato ","valence", 0.271
+"01274"," Humilde o está intimidada ? ? ? #Bailadisimo o ardidaaa @username jajajaja 😂 ","valence", 0.587
+"02185"," Y que tal si mejor estoy de oyente @username ? ","valence", 0.660
+"05545"," Domingo, 23:36   Quiero escuchar música y cantar a todo pulmón pero no quiero despertar a los demás ","valence", 0.717
+"04284"," @username Yo salí en la camioneta, desayuné McDonald's, almorcé China Wok y también se m olvidó ponerlo en las redes #sarcasmo ","valence", 0.563
+"05637"," Hasta mañana ","valence", 0.640
+"05242"," @username Jajajajajajajajaja lpm quedo horrible ","valence", 0.521
+"02978"," El hey me gustas quieres salir con tal y no se que es lo que mas me ha dado risa en mucho tiempo ","valence", 0.826
+"05671"," harry está emocionado por la gira mundial, y yo estoy deprimida de vuelta porque no tengo entrada.","valence", 0.261
+"03719"," Estaba #triste y ","valence", 0.313
+"02893"," Ustedes que saben de terror si sus hij @username no les encargan a sus nietos para irse de fiesta ","valence", 0.375
+"03654"," @username Un gusto .. ","valence", 0.729
+"01556"," @username A lo loco ! ! ! ¿ Lo próximo qué será ... ? ¿ Que puedan votar ? #ironía Menudos retrógrados . ","valence", 0.213
+"06385"," @username @username tiburón eres un enchufado mas y un laboratorio mejor ni te contesto no vale la pena ","valence", 0.261
+"02860"," @username Ahora es aburrida pero con música 🙌 ","valence", 0.441

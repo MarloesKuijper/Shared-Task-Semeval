@@ -80,6 +80,27 @@ def preprocessing_for_arff_files(directory):
         with open(file, "w", encoding="utf-8") as outfile:
             for line in lines:
                 outfile.write(line)
+
+
+def emoji_preprocessing_for_arff_files(directory):
+    files = find_arffs_in_dir(directory)
+    print(files)
+    for file in files:
+        lines = []
+        with open(file, "r", encoding="utf-8") as infile:
+            for line in infile:
+                if line != "\n" and not line.startswith("@"):
+                    items = line.split(",")
+                    tweet = items[1]
+                    cleaned = split_emojis(tweet)
+                    items[1] = cleaned
+                    new_items = ",".join(items)
+                    lines.append(new_items)
+                else:
+                    lines.append(line)
+        with open(file, "w", encoding="utf-8") as outfile:
+            for line in lines:
+                outfile.write(line)
                 
 
 """ NORMAL USAGE: python3 tweet_preprocessing.py INFILE OUTFILE
