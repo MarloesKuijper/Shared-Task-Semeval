@@ -75,9 +75,10 @@ def preprocessing_for_arff_files(directory):
  If you want to preprocess arff files (not necessary anymore since it's already done), you can call preprocessing_for_arff_files with a directory of arffs as input"""
 
 if __name__ == "__main__":
-    preprocessing_for_arff = False
+    preprocessing_for_arff = True
     if preprocessing_for_arff:
-        preprocessing_for_arff_files("./files_to_convert")
+        arff_dir = sys.argv[1]
+        preprocessing_for_arff_files(arff_dir)
     else:
         with open(sys.argv[1], "r", encoding="utf-8") as filtered_tweets, open(sys.argv[2], "w", encoding="utf-8") as outfile:
             tweets_final = clean_tweets(filtered_tweets)

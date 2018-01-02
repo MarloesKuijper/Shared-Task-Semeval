@@ -22,10 +22,8 @@ def remove_quotes(input, output):
 
 if __name__ == "__main__":
 	# find files in certain directory that need to be converted
-	for root, dirs, files in os.walk("./files_to_convert"):
-	    for file in files:
-	        if file.endswith(".txt"):
-	             file = os.path.join(root, file)
-	             print(file)
-	             remove_quotes(file, "temp.txt")
+    file_dir = sys.argv[1]
+    infile = sys.argv[2]
+    outfile = sys.argv[3]
+    remove_quotes(infile, outfile)
    	

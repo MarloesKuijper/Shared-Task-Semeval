@@ -58,11 +58,7 @@ def create_arff(input_file,output_file):
 
 if __name__ == "__main__":
     # find files in certain directory that need to be converted
-    for root, dirs, files in os.walk("./files_to_convert"):
-        for file in files:
-            if file.endswith(".txt"):
-                file = os.path.join(root, file)
-                name = re.split('[.]', file)
-                out = "." + name[1] + ".arff"
-                print(out)
-                create_arff(file, out)
+    file_dir = sys.argv[1]
+    infile = sys.argv[2]
+    outfile = sys.argv[3]
+    create_arff(infile, outfile)
