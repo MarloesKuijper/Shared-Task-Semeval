@@ -1,5 +1,7 @@
 import re, os, sys
 from nltk.tokenize import TweetTokenizer
+import emoji #necesary to find emojis, can be installed with: pip install emoji
+
 
 def url_to_placeholder(tweet):
     tweet= re.sub(r"http\S+", "url", str(tweet))
@@ -28,7 +30,20 @@ def retweet_remove(tweet):
 def tokenize_tweet(tweet):
     tokenizer = TweetTokenizer(reduce_len=True)
     tokens = tokenizer.tokenize(tweet)
-    return " ".join(tokens)
+    return_str = split_emojis(" ".join(tokens))
+    return return_str
+
+
+def split_emojis(tweet):
+	'''All emojis are an individual token'''
+	new_str = ''
+	for c in tweet:
+		if c in emoji.UNICODE_EMOJI:
+			new_str += (' ' + c + ' ')
+		else:
+			new_str += c	
+	return 	" ".join(new_str.split())
+
 
 def clean_tweets(tweets):
     tweets_final = []
@@ -65,11 +80,7 @@ def preprocessing_for_arff_files(directory):
         with open(file, "w", encoding="utf-8") as outfile:
             for line in lines:
                 outfile.write(line)
-
-
-                    
-
-
+                
 
 """ NORMAL USAGE: python3 tweet_preprocessing.py INFILE OUTFILE
  If you want to preprocess arff files (not necessary anymore since it's already done), you can call preprocessing_for_arff_files with a directory of arffs as input"""

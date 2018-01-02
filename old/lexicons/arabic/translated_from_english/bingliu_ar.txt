@@ -1,0 +1,6876 @@
+
+Arabic translation of the Bing Liu Lexicon
+Version 0.1
+30 September 2015
+Copyright (C) 2015 National Research Council Canada (NRC)
+Contact: Mohammad Salameh (msalameh@ualberta.ca)
+	 Saif M. Mohammad (saif.mohammad@nrc-cnrc.gc.ca)		 
+	 Svetlana Kiritchenko (Svetlana.Kiritchenko@nrc-cnrc.gc.ca)
+
+Terms of use:
+1. This dataset can be used freely for research purposes. 
+2. The papers listed below provide details of the creation and use of 
+   the dataset. If you use a dataset, then please cite the associated 
+   papers.
+3. If you use the dataset in a product or application, then please 
+   credit the authors and NRC appropriately. Also, if you send us an 
+   email, we will be thrilled to know about how you have used the 
+   dataset.
+4. National Research Council Canada (NRC) disclaims any responsibility 
+   for the use of the dataset and does not provide technical support. 
+   However, the contact listed above will be happy to respond to 
+   queries and clarifications.
+5. Rather than redistributing the data, please direct interested 
+   parties to this page:
+   http://www.purl.org/net/ArabicSA
+
+Please feel free to send us an email:
+- with feedback regarding the datasets. 
+- with information on how you have used the dataset. 
+- if interested in a collaborative research project.
+
+.......................................................................
+
+Arabic translation of the Bing Liu Sentiment Lexicon
+----------------------------------------
+This lexicon was created by translating the terms in Bing Liu
+Sentiment Lexicon into Arabic using Google Translate. The Bing Liu
+sentiment lexicon is a list of terms classified into whether they are
+positive or negative.  Google Translate provided Arabic translations
+for 2,006 positive terms and 4,783 negative terms.
+
+.......................................................................
+
+PUBLICATIONS
+------------
+Details of the lexicon and its use in an Arabic sentiment analysis 
+system can be found in the following peer-reviewed publications:
+
+— Sentiment After Translation: A Case-Study on Arabic Social Media Posts.
+ Mohammad Salameh, Saif M. Mohammad and Svetlana Kiritchenko, In 
+ Proceedings of the North American Chapter of the Association for 
+ Computational Linguistics (NAACL-2015), June 2015, Denver, Colorado.
+ 
+— How Translation Alters Sentiment. Saif M. Mohammad, Mohammad Salameh,
+ and Svetlana Kiritchenko, In Journal of Artificial Intelligence Research,
+ in press.
+
+The papers are available here:
+http://saifmohammad.com/WebPages/WebDocs/arabicSA-JAIR.pdf
+http://aclweb.org/anthology/N/N15/N15-1078.pdf
+
+.......................................................................
+
+VERSION INFORMATION
+-------------------
+Version 0.1 is the first version as of 30 September 2015.
+
+.......................................................................
+
+FORMAT
+------
+The lexicon is the same as original Bing Liu lexicon with 2 added 
+columns(Arabic transaltion and their Buckwalter form)
+
+The file has the following columns:
+— English term: the English term from the Bing Liu Lexicon.
+— Arabic Translation: Arabic translation of the English term obtained 
+using Google Translate.
+— Buckwalter: Buckwalter transliteration form of the Arabic translation, 
+where different forms of Alif and Ya characters are normalized to bare 
+Alif and dotless Ya.
+— Sentiment: Sentiment score of the English term as in the Bing Liu 
+Lexicon (1 for positive and -1 for negative).
+
+.......................................................................
+
+[English Term]	[Arabic Translation]	[Buckwalter]	[Sentiment]
+a+	و+	w+	1
+abound	تكثر	tkvr	1
+abounds	يزخر	yzxr	1
+abundance	وفرة	wfrp	1
+abundant	كثير	kvyr	1
+accessable	مليم	mlym	1
+accessible	يمكن الوصول إليها	ymkn AlwSwl AlyhA	1
+acclaim	هتاف	htAf	1
+acclaimed	اللاذعة	AllA*Ep	1
+acclamation	بالتزكية	bAltzkyp	1
+accolade	احتضان	AHtDAn	1
+accolades	الجوائز	AljwA}z	1
+accommodative	متكيفة	mtkyfp	1
+accomodative	أككوموداتيفي	AkkwmwdAtyfy	1
+accomplish	إنجاز	AnjAz	1
+accomplished	إنجاز	AnjAz	1
+accomplishment	إنجاز	AnjAz	1
+accomplishments	الإنجازات	AlAnjAzAt	1
+accurate	دقيق	dqyq	1
+accurately	بدقة	bdqp	1
+achievable	للتحقيق	lltHqyq	1
+achievement	إنجاز	AnjAz	1
+achievements	الإنجازات	AlAnjAzAt	1
+achievible	achievible	achievible	1
+acumen	فطنة	fTnp	1
+adaptable	قابل للتكيف	qAbl lltkyf	1
+adaptive	التكيف	Altkyf	1
+adequate	كاف	kAf	1
+adjustable	قابل للتعديل	qAbl lltEdyl	1
+admirable	بديع	bdyE	1
+admirably	رائع	rA}E	1
+admiration	إعجاب	AEjAb	1
+admire	معجب	mEjb	1
+admirer	المعجب	AlmEjb	1
+admiring	الإعجاب	AlAEjAb	1
+admiringly	بإعجاب	bAEjAb	1
+adorable	بديع	bdyE	1
+adore	أعشق	AE$q	1
+adored	المعشوق	AlmE$wq	1
+adorer	عابد	EAbd	1
+adoring	العاشق	AlEA$q	1
+adoringly	باعجاب	bAEjAb	1
+adroit	لبق	lbq	1
+adroitly	ببراعة	bbrAEp	1
+adulate	تملق	tmlq	1
+adulation	تزلف	tzlf	1
+adulatory	متزلف	mtzlf	1
+advanced	متقدم	mtqdm	1
+advantage	ميزة	myzp	1
+advantageous	مفيد	mfyd	1
+advantageously	مفيد	mfyd	1
+advantages	مزايا	mzAyA	1
+adventuresome	مغامرا	mgAmrA	1
+adventurous	مغامر	mgAmr	1
+advocate	محام	mHAm	1
+advocated	دعا	dEA	1
+advocates	دعاة	dEAp	1
+affability	الدماثة	AldmAvp	1
+affable	أنيس	Anys	1
+affably	affably	affably	1
+affectation	التكلف	Altklf	1
+affection	عاطفة	EATfp	1
+affectionate	حنون	Hnwn	1
+affinity	الألفة	AlAlfp	1
+affirm	أكد	Akd	1
+affirmation	تأكيد	tAkyd	1
+affirmative	إيجابي	AyjAby	1
+affluence	بحبوحة	bHbwHp	1
+affluent	غني	gny	1
+afford	تحمل	tHml	1
+affordable	بأسعار معقولة	bAsEAr mEqwlp	1
+affordably	كلفة معقولة	klfp mEqwlp	1
+afordable	afordable	afordable	1
+agile	رشيق	r$yq	1
+agilely	agilely	agilely	1
+agility	رشاقة	r$Aqp	1
+agreeable	مقبول	mqbwl	1
+agreeableness	agreeableness	agreeableness	1
+agreeably	منسجما مع	mnsjmA mE	1
+all-around	فى كل المكان	fy kl AlmkAn	1
+alluring	فاتن	fAtn	1
+alluringly	alluringly	alluringly	1
+altruistic	غيري	gyry	1
+altruistically	خال من الأنانية	xAl mn AlAnAnyp	1
+amaze	تدهش	tdh$	1
+amazed	مندهش	mndh$	1
+amazement	ذهول	*hwl	1
+amazes	يذهل	y*hl	1
+amazing	مدهش	mdh$	1
+amazingly	بشكل مثير للدهشة	b$kl mvyr lldh$p	1
+ambitious	طموح	TmwH	1
+ambitiously	طموح	TmwH	1
+ameliorate	تحسن	tHsn	1
+amenable	قابلة	qAblp	1
+amenity	لطافة	lTAfp	1
+amiability	لطف	lTf	1
+amiabily	amiabily	amiabily	1
+amiable	ودي	wdy	1
+amicability	المودة	Almwdp	1
+amicable	ظريف	Zryf	1
+amicably	حبيا	HbyA	1
+amity	وئام	w}Am	1
+ample	وافرة	wAfrp	1
+amply	بإسهاب	bAshAb	1
+amuse	سلى	sly	1
+amusing	مسل	msl	1
+amusingly	متعجبا	mtEjbA	1
+angel	ملاك	mlAk	1
+angelic	ملائكي	mlA}ky	1
+apotheosis	تأليه	tAlyh	1
+appeal	مناشدة	mnA$dp	1
+appealing	جذاب	j*Ab	1
+applaud	نشيد	n$yd	1
+appreciable	ممكن إدراكه	mmkn AdrAkh	1
+appreciate	نقدر	nqdr	1
+appreciated	تقدير	tqdyr	1
+appreciates	تقدر	tqdr	1
+appreciative	ممتدح	mmtdH	1
+appreciatively	بتقدير	btqdyr	1
+appropriate	مناسب	mnAsb	1
+approval	موافقة	mwAfqp	1
+approve	وافق	wAfq	1
+ardent	متحمس	mtHms	1
+ardently	بحماسة	bHmAsp	1
+ardor	حماسة	HmAsp	1
+articulate	توضيح	twDyH	1
+aspiration	طموح	TmwH	1
+aspirations	تطلعات	tTlEAt	1
+aspire	تاق	tAq	1
+assurance	توكيد	twkyd	1
+assurances	تأكيدات	tAkydAt	1
+assure	ضمان	DmAn	1
+assuredly	بالتأكيد	bAltAkyd	1
+assuring	ضمان	DmAn	1
+astonish	ذهل	*hl	1
+astonished	مندهش	mndh$	1
+astonishing	مذهل	m*hl	1
+astonishingly	مدهش	mdh$	1
+astonishment	دهشة	dh$p	1
+astound	ذهل	*hl	1
+astounded	مشدوه	m$dwh	1
+astounding	مذهل	m*hl	1
+astoundingly	وسط ذهول	wsT *hwl	1
+astutely	بذكاء	b*kA'	1
+attentive	منتبه	mntbh	1
+attraction	جاذبية	jA*byp	1
+attractive	جذاب	j*Ab	1
+attractively	جذاب	j*Ab	1
+attune	ناغم	nAgm	1
+audible	مسموع	msmwE	1
+audibly	سمع بوضوح	smE bwDwH	1
+auspicious	ميمون	mymwn	1
+authentic	حقيقي	Hqyqy	1
+authoritative	موثوق	mwvwq	1
+autonomous	مستقل	mstql	1
+available	متاح	mtAH	1
+aver	جزم	jzm	1
+avid	نهم	nhm	1
+avidly	بشوق	b$wq	1
+award	جائزة	jA}zp	1
+awarded	منحت	mnHt	1
+awards	الجوائز	AljwA}z	1
+awe	رعب	rEb	1
+awed	بالرعب	bAlrEb	1
+awesome	رائع	rA}E	1
+awesomely	بذهول	b*hwl	1
+awesomeness	الذهول	Al*hwl	1
+awestruck	مرعوب	mrEwb	1
+awsome	أوسم	Awsm	1
+backbone	العمود الفقري	AlEmwd Alfqry	1
+balanced	متوازن	mtwAzn	1
+bargain	صفقة	Sfqp	1
+beauteous	جميل	jmyl	1
+beautiful	جميل	jmyl	1
+beautifullly	beautifullly	beautifullly	1
+beautifully	جميل	jmyl	1
+beautify	تجميل	tjmyl	1
+beauty	الجمال	AljmAl	1
+beckon	أغرى	Agry	1
+beckoned	سنحت	snHt	1
+beckoning	تومئ	twm}	1
+beckons	يومئ	ywm}	1
+believable	معقول	mEqwl	1
+believeable	believeable	believeable	1
+beloved	محبوب	mHbwb	1
+benefactor	فاعل خير	fAEl xyr	1
+beneficent	رحيم	rHym	1
+beneficial	مفيد	mfyd	1
+beneficially	مفيد	mfyd	1
+beneficiary	المستفيد	Almstfyd	1
+benefit	فائدة	fA}dp	1
+benefits	فوائد	fwA}d	1
+benevolence	خير	xyr	1
+benevolent	خير	xyr	1
+benifits	نفع	nfE	1
+best	أفضل	AfDl	1
+best-known	المعروفة أفضل	AlmErwfp AfDl	1
+best-performing	أفضل الأداء	AfDl AlAdA'	1
+best-selling	أفضل مبيعات	AfDl mbyEAt	1
+better	أفضل	AfDl	1
+better-known	المعروفة أفضل	AlmErwfp AfDl	1
+better-than-expected	أفضل مما كان متوقعا	AfDl mmA kAn mtwqEA	1
+beutifully	بيوتيفولي	bywtyfwly	1
+blameless	برئ	br}	1
+bless	بارك	bArk	1
+blessing	بركة	brkp	1
+bliss	النعيم	AlnEym	1
+blissful	سعيد	sEyd	1
+blissfully	بسعادة	bsEAdp	1
+blithe	مبتهج	mbthj	1
+blockbuster	اقبال	AqbAl	1
+bloom	إزهار	AzhAr	1
+blossom	زهر	zhr	1
+bolster	دعم	dEm	1
+bonny	وسيم	wsym	1
+bonus	علاوة	ElAwp	1
+bonuses	المكافآت	AlmkAfAt	1
+boom	ازدهار	AzdhAr	1
+booming	ازدهار	AzdhAr	1
+boost	زيادة	zyAdp	1
+boundless	غير محدود	gyr mHdwd	1
+bountiful	وافر	wAfr	1
+brainiest	brainiest	brainiest	1
+brainy	ذكي	*ky	1
+brand-new	علامة تجارية جديدة	ElAmp tjAryp jdydp	1
+brave	شجاع	$jAE	1
+bravery	شجاعة	$jAEp	1
+bravo	مرحى	mrHy	1
+breakthrough	اختراق	AxtrAq	1
+breakthroughs	اختراقات	AxtrAqAt	1
+breathlessness	ضيق التنفس	Dyq Altnfs	1
+breathtaking	مثير	mvyr	1
+breathtakingly	بشكل مذهل	b$kl m*hl	1
+breeze	نسيم	nsym	1
+bright	مشرق	m$rq	1
+brighten	سطع	sTE	1
+brighter	أكثر إشراقا	Akvr A$rAqA	1
+brightest	ألمع	AlmE	1
+brilliance	تألق	tAlq	1
+brilliances	brilliances	brilliances	1
+brilliant	متألق	mtAlq	1
+brilliantly	ببراعة	bbrAEp	1
+brisk	انتعش	AntE$	1
+brotherly	أخوي	Axwy	1
+bullish	متفائل	mtfA}l	1
+buoyant	قابل للطفو	qAbl llTfw	1
+cajole	تملق	tmlq	1
+calm	هدوء	hdw'	1
+calming	تهدئة	thd}p	1
+calmness	هدوء	hdw'	1
+capability	قدرة	qdrp	1
+capable	قادر على	qAdr Ely	1
+capably	باقتدار	bAqtdAr	1
+captivate	أسر	Asr	1
+captivating	آسر	Asr	1
+carefree	خلو من الهم	xlw mn Alhm	1
+cashback	استرداد النقود	AstrdAd Alnqwd	1
+cashbacks	cashbacks	cashbacks	1
+catchy	جذاب	j*Ab	1
+celebrate	احتفل	AHtfl	1
+celebrated	مشهور	m$hwr	1
+celebration	احتفال	AHtfAl	1
+celebratory	محتفل	mHtfl	1
+champ	عض	ED	1
+champion	بطل	bTl	1
+charisma	جاذبية	jA*byp	1
+charismatic	الكاريزمية	AlkAryzmyp	1
+charitable	خيري	xyry	1
+charm	سحر	sHr	1
+charming	جذاب	j*Ab	1
+charmingly	مسحور	msHwr	1
+chaste	عفيف	Efyf	1
+cheaper	أرخص	ArxS	1
+cheapest	أرخص	ArxS	1
+cheer	هتاف	htAf	1
+cheerful	مرح	mrH	1
+cheery	مبتهج	mbthj	1
+cherish	نعتز به	nEtz bh	1
+cherished	العزيزة	AlEzyzp	1
+cherub	طفل جميل	Tfl jmyl	1
+chic	أناقة	AnAqp	1
+chivalrous	شهم	$hm	1
+chivalry	شهامة	$hAmp	1
+civility	كياسة	kyAsp	1
+civilize	حضر	HDr	1
+clarity	وضوح	wDwH	1
+classic	كلاسيكي	klAsyky	1
+classy	أنيق	Anyq	1
+clean	نظيف	nZyf	1
+cleaner	منظف	mnZf	1
+cleanest	أنظف	AnZf	1
+cleanliness	نظافة	nZAfp	1
+cleanly	نظيف	nZyf	1
+clear	واضح	wADH	1
+clear-cut	واضح	wADH	1
+cleared	مسح	msH	1
+clearer	أكثر وضوحا	Akvr wDwHA	1
+clearly	بوضوح	bwDwH	1
+clears	يخلي	yxly	1
+clever	ذكي	*ky	1
+cleverly	بذكاء	b*kA'	1
+cohere	التحم	AltHm	1
+coherence	تماسك	tmAsk	1
+coherent	متماسك	mtmAsk	1
+cohesive	متماسك	mtmAsk	1
+colorful	غني بالألوان	gny bAlAlwAn	1
+comely	وسيم	wsym	1
+comfort	راحة	rAHp	1
+comfortable	مريح	mryH	1
+comfortably	مريح	mryH	1
+comforting	تعزية	tEzyp	1
+comfy	مريح	mryH	1
+commend	نثني	nvny	1
+commendable	جدير بالثناء	jdyr bAlvnA'	1
+commendably	يستحق الثناء	ystHq AlvnA'	1
+commitment	التزام	AltzAm	1
+commodious	commodious	commodious	1
+compact	اتفاق	AtfAq	1
+compactly	مضغوط	mDgwT	1
+compassion	شفقة	$fqp	1
+compassionate	رحيم	rHym	1
+compatible	متوافق	mtwAfq	1
+competitive	تنافسي	tnAfsy	1
+complement	تكملة	tkmlp	1
+complementary	مكمل	mkml	1
+complemented	تستكمل	tstkml	1
+complements	تكملة	tkmlp	1
+compliant	متوافقة	mtwAfqp	1
+compliment	إطراء	ATrA'	1
+complimentary	مجاني	mjAny	1
+comprehensive	شامل	$Aml	1
+conciliate	استرضى	AstrDy	1
+conciliatory	مصلحجي	mSlHjy	1
+concise	موجز	mwjz	1
+confidence	الثقة	Alvqp	1
+confident	واثق	wAvq	1
+congenial	متجانس روحا وطبعا	mtjAns rwHA wTbEA	1
+congratulate	هنأ	hnA	1
+congratulation	تهنئة	thn}p	1
+congratulations	تهنئة	thn}p	1
+congratulatory	تهنيئي	thny}y	1
+conscientious	منجز وفقا لما يمليه الضمير	mnjz wfqA lmA ymlyh AlDmyr	1
+considerate	ترو	trw	1
+consistent	متسق	mtsq	1
+consistently	باستمرار	bAstmrAr	1
+constructive	استدلالي	AstdlAly	1
+consummate	ماهر	mAhr	1
+contentment	اطمئنان	ATm}nAn	1
+continuity	الاستمرارية	AlAstmrAryp	1
+contrasty	contrasty	contrasty	1
+contribution	إسهام	AshAm	1
+convenience	ملاءمة	mlA'mp	1
+convenient	مناسب	mnAsb	1
+conveniently	مريح	mryH	1
+convience	كونفينسي	kwnfynsy	1
+convienient	كونفينينت	kwnfynynt	1
+convient	كونفينت	kwnfynt	1
+convincing	مقنع	mqnE	1
+convincingly	مقنع	mqnE	1
+cool	بارد	bArd	1
+coolest	أروع	ArwE	1
+cooperative	جمعية تعاونية	jmEyp tEAwnyp	1
+cooperatively	تعاوني	tEAwny	1
+cornerstone	حجر الزاوية	Hjr AlzAwyp	1
+correct	صحيح	SHyH	1
+correctly	بشكل صحيح	b$kl SHyH	1
+cost-effective	فعاله من حيث التكلفه	fEAlh mn Hyv Altklfh	1
+cost-saving	التوفير في التكاليف	Altwfyr fy AltkAlyf	1
+counter-attack	الهجوم المضاد	Alhjwm AlmDAd	1
+counter-attacks	هجمات مضادة	hjmAt mDAdp	1
+courage	شجاعة	$jAEp	1
+courageous	شجاع	$jAE	1
+courageously	بشجاعة	b$jAEp	1
+courageousness	courageousness	courageousness	1
+courteous	مهذب	mh*b	1
+courtly	متملق	mtmlq	1
+covenant	عهد	Ehd	1
+cozy	دافئ	dAf}	1
+creative	خلاق	xlAq	1
+credence	تصديق	tSdyq	1
+credible	موثوق	mwvwq	1
+crisp	هش	h$	1
+crisper	هش	h$	1
+cure	شفاء	$fA'	1
+cure-all	علاج للجميع	ElAj lljmyE	1
+cushy	هين	hyn	1
+cute	جذاب	j*Ab	1
+cuteness	الجاذبية	AljA*byp	1
+danke	danke	danke	1
+danken	danken	danken	1
+daring	جرأة	jrAp	1
+daringly	بجرأة	bjrAp	1
+darling	محبوب	mHbwb	1
+dashing	أنيق	Anyq	1
+dauntless	شجاع	$jAE	1
+dawn	فجر	fjr	1
+dazzle	انبهار	AnbhAr	1
+dazzled	مبهور	mbhwr	1
+dazzling	باهر	bAhr	1
+dead-cheap	ميتا رخيصة	mytA rxySp	1
+dead-on	الميت على اساس	Almyt Ely AsAs	1
+decency	حشمة	H$mp	1
+decent	لائق	lA}q	1
+decisive	حاسم	HAsm	1
+decisiveness	حسم	Hsm	1
+dedicated	مكرسة	mkrsp	1
+defeat	هزيمة	hzymp	1
+defeated	مهزوم	mhzwm	1
+defeating	قهر	qhr	1
+defeats	الهزائم	AlhzA}m	1
+defender	المدافع	AlmdAfE	1
+deference	إذعان	A*EAn	1
+deft	ماهر	mAhr	1
+deginified	deginified	deginified	1
+delectable	لذيذ	l*y*	1
+delicacy	دقة	dqp	1
+delicate	دقيق	dqyq	1
+delicious	لذيذ	l*y*	1
+delight	بهجة	bhjp	1
+delighted	في منتهى السعادة	fy mnthy AlsEAdp	1
+delightful	لذيذ	l*y*	1
+delightfully	مبهج	mbhj	1
+delightfulness	عذوبة	E*wbp	1
+dependable	جدير بالثقة	jdyr bAlvqp	1
+dependably	بثقة	bvqp	1
+deservedly	باستحقاق	bAstHqAq	1
+deserving	مستحق	mstHq	1
+desirable	مرغوب فيه	mrgwb fyh	1
+desiring	ورغبة منها	wrgbp mnhA	1
+desirous	متلهف	mtlhf	1
+destiny	مصير	mSyr	1
+detachable	انفصال	AnfSAl	1
+devout	ورع	wrE	1
+dexterous	حاذق	HA*q	1
+dexterously	بمهارة	bmhArp	1
+dextrous	حاذق	HA*q	1
+dignified	جليل	jlyl	1
+dignify	احترم	AHtrm	1
+dignity	كرامة	krAmp	1
+diligence	اجتهاد	AjthAd	1
+diligent	مجتهد	mjthd	1
+diligently	بجد	bjd	1
+diplomatic	دبلوماسي	dblwmAsy	1
+dirt-cheap	بسعر رخيص جدا	bsEr rxyS jdA	1
+distinction	تميز	tmyz	1
+distinctive	مميز	mmyz	1
+distinguished	متميز	mtmyz	1
+diversified	متنوع	mtnwE	1
+divine	إلهي	Alhy	1
+divinely	إلهيا	AlhyA	1
+dominate	سيطر	syTr	1
+dominated	هيمنت	hymnt	1
+dominates	يهيمن	yhymn	1
+dote	حب لدرجة الجنون	Hb ldrjp Aljnwn	1
+dotingly	مخرف	mxrf	1
+doubtless	بدون شك	bdwn $k	1
+dreamland	ارض الاحلام	ArD AlAHlAm	1
+dumbfounded	صعق	SEq	1
+dumbfounding	مدهش	mdh$	1
+dummy-proof	وهمية واقية	whmyp wAqyp	1
+durable	متحمل	mtHml	1
+dynamic	ديناميكي	dynAmyky	1
+eager	حريص	HryS	1
+eagerly	بفارغ الصبر	bfArg AlSbr	1
+eagerness	لهفة	lhfp	1
+earnest	جدي	jdy	1
+earnestly	بجد	bjd	1
+earnestness	جدية	jdyp	1
+ease	سهولة	shwlp	1
+eased	خفف	xff	1
+eases	يخفف	yxff	1
+easier	أسهل	Ashl	1
+easiest	أسهل	Ashl	1
+easiness	سهولة	shwlp	1
+easing	تخفيف	txfyf	1
+easy	سهل	shl	1
+easy-to-use	سهل الاستخدام	shl AlAstxdAm	1
+easygoing	عيشة رغيدة	Ey$p rgydp	1
+ebullience	حماسة	HmAsp	1
+ebullient	متحمس	mtHms	1
+ebulliently	ebulliently	ebulliently	1
+ecenomical	ecenomical	ecenomical	1
+economical	اقتصادي	AqtSAdy	1
+ecstasies	النشوات	Aln$wAt	1
+ecstasy	نشوة	n$wp	1
+ecstatic	شاطح	$ATH	1
+ecstatically	مبتهجا	mbthjA	1
+edify	هذب	h*b	1
+educated	مثقف	mvqf	1
+effective	فعال	fEAl	1
+effectively	على نحو فعال	Ely nHw fEAl	1
+effectiveness	فعالية	fEAlyp	1
+effectual	فعال	fEAl	1
+efficacious	فعال	fEAl	1
+efficient	فعال	fEAl	1
+efficiently	بكفاءة	bkfA'p	1
+effortless	هين	hyn	1
+effortlessly	جهد	jhd	1
+effusion	راقة	rAqp	1
+effusive	منفتح القلب	mnftH Alqlb	1
+effusively	باهتا	bAhtA	1
+effusiveness	الفيض	AlfyD	1
+elan	حماسة	HmAsp	1
+elate	حمس	Hms	1
+elated	مبتهج	mbthj	1
+elatedly	elatedly	elatedly	1
+elation	عجب	Ejb	1
+electrify	كهرب	khrb	1
+elegance	أناقة	AnAqp	1
+elegant	أنيق	Anyq	1
+elegantly	بظرافة	bZrAfp	1
+elevate	رفع	rfE	1
+elite	نخبة	nxbp	1
+eloquence	بلاغة	blAgp	1
+eloquent	بليغ	blyg	1
+eloquently	ببلاغة	bblAgp	1
+embolden	شجع	$jE	1
+eminence	ربوة	rbwp	1
+eminent	بارز	bArz	1
+empathize	يتعاطفوا	ytEATfwA	1
+empathy	التقمص العاطفي	AltqmS AlEATfy	1
+empower	تمكين	tmkyn	1
+empowerment	التمكين	Altmkyn	1
+enchant	سبى	sby	1
+enchanted	مسحور	msHwr	1
+enchanting	ساحر	sAHr	1
+enchantingly	بهيج	bhyj	1
+encourage	شجع	$jE	1
+encouragement	تشجيع	t$jyE	1
+encouraging	مشجع	m$jE	1
+encouragingly	مشجع	m$jE	1
+endear	مات	mAt	1
+endearing	التحبيب	AltHbyb	1
+endorse	تأييد	tAyyd	1
+endorsed	أيد	Ayd	1
+endorsement	موافقة	mwAfqp	1
+endorses	ويؤيد	wyWyd	1
+endorsing	المصادقة	AlmSAdqp	1
+energetic	نشيط	n$yT	1
+energize	تنشيط	tn$yT	1
+energy-efficient	الموفرة للطاقة	Almwfrp llTAqp	1
+energy-saving	توفير الطاقة	twfyr AlTAqp	1
+engaging	جذاب	j*Ab	1
+engrossing	النسخ	Alnsx	1
+enhance	تحسين	tHsyn	1
+enhanced	تعزيزها	tEzyzhA	1
+enhancement	زيادة	zyAdp	1
+enhances	يعزز	yEzz	1
+enjoy	استمتع	AstmtE	1
+enjoyable	ممتع	mmtE	1
+enjoyably	بمتعة	bmtEp	1
+enjoyed	استمتعت	AstmtEt	1
+enjoying	تتمتع	ttmtE	1
+enjoyment	متعة	mtEp	1
+enjoys	تتمتع	ttmtE	1
+enlighten	تنوير	tnwyr	1
+enlightenment	تنوير	tnwyr	1
+enliven	أحيا	AHyA	1
+ennoble	عظم	EZm	1
+enough	يكفي	ykfy	1
+enrapt	enrapt	enrapt	1
+enrapture	بهج جدا	bhj jdA	1
+enraptured	أبهج	Abhj	1
+enrich	إثراء	AvrA'	1
+enrichment	تخصيب	txSyb	1
+enterprising	مغامر	mgAmr	1
+entertain	ترفيه	trfyh	1
+entertaining	مسلي	msly	1
+entertains	يسلي	ysly	1
+enthral	فتن	ftn	1
+enthrall	فتن	ftn	1
+enthralled	مستعبد	mstEbd	1
+enthuse	تحمس	tHms	1
+enthusiasm	حماس	HmAs	1
+enthusiast	متحمس	mtHms	1
+enthusiastic	متحمس	mtHms	1
+enthusiastically	بحماس	bHmAs	1
+entice	جذب	j*b	1
+enticed	أغرى	Agry	1
+enticing	جذاب	j*Ab	1
+enticingly	enticingly	enticingly	1
+entranced	مدوخ	mdwx	1
+entrancing	خلاب	xlAb	1
+entrust	فوض	fwD	1
+enviable	مرغوب فيه جدا	mrgwb fyh jdA	1
+enviably	يثير الحسد	yvyr AlHsd	1
+envious	حسود	Hswd	1
+enviously	الحسد	AlHsd	1
+enviousness	الحسد	AlHsd	1
+envy	حسد	Hsd	1
+equitable	منصف	mnSf	1
+ergonomical	تصميم ergonomical	tSmym ergonomical	1
+err-free	خالية من يخطئ	xAlyp mn yxT}	1
+erudite	واسع المعرفة	wAsE AlmErfp	1
+ethical	أخلاقي	AxlAqy	1
+eulogize	مدح	mdH	1
+euphoria	النشوة	Aln$wp	1
+euphoric	البهيجة	Albhyjp	1
+euphorically	euphorically	euphorically	1
+evaluative	مثمن	mvmn	1
+evenly	بالتساوي	bAltsAwy	1
+eventful	زاخر بالأحداث	zAxr bAlAHdAv	1
+everlasting	أبدي	Abdy	1
+evocative	مذكر	m*kr	1
+exalt	كثف	kvf	1
+exaltation	تمجيد	tmjyd	1
+exalted	ممجد	mmjd	1
+exaltedly	exaltedly	exaltedly	1
+exalting	الرفع	AlrfE	1
+exaltingly	exaltingly	exaltingly	1
+examplar	examplar	examplar	1
+examplary	قدوة	qdwp	1
+excallent	excallent	excallent	1
+exceed	تجاوز	tjAwz	1
+exceeded	تجاوز	tjAwz	1
+exceeding	تجاوز	tjAwz	1
+exceedingly	جدا	jdA	1
+exceeds	يتجاوز	ytjAwz	1
+excel	تفوق	tfwq	1
+exceled	exceled	exceled	1
+excelent	ممتازة	mmtAzp	1
+excellant	معاليكم	mEAlykm	1
+excelled	برع	brE	1
+excellence	امتياز	AmtyAz	1
+excellency	سعادة	sEAdp	1
+excellent	ممتاز	mmtAz	1
+excellently	ممتاز	mmtAz	1
+excels	تتفوق	ttfwq	1
+exceptional	استثنائي	AstvnA}y	1
+exceptionally	استثنائي	AstvnA}y	1
+excite	أثار	AvAr	1
+excited	منفعل	mnfEl	1
+excitedly	بحماس	bHmAs	1
+excitedness	excitedness	excitedness	1
+excitement	إثارة	AvArp	1
+excites	يثير	yvyr	1
+exciting	مثير	mvyr	1
+excitingly	والمثير	wAlmvyr	1
+exellent	EXELLENT	EXELLENT	1
+exemplar	نموذج	nmw*j	1
+exemplary	مثالي	mvAly	1
+exhilarate	نبه	nbh	1
+exhilarating	منعش	mnE$	1
+exhilaratingly	exhilaratingly	exhilaratingly	1
+exhilaration	ابتهاج	AbthAj	1
+exonerate	أبرئ	Abr}	1
+expansive	متمدد	mtmdd	1
+expeditiously	على وجه السرعة	Ely wjh AlsrEp	1
+expertly	بخبرة	bxbrp	1
+exquisite	رائع	rA}E	1
+exquisitely	رائع	rA}E	1
+extol	مجد	mjd	1
+extoll	extoll	extoll	1
+extraordinarily	غير عادي	gyr EAdy	1
+extraordinary	استثنائي	AstvnA}y	1
+exuberance	وفرة	wfrp	1
+exuberant	وافر	wAfr	1
+exuberantly	جذلا	j*lA	1
+exult	تهلل	thll	1
+exultant	متهلل	mthll	1
+exultation	تهلل	thll	1
+exultingly	exultingly	exultingly	1
+eye-catch	العين الصيد	AlEyn AlSyd	1
+eye-catching	لافتة للنظر	lAftp llnZr	1
+eyecatch	eyecatch	eyecatch	1
+eyecatching	eyecatching	eyecatching	1
+fabulous	رائع	rA}E	1
+fabulously	خرافي	xrAfy	1
+facilitate	تيسير	tysyr	1
+fair	معرض	mErD	1
+fairly	تماما	tmAmA	1
+fairness	عدل	Edl	1
+faith	إيمان	AymAn	1
+faithful	مخلص	mxlS	1
+faithfully	بأمانة	bAmAnp	1
+faithfulness	الإخلاص	AlAxlAS	1
+fame	شهرة	$hrp	1
+famed	مشهور	m$hwr	1
+famous	مشهور	m$hwr	1
+famously	الشهيرة	Al$hyrp	1
+fancier	هاوى تربية الكلاب	hAwy trbyp AlklAb	1
+fancinating	fancinating	fancinating	1
+fancy	نزوة	nzwp	1
+fanfare	جلبة	jlbp	1
+fans	المشجعين	Alm$jEyn	1
+fantastic	رائع	rA}E	1
+fantastically	خيالي	xyAly	1
+fascinate	فتن	ftn	1
+fascinating	جذاب	j*Ab	1
+fascinatingly	ساحرة	sAHrp	1
+fascination	سحر	sHr	1
+fashionable	من المألوف	mn AlmAlwf	1
+fashionably	عصريا	ESryA	1
+fast	بسرعة	bsrEp	1
+fast-growing	سريع النمو	sryE Alnmw	1
+fast-paced	سريع الخطى	sryE AlxTy	1
+faster	أسرع	AsrE	1
+fastest	أسرع	AsrE	1
+fastest-growing	الأسرع نموا	AlAsrE nmwA	1
+faultless	لا عيب فيه	lA Eyb fyh	1
+fav	الصوت العربي الحر	AlSwt AlErby AlHr	1
+fave	فف	ff	1
+favor	محاباة	mHAbAp	1
+favorable	ملائم	mlA}m	1
+favored	مفضل	mfDl	1
+favorite	مفضل	mfDl	1
+favorited	في المفضلة	fy AlmfDlp	1
+favour	محاباة	mHAbAp	1
+fearless	لا يعرف الخوف	lA yErf Alxwf	1
+fearlessly	دون خوف	dwn xwf	1
+feasible	عملي	Emly	1
+feasibly	عمليا	EmlyA	1
+feat	عمل	Eml	1
+feature-rich	ميزة الغنية	myzp Algnyp	1
+fecilitous	fecilitous	fecilitous	1
+feisty	المشاكس	Alm$Aks	1
+felicitate	هنأ	hnA	1
+felicitous	موفق	mwfq	1
+felicity	سعادة	sEAdp	1
+fertile	خصب	xSb	1
+fervent	متقد	mtqd	1
+fervently	بحماس	bHmAs	1
+fervid	متحمس	mtHms	1
+fervidly	fervidly	fervidly	1
+fervor	حماسة	HmAsp	1
+festive	احتفالي	AHtfAly	1
+fidelity	إخلاص	AxlAS	1
+fiery	ناري	nAry	1
+fine	غرامة	grAmp	1
+fine-looking	مظهر جميل	mZhr jmyl	1
+finely	ناعما	nAEmA	1
+finer	أدق	Adq	1
+finest	أروع	ArwE	1
+firmer	أكثر حزما	Akvr HzmA	1
+first-class	الصف الأول	AlSf AlAwl	1
+first-in-class	من الدرجة الأولى في	mn Aldrjp AlAwly fy	1
+first-rate	من الطراز الأول	mn AlTrAz AlAwl	1
+flashy	مبهرج	mbhrj	1
+flatter	تملق	tmlq	1
+flattering	طرى	Try	1
+flatteringly	flatteringly	flatteringly	1
+flawless	بلا عيب	blA Eyb	1
+flawlessly	لا تشوبه شائبة	lA t$wbh $A}bp	1
+flexibility	مرونة	mrwnp	1
+flexible	مرن	mrn	1
+flourish	تزدهر	tzdhr	1
+flourishing	مزدهر	mzdhr	1
+fluent	فصيح	fSyH	1
+flutter	رفرفة	rfrfp	1
+fond	مغرم	mgrm	1
+fondly	بولع	bwlE	1
+fondness	ولع	wlE	1
+foolproof	سهل جدا	shl jdA	1
+foremost	في المقام الأول	fy AlmqAm AlAwl	1
+foresight	بصيرة	bSyrp	1
+formidable	هائل	hA}l	1
+fortitude	جلد	jld	1
+fortuitous	تصادفي	tSAdfy	1
+fortuitously	مصادفة	mSAdfp	1
+fortunate	محظوظ	mHZwZ	1
+fortunately	لحسن الحظ	lHsn AlHZ	1
+fortune	ثروة	vrwp	1
+fragrant	عبق	Ebq	1
+free	حر	Hr	1
+freed	حررت	Hrrt	1
+freedom	حرية	Hryp	1
+freedoms	الحريات	AlHryAt	1
+fresh	طازج	TAzj	1
+fresher	أعذب	AE*b	1
+freshest	الطازجة	AlTAzjp	1
+friendliness	صداقة	SdAqp	1
+friendly	ودود	wdwd	1
+frolic	مرح	mrH	1
+frugal	مقتصد	mqtSd	1
+fruitful	مثمر	mvmr	1
+ftw	FTW	FTW	1
+fulfillment	تحقيق	tHqyq	1
+fun	مرح	mrH	1
+futurestic	futurestic	futurestic	1
+futuristic	مستقبلية	mstqblyp	1
+gaiety	فرح	frH	1
+gaily	بمرح	bmrH	1
+gain	ربح	rbH	1
+gained	اكتسبت	Aktsbt	1
+gainful	مربح	mrbH	1
+gainfully	بأجر	bAjr	1
+gaining	كسب	ksb	1
+gains	مكاسب	mkAsb	1
+gallant	شجاع	$jAE	1
+gallantly	بشجاعة	b$jAEp	1
+galore	وافر	wAfr	1
+geekier	geekier	geekier	1
+geeky	العبقري غريب الأطوار	AlEbqry gryb AlATwAr	1
+gem	جوهرة	jwhrp	1
+gems	الأحجار الكريمة	AlAHjAr Alkrymp	1
+generosity	كرم	krm	1
+generous	كريم	krym	1
+generously	بسخاء	bsxA'	1
+genial	لطيف	lTyf	1
+genius	عبقرية	Ebqryp	1
+gentle	لطيف	lTyf	1
+gentlest	ألطف	AlTf	1
+genuine	حقيقي	Hqyqy	1
+gifted	موهوب	mwhwb	1
+glad	سعيد	sEyd	1
+gladden	فرح	frH	1
+gladly	بكل سرور	bkl srwr	1
+gladness	فرح	frH	1
+glamorous	فاتن	fAtn	1
+glee	طرب	Trb	1
+gleeful	جذلان	j*lAn	1
+gleefully	بابتهاج	bAbthAj	1
+glimmer	وميض	wmyD	1
+glimmering	بريق	bryq	1
+glisten	تلألأ	tlAlA	1
+glistening	لامعة	lAmEp	1
+glitter	لمعان	lmEAn	1
+glitz	هذه الواجهة	h*h AlwAjhp	1
+glorify	مجد	mjd	1
+glorious	مجيد	mjyd	1
+gloriously	رائع	rA}E	1
+glory	مجد	mjd	1
+glow	توهج	twhj	1
+glowing	متوهج	mtwhj	1
+glowingly	بتوقد	btwqd	1
+god-given	هبها الله-	hbhA Allh-	1
+god-send	الله ارسل	Allh Arsl	1
+godlike	إلهي	Alhy	1
+godsend	مصادفة سعيدة	mSAdfp sEydp	1
+gold	الذهب	Al*hb	1
+golden	ذهبي	*hby	1
+good	حسن	Hsn	1
+goodly	وسيم	wsym	1
+goodness	صلاح	SlAH	1
+goodwill	شهرة المحل	$hrp AlmHl	1
+goood	GOOOD	GOOOD	1
+gooood	GOOOOD	GOOOOD	1
+gorgeous	رائع	rA}E	1
+gorgeously	رائع	rA}E	1
+grace	نعمة	nEmp	1
+graceful	رشيق	r$yq	1
+gracefully	برشاقة	br$Aqp	1
+gracious	كريم	krym	1
+graciously	بسماحة	bsmAHp	1
+graciousness	رشاقة	r$Aqp	1
+grand	كبير	kbyr	1
+grandeur	عظمة	EZmp	1
+grateful	شاكر	$Akr	1
+gratefully	مع الشكر	mE Al$kr	1
+gratification	متعة	mtEp	1
+gratified	بالامتنان	bAlAmtnAn	1
+gratifies	يمتع	ymtE	1
+gratify	كافأ	kAfA	1
+gratifying	ممتع	mmtE	1
+gratifyingly	gratifyingly	gratifyingly	1
+gratitude	شكر	$kr	1
+great	عظيم	EZym	1
+greatest	أعظم	AEZm	1
+greatness	عظمة	EZmp	1
+grin	ابتسامة	AbtsAmp	1
+groundbreaking	الرائد	AlrA}d	1
+guarantee	ضمان	DmAn	1
+guidance	توجيه	twjyh	1
+guiltless	برئ	br}	1
+gumption	التضميغ	AltDmyg	1
+gush	تدفق	tdfq	1
+gusto	ميل	myl	1
+gutsy	جريء	jry'	1
+hail	وابل	wAbl	1
+halcyon	القاوند طائر	AlqAwnd TA}r	1
+hale	معافى	mEAfy	1
+hallmark	سمة مميزة	smp mmyzp	1
+hallmarks	بصمات	bSmAt	1
+hallowed	مقدس	mqds	1
+handier	أكثر فائدة	Akvr fA}dp	1
+handily	بسهولة	bshwlp	1
+hands-down	اليدين باستمرار	Alydyn bAstmrAr	1
+handsome	وسيم	wsym	1
+handsomely	رائع	rA}E	1
+handy	في المتناول	fy AlmtnAwl	1
+happier	أسعد	AsEd	1
+happily	بسعادة	bsEAdp	1
+happiness	سعادة	sEAdp	1
+happy	سعيد	sEyd	1
+hard-working	العمل الجاد	AlEml AljAd	1
+hardier	أكثر صلابة	Akvr SlAbp	1
+hardy	قوي	qwy	1
+harmless	غير مؤذية	gyr mW*yp	1
+harmonious	متناغم	mtnAgm	1
+harmoniously	وئام	w}Am	1
+harmonize	توافق	twAfq	1
+harmony	الانسجام	AlAnsjAm	1
+headway	تقدم	tqdm	1
+heal	شفاء	$fA'	1
+healthful	صحي	SHy	1
+healthy	صحي	SHy	1
+hearten	شجع	$jE	1
+heartening	مشجع	m$jE	1
+heartfelt	صادر من القلب	SAdr mn Alqlb	1
+heartily	بمودة	bmwdp	1
+heartwarming	الحميم	AlHmym	1
+heaven	الجنة	Aljnp	1
+heavenly	سماوي	smAwy	1
+helped	ساعد	sAEd	1
+helpful	مفيد	mfyd	1
+helping	مساعدة	msAEdp	1
+hero	بطل	bTl	1
+heroic	بطولي	bTwly	1
+heroically	بطولي	bTwly	1
+heroine	بطلة	bTlp	1
+heroize	heroize	heroize	1
+heros	الابطال	AlAbTAl	1
+high-quality	جودة عالية	jwdp EAlyp	1
+high-spirited	مبتهج	mbthj	1
+hilarious	جذل	j*l	1
+holy	مقدس	mqds	1
+homage	إجلال	AjlAl	1
+honest	صادق	SAdq	1
+honesty	أمانة	AmAnp	1
+honor	شرف	$rf	1
+honorable	مشرف	m$rf	1
+honored	تكريم	tkrym	1
+honoring	تكريم	tkrym	1
+hooray	الصيحة	AlSyHp	1
+hopeful	متفائل	mtfA}l	1
+hospitable	مضياف	mDyAf	1
+hot	حار	HAr	1
+hotcake	كعكة ساخنة	kEkp sAxnp	1
+hotcakes	كعكات ساخنة	kEkAt sAxnp	1
+hottest	سخونة	sxwnp	1
+hug	عناق	EnAq	1
+humane	إنساني	AnsAny	1
+humble	متواضع	mtwADE	1
+humility	تواضع	twADE	1
+humor	فكاهة	fkAhp	1
+humorous	فكه	fkh	1
+humorously	بخفة دم	bxfp dm	1
+humour	فكاهة	fkAhp	1
+humourous	هوموروس	hwmwrws	1
+ideal	المثالي	AlmvAly	1
+idealize	كون مثلا	kwn mvlA	1
+ideally	من الناحية المثالية	mn AlnAHyp AlmvAlyp	1
+idol	المعبود	AlmEbwd	1
+idolize	أله	Alh	1
+idolized	يحظى بشعبية جارفة	yHZy b$Ebyp jArfp	1
+idyllic	ملحن على نحو رعوي	mlHn Ely nHw rEwy	1
+illuminate	أنار	AnAr	1
+illuminati	المتنورين	Almtnwryn	1
+illuminating	منور	mnwr	1
+illumine	أضاء	ADA'	1
+illustrious	شهير	$hyr	1
+ilu	ILU	ILU	1
+imaculate	إيماكولاتي	AymAkwlAty	1
+imaginative	خيالي	xyAly	1
+immaculate	طاهر	TAhr	1
+immaculately	تصرف بطريقة صحيحة	tSrf bTryqp SHyHp	1
+immense	هائل	hA}l	1
+impartial	غير متحيز	gyr mtHyz	1
+impartiality	نزاهة	nzAhp	1
+impartially	نزيه	nzyh	1
+impassioned	ملتهب	mlthb	1
+impeccable	معصوم من الخطأ	mESwm mn AlxTA	1
+impeccably	منزه	mnzh	1
+important	مهم	mhm	1
+impress	تأثير	tAvyr	1
+impressed	تأثرت	tAvrt	1
+impresses	الأختام	AlAxtAm	1
+impressive	مثير للإعجاب	mvyr llAEjAb	1
+impressively	لافت	lAft	1
+impressiveness	المؤثر في	AlmWvr fy	1
+improve	تحسن	tHsn	1
+improved	تحسن	tHsn	1
+improvement	تحسن	tHsn	1
+improvements	تحسينات	tHsynAt	1
+improves	يحسن	yHsn	1
+improving	تحسين	tHsyn	1
+incredible	لا يصدق	lA ySdq	1
+incredibly	لا يصدق	lA ySdq	1
+indebted	المثقلة	Almvqlp	1
+individualized	فردية	frdyp	1
+indulgence	تساهل	tsAhl	1
+indulgent	متسامح	mtsAmH	1
+industrious	كادح	kAdH	1
+inestimable	لا يقدر	lA yqdr	1
+inestimably	inestimably	inestimably	1
+inexpensive	غير مكلف	gyr mklf	1
+infallibility	العصمة	AlESmp	1
+infallible	معصوم	mESwm	1
+infallibly	لا يشوبها خطأ	lA y$wbhA xTA	1
+influential	مؤثر	mWvr	1
+ingenious	مبتكر	mbtkr	1
+ingeniously	مبدع	mbdE	1
+ingenuity	براعة	brAEp	1
+ingenuous	ساذج	sA*j	1
+ingenuously	صريح	SryH	1
+innocuous	غير ضار	gyr DAr	1
+innovation	ابتكار	AbtkAr	1
+innovative	مبتكرة	mbtkrp	1
+inpressed	inpressed	inpressed	1
+insightful	الثاقبة	AlvAqbp	1
+insightfully	بصيرة	bSyrp	1
+inspiration	إلهام	AlhAm	1
+inspirational	ملهمة	mlhmp	1
+inspire	ألهم	Alhm	1
+inspiring	مثير	mvyr	1
+instantly	فورا	fwrA	1
+instructive	تعليمي	tElymy	1
+instrumental	دور فعال	dwr fEAl	1
+integral	التكامل	AltkAml	1
+integrated	المتكاملة	AlmtkAmlp	1
+intelligence	ذكاء	*kA'	1
+intelligent	ذكي	*ky	1
+intelligible	واضح	wADH	1
+interesting	ممتع	mmtE	1
+interests	الإهتمامات	AlAhtmAmAt	1
+intimacy	ألفة	Alfp	1
+intimate	حميم	Hmym	1
+intricate	معقد	mEqd	1
+intrigue	دسيسة	dsysp	1
+intriguing	مثيرة للاهتمام	mvyrp llAhtmAm	1
+intriguingly	يثير الاهتمام والفضول	yvyr AlAhtmAm wAlfDwl	1
+intuitive	حدسي	Hdsy	1
+invaluable	نفيس	nfys	1
+invaluablely	invaluablely	invaluablely	1
+inventive	مبدع	mbdE	1
+invigorate	نشط	n$T	1
+invigorating	تنشيط	tn$yT	1
+invincibility	لا تقهر	lA tqhr	1
+invincible	لا يقهر	lA yqhr	1
+inviolable	لا تنتهك حرمته	lA tnthk Hrmth	1
+inviolate	لا تنتهك حرمته	lA tnthk Hrmth	1
+invulnerable	منيع	mnyE	1
+irreplaceable	لا بديل له	lA bdyl lh	1
+irreproachable	لا عيب فيه	lA Eyb fyh	1
+irresistible	لا يقاوم	lA yqAwm	1
+irresistibly	لا يقاوم	lA yqAwm	1
+issue-free	خالية من القضية	xAlyp mn AlqDyp	1
+jaw-droping	الفك droping	Alfk droping	1
+jaw-dropping	الفك اسقاط	Alfk AsqAT	1
+jollify	jollify	jollify	1
+jolly	المرح	AlmrH	1
+jovial	مرح	mrH	1
+joy	فرح	frH	1
+joyful	سعيد	sEyd	1
+joyfully	بفرح	bfrH	1
+joyous	مبتهج	mbthj	1
+joyously	ابتهجنا	AbthjnA	1
+jubilant	متهلل	mthll	1
+jubilantly	جذلا	j*lA	1
+jubilate	تهلل	thll	1
+jubilation	ابتهاج	AbthAj	1
+jubiliant	jubiliant	jubiliant	1
+judicious	حصيف	HSyf	1
+justly	بالعدل	bAlEdl	1
+keen	متحمس	mtHms	1
+keenly	تماما	tmAmA	1
+keenness	حرص	HrS	1
+kid-friendly	صديقة للطفل	Sdyqp llTfl	1
+kindliness	عطف	ETf	1
+kindly	يرجى	yrjy	1
+kindness	لطف	lTf	1
+knowledgeable	المعرفة	AlmErfp	1
+kudos	مجد	mjd	1
+large-capacity	ذات قدرة كبيرة	*At qdrp kbyrp	1
+laud	سبح	sbH	1
+laudable	جدير بالثناء	jdyr bAlvnA'	1
+laudably	laudably	laudably	1
+lavish	مسرف	msrf	1
+lavishly	بسخاء	bsxA'	1
+law-abiding	مطيع للقانون	mTyE llqAnwn	1
+lawful	قانوني	qAnwny	1
+lawfully	يوجد على نحو قانوني	ywjd Ely nHw qAnwny	1
+lead	قيادة	qyAdp	1
+leading	قيادة	qyAdp	1
+leads	يؤدي	yWdy	1
+lean	ميل	myl	1
+led	الصمام	AlSmAm	1
+legendary	أسطوري	AsTwry	1
+leverage	نفوذ	nfw*	1
+levity	خفة	xfp	1
+liberate	حرر	Hrr	1
+liberation	تحرير	tHryr	1
+liberty	حرية	Hryp	1
+lifesaver	المنقذ	Almnq*	1
+light-hearted	أرعن	ArEn	1
+lighter	ولاعة	wlAEp	1
+likable	محبب	mHbb	1
+like	مثل	mvl	1
+liked	أحب	AHb	1
+likes	يحب	yHb	1
+liking	ميل	myl	1
+lionhearted	قلب الأسد	qlb AlAsd	1
+lively	بحيوية	bHywyp	1
+logical	منطقي	mnTqy	1
+long-lasting	طويلة الأمد	Twylp AlAmd	1
+lovable	محبوب	mHbwb	1
+lovably	lovably	lovably	1
+love	الحب	AlHb	1
+loved	أحب	AHb	1
+loveliness	سحر	sHr	1
+lovely	جميل	jmyl	1
+lover	حبيب	Hbyb	1
+loves	يحب	yHb	1
+loving	محب	mHb	1
+low-cost	منخفضة التكلفة	mnxfDp Altklfp	1
+low-price	سعر منخفض	sEr mnxfD	1
+low-priced	رخيص	rxyS	1
+low-risk	خطر قليل	xTr qlyl	1
+lower-priced	أغلى أقل	Agly Aql	1
+loyal	مخلص	mxlS	1
+loyalty	ولاء	wlA'	1
+lucid	واضح	wADH	1
+lucidly	مشرق	m$rq	1
+luck	حظ	HZ	1
+luckier	حظا	HZA	1
+luckiest	حظا	HZA	1
+luckiness	luckiness	luckiness	1
+lucky	محظوظ	mHZwZ	1
+lucrative	مربح	mrbH	1
+luminous	مضيء	mDy'	1
+lush	ثمل	vml	1
+luster	بريق	bryq	1
+lustrous	لامع	lAmE	1
+luxuriant	مترف	mtrf	1
+luxuriate	تكاثر	tkAvr	1
+luxurious	فاخر	fAxr	1
+luxuriously	بترف	btrf	1
+luxury	ترف	trf	1
+lyrical	قيثاري	qyvAry	1
+magic	سحر	sHr	1
+magical	سحري	sHry	1
+magnanimous	شهم	$hm	1
+magnanimously	برحابة صدر	brHAbp Sdr	1
+magnificence	روعة	rwEp	1
+magnificent	مهيب	mhyb	1
+magnificently	رائع	rA}E	1
+majestic	مهيب	mhyb	1
+majesty	عظمة	EZmp	1
+manageable	التحكم	AltHkm	1
+maneuverable	المناورة	AlmnAwrp	1
+marvel	أعجوبة	AEjwbp	1
+marveled	فتعجب	ftEjb	1
+marvelled	فتعجب	ftEjb	1
+marvellous	رائع	rA}E	1
+marvelous	رائع	rA}E	1
+marvelously	رائع	rA}E	1
+marvelousness	marvelousness	marvelousness	1
+marvels	الاعاجيب	AlAEAjyb	1
+master	سيد	syd	1
+masterful	بارع	bArE	1
+masterfully	ببراعة	bbrAEp	1
+masterpiece	تحفة	tHfp	1
+masterpieces	روائع	rwA}E	1
+masters	الماجستير	AlmAjstyr	1
+mastery	براعة	brAEp	1
+matchless	لا مثيل له	lA mvyl lh	1
+mature	ناضج	nADj	1
+maturely	بنضج	bnDj	1
+maturity	نضج	nDj	1
+meaningful	ذو معنى	*w mEny	1
+memorable	بارز	bArz	1
+merciful	رحيم	rHym	1
+mercifully	الحمد لله	AlHmd llh	1
+mercy	رحمة	rHmp	1
+merit	جدارة	jdArp	1
+meritorious	جدير بالتقدير	jdyr bAltqdyr	1
+merrily	بمرح	bmrH	1
+merriment	بهجة	bhjp	1
+merriness	merriness	merriness	1
+merry	مرح	mrH	1
+mesmerize	فتن	ftn	1
+mesmerized	فتن	ftn	1
+mesmerizes	تأسر	tAsr	1
+mesmerizing	يفتن	yftn	1
+mesmerizingly	mesmerizingly	mesmerizingly	1
+meticulous	موسوس	mwsws	1
+meticulously	بدقة	bdqp	1
+mightily	بقوة	bqwp	1
+mighty	عظيم	EZym	1
+mind-blowing	العقل تهب	AlEql thb	1
+miracle	معجزة	mEjzp	1
+miracles	المعجزات	AlmEjzAt	1
+miraculous	معجز	mEjz	1
+miraculously	بأعجوبة	bAEjwbp	1
+miraculousness	الإعجاز	AlAEjAz	1
+modern	حديث	Hdyv	1
+modest	متواضع	mtwADE	1
+modesty	تواضع	twADE	1
+momentous	خطير	xTyr	1
+monumental	هائل	hA}l	1
+monumentally	تذكاري	t*kAry	1
+morality	أخلاقية	AxlAqyp	1
+motivated	الدافع	AldAfE	1
+multi-purpose	متعددة الأغراض	mtEddp AlAgrAD	1
+navigable	صالح للملاحة	SAlH llmlAHp	1
+neat	أنيق	Anyq	1
+neatest	أبرع	AbrE	1
+neatly	بعناية	bEnAyp	1
+nice	لطيف	lTyf	1
+nicely	برقة	brqp	1
+nicer	أجمل	Ajml	1
+nicest	اجمل	Ajml	1
+nifty	أنيق	Anyq	1
+nimble	رشيق	r$yq	1
+noble	النبيل	Alnbyl	1
+nobly	بنبل	bnbl	1
+noiseless	بلا ضجة	blA Djp	1
+non-violence	اللاعنف	AllAEnf	1
+non-violent	غير عنيفة	gyr Enyfp	1
+notably	لا سيما	lA symA	1
+noteworthy	جدير بالملاحظة	jdyr bAlmlAHZp	1
+nourish	ربى	rby	1
+nourishing	مغذ	mg*	1
+nourishment	تغذية	tg*yp	1
+novelty	حداثة	HdAvp	1
+nurturing	تغذية	tg*yp	1
+oasis	واحة	wAHp	1
+obsession	هاجس	hAjs	1
+obsessions	الهواجس	AlhwAjs	1
+obtainable	يمكن الحصول عليها	ymkn AlHSwl ElyhA	1
+openly	بكل صراحة	bkl SrAHp	1
+openness	انفتاح	AnftAH	1
+optimal	الأمثل	AlAmvl	1
+optimism	التفاؤل	AltfAWl	1
+optimistic	متفائل	mtfA}l	1
+opulent	وفرة	wfrp	1
+orderly	منظم	mnZm	1
+originality	أصالة	ASAlp	1
+outdo	تغلب	tglb	1
+outdone	يتفوق عليها	ytfwq ElyhA	1
+outperform	يتفوق	ytfwq	1
+outperformed	تفوقت	tfwqt	1
+outperforming	تفوق	tfwq	1
+outperforms	يتفوق	ytfwq	1
+outshine	تألق	tAlq	1
+outshone	تفوقت	tfwqt	1
+outsmart	فاقه دهاء وحيلة	fAqh dhA' wHylp	1
+outstanding	معلقة	mElqp	1
+outstandingly	رائع	rA}E	1
+outstrip	تجاوز	tjAwz	1
+outwit	قص الأثر	qS AlAvr	1
+ovation	تصفيق	tSfyq	1
+overjoyed	مبتهج	mbthj	1
+overtake	تجاوز	tjAwz	1
+overtaken	تفوقت	tfwqt	1
+overtakes	يجتاز	yjtAz	1
+overtaking	تجاوز	tjAwz	1
+overtook	تفوقت	tfwqt	1
+overture	مفاتحة	mfAtHp	1
+pain-free	خالية من الألم	xAlyp mn AlAlm	1
+painless	غير مؤلم	gyr mWlm	1
+painlessly	دون ألم	dwn Alm	1
+palatial	فخم	fxm	1
+pamper	دلل	dll	1
+pampered	المدللة	Almdllp	1
+pamperedly	pamperedly	pamperedly	1
+pamperedness	pamperedness	pamperedness	1
+pampers	بامبرز	bAmbrz	1
+panoramic	بانورامي	bAnwrAmy	1
+paradise	الجنة	Aljnp	1
+paramount	أساسي	AsAsy	1
+pardon	عفو	Efw	1
+passion	شغف	$gf	1
+passionate	عاطفي	EATfy	1
+passionately	بحماس	bHmAs	1
+patience	صبر	Sbr	1
+patient	المريض	AlmryD	1
+patiently	بصبر	bSbr	1
+patriot	الوطني	AlwTny	1
+patriotic	وطني	wTny	1
+peace	سلام	slAm	1
+peaceable	مسالم	msAlm	1
+peaceful	سلمي	slmy	1
+peacefully	سلميا	slmyA	1
+peacekeepers	قوات حفظ السلام	qwAt HfZ AlslAm	1
+peach	خوخ	xwx	1
+peerless	منقطع النظير	mnqTE AlnZyr	1
+pep	حيوية	Hywyp	1
+pepped	pepped	pepped	1
+pepping	pepping	pepping	1
+peppy	مفعم بالحيوية	mfEm bAlHywyp	1
+peps	ممثلي المخاطر	mmvly AlmxATr	1
+perfect	مثالي	mvAly	1
+perfection	كمال	kmAl	1
+perfectly	تماما	tmAmA	1
+permissible	جائز	jA}z	1
+perseverance	مثابرة	mvAbrp	1
+persevere	ثابر	vAbr	1
+personages	الشخصيات	Al$xSyAt	1
+personalized	شخصية	$xSyp	1
+phenomenal	استثنائي	AstvnA}y	1
+phenomenally	هائل	hA}l	1
+picturesque	رائع	rA}E	1
+piety	تقوى	tqwy	1
+pinnacle	قمة	qmp	1
+playful	لعوب	lEwb	1
+playfully	هزلي	hzly	1
+pleasant	لطيف	lTyf	1
+pleasantly	بلطف	blTf	1
+pleased	مسرور	msrwr	1
+pleases	يسر	ysr	1
+pleasing	سار	sAr	1
+pleasingly	سارة	sArp	1
+pleasurable	ممتع	mmtE	1
+pleasurably	ممتع	mmtE	1
+pleasure	متعة	mtEp	1
+plentiful	وافر	wAfr	1
+pluses	الإيجابيات	AlAyjAbyAt	1
+plush	أفخم	Afxm	1
+plusses	نواقص	nwAqS	1
+poetic	شاعري	$AEry	1
+poeticize	poeticize	poeticize	1
+poignant	مثير للمشاعر	mvyr llm$AEr	1
+poise	رباطة جأش	rbATp jA$	1
+poised	تستعد	tstEd	1
+polished	مصقول	mSqwl	1
+polite	مهذب	mh*b	1
+politeness	كياسة	kyAsp	1
+popular	شعبي	$Eby	1
+portable	المحمول	AlmHmwl	1
+posh	أنيق	Anyq	1
+positive	إيجابي	AyjAby	1
+positively	بصورة إيجابية	bSwrp AyjAbyp	1
+positives	ايجابيات	AyjAbyAt	1
+powerful	قوي	qwy	1
+powerfully	بقوة	bqwp	1
+praise	مدح	mdH	1
+praiseworthy	جدير بالاطراء والثناء	jdyr bAlATrA' wAlvnA'	1
+praising	مشيدا	m$ydA	1
+pre-eminent	مبرز	mbrz	1
+precious	ثمين	vmyn	1
+precise	دقيق	dqyq	1
+precisely	على وجه التحديد	Ely wjh AltHdyd	1
+preeminent	البارز	AlbArz	1
+prefer	فضل	fDl	1
+preferable	أفضل	AfDl	1
+preferably	ويفضل	wyfDl	1
+prefered	يفضل	yfDl	1
+preferes	preferes	preferes	1
+preferring	التفضيل	AltfDyl	1
+prefers	تفضل	tfDl	1
+premier	رئيس الوزراء	r}ys AlwzrA'	1
+prestige	هيبة	hybp	1
+prestigious	ذو هيبة	*w hybp	1
+prettily	على نحو جميل	Ely nHw jmyl	1
+pretty	جميل	jmyl	1
+priceless	لا يقدر بثمن	lA yqdr bvmn	1
+pride	كبرياء	kbryA'	1
+principled	المبدئي	Almbd}y	1
+privilege	امتياز	AmtyAz	1
+privileged	حظا	HZA	1
+prize	جائزة	jA}zp	1
+proactive	استباقية	AstbAqyp	1
+problem-free	خالية من المشاكل	xAlyp mn Alm$Akl	1
+problem-solver	حلال مشاكل	HlAl m$Akl	1
+prodigious	معجز	mEjz	1
+prodigiously	غير عادي	gyr EAdy	1
+prodigy	معجزة	mEjzp	1
+productive	منتج	mntj	1
+productively	مثمر	mvmr	1
+proficient	ماهر	mAhr	1
+proficiently	ببراعة	bbrAEp	1
+profound	عميق	Emyq	1
+profoundly	عمق	Emq	1
+profuse	مسرف	msrf	1
+profusion	إسراف	AsrAf	1
+progress	تقدم	tqdm	1
+progressive	تقدمية	tqdmyp	1
+prolific	خصيب	xSyb	1
+prominence	أهمية	Ahmyp	1
+prominent	بارز	bArz	1
+promise	وعد	wEd	1
+promised	وعدت	wEdt	1
+promises	وعود	wEwd	1
+promising	واعد	wAEd	1
+promoter	متعهد	mtEhd	1
+prompt	موجه	mwjh	1
+promptly	فورا	fwrA	1
+proper	مناسب	mnAsb	1
+properly	بصورة صحيحة	bSwrp SHyHp	1
+propitious	صفوح	SfwH	1
+propitiously	propitiously	propitiously	1
+pros	الايجابيات	AlAyjAbyAt	1
+prosper	تزدهر	tzdhr	1
+prosperity	ازدهار	AzdhAr	1
+prosperous	مزدهر	mzdhr	1
+prospros	prospros	prospros	1
+protect	حماية	HmAyp	1
+protection	حماية	HmAyp	1
+protective	حماية	HmAyp	1
+proud	فخور	fxwr	1
+proven	مؤكد	mWkd	1
+proves	يثبت	yvbt	1
+providence	العناية الإلهية	AlEnAyp AlAlhyp	1
+proving	تثبت	tvbt	1
+prowess	شجاعة	$jAEp	1
+prudence	حكمة	Hkmp	1
+prudent	حصيف	HSyf	1
+prudently	بحكمة	bHkmp	1
+punctual	دقيق	dqyq	1
+pure	نقي	nqy	1
+purify	طهر	Thr	1
+purposeful	متأني	mtAny	1
+quaint	طريف	Tryf	1
+qualified	تأهل	tAhl	1
+qualify	تأهل	tAhl	1
+quicker	أسرع	AsrE	1
+quiet	هدوء	hdw'	1
+quieter	أكثر هدوءا	Akvr hdw'A	1
+radiance	إشعاع	A$EAE	1
+radiant	مشع	m$E	1
+rapid	سريع	sryE	1
+rapport	علاقة	ElAqp	1
+rapt	طرب	Trb	1
+rapture	نشوة	n$wp	1
+raptureous	raptureous	raptureous	1
+raptureously	raptureously	raptureously	1
+rapturous	هائج	hA}j	1
+rapturously	بطريقة مفعمة بالنشوة	bTryqp mfEmp bAln$wp	1
+rational	عقلاني	EqlAny	1
+razor-sharp	أسلاك شائكة حادة	AslAk $A}kp HAdp	1
+reachable	في متناول اليد	fy mtnAwl Alyd	1
+readable	مقروء	mqrw'	1
+readily	بسهولة	bshwlp	1
+ready	استعداد	AstEdAd	1
+reaffirm	نؤكد من جديد	nWkd mn jdyd	1
+reaffirmation	التأكيد مجددا	AltAkyd mjddA	1
+realistic	واقعي	wAqEy	1
+realizable	قابل للتحقيق	qAbl lltHqyq	1
+reasonable	معقول	mEqwl	1
+reasonably	معقول	mEqwl	1
+reasoned	مسبب	msbb	1
+reassurance	إعادة الطمأنينة	AEAdp AlTmAnynp	1
+reassure	طمأن	TmAn	1
+receptive	تقبلي	tqbly	1
+reclaim	استعادة	AstEAdp	1
+recomend	نوصي	nwSy	1
+recommend	يوصي	ywSy	1
+recommendation	توصية	twSyp	1
+recommendations	توصيات	twSyAt	1
+recommended	موصى به	mwSy bh	1
+reconcile	توفيق	twfyq	1
+reconciliation	تصالح	tSAlH	1
+record-setting	قياسية	qyAsyp	1
+recover	استعادة	AstEAdp	1
+recovery	انتعاش	AntEA$	1
+rectification	تصحيح	tSHyH	1
+rectify	تدارك	tdArk	1
+rectifying	يعدل	yEdl	1
+redeem	خلص	xlS	1
+redeeming	التعويض	AltEwyD	1
+redemption	فداء	fdA'	1
+refine	صقل	Sql	1
+refined	مكرر	mkrr	1
+refinement	تهذيب	th*yb	1
+reform	إصلاح	ASlAH	1
+reformed	إصلاح	ASlAH	1
+reforming	إصلاح	ASlAH	1
+reforms	الإصلاحات	AlASlAHAt	1
+refresh	تحديث	tHdyv	1
+refreshed	منتعش	mntE$	1
+refreshing	منعش	mnE$	1
+refund	رد	rd	1
+refunded	ردها	rdhA	1
+regal	ملكي	mlky	1
+regally	ملكيا	mlkyA	1
+regard	اعتبار	AEtbAr	1
+rejoice	ابتهج	Abthj	1
+rejoicing	ابتهاج	AbthAj	1
+rejoicingly	rejoicingly	rejoicingly	1
+rejuvenate	تجدد	tjdd	1
+rejuvenated	تجدد شبابها	tjdd $bAbhA	1
+rejuvenating	تجديد شباب	tjdyd $bAb	1
+relaxed	استرخاء	AstrxA'	1
+relent	خفف	xff	1
+reliable	موثوق	mwvwq	1
+reliably	بثقة	bvqp	1
+relief	راحة	rAHp	1
+relish	نكهة	nkhp	1
+remarkable	رائع	rA}E	1
+remarkably	لافت للنظر	lAft llnZr	1
+remedy	علاج	ElAj	1
+remission	غفران	gfrAn	1
+remunerate	كافأ	kAfA	1
+renaissance	نهضة	nhDp	1
+renewed	متجدد	mtjdd	1
+renown	شهرة	$hrp	1
+renowned	مشهور	m$hwr	1
+replaceable	مستبدل	mstbdl	1
+reputable	حسن السمعة	Hsn AlsmEp	1
+reputation	سمعة	smEp	1
+resilient	مرن	mrn	1
+resolute	حازم	HAzm	1
+resound	ضج	Dj	1
+resounding	مدويا	mdwyA	1
+resourceful	واسع الحيلة	wAsE AlHylp	1
+resourcefulness	سعة الحيلة	sEp AlHylp	1
+respect	احترام	AHtrAm	1
+respectable	محترم	mHtrm	1
+respectful	الاحترام	AlAHtrAm	1
+respectfully	باحترام	bAHtrAm	1
+respite	تأجيل	tAjyl	1
+resplendent	متألق	mtAlq	1
+responsibly	مسؤول	msWwl	1
+responsive	متجاوب	mtjAwb	1
+restful	مريح	mryH	1
+restored	مرمم	mrmm	1
+restructure	إعادة هيكلة	AEAdp hyklp	1
+restructured	إعادة هيكلة	AEAdp hyklp	1
+restructuring	إعادة الهيكلة	AEAdp Alhyklp	1
+retractable	قابل للسحب	qAbl llsHb	1
+revel	عربد	Erbd	1
+revelation	وحي	wHy	1
+revere	وقر	wqr	1
+reverence	تبجيل	tbjyl	1
+reverent	مبجل	mbjl	1
+reverently	بوقار	bwqAr	1
+revitalize	تنشيط	tn$yT	1
+revival	إحياء	AHyA'	1
+revive	إحياء	AHyA'	1
+revives	تحيي	tHyy	1
+revolutionary	ثوري	vwry	1
+revolutionize	ثورة	vwrp	1
+revolutionized	ثورة	vwrp	1
+revolutionizes	t ثورة	t vwrp	1
+reward	مكافأة	mkAfAp	1
+rewarding	مكافأة	mkAfAp	1
+rewardingly	rewardingly	rewardingly	1
+rich	غني	gny	1
+richer	ثراء	vrA'	1
+richly	بوفرة	bwfrp	1
+richness	غنى	gny	1
+right	حق	Hq	1
+righten	righten	righten	1
+righteous	صالح	SAlH	1
+righteously	باستقامة	bAstqAmp	1
+righteousness	صلاح	SlAH	1
+rightful	منصف	mnSf	1
+rightfully	حق	Hq	1
+rightly	بحق	bHq	1
+rightness	عدل	Edl	1
+risk-free	بلا مخاطر	blA mxATr	1
+robust	قوي	qwy	1
+rock-star	نجم روك	njm rwk	1
+rock-stars	صخرة النجوم	Sxrp Alnjwm	1
+rockstar	نجم روك	njm rwk	1
+rockstars	مشاهير	m$Ahyr	1
+romantic	رومانسي	rwmAnsy	1
+romantically	عاطفية	EATfyp	1
+romanticize	حمل فكرات رومانتيكية	Hml fkrAt rwmAntykyp	1
+roomier	رومير	rwmyr	1
+roomy	فسيح	fsyH	1
+rosy	وردي	wrdy	1
+safe	آمن	Amn	1
+safely	بسلام	bslAm	1
+sagacity	حصافة	HSAfp	1
+sagely	بحكمة	bHkmp	1
+saint	قديس	qdys	1
+saintliness	قداسة	qdAsp	1
+saintly	طاهر	TAhr	1
+salutary	مفيد	mfyd	1
+salute	رد التحية	rd AltHyp	1
+sane	عاقل	EAql	1
+satisfactorily	مرض	mrD	1
+satisfactory	مرض	mrD	1
+satisfied	راض	rAD	1
+satisfies	يرضى	yrDy	1
+satisfy	عوض	EwD	1
+satisfying	مرض	mrD	1
+satisified	satisified كنت	satisified knt	1
+saver	المدخر	Almdxr	1
+savings	مدخرات	mdxrAt	1
+savior	منقذ	mnq*	1
+savvy	ذكاء	*kA'	1
+scenic	تصويري	tSwyry	1
+seamless	سلس	sls	1
+seasoned	متبل	mtbl	1
+secure	تأمين	tAmyn	1
+securely	آمن	Amn	1
+selective	انتقائي	AntqA}y	1
+self-determination	تقرير المصير	tqryr AlmSyr	1
+self-respect	احترام الذات	AHtrAm Al*At	1
+self-satisfaction	إرضاء الذات	ArDA' Al*At	1
+self-sufficiency	الاكتفاء الذاتي	AlAktfA' Al*Aty	1
+self-sufficient	مكتف ذاتيا	mktf *AtyA	1
+sensation	إحساس	AHsAs	1
+sensational	مثير	mvyr	1
+sensationally	مثير	mvyr	1
+sensations	الأحاسيس	AlAHAsys	1
+sensible	معقول	mEqwl	1
+sensibly	معقول	mEqwl	1
+sensitive	حساس	HsAs	1
+serene	هادئ	hAd}	1
+serenity	صفاء	SfA'	1
+sexy	جنسي	jnsy	1
+sharp	حاد	HAd	1
+sharper	غشاش	g$A$	1
+sharpest	الأكثر حدة	AlAkvr Hdp	1
+shimmering	متلألئ	mtlAl}	1
+shimmeringly	shimmeringly	shimmeringly	1
+shine	تألق	tAlq	1
+shiny	لامع	lAmE	1
+significant	كبير	kbyr	1
+silent	صامت	SAmt	1
+simpler	بساطة	bsATp	1
+simplest	أبسط	AbsT	1
+simplified	مبسط	mbsT	1
+simplifies	يبسط	ybsT	1
+simplify	تبسيط	tbsyT	1
+simplifying	تبسيط	tbsyT	1
+sincere	صادق	SAdq	1
+sincerely	بإخلاص	bAxlAS	1
+sincerity	صدق	Sdq	1
+skill	مهارة	mhArp	1
+skilled	ماهر	mAhr	1
+skillful	ماهر	mAhr	1
+skillfully	بإتقان	bAtqAn	1
+slammin	slammin	slammin	1
+sleek	أملس	Amls	1
+slick	أملس	Amls	1
+smart	ذكي	*ky	1
+smarter	أكثر ذكاء	Akvr *kA'	1
+smartest	أذكى	A*ky	1
+smartly	بذكاء	b*kA'	1
+smile	ابتسامة	AbtsAmp	1
+smiles	الابتسامات	AlAbtsAmAt	1
+smiling	باسم	bAsm	1
+smilingly	مبتسما	mbtsmA	1
+smitten	مسحور	msHwr	1
+smooth	ناعم	nAEm	1
+smoother	أكثر سلاسة	Akvr slAsp	1
+smoothes	ينعم	ynEm	1
+smoothest	أسلس	Asls	1
+smoothly	على نحو سلس	Ely nHw sls	1
+snappy	لاذع	lA*E	1
+snazzy	أنيق	Anyq	1
+sociable	مؤنس	mWns	1
+soft	ناعم	nAEm	1
+softer	ليونة	lywnp	1
+solace	عزاء	EzA'	1
+solicitous	مهموم	mhmwm	1
+solicitously	solicitously	solicitously	1
+solid	صلب	Slb	1
+solidarity	تضامن	tDAmn	1
+soothe	سكن	skn	1
+soothingly	هاديء	hAdy'	1
+sophisticated	راقي	rAqy	1
+soulful	حنون	Hnwn	1
+soundly	على نحو سليم	Ely nHw slym	1
+soundness	صحة	SHp	1
+spacious	واسع	wAsE	1
+sparkle	تألق	tAlq	1
+sparkling	متألق	mtAlq	1
+spectacular	مذهل	m*hl	1
+spectacularly	بشكل مذهل	b$kl m*hl	1
+speedily	بسرعة	bsrEp	1
+speedy	سريع	sryE	1
+spellbind	فتن	ftn	1
+spellbinding	فاتن	fAtn	1
+spellbindingly	spellbindingly	spellbindingly	1
+spellbound	مدوخ	mdwx	1
+spirited	مفعم بالحيوية	mfEm bAlHywyp	1
+spiritual	روحي	rwHy	1
+splendid	رائع	rA}E	1
+splendidly	رائع	rA}E	1
+splendor	روعة	rwEp	1
+spontaneous	عفوي	Efwy	1
+sporty	رياضي	ryADy	1
+spotless	نظيف	nZyf	1
+sprightly	خفيف	xfyf	1
+stability	استقرار	AstqrAr	1
+stabilize	استقرار	AstqrAr	1
+stable	مستقر	mstqr	1
+stainless	غير القابل للصدأ	gyr AlqAbl llSdA	1
+standout	دافع عن كرامته	dAfE En krAmth	1
+state-of-the-art	مثال رائع من الفن	mvAl rA}E mn Alfn	1
+stately	فخم	fxm	1
+statuesque	مثالاني شبيه بالتمثال	mvAlAny $byh bAltmvAl	1
+staunch	قوي	qwy	1
+staunchly	بقوة	bqwp	1
+staunchness	بالحماس	bAlHmAs	1
+steadfast	ثابت	vAbt	1
+steadfastly	بثبات	bvbAt	1
+steadfastness	صمود	Smwd	1
+steadiest	مطردا	mTrdA	1
+steadiness	ثبات	vbAt	1
+steady	ثابت	vAbt	1
+stellar	ممتاز	mmtAz	1
+stellarly	stellarly	stellarly	1
+stimulate	حفز	Hfz	1
+stimulates	يحفز	yHfz	1
+stimulating	تحفيز	tHfyz	1
+stimulative	منعش	mnE$	1
+stirringly	stirringly	stirringly	1
+straighten	اعتدل	AEtdl	1
+straightforward	بسيط	bsyT	1
+streamlined	مبسطة	mbsTp	1
+striking	مدهش	mdh$	1
+strikingly	لافت للنظر	lAft llnZr	1
+striving	سعي	sEy	1
+strong	قوي	qwy	1
+stronger	أقوى	Aqwy	1
+strongest	أقوى	Aqwy	1
+stunned	مذهول	m*hwl	1
+stunning	مذهل	m*hl	1
+stunningly	بصورة مثيرة	bSwrp mvyrp	1
+stupendous	ملفت للنظر	mlft llnZr	1
+stupendously	stupendously	stupendously	1
+sturdier	أكثر ثباتا	Akvr vbAtA	1
+sturdy	قوي	qwy	1
+stylish	أنيق	Anyq	1
+stylishly	أنيق	Anyq	1
+stylized	منطبق على أسلوب معين	mnTbq Ely Aslwb mEyn	1
+suave	لطيف	lTyf	1
+suavely	suavely	suavely	1
+sublime	رفيع	rfyE	1
+subsidize	دعم	dEm	1
+subsidized	المدعومة	AlmdEwmp	1
+subsidizes	تدعم	tdEm	1
+subsidizing	دعم	dEm	1
+substantive	الموضوعية	AlmwDwEyp	1
+succeed	نجح	njH	1
+succeeded	نجح	njH	1
+succeeding	خلفا ل	xlfA l	1
+succeeds	ينجح	ynjH	1
+succes	نجاح لل	njAH ll	1
+success	نجاح	njAH	1
+successes	النجاحات	AlnjAHAt	1
+successful	ناجح	nAjH	1
+successfully	بنجاح	bnjAH	1
+suffice	كفى	kfy	1
+sufficed	يكفي	ykfy	1
+suffices	يكفي	ykfy	1
+sufficient	كاف	kAf	1
+sufficiently	بما فيه الكفاية	bmA fyh AlkfAyp	1
+suitable	مناسب	mnAsb	1
+sumptuous	باذخ	bA*x	1
+sumptuously	فاخر	fAxr	1
+sumptuousness	الفخامة	AlfxAmp	1
+super	السوبر	Alswbr	1
+superb	رائع	rA}E	1
+superbly	رائعة	rA}Ep	1
+superior	متفوق	mtfwq	1
+superiority	التفوق	Altfwq	1
+supple	مرن	mrn	1
+support	الدعم	AldEm	1
+supported	أيد	Ayd	1
+supporter	مؤيد	mWyd	1
+supporting	دعم	dEm	1
+supportive	داعمة	dAEmp	1
+supports	الدعم	AldEm	1
+supremacy	سيادة	syAdp	1
+supreme	سامي	sAmy	1
+supremely	بسمو	bsmw	1
+supurb	سوبورب	swbwrb	1
+supurbly	supurbly	supurbly	1
+surmount	تسلق	tslq	1
+surpass	تجاوز	tjAwz	1
+surreal	سريالية	sryAlyp	1
+survival	بقاء	bqA'	1
+survivor	ناجي	nAjy	1
+sustainability	الاستدامة	AlAstdAmp	1
+sustainable	التنمية المستدامة	Altnmyp AlmstdAmp	1
+swank	تأنق	tAnq	1
+swankier	swankier	swankier	1
+swankiest	swankiest	swankiest	1
+swanky	فاخر	fAxr	1
+sweeping	كنس	kns	1
+sweet	حلو	Hlw	1
+sweeten	حلى	Hly	1
+sweetheart	حبيب	Hbyb	1
+sweetly	بعذوبة	bE*wbp	1
+sweetness	حلاوة	HlAwp	1
+swift	سريع	sryE	1
+swiftness	سرعة	srEp	1
+talent	موهبة	mwhbp	1
+talented	موهوب	mwhwb	1
+talents	المواهب	AlmwAhb	1
+tantalize	عذب	E*b	1
+tantalizing	محيرة	mHyrp	1
+tantalizingly	المنال	AlmnAl	1
+tempt	جذب	j*b	1
+tempting	مغر	mgr	1
+temptingly	مغري	mgry	1
+tenacious	عنيد	Enyd	1
+tenaciously	بعناد	bEnAd	1
+tenacity	عناد	EnAd	1
+tender	مناقصة	mnAqSp	1
+tenderly	بحنان	bHnAn	1
+terrific	رائع	rA}E	1
+terrifically	بشكل رائع	b$kl rA}E	1
+thank	شكر	$kr	1
+thankful	شاكر	$Akr	1
+thinner	أرق	Arq	1
+thoughtful	مدروس	mdrws	1
+thoughtfully	بشكل مدروس	b$kl mdrws	1
+thoughtfulness	اكتراث	AktrAv	1
+thrift	تقتير	tqtyr	1
+thrifty	مقتصد	mqtSd	1
+thrill	التشويق	Alt$wyq	1
+thrilled	بسعادة غامرة	bsEAdp gAmrp	1
+thrilling	مثير	mvyr	1
+thrillingly	بشكل مثير	b$kl mvyr	1
+thrills	الاثارة	AlAvArp	1
+thrive	تزدهر	tzdhr	1
+thriving	مزدهر	mzdhr	1
+thumb-up	ارفع ابهامك	ArfE AbhAmk	1
+thumbs-up	ممتاز	mmtAz	1
+tickle	دغدغة	dgdgp	1
+tidy	أنيق	Anyq	1
+time-honored	عتيق	Etyq	1
+timely	في حينه	fy Hynh	1
+tingle	ارتعش	ArtE$	1
+titillate	دغدغ	dgdg	1
+titillating	الإثارة	AlAvArp	1
+titillatingly	titillatingly	titillatingly	1
+togetherness	العمل الجماعي	AlEml AljmAEy	1
+tolerable	مقبول	mqbwl	1
+toll-free	المجاني	AlmjAny	1
+top	أعلى	AEly	1
+top-notch	من الدرجة الأولى	mn Aldrjp AlAwly	1
+top-quality	أعلى جودة	AEly jwdp	1
+topnotch	من الدرجة الأولى	mn Aldrjp AlAwly	1
+tops	قمم	qmm	1
+tough	متين	mtyn	1
+tougher	أكثر صرامة	Akvr SrAmp	1
+toughest	أصعب	ASEb	1
+traction	جر	jr	1
+tranquil	هادئ	hAd}	1
+tranquility	هدوء	hdw'	1
+transparent	شفاف	$fAf	1
+treasure	كنز	knz	1
+tremendously	جدا	jdA	1
+trendy	شائع	$A}E	1
+triumph	انتصار	AntSAr	1
+triumphal	نصري	nSry	1
+triumphant	منتصر	mntSr	1
+triumphantly	منتصرا	mntSrA	1
+trivially	مسلي	msly	1
+trophy	كأس	kAs	1
+trouble-free	خالية من المتاعب	xAlyp mn AlmtAEb	1
+trump	ورقة رابحة	wrqp rAbHp	1
+trumpet	بوق	bwq	1
+trust	ثقة	vqp	1
+trusted	موثوق به	mwvwq bh	1
+trusting	واثق ب	wAvq b	1
+trustingly	بثقة	bvqp	1
+trustworthiness	الثقة	Alvqp	1
+trustworthy	جدير بالثقة	jdyr bAlvqp	1
+trusty	موثوق	mwvwq	1
+truthful	صادق	SAdq	1
+truthfully	بصدق	bSdq	1
+truthfulness	مصداقية	mSdAqyp	1
+twinkly	توينكلي	twynkly	1
+ultra-crisp	فائقة هش	fA}qp h$	1
+unabashed	قليل الحياء	qlyl AlHyA'	1
+unabashedly	دون خجل	dwn xjl	1
+unaffected	غير متأثر	gyr mtAvr	1
+unassailable	غير معادي	gyr mEAdy	1
+unbeatable	لا يهزم	lA yhzm	1
+unbiased	غير منحازة	gyr mnHAzp	1
+unbound	غير مقيد	gyr mqyd	1
+uncomplicated	غير معقدة	gyr mEqdp	1
+unconditional	دون شروط	dwn $rwT	1
+undamaged	سليم	slym	1
+undaunted	شجاع	$jAE	1
+understandable	مفهوم	mfhwm	1
+undisputable	لا جدال فيه	lA jdAl fyh	1
+undisputably	undisputably	undisputably	1
+undisputed	مسلم به	mslm bh	1
+unencumbered	غير مرتبط	gyr mrtbT	1
+unequivocal	لا لبس فيه	lA lbs fyh	1
+unequivocally	بشكل لا لبس فيه	b$kl lA lbs fyh	1
+unfazed	غير منزعج	gyr mnzEj	1
+unfettered	محرر من	mHrr mn	1
+unforgettable	لا ينسى	lA ynsy	1
+unity	وحدة	wHdp	1
+unlimited	غير محدود	gyr mHdwd	1
+unmatched	لا مثيل له	lA mvyl lh	1
+unparalleled	لا نظير له	lA nZyr lh	1
+unquestionable	لا يرقى إليه الشك	lA yrqy Alyh Al$k	1
+unquestionably	بلا جدال	blA jdAl	1
+unreal	غير حقيقي	gyr Hqyqy	1
+unrestricted	مطلق	mTlq	1
+unrivaled	منقطع النظير	mnqTE AlnZyr	1
+unselfish	غير أناني	gyr AnAny	1
+unwavering	غير متموج	gyr mtmwj	1
+upbeat	متفائل	mtfA}l	1
+upgradable	ترقية	trqyp	1
+upgradeable	ترقية	trqyp	1
+upgraded	ترقية	trqyp	1
+upheld	أيدت	Aydt	1
+uphold	دعم	dEm	1
+uplift	رفع	rfE	1
+uplifting	النهضة	AlnhDp	1
+upliftingly	نهضوية	nhDwyp	1
+upliftment	الرقي	Alrqy	1
+upscale	الراقي	AlrAqy	1
+usable	صالح للإستعمال	SAlH llAstEmAl	1
+useable	صالحة للاستعمال	SAlHp llAstEmAl	1
+useful	مفيد	mfyd	1
+user-friendly	سهل الاستخدام	shl AlAstxdAm	1
+user-replaceable	مستخدم استبدالها	mstxdm AstbdAlhA	1
+valiant	الشجاع	Al$jAE	1
+valiantly	ببسالة	bbsAlp	1
+valor	بسالة	bsAlp	1
+valuable	قيم	qym	1
+variety	تشكيلة	t$kylp	1
+venerate	بجل	bjl	1
+verifiable	يمكن التحقق منها	ymkn AltHqq mnhA	1
+veritable	حقيقي	Hqyqy	1
+versatile	متعدد الجوانب	mtEdd AljwAnb	1
+versatility	طلاقة الحركة	TlAqp AlHrkp	1
+vibrant	نابض بالحياة	nAbD bAlHyAp	1
+vibrantly	حيوي	Hywy	1
+victorious	انتصاري	AntSAry	1
+victory	فوز	fwz	1
+viewable	للعرض	llErD	1
+vigilance	يقظة	yqZp	1
+vigilant	حذر	H*r	1
+virtue	فضيلة	fDylp	1
+virtuous	فاضل	fADl	1
+virtuously	بشكل مستقيم	b$kl mstqym	1
+visionary	خيالي	xyAly	1
+vivacious	مرح	mrH	1
+vivid	حي	Hy	1
+vouch	جزم	jzm	1
+vouchsafe	إمنح	AmnH	1
+warm	دافئ	dAf}	1
+warmer	مسخن	msxn	1
+warmhearted	حنون	Hnwn	1
+warmly	بحرارة	bHrArp	1
+warmth	دفء	df'	1
+wealthy	ثري	vry	1
+welcome	أهلا بك	AhlA bk	1
+well	حسنا	HsnA	1
+well-backlit	جيدا الخلفية	jydA Alxlfyp	1
+well-balanced	متوازن بشكل جيد	mtwAzn b$kl jyd	1
+well-behaved	حسن تصرف	Hsn tSrf	1
+well-being	رفاهية	rfAhyp	1
+well-bred	مهذب	mh*b	1
+well-connected	حسن العلاقات	Hsn AlElAqAt	1
+well-educated	بالغ التهذيب	bAlg Alth*yb	1
+well-established	راسخة	rAsxp	1
+well-informed	حسن الاطلاع	Hsn AlATlAE	1
+well-intentioned	النوايا الحسنة	AlnwAyA AlHsnp	1
+well-known	غني عن التعريف	gny En AltEryf	1
+well-made	أحسنت صنعا	AHsnt SnEA	1
+well-managed	تدار بشكل جيد	tdAr b$kl jyd	1
+well-mannered	مهذب	mh*b	1
+well-positioned	، في وضع جيد	, fy wDE jyd	1
+well-received	استقبالا جيدا	AstqbAlA jydA	1
+well-regarded	يعتبر جيدا	yEtbr jydA	1
+well-rounded	تقريب جيدا	tqryb jydA	1
+well-run	تشغيل جيدا	t$gyl jydA	1
+well-wishers	المهنئين	Almhn}yn	1
+wellbeing	رفاهية	rfAhyp	1
+whoa	قف	qf	1
+wholeheartedly	بكل إخلاص	bkl AxlAS	1
+wholesome	صحي	SHy	1
+whooa	whooa	whooa	1
+whoooa	whoooa	whoooa	1
+wieldy	wieldy	wieldy	1
+willing	راغب	rAgb	1
+willingly	عن طيب خاطر	En Tyb xATr	1
+willingness	رغبة	rgbp	1
+win	فاز	fAz	1
+windfall	سقاطة	sqATp	1
+winnable	يمكن كسبها	ymkn ksbhA	1
+winner	الفائز	AlfA}z	1
+winners	الفائزين	AlfA}zyn	1
+winning	فوز	fwz	1
+wins	انتصارات	AntSArAt	1
+wisdom	حكمة	Hkmp	1
+wise	حكيم	Hkym	1
+wisely	بحكمة	bHkmp	1
+witty	بارع	bArE	1
+won	فاز	fAz	1
+wonder	عجب	Ejb	1
+wonderful	رائع	rA}E	1
+wonderfully	رائعة	rA}Ep	1
+wonderous	العجايبي	AlEjAyby	1
+wonderously	wonderously	wonderously	1
+wonders	عجائب	EjA}b	1
+wondrous	عجيب	Ejyb	1
+woo	وو	ww	1
+work	عمل	Eml	1
+workable	عملي	Emly	1
+worked	عمل	Eml	1
+works	أعمال	AEmAl	1
+world-famous	الشهيرة على مستوى العالم	Al$hyrp Ely mstwy AlEAlm	1
+worth	قيمة	qymp	1
+worth-while	جدير بالاهتمام	jdyr bAlAhtmAm	1
+worthiness	جدارة	jdArp	1
+worthwhile	جديرة بالاهتمام	jdyrp bAlAhtmAm	1
+worthy	مستحق	mstHq	1
+wow	رائع	rA}E	1
+wowed	أبهر	Abhr	1
+wowing	أثارت دهشة	AvArt dh$p	1
+wows	ووس	wws	1
+yay	ياي	yAy	1
+youthful	فتي	fty	1
+zeal	حماسة	HmAsp	1
+zenith	ذروة	*rwp	1
+zest	تلذذ	tl**	1
+zippy	رشيق	r$yq	1
+2-faced	2-الوجه	2-Alwjh	-1
+2-faces	2-وجوه	2-wjwh	-1
+abnormal	غير طبيعي	gyr TbyEy	-1
+abolish	ألغى	Algy	-1
+abominable	مقيت	mqyt	-1
+abominably	رجس	rjs	-1
+abominate	مقت	mqt	-1
+abomination	رجس	rjs	-1
+abort	إحباط	AHbAT	-1
+aborted	أجهض	AjhD	-1
+aborts	إحباط	AHbAT	-1
+abrade	كشط	k$T	-1
+abrasive	كاشط	kA$T	-1
+abrupt	مفاجئ	mfAj}	-1
+abruptly	فجأة	fjAp	-1
+abscond	هرب	hrb	-1
+absence	غياب	gyAb	-1
+absent-minded	شارد الذهن	$Ard Al*hn	-1
+absentee	الغائب	AlgA}b	-1
+absurd	سخيف	sxyf	-1
+absurdity	سخافة	sxAfp	-1
+absurdly	على نحو سخيف	Ely nHw sxyf	-1
+absurdness	السخف	Alsxf	-1
+abuse	إساءة	AsA'p	-1
+abused	سوء المعاملة	sw' AlmEAmlp	-1
+abuses	الانتهاكات	AlAnthAkAt	-1
+abusive	بذيء	b*y'	-1
+abysmal	سحيق	sHyq	-1
+abysmally	الى أبعد الحدود	Aly AbEd AlHdwd	-1
+abyss	هاوية	hAwyp	-1
+accidental	عرضي	ErDy	-1
+accost	دنا منه	dnA mnh	-1
+accursed	ملعون	mlEwn	-1
+accusation	اتهام	AthAm	-1
+accusations	اتهامات	AthAmAt	-1
+accuse	اتهم	Athm	-1
+accuses	وتتهم	wtthm	-1
+accusing	متهما	mthmA	-1
+accusingly	بأصابع الاتهام	bASAbE AlAthAm	-1
+acerbate	acerbate	acerbate	-1
+acerbic	لاذع	lA*E	-1
+acerbically	المشاهدين الى	Alm$Ahdyn Aly	-1
+ache	ألم	Alm	-1
+ached	آلم	Alm	-1
+aches	الأوجاع	AlAwjAE	-1
+achey	achey	achey	-1
+aching	مؤلم	mWlm	-1
+acrid	لاذع	lA*E	-1
+acridly	acridly	acridly	-1
+acridness	الحدة	AlHdp	-1
+acrimonious	لاذع	lA*E	-1
+acrimoniously	بصورة حادة	bSwrp HAdp	-1
+acrimony	حدة	Hdp	-1
+adamant	عنيد	Enyd	-1
+adamantly	بعناد	bEnAd	-1
+addict	مدمن	mdmn	-1
+addicted	مدمن	mdmn	-1
+addicting	الإدمان	AlAdmAn	-1
+addicts	المدمنين	Almdmnyn	-1
+admonish	نصح	nSH	-1
+admonisher	محزر	mHzr	-1
+admonishingly	admonishingly	admonishingly	-1
+admonishment	النصح	AlnSH	-1
+admonition	تحذير	tH*yr	-1
+adulterate	غش	g$	-1
+adulterated	المغشوشة	Almg$w$p	-1
+adulteration	غش	g$	-1
+adulterier	adulterier	adulterier	-1
+adversarial	الخصومة	AlxSwmp	-1
+adversary	خصم	xSm	-1
+adverse	معاكس	mEAks	-1
+adversity	محنة	mHnp	-1
+afflict	ابتلى	Abtly	-1
+affliction	مصيبة	mSybp	-1
+afflictive	فاجع	fAjE	-1
+affront	إهانة	AhAnp	-1
+afraid	خائف	xA}f	-1
+aggravate	تفاقم	tfAqm	-1
+aggravating	مشدد	m$dd	-1
+aggravation	تفاقم	tfAqm	-1
+aggression	عدوان	EdwAn	-1
+aggressive	عدواني	EdwAny	-1
+aggressiveness	عدوانية	EdwAnyp	-1
+aggressor	معتدي	mEtdy	-1
+aggrieve	ضايق	DAyq	-1
+aggrieved	مضطهد	mDThd	-1
+aggrivation	aggrivation	aggrivation	-1
+aghast	مذعور	m*Ewr	-1
+agonies	عذاباته	E*AbAth	-1
+agonize	احتضر	AHtDr	-1
+agonizing	مؤلم	mWlm	-1
+agonizingly	مؤلم	mWlm	-1
+agony	سكرة الموت	skrp Almwt	-1
+aground	جانح	jAnH	-1
+ail	توعك	twEk	-1
+ailing	مريض	mryD	-1
+ailment	مرض	mrD	-1
+aimless	بلا هدف	blA hdf	-1
+alarm	إنذار	An*Ar	-1
+alarmed	قلق	qlq	-1
+alarming	مثيرة للقلق	mvyrp llqlq	-1
+alarmingly	المرعب	AlmrEb	-1
+alienate	نفر	nfr	-1
+alienated	نفور	nfwr	-1
+alienation	انسلاخ	AnslAx	-1
+allegation	ادعاء	AdEA'	-1
+allegations	الادعاءات	AlAdEA'At	-1
+allege	زعم	zEm	-1
+allergic	حساسي	HsAsy	-1
+allergies	الحساسية	AlHsAsyp	-1
+allergy	حساسية	HsAsyp	-1
+aloof	بمعزل	bmEzl	-1
+altercation	مشادة	m$Adp	-1
+ambiguity	غموض	gmwD	-1
+ambiguous	غامض	gAmD	-1
+ambivalence	تناقض	tnAqD	-1
+ambivalent	متردد	mtrdd	-1
+ambush	كمين	kmyn	-1
+amiss	ناقص	nAqS	-1
+amputate	بتر	btr	-1
+anarchism	فوضوية	fwDwyp	-1
+anarchist	فوضوي	fwDwy	-1
+anarchistic	فوضوية	fwDwyp	-1
+anarchy	فوضى	fwDy	-1
+anemic	مصاب بفقر الدم	mSAb bfqr Aldm	-1
+anger	غضب	gDb	-1
+angrily	بغضب	bgDb	-1
+angriness	angriness	angriness	-1
+angry	غاضب	gADb	-1
+anguish	كرب	krb	-1
+animosity	عداء	EdA'	-1
+annihilate	محق	mHq	-1
+annihilation	إبادة	AbAdp	-1
+annoy	غضب	gDb	-1
+annoyance	إزعاج	AzEAj	-1
+annoyances	مضايقات	mDAyqAt	-1
+annoyed	منزعج	mnzEj	-1
+annoying	مزعج	mzEj	-1
+annoyingly	مزعج	mzEj	-1
+annoys	يضايق	yDAyq	-1
+anomalous	شاذ	$A*	-1
+anomaly	شذوذ	$*w*	-1
+antagonism	تضاد	tDAd	-1
+antagonist	خصم	xSm	-1
+antagonistic	معاد	mEAd	-1
+antagonize	استعداء	AstEdA'	-1
+anti-	مضاد	mDAd	-1
+anti-american	معادية للولايات المتحدة	mEAdyp llwlAyAt AlmtHdp	-1
+anti-israeli	معاديا لإسرائيل	mEAdyA lAsrA}yl	-1
+anti-occupation	المناهضة للاحتلال	AlmnAhDp llAHtlAl	-1
+anti-proliferation	منع الانتشار النووي	mnE AlAnt$Ar Alnwwy	-1
+anti-semites	معاداة للسامية	mEAdAp llsAmyp	-1
+anti-social	مكافحة الاجتماعية	mkAfHp AlAjtmAEyp	-1
+anti-us	مكافحة لنا	mkAfHp lnA	-1
+anti-white	مكافحة الأبيض	mkAfHp AlAbyD	-1
+antipathy	كراهية	krAhyp	-1
+antiquated	مهمل	mhml	-1
+antithetical	متناقض	mtnAqD	-1
+anxieties	القلق	Alqlq	-1
+anxiety	قلق	qlq	-1
+anxious	قلق	qlq	-1
+anxiously	بقلق	bqlq	-1
+anxiousness	الحرص	AlHrS	-1
+apathetic	لا مبالي	lA mbAly	-1
+apathetically	apathetically	apathetically	-1
+apathy	لا مبالاة	lA mbAlAp	-1
+apocalypse	سفر الرؤيا	sfr AlrWyA	-1
+apocalyptic	الرهيبه	Alrhybh	-1
+apologist	المدافع عن دين أو قضية	AlmdAfE En dyn Aw qDyp	-1
+apologists	المدافعون	AlmdAfEwn	-1
+appal	أرعب	ArEb	-1
+appall	فزع	fzE	-1
+appalled	بالفزع	bAlfzE	-1
+appalling	مروع	mrwE	-1
+appallingly	مفزع	mfzE	-1
+apprehension	اعتقال	AEtqAl	-1
+apprehensions	مخاوف	mxAwf	-1
+apprehensive	قلق	qlq	-1
+apprehensively	بقلق،	bqlq,	-1
+arbitrary	اعتباطي	AEtbATy	-1
+arcane	غامضة	gAmDp	-1
+archaic	ممات	mmAt	-1
+arduous	شاق	$Aq	-1
+arduously	مضنية	mDnyp	-1
+argumentative	جدلي	jdly	-1
+arrogance	غطرسة	gTrsp	-1
+arrogant	متغطرس	mtgTrs	-1
+arrogantly	بغطرسة	bgTrsp	-1
+ashamed	خجلان	xjlAn	-1
+asinine	أبله	Ablh	-1
+asininely	بغباء	bgbA'	-1
+asinininity	asinininity	asinininity	-1
+askance	بارتياب	bArtyAb	-1
+asperse	خشونة	x$wnp	-1
+aspersion	تشهير	t$hyr	-1
+aspersions	الطعن	AlTEn	-1
+assail	هاجم بعنف	hAjm bEnf	-1
+assassin	قاتل	qAtl	-1
+assassinate	اغتيال	AgtyAl	-1
+assault	اعتداء	AEtdA'	-1
+assult	assult	assult	-1
+astray	ضل	Dl	-1
+asunder	اربا	ArbA	-1
+atrocious	فظيع	fZyE	-1
+atrocities	الاعمال الوحشية	AlAEmAl AlwH$yp	-1
+atrocity	فظاعة	fZAEp	-1
+atrophy	ضمور	Dmwr	-1
+attack	هجوم	hjwm	-1
+attacks	هجمات	hjmAt	-1
+audacious	جريء	jry'	-1
+audaciously	بجرأة	bjrAp	-1
+audaciousness	الجرأة	AljrAp	-1
+audacity	وقاحة	wqAHp	-1
+audiciously	audiciously	audiciously	-1
+austere	صارم	SArm	-1
+authoritarian	استبدادي	AstbdAdy	-1
+autocrat	المستبد	Almstbd	-1
+autocratic	استبدادي	AstbdAdy	-1
+avalanche	انهيار ثلجي	AnhyAr vljy	-1
+avarice	جشع	j$E	-1
+avaricious	بخيل	bxyl	-1
+avariciously	avariciously	avariciously	-1
+avenge	ثأر	vAr	-1
+averse	كاره	kArh	-1
+aversion	نفور	nfwr	-1
+aweful	أويفول	Awyfwl	-1
+awful	مروع	mrwE	-1
+awfully	على نحو بغيض	Ely nHw bgyD	-1
+awfulness	الفظاعة	AlfZAEp	-1
+awkward	غير ملائم	gyr mlA}m	-1
+awkwardness	حرج	Hrj	-1
+ax	الفأس	AlfAs	-1
+babble	ثرثرة	vrvrp	-1
+back-logged	الخلفية تسجيل	Alxlfyp tsjyl	-1
+back-wood	الخلفي الخشب	Alxlfy Alx$b	-1
+back-woods	الخلفية الغابة	Alxlfyp AlgAbp	-1
+backache	الم في الظهر	Alm fy AlZhr	-1
+backaches	آلام الظهر	AlAm AlZhr	-1
+backaching	backaching	backaching	-1
+backbite	يغتب اه	ygtb Ah	-1
+backbiting	الغيبة	Algybp	-1
+backward	الى الوراء	Aly AlwrA'	-1
+backwardness	التخلف	Altxlf	-1
+backwood	backwood	backwood	-1
+backwoods	الغابات الخلفية	AlgAbAt Alxlfyp	-1
+bad	سيئة	sy}p	-1
+badly	سيئة	sy}p	-1
+baffle	صد	Sd	-1
+baffled	مرتبك	mrtbk	-1
+bafflement	الحيرة	AlHyrp	-1
+baffling	حيرة	Hyrp	-1
+bait	طعم	TEm	-1
+balk	رافدة	rAfdp	-1
+banal	تافه	tAfh	-1
+banalize	banalize	banalize	-1
+bane	هلاك	hlAk	-1
+banish	إبعاد	AbEAd	-1
+banishment	نفي	nfy	-1
+bankrupt	مفلس	mfls	-1
+barbarian	بربري	brbry	-1
+barbaric	بربري	brbry	-1
+barbarically	وحشية	wH$yp	-1
+barbarity	بربرية	brbryp	-1
+barbarous	همجي	hmjy	-1
+barbarously	بوحشية	bwH$yp	-1
+barren	قاحل	qAHl	-1
+baseless	لا أساس له	lA AsAs lh	-1
+bash	سحق	sHq	-1
+bashed	باشيد	bA$yd	-1
+bashful	محتشم	mHt$m	-1
+bashing	تقريع	tqryE	-1
+bastard	نذل	n*l	-1
+bastards	الأوغاد	AlAwgAd	-1
+battered	ضرب	Drb	-1
+battering	الضرب	AlDrb	-1
+batty	معتوه	mEtwh	-1
+bearish	سبحة	sbHp	-1
+beastly	بغيض	bgyD	-1
+bedlam	هرج ومرج	hrj wmrj	-1
+bedlamite	المخبول	Almxbwl	-1
+befoul	لوث	lwv	-1
+beg	تضرع	tDrE	-1
+beggar	متسول	mtswl	-1
+beggarly	حقير	Hqyr	-1
+begging	تسول	tswl	-1
+beguile	سلى	sly	-1
+belabor	أهاجم وأكرر	AhAjm wAkrr	-1
+belated	متأخر	mtAxr	-1
+beleaguer	حاصر	HASr	-1
+belie	تكذب	tk*b	-1
+belittle	استخف	Astxf	-1
+belittled	قلل	qll	-1
+belittling	التحقير	AltHqyr	-1
+bellicose	مولع بالقتال	mwlE bAlqtAl	-1
+belligerence	العداء	AlEdA'	-1
+belligerent	محارب	mHArb	-1
+belligerently	بتشدد	bt$dd	-1
+bemoan	تحسر على	tHsr Ely	-1
+bemoaning	رثاء	rvA'	-1
+bemused	مرتبك	mrtbk	-1
+bent	انحنى	AnHny	-1
+berate	وبخ	wbx	-1
+bereave	ثكل	vkl	-1
+bereavement	الثكل	Alvkl	-1
+bereft	ثكل	vkl	-1
+berserk	هائج	hA}j	-1
+beseech	التمس	Altms	-1
+beset	هاجم	hAjm	-1
+besiege	حاصر	HASr	-1
+besmirch	لوث	lwv	-1
+bestial	وحشي	wH$y	-1
+betray	أفشى سرا	Af$y srA	-1
+betrayal	خيانة	xyAnp	-1
+betrayals	الخيانات	AlxyAnAt	-1
+betrayer	خائن	xA}n	-1
+betraying	خيانة	xyAnp	-1
+betrays	ينم	ynm	-1
+bewail	نوح	nwH	-1
+beware	احترس	AHtrs	-1
+bewilder	ذهل	*hl	-1
+bewildered	متحير	mtHyr	-1
+bewildering	مذهل	m*hl	-1
+bewilderingly	تثير الارتباك	tvyr AlArtbAk	-1
+bewilderment	حيرة	Hyrp	-1
+bewitch	فتن	ftn	-1
+bias	انحياز	AnHyAz	-1
+biased	مغرض	mgrD	-1
+biases	التحيزات	AltHyzAt	-1
+bicker	تخاصم	txASm	-1
+bickering	المشاحنات	Alm$AHnAt	-1
+bid-rigging	محاولة تزوير	mHAwlp tzwyr	-1
+bigotries	bigotries	bigotries	-1
+bigotry	تعصب أعمى	tESb AEmy	-1
+bitch	الكلبة	Alklbp	-1
+bitchy	مشاكس	m$Aks	-1
+biting	قضم	qDm	-1
+bitingly	عنيفا	EnyfA	-1
+bitter	مرارة	mrArp	-1
+bitterly	مرير	mryr	-1
+bitterness	مرارة	mrArp	-1
+bizarre	غريب	gryb	-1
+blab	ثرثار	vrvAr	-1
+blabber	ثرثرة	vrvrp	-1
+blackmail	ابتزاز	AbtzAz	-1
+blah	بلاه	blAh	-1
+blame	لوم	lwm	-1
+blameworthy	مستحق اللوم	mstHq Allwm	-1
+bland	لطيف	lTyf	-1
+blandish	تملق	tmlq	-1
+blaspheme	كفر	kfr	-1
+blasphemous	تجديف	tjdyf	-1
+blasphemy	تجديف	tjdyf	-1
+blasted	انتقد	Antqd	-1
+blatant	صارخ	SArx	-1
+blatantly	بشكل صارخ	b$kl SArx	-1
+blather	الثرثار	AlvrvAr	-1
+bleak	كئيب	k}yb	-1
+bleakly	حد بائس	Hd bA}s	-1
+bleakness	كآبة	kAbp	-1
+bleed	ينزف	ynzf	-1
+bleeding	نزيف	nzyf	-1
+bleeds	ينزف	ynzf	-1
+blemish	عيب	Eyb	-1
+blind	اعمى	AEmy	-1
+blinding	تعمية	tEmyp	-1
+blindingly	تمام الوضوح	tmAm AlwDwH	-1
+blindside	الجانب الأعمى	AljAnb AlAEmy	-1
+blister	نفطة	nfTp	-1
+blistering	ظهور تقرحات	Zhwr tqrHAt	-1
+bloated	منتفخ	mntfx	-1
+blockage	اعتراض	AEtrAD	-1
+blockhead	الأبله	AlAblh	-1
+bloodshed	سفك الدماء	sfk AldmA'	-1
+bloodthirsty	سفاح	sfAH	-1
+bloody	دام	dAm	-1
+blotchy	بقع	bqE	-1
+blow	ضربة	Drbp	-1
+blunder	تخبط	txbT	-1
+blundering	متخبط	mtxbT	-1
+blunders	الأخطاء	AlAxTA'	-1
+blunt	كليل	klyl	-1
+blur	شىء ضبابي	$y' DbAby	-1
+bluring	bluring	bluring	-1
+blurred	غير واضحة	gyr wADHp	-1
+blurring	ضبابية	DbAbyp	-1
+blurry	ضبابية	DbAbyp	-1
+blurs	يطمس	yTms	-1
+blurt	أفشى من غير تفكير	Af$y mn gyr tfkyr	-1
+boastful	متبجح	mtbjH	-1
+boggle	عمل غير متقن	Eml gyr mtqn	-1
+bogus	مزيف	mzyf	-1
+boil	دمل	dml	-1
+boiling	غليان	glyAn	-1
+boisterous	عاصف	EASf	-1
+bomb	قنبلة	qnblp	-1
+bombard	قصف	qSf	-1
+bombardment	قصف	qSf	-1
+bombastic	منمق	mnmq	-1
+bondage	عبودية	Ebwdyp	-1
+bonkers	مجنون	mjnwn	-1
+bore	تجويف	tjwyf	-1
+bored	الملل	Almll	-1
+boredom	ملل	mll	-1
+bores	المملون	Almmlwn	-1
+boring	ممل	mml	-1
+botch	قرح	qrH	-1
+bother	قلق	qlq	-1
+bothered	ازعجت	AzEjt	-1
+bothering	مضايقة	mDAyqp	-1
+bothers	يزعج	yzEj	-1
+bothersome	مزعج	mzEj	-1
+bowdlerize	هذب كتابا	h*b ktAbA	-1
+boycott	مقاطعة	mqATEp	-1
+braggart	ثرثار	vrvAr	-1
+bragger	المتفاخر	AlmtfAxr	-1
+brainless	أبله	Ablh	-1
+brainwash	غسل دماغ	gsl dmAg	-1
+brash	صراخ	SrAx	-1
+brashly	باندفاع	bAndfAE	-1
+brashness	الجرأة	AljrAp	-1
+brat	شقي	$qy	-1
+bravado	تبجح	tbjH	-1
+brazen	وقح	wqH	-1
+brazenly	بوقاحة	bwqAHp	-1
+brazenness	الوقاحة	AlwqAHp	-1
+breach	خرق	xrq	-1
+break	استراحة	AstrAHp	-1
+break-up	انفصال	AnfSAl	-1
+break-ups	التكسر	Altksr	-1
+breakdown	انفصال	AnfSAl	-1
+breaking	كسر	ksr	-1
+breaks	فواصل	fwASl	-1
+breakup	انفصال	AnfSAl	-1
+breakups	التحطم	AltHTm	-1
+bribery	رشوة	r$wp	-1
+brimstone	كبريت	kbryt	-1
+bristle	جعله ينتصب	jElh yntSb	-1
+brittle	هش	h$	-1
+broke	حطم	HTm	-1
+broken	مكسور	mkswr	-1
+broken-hearted	الحزانى	AlHzAny	-1
+brood	الحضنة	AlHDnp	-1
+browbeat	خوف	xwf	-1
+bruise	كدمة	kdmp	-1
+bruised	بكدمة	bkdmp	-1
+bruises	الكدمات	AlkdmAt	-1
+bruising	الكدمات	AlkdmAt	-1
+brusque	فظ	fZ	-1
+brutal	وحشي	wH$y	-1
+brutalising	الوحشية	AlwH$yp	-1
+brutalities	الوحشية	AlwH$yp	-1
+brutality	وحشية	wH$yp	-1
+brutalize	وحش	wH$	-1
+brutalizing	الوحشية	AlwH$yp	-1
+brutally	وحشي	wH$y	-1
+brute	غاشم	gA$m	-1
+brutish	بهيمي	bhymy	-1
+bs	بكالوريوس	bkAlwryws	-1
+buckle	مشبك	m$bk	-1
+bug	بق	bq	-1
+bugging	التنصت	AltnSt	-1
+buggy	بوجي	bwjy	-1
+bugs	البق	Albq	-1
+bulkier	أضخم	ADxm	-1
+bulkiness	كبر	kbr	-1
+bulky	ضخم	Dxm	-1
+bulkyness	bulkyness	bulkyness	-1
+bull****	الثور ****	Alvwr ****	-1
+bull----	الثور ----	Alvwr ----	-1
+bullies	الفتوات	AlftwAt	-1
+bullshit	هراء	hrA'	-1
+bullshyt	bullshyt	bullshyt	-1
+bully	بلطجي	blTjy	-1
+bullying	التسلط	AltslT	-1
+bullyingly	bullyingly	bullyingly	-1
+bum	متسكع	mtskE	-1
+bump	نتوء	ntw'	-1
+bumped	صدم	Sdm	-1
+bumping	الاهتزاز	AlAhtzAz	-1
+bumpping	bumpping	bumpping	-1
+bumps	المطبات	AlmTbAt	-1
+bumpy	وعر	wEr	-1
+bungle	عمل غير متقن	Eml gyr mtqn	-1
+bungler	العامل الأخرق	AlEAml AlAxrq	-1
+bungling	أخرق	Axrq	-1
+bunk	كلام فارغ	klAm fArg	-1
+burden	عبء	Eb'	-1
+burdensome	متعب	mtEb	-1
+burdensomely	burdensomely	burdensomely	-1
+burn	حرق	Hrq	-1
+burned	حرق	Hrq	-1
+burning	احتراق	AHtrAq	-1
+burns	الحروق	AlHrwq	-1
+bust	تمثال نصفي	tmvAl nSfy	-1
+busts	تماثيل نصفية	tmAvyl nSfyp	-1
+busybody	فضولي	fDwly	-1
+butcher	جزار	jzAr	-1
+butchery	سفك الدماء	sfk AldmA'	-1
+buzzing	الأز	AlAz	-1
+byzantine	البيزنطية	AlbyznTyp	-1
+cackle	ثرثرة	vrvrp	-1
+calamities	المصائب	AlmSA}b	-1
+calamitous	فاجع	fAjE	-1
+calamitously	بصورة كارثية	bSwrp kArvyp	-1
+calamity	مصيبة	mSybp	-1
+callous	قاسي القلب	qAsy Alqlb	-1
+calumniate	افترى	Aftry	-1
+calumniation	الافتراء	AlAftrA'	-1
+calumnies	الافتراءات	AlAftrA'At	-1
+calumnious	calumnious	calumnious	-1
+calumniously	إفترائي	AftrA}y	-1
+calumny	افتراء	AftrA'	-1
+cancer	سرطان	srTAn	-1
+cancerous	سرطاني	srTAny	-1
+cannibal	آكل لحم البشر	Akl lHm Alb$r	-1
+cannibalize	فكك	fkk	-1
+capitulate	أذعن	A*En	-1
+capricious	متقلب	mtqlb	-1
+capriciously	نزوة	nzwp	-1
+capriciousness	اتباع الهوى	AtbAE Alhwy	-1
+capsize	انقلب	Anqlb	-1
+careless	مهمل	mhml	-1
+carelessness	لا مبالاة	lA mbAlAp	-1
+caricature	كاريكاتور	kArykAtwr	-1
+carnage	مذبحة	m*bHp	-1
+carp	الكارب	AlkArb	-1
+cartoonish	الكرتوني	Alkrtwny	-1
+cash-strapped	المحاصرون ماليا	AlmHASrwn mAlyA	-1
+castigate	أنب	Anb	-1
+castrated	مخصي	mxSy	-1
+casualty	مصاب	mSAb	-1
+cataclysm	جائحة	jA}Hp	-1
+cataclysmal	cataclysmal	cataclysmal	-1
+cataclysmic	جائحة	jA}Hp	-1
+cataclysmically	cataclysmically	cataclysmically	-1
+catastrophe	كارثة	kArvp	-1
+catastrophes	الكوارث	AlkwArv	-1
+catastrophic	فاجع	fAjE	-1
+catastrophically	كارثي	kArvy	-1
+catastrophies	المحن	AlmHn	-1
+caustic	مادة كاوية	mAdp kAwyp	-1
+caustically	اذع	A*E	-1
+cautionary	تحذيري	tH*yry	-1
+cave	كهف	khf	-1
+censure	لوم	lwm	-1
+chafe	اغتاظ	AgtAZ	-1
+chaff	قش	q$	-1
+chagrin	غم	gm	-1
+challenging	التحدي	AltHdy	-1
+chaos	فوضى	fwDy	-1
+chaotic	فوضوي	fwDwy	-1
+chasten	أدب	Adb	-1
+chastise	عاقب	EAqb	-1
+chastisement	معاقبة	mEAqbp	-1
+chatter	ثرثرة	vrvrp	-1
+chatterbox	ثرثار	vrvAr	-1
+cheap	رخيص	rxyS	-1
+cheapen	رخص	rxS	-1
+cheaply	بثمن بخس	bvmn bxs	-1
+cheat	خداع	xdAE	-1
+cheated	خدع	xdE	-1
+cheater	الغشاش	Alg$A$	-1
+cheating	غش	g$	-1
+cheats	غش	g$	-1
+checkered	مختلف الألوان	mxtlf AlAlwAn	-1
+cheerless	كئيب	k}yb	-1
+cheesy	جبني	jbny	-1
+chide	قرع	qrE	-1
+childish	طفولي	Tfwly	-1
+chill	قشعريرة	q$Eryrp	-1
+chilly	بارد	bArd	-1
+chintzy	تشينتزي	t$yntzy	-1
+choke	خنق	xnq	-1
+choleric	ناشئ عن الكوليرا	nA$} En AlkwlyrA	-1
+choppy	متقطع	mtqTE	-1
+chore	عمل روتيني	Eml rwtyny	-1
+chronic	مزمن	mzmn	-1
+chunky	مكتنزة	mktnzp	-1
+clamor	لغط	lgT	-1
+clamorous	صخاب	SxAb	-1
+clash	اشتباك	A$tbAk	-1
+cliche	روسم	rwsm	-1
+cliched	النمطية	AlnmTyp	-1
+clique	زمرة	zmrp	-1
+clog	سد	sd	-1
+clogged	انسداد	AnsdAd	-1
+clogs	قباقيب	qbAqyb	-1
+cloud	سحابة	sHAbp	-1
+clouding	تغيم	tgym	-1
+cloudy	غائم	gA}m	-1
+clueless	جاهل	jAhl	-1
+clumsy	أخرق	Axrq	-1
+clunky	عالي الكعب	EAly AlkEb	-1
+coarse	خشن	x$n	-1
+cocky	مغرور	mgrwr	-1
+coerce	تجبر	tjbr	-1
+coercion	إكراه	AkrAh	-1
+coercive	قسري	qsry	-1
+cold	برد	brd	-1
+coldly	مشعر بالبرد	m$Er bAlbrd	-1
+collapse	انهيار	AnhyAr	-1
+collude	تآمر	tAmr	-1
+collusion	تواطؤ	twATW	-1
+combative	مولع بالقتال	mwlE bAlqtAl	-1
+combust	حرق	Hrq	-1
+comical	هزلي	hzly	-1
+commiserate	رثى	rvy	-1
+commonplace	مألوف	mAlwf	-1
+commotion	هياج	hyAj	-1
+commotions	الاضطرابات	AlADTrAbAt	-1
+complacent	الرضا عن النفس	AlrDA En Alnfs	-1
+complain	تذمر	t*mr	-1
+complained	اشتكى	A$tky	-1
+complaining	الشكوى	Al$kwy	-1
+complains	يشكو	y$kw	-1
+complaint	شكوى	$kwy	-1
+complaints	الشكاوى	Al$kAwy	-1
+complex	مجمع	mjmE	-1
+complicated	معقد	mEqd	-1
+complication	تعقيد	tEqyd	-1
+complicit	متواطئة	mtwAT}p	-1
+compulsion	إكراه	AkrAh	-1
+compulsive	القهري	Alqhry	-1
+concede	تنازل	tnAzl	-1
+conceded	اعترف	AEtrf	-1
+conceit	غرور	grwr	-1
+conceited	مغرور	mgrwr	-1
+concen	تركيزات	trkyzAt	-1
+concens	concens	concens	-1
+concern	قلق	qlq	-1
+concerned	المعنية	AlmEnyp	-1
+concerns	المخاوف	AlmxAwf	-1
+concession	امتياز	AmtyAz	-1
+concessions	تنازلات	tnAzlAt	-1
+condemn	شجب	$jb	-1
+condemnable	ومدان	wmdAn	-1
+condemnation	إدانة	AdAnp	-1
+condemned	مدان	mdAn	-1
+condemns	يدين	ydyn	-1
+condescend	تعطف	tETf	-1
+condescending	التنازل	AltnAzl	-1
+condescendingly	متنازل	mtnAzl	-1
+condescension	هبوط بالمستوى	hbwT bAlmstwy	-1
+confess	اعترف	AEtrf	-1
+confession	اعتراف	AEtrAf	-1
+confessions	اعترافات	AEtrAfAt	-1
+confined	حبيس	Hbys	-1
+conflict	صراع	SrAE	-1
+conflicted	يتعارض	ytEArD	-1
+conflicting	متعارض	mtEArD	-1
+conflicts	الصراعات	AlSrAEAt	-1
+confound	أربك	Arbk	-1
+confounded	مرتبك	mrtbk	-1
+confounding	مربك	mrbk	-1
+confront	مواجهة	mwAjhp	-1
+confrontation	مواجهة	mwAjhp	-1
+confrontational	المواجهة	AlmwAjhp	-1
+confuse	تخلط	txlT	-1
+confused	مرتبك	mrtbk	-1
+confuses	يشوش	y$w$	-1
+confusing	مربك	mrbk	-1
+confusion	ارتباك	ArtbAk	-1
+confusions	التباسات	AltbAsAt	-1
+congested	محتقن	mHtqn	-1
+congestion	احتقان	AHtqAn	-1
+cons	سلبيات	slbyAt	-1
+conscons	conscons	conscons	-1
+conservative	محافظ	mHAfZ	-1
+conspicuous	واضح	wADH	-1
+conspicuously	واضح	wADH	-1
+conspiracies	المؤامرات	AlmWAmrAt	-1
+conspiracy	مؤامرة	mWAmrp	-1
+conspirator	متآمر	mtAmr	-1
+conspiratorial	تآمري	tAmry	-1
+conspire	تآمر	tAmr	-1
+consternation	ذعر	*Er	-1
+contagious	معد	mEd	-1
+contaminate	لوث	lwv	-1
+contaminated	ملوث	mlwv	-1
+contaminates	يلوث	ylwv	-1
+contaminating	تلويث	tlwyv	-1
+contamination	تلوث	tlwv	-1
+contempt	احتقار	AHtqAr	-1
+contemptible	خسيس	xsys	-1
+contemptuous	مزدر	mzdr	-1
+contemptuously	باحتقار	bAHtqAr	-1
+contend	تنافس	tnAfs	-1
+contention	خلاف	xlAf	-1
+contentious	مثير للنزاع	mvyr llnzAE	-1
+contort	تتلوى من الألم	ttlwy mn AlAlm	-1
+contortions	التشويهات	Alt$wyhAt	-1
+contradict	تعارض	tEArD	-1
+contradiction	تناقض	tnAqD	-1
+contradictory	متناقض	mtnAqD	-1
+contrariness	تضاد	tDAd	-1
+contravene	مخالفة	mxAlfp	-1
+contrive	تدبر	tdbr	-1
+contrived	مبدع	mbdE	-1
+controversial	مثيرة للجدل	mvyrp lljdl	-1
+controversy	جدال	jdAl	-1
+convoluted	ملتف	mltf	-1
+corrode	تآكل	tAkl	-1
+corrosion	تآكل	tAkl	-1
+corrosions	التآكلات	AltAklAt	-1
+corrosive	متآكل	mtAkl	-1
+corrupt	فاسد	fAsd	-1
+corrupted	تلف	tlf	-1
+corrupting	المفسدة	Almfsdp	-1
+corruption	فساد	fsAd	-1
+corrupts	تفسد	tfsd	-1
+corruptted	corruptted	corruptted	-1
+costlier	أكثر تكلفة	Akvr tklfp	-1
+costly	تكلفة	tklfp	-1
+counter-productive	تأتي بنتائج عكسية	tAty bntA}j Eksyp	-1
+counterproductive	نتائج عكسية	ntA}j Eksyp	-1
+coupists	الانقلابيون	AlAnqlAbywn	-1
+covetous	طامع	TAmE	-1
+coward	جبان	jbAn	-1
+cowardly	جبان	jbAn	-1
+crabby	crabby	crabby	-1
+crack	صدع	SdE	-1
+cracked	مشقوق	m$qwq	-1
+cracks	الشقوق	Al$qwq	-1
+craftily	ببراعة	bbrAEp	-1
+craftly	craftly	craftly	-1
+crafty	ماكر	mAkr	-1
+cramp	تشنج	t$nj	-1
+cramped	ضيق	Dyq	-1
+cramping	التشنج	Alt$nj	-1
+cranky	غريب الأطوار	gryb AlATwAr	-1
+crap	حماقة	HmAqp	-1
+crappy	كربي	krby	-1
+craps	الفضلات	AlfDlAt	-1
+crash	تحطم	tHTm	-1
+crashed	تحطمت	tHTmt	-1
+crashes	حوادث	HwAdv	-1
+crashing	تحطمها	tHTmhA	-1
+crass	تام	tAm	-1
+craven	شخص جبان	$xS jbAn	-1
+cravenly	بجبن	bjbn	-1
+craze	جنون	jnwn	-1
+crazily	الجنون	Aljnwn	-1
+craziness	جنون	jnwn	-1
+crazy	مجنون	mjnwn	-1
+creak	صرير	Sryr	-1
+creaking	يئن تحت وطأتها	y}n tHt wTAthA	-1
+creaks	صرير	Sryr	-1
+credulous	ساذج	sA*j	-1
+creep	زحف	zHf	-1
+creeping	زحف	zHf	-1
+creeps	لصوص	lSwS	-1
+creepy	زاحف	zAHf	-1
+crept	تسلل	tsll	-1
+crime	جريمة	jrymp	-1
+criminal	مجرم	mjrm	-1
+cringe	تذلل	t*ll	-1
+cringed	متذلل	mt*ll	-1
+cringes	يتذلل	yt*ll	-1
+cripple	شل	$l	-1
+crippled	أعرج	AErj	-1
+cripples	المقعدين	AlmqEdyn	-1
+crippling	تعطيل	tETyl	-1
+crisis	أزمة	Azmp	-1
+critic	الناقد	AlnAqd	-1
+critical	حرج	Hrj	-1
+criticism	نقد	nqd	-1
+criticisms	الانتقادات	AlAntqAdAt	-1
+criticize	نقد	nqd	-1
+criticized	انتقدت	Antqdt	-1
+criticizing	انتقاد	AntqAd	-1
+critics	النقاد	AlnqAd	-1
+cronyism	المحسوبية	AlmHswbyp	-1
+crook	المحتال	AlmHtAl	-1
+crooked	معوج	mEwj	-1
+crooks	المحتالون	AlmHtAlwn	-1
+crowded	مزدحم	mzdHm	-1
+crowdedness	زحام	zHAm	-1
+crude	نفط خام	nfT xAm	-1
+cruel	قاس	qAs	-1
+crueler	قسوة	qswp	-1
+cruelest	خسة	xsp	-1
+cruelly	بوحشية	bwH$yp	-1
+cruelness	القسوة	Alqswp	-1
+cruelties	القسوة	Alqswp	-1
+cruelty	قسوة	qswp	-1
+crumble	تفتت	tftt	-1
+crumbling	تفتت	tftt	-1
+crummy	تافه	tAfh	-1
+crumple	جعدة	jEdp	-1
+crumpled	تكوم	tkwm	-1
+crumples	يتكوم	ytkwm	-1
+crush	سحق	sHq	-1
+crushed	مهروس	mhrws	-1
+crushing	الساحق	AlsAHq	-1
+cry	صرخة	Srxp	-1
+culpable	جدير باللوم	jdyr bAllwm	-1
+culprit	مجرم	mjrm	-1
+cumbersome	ثقيل	vqyl	-1
+cunt	العضو التناسلي النسوي	AlEDw AltnAsly Alnswy	-1
+cunts	cunts	cunts	-1
+cuplrit	cuplrit	cuplrit	-1
+curse	لعنة	lEnp	-1
+cursed	ملعون	mlEwn	-1
+curses	الشتائم	Al$tA}m	-1
+curt	جاف	jAf	-1
+cuss	لعنة	lEnp	-1
+cussed	العناد	AlEnAd	-1
+cutthroat	سفاح	sfAH	-1
+cynical	ساخر	sAxr	-1
+cynicism	السخرية	Alsxryp	-1
+d*mn	د * مليون	d * mlywn	-1
+damage	ضرر	Drr	-1
+damaged	التالفة	AltAlfp	-1
+damages	خسائر	xsA}r	-1
+damaging	ضررا	DrrA	-1
+damn	اللعنة	AllEnp	-1
+damnable	DAMNABLE	DAMNABLE	-1
+damnably	جدير باللعنة	jdyr bAllEnp	-1
+damnation	اللعن	AllEn	-1
+damned	ملعون	mlEwn	-1
+damning	إدانة	AdAnp	-1
+damper	المثبط	AlmvbT	-1
+danger	خطر	xTr	-1
+dangerous	خطير	xTyr	-1
+dangerousness	الخطورة	AlxTwrp	-1
+dark	ظلام	ZlAm	-1
+darken	ظلم	Zlm	-1
+darkened	مظلمة	mZlmp	-1
+darker	قتامة	qtAmp	-1
+darkness	ظلام	ZlAm	-1
+dastard	جبان	jbAn	-1
+dastardly	خسيس	xsys	-1
+daunt	أرعب	ArEb	-1
+daunting	شاقة	$Aqp	-1
+dauntingly	مروع	mrwE	-1
+dawdle	بدد	bdd	-1
+daze	دوخ	dwx	-1
+dazed	مصاب بالدوار	mSAb bAldwAr	-1
+dead	ميت	myt	-1
+deadbeat	مرهق	mrhq	-1
+deadlock	مأزق	mAzq	-1
+deadly	قاتل	qAtl	-1
+deadweight	الساكنة	AlsAknp	-1
+deaf	أصم	ASm	-1
+dearth	قلة	qlp	-1
+death	الموت	Almwt	-1
+debacle	هزيمة	hzymp	-1
+debase	أهان	AhAn	-1
+debasement	المهانة	AlmhAnp	-1
+debaser	المخفض	AlmxfD	-1
+debatable	قابل للمناقشة	qAbl llmnAq$p	-1
+debauch	إفساد	AfsAd	-1
+debaucher	الفاسق	AlfAsq	-1
+debauchery	الفسوق	Alfswq	-1
+debilitate	وهن	whn	-1
+debilitating	موهنة	mwhnp	-1
+debility	ضعف	DEf	-1
+debt	دين	dyn	-1
+debts	الديون	Aldywn	-1
+decadence	تفسخ	tfsx	-1
+decadent	منحط	mnHT	-1
+decay	الاضمحلال	AlADmHlAl	-1
+decayed	فاسد	fAsd	-1
+deceit	خداع	xdAE	-1
+deceitful	مخادع	mxAdE	-1
+deceitfully	بمكر	bmkr	-1
+deceitfulness	خداع	xdAE	-1
+deceive	خدع	xdE	-1
+deceiver	خداع	xdAE	-1
+deceivers	المخادعون	AlmxAdEwn	-1
+deceiving	خداع	xdAE	-1
+deception	خداع	xdAE	-1
+deceptive	خادع	xAdE	-1
+deceptively	مخادعة	mxAdEp	-1
+declaim	خطب	xTb	-1
+decline	هبوط	hbwT	-1
+declines	انخفاض	AnxfAD	-1
+declining	انخفاض	AnxfAD	-1
+decrement	إنقاص	AnqAS	-1
+decrepit	متداع للسقوط	mtdAE llsqwT	-1
+decrepitude	تداع	tdAE	-1
+decry	شجب	$jb	-1
+defamation	قذف	q*f	-1
+defamations	افتراءات	AftrA'At	-1
+defamatory	افترائي	AftrA}y	-1
+defame	قذف	q*f	-1
+defect	خلل	xll	-1
+defective	معيب	mEyb	-1
+defects	العيوب	AlEywb	-1
+defensive	دفاعي	dfAEy	-1
+defiance	تحد	tHd	-1
+defiant	غير هياب	gyr hyAb	-1
+defiantly	بتحد	btHd	-1
+deficiencies	القصور	AlqSwr	-1
+deficiency	نقص	nqS	-1
+deficient	ناقص	nAqS	-1
+defile	دنس	dns	-1
+defiler	الملوث	Almlwv	-1
+deform	تشوه	t$wh	-1
+deformed	مشوه	m$wh	-1
+defrauding	وغش	wg$	-1
+defunct	الميت	Almyt	-1
+defy	تحدى	tHdy	-1
+degenerate	منحط	mnHT	-1
+degenerately	degenerately	degenerately	-1
+degeneration	انحطاط	AnHTAT	-1
+degradation	انحطاط	AnHTAT	-1
+degrade	تتحلل	ttHll	-1
+degrading	مهين	mhyn	-1
+degradingly	degradingly	degradingly	-1
+dehumanization	التجريد من الإنسانية	Altjryd mn AlAnsAnyp	-1
+dehumanize	حيون	Hywn	-1
+deign	تفضل	tfDl	-1
+deject	اغتم	Agtm	-1
+dejected	مكتئب	mkt}b	-1
+dejectedly	باكتئاب	bAkt}Ab	-1
+dejection	كآبة	kAbp	-1
+delay	تأخير	tAxyr	-1
+delayed	مؤجل	mWjl	-1
+delaying	معوق	mEwq	-1
+delays	التأخير	AltAxyr	-1
+delinquency	إهمال	AhmAl	-1
+delinquent	جانح	jAnH	-1
+delirious	هذياني	h*yAny	-1
+delirium	هذيان	h*yAn	-1
+delude	ضلل	Dll	-1
+deluded	مغرور	mgrwr	-1
+deluge	طوفان	TwfAn	-1
+delusion	وهم	whm	-1
+delusional	الوهمية	Alwhmyp	-1
+delusions	الأوهام	AlAwhAm	-1
+demean	حط من قدر	HT mn qdr	-1
+demeaning	مهينة	mhynp	-1
+demise	زوال	zwAl	-1
+demolish	هدم	hdm	-1
+demolisher	المدمر	Almdmr	-1
+demon	شيطان	$yTAn	-1
+demonic	شيطاني	$yTAny	-1
+demonize	شيطنة	$yTnp	-1
+demonized	التجريح	AltjryH	-1
+demonizes	demonizes	demonizes	-1
+demonizing	شيطنة	$yTnp	-1
+demoralize	شوش	$w$	-1
+demoralizing	محبط	mHbT	-1
+demoralizingly	demoralizingly	demoralizingly	-1
+denial	إنكار	AnkAr	-1
+denied	رفض	rfD	-1
+denies	وتنفي	wtnfy	-1
+denigrate	شوه سمعة	$wh smEp	-1
+denounce	شجب	$jb	-1
+dense	كثيف	kvyf	-1
+dent	دنت	dnt	-1
+dented	تراجع	trAjE	-1
+dents	الخدوش	Alxdw$	-1
+denunciate	denunciate	denunciate	-1
+denunciation	استنكار	AstnkAr	-1
+denunciations	استنكارات	AstnkArAt	-1
+deny	تنكر	tnkr	-1
+denying	نافيا	nAfyA	-1
+deplete	تستنفد	tstnfd	-1
+deplorable	بائس	bA}s	-1
+deplorably	بحزن شديد	bHzn $dyd	-1
+deplore	نشجب	n$jb	-1
+deploring	يستنكر	ystnkr	-1
+deploringly	deploringly	deploringly	-1
+deprave	فسد	fsd	-1
+depraved	لئيم	l}ym	-1
+depravedly	depravedly	depravedly	-1
+deprecate	استنكر	Astnkr	-1
+depress	خفض	xfD	-1
+depressed	مكتئب	mkt}b	-1
+depressing	محزن	mHzn	-1
+depressingly	الكآبة	AlkAbp	-1
+depression	منخفض	mnxfD	-1
+depressions	المنخفضات	AlmnxfDAt	-1
+deprive	حرم	Hrm	-1
+deprived	حرم	Hrm	-1
+deride	سخر	sxr	-1
+derision	سخرية	sxryp	-1
+derisive	ساخر	sAxr	-1
+derisively	بسخرية	bsxryp	-1
+derisiveness	السخرية	Alsxryp	-1
+derogatory	ازدرائي	AzdrA}y	-1
+desecrate	دنس	dns	-1
+desert	صحراء	SHrA'	-1
+desertion	هجر	hjr	-1
+desiccate	جفف	jff	-1
+desiccated	مجفف	mjff	-1
+desititute	desititute	desititute	-1
+desolate	مقفر	mqfr	-1
+desolately	desolately	desolately	-1
+desolation	خراب	xrAb	-1
+despair	يأس	yAs	-1
+despairing	يائس	yA}s	-1
+despairingly	بيأس	byAs	-1
+desperate	يائس	yA}s	-1
+desperately	ماسة	mAsp	-1
+desperation	يأس	yAs	-1
+despicable	حقير	Hqyr	-1
+despicably	مقيتة	mqytp	-1
+despise	احتقر	AHtqr	-1
+despised	مزدري	mzdry	-1
+despoil	سلب	slb	-1
+despoiler	اللص	AllS	-1
+despondence	despondence	despondence	-1
+despondency	قنوط	qnwT	-1
+despondent	جزع	jzE	-1
+despondently	الاحباط	AlAHbAT	-1
+despot	طاغية	TAgyp	-1
+despotic	استبدادي	AstbdAdy	-1
+despotism	استبداد	AstbdAd	-1
+destabilisation	زعزعة الاستقرار	zEzEp AlAstqrAr	-1
+destains	destains	destains	-1
+destitute	معدم	mEdm	-1
+destitution	عوز	Ewz	-1
+destroy	هدم	hdm	-1
+destroyer	مدمر	mdmr	-1
+destruction	تدمير	tdmyr	-1
+destructive	مدمر	mdmr	-1
+desultory	غير منهجي	gyr mnhjy	-1
+deter	ردع	rdE	-1
+deteriorate	تدهور	tdhwr	-1
+deteriorating	تدهور	tdhwr	-1
+deterioration	تدهور	tdhwr	-1
+deterrent	رادع	rAdE	-1
+detest	أبغض	AbgD	-1
+detestable	كريه	kryh	-1
+detestably	detestably	detestably	-1
+detested	كرهت	krht	-1
+detesting	كرهه	krhh	-1
+detests	يحتقر	yHtqr	-1
+detract	ينتقص	yntqS	-1
+detracted	انتقص	AntqS	-1
+detracting	ينقص	ynqS	-1
+detraction	انتقاص	AntqAS	-1
+detracts	ينتقص	yntqS	-1
+detriment	ضرر	Drr	-1
+detrimental	ضار	DAr	-1
+devastate	دمر	dmr	-1
+devastated	دمر	dmr	-1
+devastates	يدمر	ydmr	-1
+devastating	مدمر	mdmr	-1
+devastatingly	مدمر	mdmr	-1
+devastation	دمار	dmAr	-1
+deviate	انحرف	AnHrf	-1
+deviation	الانحراف	AlAnHrAf	-1
+devil	إبليس	Ablys	-1
+devilish	شيطاني	$yTAny	-1
+devilishly	إلى حد بعيد	Aly Hd bEyd	-1
+devilment	سلوك شيطانى	slwk $yTAny	-1
+devilry	وحشية	wH$yp	-1
+devious	منحرف	mnHrf	-1
+deviously	مخادع	mxAdE	-1
+deviousness	مراوغة	mrAwgp	-1
+devoid	تخلو	txlw	-1
+diabolic	شيطاني	$yTAny	-1
+diabolical	شيطاني	$yTAny	-1
+diabolically	شيطانية	$yTAnyp	-1
+diametrically	تماما	tmAmA	-1
+diappointed	diappointed	diappointed	-1
+diatribe	خطبة لاذعة	xTbp lA*Ep	-1
+diatribes	مساجلات	msAjlAt	-1
+dick	ديك	dyk	-1
+dictator	دكتاتور	dktAtwr	-1
+dictatorial	دكتاتوري	dktAtwry	-1
+die	مات	mAt	-1
+die-hard	مت بصعوبه	mt bSEwbh	-1
+died	توفي	twfy	-1
+dies	يموت	ymwt	-1
+difficult	صعب	SEb	-1
+difficulties	الصعوبات	AlSEwbAt	-1
+difficulty	صعوبة	SEwbp	-1
+diffidence	عدم ثقة بالنفس	Edm vqp bAlnfs	-1
+dilapidated	متهدم	mthdm	-1
+dilemma	معضلة	mEDlp	-1
+dilly-dally	ديلى دالى	dyly dAly	-1
+dim	خافت	xAft	-1
+dimmer	ضوء السيارة الصغير	Dw' AlsyArp AlSgyr	-1
+din	ضجيج	Djyj	-1
+ding	قرع	qrE	-1
+dings	الضربات	AlDrbAt	-1
+dinky	أنيق	Anyq	-1
+dire	رهيب	rhyb	-1
+direly	ماسة	mAsp	-1
+direness	direness	direness	-1
+dirt	قذارة	q*Arp	-1
+dirtbag	dirtbag	dirtbag	-1
+dirtbags	dirtbags	dirtbags	-1
+dirts	الأوساخ	AlAwsAx	-1
+dirty	قذر	q*r	-1
+disable	تعطيل	tETyl	-1
+disabled	معاق	mEAq	-1
+disaccord	تنافر	tnAfr	-1
+disadvantage	مساوئ	msAw}	-1
+disadvantaged	المحرومين	AlmHrwmyn	-1
+disadvantageous	غير ملائم	gyr mlA}m	-1
+disadvantages	عيوب	Eywb	-1
+disaffect	disaffect	disaffect	-1
+disaffected	ساخط	sAxT	-1
+disaffirm	disaffirm	disaffirm	-1
+disagree	تعارض	tEArD	-1
+disagreeable	كريه	kryh	-1
+disagreeably	disagreeably	disagreeably	-1
+disagreed	اختلف	Axtlf	-1
+disagreeing	متضارب	mtDArb	-1
+disagreement	خلاف	xlAf	-1
+disagrees	يعترض	yEtrD	-1
+disallow	رفض	rfD	-1
+disapointed	disapointed	disapointed	-1
+disapointing	ديسابوينتينج	dysAbwyntynj	-1
+disapointment	ديسابوينتمينت	dysAbwyntmynt	-1
+disappoint	يخيب	yxyb	-1
+disappointed	خيبة أمل	xybp Aml	-1
+disappointing	خيبة أمل	xybp Aml	-1
+disappointingly	مخيب للآمال	mxyb llAmAl	-1
+disappointment	خيبة أمل	xybp Aml	-1
+disappointments	خيبات الأمل	xybAt AlAml	-1
+disappoints	خيبة أمل	xybp Aml	-1
+disapprobation	استنكار	AstnkAr	-1
+disapproval	استنكار	AstnkAr	-1
+disapprove	رفض	rfD	-1
+disapproving	رافض	rAfD	-1
+disarm	نزع السلاح	nzE AlslAH	-1
+disarray	فوضى	fwDy	-1
+disaster	كارثة	kArvp	-1
+disasterous	كارثية	kArvyp	-1
+disastrous	كارثي	kArvy	-1
+disastrously	كارثي	kArvy	-1
+disavow	تنكر	tnkr	-1
+disavowal	إنكار	AnkAr	-1
+disbelief	جحود	jHwd	-1
+disbelieve	كفر	kfr	-1
+disbeliever	كافر	kAfr	-1
+disclaim	تنكر	tnkr	-1
+discombobulate	discombobulate	discombobulate	-1
+discomfit	أحبط	AHbT	-1
+discomfititure	discomfititure	discomfititure	-1
+discomfort	إزعاج	AzEAj	-1
+discompose	أربك	Arbk	-1
+disconcert	أقلق	Aqlq	-1
+disconcerted	مرتبك	mrtbk	-1
+disconcerting	مقلق	mqlq	-1
+disconcertingly	مقلق	mqlq	-1
+disconsolate	بائس	bA}s	-1
+disconsolately	disconsolately	disconsolately	-1
+disconsolation	disconsolation	disconsolation	-1
+discontent	استياء	AstyA'	-1
+discontented	ساخط	sAxT	-1
+discontentedly	discontentedly	discontentedly	-1
+discontinued	توقف	twqf	-1
+discontinuity	انقطاع	AnqTAE	-1
+discontinuous	متقطع	mtqTE	-1
+discord	خلاف	xlAf	-1
+discordance	خلاف	xlAf	-1
+discordant	متعارض	mtEArD	-1
+discountenance	أخزى	Axzy	-1
+discourage	تثبط	tvbT	-1
+discouragement	تثبيط	tvbyT	-1
+discouraging	معوق عن	mEwq En	-1
+discouragingly	إحباطا	AHbATA	-1
+discourteous	فظ	fZ	-1
+discourteously	discourteously	discourteously	-1
+discoutinous	discoutinous	discoutinous	-1
+discredit	تشويه السمعة	t$wyh AlsmEp	-1
+discrepant	متعارض	mtEArD	-1
+discriminate	تميز	tmyz	-1
+discrimination	تمييز	tmyyz	-1
+discriminatory	تمييزي	tmyyzy	-1
+disdain	ازدراء	AzdrA'	-1
+disdained	ازدرى	Azdry	-1
+disdainful	مترفع	mtrfE	-1
+disdainfully	بازدراء	bAzdrA'	-1
+disfavor	كره	krh	-1
+disgrace	عار	EAr	-1
+disgraced	موصوم	mwSwm	-1
+disgraceful	مخز	mxz	-1
+disgracefully	مخزية	mxzyp	-1
+disgruntle	disgruntle	disgruntle	-1
+disgruntled	ناقم	nAqm	-1
+disgust	قرف	qrf	-1
+disgusted	مشمئز	m$m}z	-1
+disgustedly	disgustedly	disgustedly	-1
+disgustful	disgustful	disgustful	-1
+disgustfully	disgustfully	disgustfully	-1
+disgusting	مثير للاشمئزاز	mvyr llA$m}zAz	-1
+disgustingly	مقرف	mqrf	-1
+dishearten	ثبط العزيمة	vbT AlEzymp	-1
+disheartening	المثبط للهمم	AlmvbT llhmm	-1
+dishearteningly	يؤسف	yWsf	-1
+dishonest	غير أمين	gyr Amyn	-1
+dishonestly	غير شريفة	gyr $ryfp	-1
+dishonesty	عدم الأمانة	Edm AlAmAnp	-1
+dishonor	عار	EAr	-1
+dishonorable	معيب	mEyb	-1
+dishonorablely	dishonorablely	dishonorablely	-1
+disillusion	تحرير من الوهم	tHryr mn Alwhm	-1
+disillusioned	خيبة الأمل	xybp AlAml	-1
+disillusionment	خيبة الأمل	xybp AlAml	-1
+disillusions	الصحوة	AlSHwp	-1
+disinclination	نفور	nfwr	-1
+disinclined	راغب عن	rAgb En	-1
+disingenuous	مخادع	mxAdE	-1
+disingenuously	بمكر	bmkr	-1
+disintegrate	تفتت	tftt	-1
+disintegrated	تفككت	tfkkt	-1
+disintegrates	تفكك	tfkk	-1
+disintegration	انحلال	AnHlAl	-1
+disinterest	لا مبالاة	lA mbAlAp	-1
+disinterested	نزيه	nzyh	-1
+dislike	كراهية	krAhyp	-1
+disliked	الأشياء التي لم تحبها	AlA$yA' Alty lm tHbhA	-1
+dislikes	بينما لم يعجب	bynmA lm yEjb	-1
+disliking	الكره	Alkrh	-1
+dislocated	خلع	xlE	-1
+disloyal	خائن	xA}n	-1
+disloyalty	خيانة	xyAnp	-1
+dismal	كئيب	k}yb	-1
+dismally	ذريعا	*ryEA	-1
+dismalness	الكآبة	AlkAbp	-1
+dismay	فزع	fzE	-1
+dismayed	بالفزع	bAlfzE	-1
+dismaying	رعبا	rEbA	-1
+dismayingly	إثارة للرعب	AvArp llrEb	-1
+dismissive	رافض	rAfD	-1
+dismissively	باستخفاف	bAstxfAf	-1
+disobedience	عصيان	ESyAn	-1
+disobedient	عاص	EAS	-1
+disobey	عصى	ESy	-1
+disoobedient	disoobedient	disoobedient	-1
+disorder	اضطراب	ADTrAb	-1
+disordered	مضطرب	mDTrb	-1
+disorderly	مضطرب	mDTrb	-1
+disorganized	مشوش	m$w$	-1
+disorient	تضليل	tDlyl	-1
+disoriented	مشوشا	m$w$A	-1
+disown	تنكر	tnkr	-1
+disparage	انتقص	AntqS	-1
+disparaging	مذم	m*m	-1
+disparagingly	استخفافا	AstxfAfA	-1
+dispensable	غير ضروري	gyr Drwry	-1
+dispirit	وقع الكآبة في النفس	wqE AlkAbp fy Alnfs	-1
+dispirited	كئيب	k}yb	-1
+dispiritedly	dispiritedly	dispiritedly	-1
+dispiriting	تحطيم المعنويات	tHTym AlmEnwyAt	-1
+displace	تهجير	thjyr	-1
+displaced	المشردون	Alm$rdwn	-1
+displease	أثار الاستياء	AvAr AlAstyA'	-1
+displeased	مستاء	mstA'	-1
+displeasing	الاستياء	AlAstyA'	-1
+displeasure	استياء	AstyA'	-1
+disproportionate	غير متكافئ مع	gyr mtkAf} mE	-1
+disprove	دحض	dHD	-1
+disputable	فيه نظر	fyh nZr	-1
+dispute	خلاف	xlAf	-1
+disputed	المتنازع عليها	AlmtnAzE ElyhA	-1
+disquiet	قلق	qlq	-1
+disquieting	مقلق	mqlq	-1
+disquietingly	disquietingly	disquietingly	-1
+disquietude	قلق	qlq	-1
+disregard	تجاهل	tjAhl	-1
+disregardful	مهمل	mhml	-1
+disreputable	سيء السمعة	sy' AlsmEp	-1
+disrepute	مذموم	m*mwm	-1
+disrespect	ازدراء	AzdrA'	-1
+disrespectable	disrespectable	disrespectable	-1
+disrespectablity	disrespectablity	disrespectablity	-1
+disrespectful	قليل الاحترام للآخرين	qlyl AlAHtrAm llAxryn	-1
+disrespectfully	عديم الإحترام	Edym AlAHtrAm	-1
+disrespectfulness	disrespectfulness	disrespectfulness	-1
+disrespecting	عدم احترام	Edm AHtrAm	-1
+disrupt	تعطيل	tETyl	-1
+disruption	اضطراب	ADTrAb	-1
+disruptive	مدمرة	mdmrp	-1
+diss	ديس	dys	-1
+dissapointed	dissapointed	dissapointed	-1
+dissappointed	dissappointed	dissappointed	-1
+dissappointing	الاحباط	AlAHbAT	-1
+dissatisfaction	استياء	AstyA'	-1
+dissatisfactory	خلل وظيفي	xll wZyfy	-1
+dissatisfied	مستاء	mstA'	-1
+dissatisfies	dissatisfies	dissatisfies	-1
+dissatisfy	أثار الاستياء	AvAr AlAstyA'	-1
+dissatisfying	الإستياء	AlAstyA'	-1
+dissed	dissed	dissed	-1
+dissemble	راءى	rA'y	-1
+dissembler	مرائي	mrA}y	-1
+dissension	شقاق	$qAq	-1
+dissent	معارضة	mEArDp	-1
+dissenter	المنشق	Almn$q	-1
+dissention	انشقاق	An$qAq	-1
+disservice	خدمة سيئة	xdmp sy}p	-1
+disses	disses	disses	-1
+dissidence	انشقاق	An$qAq	-1
+dissident	منشق	mn$q	-1
+dissidents	المنشقين	Almn$qyn	-1
+dissing	ديسينغ	dysyng	-1
+dissocial	المستهينة	Almsthynp	-1
+dissolute	فاجر	fAjr	-1
+dissolution	انحلال	AnHlAl	-1
+dissonance	تنافر	tnAfr	-1
+dissonant	متنافر	mtnAfr	-1
+dissonantly	dissonantly	dissonantly	-1
+dissuade	ثنى	vny	-1
+dissuasive	رادعة	rAdEp	-1
+distains	distains	distains	-1
+distaste	نفور	nfwr	-1
+distasteful	كريه	kryh	-1
+distastefully	باشمئزاز	bA$m}zAz	-1
+distort	شوه	$wh	-1
+distorted	مشوه	m$wh	-1
+distortion	تشويه	t$wyh	-1
+distorts	يشوه	y$wh	-1
+distract	صرف الانتباه	Srf AlAntbAh	-1
+distracting	تشتيت	t$tyt	-1
+distraction	إلهاء	AlhA'	-1
+distraught	ذاهل	*Ahl	-1
+distraughtly	distraughtly	distraughtly	-1
+distraughtness	distraughtness	distraughtness	-1
+distress	محنة	mHnp	-1
+distressed	محزن	mHzn	-1
+distressing	محزن	mHzn	-1
+distressingly	الخيبة	Alxybp	-1
+distrust	عدم ثقة	Edm vqp	-1
+distrustful	مرتاب	mrtAb	-1
+distrusting	عدم الثقة	Edm Alvqp	-1
+disturb	أزعج	AzEj	-1
+disturbance	إزعاج	AzEAj	-1
+disturbed	مختل	mxtl	-1
+disturbing	مقلق	mqlq	-1
+disturbingly	مقلق	mqlq	-1
+disunity	شقاق	$qAq	-1
+disvalue	disvalue	disvalue	-1
+divergent	متشعب	mt$Eb	-1
+divisive	مسبب للخلاف	msbb llxlAf	-1
+divisively	divisively	divisively	-1
+divisiveness	الانقسام	AlAnqsAm	-1
+dizzing	dizzing	dizzing	-1
+dizzingly	dizzingly	dizzingly	-1
+dizzy	مصاب بدوار	mSAb bdwAr	-1
+doddering	خرف	xrf	-1
+dodgey	dodgey	dodgey	-1
+dogged	عنيد	Enyd	-1
+doggedly	بإصرار	bASrAr	-1
+dogmatic	عقائدي	EqA}dy	-1
+doldrums	ركود	rkwd	-1
+domineer	استبد	Astbd	-1
+domineering	مستبد	mstbd	-1
+donside	donside	donside	-1
+doom	الموت	Almwt	-1
+doomed	محكوم	mHkwm	-1
+doomsday	يوم القيامة	ywm AlqyAmp	-1
+dope	مخدر	mxdr	-1
+doubt	شك	$k	-1
+doubtful	مشكوك فيه	m$kwk fyh	-1
+doubtfully	بارتياب	bArtyAb	-1
+doubts	شكوك	$kwk	-1
+douchbag	douchbag	douchbag	-1
+douchebag	douchebag	douchebag	-1
+douchebags	douchebags	douchebags	-1
+downbeat	متشائم	mt$A}m	-1
+downcast	مسبل	msbl	-1
+downer	داونر	dAwnr	-1
+downfall	سقوط	sqwT	-1
+downfallen	downfallen	downfallen	-1
+downgrade	تخفيض التصنيف الائتماني	txfyD AltSnyf AlA}tmAny	-1
+downhearted	مكتئب	mkt}b	-1
+downheartedly	downheartedly	downheartedly	-1
+downhill	انحدار	AnHdAr	-1
+downside	الجانب السلبي	AljAnb Alslby	-1
+downsides	سلبيات	slbyAt	-1
+downturn	الانكماش	AlAnkmA$	-1
+downturns	الركود	Alrkwd	-1
+drab	مومس	mwms	-1
+draconian	شديدة القسوة	$dydp Alqswp	-1
+draconic	draconic	draconic	-1
+drag	سحب	sHb	-1
+dragged	جر	jr	-1
+dragging	سحب	sHb	-1
+dragoon	جندي في سلاح الفرسان	jndy fy slAH AlfrsAn	-1
+drags	تستمر	tstmr	-1
+drain	استنزاف	AstnzAf	-1
+drained	استنزفت	Astnzft	-1
+draining	استنزاف	AstnzAf	-1
+drains	المصارف	AlmSArf	-1
+drastic	متطرف	mtTrf	-1
+drastically	بشكل كبير	b$kl kbyr	-1
+drawback	عقبة	Eqbp	-1
+drawbacks	عيوب	Eywb	-1
+dread	فزع	fzE	-1
+dreadful	مروع	mrwE	-1
+dreadfully	مخيف	mxyf	-1
+dreadfulness	الفزاعة	AlfzAEp	-1
+dreary	كئيب	k}yb	-1
+dripped	مقطر	mqTr	-1
+dripping	تقطر	tqTr	-1
+drippy	غبي	gby	-1
+drips	القطرات	AlqTrAt	-1
+drones	طائرات بدون طيار	TA}rAt bdwn TyAr	-1
+droop	تدلى	tdly	-1
+droops	يتدلى	ytdly	-1
+drop-out	ترك	trk	-1
+drop-outs	متسربين	mtsrbyn	-1
+dropout	ترك	trk	-1
+dropouts	المتسربين	Almtsrbyn	-1
+drought	جفاف	jfAf	-1
+drowning	غرق	grq	-1
+drunk	سكران	skrAn	-1
+drunkard	سكير	skyr	-1
+drunken	مخمور	mxmwr	-1
+dubious	مشكوك فيه	m$kwk fyh	-1
+dubiously	يسجل	ysjl	-1
+dubitable	مشكوك فيه	m$kwk fyh	-1
+dud	فشل	f$l	-1
+dull	ممل	mml	-1
+dullard	المغفل	Almgfl	-1
+dumb	أبكم	Abkm	-1
+dumbfound	صعق	SEq	-1
+dump	نفاية	nfAyp	-1
+dumped	ملقاة	mlqAp	-1
+dumping	الإغراق	AlAgrAq	-1
+dumps	نفايات	nfAyAt	-1
+dunce	غبي	gby	-1
+dungeon	زنزانة	znzAnp	-1
+dungeons	الأبراج المحصنة	AlAbrAj AlmHSnp	-1
+dupe	مغفل	mgfl	-1
+dust	غبار	gbAr	-1
+dusty	مغبر	mgbr	-1
+dwindling	تناقص	tnAqS	-1
+dying	وفاة	wfAp	-1
+earsplitting	earsplitting	earsplitting	-1
+eccentric	غريب الأطوار	gryb AlATwAr	-1
+eccentricity	شذوذ	$*w*	-1
+effigy	تمثال	tmvAl	-1
+effrontery	وقاحة	wqAHp	-1
+egocentric	أناني	AnAny	-1
+egomania	نرجسية	nrjsyp	-1
+egotism	غرور	grwr	-1
+egotistical	مغرور	mgrwr	-1
+egotistically	egotistically	egotistically	-1
+egregious	فاضح	fADH	-1
+egregiously	فاضح	fADH	-1
+election-rigger	الانتخابات مناور	AlAntxAbAt mnAwr	-1
+elimination	إزالة	AzAlp	-1
+emaciated	هازل	hAzl	-1
+emasculate	خصى	xSy	-1
+embarrass	أربك	Arbk	-1
+embarrassing	مربك	mrbk	-1
+embarrassingly	إلى حد مربك	Aly Hd mrbk	-1
+embarrassment	حيرة	Hyrp	-1
+embattled	في ورطة مخرب	fy wrTp mxrb	-1
+embroil	ورط	wrT	-1
+embroiled	متورط	mtwrT	-1
+embroilment	تورط	twrT	-1
+emergency	حالة طوارئ	HAlp TwAr}	-1
+emphatic	مؤكد	mWkd	-1
+emphatically	بشكل قاطع	b$kl qATE	-1
+emptiness	فراغ	frAg	-1
+encroach	تعدى	tEdy	-1
+encroachment	تجاوز	tjAwz	-1
+endanger	يعرض للخطر	yErD llxTr	-1
+enemies	الأعداء	AlAEdA'	-1
+enemy	العدو	AlEdw	-1
+enervate	واهن	wAhn	-1
+enfeeble	أضعف	ADEf	-1
+enflame	اشعال	A$EAl	-1
+engulf	بابتلاع	bAbtlAE	-1
+enjoin	أمر	Amr	-1
+enmity	عداوة	EdAwp	-1
+enrage	غضب	gDb	-1
+enraged	غاضب	gADb	-1
+enraging	إغاظة	AgAZp	-1
+enslave	استعبد	AstEbd	-1
+entangle	وقع في الشرك	wqE fy Al$rk	-1
+entanglement	تشابك	t$Abk	-1
+entrap	اصطاد	ASTAd	-1
+entrapment	انحباس	AnHbAs	-1
+envious	حسود	Hswd	-1
+enviously	الحسد	AlHsd	-1
+enviousness	الحسد	AlHsd	-1
+epidemic	وباء	wbA'	-1
+equivocal	مبهم	mbhm	-1
+erase	محو	mHw	-1
+erode	تآكل	tAkl	-1
+erodes	يتآكل	ytAkl	-1
+erosion	التعرية	AltEryp	-1
+err	أخطأ	AxTA	-1
+errant	هائم على وجهه	hA}m Ely wjhh	-1
+erratic	شارد	$Ard	-1
+erratically	بغلط	bglT	-1
+erroneous	خاطئ	xAT}	-1
+erroneously	خطأ	xTA	-1
+error	خطأ	xTA	-1
+errors	أخطاء	AxTA'	-1
+eruptions	الثورات	AlvwrAt	-1
+escapade	مغامرة	mgAmrp	-1
+eschew	تجنب	tjnb	-1
+estranged	المبعدة	AlmbEdp	-1
+evade	تهرب	thrb	-1
+evasion	تملص	tmlS	-1
+evasive	مراوغ	mrAwg	-1
+evil	شر	$r	-1
+evildoer	الفاسق	AlfAsq	-1
+evils	الشرور	Al$rwr	-1
+eviscerate	نزع الاحشاء	nzE AlAH$A'	-1
+exacerbate	فاقم	fAqm	-1
+exagerate	exagerate	exagerate	-1
+exagerated	exagerated	exagerated	-1
+exagerates	exagerates	exagerates	-1
+exaggerate	بالغ	bAlg	-1
+exaggeration	مبالغة	mbAlgp	-1
+exasperate	أسخط	AsxT	-1
+exasperated	باستياء	bAstyA'	-1
+exasperating	ساخط	sAxT	-1
+exasperatingly	exasperatingly	exasperatingly	-1
+exasperation	سخط	sxT	-1
+excessive	مفرط	mfrT	-1
+excessively	بإفراط	bAfrAT	-1
+exclusion	إقصاء	AqSA'	-1
+excoriate	ننتقد	nntqd	-1
+excruciating	موجع	mwjE	-1
+excruciatingly	لايطاق	lAyTAq	-1
+excuse	عذر	E*r	-1
+excuses	الأعذار	AlAE*Ar	-1
+execrate	لعن	lEn	-1
+exhaust	العادم	AlEAdm	-1
+exhausted	منهك	mnhk	-1
+exhaustion	إنهاك	AnhAk	-1
+exhausts	عوادم	EwAdm	-1
+exhorbitant	رحيلنا	rHylnA	-1
+exhort	وعظ	wEZ	-1
+exile	منفى	mnfy	-1
+exorbitant	باهظ	bAhZ	-1
+exorbitantance	exorbitantance	exorbitantance	-1
+exorbitantly	باهظة	bAhZp	-1
+expel	طرد	Trd	-1
+expensive	مكلفة	mklfp	-1
+expire	تنقضي	tnqDy	-1
+expired	منتهية الصلاحية	mnthyp AlSlAHyp	-1
+explode	تفجر	tfjr	-1
+exploit	استغلال	AstglAl	-1
+exploitation	استغلال	AstglAl	-1
+explosive	مادة متفجرة	mAdp mtfjrp	-1
+expropriate	مصادرة	mSAdrp	-1
+expropriation	مصادرة	mSAdrp	-1
+expulse	expulse	expulse	-1
+expunge	محا	mHA	-1
+exterminate	إبادة	AbAdp	-1
+extermination	إبادة	AbAdp	-1
+extinguish	إطفاء	ATfA'	-1
+extort	ابتزاز	AbtzAz	-1
+extortion	ابتزاز	AbtzAz	-1
+extraneous	غريب	gryb	-1
+extravagance	تبذير	tb*yr	-1
+extravagant	مفرط	mfrT	-1
+extravagantly	باسراف	bAsrAf	-1
+extremism	التطرف	AltTrf	-1
+extremist	متطرف	mtTrf	-1
+extremists	المتطرفين	AlmtTrfyn	-1
+eyesore	قذى للعين	q*y llEyn	-1
+f**k	و ** ك	w ** k	-1
+fabricate	صنع	SnE	-1
+fabrication	تلفيق	tlfyq	-1
+facetious	طريف	Tryf	-1
+facetiously	بمرح	bmrH	-1
+fail	فشل	f$l	-1
+failed	فشل	f$l	-1
+failing	الفشل	Alf$l	-1
+fails	فشل	f$l	-1
+failure	فشل	f$l	-1
+failures	الفشل	Alf$l	-1
+faint	خافت	xAft	-1
+fainthearted	اتكف	Atkf	-1
+faithless	كافر	kAfr	-1
+fake	زيف	zyf	-1
+fall	خريف	xryf	-1
+fallacies	مغالطات	mgAlTAt	-1
+fallacious	وهمي	whmy	-1
+fallaciously	باطل	bATl	-1
+fallaciousness	خواء	xwA'	-1
+fallacy	مغالطة	mgAlTp	-1
+fallen	طريح الأرض	TryH AlArD	-1
+falling	هبوط	hbwT	-1
+fallout	يسقط	ysqT	-1
+falls	السقوط	AlsqwT	-1
+FALSE	خاطئة	xAT}p	-1
+falsehood	كذب	k*b	-1
+falsely	على نحو زائف	Ely nHw zA}f	-1
+falsify	دحض	dHD	-1
+falter	تداعى	tdAEy	-1
+faltered	تعثرت	tEvrt	-1
+famine	مجاعة	mjAEp	-1
+famished	مجوع	mjwE	-1
+fanatic	متعصب	mtESb	-1
+fanatical	متعصب	mtESb	-1
+fanatically	بتعصب	btESb	-1
+fanaticism	تعصب	tESb	-1
+fanatics	المتعصبون	AlmtESbwn	-1
+fanciful	خيالي	xyAly	-1
+far-fetched	بعيد الإحتمال	bEyd AlAHtmAl	-1
+farce	مهزلة	mhzlp	-1
+farcical	كوميدي	kwmydy	-1
+farcical-yet-provocative	هزلية-بعد-استفزازية	hzlyp-bEd-AstfzAzyp	-1
+farcically	هزلية	hzlyp	-1
+farfetched	متكلف	mtklf	-1
+fascism	فاشية	fA$yp	-1
+fascist	فاشي	fA$y	-1
+fastidious	شديد الحساسية	$dyd AlHsAsyp	-1
+fastidiously	فاستيديوسلي	fAstydywsly	-1
+fastuous	fastuous	fastuous	-1
+fat	دهن	dhn	-1
+fat-cat	قطة سمينة	qTp smynp	-1
+fat-cats	القطط السمان-	AlqTT AlsmAn-	-1
+fatal	مميت	mmyt	-1
+fatalistic	جبري	jbry	-1
+fatalistically	جبريا	jbryA	-1
+fatally	على نحو مهلك	Ely nHw mhlk	-1
+fatcat	قط سمين	qT smyn	-1
+fatcats	fatcats	fatcats	-1
+fateful	مصيري	mSyry	-1
+fatefully	كارثي	kArvy	-1
+fathomless	لا يسبر غوره	lA ysbr gwrh	-1
+fatigue	تعب	tEb	-1
+fatigued	مرهق	mrhq	-1
+fatique	fatique	fatique	-1
+fatty	دهني	dhny	-1
+fatuity	حماقة	HmAqp	-1
+fatuous	أبله	Ablh	-1
+fatuously	بسخافة	bsxAfp	-1
+fault	خطأ	xTA	-1
+faults	أخطاء	AxTA'	-1
+faulty	خاطئ	xAT}	-1
+fawningly	fawningly	fawningly	-1
+faze	ترعب	trEb	-1
+fear	خوف	xwf	-1
+fearful	مخيف	mxyf	-1
+fearfully	بخوف	bxwf	-1
+fears	المخاوف	AlmxAwf	-1
+fearsome	مخيف	mxyf	-1
+feckless	فارع	fArE	-1
+feeble	ضعيف	DEyf	-1
+feeblely	feeblely	feeblely	-1
+feebleminded	ضعيف العقل	DEyf AlEql	-1
+feign	اختلق	Axtlq	-1
+feint	مكر	mkr	-1
+fell	سقط	sqT	-1
+felon	داحس	dAHs	-1
+felonious	شرير جدا	$ryr jdA	-1
+ferociously	بشراسة	b$rAsp	-1
+ferocity	ضراوة	DrAwp	-1
+fetid	كريه الرائحة	kryh AlrA}Hp	-1
+fever	حمى	Hmy	-1
+feverish	محموم	mHmwm	-1
+fevers	الحمى	AlHmy	-1
+fiasco	فشل	f$l	-1
+fib	أكذوبة	Ak*wbp	-1
+fibber	كذاب	k*Ab	-1
+fickle	متقلب	mtqlb	-1
+fiction	خيال	xyAl	-1
+fictional	خيالي	xyAly	-1
+fictitious	خيالي	xyAly	-1
+fidget	تململ	tmlml	-1
+fidgety	متململ	mtmlml	-1
+fiend	مدمن	mdmn	-1
+fiendish	شيطاني	$yTAny	-1
+fierce	عنيف	Enyf	-1
+figurehead	رئيس صوري	r}ys Swry	-1
+filth	قذارة	q*Arp	-1
+filthy	قذر	q*r	-1
+finagle	بالخدعة	bAlxdEp	-1
+finicky	نيق	nyq	-1
+fissures	شقوق	$qwq	-1
+fist	قبضة	qbDp	-1
+flabbergast	شده	$dh	-1
+flabbergasted	مندهش	mndh$	-1
+flagging	واهن	wAhn	-1
+flagrant	فاضح	fADH	-1
+flagrantly	فاضح	fADH	-1
+flair	ميل	myl	-1
+flairs	flairs	flairs	-1
+flak	مدفعية مضادة للطائرات	mdfEyp mDAdp llTA}rAt	-1
+flake	تقشر	tq$r	-1
+flakey	هشا	h$A	-1
+flakieness	flakieness	flakieness	-1
+flaking	يتساقط	ytsAqT	-1
+flaky	قشاري	q$Ary	-1
+flare	توهج	twhj	-1
+flares	مشاعل	m$AEl	-1
+flareup	تفجر	tfjr	-1
+flareups	flareups	flareups	-1
+flat-out	مسطحة خارج	msTHp xArj	-1
+flaunt	تماوج	tmAwj	-1
+flaw	عيب	Eyb	-1
+flawed	معيبة	mEybp	-1
+flaws	العيوب	AlEywb	-1
+flee	هرب	hrb	-1
+fleed	fleed	fleed	-1
+fleeing	هرب	hrb	-1
+fleer	نظرة ساخرة	nZrp sAxrp	-1
+flees	يهرب	yhrb	-1
+fleeting	عابر	EAbr	-1
+flicering	flicering	flicering	-1
+flicker	بصيص	bSyS	-1
+flickering	وامض	wAmD	-1
+flickers	مضات	mDAt	-1
+flighty	طائش	TA}$	-1
+flimflam	flimflam	flimflam	-1
+flimsy	مهلهل	mhlhl	-1
+flirt	المغازل	AlmgAzl	-1
+flirty	فليرتي	flyrty	-1
+floored	طوابق	TwAbq	-1
+flounder	تخبط	txbT	-1
+floundering	تخبط	txbT	-1
+flout	إهانة	AhAnp	-1
+fluster	حير	Hyr	-1
+foe	عدو	Edw	-1
+fool	مجنون	mjnwn	-1
+fooled	ينخدع	ynxdE	-1
+foolhardy	متهور	mthwr	-1
+foolish	أحمق	AHmq	-1
+foolishly	بحماقة	bHmAqp	-1
+foolishness	غباء	gbA'	-1
+forbid	منع	mnE	-1
+forbidden	ممنوع	mmnwE	-1
+forbidding	منع	mnE	-1
+forceful	قوي	qwy	-1
+foreboding	نذير	n*yr	-1
+forebodingly	forebodingly	forebodingly	-1
+forfeit	مصادرة	mSAdrp	-1
+forged	مزور	mzwr	-1
+forgetful	كثير النسيان	kvyr AlnsyAn	-1
+forgetfully	forgetfully	forgetfully	-1
+forgetfulness	نسيان	nsyAn	-1
+forlorn	بائس	bA}s	-1
+forlornly	بشكل يائس	b$kl yA}s	-1
+forsake	هجر	hjr	-1
+forsaken	منبوذ	mnbw*	-1
+forswear	إبتعد عن	AbtEd En	-1
+foul	كريه	kryh	-1
+foully	بقسوة شديدة	bqswp $dydp	-1
+foulness	بذاءة	b*A'p	-1
+fractious	عنيد	Enyd	-1
+fractiously	fractiously	fractiously	-1
+fracture	كسر	ksr	-1
+fragile	هش	h$	-1
+fragmented	مجزأة	mjzAp	-1
+frail	ضعيف	DEyf	-1
+frantic	شديد الاهتياج	$dyd AlAhtyAj	-1
+frantically	محموم	mHmwm	-1
+franticly	franticly	franticly	-1
+fraud	احتيال	AHtyAl	-1
+fraudulent	محتال	mHtAl	-1
+fraught	مشحون	m$Hwn	-1
+frazzle	هرأ	hrA	-1
+frazzled	مبلى	mbly	-1
+freak	نزوة	nzwp	-1
+freaking	ينقط	ynqT	-1
+freakish	عجيب	Ejyb	-1
+freakishly	فظيع	fZyE	-1
+freaks	النزوات	AlnzwAt	-1
+freeze	تجمد	tjmd	-1
+freezes	تجميد	tjmyd	-1
+freezing	تجمد	tjmd	-1
+frenetic	مسعور	msEwr	-1
+frenetically	محمومة	mHmwmp	-1
+frenzied	مسعور	msEwr	-1
+frenzy	نوبة	nwbp	-1
+fret	ضايق	DAyq	-1
+fretful	عبوس	Ebws	-1
+frets	الحنق	AlHnq	-1
+friction	احتكاك	AHtkAk	-1
+frictions	الاحتكاكات	AlAHtkAkAt	-1
+fried	المقلية	Almqlyp	-1
+friggin	friggin	friggin	-1
+frigging	قارس	qArs	-1
+fright	رعب	rEb	-1
+frighten	أرعب	ArEb	-1
+frightening	مخيف	mxyf	-1
+frighteningly	مخيف	mxyf	-1
+frightful	مخيف	mxyf	-1
+frightfully	على نحو مخيف	Ely nHw mxyf	-1
+frigid	تفه	tfh	-1
+frost	صقيع	SqyE	-1
+frown	عبوس	Ebws	-1
+froze	جمدت	jmdt	-1
+frozen	مجمد	mjmd	-1
+fruitless	غير مثمر	gyr mvmr	-1
+fruitlessly	دون جدوى	dwn jdwy	-1
+frustrate	أبطل	AbTl	-1
+frustrated	محبط	mHbT	-1
+frustrates	يحبط	yHbT	-1
+frustrating	محبط	mHbT	-1
+frustratingly	محبط	mHbT	-1
+frustration	إحباط	AHbAT	-1
+frustrations	الإحباط	AlAHbAT	-1
+fuck	اللعنة	AllEnp	-1
+fucking	سخيف	sxyf	-1
+fudge	حلوى	Hlwy	-1
+fugitive	هارب	hArb	-1
+full-blown	متفتح	mtftH	-1
+fulminate	شجب	$jb	-1
+fumble	تلعثم	tlEvm	-1
+fume	دخان	dxAn	-1
+fumes	أبخرة	Abxrp	-1
+fundamentalism	الأصولية	AlASwlyp	-1
+funky	مرح	mrH	-1
+funnily	تهريج	thryj	-1
+funny	مضحك	mDHk	-1
+furious	غاضب	gADb	-1
+furiously	بشراسة	b$rAsp	-1
+furor	فضيحة	fDyHp	-1
+fury	غضب شديد	gDb $dyd	-1
+fuss	ضجيج	Djyj	-1
+fussy	نيق	nyq	-1
+fustigate	fustigate	fustigate	-1
+fusty	متحجر	mtHjr	-1
+futile	غير ذي جدوى	gyr *y jdwy	-1
+futilely	عبثا	EbvA	-1
+futility	عبث	Ebv	-1
+fuzzy	غامض	gAmD	-1
+gabble	هذر	h*r	-1
+gaff	مهماز لديك المصارعة	mhmAz ldyk AlmSArEp	-1
+gaffe	حماقة	HmAqp	-1
+gainsay	نكر	nkr	-1
+gainsayer	الناكر	AlnAkr	-1
+gall	مرارة	mrArp	-1
+galling	مثير للحنق	mvyr llHnq	-1
+gallingly	gallingly	gallingly	-1
+galls	فريق Galls	fryq Galls	-1
+gangster	رجل عصابة	rjl ESAbp	-1
+gape	تثاءب	tvA'b	-1
+garbage	قمامة	qmAmp	-1
+garish	متوهج	mtwhj	-1
+gasp	لهاث	lhAv	-1
+gauche	أخرق	Axrq	-1
+gaudy	مبهرج	mbhrj	-1
+gawk	البله	Alblh	-1
+gawky	أبله	Ablh	-1
+geezer	رجل غريب	rjl gryb	-1
+genocide	إبادة جماعية	AbAdp jmAEyp	-1
+get-rich	كن غنيا	kn gnyA	-1
+ghastly	مروع	mrwE	-1
+ghetto	غيتو	gytw	-1
+ghosting	الظلال	AlZlAl	-1
+gibber	بربر	brbr	-1
+gibberish	رطانة	rTAnp	-1
+gibe	هزء	hz'	-1
+giddy	دائخ	dA}x	-1
+gimmick	وسيلة للتحايل	wsylp lltHAyl	-1
+gimmicked	gimmicked	gimmicked	-1
+gimmicking	gimmicking	gimmicking	-1
+gimmicks	الحيل	AlHyl	-1
+gimmicky	دخيلة	dxylp	-1
+glare	وهج	whj	-1
+glaringly	على نحو مبتذل	Ely nHw mbt*l	-1
+glib	عفوي	Efwy	-1
+glibly	من غير تكلف	mn gyr tklf	-1
+glitch	خلل	xll	-1
+glitches	مواطن الخلل	mwATn Alxll	-1
+gloatingly	gloatingly	gloatingly	-1
+gloom	كآبة	kAbp	-1
+gloomy	كئيب	k}yb	-1
+glower	حملق بسخط	Hmlq bsxT	-1
+glum	كئيب	k}yb	-1
+glut	تخمة	txmp	-1
+gnawing	تلتهم	tlthm	-1
+goad	مهماز	mhmAz	-1
+goading	الثقب	Alvqb	-1
+god-awful	الله فظيعة	Allh fZyEp	-1
+goof	الأبله	AlAblh	-1
+goofy	أبله	Ablh	-1
+goon	تابع	tAbE	-1
+gossip	نميمة	nmymp	-1
+graceless	تعوزه الفضيلة	tEwzh AlfDylp	-1
+gracelessly	gracelessly	gracelessly	-1
+graft	تطعيم	tTEym	-1
+grainy	محبب	mHbb	-1
+grapple	كلاب	klAb	-1
+grate	صر	Sr	-1
+grating	حاجز مشبك	HAjz m$bk	-1
+gravely	خطير	xTyr	-1
+greasy	دهني	dhny	-1
+greed	جشع	j$E	-1
+greedy	طامع	TAmE	-1
+grief	حزن	Hzn	-1
+grievance	شكوى	$kwy	-1
+grievances	المظالم	AlmZAlm	-1
+grieve	حزن	Hzn	-1
+grieving	الحزن	AlHzn	-1
+grievous	مؤلم	mWlm	-1
+grievously	بحزن	bHzn	-1
+grim	متجهم	mtjhm	-1
+grimace	كشر	k$r	-1
+grind	طحن	THn	-1
+gripe	وجع	wjE	-1
+gripes	مغص	mgS	-1
+grisly	مخيف	mxyf	-1
+gritty	شجاع	$jAE	-1
+gross	إجمالي	AjmAly	-1
+grossly	على نحو فادح	Ely nHw fAdH	-1
+grotesque	غريب	gryb	-1
+grouch	تذمر	t*mr	-1
+grouchy	عابس	EAbs	-1
+groundless	لا أساس له	lA AsAs lh	-1
+grouse	احتج	AHtj	-1
+growl	تذمر	t*mr	-1
+grudge	ضغينة	Dgynp	-1
+grudges	الأحقاد	AlAHqAd	-1
+grudging	حسود	Hswd	-1
+grudgingly	على مضض	Ely mDD	-1
+gruesome	بشع	b$E	-1
+gruesomely	شنيع	$nyE	-1
+gruff	أجش	Aj$	-1
+grumble	تذمر	t*mr	-1
+grumpier	أحد طبعا	AHd TbEA	-1
+grumpiest	grumpiest	grumpiest	-1
+grumpily	جرومبيلي	jrwmbyly	-1
+grumpish	grumpish	grumpish	-1
+grumpy	غاضب	gADb	-1
+guile	مكر	mkr	-1
+guilt	إثم	Avm	-1
+guiltily	على نحو إجرامي	Ely nHw AjrAmy	-1
+guilty	مذنب	m*nb	-1
+gullible	ساذج	sA*j	-1
+gutless	جبان	jbAn	-1
+gutter	مزراب	mzrAb	-1
+hack	الإختراق	AlAxtrAq	-1
+hacks	الخارقة	AlxArqp	-1
+haggard	شاحب	$AHb	-1
+haggle	ساوم	sAwm	-1
+hairloss	الصلع	AlSlE	-1
+halfhearted	فاتر	fAtr	-1
+halfheartedly	غير متحمس	gyr mtHms	-1
+hallucinate	بالهلوسة	bAlhlwsp	-1
+hallucination	هلوسة	hlwsp	-1
+hamper	تعوق	tEwq	-1
+hampered	أعاق	AEAq	-1
+handicapped	معاق	mEAq	-1
+hang	علق	Elq	-1
+hangs	توقف	twqf	-1
+haphazard	صدفة	Sdfp	-1
+hapless	قليل الحظ	qlyl AlHZ	-1
+harangue	خطبة	xTbp	-1
+harass	مضايقة	mDAyqp	-1
+harassed	تحرش	tHr$	-1
+harasses	يضايق	yDAyq	-1
+harassment	مضايقة	mDAyqp	-1
+harboring	إيواء	AywA'	-1
+harbors	الموانئ	AlmwAn}	-1
+hard	الصعب	AlSEb	-1
+hard-hit	الأكثر تضررا	AlAkvr tDrrA	-1
+hard-line	المتشدد	Almt$dd	-1
+hard-liner	متشدد	mt$dd	-1
+hardball	قاسية	qAsyp	-1
+harden	قسى	qsy	-1
+hardened	تصلب	tSlb	-1
+hardheaded	عنيد	Enyd	-1
+hardhearted	قساة القلوب	qsAp Alqlwb	-1
+hardliner	متشدد	mt$dd	-1
+hardliners	المتشددين	Almt$ddyn	-1
+hardship	معاناة	mEAnAp	-1
+hardships	المصاعب	AlmSAEb	-1
+harm	ضرر	Drr	-1
+harmed	أذى	A*y	-1
+harmful	مضر	mDr	-1
+harms	الأضرار	AlADrAr	-1
+harpy	الطفيلي	AlTfyly	-1
+harridan	إمراة عجوز	AmrAp Ejwz	-1
+harried	مغزو	mgzw	-1
+harrow	مسلفة	mslfp	-1
+harsh	قاس	qAs	-1
+harshly	بخشونة	bx$wnp	-1
+hasseling	hasseling	hasseling	-1
+hassle	مشاحنة	m$AHnp	-1
+hassled	ومشارب	wm$Arb	-1
+hassles	متاعب	mtAEb	-1
+haste	تسرع	tsrE	-1
+hastily	بعجالة	bEjAlp	-1
+hasty	متسرع	mtsrE	-1
+hate	كراهية	krAhyp	-1
+hated	يكره	ykrh	-1
+hateful	بغيض	bgyD	-1
+hatefully	بكراهية	bkrAhyp	-1
+hatefulness	hatefulness	hatefulness	-1
+hater	القبعى صانع القبعات	AlqbEy SAnE AlqbEAt	-1
+haters	كارهي	kArhy	-1
+hates	يكره	ykrh	-1
+hating	كره	krh	-1
+hatred	كراهية	krAhyp	-1
+haughtily	كابرت	kAbrt	-1
+haughty	متجبر	mtjbr	-1
+haunt	تردد	trdd	-1
+haunting	مسكون بالارواح	mskwn bAlArwAH	-1
+havoc	خراب	xrAb	-1
+hawkish	الصقور	AlSqwr	-1
+haywire	أحمق	AHmq	-1
+hazard	خطر	xTr	-1
+hazardous	خطير	xTyr	-1
+haze	ضباب	DbAb	-1
+hazy	ضبابي	DbAby	-1
+head-aches	وجها لآلام	wjhA lAlAm	-1
+headache	صداع	SdAE	-1
+headaches	الصداع	AlSdAE	-1
+heartbreaker	محطم القلوب	mHTm Alqlwb	-1
+heartbreaking	مفجع	mfjE	-1
+heartbreakingly	heartbreakingly	heartbreakingly	-1
+heartless	عديم الشفقة	Edym Al$fqp	-1
+heathen	وثني	wvny	-1
+heavy-handed	الغلظة	AlglZp	-1
+heavyhearted	heavyhearted	heavyhearted	-1
+heck	تبا	tbA	-1
+heckle	قاطع بالكلام	qATE bAlklAm	-1
+heckled	قاطعه	qATEh	-1
+heckles	المرج	Almrj	-1
+hectic	محموم	mHmwm	-1
+hedge	التحوط	AltHwT	-1
+hedonistic	المتعة	AlmtEp	-1
+heedless	غافل	gAfl	-1
+hefty	ضخم	Dxm	-1
+hegemonism	الهيمنة	Alhymnp	-1
+hegemonistic	الهيمنة	Alhymnp	-1
+hegemony	سيطرة	syTrp	-1
+heinous	شنيع	$nyE	-1
+hell	الجحيم	AljHym	-1
+hell-bent	الجحيم عازمة	AljHym EAzmp	-1
+hellion	هيليون	hylywn	-1
+hells	الجحيم	AljHym	-1
+helpless	عاجز	EAjz	-1
+helplessly	بلا حول ولا قوة	blA Hwl wlA qwp	-1
+helplessness	العجز	AlEjz	-1
+heresy	بدعة	bdEp	-1
+heretic	كافر	kAfr	-1
+heretical	ابتداعي	AbtdAEy	-1
+hesitant	متردد	mtrdd	-1
+hestitant	hestitant	hestitant	-1
+hideous	بشع	b$E	-1
+hideously	مخيف	mxyf	-1
+hideousness	بشاعة	b$AEp	-1
+high-priced	عالية الثمن	EAlyp Alvmn	-1
+hiliarious	hiliarious	hiliarious	-1
+hinder	منع	mnE	-1
+hindrance	عائق	EA}q	-1
+hiss	همسة	hmsp	-1
+hissed	هيسيد	hysyd	-1
+hissing	المطلق صوتا	AlmTlq SwtA	-1
+ho-hum	همهم	hmhm	-1
+hoard	خزن	xzn	-1
+hoax	خدعة	xdEp	-1
+hobble	عرج	Erj	-1
+hogs	الخنازير	AlxnAzyr	-1
+hollow	أجوف	Ajwf	-1
+hoodium	hoodium	hoodium	-1
+hoodwink	خدع بمظهره الكاذب	xdE bmZhrh AlkA*b	-1
+hooligan	همجي	hmjy	-1
+hopeless	ميئوس منه	my}ws mnh	-1
+hopelessly	ميؤوس	myWws	-1
+hopelessness	اليأس	AlyAs	-1
+horde	حشد	H$d	-1
+horrendous	رهيبة	rhybp	-1
+horrendously	مرعب	mrEb	-1
+horrible	فظيع	fZyE	-1
+horrid	بغيض	bgyD	-1
+horrific	مرعب	mrEb	-1
+horrified	مروع	mrwE	-1
+horrifies	بالذعر	bAl*Er	-1
+horrify	أرهب	Arhb	-1
+horrifying	مروع	mrwE	-1
+horrifys	horrifys	horrifys	-1
+hostage	رهينة	rhynp	-1
+hostile	عدائي	EdA}y	-1
+hostilities	قتال	qtAl	-1
+hostility	عداء	EdA'	-1
+hotbeds	بؤر	bWr	-1
+hothead	شخص متهور	$xS mthwr	-1
+hotheaded	عجول	Ejwl	-1
+hothouse	دافئ	dAf}	-1
+hubris	الغطرسة	AlgTrsp	-1
+huckster	ساوم	sAwm	-1
+hum	همهمة	hmhmp	-1
+humid	رطب	rTb	-1
+humiliate	إذلال	A*lAl	-1
+humiliating	مذل	m*l	-1
+humiliation	إذلال	A*lAl	-1
+humming	طنين	Tnyn	-1
+hung	بدون أغلبية	bdwn Aglbyp	-1
+hurt	جرح	jrH	-1
+hurted	hurted	hurted	-1
+hurtful	مؤذ	mW*	-1
+hurting	إيذاء	Ay*A'	-1
+hurts	يسىء	ysy'	-1
+hustler	محتال	mHtAl	-1
+hype	الضجيج	AlDjyj	-1
+hypocricy	النفاق	AlnfAq	-1
+hypocrisy	نفاق	nfAq	-1
+hypocrite	منافق	mnAfq	-1
+hypocrites	المنافقين	AlmnAfqyn	-1
+hypocritical	منافق	mnAfq	-1
+hypocritically	منافق	mnAfq	-1
+hysteria	هستيريا	hstyryA	-1
+hysteric	هستيري	hstyry	-1
+hysterical	هستيري	hstyry	-1
+hysterically	في حالة هستيرية	fy HAlp hstyryp	-1
+hysterics	نوبة ضحك	nwbp DHk	-1
+idiocies	مقولات	mqwlAt	-1
+idiocy	حماقة	HmAqp	-1
+idiot	الأبله	AlAblh	-1
+idiotic	أحمق	AHmq	-1
+idiotically	بغباء	bgbA'	-1
+idiots	البلهاء	AlblhA'	-1
+idle	خامل	xAml	-1
+ignoble	خسيس	xsys	-1
+ignominious	مذل	m*l	-1
+ignominiously	مخزية	mxzyp	-1
+ignominy	خزي	xzy	-1
+ignorance	جهل	jhl	-1
+ignorant	جاهل	jAhl	-1
+ignore	تجاهل	tjAhl	-1
+ill-advised	غير حكيم	gyr Hkym	-1
+ill-conceived	غير المدروسة	gyr Almdrwsp	-1
+ill-defined	غير محددة	gyr mHddp	-1
+ill-designed	سوء التصميم	sw' AltSmym	-1
+ill-fated	منحوس	mnHws	-1
+ill-favored	سوء حظوة	sw' HZwp	-1
+ill-formed	سوء تشكيلها	sw' t$kylhA	-1
+ill-mannered	غير مؤدب	gyr mWdb	-1
+ill-natured	سوء المحيا	sw' AlmHyA	-1
+ill-sorted	سوء فرزها	sw' frzhA	-1
+ill-tempered	سوء المزاج	sw' AlmzAj	-1
+ill-treated	سوء المعاملة	sw' AlmEAmlp	-1
+ill-treatment	سوء المعاملة	sw' AlmEAmlp	-1
+ill-usage	سوء الاستعمال	sw' AlAstEmAl	-1
+ill-used	سوء استخدامها	sw' AstxdAmhA	-1
+illegal	غير شرعي	gyr $rEy	-1
+illegally	بشكل غير قانوني	b$kl gyr qAnwny	-1
+illegitimate	غير شرعي	gyr $rEy	-1
+illicit	غير مشروع	gyr m$rwE	-1
+illiterate	أمي	Amy	-1
+illness	مرض	mrD	-1
+illogic	اللامنطق	AllAmnTq	-1
+illogical	غير منطقي	gyr mnTqy	-1
+illogically	غير منطقي	gyr mnTqy	-1
+illusion	وهم	whm	-1
+illusions	أوهام	AwhAm	-1
+illusory	موهم	mwhm	-1
+imaginary	تخيلي	txyly	-1
+imbalance	الخلل	Alxll	-1
+imbecile	أبله	Ablh	-1
+imbroglio	وضع معقد	wDE mEqd	-1
+immaterial	غير هام	gyr hAm	-1
+immature	غير ناضج	gyr nADj	-1
+imminence	قرب حدوث	qrb Hdwv	-1
+imminently	قريبا	qrybA	-1
+immobilized	يجمد	yjmd	-1
+immoderate	مفرط	mfrT	-1
+immoderately	على نحو مخالف للعادة	Ely nHw mxAlf llEAdp	-1
+immodest	غير متواضع	gyr mtwADE	-1
+immoral	فاسق	fAsq	-1
+immorality	فجور	fjwr	-1
+immorally	غير أخلاقية	gyr AxlAqyp	-1
+immovable	صامد	SAmd	-1
+impair	يضعف	yDEf	-1
+impaired	ضعاف	DEAf	-1
+impasse	طريق مسدود	Tryq msdwd	-1
+impatience	نفاذ صبر	nfA* Sbr	-1
+impatient	نافذ الصبر	nAf* AlSbr	-1
+impatiently	بفارغ الصبر	bfArg AlSbr	-1
+impeach	شكك	$kk	-1
+impedance	مقاومة	mqAwmp	-1
+impede	إعاقة	AEAqp	-1
+impediment	عائق	EA}q	-1
+impending	وشيك الحدوث	w$yk AlHdwv	-1
+impenitent	سادر غير نادم	sAdr gyr nAdm	-1
+imperfect	انا ممتاز	AnA mmtAz	-1
+imperfection	نقص	nqS	-1
+imperfections	عيوب	Eywb	-1
+imperfectly	ناقص	nAqS	-1
+imperialist	مستعمر	mstEmr	-1
+imperil	عرض للخطر	ErD llxTr	-1
+imperious	مستبد	mstbd	-1
+imperiously	بغطرسة	bgTrsp	-1
+impermissible	غير مسموح به	gyr msmwH bh	-1
+impersonal	لا شخصي	lA $xSy	-1
+impertinent	وقح	wqH	-1
+impetuous	متهور	mthwr	-1
+impetuously	متهور	mthwr	-1
+impiety	عقوق	Eqwq	-1
+impinge	ارتطم	ArtTm	-1
+impious	عاق	EAq	-1
+implacable	عنيد	Enyd	-1
+implausible	غير قابل للتصديق	gyr qAbl lltSdyq	-1
+implausibly	غير قابل للتصديق	gyr qAbl lltSdyq	-1
+implicate	ورط	wrT	-1
+implication	تضمين	tDmyn	-1
+implode	تنهار	tnhAr	-1
+impolite	غير مهذب	gyr mh*b	-1
+impolitely	بطريقة غير مؤدبة	bTryqp gyr mWdbp	-1
+impolitic	غير حكيم	gyr Hkym	-1
+importunate	ملح	mlH	-1
+importune	ضجر	Djr	-1
+impose	فرض	frD	-1
+imposers	imposers	imposers	-1
+imposing	فرض	frD	-1
+imposition	فرض	frD	-1
+impossible	مستحيل	mstHyl	-1
+impossiblity	impossiblity	impossiblity	-1
+impossibly	مستحيل	mstHyl	-1
+impotent	واهن	wAhn	-1
+impoverish	فقر	fqr	-1
+impoverished	أفقر	Afqr	-1
+impractical	غير عملي	gyr Emly	-1
+imprecate	لعن	lEn	-1
+imprecise	غير دقيق	gyr dqyq	-1
+imprecisely	غير دقيق	gyr dqyq	-1
+imprecision	عدم الدقة	Edm Aldqp	-1
+imprison	حبس	Hbs	-1
+imprisonment	حبس	Hbs	-1
+improbability	اللااحتمالية	AllAAHtmAlyp	-1
+improbable	غير محتمل	gyr mHtml	-1
+improbably	بصورة غير محتملة	bSwrp gyr mHtmlp	-1
+improper	غير مناسب	gyr mnAsb	-1
+improperly	غير صحيح	gyr SHyH	-1
+impropriety	خطاء	xTA'	-1
+imprudence	تهور	thwr	-1
+imprudent	طائش	TA}$	-1
+impudence	وقاحة	wqAHp	-1
+impudent	وقح	wqH	-1
+impudently	بوقاحة	bwqAHp	-1
+impugn	فند	fnd	-1
+impulsive	مندفع	mndfE	-1
+impulsively	بتهور	bthwr	-1
+impunity	حصانة	HSAnp	-1
+impure	نجس	njs	-1
+impurity	نجاسة	njAsp	-1
+inability	عجز	Ejz	-1
+inaccuracies	عدم الدقة	Edm Aldqp	-1
+inaccuracy	عدم دقة	Edm dqp	-1
+inaccurate	غير دقيق	gyr dqyq	-1
+inaccurately	غير دقيق	gyr dqyq	-1
+inaction	تراخ	trAx	-1
+inactive	غير فعال	gyr fEAl	-1
+inadequacy	عدم ملائمة	Edm mlA}mp	-1
+inadequate	غير ملائم	gyr mlA}m	-1
+inadequately	غير كافية	gyr kAfyp	-1
+inadverent	inadverent	inadverent	-1
+inadverently	inadverently	inadverently	-1
+inadvisable	غير مناسب	gyr mnAsb	-1
+inadvisably	inadvisably	inadvisably	-1
+inane	تافه	tAfh	-1
+inanely	inanely	inanely	-1
+inappropriate	غير مناسب	gyr mnAsb	-1
+inappropriately	غير لائق	gyr lA}q	-1
+inapt	غير ملائم	gyr mlA}m	-1
+inaptitude	عدم ملائمة	Edm mlA}mp	-1
+inarticulate	عاجز عن الافصاح	EAjz En AlAfSAH	-1
+inattentive	غافل	gAfl	-1
+inaudible	غير مسموع	gyr msmwE	-1
+incapable	غير قادر	gyr qAdr	-1
+incapably	incapably	incapably	-1
+incautious	غافل	gAfl	-1
+incendiary	حارق	HArq	-1
+incense	بخور	bxwr	-1
+incessant	متواصل	mtwASl	-1
+incessantly	بلا انقطاع	blA AnqTAE	-1
+incite	حرض	HrD	-1
+incitement	تحريض	tHryD	-1
+incivility	قلة أدب	qlp Adb	-1
+inclement	عاصف	EASf	-1
+incognizant	incognizant	incognizant	-1
+incoherence	عدم الترابط	Edm AltrAbT	-1
+incoherent	غير مترابط	gyr mtrAbT	-1
+incoherently	متفكك	mtfkk	-1
+incommensurate	غير متكافئ	gyr mtkAf}	-1
+incomparable	لا يقارن	lA yqArn	-1
+incomparably	لا يقاس	lA yqAs	-1
+incompatability	incompatability	incompatability	-1
+incompatibility	التوافق	AltwAfq	-1
+incompatible	غير متوافق	gyr mtwAfq	-1
+incompetence	عجز	Ejz	-1
+incompetent	غير كفؤ	gyr kfW	-1
+incompetently	غير واف	gyr wAf	-1
+incomplete	غير كامل	gyr kAml	-1
+incompliant	غير مطابقة	gyr mTAbqp	-1
+incomprehensible	غامض	gAmD	-1
+incomprehension	لا فهم	lA fhm	-1
+inconceivable	لا يصدق	lA ySdq	-1
+inconceivably	لا يصدق	lA ySdq	-1
+incongruous	غير مناسب	gyr mnAsb	-1
+incongruously	مستغربة	mstgrbp	-1
+inconsequent	غير منطقي	gyr mnTqy	-1
+inconsequential	غير منطقي	gyr mnTqy	-1
+inconsequentially	inconsequentially	inconsequentially	-1
+inconsequently	inconsequently	inconsequently	-1
+inconsiderate	متهور	mthwr	-1
+inconsiderately	متهور	mthwr	-1
+inconsistence	غير متجانسة	gyr mtjAnsp	-1
+inconsistencies	التناقضات	AltnAqDAt	-1
+inconsistency	تضارب	tDArb	-1
+inconsistent	غير متناسقة	gyr mtnAsqp	-1
+inconsolable	لا عزاء له	lA EzA' lh	-1
+inconsolably	بشكل فادح	b$kl fAdH	-1
+inconstant	متقلب	mtqlb	-1
+inconvenience	إزعاج	AzEAj	-1
+inconveniently	غير مناسب	gyr mnAsb	-1
+incorrect	غير صحيح	gyr SHyH	-1
+incorrectly	غير صحيح	gyr SHyH	-1
+incorrigible	عنيد	Enyd	-1
+incorrigibly	incorrigibly	incorrigibly	-1
+incredulous	شكاك	$kAk	-1
+incredulously	بشكوك	b$kwk	-1
+inculcate	غرس	grs	-1
+indecency	بذاءة	b*A'p	-1
+indecent	غير لائق	gyr lA}q	-1
+indecently	غير محتشمة	gyr mHt$mp	-1
+indecision	تردد	trdd	-1
+indecisive	غير حاسم	gyr HAsm	-1
+indecisively	indecisively	indecisively	-1
+indecorum	شىء غير محتشم	$y' gyr mHt$m	-1
+indefensible	غير قابل للإلغاء	gyr qAbl llAlgA'	-1
+indelicate	غير محتشم	gyr mHt$m	-1
+indeterminable	متعذر تحديده	mtE*r tHdydh	-1
+indeterminably	indeterminably	indeterminably	-1
+indeterminate	غير محدد	gyr mHdd	-1
+indifference	لا مبالاة	lA mbAlAp	-1
+indifferent	غير مبال	gyr mbAl	-1
+indigent	معوز	mEwz	-1
+indignant	ساخط	sAxT	-1
+indignantly	بسخط	bsxT	-1
+indignation	سخط	sxT	-1
+indignity	إهانة	AhAnp	-1
+indiscernible	غير مدرك	gyr mdrk	-1
+indiscreet	غير حكيم	gyr Hkym	-1
+indiscreetly	indiscreetly	indiscreetly	-1
+indiscretion	طيش	Ty$	-1
+indiscriminate	غير مميز	gyr mmyz	-1
+indiscriminately	دون تمييز	dwn tmyyz	-1
+indiscriminating	indiscriminating	indiscriminating	-1
+indistinguishable	لا يمكن تميزه	lA ymkn tmyzh	-1
+indoctrinate	لقن	lqn	-1
+indoctrination	التلقين	Altlqyn	-1
+indolent	كسلان	kslAn	-1
+indulge	دلل	dll	-1
+ineffective	غير فعال	gyr fEAl	-1
+ineffectively	غير فعال	gyr fEAl	-1
+ineffectiveness	عدم فعالية	Edm fEAlyp	-1
+ineffectual	غير فعال	gyr fEAl	-1
+ineffectually	غير نافع	gyr nAfE	-1
+ineffectualness	ineffectualness	ineffectualness	-1
+inefficacious	عاجز عن إحداث	EAjz En AHdAv	-1
+inefficacy	لافعالية	lAfEAlyp	-1
+inefficiency	عدم الكفاءة	Edm AlkfA'p	-1
+inefficient	غير فعال	gyr fEAl	-1
+inefficiently	غير فعال	gyr fEAl	-1
+inelegance	لا أناقة به	lA AnAqp bh	-1
+inelegant	غير مصقول	gyr mSqwl	-1
+ineligible	غير مؤهل	gyr mWhl	-1
+ineloquent	ineloquent	ineloquent	-1
+ineloquently	ineloquently	ineloquently	-1
+inept	غير كفؤ	gyr kfW	-1
+ineptitude	سخافة	sxAfp	-1
+ineptly	بعدم كفاءة	bEdm kfA'p	-1
+inequalities	عدم المساواة	Edm AlmsAwAp	-1
+inequality	تفاوت	tfAwt	-1
+inequitable	غير منصف	gyr mnSf	-1
+inequitably	غير منصف	gyr mnSf	-1
+inequities	عدم المساواة	Edm AlmsAwAp	-1
+inescapable	لا مفر منه	lA mfr mnh	-1
+inescapably	لا مفر منه	lA mfr mnh	-1
+inessential	غير جوهري	gyr jwhry	-1
+inevitable	لا مفر منه	lA mfr mnh	-1
+inevitably	حتما	HtmA	-1
+inexcusable	لا يصفح عنه	lA ySfH Enh	-1
+inexcusably	غير مبرر	gyr mbrr	-1
+inexorable	عنيد	Enyd	-1
+inexorably	لا محالة	lA mHAlp	-1
+inexperience	قلة خبرة	qlp xbrp	-1
+inexperienced	غر	gr	-1
+inexpert	غير حاذق	gyr HA*q	-1
+inexpertly	inexpertly	inexpertly	-1
+inexpiable	inexpiable	inexpiable	-1
+inexplainable	inexplainable	inexplainable	-1
+inextricable	معقد	mEqd	-1
+inextricably	لا ينفصم	lA ynfSm	-1
+infamous	سيء السمعة	sy' AlsmEp	-1
+infamously	سيئ السمعة	sy} AlsmEp	-1
+infamy	خزي	xzy	-1
+infected	إصابة	ASAbp	-1
+infection	عدوى	Edwy	-1
+infections	العدوى	AlEdwy	-1
+inferior	السفلي	Alsfly	-1
+inferiority	عقدة النقص	Eqdp AlnqS	-1
+infernal	جهنمي	jhnmy	-1
+infest	أزعج	AzEj	-1
+infested	محتشر	mHt$r	-1
+infidel	كافر	kAfr	-1
+infidels	الكفار	AlkfAr	-1
+infiltrator	المتسلل	Almtsll	-1
+infiltrators	متسللين	mtsllyn	-1
+infirm	عاجز	EAjz	-1
+inflame	غضب	gDb	-1
+inflammation	التهاب	AlthAb	-1
+inflammatory	التهابي	AlthAby	-1
+inflammed	inflammed	inflammed	-1
+inflated	منفوخ	mnfwx	-1
+inflationary	تضخمي	tDxmy	-1
+inflexible	غير قابل للثني	gyr qAbl llvny	-1
+inflict	إلحاق	AlHAq	-1
+infraction	مخالفة	mxAlfp	-1
+infringe	خرق	xrq	-1
+infringement	انتهاك	AnthAk	-1
+infringements	التعديات	AltEdyAt	-1
+infuriate	غضب	gDb	-1
+infuriated	غضب	gDb	-1
+infuriating	مغيظ	mgyZ	-1
+infuriatingly	للضيق	llDyq	-1
+inglorious	شائن	$A}n	-1
+ingrate	العاق	AlEAq	-1
+ingratitude	نكران الجميل	nkrAn Aljmyl	-1
+inhibit	منع	mnE	-1
+inhibition	كبت	kbt	-1
+inhospitable	غير مضياف	gyr mDyAf	-1
+inhospitality	inhospitality	inhospitality	-1
+inhuman	غير إنساني	gyr AnsAny	-1
+inhumane	غير إنساني	gyr AnsAny	-1
+inhumanity	وحشية	wH$yp	-1
+inimical	معاد	mEAd	-1
+inimically	inimically	inimically	-1
+iniquitous	ظالم	ZAlm	-1
+iniquity	إثم	Avm	-1
+injudicious	غير حكيم	gyr Hkym	-1
+injure	جرح	jrH	-1
+injurious	ضار	DAr	-1
+injury	جرح	jrH	-1
+injustice	ظلم	Zlm	-1
+injustices	الظلم	AlZlm	-1
+innuendo	تلميح	tlmyH	-1
+inoperable	متعذر التطبيق	mtE*r AltTbyq	-1
+inopportune	في غير محله	fy gyr mHlh	-1
+inordinate	متطرف	mtTrf	-1
+inordinately	مفرط	mfrT	-1
+insane	مجنون	mjnwn	-1
+insanely	بجنون	bjnwn	-1
+insanity	جنون	jnwn	-1
+insatiable	لا يشبع	lA y$bE	-1
+insecure	غير آمن	gyr Amn	-1
+insecurity	عدم الأمان	Edm AlAmAn	-1
+insensible	غير مدرك	gyr mdrk	-1
+insensitive	غير حساس	gyr HsAs	-1
+insensitively	insensitively	insensitively	-1
+insensitivity	عدم حساسية	Edm HsAsyp	-1
+insidious	مغو	mgw	-1
+insidiously	دهاء	dhA'	-1
+insignificance	تفاهة	tfAhp	-1
+insignificant	تافه	tAfh	-1
+insignificantly	بحقارة	bHqArp	-1
+insincere	غير مخلص	gyr mxlS	-1
+insincerely	بتصنع	btSnE	-1
+insincerity	نفاق	nfAq	-1
+insinuate	دس	ds	-1
+insinuating	متملق	mtmlq	-1
+insinuation	تلميح	tlmyH	-1
+insociable	insociable	insociable	-1
+insolence	وقاحة	wqAHp	-1
+insolent	وقح	wqH	-1
+insolently	وقاحة	wqAHp	-1
+insolvent	معسر	mEsr	-1
+insouciance	لا مبالاة	lA mbAlAp	-1
+instability	عدم إستقرار	Edm AstqrAr	-1
+instable	غير مستقر	gyr mstqr	-1
+instigate	تحريض	tHryD	-1
+instigator	مدبر	mdbr	-1
+instigators	المحرضين	AlmHrDyn	-1
+insubordinate	عاص	EAS	-1
+insubstantial	لا قيمة له	lA qymp lh	-1
+insubstantially	insubstantially	insubstantially	-1
+insufferable	لا يطاق	lA yTAq	-1
+insufferably	لا يطاق	lA yTAq	-1
+insufficiency	قصور	qSwr	-1
+insufficient	غير كاف	gyr kAf	-1
+insufficiently	غير كافية	gyr kAfyp	-1
+insular	جزيري	jzyry	-1
+insult	إهانة	AhAnp	-1
+insulted	أهان	AhAn	-1
+insulting	مهين	mhyn	-1
+insultingly	مهين	mhyn	-1
+insults	الشتائم	Al$tA}m	-1
+insupportable	غير محتمل	gyr mHtml	-1
+insupportably	insupportably	insupportably	-1
+insurmountable	لا يذلل	lA y*ll	-1
+insurmountably	insurmountably	insurmountably	-1
+insurrection	تمرد	tmrd	-1
+intefere	intefere	intefere	-1
+inteferes	inteferes	inteferes	-1
+intense	شديد	$dyd	-1
+interfere	تدخل	tdxl	-1
+interference	تدخل	tdxl	-1
+interferes	المحرضون	AlmHrDwn	-1
+intermittent	متقطع	mtqTE	-1
+interrupt	قطع	qTE	-1
+interruption	إعاقة	AEAqp	-1
+interruptions	انقطاع	AnqTAE	-1
+intimidate	تخويف	txwyf	-1
+intimidating	تخويفه	txwyfh	-1
+intimidatingly	intimidatingly	intimidatingly	-1
+intimidation	تخويف	txwyf	-1
+intolerable	لا يطاق	lA yTAq	-1
+intolerablely	intolerablely	intolerablely	-1
+intolerance	تعصب	tESb	-1
+intoxicate	دمن	dmn	-1
+intractable	صعب المراس	SEb AlmrAs	-1
+intransigence	عناد	EnAd	-1
+intransigent	عنيد	Enyd	-1
+intrude	تطفل	tTfl	-1
+intrusion	تطفل	tTfl	-1
+intrusive	تطفلي	tTfly	-1
+inundate	غمر	gmr	-1
+inundated	غمرت	gmrt	-1
+invader	غاز	gAz	-1
+invalid	باطل	bATl	-1
+invalidate	إبطال	AbTAl	-1
+invalidity	عدم صحة	Edm SHp	-1
+invasive	المجتاحة	AlmjtAHp	-1
+invective	قدح	qdH	-1
+inveigle	أغرى	Agry	-1
+invidious	حسود	Hswd	-1
+invidiously	حسدا	HsdA	-1
+invidiousness	الحسد	AlHsd	-1
+invisible	خفي	xfy	-1
+involuntarily	لا إرادية	lA ArAdyp	-1
+involuntary	لا إرادي	lA ArAdy	-1
+irascible	غضوب	gDwb	-1
+irate	غاضب	gADb	-1
+irately	irately	irately	-1
+ire	غضب	gDb	-1
+irk	ضايق	DAyq	-1
+irked	أغضب	AgDb	-1
+irking	مما ازعج	mmA AzEj	-1
+irks	يؤرق	yWrq	-1
+irksome	ممل	mml	-1
+irksomely	irksomely	irksomely	-1
+irksomeness	الملل	Almll	-1
+irksomenesses	irksomenesses	irksomenesses	-1
+ironic	ساخر	sAxr	-1
+ironical	ساخر	sAxr	-1
+ironically	ومن المفارقات	wmn AlmfArqAt	-1
+ironies	مفارقات	mfArqAt	-1
+irony	سخرية	sxryp	-1
+irragularity	irragularity	irragularity	-1
+irrational	غير منطقي	gyr mnTqy	-1
+irrationalities	اللاعقلانية	AllAEqlAnyp	-1
+irrationality	لاعقلانية	lAEqlAnyp	-1
+irrationally	غير عقلاني	gyr EqlAny	-1
+irrationals	اللا عقلانيون	AllA EqlAnywn	-1
+irreconcilable	لا يقبل المساومة	lA yqbl AlmsAwmp	-1
+irrecoverable	متعذر إصلاحه	mtE*r ASlAHh	-1
+irrecoverableness	irrecoverableness	irrecoverableness	-1
+irrecoverablenesses	irrecoverablenesses	irrecoverablenesses	-1
+irrecoverably	irrecoverably	irrecoverably	-1
+irredeemable	غير القابلة للاسترداد	gyr AlqAblp llAstrdAd	-1
+irredeemably	بلا رجعة	blA rjEp	-1
+irreformable	irreformable	irreformable	-1
+irregular	غير منتظم	gyr mntZm	-1
+irregularity	عدم انتظام	Edm AntZAm	-1
+irrelevance	اللاعلاقية	AllAElAqyp	-1
+irrelevant	غير ذات صلة	gyr *At Slp	-1
+irreparable	متعذر إصلاحه	mtE*r ASlAHh	-1
+irreplacible	irreplacible	irreplacible	-1
+irrepressible	معتذر كبحه	mEt*r kbHh	-1
+irresolute	متردد	mtrdd	-1
+irresolvable	متعذر حله	mtE*r Hlh	-1
+irresponsible	غير مسؤول	gyr msWwl	-1
+irresponsibly	غير مسؤول	gyr msWwl	-1
+irretating	irretating	irretating	-1
+irretrievable	متعذر إصلاحه	mtE*r ASlAHh	-1
+irreversible	لا رجعة فيه	lA rjEp fyh	-1
+irritable	سريع الغضب	sryE AlgDb	-1
+irritably	بانفعال	bAnfEAl	-1
+irritant	إزعاج	AzEAj	-1
+irritate	غضب	gDb	-1
+irritated	منزعج	mnzEj	-1
+irritating	مزعج	mzEj	-1
+irritation	تهيج	thyj	-1
+irritations	تهيج	thyj	-1
+isolate	عزل	Ezl	-1
+isolated	معزول	mEzwl	-1
+isolation	العزلة	AlEzlp	-1
+issue	القضية	AlqDyp	-1
+issues	قضايا	qDAyA	-1
+itch	حكة	Hkp	-1
+itching	الحكة	AlHkp	-1
+itchy	بياكلني	byAklny	-1
+jabber	هذرم	h*rm	-1
+jaded	سئم	s}m	-1
+jagged	ممزق	mmzq	-1
+jam	مربى	mrby	-1
+jarring	متنافر	mtnAfr	-1
+jaundiced	مستهجن	msthjn	-1
+jealous	غيور	gywr	-1
+jealously	بغيرة	bgyrp	-1
+jealousness	الغيرة	Algyrp	-1
+jealousy	غيرة	gyrp	-1
+jeer	تهكم	thkm	-1
+jeering	الإستهزاء	AlAsthzA'	-1
+jeeringly	jeeringly	jeeringly	-1
+jeers	السخريات	AlsxryAt	-1
+jeopardize	يعرض للخطر	yErD llxTr	-1
+jeopardy	خطر	xTr	-1
+jerk	رعشة	rE$p	-1
+jerky	متشنج	mt$nj	-1
+jitter	غضب	gDb	-1
+jitters	التوتر	Altwtr	-1
+jittery	نرفز	nrfz	-1
+job-killing	لقتل العمل	lqtl AlEml	-1
+jobless	العاطلين عن العمل	AlEATlyn En AlEml	-1
+joke	نكتة	nktp	-1
+joker	مهرج	mhrj	-1
+jolt	هزة	hzp	-1
+judder	الاهتزاز	AlAhtzAz	-1
+juddering	juddering	juddering	-1
+judders	judders	judders	-1
+jumpy	وثاب	wvAb	-1
+junk	خردة	xrdp	-1
+junky	المدمن	Almdmn	-1
+junkyard	مخلفات	mxlfAt	-1
+jutter	jutter	jutter	-1
+jutters	jutters	jutters	-1
+kaput	مفلس	mfls	-1
+kill	قتل	qtl	-1
+killed	قتل	qtl	-1
+killer	القاتل	AlqAtl	-1
+killing	قتل	qtl	-1
+killjoy	مفسد البهجة	mfsd Albhjp	-1
+kills	يقتل	yqtl	-1
+knave	الوغد	Alwgd	-1
+knife	سكين	skyn	-1
+knock	طرق	Trq	-1
+knotted	معقد	mEqd	-1
+kook	كوك	kwk	-1
+kooky	kooky	kooky	-1
+lack	نقص	nqS	-1
+lackadaisical	واهن	wAhn	-1
+lacked	تفتقر	tftqr	-1
+lackey	خادم	xAdm	-1
+lackeys	أذناب	A*nAb	-1
+lacking	تفتقر	tftqr	-1
+lackluster	باهتة	bAhtp	-1
+lacks	تفتقر	tftqr	-1
+laconic	مقتضب	mqtDb	-1
+lag	تأخر	tAxr	-1
+lagged	تخلفت	txlft	-1
+lagging	المتلكئة	Almtlk}p	-1
+laggy	laggy	laggy	-1
+lags	التخلف	Altxlf	-1
+laid-off	المسرحين	AlmsrHyn	-1
+lambast	توجيه اللوم	twjyh Allwm	-1
+lambaste	ضرب بعنف	Drb bEnf	-1
+lame	أعرج	AErj	-1
+lame-duck	البطة العرجاء	AlbTp AlErjA'	-1
+lament	مرثاة	mrvAp	-1
+lamentable	مؤسف	mWsf	-1
+lamentably	أسف	Asf	-1
+languid	ضعيف	DEyf	-1
+languish	هزل	hzl	-1
+languor	كسل	ksl	-1
+languorous	واهن	wAhn	-1
+languorously	languorously	languorously	-1
+lanky	طويل وضامر	Twyl wDAmr	-1
+lapse	هفوة	hfwp	-1
+lapsed	ساقطا	sAqTA	-1
+lapses	هفوات	hfwAt	-1
+lascivious	فاسق	fAsq	-1
+last-ditch	أخيرة	Axyrp	-1
+latency	كمون	kmwn	-1
+laughable	مضحك	mDHk	-1
+laughably	صبرهما	SbrhmA	-1
+laughingstock	أضحوكة	ADHwkp	-1
+lawbreaker	الخارق للقانون	AlxArq llqAnwn	-1
+lawbreaking	خرق القانون	xrq AlqAnwn	-1
+lawless	فوضوي	fwDwy	-1
+lawlessness	فوضى	fwDy	-1
+layoff	تسريح	tsryH	-1
+layoff-happy	، أبعدته عن الملاعب سعيد	, AbEdth En AlmlAEb sEyd	-1
+lazy	كسول	kswl	-1
+leak	تسرب	tsrb	-1
+leakage	تسرب	tsrb	-1
+leakages	التسربات	AltsrbAt	-1
+leaking	تسريب	tsryb	-1
+leaks	تسرب	tsrb	-1
+leaky	راشح	rA$H	-1
+lech	ليخ	lyx	-1
+lecher	الفاسق	AlfAsq	-1
+lecherous	فاسق	fAsq	-1
+lechery	فسق	fsq	-1
+leech	علقة	Elqp	-1
+leer	غمز	gmz	-1
+leery	حذر	H*r	-1
+left-leaning	الذي يميل الى اليسار	Al*y ymyl Aly AlysAr	-1
+lemon	ليمون	lymwn	-1
+lengthy	طويل	Twyl	-1
+less-developed	الأقل نموا	AlAql nmwA	-1
+lesser-known	المعروف أقل	AlmErwf Aql	-1
+letch	letch	letch	-1
+lethal	قاتل	qAtl	-1
+lethargic	نوامي	nwAmy	-1
+lethargy	سبات	sbAt	-1
+lewd	خليع	xlyE	-1
+lewdly	lewdly	lewdly	-1
+lewdness	فاحشة	fAH$p	-1
+liability	مسئولية	ms}wlyp	-1
+liable	عرضة	ErDp	-1
+liar	كذاب	k*Ab	-1
+liars	كذابون	k*Abwn	-1
+licentious	فاجر	fAjr	-1
+licentiously	licentiously	licentiously	-1
+licentiousness	الإ جازة الرسمية	AlA jAzp Alrsmyp	-1
+lie	كذبة	k*bp	-1
+lied	كذب	k*b	-1
+lier	الكذاب	Alk*Ab	-1
+lies	الأكاذيب	AlAkA*yb	-1
+life-threatening	تهدد الحياة	thdd AlHyAp	-1
+lifeless	ميت	myt	-1
+limit	حد	Hd	-1
+limitation	تحديد	tHdyd	-1
+limitations	القيود	Alqywd	-1
+limited	محدود	mHdwd	-1
+limits	حدود	Hdwd	-1
+limp	عرج	Erj	-1
+listless	فاتر	fAtr	-1
+litigious	التقاضي	AltqADy	-1
+little-known	المعروفة قليلا	AlmErwfp qlylA	-1
+livid	غاضب	gADb	-1
+lividly	lividly	lividly	-1
+loath	مشمئز	m$m}z	-1
+loathe	أبغض	AbgD	-1
+loathing	اشمئزاز	A$m}zAz	-1
+loathly	loathly	loathly	-1
+loathsome	كريه	kryh	-1
+loathsomely	loathsomely	loathsomely	-1
+lone	وحيد	wHyd	-1
+loneliness	عزلة	Ezlp	-1
+lonely	وحيدا	wHydA	-1
+loner	وحيد	wHyd	-1
+lonesome	وحيد	wHyd	-1
+long-time	منذ وقت طويل	mn* wqt Twyl	-1
+long-winded	مهزار	mhzAr	-1
+longing	شوق	$wq	-1
+longingly	بشوق	b$wq	-1
+loophole	منفذ	mnf*	-1
+loopholes	الثغرات	AlvgrAt	-1
+loose	فضفاض	fDfAD	-1
+loot	نهب	nhb	-1
+lorn	البحري اللورن	AlbHry Allwrn	-1
+lose	فقد	fqd	-1
+loser	خاسر	xAsr	-1
+losers	الخاسرين	AlxAsryn	-1
+loses	يفقد	yfqd	-1
+losing	فقدان	fqdAn	-1
+loss	خسارة	xsArp	-1
+losses	خسائر	xsA}r	-1
+lost	ضائع	DA}E	-1
+loud	عال	EAl	-1
+louder	أعلى صوتا	AEly SwtA	-1
+lousy	قذر	q*r	-1
+loveless	بلا حب	blA Hb	-1
+lovelorn	متيم	mtym	-1
+low-rated	الاسعار المنخفضة للتصنيف	AlAsEAr AlmnxfDp lltSnyf	-1
+lowly	وضيع	wDyE	-1
+ludicrous	مضحك	mDHk	-1
+ludicrously	بسخافة	bsxAfp	-1
+lugubrious	حدادي	HdAdy	-1
+lukewarm	فاتر	fAtr	-1
+lull	ركود	rkwd	-1
+lumpy	محفر	mHfr	-1
+lunatic	جنوني	jnwny	-1
+lunaticism	lunaticism	lunaticism	-1
+lurch	تمايل	tmAyl	-1
+lure	إغراء	AgrA'	-1
+lurid	رهيب	rhyb	-1
+lurk	ثابر	vAbr	-1
+lurking	مكمن	mkmn	-1
+lying	كذب	k*b	-1
+macabre	مروع	mrwE	-1
+mad	مجنون	mjnwn	-1
+madden	خبل	xbl	-1
+maddening	مجن	mjn	-1
+maddeningly	بجنون	bjnwn	-1
+madder	الفوة نبات صبغي	Alfwp nbAt Sbgy	-1
+madly	بجنون	bjnwn	-1
+madman	مجنون	mjnwn	-1
+madness	جنون	jnwn	-1
+maladjusted	غير منسجم	gyr mnsjm	-1
+maladjustment	عدم إنتظام	Edm AntZAm	-1
+malady	مرض	mrD	-1
+malaise	توعك	twEk	-1
+malcontent	سخط	sxT	-1
+malcontented	malcontented	malcontented	-1
+maledict	maledict	maledict	-1
+malevolence	ضغينة	Dgynp	-1
+malevolent	مضطغن	mDTgn	-1
+malevolently	بحقد	bHqd	-1
+malice	حقد	Hqd	-1
+malicious	خبيث	xbyv	-1
+maliciously	ضار	DAr	-1
+maliciousness	خبث	xbv	-1
+malign	مؤذ	mW*	-1
+malignant	خبيث	xbyv	-1
+malodorous	كريه الرائحة	kryh AlrA}Hp	-1
+maltreatment	سوء المعاملة	sw' AlmEAmlp	-1
+mangle	فسد	fsd	-1
+mangled	المهترئ	Almhtr}	-1
+mangles	mangles	mangles	-1
+mangling	تغيير اسم	tgyyr Asm	-1
+mania	هوس	hws	-1
+maniac	مهووس	mhwws	-1
+maniacal	مهووس	mhwws	-1
+manic	هوسي	hwsy	-1
+manipulate	تلاعب	tlAEb	-1
+manipulation	تلاعب	tlAEb	-1
+manipulative	المتلاعبة	AlmtlAEbp	-1
+manipulators	المتلاعبين	AlmtlAEbyn	-1
+mar	مارس	mArs	-1
+marginal	هامشي	hAm$y	-1
+marginally	هامشي	hAm$y	-1
+martyrdom	استشهاد	Ast$hAd	-1
+martyrdom-seeking	استشهاد التماس	Ast$hAd AltmAs	-1
+mashed	مهروس	mhrws	-1
+massacre	مذبحة	m*bHp	-1
+massacres	المجازر	AlmjAzr	-1
+matte	ماتي	mAty	-1
+mawkish	مثير للغثيان	mvyr llgvyAn	-1
+mawkishly	mawkishly	mawkishly	-1
+mawkishness	تقزز	tqzz	-1
+meager	هزيل	hzyl	-1
+meaningless	لا معنى له	lA mEny lh	-1
+meanness	خسة	xsp	-1
+measly	تافه	tAfh	-1
+meddle	التدخل	Altdxl	-1
+meddlesome	متطفل	mtTfl	-1
+mediocre	متوسط	mtwsT	-1
+mediocrity	توسط	twsT	-1
+melancholy	حزن	Hzn	-1
+melodramatic	مليودرامي	mlywdrAmy	-1
+melodramatically	melodramatically	melodramatically	-1
+meltdown	الانهيار	AlAnhyAr	-1
+menace	تهديد	thdyd	-1
+menacing	متوعد	mtwEd	-1
+menacingly	مهددا	mhddA	-1
+mendacious	كذوب	k*wb	-1
+mendacity	كذب	k*b	-1
+menial	وضيع	wDyE	-1
+merciless	لا يرحم	lA yrHm	-1
+mercilessly	بلا رحمة	blA rHmp	-1
+mess	تعبث	tEbv	-1
+messed	عابث	EAbv	-1
+messes	عبث	Ebv	-1
+messing	العبث	AlEbv	-1
+messy	فوضوي	fwDwy	-1
+midget	قزم	qzm	-1
+miff	شجار	$jAr	-1
+militancy	التشدد	Alt$dd	-1
+mindless	الطائش	AlTA}$	-1
+mindlessly	بغفلة	bgflp	-1
+mirage	سراب	srAb	-1
+mire	مستنقع	mstnqE	-1
+misalign	ترفض تعديل	trfD tEdyl	-1
+misaligned	المنحرفة	AlmnHrfp	-1
+misaligns	misaligns	misaligns	-1
+misapprehend	misapprehend	misapprehend	-1
+misbecome	misbecome	misbecome	-1
+misbecoming	misbecoming	misbecoming	-1
+misbegotten	غير شرعي	gyr $rEy	-1
+misbehave	أساء التصرف	AsA' AltSrf	-1
+misbehavior	سوء سلوك	sw' slwk	-1
+miscalculate	أخطأ في الحساب أو التقدير	AxTA fy AlHsAb Aw Altqdyr	-1
+miscalculation	حساب خاطئ	HsAb xAT}	-1
+miscellaneous	متنوع	mtnwE	-1
+mischief	الأذى	AlA*y	-1
+mischievous	مؤذ	mW*	-1
+mischievously	بخبث	bxbv	-1
+misconception	سوء فهم	sw' fhm	-1
+misconceptions	المفاهيم الخاطئة	AlmfAhym AlxAT}p	-1
+miscreant	وغد	wgd	-1
+miscreants	الأوغاد	AlAwgAd	-1
+misdirection	التضليل	AltDlyl	-1
+miser	البخيل	Albxyl	-1
+miserable	بائس	bA}s	-1
+miserableness	miserableness	miserableness	-1
+miserably	على نحو بائس	Ely nHw bA}s	-1
+miseries	مآسي	mAsy	-1
+miserly	بخيل	bxyl	-1
+misery	بؤس	bWs	-1
+misfit	غير كفؤ	gyr kfW	-1
+misfortune	مصيبة	mSybp	-1
+misgiving	ظن	Zn	-1
+misgivings	شكوك	$kwk	-1
+misguidance	الضلال	AlDlAl	-1
+misguide	ضلل	Dll	-1
+misguided	المضللين	AlmDllyn	-1
+mishandle	خاشن	xA$n	-1
+mishap	حادث	HAdv	-1
+misinform	تضليل	tDlyl	-1
+misinformed	معلومات خاطئة	mElwmAt xAT}p	-1
+misinterpret	أساء التفسير	AsA' Altfsyr	-1
+misjudge	أخطأ في الحكم	AxTA fy AlHkm	-1
+misjudgment	حكم غير عادل	Hkm gyr EAdl	-1
+mislead	تضليل	tDlyl	-1
+misleading	مضلل	mDll	-1
+misleadingly	مضلل	mDll	-1
+mislike	mislike	mislike	-1
+mismanage	نسيء	nsy'	-1
+mispronounce	أخطأ باللفظ	AxTA bAllfZ	-1
+mispronounced	أخطأ	AxTA	-1
+mispronounces	mispronounces	mispronounces	-1
+misread	أخطأت	AxTAt	-1
+misreading	خطأ في القراءة	xTA fy AlqrA'p	-1
+misrepresent	شوه	$wh	-1
+misrepresentation	تحريف	tHryf	-1
+miss	الآنسة	AlAnsp	-1
+missed	افتقد	Aftqd	-1
+misses	يخطئ	yxT}	-1
+misstatement	أخطاء	AxTA'	-1
+mist	ضباب	DbAb	-1
+mistake	خطأ	xTA	-1
+mistaken	مخطئ	mxT}	-1
+mistakenly	عن طريق الخطأ	En Tryq AlxTA	-1
+mistakes	الأخطاء	AlAxTA'	-1
+mistified	mistified	mistified	-1
+mistress	عشيقة	E$yqp	-1
+mistrust	عدم ثقة	Edm vqp	-1
+mistrustful	مرتاب	mrtAb	-1
+mistrustfully	من عدم الثقة	mn Edm Alvqp	-1
+mists	السحب	AlsHb	-1
+misunderstand	أساء الفهم	AsA' Alfhm	-1
+misunderstanding	سوء الفهم	sw' Alfhm	-1
+misunderstandings	سوء الفهم	sw' Alfhm	-1
+misunderstood	يساء فهمه	ysA' fhmh	-1
+misuse	سوء استخدام	sw' AstxdAm	-1
+moan	أنين	Anyn	-1
+mobster	الشقي	Al$qy	-1
+mock	قلد	qld	-1
+mocked	سخر	sxr	-1
+mockeries	إستهزاء	AsthzA'	-1
+mockery	سخرية	sxryp	-1
+mocking	ساخرا	sAxrA	-1
+mockingly	ساخرا	sAxrA	-1
+mocks	يسخر	ysxr	-1
+molest	ضايق	DAyq	-1
+molestation	مضايقة	mDAyqp	-1
+monotonous	رتيب	rtyb	-1
+monotony	رتابة	rtAbp	-1
+monster	وحش	wH$	-1
+monstrosities	المسوخ	Almswx	-1
+monstrosity	بشاعة	b$AEp	-1
+monstrous	شنيع	$nyE	-1
+monstrously	مخيف	mxyf	-1
+moody	متقلب المزاج	mtqlb AlmzAj	-1
+moot	مجادل فيه	mjAdl fyh	-1
+mope	دقق	dqq	-1
+morbid	مرضي	mrDy	-1
+morbidly	سقيم	sqym	-1
+mordant	لاذع	lA*E	-1
+mordantly	هجوما عنيفا	hjwmA EnyfA	-1
+moribund	محتضر	mHtDr	-1
+moron	المغفل	Almgfl	-1
+moronic	مغفل	mgfl	-1
+morons	البلداء	AlbldA'	-1
+mortification	عار	EAr	-1
+mortified	بخزي	bxzy	-1
+mortify	تنسك	tnsk	-1
+mortifying	الكبح	AlkbH	-1
+motionless	بلا حركة	blA Hrkp	-1
+motley	متعدد الألوان	mtEdd AlAlwAn	-1
+mourn	ندب	ndb	-1
+mourner	المتفجع	AlmtfjE	-1
+mournful	كئيب	k}yb	-1
+mournfully	بحزن	bHzn	-1
+muddle	فوضى	fwDy	-1
+muddy	موحل	mwHl	-1
+mudslinger	المشهر	Alm$hr	-1
+mudslinging	تشهير	t$hyr	-1
+mulish	عنيد	Enyd	-1
+multi-polarization	متعدد الاقطاب	mtEdd AlAqTAb	-1
+mundane	دنيوي	dnywy	-1
+murder	قتل	qtl	-1
+murderer	قاتل	qAtl	-1
+murderous	قاتل	qAtl	-1
+murderously	مهلك	mhlk	-1
+murky	مظلم	mZlm	-1
+muscle-flexing	استعراض العضلات	AstErAD AlEDlAt	-1
+mushy	طري	Try	-1
+musty	عفن	Efn	-1
+mysterious	غامض	gAmD	-1
+mysteriously	في ظروف غامضة	fy Zrwf gAmDp	-1
+mystery	الغموض	AlgmwD	-1
+mystify	حير	Hyr	-1
+myth	أسطورة	AsTwrp	-1
+nag	تذمر	t*mr	-1
+nagging	متذمر	mt*mr	-1
+naive	ساذج	sA*j	-1
+naively	بسذاجة	bs*Ajp	-1
+narrower	أضيق	ADyq	-1
+nastily	بخبث	bxbv	-1
+nastiness	قبح	qbH	-1
+nasty	مقرف	mqrf	-1
+naughty	المشاغب	Alm$Agb	-1
+nauseate	أصاب بالغثيان	ASAb bAlgvyAn	-1
+nauseates	nauseates	nauseates	-1
+nauseating	مقرف	mqrf	-1
+nauseatingly	مقزز	mqzz	-1
+naÌÓve	ناه "هاء	nAh "hA'	-1
+nebulous	ضبابي	DbAby	-1
+nebulously	nebulously	nebulously	-1
+needless	غير ضروري	gyr Drwry	-1
+needlessly	داع	dAE	-1
+needy	محتاج	mHtAj	-1
+nefarious	شائن	$A}n	-1
+nefariously	شنيع	$nyE	-1
+negate	ينفي	ynfy	-1
+negation	نفي	nfy	-1
+negative	سلبي	slby	-1
+negatives	السلبيات	AlslbyAt	-1
+negativity	سلبية	slbyp	-1
+neglect	إهمال	AhmAl	-1
+neglected	مهمل	mhml	-1
+negligence	إهمال	AhmAl	-1
+negligent	متهاون	mthAwn	-1
+nemesis	انتقام	AntqAm	-1
+nepotism	محاباة الأقارب	mHAbAp AlAqArb	-1
+nervous	عصبي	ESby	-1
+nervously	بعصبية	bESbyp	-1
+nervousness	الهلع	AlhlE	-1
+nettle	لسع	lsE	-1
+nettlesome	شائكة	$A}kp	-1
+neurotic	العصابي	AlESAby	-1
+neurotically	العصابي	AlESAby	-1
+niggle	أزعج	AzEj	-1
+niggles	يسفسف	ysfsf	-1
+nightmare	كابوس	kAbws	-1
+nightmarish	رهيب	rhyb	-1
+nightmarishly	nightmarishly	nightmarishly	-1
+nitpick	تصيد الأخطاء	tSyd AlAxTA'	-1
+nitpicking	نيتبيكينج	nytbykynj	-1
+noise	ضجيج	Djyj	-1
+noises	ضوضاء	DwDA'	-1
+noisier	نويصر	nwySr	-1
+noisy	صاخبة	SAxbp	-1
+non-confidence	عدم الثقة	Edm Alvqp	-1
+nonexistent	معدوم	mEdwm	-1
+nonresponsive	متجاوب	mtjAwb	-1
+nonsense	كلام فارغ	klAm fArg	-1
+nosey	فضولي	fDwly	-1
+notoriety	سوء السمعة	sw' AlsmEp	-1
+notorious	مشهور	m$hwr	-1
+notoriously	المعروف	AlmErwf	-1
+noxious	ضار	DAr	-1
+nuisance	إزعاج	AzEAj	-1
+numb	خدر	xdr	-1
+obese	بدين	bdyn	-1
+object	موضوع	mwDwE	-1
+objection	اعتراض	AEtrAD	-1
+objectionable	بغيض	bgyD	-1
+objections	الاعتراضات	AlAEtrADAt	-1
+oblique	منحرف	mnHrf	-1
+obliterate	طمس	Tms	-1
+obliterated	طمس	Tms	-1
+oblivious	غافل	gAfl	-1
+obnoxious	ذميم	*mym	-1
+obnoxiously	بغيض	bgyD	-1
+obscene	فاحش	fAH$	-1
+obscenely	الفحش	AlfH$	-1
+obscenity	فحش	fH$	-1
+obscure	غامض	gAmD	-1
+obscured	تحجب	tHjb	-1
+obscures	يحجب	yHjb	-1
+obscurity	غموض	gmwD	-1
+obsess	أقلق	Aqlq	-1
+obsessive	استحواذي	AstHwA*y	-1
+obsessively	بقلق شديد	bqlq $dyd	-1
+obsessiveness	الأستحواذ	AlAstHwA*	-1
+obsolete	مهمل	mhml	-1
+obstacle	عقبة	Eqbp	-1
+obstinate	عنيد	Enyd	-1
+obstinately	بعناد	bEnAd	-1
+obstruct	منع	mnE	-1
+obstructed	عرقلت	Erqlt	-1
+obstructing	المعطل	AlmETl	-1
+obstruction	إعاقة	AEAqp	-1
+obstructs	يعيق	yEyq	-1
+obtrusive	لحوح	lHwH	-1
+obtuse	بليد	blyd	-1
+occlude	حبس	Hbs	-1
+occluded	المغطي	AlmgTy	-1
+occludes	تسبب انسداد	tsbb AnsdAd	-1
+occluding	الاغلاق	AlAglAq	-1
+odd	غريب	gryb	-1
+odder	الأعجب	AlAEjb	-1
+oddest	شاذ	$A*	-1
+oddities	الشذوذ	Al$*w*	-1
+oddity	شذوذ	$*w*	-1
+oddly	بشكل غريب	b$kl gryb	-1
+odor	رائحة	rA}Hp	-1
+offence	جريمة	jrymp	-1
+offend	غضب	gDb	-1
+offender	المذنب	Alm*nb	-1
+offending	المخالف	AlmxAlf	-1
+offenses	الجرائم	AljrA}m	-1
+offensive	هجوم	hjwm	-1
+offensively	عدواني	EdwAny	-1
+offensiveness	خبث	xbv	-1
+officious	فضولي	fDwly	-1
+ominous	مشؤوم	m$Wwm	-1
+ominously	المشئومة	Alm$}wmp	-1
+omission	إغفال	AgfAl	-1
+omit	حذف	H*f	-1
+one-sided	من طرف واحد	mn Trf wAHd	-1
+onerous	مرهق	mrhq	-1
+onerously	onerously	onerously	-1
+onslaught	هجوم	hjwm	-1
+opinionated	عنيد	Enyd	-1
+opponent	الخصم	AlxSm	-1
+opportunistic	نفعي	nfEy	-1
+oppose	عارض	EArD	-1
+opposition	معارضة	mEArDp	-1
+oppositions	المعارضات	AlmEArDAt	-1
+oppress	ظلم	Zlm	-1
+oppression	اضطهاد	ADThAd	-1
+oppressive	ظالم	ZAlm	-1
+oppressively	الظلم	AlZlm	-1
+oppressiveness	اضطهاد	ADThAd	-1
+oppressors	الظالمين	AlZAlmyn	-1
+ordeal	محنة	mHnp	-1
+orphan	يتيم	ytym	-1
+ostracize	وضع في الكرنتينة	wDE fy Alkrntynp	-1
+outbreak	اندلاع	AndlAE	-1
+outburst	فورة	fwrp	-1
+outbursts	تفجر	tfjr	-1
+outcast	منبوذ	mnbw*	-1
+outcry	احتجاج	AHtjAj	-1
+outlaw	حظر	HZr	-1
+outmoded	لاغي	lAgy	-1
+outrage	غضب	gDb	-1
+outraged	غضب	gDb	-1
+outrageous	شائن	$A}n	-1
+outrageously	شنيع	$nyE	-1
+outrageousness	فاضحة	fADHp	-1
+outrages	الاعتداء	AlAEtdA'	-1
+outsider	غريب	gryb	-1
+over-acted	الإفراط في تصرف	AlAfrAT fy tSrf	-1
+over-awe	الإفراط في رهبة	AlAfrAT fy rhbp	-1
+over-balanced	الإفراط متوازنة	AlAfrAT mtwAznp	-1
+over-hyped	أكثر من لفقت	Akvr mn lfqt	-1
+over-priced	أكثر من الثمن	Akvr mn Alvmn	-1
+over-valuation	الإفراط في التقييم	AlAfrAT fy Altqyym	-1
+overact	مثل بصورة مبالغ فيها	mvl bSwrp mbAlg fyhA	-1
+overacted	متصنع	mtSnE	-1
+overawe	أرهب	Arhb	-1
+overbalance	فقد توازنه	fqd twAznh	-1
+overbalanced	overbalanced	overbalanced	-1
+overbearing	متعجرف	mtEjrf	-1
+overbearingly	overbearingly	overbearingly	-1
+overblown	بدين	bdyn	-1
+overdo	تطرف	tTrf	-1
+overdone	مبالغ فيه	mbAlg fyh	-1
+overdue	متأخر	mtAxr	-1
+overemphasize	أعطى أهمية كبيرة	AETy Ahmyp kbyrp	-1
+overheat	سخن	sxn	-1
+overkill	مبالغة شديدة	mbAlgp $dydp	-1
+overloaded	مثقلة	mvqlp	-1
+overlook	تطل	tTl	-1
+overpaid	زائدة	zA}dp	-1
+overpayed	overpayed	overpayed	-1
+overplay	فرط في الإعجاب بنفسه	frT fy AlAEjAb bnfsh	-1
+overpower	قهر	qhr	-1
+overpriced	مبالغ فيها	mbAlg fyhA	-1
+overrated	مبالغا فيه	mbAlgA fyh	-1
+overreach	تجاوز	tjAwz	-1
+overrun	تجاوز	tjAwz	-1
+overshadow	تلقي بظلالها	tlqy bZlAlhA	-1
+oversight	مراقبة	mrAqbp	-1
+oversights	السهو	Alshw	-1
+oversimplification	إفراط في التصغير	AfrAT fy AltSgyr	-1
+oversimplified	التبسيط	AltbsyT	-1
+oversimplify	تبسيط	tbsyT	-1
+oversize	أكبر من المعتاد	Akbr mn AlmEtAd	-1
+overstate	غالى في	gAly fy	-1
+overstated	مبالغ فيه	mbAlg fyh	-1
+overstatement	مبالغة	mbAlgp	-1
+overstatements	المبالغات	AlmbAlgAt	-1
+overstates	يبالغ	ybAlg	-1
+overtaxed	مرهق	mrhq	-1
+overthrow	إسقاط	AsqAT	-1
+overthrows	الإنقلابات	AlAnqlAbAt	-1
+overturn	قلب	qlb	-1
+overweight	وزن زائد	wzn zA}d	-1
+overwhelm	سحق	sHq	-1
+overwhelmed	طغت	Tgt	-1
+overwhelming	ساحق	sAHq	-1
+overwhelmingly	بأغلبية ساحقة	bAglbyp sAHqp	-1
+overwhelms	يقهر	yqhr	-1
+overzealous	مفرط	mfrT	-1
+overzealously	متحمس جدا	mtHms jdA	-1
+overzelous	overzelous	overzelous	-1
+pain	ألم	Alm	-1
+painful	مؤلم	mWlm	-1
+painfull	مؤلم	mWlm	-1
+painfully	مؤلم	mWlm	-1
+pains	آلام	AlAm	-1
+pale	باهت	bAht	-1
+pales	تتضاءل	ttDA'l	-1
+paltry	تافه	tAfh	-1
+pan	مقلاة	mqlAp	-1
+pandemonium	هرج ومرج	hrj wmrj	-1
+pander	القواد	AlqwAd	-1
+pandering	القوادة	AlqwAdp	-1
+panders	القوادون	AlqwAdwn	-1
+panic	ذعر	*Er	-1
+panick	panick	panick	-1
+panicked	بالذعر	bAl*Er	-1
+panicking	هلع	hlE	-1
+panicky	المذعورين	Alm*Ewryn	-1
+paradoxical	متناقض	mtnAqD	-1
+paradoxically	بشكل متناقض	b$kl mtnAqD	-1
+paralize	paralize	paralize	-1
+paralyzed	مشلول	m$lwl	-1
+paranoia	جنون العظمة	jnwn AlEZmp	-1
+paranoid	مريض بجنون العظمة	mryD bjnwn AlEZmp	-1
+parasite	طفيلي	Tfyly	-1
+pariah	شخص منبوذ	$xS mnbw*	-1
+parody	محاكاة ساخرة	mHAkAp sAxrp	-1
+partiality	تحيز	tHyz	-1
+partisan	نصير	nSyr	-1
+partisans	أنصار	AnSAr	-1
+passe	عتيق	Etyq	-1
+passive	سلبي	slby	-1
+passiveness	الكسل	Alksl	-1
+pathetic	مثير للشفقة	mvyr ll$fqp	-1
+pathetically	بشكل مثير للشفقة	b$kl mvyr ll$fqp	-1
+patronize	عاضد	EADd	-1
+paucity	ندرة	ndrp	-1
+pauper	فقير	fqyr	-1
+paupers	فقراء المعدمين	fqrA' AlmEdmyn	-1
+payback	الاسترداد	AlAstrdAd	-1
+peculiar	غريب	gryb	-1
+peculiarly	من الغريب	mn Algryb	-1
+pedantic	متحذلق	mtH*lq	-1
+peeled	مقشر	mq$r	-1
+peeve	غيظ	gyZ	-1
+peeved	منزعج	mnzEj	-1
+peevish	نكد	nkd	-1
+peevishly	peevishly	peevishly	-1
+penalize	معاقبة	mEAqbp	-1
+penalty	عقوبة	Eqwbp	-1
+perfidious	غدار	gdAr	-1
+perfidity	perfidity	perfidity	-1
+perfunctory	سطحي	sTHy	-1
+peril	عرض للخطر	ErD llxTr	-1
+perilous	محفوف بالمخاطر	mHfwf bAlmxATr	-1
+perilously	فيه خطورة	fyh xTwrp	-1
+perish	هلك	hlk	-1
+pernicious	خبيث	xbyv	-1
+perplex	حير	Hyr	-1
+perplexed	متحير	mtHyr	-1
+perplexing	مربك	mrbk	-1
+perplexity	حيرة	Hyrp	-1
+persecute	اضطهد	ADThd	-1
+persecution	اضطهاد	ADThAd	-1
+pertinacious	عنيد	Enyd	-1
+pertinaciously	pertinaciously	pertinaciously	-1
+pertinacity	عناد	EnAd	-1
+perturb	شوش	$w$	-1
+perturbed	قلق	qlq	-1
+pervasive	انتشارا	Ant$ArA	-1
+perverse	منحرف	mnHrf	-1
+perversely	معاكس	mEAks	-1
+perversion	الانحراف	AlAnHrAf	-1
+perversity	فساد	fsAd	-1
+pervert	ضل	Dl	-1
+perverted	جاحد	jAHd	-1
+perverts	منحرفين	mnHrfyn	-1
+pessimism	تشاؤم	t$AWm	-1
+pessimistic	متشائم	mt$A}m	-1
+pessimistically	بتشاؤم	bt$AWm	-1
+pest	الآفات	AlAfAt	-1
+pestilent	مهلك	mhlk	-1
+petrified	تحجرت	tHjrt	-1
+petrify	تسمر في مكانه	tsmr fy mkAnh	-1
+pettifog	pettifog	pettifog	-1
+petty	تافه	tAfh	-1
+phobia	رهاب	rhAb	-1
+phobic	مرهوب	mrhwb	-1
+phony	كاذب	kA*b	-1
+picket	وتد	wtd	-1
+picketed	مرابط	mrAbT	-1
+picketing	الاعتصام	AlAEtSAm	-1
+pickets	الأوتاد	AlAwtAd	-1
+picky	من الصعب إرضاءه	mn AlSEb ArDA'h	-1
+pig	خنزير	xnzyr	-1
+pigs	الخنازير	AlxnAzyr	-1
+pillage	نهب	nhb	-1
+pillory	مقطرة	mqTrp	-1
+pimple	بثرة	bvrp	-1
+pinch	قرصة	qrSp	-1
+pique	غضب	gDb	-1
+pitiable	حقير	Hqyr	-1
+pitiful	بائس	bA}s	-1
+pitifully	الرثاء	AlrvA'	-1
+pitiless	عديم الرحمة	Edym AlrHmp	-1
+pitilessly	بلا رحمة	blA rHmp	-1
+pittance	مبلغ زهيد	mblg zhyd	-1
+pity	شفقة	$fqp	-1
+plagiarize	انتحل	AntHl	-1
+plague	طاعون	TAEwn	-1
+plasticky	plasticky	plasticky	-1
+plaything	ألعوبة	AlEwbp	-1
+plea	حجة	Hjp	-1
+pleas	مناشدات	mnA$dAt	-1
+plebeian	عامي	EAmy	-1
+plight	مأزق	mAzq	-1
+plot	قطعة	qTEp	-1
+plotters	المتآمرين	AlmtAmryn	-1
+ploy	حيلة	Hylp	-1
+plunder	نهب	nhb	-1
+plunderer	الغانم	AlgAnm	-1
+pointless	غير مبرر	gyr mbrr	-1
+pointlessly	بلا هدف	blA hdf	-1
+poison	سم	sm	-1
+poisonous	سام	sAm	-1
+poisonously	poisonously	poisonously	-1
+pokey	سجن	sjn	-1
+poky	غير أنيق	gyr Anyq	-1
+polarisation	الاستقطاب	AlAstqTAb	-1
+polemize	polemize	polemize	-1
+pollute	لوث	lwv	-1
+polluter	ملوث	mlwv	-1
+polluters	الملوثين	Almlwvyn	-1
+polution	التلوث	Altlwv	-1
+pompous	أبهى	Abhy	-1
+poor	فقير	fqyr	-1
+poorer	فقرا	fqrA	-1
+poorest	أفقر	Afqr	-1
+poorly	سيئة	sy}p	-1
+posturing	المواقف	AlmwAqf	-1
+pout	تجهم	tjhm	-1
+poverty	فقر	fqr	-1
+powerless	ضعيف	DEyf	-1
+prate	هذر	h*r	-1
+pratfall	pratfall	pratfall	-1
+prattle	ثرثرة	vrvrp	-1
+precarious	محفوفة بالمخاطر	mHfwfp bAlmxATr	-1
+precariously	غير مستقرة	gyr mstqrp	-1
+precipitate	عاجل	EAjl	-1
+precipitous	متهور	mthwr	-1
+predatory	ضار	DAr	-1
+predicament	مأزق	mAzq	-1
+prejudge	حكم مسبقا	Hkm msbqA	-1
+prejudice	تحيز	tHyz	-1
+prejudices	التحيزات	AltHyzAt	-1
+prejudicial	ضار	DAr	-1
+premeditated	متعمد	mtEmd	-1
+preoccupy	انشغل	An$gl	-1
+preposterous	مناف للعقل	mnAf llEql	-1
+preposterously	بغرابة	bgrAbp	-1
+presumptuous	وقح	wqH	-1
+presumptuously	بصلف	bSlf	-1
+pretence	تظاهر	tZAhr	-1
+pretend	تظاهر	tZAhr	-1
+pretense	تظاهر	tZAhr	-1
+pretentious	رنان	rnAn	-1
+pretentiously	pretentiously	pretentiously	-1
+prevaricate	وارب	wArb	-1
+pricey	الثمن	Alvmn	-1
+pricier	سعرا	sErA	-1
+prick	وخزة	wxzp	-1
+prickle	وخز	wxz	-1
+prickles	الأشواك	AlA$wAk	-1
+prideful	فخور	fxwr	-1
+prik	بريك	bryk	-1
+primitive	بدائي	bdA}y	-1
+prison	السجن	Alsjn	-1
+prisoner	سجين	sjyn	-1
+problem	مشكلة	m$klp	-1
+problematic	إشكالية	A$kAlyp	-1
+problems	المشاكل	Alm$Akl	-1
+procrastinate	ماطل	mATl	-1
+procrastinates	هجة	hjp	-1
+procrastination	مماطلة	mmATlp	-1
+profane	دنس	dns	-1
+profanity	تجديف	tjdyf	-1
+prohibit	حظر	HZr	-1
+prohibitive	تحريمي	tHrymy	-1
+prohibitively	مانع	mAnE	-1
+propaganda	دعاية	dEAyp	-1
+propagandize	قام بالدعاية	qAm bAldEAyp	-1
+proprietary	امتلاكي	AmtlAky	-1
+prosecute	محاكمة	mHAkmp	-1
+protest	احتجاج	AHtjAj	-1
+protested	احتج	AHtj	-1
+protesting	يحتجون	yHtjwn	-1
+protests	الاحتجاجات	AlAHtjAjAt	-1
+protracted	طويل	Twyl	-1
+provocation	تحرش	tHr$	-1
+provocative	استفزازي	AstfzAzy	-1
+provoke	إثارة	AvArp	-1
+pry	نقب	nqb	-1
+pugnacious	مشاكس	m$Aks	-1
+pugnaciously	فالرئيس	fAlr}ys	-1
+pugnacity	مشاكسة	m$Aksp	-1
+punch	لكمة	lkmp	-1
+punish	معاقبة	mEAqbp	-1
+punishable	يعاقب	yEAqb	-1
+punitive	عقابي	EqAby	-1
+punk	فاسق	fAsq	-1
+puny	سقيم	sqym	-1
+puppet	دمية	dmyp	-1
+puppets	دمى	dmy	-1
+puzzled	متحير	mtHyr	-1
+puzzlement	حيرة	Hyrp	-1
+puzzling	المحير	AlmHyr	-1
+quack	الدجال	AldjAl	-1
+qualm	وخز الضمير	wxz AlDmyr	-1
+qualms	تبكيت الضمير	tbkyt AlDmyr	-1
+quandary	مأزق	mAzq	-1
+quarrel	شجار	$jAr	-1
+quarrellous	quarrellous	quarrellous	-1
+quarrellously	quarrellously	quarrellously	-1
+quarrels	نزاع	nzAE	-1
+quarrelsome	مشاكس	m$Aks	-1
+quash	سحق	sHq	-1
+queer	عليل	Elyl	-1
+questionable	مشكوك فيه	m$kwk fyh	-1
+quibble	مواربة	mwArbp	-1
+quibbles	الخفايا	AlxfAyA	-1
+quitter	انهزامي	AnhzAmy	-1
+rabid	مصاب بداء الكلب	mSAb bdA' Alklb	-1
+racism	عنصرية	EnSryp	-1
+racist	عنصري	EnSry	-1
+racists	العنصريين	AlEnSryyn	-1
+racy	مفعم بالحياة	mfEm bAlHyAp	-1
+radical	متطرف	mtTrf	-1
+radicalization	التطرف	AltTrf	-1
+radically	جذري	j*ry	-1
+radicals	الجذور	Alj*wr	-1
+rage	غضب	gDb	-1
+ragged	رث الثياب	rv AlvyAb	-1
+raging	تحتدم	tHtdm	-1
+rail	سكة حديدية	skp Hdydyp	-1
+raked	بتمشيط	btm$yT	-1
+rampage	ثورة	vwrp	-1
+rampant	متفشية	mtf$yp	-1
+ramshackle	آيل للسقوط	Ayl llsqwT	-1
+rancor	حقد	Hqd	-1
+randomly	عشوائيا	E$wA}yA	-1
+rankle	فور ملهبا	fwr mlhbA	-1
+rant	خرف	xrf	-1
+ranted	وانبرى	wAnbry	-1
+ranting	صراخ	SrAx	-1
+rantingly	rantingly	rantingly	-1
+rants	التشدق	Alt$dq	-1
+rape	اغتصاب	AgtSAb	-1
+raped	اغتصاب	AgtSAb	-1
+raping	اغتصاب	AgtSAb	-1
+rascal	الوغد	Alwgd	-1
+rascals	الأوغاد	AlAwgAd	-1
+rash	طفح جلدي	TfH jldy	-1
+rattle	حشرجة الموت	H$rjp Almwt	-1
+rattled	هز	hz	-1
+rattles	خشخيشات	x$xy$At	-1
+ravage	تلف	tlf	-1
+raving	هذيان	h*yAn	-1
+reactionary	رجعي	rjEy	-1
+rebellious	متمرد	mtmrd	-1
+rebuff	رفض	rfD	-1
+rebuke	توبيخ	twbyx	-1
+recalcitrant	حرون	Hrwn	-1
+recant	نكر	nkr	-1
+recession	ركود	rkwd	-1
+recessionary	الركود	Alrkwd	-1
+reckless	متهور	mthwr	-1
+recklessly	بتهور	bthwr	-1
+recklessness	تهور	thwr	-1
+recoil	نكص	nkS	-1
+recourses	الانتصاف	AlAntSAf	-1
+redundancy	وفرة	wfrp	-1
+redundant	زائد	zA}d	-1
+refusal	رفض	rfD	-1
+refuse	رفض	rfD	-1
+refused	رفض	rfD	-1
+refuses	يرفض	yrfD	-1
+refusing	رافض	rAfD	-1
+refutation	دحض	dHD	-1
+refute	دحض	dHD	-1
+refuted	فند	fnd	-1
+refutes	يدحض	ydHD	-1
+refuting	دحض	dHD	-1
+regress	تراجع	trAjE	-1
+regression	تراجع	trAjE	-1
+regressive	متردي	mtrdy	-1
+regret	ندم	ndm	-1
+regreted	ولنجتون	wlnjtwn	-1
+regretful	نادم	nAdm	-1
+regretfully	للأسف	llAsf	-1
+regrets	ندم	ndm	-1
+regrettable	مؤسف	mWsf	-1
+regrettably	للأسف	llAsf	-1
+regretted	يأسف	yAsf	-1
+reject	رفض	rfD	-1
+rejected	مرفوض	mrfwD	-1
+rejecting	رافض	rAfD	-1
+rejection	الرفض	AlrfD	-1
+rejects	ترفض	trfD	-1
+relapse	انتكاس	AntkAs	-1
+relentless	متصلب	mtSlb	-1
+relentlessly	بلا هوادة	blA hwAdp	-1
+relentlessness	صرامة	SrAmp	-1
+reluctance	ممانعة	mmAnEp	-1
+reluctant	ممانع	mmAnE	-1
+reluctantly	على مضض	Ely mDD	-1
+remorse	ندم	ndm	-1
+remorseful	نادم جدا	nAdm jdA	-1
+remorsefully	remorsefully	remorsefully	-1
+remorseless	وحشي	wH$y	-1
+remorselessly	رحمة	rHmp	-1
+remorselessness	عدم الشفقة	Edm Al$fqp	-1
+renounce	تنازل	tnAzl	-1
+renunciation	تنازل	tnAzl	-1
+repel	صد	Sd	-1
+repetitive	التكرار	AltkrAr	-1
+reprehensible	مستحق اللوم	mstHq Allwm	-1
+reprehensibly	reprehensibly	reprehensibly	-1
+reprehension	توبيخ	twbyx	-1
+reprehensive	reprehensive	reprehensive	-1
+repress	قمع	qmE	-1
+repression	قمع	qmE	-1
+repressive	قمعي	qmEy	-1
+reprimand	تأنيب	tAnyb	-1
+reproach	عتاب	EtAb	-1
+reproachful	موبخ	mwbx	-1
+reprove	وبخ	wbx	-1
+reprovingly	مؤنبا	mWnbA	-1
+repudiate	رفض	rfD	-1
+repudiation	الرفض	AlrfD	-1
+repugn	repugn	repugn	-1
+repugnance	اشمئزاز	A$m}zAz	-1
+repugnant	بغيض	bgyD	-1
+repugnantly	repugnantly	repugnantly	-1
+repulse	صد	Sd	-1
+repulsed	صدت	Sdt	-1
+repulsing	وصد	wSd	-1
+repulsive	مثير للاشمئزاز	mvyr llA$m}zAz	-1
+repulsively	مثير للاشمئزاز	mvyr llA$m}zAz	-1
+repulsiveness	منفرا	mnfrA	-1
+resent	استاء	AstA'	-1
+resentful	امتعاضي	AmtEADy	-1
+resentment	استياء	AstyA'	-1
+resignation	استقالة	AstqAlp	-1
+resigned	استقال	AstqAl	-1
+resistance	مقاومة	mqAwmp	-1
+restless	ضيق الصدر	Dyq AlSdr	-1
+restlessness	الأرق	AlArq	-1
+restrict	حصر	HSr	-1
+restricted	مقيد	mqyd	-1
+restriction	تقييد	tqyyd	-1
+restrictive	تقييدي	tqyydy	-1
+resurgent	نامي	nAmy	-1
+retaliate	ثأر	vAr	-1
+retaliatory	ثأري	vAry	-1
+retard	تأخير	tAxyr	-1
+retarded	معوق خلقيا	mEwq xlqyA	-1
+retardedness	retardedness	retardedness	-1
+retards	يؤخر	yWxr	-1
+reticent	صموت	Smwt	-1
+retract	تراجع	trAjE	-1
+retreat	تراجع	trAjE	-1
+retreated	تراجع	trAjE	-1
+revenge	انتقام	AntqAm	-1
+revengeful	منتقم	mntqm	-1
+revengefully	revengefully	revengefully	-1
+revert	العودة	AlEwdp	-1
+revile	سب	sb	-1
+reviled	يلعن	ylEn	-1
+revoke	سحب	sHb	-1
+revolt	ثورة	vwrp	-1
+revolting	ثوري	vwry	-1
+revoltingly	revoltingly	revoltingly	-1
+revulsion	اشمئزاز	A$m}zAz	-1
+revulsive	revulsive	revulsive	-1
+rhapsodize	تحدث بحماسة	tHdv bHmAsp	-1
+rhetoric	بلاغة	blAgp	-1
+rhetorical	بلاغي	blAgy	-1
+ricer	المصفاة	AlmSfAp	-1
+ridicule	سخرية	sxryp	-1
+ridicules	السخرية	Alsxryp	-1
+ridiculous	سخيف	sxyf	-1
+ridiculously	يبعث على السخرية	ybEv Ely Alsxryp	-1
+rife	منتشر	mnt$r	-1
+rift	صدع	SdE	-1
+rifts	الخلافات	AlxlAfAt	-1
+rigid	جامد	jAmd	-1
+rigidity	صلابة	SlAbp	-1
+rigidness	الصلابة	AlSlAbp	-1
+rile	أقلق	Aqlq	-1
+riled	تغضب	tgDb	-1
+rip	RIP	RIP	-1
+rip-off	رواغ	rwAg	-1
+ripoff	رواغ	rwAg	-1
+ripped	انتقادات شديدة اللهجة	AntqAdAt $dydp Allhjp	-1
+risk	خطر	xTr	-1
+risks	المخاطر	AlmxATr	-1
+risky	محفوف بالمخاطر	mHfwf bAlmxATr	-1
+rival	منافس	mnAfs	-1
+rivalry	منافسة	mnAfsp	-1
+roadblocks	الحواجز	AlHwAjz	-1
+rocky	صخري	Sxry	-1
+rogue	محتال	mHtAl	-1
+rollercoaster	السفينة الدوارة	Alsfynp AldwArp	-1
+rot	تعفن	tEfn	-1
+rotten	فاسد	fAsd	-1
+rough	هائج	hA}j	-1
+rremediable	rremediable	rremediable	-1
+rubbish	قمامة	qmAmp	-1
+rude	غير مهذب	gyr mh*b	-1
+rue	أسف	Asf	-1
+ruffian	همجي	hmjy	-1
+ruffle	كشكش	k$k$	-1
+ruin	خراب	xrAb	-1
+ruined	خرب	xrb	-1
+ruining	تخريب	txryb	-1
+ruinous	طاحن	TAHn	-1
+ruins	أطلال	ATlAl	-1
+rumbling	قرقرة	qrqrp	-1
+rumor	إشاعة	A$AEp	-1
+rumors	الشائعات	Al$A}EAt	-1
+rumours	الشائعات	Al$A}EAt	-1
+rumple	غضن	gDn	-1
+run-down	انقلب	Anqlb	-1
+runaway	يهرب	yhrb	-1
+rupture	تمزق	tmzq	-1
+rust	صدأ	SdA	-1
+rusts	الصدأ	AlSdA	-1
+rusty	صدئ	Sd}	-1
+rut	شبق	$bq	-1
+ruthless	قاس	qAs	-1
+ruthlessly	بلا رحمة	blA rHmp	-1
+ruthlessness	قساوة	qsAwp	-1
+ruts	الأخاديد	AlAxAdyd	-1
+sabotage	تخريب	txryb	-1
+sack	كيس	kys	-1
+sacrificed	ضحى	DHy	-1
+sad	حزين	Hzyn	-1
+sadden	حزن	Hzn	-1
+sadly	للأسف	llAsf	-1
+sadness	حزن	Hzn	-1
+sag	تبلد	tbld	-1
+sagged	متدلى	mtdly	-1
+sagging	تراجع	trAjE	-1
+saggy	ساغي	sAgy	-1
+sags	يتدلى	ytdly	-1
+salacious	عاهر	EAhr	-1
+sanctimonious	مدعي التهذيب	mdEy Alth*yb	-1
+sap	شخص ساذج	$xS sA*j	-1
+sarcasm	سخرية	sxryp	-1
+sarcastic	ساخر	sAxr	-1
+sarcastically	ساخرا	sAxrA	-1
+sardonic	تهكمي	thkmy	-1
+sardonically	ساخرا	sAxrA	-1
+sass	ساس	sAs	-1
+satirical	الساخرة	AlsAxrp	-1
+satirize	هجا	hjA	-1
+savage	متوحش	mtwH$	-1
+savaged	هاجم	hAjm	-1
+savagery	الوحشية	AlwH$yp	-1
+savages	المتوحشين	AlmtwH$yn	-1
+scaly	وضيع	wDyE	-1
+scam	احتيال	AHtyAl	-1
+scams	الحيل	AlHyl	-1
+scandal	فضيحة	fDyHp	-1
+scandalize	غيظ	gyZ	-1
+scandalized	مروع	mrwE	-1
+scandalous	فاضح	fADH	-1
+scandalously	فاضح	fADH	-1
+scandals	فضائح	fDA}H	-1
+scandel	scandel	scandel	-1
+scandels	scandels	scandels	-1
+scant	مقتر	mqtr	-1
+scapegoat	كبش الفداء	kb$ AlfdA'	-1
+scar	ندب	ndb	-1
+scarce	نادر	nAdr	-1
+scarcely	نادرا	nAdrA	-1
+scarcity	نقص	nqS	-1
+scare	فزع	fzE	-1
+scared	خائفة	xA}fp	-1
+scarier	ترويعا	trwyEA	-1
+scariest	الأكثر رعبا	AlAkvr rEbA	-1
+scarily	بالاقتراب	bAlAqtrAb	-1
+scarred	ندوب	ndwb	-1
+scars	ندوب	ndwb	-1
+scary	مخيف	mxyf	-1
+scathing	لاذع	lA*E	-1
+scathingly	بانتقاد	bAntqAd	-1
+sceptical	متشككين	mt$kkyn	-1
+scoff	هزأ	hzA	-1
+scoffingly	scoffingly	scoffingly	-1
+scold	أنب	Anb	-1
+scolded	وبخ	wbx	-1
+scolding	توبيخ	twbyx	-1
+scoldingly	scoldingly	scoldingly	-1
+scorching	لاذع	lA*E	-1
+scorchingly	محرق	mHrq	-1
+scorn	سخرية	sxryp	-1
+scornful	محتقر	mHtqr	-1
+scornfully	بازدراء	bAzdrA'	-1
+scoundrel	الوغد	Alwgd	-1
+scourge	كارثة	kArvp	-1
+scowl	تجهم	tjhm	-1
+scramble	تزاحم	tzAHm	-1
+scrambled	تدافعت	tdAfEt	-1
+scrambles	يندفع	yndfE	-1
+scrambling	الهرولة	Alhrwlp	-1
+scrap	خردة	xrdp	-1
+scratch	خدش	xd$	-1
+scratched	خدش	xd$	-1
+scratches	الخدوش	Alxdw$	-1
+scratchy	مشخبط	m$xbT	-1
+scream	صرخة	Srxp	-1
+screech	صياح	SyAH	-1
+screw-up	اخفق	Axfq	-1
+screwed	ثمل	vml	-1
+screwed-up	ثمل المتابعة	vml AlmtAbEp	-1
+screwy	معطوب	mETwb	-1
+scuff	أبلى	Ably	-1
+scuffs	يجرجر	yjrjr	-1
+scum	زبد	zbd	-1
+scummy	حقير	Hqyr	-1
+second-class	الدرجة الثانية	Aldrjp AlvAnyp	-1
+second-tier	من الدرجة الثانية	mn Aldrjp AlvAnyp	-1
+secretive	كتوم	ktwm	-1
+sedentary	غير مترحل	gyr mtrHl	-1
+seedy	غير طبيعي	gyr TbyEy	-1
+seethe	هيجان	hyjAn	-1
+seething	عارم	EArm	-1
+self-coup	انقلاب ذاتي	AnqlAb *Aty	-1
+self-criticism	النقد الذاتي	Alnqd Al*Aty	-1
+self-defeating	الهزيمة الذاتية	Alhzymp Al*Atyp	-1
+self-destructive	ذاتي التدمير	*Aty Altdmyr	-1
+self-humiliation	الإذلال الذاتي	AlA*lAl Al*Aty	-1
+self-interest	مصلحة شخصية	mSlHp $xSyp	-1
+self-interested	المصلحة الذاتية	AlmSlHp Al*Atyp	-1
+self-serving	لخدمة مصالح ذاتية	lxdmp mSAlH *Atyp	-1
+selfinterested	selfinterested	selfinterested	-1
+selfish	أناني	AnAny	-1
+selfishly	بأنانية	bAnAnyp	-1
+selfishness	أنانية	AnAnyp	-1
+semi-retarded	شبه المتخلفين	$bh Almtxlfyn	-1
+senile	خرف	xrf	-1
+sensationalize	هول	hwl	-1
+senseless	لا معنى له	lA mEny lh	-1
+senselessly	عبثا	EbvA	-1
+seriousness	خطورة	xTwrp	-1
+sermonize	وعظ	wEZ	-1
+servitude	عبودية	Ebwdyp	-1
+set-up	نصب	nSb	-1
+setback	نكسة	nksp	-1
+setbacks	النكسات	AlnksAt	-1
+sever	قطع	qTE	-1
+severe	شديدة	$dydp	-1
+severity	خطورة	xTwrp	-1
+sh*t	ش ر *	$ r *	-1
+shabby	رث	rv	-1
+shadowy	ظليل	Zlyl	-1
+shady	شادي	$Ady	-1
+shake	هزة	hzp	-1
+shaky	متزعزع	mtzEzE	-1
+shallow	ضحل	DHl	-1
+sham	زائف	zA}f	-1
+shambles	فوضى	fwDy	-1
+shame	عار	EAr	-1
+shameful	مخجل	mxjl	-1
+shamefully	مخجل	mxjl	-1
+shamefulness	الخزي	Alxzy	-1
+shameless	وقح	wqH	-1
+shamelessly	بلا خجل	blA xjl	-1
+shamelessness	مجون	mjwn	-1
+shark	سمك القرش	smk Alqr$	-1
+sharply	بحدة	bHdp	-1
+shatter	تحطيم	tHTym	-1
+shemale	خنثى	xnvy	-1
+shimmer	وميض	wmyD	-1
+shimmy	نوع من الرقص	nwE mn AlrqS	-1
+shipwreck	حطام سفينة	HTAm sfynp	-1
+shirk	الشرك	Al$rk	-1
+shirker	المتهرب	Almthrb	-1
+shit	القرف	Alqrf	-1
+shiver	رجفة	rjfp	-1
+shock	صدمة	Sdmp	-1
+shocked	صدمت	Sdmt	-1
+shocking	مروع	mrwE	-1
+shockingly	بصورة مروعة	bSwrp mrwEp	-1
+shoddy	حقير	Hqyr	-1
+short-lived	قصير الأجل	qSyr AlAjl	-1
+shortage	نقص	nqS	-1
+shortchange	شورتشنج	$wrt$nj	-1
+shortcoming	عيب	Eyb	-1
+shortcomings	أوجه القصور	Awjh AlqSwr	-1
+shortness	قصر	qSr	-1
+shortsighted	قصير النظر	qSyr AlnZr	-1
+shortsightedness	قصر النظر	qSr AlnZr	-1
+showdown	مواجهة حاسمة	mwAjhp HAsmp	-1
+shrew	إمرأة سليطة	AmrAp slyTp	-1
+shriek	زعق	zEq	-1
+shrill	شديد	$dyd	-1
+shrilly	أجش	Aj$	-1
+shrivel	ذبل	*bl	-1
+shroud	كفن	kfn	-1
+shrouded	يكتنفها	yktnfhA	-1
+shrug	هز كتفيه	hz ktfyh	-1
+shun	اجتنب	Ajtnb	-1
+shunned	تجنبت	tjnbt	-1
+sick	مريض	mryD	-1
+sicken	سقم	sqm	-1
+sickening	مقزز للنفس	mqzz llnfs	-1
+sickeningly	مقرف	mqrf	-1
+sickly	غث	gv	-1
+sickness	مرض	mrD	-1
+sidetrack	انحرف	AnHrf	-1
+sidetracked	تلهينا	tlhynA	-1
+siege	حصار	HSAr	-1
+sillily	sillily	sillily	-1
+silly	سخيف	sxyf	-1
+simplistic	التبسيط	AltbsyT	-1
+simplistically	مبسط	mbsT	-1
+sin	خطيئة	xTy}p	-1
+sinful	مذنب	m*nb	-1
+sinfully	شرير	$ryr	-1
+sinister	شرير	$ryr	-1
+sinisterly	التشاؤم	Alt$AWm	-1
+sink	بالوعة	bAlwEp	-1
+sinking	غرق	grq	-1
+skeletons	هياكل عظمية	hyAkl EZmyp	-1
+skeptic	شكوكي	$kwky	-1
+skeptical	متشككين	mt$kkyn	-1
+skeptically	بتشكك	bt$kk	-1
+skepticism	شك	$k	-1
+sketchy	سطحي	sTHy	-1
+skimpy	بخيل	bxyl	-1
+skinny	نحيل	nHyl	-1
+skittish	غير مستقر	gyr mstqr	-1
+skittishly	skittishly	skittishly	-1
+skulk	توارى	twAry	-1
+slack	فترة ركود	ftrp rkwd	-1
+slander	افتراء	AftrA'	-1
+slanderer	مفتري	mftry	-1
+slanderous	افترائي	AftrA}y	-1
+slanderously	بهتانا	bhtAnA	-1
+slanders	الافتراءات	AlAftrA'At	-1
+slap	صفعة	SfEp	-1
+slashing	خفض	xfD	-1
+slaughter	ذبح	*bH	-1
+slaughtered	ذبح	*bH	-1
+slave	عبد	Ebd	-1
+slaves	العبيد	AlEbyd	-1
+sleazy	مهلهل	mhlhl	-1
+slime	سال لعابه	sAl lEAbh	-1
+slog	كدح	kdH	-1
+slogged	slogged	slogged	-1
+slogging	الضرب	AlDrb	-1
+slogs	slogs	slogs	-1
+sloooooooooooooow	sloooooooooooooow	sloooooooooooooow	-1
+sloooow	sloooow	sloooow	-1
+slooow	slooow	slooow	-1
+sloow	sloow	sloow	-1
+sloppily	باهمال	bAhmAl	-1
+sloppy	قذر	q*r	-1
+sloth	كسل	ksl	-1
+slothful	كسل	ksl	-1
+slow	بطيء	bTy'	-1
+slow-moving	حركة بطيئة	Hrkp bTy}p	-1
+slowed	تباطأ	tbATA	-1
+slower	أبطأ	AbTA	-1
+slowest	أبطأ	AbTA	-1
+slowly	ببطء	bbT'	-1
+sloww	sloww	sloww	-1
+slowww	slowww	slowww	-1
+slowwww	slowwww	slowwww	-1
+slug	سبيكة	sbykp	-1
+sluggish	كسول	kswl	-1
+slump	ركود	rkwd	-1
+slumping	تراجع	trAjE	-1
+slumpping	slumpping	slumpping	-1
+slur	افتراء	AftrA'	-1
+slut	وقحة	wqHp	-1
+sluts	الفاسقات	AlfAsqAt	-1
+sly	خبيث	xbyv	-1
+smack	صفعة	SfEp	-1
+smallish	يشرفوا	y$rfwA	-1
+smash	سحق	sHq	-1
+smear	مسحة	msHp	-1
+smell	رائحة	rA}Hp	-1
+smelled	رائحة	rA}Hp	-1
+smelling	رائحة	rA}Hp	-1
+smells	الروائح	AlrwA}H	-1
+smelly	كريه الرائحة	kryh AlrA}Hp	-1
+smelt	فاحت	fAHt	-1
+smoke	دخان	dxAn	-1
+smokescreen	ستار	stAr	-1
+smolder	دخان كثيف	dxAn kvyf	-1
+smoldering	المشتعلة	Alm$tElp	-1
+smother	اختنق	Axtnq	-1
+smoulder	دخان كثيف	dxAn kvyf	-1
+smouldering	المشتعلة	Alm$tElp	-1
+smudge	لطخة	lTxp	-1
+smudged	ملطخ	mlTx	-1
+smudges	اللطخات	AllTxAt	-1
+smudging	تلطخ	tlTx	-1
+smug	معتد بنفسه	mEtd bnfsh	-1
+smugly	بشكل متعجرف	b$kl mtEjrf	-1
+smut	سخام	sxAm	-1
+smuttier	smuttier	smuttier	-1
+smuttiest	smuttiest	smuttiest	-1
+smutty	بذيء	b*y'	-1
+snag	عقبة	Eqbp	-1
+snagged	متمزق	mtmzq	-1
+snagging	التمزق	Altmzq	-1
+snags	عقبات	EqbAt	-1
+snappish	لاذع	lA*E	-1
+snappishly	snappishly	snappishly	-1
+snare	كمين	kmyn	-1
+snarky	المتعرج	AlmtErj	-1
+snarl	زمجر	zmjr	-1
+sneak	تسلل	tsll	-1
+sneakily	حقير	Hqyr	-1
+sneaky	متستر	mtstr	-1
+sneer	سخرية	sxryp	-1
+sneering	الإحتقار	AlAHtqAr	-1
+sneeringly	sneeringly	sneeringly	-1
+snob	المقلد	Almqld	-1
+snobbish	مغرور	mgrwr	-1
+snobby	متكبر	mtkbr	-1
+snobish	snobish	snobish	-1
+snobs	تتكبر	ttkbr	-1
+snub	أفطس	AfTs	-1
+so-cal	لذلك كال	l*lk kAl	-1
+soapy	صابوني	SAbwny	-1
+sob	تنهد	tnhd	-1
+sober	رصين	rSyn	-1
+sobering	حكمة	Hkmp	-1
+solemn	مهيب	mhyb	-1
+solicitude	اهتمام	AhtmAm	-1
+somber	نكد	nkd	-1
+sore	قرحة	qrHp	-1
+sorely	بمرارة	bmrArp	-1
+soreness	وجع	wjE	-1
+sorrow	حزن	Hzn	-1
+sorrowful	محزن	mHzn	-1
+sorrowfully	الحسرة	AlHsrp	-1
+sorry	آسف	Asf	-1
+sour	حامض	HAmD	-1
+sourly	بحدة	bHdp	-1
+spade	مجرفة	mjrfp	-1
+spank	صفعة على الكفل	SfEp Ely Alkfl	-1
+spendy	غال	gAl	-1
+spew	تقيأ	tqyA	-1
+spewed	انبعث	AnbEv	-1
+spewing	يقذف	yq*f	-1
+spews	يتقيأ	ytqyA	-1
+spilling	إراقة	ArAqp	-1
+spinster	العانس	AlEAns	-1
+spiritless	خائر	xA}r	-1
+spite	رغم	rgm	-1
+spiteful	حاقد	HAqd	-1
+spitefully	يسيئون	ysy}wn	-1
+spitefulness	حقد	Hqd	-1
+splatter	بقع	bqE	-1
+split	الانقسام	AlAnqsAm	-1
+splitting	شق	$q	-1
+spoil	غنيمة	gnymp	-1
+spoilage	تلف	tlf	-1
+spoilages	spoilages	spoilages	-1
+spoiled	مدلل	mdll	-1
+spoilled	spoilled	spoilled	-1
+spoils	الغنائم	AlgnA}m	-1
+spook	شبح	$bH	-1
+spookier	spookier	spookier	-1
+spookiest	spookiest	spookiest	-1
+spookily	spookily	spookily	-1
+spooky	مجفل	mjfl	-1
+spoon-fed	التلقين	Altlqyn	-1
+spoon-feed	دلل	dll	-1
+spoonfed	spoonfed	spoonfed	-1
+sporadic	متقطع	mtqTE	-1
+spotty	منقط	mnqT	-1
+spurious	زائف	zA}f	-1
+spurn	صد	Sd	-1
+sputter	بصق	bSq	-1
+squabble	شجار	$jAr	-1
+squabbling	الخلافات	AlxlAfAt	-1
+squander	بدد	bdd	-1
+squash	قرع	qrE	-1
+squeak	صرير	Sryr	-1
+squeaks	الصرير	AlSryr	-1
+squeaky	حاد	HAd	-1
+squeal	انتحب	AntHb	-1
+squealing	الأنين	AlAnyn	-1
+squeals	الصئيل	AlS}yl	-1
+squirm	تشنج	t$nj	-1
+stab	طعنة	TEnp	-1
+stagnant	راكد	rAkd	-1
+stagnate	ركد	rkd	-1
+stagnation	ركود	rkwd	-1
+staid	رزين	rzyn	-1
+stain	وصمة	wSmp	-1
+stains	البقع	AlbqE	-1
+stale	قديمة	qdymp	-1
+stalemate	طريق مسدود	Tryq msdwd	-1
+stall	كشك	k$k	-1
+stalls	الأكشاك	AlAk$Ak	-1
+stammer	تأتأة	tAtAp	-1
+stampede	فرار جماعي	frAr jmAEy	-1
+standstill	طريق مسدود	Tryq msdwd	-1
+stark	بكل معنى الكلمة	bkl mEny Alklmp	-1
+starkly	بشكل صارخ	b$kl SArx	-1
+startle	جفل	jfl	-1
+startling	مذهل	m*hl	-1
+startlingly	بشكل مذهل	b$kl m*hl	-1
+starvation	الموت جوعا	Almwt jwEA	-1
+starve	جاع	jAE	-1
+static	ساكن	sAkn	-1
+steal	سرقة	srqp	-1
+stealing	سرقة	srqp	-1
+steals	يسرق	ysrq	-1
+steep	انحدار	AnHdAr	-1
+steeply	بشكل حاد	b$kl HAd	-1
+stench	رائحة نتنة	rA}Hp ntnp	-1
+stereotype	الصورة النمطية	AlSwrp AlnmTyp	-1
+stereotypical	قولبي	qwlby	-1
+stereotypically	مبسط	mbsT	-1
+stern	مؤخرة	mWxrp	-1
+stew	خنة	xnp	-1
+sticky	لزج	lzj	-1
+stiff	صلب	Slb	-1
+stiffness	صلابة	SlAbp	-1
+stifle	خنق	xnq	-1
+stifling	خانق	xAnq	-1
+stiflingly	ستيفلينجلي	styflynjly	-1
+stigma	وصمة عار	wSmp EAr	-1
+stigmatize	وصم	wSm	-1
+sting	لدغة	ldgp	-1
+stinging	لاذع	lA*E	-1
+stingingly	stingingly	stingingly	-1
+stingy	بخيل	bxyl	-1
+stink	نتن	ntn	-1
+stinks	ينتن	yntn	-1
+stodgy	ثقيل	vqyl	-1
+stole	نهب	nhb	-1
+stolen	مسروق	msrwq	-1
+stooge	مستضعف	mstDEf	-1
+stooges	المضحكين	AlmDHkyn	-1
+stormy	عاصف	EASf	-1
+straggle	تنتشر المنازل	tnt$r AlmnAzl	-1
+straggler	المتشرد	Almt$rd	-1
+strain	سلالة	slAlp	-1
+strained	متصنع	mtSnE	-1
+straining	تجهد	tjhd	-1
+strange	غريب	gryb	-1
+strangely	الغريب	Algryb	-1
+stranger	غريب	gryb	-1
+strangest	أغرب	Agrb	-1
+strangle	خنق	xnq	-1
+streaky	معرق	mErq	-1
+strenuous	نشيط	n$yT	-1
+stress	إجهاد	AjhAd	-1
+stresses	الضغوط	AlDgwT	-1
+stressful	المجهدة	Almjhdp	-1
+stressfully	stressfully	stressfully	-1
+stricken	مكروب	mkrwb	-1
+strict	صارم	SArm	-1
+strictly	بدقة	bdqp	-1
+strident	حاد	HAd	-1
+stridently	حادة	HAdp	-1
+strife	صراع	SrAE	-1
+strike	إضراب	ADrAb	-1
+stringent	صارم	SArm	-1
+stringently	صارم	SArm	-1
+struck	ضرب	Drb	-1
+struggle	صراع	SrAE	-1
+struggled	كافح	kAfH	-1
+struggles	النضالات	AlnDAlAt	-1
+struggling	تكافح	tkAfH	-1
+strut	تبختر	tbxtr	-1
+stubborn	عنيد	Enyd	-1
+stubbornly	بعناد	bEnAd	-1
+stubbornness	عناد	EnAd	-1
+stuck	عالق	EAlq	-1
+stuffy	متجهم الوجه	mtjhm Alwjh	-1
+stumble	تعثر	tEvr	-1
+stumbled	تعثرت	tEvrt	-1
+stumbles	يتعثر	ytEvr	-1
+stump	عقب السيجارة	Eqb AlsyjArp	-1
+stumped	الحيرة	AlHyrp	-1
+stumps	جذوعها	j*wEhA	-1
+stun	صعق	SEq	-1
+stunt	حيلة	Hylp	-1
+stunted	توقف	twqf	-1
+stupid	غبي	gby	-1
+stupidest	أغبى	Agby	-1
+stupidity	غباء	gbA'	-1
+stupidly	بغباء	bgbA'	-1
+stupified	stupified	stupified	-1
+stupify	stupify	stupify	-1
+stupor	ذهول	*hwl	-1
+stutter	تلعثم	tlEvm	-1
+stuttered	تمتمت	tmtmt	-1
+stuttering	تمتمة	tmtmp	-1
+stutters	التعتعة	AltEtEp	-1
+sty	مكان قذر	mkAn q*r	-1
+stymied	في وضع حرج	fy wDE Hrj	-1
+sub-par	دون المستوى	dwn Almstwy	-1
+subdued	مكبوت	mkbwt	-1
+subjected	تعرض	tErD	-1
+subjection	إخضاع	AxDAE	-1
+subjugate	قهر	qhr	-1
+subjugation	إخضاع	AxDAE	-1
+submissive	منقاد	mnqAd	-1
+subordinate	المرؤوس	AlmrWws	-1
+subpoena	استدعاء	AstdEA'	-1
+subpoenas	مذكرات الجلب	m*krAt Aljlb	-1
+subservience	خنوع	xnwE	-1
+subservient	تابع	tAbE	-1
+substandard	دون المستوى	dwn Almstwy	-1
+subtract	طرح	TrH	-1
+subversion	تخريب	txryb	-1
+subversive	مخرب	mxrb	-1
+subversively	subversively	subversively	-1
+subvert	تخريب	txryb	-1
+succumb	استسلم	Astslm	-1
+suck	مص	mS	-1
+sucked	امتص	AmtS	-1
+sucker	إبله	Ablh	-1
+sucks	تمتص	tmtS	-1
+sucky	مرضية تماما، فيرجى	mrDyp tmAmA, fyrjy	-1
+sue	قاضى	qADy	-1
+sued	دعوى قضائية ضد	dEwy qDA}yp Dd	-1
+sueing	sueing	sueing	-1
+sues	السويس	Alswys	-1
+suffer	عانى	EAny	-1
+suffered	عانى	EAny	-1
+sufferer	مريض	mryD	-1
+sufferers	الذين يعانون من	Al*yn yEAnwn mn	-1
+suffering	معاناة	mEAnAp	-1
+suffers	يعاني	yEAny	-1
+suffocate	خنق	xnq	-1
+sugar-coat	السكر معطف	Alskr mETf	-1
+sugar-coated	مغطى بالسكر	mgTy bAlskr	-1
+sugarcoated	مغطى بالسكر	mgTy bAlskr	-1
+suicidal	انتحاري	AntHAry	-1
+suicide	انتحار	AntHAr	-1
+sulk	حرد	Hrd	-1
+sullen	متجهم	mtjhm	-1
+sully	تلطخ	tlTx	-1
+sunder	شطر	$Tr	-1
+sunk	غرقت	grqt	-1
+sunken	غائر	gA}r	-1
+superficial	سطحي	sTHy	-1
+superficiality	سطحية	sTHyp	-1
+superficially	بشكل سطحي	b$kl sTHy	-1
+superfluous	غير ضروري	gyr Drwry	-1
+superstition	خرافة	xrAfp	-1
+superstitious	خرافي	xrAfy	-1
+suppress	قمع	qmE	-1
+suppression	قمع	qmE	-1
+surrender	استسلام	AstslAm	-1
+susceptible	عرضة	ErDp	-1
+suspect	مشتبه فيه	m$tbh fyh	-1
+suspicion	اشتباه	A$tbAh	-1
+suspicions	الشكوك	Al$kwk	-1
+suspicious	مشبوه	m$bwh	-1
+suspiciously	بارتياب	bArtyAb	-1
+swagger	اختيال	AxtyAl	-1
+swamped	اغراق	AgrAq	-1
+sweaty	تفوح منه رائحة العرق	tfwH mnh rA}Hp AlErq	-1
+swelled	تضخمت	tDxmt	-1
+swelling	تورم	twrm	-1
+swindle	احتيال	AHtyAl	-1
+swipe	صفعة	SfEp	-1
+swollen	متورم	mtwrm	-1
+symptom	عرض	ErD	-1
+symptoms	الأعراض	AlAErAD	-1
+syndrome	متلازمة	mtlAzmp	-1
+taboo	محرم	mHrm	-1
+tacky	مبتذل	mbt*l	-1
+taint	تلوث	tlwv	-1
+tainted	الملوث	Almlwv	-1
+tamper	تلاعب	tlAEb	-1
+tangle	تشابك	t$Abk	-1
+tangled	متشابكة	mt$Abkp	-1
+tangles	التشابك	Alt$Abk	-1
+tank	خزان	xzAn	-1
+tanked	سكران	skrAn	-1
+tanks	الدبابات	AldbAbAt	-1
+tantrum	نوبة غضب	nwbp gDb	-1
+tardy	غير مبالي	gyr mbAly	-1
+tarnish	تلطخ	tlTx	-1
+tarnished	شوهت	$wht	-1
+tarnishes	يشوه	y$wh	-1
+tarnishing	تشويه	t$wyh	-1
+tattered	رث الثياب	rv AlvyAb	-1
+taunt	تهكم	thkm	-1
+taunting	السخرية	Alsxryp	-1
+tauntingly	tauntingly	tauntingly	-1
+taunts	التهكم	Althkm	-1
+taut	مشدود	m$dwd	-1
+tawdry	تافهة	tAfhp	-1
+taxing	شاق مرهق	$Aq mrhq	-1
+tease	ندف	ndf	-1
+teasingly	مثار	mvAr	-1
+tedious	ممل	mml	-1
+tediously	مضجر	mDjr	-1
+temerity	تهور	thwr	-1
+temper	مزاج	mzAj	-1
+tempest	عاصفة	EASfp	-1
+temptation	إغراء	AgrA'	-1
+tenderness	حنان	HnAn	-1
+tense	توتر	twtr	-1
+tension	توتر	twtr	-1
+tentative	مؤقت	mWqt	-1
+tentatively	مؤقتا	mWqtA	-1
+tenuous	ضعيف	DEyf	-1
+tenuously	خيط رفيع	xyT rfyE	-1
+tepid	فاتر	fAtr	-1
+terrible	رهيب	rhyb	-1
+terribleness	الفظاعه	AlfZAEh	-1
+terribly	رهيب	rhyb	-1
+terror	رعب	rEb	-1
+terror-genic	الارهاب الجيني	AlArhAb Aljyny	-1
+terrorism	إرهاب	ArhAb	-1
+terrorize	إرهاب	ArhAb	-1
+testily	بنزق	bnzq	-1
+testy	سريع الغضب	sryE AlgDb	-1
+tetchily	tetchily	tetchily	-1
+tetchy	سريع الغضب	sryE AlgDb	-1
+thankless	ناكر للجميل	nAkr lljmyl	-1
+thicker	سمكا	smkA	-1
+thirst	عطش	ET$	-1
+thorny	شائك	$A}k	-1
+thoughtless	أرعن	ArEn	-1
+thoughtlessly	تفكير	tfkyr	-1
+thoughtlessness	طيش	Ty$	-1
+thrash	جلد	jld	-1
+threat	التهديد	Althdyd	-1
+threaten	هدد	hdd	-1
+threatening	مهدد	mhdd	-1
+threats	التهديدات	AlthdydAt	-1
+threesome	مجموعة من ثلاثة أشخاص	mjmwEp mn vlAvp A$xAS	-1
+throb	نبض	nbD	-1
+throbbed	نبضت	nbDt	-1
+throbbing	الخفقان	AlxfqAn	-1
+throbs	الدقات	AldqAt	-1
+throttle	خنق	xnq	-1
+thug	سفاح	sfAH	-1
+thumb-down	الإبهام لأسفل	AlAbhAm lAsfl	-1
+thumbs-down	استهجن	Asthjn	-1
+thwart	إحباط	AHbAT	-1
+time-consuming	استهلاك الوقت	AsthlAk Alwqt	-1
+timid	خجول	xjwl	-1
+timidity	خجل	xjl	-1
+timidly	بخجل	bxjl	-1
+timidness	الخجل	Alxjl	-1
+tin-y	القصدير-Y	AlqSdyr-y	-1
+tingled	متوخز	mtwxz	-1
+tingling	تنميل	tnmyl	-1
+tired	متعب	mtEb	-1
+tiresome	ممل	mml	-1
+tiring	متعب	mtEb	-1
+tiringly	tiringly	tiringly	-1
+toil	كدح	kdH	-1
+toll	رسوم	rswm	-1
+top-heavy	أعلى الثقيلة	AEly Alvqylp	-1
+topple	قلب	qlb	-1
+torment	عذاب	E*Ab	-1
+tormented	معذب	mE*b	-1
+torrent	سيل	syl	-1
+tortuous	متعرج	mtErj	-1
+torture	تعذيب	tE*yb	-1
+tortured	تعذيب	tE*yb	-1
+tortures	التعذيب	AltE*yb	-1
+torturing	تعذيب	tE*yb	-1
+torturous	تعذيبا	tE*ybA	-1
+torturously	torturously	torturously	-1
+totalitarian	شمولي	$mwly	-1
+touchy	شديد الحساسية	$dyd AlHsAsyp	-1
+toughness	صلابة	SlAbp	-1
+tout	بائع متجول	bA}E mtjwl	-1
+touted	توصف	twSf	-1
+touts	تنتهج	tnthj	-1
+toxic	سام	sAm	-1
+traduce	وشى	w$y	-1
+tragedy	مأساة	mAsAp	-1
+tragic	مأساوي	mAsAwy	-1
+tragically	مأساويا	mAsAwyA	-1
+traitor	خائن	xA}n	-1
+traitorous	خائن	xA}n	-1
+traitorously	traitorously	traitorously	-1
+tramp	متشرد	mt$rd	-1
+trample	سحق	sHq	-1
+transgress	تجاوز	tjAwz	-1
+transgression	مخالفة	mxAlfp	-1
+trap	فخ	fx	-1
+traped	traped	traped	-1
+trapped	المحاصرين	AlmHASryn	-1
+trash	قمامة	qmAmp	-1
+trashed	الحضيض	AlHDyD	-1
+trashy	ملىء بالقمامة	mly' bAlqmAmp	-1
+trauma	صدمة	Sdmp	-1
+traumatic	جرحي	jrHy	-1
+traumatically	جارح	jArH	-1
+traumatize	الهلع	AlhlE	-1
+traumatized	صدمة	Sdmp	-1
+travesties	التحريفات	AltHryfAt	-1
+travesty	صورة زائفة	Swrp zA}fp	-1
+treacherous	غادر	gAdr	-1
+treacherously	غدرا	gdrA	-1
+treachery	خيانة	xyAnp	-1
+treason	خيانة	xyAnp	-1
+treasonous	خيانة	xyAnp	-1
+trick	خدعة	xdEp	-1
+tricked	خداع	xdAE	-1
+trickery	تحايل	tHAyl	-1
+tricky	صعب	SEb	-1
+trivial	تافه	tAfh	-1
+trivialize	يهون	yhwn	-1
+trouble	مشكلة	m$klp	-1
+troubled	قلق	qlq	-1
+troublemaker	غوغائي	gwgA}y	-1
+troubles	مشاكل	m$Akl	-1
+troublesome	مزعج	mzEj	-1
+troublesomely	troublesomely	troublesomely	-1
+troubling	مقلق	mqlq	-1
+troublingly	مقلق	mqlq	-1
+truant	غائب	gA}b	-1
+tumble	تعثر	tEvr	-1
+tumbled	تراجع	trAjE	-1
+tumbles	السقوط	AlsqwT	-1
+tumultuous	هائج	hA}j	-1
+turbulent	مشاغب	m$Agb	-1
+turmoil	اضطراب	ADTrAb	-1
+twist	تحريف	tHryf	-1
+twisted	ملفوف	mlfwf	-1
+twists	التقلبات	AltqlbAt	-1
+two-faced	ذو وجهين	*w wjhyn	-1
+two-faces	#NAME?	#NAME?	-1
+tyrannical	استبدادي	AstbdAdy	-1
+tyrannically	استبدادية	AstbdAdyp	-1
+tyranny	استبداد	AstbdAd	-1
+tyrant	طاغية	TAgyp	-1
+ugh	قرف	qrf	-1
+uglier	أقبح	AqbH	-1
+ugliest	أقبح	AqbH	-1
+ugliness	قبح	qbH	-1
+ugly	قبيح	qbyH	-1
+ulterior	خفي	xfy	-1
+ultimatum	إنذار	An*Ar	-1
+ultimatums	الانذارات	AlAn*ArAt	-1
+ultra-hardline	المتشددة جدا	Almt$ddp jdA	-1
+un-viewable	برنامج الأمم المتحدة للللعرض	brnAmj AlAmm AlmtHdp llllErD	-1
+unable	غير قادر	gyr qAdr	-1
+unacceptable	غير مقبول	gyr mqbwl	-1
+unacceptablely	unacceptablely	unacceptablely	-1
+unacceptably	غير مقبول	gyr mqbwl	-1
+unaccessible	غير ممكن	gyr mmkn	-1
+unaccustomed	غير متعود	gyr mtEwd	-1
+unachievable	غير قابلة للتحقيق	gyr qAblp lltHqyq	-1
+unaffordable	لا يمكن تحمله	lA ymkn tHmlh	-1
+unappealing	غير جذاب	gyr j*Ab	-1
+unattractive	غير جذاب	gyr j*Ab	-1
+unauthentic	مزيف	mzyf	-1
+unavailable	غير متاح	gyr mtAH	-1
+unavoidably	لا يمكن تجنبه	lA ymkn tjnbh	-1
+unbearable	لا يطاق	lA yTAq	-1
+unbearablely	unbearablely	unbearablely	-1
+unbelievable	لا يصدق	lA ySdq	-1
+unbelievably	لا يصدق	lA ySdq	-1
+uncaring	غير مكترثة	gyr mktrvp	-1
+uncertain	غير مؤكد	gyr mWkd	-1
+uncivil	غير متمدن	gyr mtmdn	-1
+uncivilized	غير متحضر	gyr mtHDr	-1
+unclean	نجس	njs	-1
+unclear	غير واضح	gyr wADH	-1
+uncollectible	غير قابلة للتحصيل	gyr qAblp lltHSyl	-1
+uncomfortable	غير مريح	gyr mryH	-1
+uncomfortably	غير مريح	gyr mryH	-1
+uncomfy	أونكومفي	Awnkwmfy	-1
+uncompetitive	غير قادرة على المنافسة	gyr qAdrp Ely AlmnAfsp	-1
+uncompromising	عنيد	Enyd	-1
+uncompromisingly	دون هوادة	dwn hwAdp	-1
+unconfirmed	غير مؤكد	gyr mWkd	-1
+unconstitutional	غير دستوري	gyr dstwry	-1
+uncontrolled	غير المنضبط	gyr AlmnDbT	-1
+unconvincing	غير مقنع للعقل	gyr mqnE llEql	-1
+unconvincingly	غير مقنع	gyr mqnE	-1
+uncooperative	غير متعاون	gyr mtEAwn	-1
+uncouth	غير مألوف	gyr mAlwf	-1
+uncreative	غير البناء	gyr AlbnA'	-1
+undecided	متردد	mtrdd	-1
+undefined	غير محدد	gyr mHdd	-1
+undependability	undependability	undependability	-1
+undependable	غير موثوق	gyr mwvwq	-1
+undercut	ضرب كرة الغولف	Drb krp Algwlf	-1
+undercuts	يضعف	yDEf	-1
+undercutting	الخفض	AlxfD	-1
+underdog	خاسر	xAsr	-1
+underestimate	استخف	Astxf	-1
+underlings	تنتابهم	tntAbhm	-1
+undermine	تقويض	tqwyD	-1
+undermined	قوض	qwD	-1
+undermines	تقويضه	tqwyDh	-1
+undermining	تقويض	tqwyD	-1
+underpaid	يتقاضون أجورا	ytqADwn AjwrA	-1
+underpowered	أضعفت	ADEft	-1
+undersized	أصغر من الحجم العادي	ASgr mn AlHjm AlEAdy	-1
+undesirable	غير مرغوب فيه	gyr mrgwb fyh	-1
+undetermined	غير حازم	gyr HAzm	-1
+undid	أفقرت	Afqrt	-1
+undignified	غير وقور	gyr wqwr	-1
+undissolved	غير منحل	gyr mnHl	-1
+undocumented	لا يحملون وثائق	lA yHmlwn wvA}q	-1
+undone	غير مصنوع	gyr mSnwE	-1
+undue	مفرط	mfrT	-1
+unease	القلق	Alqlq	-1
+uneasily	بصعوبة	bSEwbp	-1
+uneasiness	قلق	qlq	-1
+uneasy	غير مستقر	gyr mstqr	-1
+uneconomical	غير اقتصادية	gyr AqtSAdyp	-1
+unemployed	عاطل عن العمل	EATl En AlEml	-1
+unequal	غير متكافئ	gyr mtkAf}	-1
+unethical	غير أخلاقية	gyr AxlAqyp	-1
+uneven	متفاوت	mtfAwt	-1
+uneventful	هادئ	hAd}	-1
+unexpected	غير متوقع	gyr mtwqE	-1
+unexpectedly	فجأة	fjAp	-1
+unexplained	غير المبررة	gyr Almbrrp	-1
+unfairly	غير عادل	gyr EAdl	-1
+unfaithful	غير مخلص	gyr mxlS	-1
+unfaithfully	خياني	xyAny	-1
+unfamiliar	غير مألوف	gyr mAlwf	-1
+unfavorable	غير مؤات	gyr mWAt	-1
+unfeeling	عديم الشعور	Edym Al$Ewr	-1
+unfinished	ناقص	nAqS	-1
+unfit	غير مؤهل	gyr mWhl	-1
+unforeseen	غير متوقع	gyr mtwqE	-1
+unforgiving	لا ترحم	lA trHm	-1
+unfortunate	يؤسف له	yWsf lh	-1
+unfortunately	للأسف	llAsf	-1
+unfounded	أساس لها من الصحة	AsAs lhA mn AlSHp	-1
+unfriendly	غير ودي	gyr wdy	-1
+unfulfilled	لم تتحقق	lm ttHqq	-1
+unfunded	الممول	Almmwl	-1
+ungovernable	صعب المراس	SEb AlmrAs	-1
+ungrateful	جاحد	jAHd	-1
+unhappily	بتعاسة	btEAsp	-1
+unhappiness	تعاسة	tEAsp	-1
+unhappy	تعيس	tEys	-1
+unhealthy	غير صحي	gyr SHy	-1
+unhelpful	غير مساعد	gyr msAEd	-1
+unilateralism	الأحادية	AlAHAdyp	-1
+unimaginable	غير معقول	gyr mEqwl	-1
+unimaginably	لا يمكن تصوره	lA ymkn tSwrh	-1
+unimportant	غير مهم	gyr mhm	-1
+uninformed	جهل	jhl	-1
+uninsured	غير المؤمن عليهم	gyr AlmWmn Elyhm	-1
+unintelligible	لا يمكن فهمه	lA ymkn fhmh	-1
+unintelligile	unintelligile	unintelligile	-1
+unipolar	القطب الواحد	AlqTb AlwAHd	-1
+unjust	ظالم	ZAlm	-1
+unjustifiable	غير مبرر	gyr mbrr	-1
+unjustifiably	غير مبرر	gyr mbrr	-1
+unjustified	غير مبرر	gyr mbrr	-1
+unjustly	ظلما	ZlmA	-1
+unkind	قاس	qAs	-1
+unkindly	غير مؤدب	gyr mWdb	-1
+unknown	غير معروف	gyr mErwf	-1
+unlamentable	unlamentable	unlamentable	-1
+unlamentably	unlamentably	unlamentably	-1
+unlawful	غير شرعي	gyr $rEy	-1
+unlawfully	بصورة غير قانونية	bSwrp gyr qAnwnyp	-1
+unlawfulness	مشروعية	m$rwEyp	-1
+unleash	إطلاق العنان	ATlAq AlEnAn	-1
+unlicensed	غير مرخصة	gyr mrxSp	-1
+unlikely	بعيد	bEyd	-1
+unlucky	قليل الحظ	qlyl AlHZ	-1
+unmoved	لا مبالي	lA mbAly	-1
+unnatural	غير طبيعي	gyr TbyEy	-1
+unnaturally	غير طبيعي	gyr TbyEy	-1
+unnecessary	غير ضروري	gyr Drwry	-1
+unneeded	لزوم لها	lzwm lhA	-1
+unnerve	فقد ثقته بنفسه	fqd vqth bnfsh	-1
+unnerved	توتر	twtr	-1
+unnerving	الأعصاب	AlAESAb	-1
+unnervingly	unnervingly	unnervingly	-1
+unnoticed	دون أن يلاحظها أحد	dwn An ylAHZhA AHd	-1
+unobserved	مخفي	mxfy	-1
+unorthodox	غير تقليدي	gyr tqlydy	-1
+unorthodoxy	unorthodoxy	unorthodoxy	-1
+unpleasant	بغيض	bgyD	-1
+unpleasantries	مرير	mryr	-1
+unpopular	غير شعبي	gyr $Eby	-1
+unpredictable	لا يمكن التنبؤ به	lA ymkn AltnbW bh	-1
+unprepared	غير مستعد	gyr mstEd	-1
+unproductive	غير منتج	gyr mntj	-1
+unprofitable	غير مريح	gyr mryH	-1
+unprove	unprove	unprove	-1
+unproved	غير مثبت	gyr mvbt	-1
+unproven	غير مثبتة	gyr mvbtp	-1
+unproves	unproves	unproves	-1
+unproving	unproving	unproving	-1
+unqualified	غير مؤهل	gyr mWhl	-1
+unravel	كشف	k$f	-1
+unraveled	انحلت	AnHlt	-1
+unreachable	لا يمكن الوصول	lA ymkn AlwSwl	-1
+unreadable	غير قابل للقراءة	gyr qAbl llqrA'p	-1
+unrealistic	غير واقعي	gyr wAqEy	-1
+unreasonable	غير معقول	gyr mEqwl	-1
+unreasonably	غير معقول	gyr mEqwl	-1
+unrelenting	لا يلين	lA ylyn	-1
+unrelentingly	على نحو قاس	Ely nHw qAs	-1
+unreliability	لا يمكن الاعتماد عليها	lA ymkn AlAEtmAd ElyhA	-1
+unreliable	غير جدير بالثقة	gyr jdyr bAlvqp	-1
+unresolved	دون حل	dwn Hl	-1
+unresponsive	لا تستجيب	lA tstjyb	-1
+unrest	اضطراب	ADTrAb	-1
+unruly	جامح	jAmH	-1
+unsafe	غير مأمون	gyr mAmwn	-1
+unsatisfactory	غير مرض	gyr mrD	-1
+unsavory	بغيض	bgyD	-1
+unscrupulous	عديم الضمير	Edym AlDmyr	-1
+unscrupulously	ازع من ضمير	AzE mn Dmyr	-1
+unsecure	غير آمن	gyr Amn	-1
+unseemly	غير لائق	gyr lA}q	-1
+unsettle	أزاح	AzAH	-1
+unsettled	غير مستقر	gyr mstqr	-1
+unsettling	مقلق	mqlq	-1
+unsettlingly	مضطربا	mDTrbA	-1
+unskilled	غير بارع	gyr bArE	-1
+unsophisticated	ساذج	sA*j	-1
+unsound	غير سليم	gyr slym	-1
+unspeakable	لا يوصف	lA ywSf	-1
+unspeakablely	unspeakablely	unspeakablely	-1
+unspecified	غير محدد	gyr mHdd	-1
+unstable	غير مستقر	gyr mstqr	-1
+unsteadily	unsteadily	unsteadily	-1
+unsteadiness	عدم الثبات	Edm AlvbAt	-1
+unsteady	متقلب	mtqlb	-1
+unsuccessful	غير ناجح	gyr nAjH	-1
+unsuccessfully	دون جدوى	dwn jdwy	-1
+unsupported	غير معتمد	gyr mEtmd	-1
+unsupportive	غير داعمة	gyr dAEmp	-1
+unsure	غير متأكد	gyr mtAkd	-1
+unsuspecting	المطمئنين	AlmTm}nyn	-1
+unsustainable	غير قابل للاستمرار	gyr qAbl llAstmrAr	-1
+untenable	لا يمكن الدفاع عنها	lA ymkn AldfAE EnhA	-1
+untested	لم تختبر	lm txtbr	-1
+unthinkable	غير وارد	gyr wArd	-1
+unthinkably	لا يفكر به	lA yfkr bh	-1
+untimely	غير ملائم	gyr mlA}m	-1
+untouched	يمسها	ymshA	-1
+untrue	غير صحيح	gyr SHyH	-1
+untrustworthy	غير موثوق به	gyr mwvwq bh	-1
+untruthful	كاذب	kA*b	-1
+unusable	غير صالح للإستعمال	gyr SAlH llAstEmAl	-1
+unusably	unusably	unusably	-1
+unuseable	unuseable	unuseable	-1
+unuseably	unuseably	unuseably	-1
+unusual	غير عادي	gyr EAdy	-1
+unusually	على غير العادة	Ely gyr AlEAdp	-1
+unviewable	unviewable	unviewable	-1
+unwanted	غير مرغوب فيه	gyr mrgwb fyh	-1
+unwarranted	لا مبرر له	lA mbrr lh	-1
+unwatchable	unwatchable	unwatchable	-1
+unwelcome	غير مرغوب فيه	gyr mrgwb fyh	-1
+unwell	مريض	mryD	-1
+unwieldy	غير عملي	gyr Emly	-1
+unwilling	غير راغبة	gyr rAgbp	-1
+unwillingly	كرها	krhA	-1
+unwillingness	عدم رغبة	Edm rgbp	-1
+unwise	غير حكيم	gyr Hkym	-1
+unwisely	غير حكيم	gyr Hkym	-1
+unworkable	بليد	blyd	-1
+unworthy	غير مستحق	gyr mstHq	-1
+unyielding	صلب	Slb	-1
+upbraid	لوم	lwm	-1
+upheaval	ثورة	vwrp	-1
+uprising	الانتفاضة	AlAntfADp	-1
+uproar	جلبة	jlbp	-1
+uproarious	صاخب	SAxb	-1
+uproariously	uproariously	uproariously	-1
+uproarous	uproarous	uproarous	-1
+uproarously	uproarously	uproarously	-1
+uproot	اقتلاع	AqtlAE	-1
+upset	مضطراب	mDTrAb	-1
+upseting	upseting	upseting	-1
+upsets	المفاجآت	AlmfAjAt	-1
+upsetting	مزعج	mzEj	-1
+upsettingly	upsettingly	upsettingly	-1
+urgent	العاجلة	AlEAjlp	-1
+useless	عديم الفائدة	Edym AlfA}dp	-1
+usurp	إغتصب سلطة أو عرشة	AgtSb slTp Aw Er$p	-1
+usurper	مغتصب	mgtSb	-1
+utterly	تماما	tmAmA	-1
+vagrant	المتشرد	Almt$rd	-1
+vague	غامض	gAmD	-1
+vagueness	غموض	gmwD	-1
+vain	تافه	tAfh	-1
+vainly	عبثا	EbvA	-1
+vanity	غرور	grwr	-1
+vehement	عنيف	Enyf	-1
+vehemently	بشدة	b$dp	-1
+vengeance	انتقام	AntqAm	-1
+vengeful	منتقم	mntqm	-1
+vengefully	vengefully	vengefully	-1
+vengefulness	الرغبة في الانتقام	Alrgbp fy AlAntqAm	-1
+venom	سم	sm	-1
+venomous	سام	sAm	-1
+venomously	venomously	venomously	-1
+vent	منفس	mnfs	-1
+vestiges	آثار	AvAr	-1
+vex	نكد	nkd	-1
+vexation	إغاظة	AgAZp	-1
+vexing	مهاج	mhAj	-1
+vexingly	ايزال مستخدما	AyzAl mstxdmA	-1
+vibrate	ذبذب	*b*b	-1
+vibrated	صدي	Sdy	-1
+vibrates	يهتز	yhtz	-1
+vibrating	تهتز	thtz	-1
+vibration	اهتزاز	AhtzAz	-1
+vice	نائب	nA}b	-1
+vicious	شرير	$ryr	-1
+viciously	بشراسة	b$rAsp	-1
+viciousness	خبث	xbv	-1
+victimize	احتال	AHtAl	-1
+vile	حقير	Hqyr	-1
+vileness	لؤم	lWm	-1
+vilify	ذم	*m	-1
+villainous	نذل	n*l	-1
+villainously	villainously	villainously	-1
+villains	الأشرار	AlA$rAr	-1
+villian	الشرير	Al$ryr	-1
+villianous	villianous	villianous	-1
+villianously	villianously	villianously	-1
+villify	villify	villify	-1
+vindictive	انتقامي	AntqAmy	-1
+vindictively	vindictively	vindictively	-1
+vindictiveness	نزعة الانتقام	nzEp AlAntqAm	-1
+violate	انتهاك	AnthAk	-1
+violation	مخالفة	mxAlfp	-1
+violator	المخالف	AlmxAlf	-1
+violators	منتهكي	mnthky	-1
+violent	عنيف	Enyf	-1
+violently	بعنف	bEnf	-1
+viper	أفعى سامة	AfEy sAmp	-1
+virulence	خبث	xbv	-1
+virulent	خبيث	xbyv	-1
+virulently	قسوة	qswp	-1
+virus	فيروس	fyrws	-1
+vociferous	صاخب	SAxb	-1
+vociferously	صاخب	SAxb	-1
+volatile	متقلب	mtqlb	-1
+volatility	تطاير	tTAyr	-1
+vomit	قيء	qy'	-1
+vomited	تقيأ	tqyA	-1
+vomiting	قيء	qy'	-1
+vomits	بالتقيؤ	bAltqyW	-1
+vulgar	مبتذل	mbt*l	-1
+vulnerable	عرضة	ErDp	-1
+wack	عضو في الفرقة النسائية في الجيش التركي	EDw fy Alfrqp AlnsA}yp fy Aljy$ Altrky	-1
+wail	عويل	Ewyl	-1
+wallow	تخبط	txbT	-1
+wane	تضاؤل	tDAWl	-1
+waning	انحسار	AnHsAr	-1
+wanton	وحشي	wH$y	-1
+war-like	مثل الحرب	mvl AlHrb	-1
+warily	بحذر	bH*r	-1
+wariness	حذر	H*r	-1
+warlike	مولع بالحرب	mwlE bAlHrb	-1
+warned	حذر	H*r	-1
+warning	تحذير	tH*yr	-1
+warp	انفتل	Anftl	-1
+warped	مشوه	m$wh	-1
+wary	حذر	H*r	-1
+washed-out	ناصل	nASl	-1
+waste	المخلفات	AlmxlfAt	-1
+wasted	ضائع	DA}E	-1
+wasteful	مسرف	msrf	-1
+wastefulness	تبذير	tb*yr	-1
+wasting	تبذير	tb*yr	-1
+water-down	المياه إلى أسفل	AlmyAh Aly Asfl	-1
+watered-down	مخفف	mxff	-1
+wayward	صعب المراس	SEb AlmrAs	-1
+weak	ضعيف	DEyf	-1
+weaken	إضعاف	ADEAf	-1
+weakening	ضعف	DEf	-1
+weaker	أضعف	ADEf	-1
+weakness	ضعف	DEf	-1
+weaknesses	نقاط الضعف	nqAT AlDEf	-1
+weariness	ضجر	Djr	-1
+wearisome	متعب	mtEb	-1
+weary	سئم	s}m	-1
+wedge	وتد	wtd	-1
+weed	عشبة ضارة	E$bp DArp	-1
+weep	تباكى	tbAky	-1
+weird	عجيب	Ejyb	-1
+weirdly	بغرابة	bgrAbp	-1
+wheedle	تملق	tmlq	-1
+whimper	تذمر	t*mr	-1
+whine	أنين	Anyn	-1
+whining	الأنين	AlAnyn	-1
+whiny	متذمر	mt*mr	-1
+whips	السياط	AlsyAT	-1
+whore	عاهرة	EAhrp	-1
+whores	القحبة	AlqHbp	-1
+wicked	شرير	$ryr	-1
+wickedly	شريرة	$ryrp	-1
+wickedness	شر	$r	-1
+wild	بري	bry	-1
+wildly	بعنف	bEnf	-1
+wiles	الحيل	AlHyl	-1
+wilt	ذبول	*bwl	-1
+wily	مراوغ	mrAwg	-1
+wimpy	جبان	jbAn	-1
+wince	جفل	jfl	-1
+wobble	تمايل	tmAyl	-1
+wobbled	تتهادى	tthAdy	-1
+wobbles	التذبذب	Alt*b*b	-1
+woe	ويل	wyl	-1
+woebegone	woebegone	woebegone	-1
+woeful	محزن	mHzn	-1
+woefully	يرثى له	yrvy lh	-1
+womanizer	الفاسق	AlfAsq	-1
+womanizing	معاشرة النساء	mEA$rp AlnsA'	-1
+worn	لبس	lbs	-1
+worried	قلق	qlq	-1
+worriedly	بقلق	bqlq	-1
+worrier	worrier	worrier	-1
+worries	المخاوف	AlmxAwf	-1
+worrisome	مقلق	mqlq	-1
+worry	قلق	qlq	-1
+worrying	مقلق	mqlq	-1
+worryingly	بشكل مثير للقلق	b$kl mvyr llqlq	-1
+worse	أسوأ	AswA	-1
+worsen	تتفاقم	ttfAqm	-1
+worsening	تدهور	tdhwr	-1
+worst	أسوأ	AswA	-1
+worthless	عديم القيمة	Edym Alqymp	-1
+worthlessly	worthlessly	worthlessly	-1
+worthlessness	التفاهه	AltfAhh	-1
+wound	جرح	jrH	-1
+wounds	الجروح	AljrwH	-1
+wrangle	مشاحنة	m$AHnp	-1
+wrath	غيظ	gyZ	-1
+wreak	تعيث	tEyv	-1
+wreaked	عاثت	EAvt	-1
+wreaks	اشاعت	A$AEt	-1
+wreck	تدمير	tdmyr	-1
+wrest	انتزع	AntzE	-1
+wrestle	تصارع	tSArE	-1
+wretch	البائس	AlbA}s	-1
+wretched	ردئ	rd}	-1
+wretchedly	بائس	bA}s	-1
+wretchedness	بؤس	bWs	-1
+wrinkle	تجعد	tjEd	-1
+wrinkled	متجعد	mtjEd	-1
+wrinkles	التجاعيد	AltjAEyd	-1
+wrip	wrip	wrip	-1
+wripped	wripped	wripped	-1
+wripping	wripping	wripping	-1
+writhe	تلوى	tlwy	-1
+wrong	خاطئ	xAT}	-1
+wrongful	ظالم	ZAlm	-1
+wrongly	على خطأ	Ely xTA	-1
+wrought	معمول	mEmwl	-1
+yawn	تثاءب	tvA'b	-1
+zap	انطلق	AnTlq	-1
+zapped	انطلق	AnTlq	-1
+zaps	ينطلق	ynTlq	-1
+zealot	متعصب	mtESb	-1
+zealous	متحمس	mtHms	-1
+zealously	بحماس	bHmAs	-1
+zombie	غيبوبة	gybwbp	-1
