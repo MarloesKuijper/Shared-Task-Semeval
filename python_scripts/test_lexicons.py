@@ -10,7 +10,6 @@
 """
 
 import os, sys, re, subprocess, shlex, argparse
-from tqdm import tqdm
 import numpy as np
 import pyexcel as p
 import csv
@@ -229,19 +228,22 @@ def check_relevance(top_lexicons, lexicon_to_test, emotion_data, lexicons_data, 
 		all_current_lexicons = selection_top
 		all_current_lexicons.append(selection_new)
 		print(all_current_lexicons)
-		if "sentistrength" in all_current_lexicons:
-			all_current_lexicons.remove("sentistrength")
-			lexicons = " ".join(all_current_lexicons)
-			print(lexicons)
-			os_call = " ".join([script, emotion_file, feature_name, args.embeddings, "sentistrength" + " " + lexicons])
-			subprocess.call(os_call, shell=True)
-		else:
-			# selection_top = " ".join([lexicons_data[item] for item in top_lexicons])
-			# selection_new = lexicons_data[lexicon_to_test]
-			lexicons = " ".join(all_current_lexicons)
-			os_call = " ".join([script, emotion_file, feature_name, args.embeddings, lexicons])
-			print(os_call)
-			subprocess.call(os_call, shell=True)
+		
+		## Only do if file does not exist
+		if not os.path.isfile(feature_name):
+			if "sentistrength" in all_current_lexicons:
+				all_current_lexicons.remove("sentistrength")
+				lexicons = " ".join(all_current_lexicons)
+				print(lexicons)
+				os_call = " ".join([script, emotion_file, feature_name, args.embeddings, "sentistrength" + " " + lexicons])
+				subprocess.call(os_call, shell=True)
+			else:
+				# selection_top = " ".join([lexicons_data[item] for item in top_lexicons])
+				# selection_new = lexicons_data[lexicon_to_test]
+				lexicons = " ".join(all_current_lexicons)
+				os_call = " ".join([script, emotion_file, feature_name, args.embeddings, lexicons])
+				print(os_call)
+				subprocess.call(os_call, shell=True)
 
 	lex_dict = get_svm_results(feature_vectors)
 	best_lex, best_score = get_best_score(lex_dict)
@@ -351,12 +353,17 @@ if __name__ == "__main__":
 
 	if len(best_feature_vecs) == 4:
 		## move these items to feature folder with date of today (args.bestembeddings)
-		script = "copy_best_features.sh"
+		
+		##Fix how to call script for unix vs windows
+		if args.unix:
+			script = './copy_best_features.sh'
+		else:
+			script = "copy_best_features.sh"
 		best_features = " ".join(best_feature_vecs)
 		os_call = " ".join([script, args.bestfeatures, best_features])
 		subprocess.call(os_call, shell=True)
 		# write results to txt file
-		with open(args.bestfeatures + "/RESULTS.txt", "w", encoding="utf-8") as outfile:
+		with open(args.bestfeatures + "/RESULTS.txt", "w") as outfile: #removed encoding="utf-8" so it also works in Python2
 			for i in range(4):
 				text = "Best results emotion {0}: {1} with {2}, feature file {3} with embeddings {4}".format(emotions[i], best_scores[i], best_lexicons[i], best_feature_vecs[i], args.embeddings)
 				outfile.write(text)
