@@ -50,7 +50,7 @@ def get_files(files, lexicon_dir=False, emotion=""):
 	    				file_list.append(os.path.join(path, name))
 	    	# if not in lexicon dir (but in emotion dir), if a specific emotion is selected, only take those files related to that emotion
 	    	elif emotion:
-	    		if emotion in name:
+	    		if emotion in name.lower() and name.endswith("arff"):
 	    			file_list.append(os.path.join(path, name))
 	    	else:
 	        	file_list.append(os.path.join(path, name))
@@ -71,6 +71,7 @@ def extract_features(feat_dir, emotion_data, lexicons_to_use, lexicons_data):
 				script = './lexicons_test.sh'
 			else:
 				emotion_name = "-".join(re.split("[.]", emotion_file.split("\\")[-1])[0].split("-")[3:])
+				#emotion_name = "valence"
 				#print(emotion_name)
 				script = 'lexicons_test.sh'
 				# dit zijn windows issues met backslash en forwardslash 
@@ -215,6 +216,7 @@ def check_relevance(top_lexicons, lexicon_to_test, emotion_data, lexicons_data, 
 			script = './lexicons_test.sh'
 		else:
 			emotion_name = "-".join(re.split("[.]", emotion_file.split("\\")[-1])[0].split("-")[3:])
+			#emotion_name = "valence"
 			print(emotion_name)
 			script = 'lexicons_test.sh'
 			# dit zijn windows issues met backslash en forwardslash 
@@ -310,6 +312,7 @@ if __name__ == "__main__":
 
 	args = create_arg_parser()
 	emotions = ["anger", "fear", "joy", "sadness"]
+	valence = ["valence"]
 	best_feature_vecs = []
 	best_lexicons = []
 	best_scores = []

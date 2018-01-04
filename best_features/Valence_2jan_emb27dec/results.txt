@@ -1,0 +1,1 @@
+Best results valence: 0.6532, with lexicons sentistrength mpqa nrchashemo, with embeddings of 27 december.
