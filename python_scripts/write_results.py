@@ -12,7 +12,7 @@ def create_arg_parser():
 	args = parser.parse_args()
 	return args
 
-def get_files(files, ext):
+def get_files(files, ext, options):
 	""" returns files from directory (and subdirectories) 
 		Only get files with certain extension, but if ext == 'all' we get everything """ 
 	file_list = []
@@ -20,18 +20,26 @@ def get_files(files, ext):
 		for name in files:
 			if name.endswith(ext) or ext == 'all':
 				file_list.append(os.path.join(path, name))
-	return file_list
+	
+	## Now sort based on options so that all emotions are in same order
+	final_list = []
+	for em in options:
+		for f in file_list:
+			if em in f: #found emotion in file, add
+				final_list.append(f)
+				break #only add once per emotion
+	return final_list
 
-def predict_and_write_output(features_train, features_test, original_test_file, out_dir):
+def predict_and_write_output(features_train, features_test, original_test_file, out_dir, options):
 	""" takes feature vector for train, feature vector for test and outfile name, 
 	trains svm training data, it predicts the labels for the test data and writes this to a new file in the format of the 
 	original Xtest_file (same as Xtest_file but with 1 extra column)"""
 	
 	## Get lexicon name
 	lexicon_name = features_train.split("/")[-1].split("_")[0]
-	print(lexicon_name)
+	#print(lexicon_name)
 	train_dataset = np.loadtxt(features_train, delimiter=",", skiprows = 1)
-
+	print (features_train, features_test)
 	## split into input (X) and output (Y) variables ##
 	Xtrain = train_dataset[:,0:-1] #select everything but last column (label)
 	Ytrain = train_dataset[:,-1]   #select column
@@ -43,9 +51,8 @@ def predict_and_write_output(features_train, features_test, original_test_file, 
 	## SVM test ##
 	clf = svm.SVR()
 	y_guess = clf.fit(Xtrain, Ytrain).predict(Xtest)
-
-	options = ["anger", "fear", "joy", "sadness", "valence"]
 	name = out_dir + "/" + " ".join([item for item in options if item in features_train]) + "-pred.txt"
+	
 	with open(original_test_file, 'r', encoding="utf-8") as infile:
 		infile = infile.readlines()[1:]
 		data = [line.rstrip() + "\t" + str(y_guess[ix]) for ix, line in enumerate(infile)]
@@ -62,15 +69,14 @@ if __name__ == "__main__":
 	original_test = args.original_test
 	out_dir = args.out_dir
 
-	training_feats = get_files(train_dir, ".csv")
-	test_feats = get_files(test_dir, ".csv")
-	original_txts = get_files(original_test, ".txt")
-	original_txts = [original_txts[2], original_txts[3], original_txts[1], original_txts[0]]
+	options = ["anger", "fear", "joy", "sadness", "valence"]
 
-	print(training_feats)
-	print(test_feats)
-	print(original_txts)
+	training_feats = get_files(train_dir, ".csv", options)
+	test_feats = get_files(test_dir, ".csv", options)
+	original_txts = get_files(original_test, ".txt", options)
+	
+	assert len(training_feats) == len(test_feats) == len(original_txts) #lengths must be the same
 
 	for ix, file in enumerate(training_feats):
-		predict_and_write_output(training_feats[ix], test_feats[ix], original_txts[ix], out_dir)
+		predict_and_write_output(training_feats[ix], test_feats[ix], original_txts[ix], out_dir, options)
 
