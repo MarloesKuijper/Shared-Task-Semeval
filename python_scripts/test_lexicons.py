@@ -99,36 +99,6 @@ def train_test_pearson(clf, X, Y):
 
 	return round(pearsonr(res, Y)[0],4)
 
-def predict_and_write_output(features_train, features_test, original_test_file, outfile):
-	""" takes feature vector for train, feature vector for test and outfile name, 
-	trains svm training data, it predicts the labels for the test data and writes this to a new file in the format of the 
-	original Xtest_file (same as Xtest_file but with 1 extra column)"""
-	
-	## Get lexicon name
-	lexicon_name = features_train.split("/")[-1].split("_")[0]
-	print(lexicon_name)
-	train_dataset = np.loadtxt(features_train, delimiter=",", skiprows = 1)
-
-	## split into input (X) and output (Y) variables ##
-	Xtrain = train_dataset[:,0:-1] #select everything but last column (label)
-	Ytrain = train_dataset[:,-1]   #select column
-
-	test_dataset = np.loadtxt(features_test, delimiter=",", skiprows=1)
-	# for now we take off the label, but with the real test data we don't have the label
-	Xtest = test_dataset[:, 0:-1] 
-	
-	## SVM test ##
-	clf = svm.SVR()
-	y_guess = clf.fit(Xtrain, Ytrain).predict(Xtest)
-	with open(original_test_file, 'r', encoding="utf-8") as infile:
-		infile = infile.readlines()[1:]
-		data = [line.rstrip() + "\t" + str(y_guess[ix]) for ix, line in enumerate(infile)]
-		with open(outfile, 'w', encoding="utf-8") as out:
-			for line in data:
-				out.write(line)
-				out.write("\n")
-
-
 def get_svm_results(feature_vectors):
 	lex_dict = {}
 	
