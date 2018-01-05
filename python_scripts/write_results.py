@@ -30,7 +30,7 @@ def get_files(files, ext, options):
 				break #only add once per emotion
 	return final_list
 
-def predict_and_write_output(features_train, features_test, original_test_file, out_dir, options):
+def predict_and_write_output(features_train, features_test, original_test_file, out_dir, options, task_name):
 	""" takes feature vector for train, feature vector for test and outfile name, 
 	trains svm training data, it predicts the labels for the test data and writes this to a new file in the format of the 
 	original Xtest_file (same as Xtest_file but with 1 extra column)"""
@@ -51,12 +51,13 @@ def predict_and_write_output(features_train, features_test, original_test_file, 
 	## SVM test ##
 	clf = svm.SVR()
 	y_guess = clf.fit(Xtrain, Ytrain).predict(Xtest)
-	name = out_dir + "/" + " ".join([item for item in options if item in features_train]) + "-pred.txt"
+	name = out_dir + "/" + task_name + "_es_" + " ".join([item for item in options if item in features_train]) + "_pred.txt"
 	
 	with open(original_test_file, 'r', encoding="utf-8") as infile:
-		infile = infile.readlines()[1:]
-		data = [line.rstrip() + "\t" + str(y_guess[ix]) for ix, line in enumerate(infile)]
+		infile = infile.readlines()
+		data = ["\t".join(line.split("\t")[:-1]) + "\t" + str(y_guess[ix]) for ix, line in enumerate(infile[1:])]
 		with open(name, 'w', encoding="utf-8") as out:
+			out.write(infile[0])
 			for line in data:
 				out.write(line)
 				out.write("\n")
@@ -78,5 +79,5 @@ if __name__ == "__main__":
 	assert len(training_feats) == len(test_feats) == len(original_txts) #lengths must be the same
 
 	for ix, file in enumerate(training_feats):
-		predict_and_write_output(training_feats[ix], test_feats[ix], original_txts[ix], out_dir, options)
+		predict_and_write_output(training_feats[ix], test_feats[ix], original_txts[ix], out_dir, options, "EI-reg")
 
