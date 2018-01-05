@@ -65,7 +65,7 @@ def extract_features(feat_dir, trained_embeddings, emotion_data):
 				emotion_name = emotion_file.replace('..','').split('.')[0].split('/')[-1]
 				script = './embedding_test.sh'
 			else:
-				embedding_name =  re.split("[.]", embedding.split("\\")[-1])[0]
+				embedding_name =  embedding.split("/")[-1][:-11]
 				emotion_name = re.split("[.]", emotion_file.split("\\")[-1])[0]
 				script = 'embedding_test.sh'
 				# dit zijn windows issues met backslash en forwardslash 
@@ -73,6 +73,7 @@ def extract_features(feat_dir, trained_embeddings, emotion_data):
 				embedding = embedding.replace("\\", "/")
 					
 			feature_name = feat_dir + embedding_name + "_" + emotion_name + ".csv"
+			print(feature_name)
 			
 			if not os.path.isfile(feature_name):
 				# runt een bash script dat de features uit de embeddings haalt -- only if file does not exist
@@ -98,9 +99,10 @@ if __name__ == "__main__":
 	## Create directory to save results to
 	result_dir = args.features + 'results'
 	result_file = result_dir + '/results.txt'
-	subprocess.call("mkdir -p {0}".format(result_dir), shell = True)
+	#subprocess.call("mkdir -p {0}".format(result_dir), shell = True)
 	
 	## Get files from directories
+	print(args.word_embeddings)
 	trained_embeddings 	= get_files(args.word_embeddings, args.emb_ext)
 	emotion_data 		= get_files(args.emotion, '.arff')
 
@@ -108,7 +110,7 @@ if __name__ == "__main__":
 	if not args.no_extract:	
 		extract_features(args.features, trained_embeddings, emotion_data)
 	
-	## Get feature vectors from directory
+	# Get feature vectors from directory
 	feature_vectors = get_files(args.features, '.csv')
 	
 	## Run different algorithm on all feature vectors, print results

@@ -28,6 +28,7 @@ def create_arg_parser():
 	parser.add_argument("-f","--features", required=True, type=str, help="Directory to save (ALL) extracted feature-files to (or only get features if using --no_extract)")
 	parser.add_argument("-best","--bestfeatures", required=True, type=str, help="Directory to save BEST feature-files to (USE DATE AS FOLDER NAME!)")
 	parser.add_argument("-emb", "--embeddings", required=True, type=str, help="Embeddings file to use")
+	parser.add_argument("-t", "--test", default = '', type=str, help="If added contains a folder with dev or test files that will be processed by looking at the training set")
 	parser.add_argument("-n","--no_extract", action = 'store_true', help="We only have to do feature extraction once, by including this parameter we just read the features from --features")
 	parser.add_argument("-u","--unix", action = 'store_true', help="If you run on some Linux system there is a different way of splitting paths etc, so then add this")
 	args = parser.parse_args()
@@ -50,7 +51,7 @@ def get_files(files, lexicon_dir=False, emotion=""):
 	    				file_list.append(os.path.join(path, name))
 	    	# if not in lexicon dir (but in emotion dir), if a specific emotion is selected, only take those files related to that emotion
 	    	elif emotion:
-	    		if emotion in name:
+	    		if emotion in name.lower() and name.endswith("arff"):
 	    			file_list.append(os.path.join(path, name))
 	    	else:
 	        	file_list.append(os.path.join(path, name))
@@ -71,6 +72,7 @@ def extract_features(feat_dir, emotion_data, lexicons_to_use, lexicons_data):
 				script = './lexicons_test.sh'
 			else:
 				emotion_name = "-".join(re.split("[.]", emotion_file.split("\\")[-1])[0].split("-")[3:])
+				#emotion_name = "valence"
 				#print(emotion_name)
 				script = 'lexicons_test.sh'
 				# dit zijn windows issues met backslash en forwardslash 
@@ -97,36 +99,6 @@ def train_test_pearson(clf, X, Y):
 	print("Pearson coefficient: {0}\n".format(pearsonr(res,Y)[0]))
 
 	return round(pearsonr(res, Y)[0],4)
-
-def predict_and_write_output(features_train, features_test, original_test_file, outfile):
-	""" takes feature vector for train, feature vector for test and outfile name, 
-	trains svm training data, it predicts the labels for the test data and writes this to a new file in the format of the 
-	original Xtest_file (same as Xtest_file but with 1 extra column)"""
-	
-	## Get lexicon name
-	lexicon_name = features_train.split("/")[-1].split("_")[0]
-	print(lexicon_name)
-	train_dataset = np.loadtxt(features_train, delimiter=",", skiprows = 1)
-
-	## split into input (X) and output (Y) variables ##
-	Xtrain = train_dataset[:,0:-1] #select everything but last column (label)
-	Ytrain = train_dataset[:,-1]   #select column
-
-	test_dataset = np.loadtxt(features_test, delimiter=",", skiprows=1)
-	# for now we take off the label, but with the real test data we don't have the label
-	Xtest = test_dataset[:, 0:-1] 
-	
-	## SVM test ##
-	clf = svm.SVR()
-	y_guess = clf.fit(Xtrain, Ytrain).predict(Xtest)
-	with open(original_test_file, 'r', encoding="utf-8") as infile:
-		infile = infile.readlines()[1:]
-		data = [line.rstrip() + "\t" + str(y_guess[ix]) for ix, line in enumerate(infile)]
-		with open(outfile, 'w', encoding="utf-8") as out:
-			for line in data:
-				out.write(line)
-				out.write("\n")
-
 
 def get_svm_results(feature_vectors):
 	lex_dict = {}
@@ -158,7 +130,7 @@ def get_svm_results(feature_vectors):
 
 def get_best_score(result_dict):
 	## Get best lexicons (average of 4 scores)	
-	best_score = 0	
+	best_score = -10000	
 	for lex in result_dict:
 		score = float(sum(result_dict[lex])) / len(result_dict[lex])
 		if score > best_score:
@@ -215,6 +187,7 @@ def check_relevance(top_lexicons, lexicon_to_test, emotion_data, lexicons_data, 
 			script = './lexicons_test.sh'
 		else:
 			emotion_name = "-".join(re.split("[.]", emotion_file.split("\\")[-1])[0].split("-")[3:])
+			#emotion_name = "valence"
 			print(emotion_name)
 			script = 'lexicons_test.sh'
 			# dit zijn windows issues met backslash en forwardslash 
@@ -310,6 +283,7 @@ if __name__ == "__main__":
 
 	args = create_arg_parser()
 	emotions = ["anger", "fear", "joy", "sadness"]
+	valence = ["valence"]
 	best_feature_vecs = []
 	best_lexicons = []
 	best_scores = []
@@ -343,13 +317,41 @@ if __name__ == "__main__":
 		lexicons_top.append(best_lex)
 		lexicons_to_use.remove(best_lex)
 
-		# # find optimal set of lexicons
+		## find optimal set of lexicons
 		top_lexicons, top_score, best_feature_vector = find_optimal_lexicon_set(lexicons_to_use, lexicons_top, emotion_data, lexicons, best_score)
 		best_feature_vecs.append(best_feature_vector)
 		top_lexicons = " ".join(top_lexicons)
 		best_lexicons.append(top_lexicons)
 		best_scores.append(str(top_score))
-
+		
+		## Sometimes we also want to process the dev/test files with the lexicon we found for the training set
+		## Do this now, since at this point we know the optimal lexicon set for this emotion
+		if args.test:
+			found_file = False
+			dev_folder = args.bestfeatures + 'dev/'
+			if not os.path.exists(dev_folder):
+				os.makedirs(dev_folder)
+			
+			for root, dirs, files in os.walk(args.test):
+				for f in files:
+					if f.endswith('.arff') and emotion_to_test in f and not found_file: #check if emotion occurs
+						emotion_file 	= os.path.join(root, f).replace("\\", "/")
+						script 			= './lexicons_test.sh' if args.unix else 'lexicons_test.sh'
+						lexicon_names 	= "-".join(top_lexicons.split())
+						feature_name 	= dev_folder + lexicon_names + "_" + emotion_to_test + ".csv"
+					
+						if not os.path.isfile(feature_name): ## Only do if file does not exist
+							if "sentistrength" in top_lexicons:
+								add_lexicons = " ".join([lexicons[lex] for lex in top_lexicons.split() if 'sentistrength' not in lex]) #string to add for Weka, dont add sentistrength because we add that anyway
+								os_call = " ".join([script, emotion_file, feature_name, args.embeddings, "sentistrength" + " " + add_lexicons])
+								subprocess.call(os_call, shell=True)
+							else:
+								add_lexicons = " ".join([lexicons[lex] for lex in top_lexicons.split()]) #string to add for Weka
+								os_call = " ".join([script, emotion_file, feature_name, args.embeddings, add_lexicons])
+								subprocess.call(os_call, shell=True)
+						found_file = True
+			if not found_file:
+				print ('Specified directory with dev/test files, but could not find a file for emotion {0}'.format(emotion_to_test))		
 
 	if len(best_feature_vecs) == 4:
 		## move these items to feature folder with date of today (args.bestembeddings)
@@ -360,10 +362,16 @@ if __name__ == "__main__":
 		else:
 			script = "copy_best_features.sh"
 		best_features = " ".join(best_feature_vecs)
-		os_call = " ".join([script, args.bestfeatures, best_features])
+		
+		## Save train files in train folder
+		train_folder = args.bestfeatures + 'training/'
+		if not os.path.exists(train_folder):
+			os.makedirs(train_folder)
+		
+		os_call = " ".join([script, train_folder, best_features])
 		subprocess.call(os_call, shell=True)
 		# write results to txt file
-		with open(args.bestfeatures + "/RESULTS.txt", "w") as outfile: #removed encoding="utf-8" so it also works in Python2
+		with open(train_folder + "/RESULTS.txt", "w") as outfile: #removed encoding="utf-8" so it also works in Python2
 			for i in range(4):
 				text = "Best results emotion {0}: {1} with {2}, feature file {3} with embeddings {4}".format(emotions[i], best_scores[i], best_lexicons[i], best_feature_vecs[i], args.embeddings)
 				outfile.write(text)
