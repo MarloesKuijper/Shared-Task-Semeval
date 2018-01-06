@@ -1,0 +1,17 @@
+('svm_default', 0.55100000000000005)
+('ridge', 0.3831)
+('lasso', -0.14849999999999999)
+('knn', 0.36430000000000001)
+('tree', 0.22170000000000001)
+('mlp', 0.15920000000000001)
+('forrests', 0.32369999999999999)
+('adaboost', 0.38030000000000003)
+('gradient', 0.35099999999999998)
+('best_knn', 0.39760000000000001)
+('best_svm', 0.52859999999999996)
+
+Best algorithm: svm_default with score 0.551
+Best SVM parameters: SVR(C=1, cache_size=200, coef0=0.0, degree=3, epsilon=0.1, gamma=0.01,
+  kernel='rbf', max_iter=-1, shrinking=True, tol=0.001, verbose=False) with score 0.5286
+ 
+Run time in sec 10.894227743148804
