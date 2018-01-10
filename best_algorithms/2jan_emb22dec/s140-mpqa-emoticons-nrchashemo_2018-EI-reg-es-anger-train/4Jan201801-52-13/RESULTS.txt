@@ -1,0 +1,13 @@
+('svm_default', 0.61819999999999997)
+('ridge', 0.5504)
+('lasso', -0.089399999999999993)
+('knn', 0.3871)
+('tree', 0.16600000000000001)
+('mlp', 0.39689999999999998)
+('forrests', 0)
+('adaboost', 0.45240000000000002)
+('gradient', 0.53539999999999999)
+('best_knn', 0.3871)
+('best_svm', 0)
+
+Best algorithm: svm_default with score 0.6182

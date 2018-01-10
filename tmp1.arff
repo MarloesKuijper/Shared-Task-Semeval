@@ -1,4 +1,4 @@
-@relation ../../new_train/es/2018-EI-reg-es-joy-train1.txt-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.RemoveByName-E^.*id$
+@relation ./files_to_convert8-EI-reg-Es-anger-train.txt-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.RemoveByName-E^.*id$
 
 @attribute tweet string
 @attribute emotion string
@@ -6,803 +6,1169 @@
 
 @data
 
-'@Abran_Dalmr @Gustavo_Soagui @Annett83236709 @SkyAlertMx Si muchas gracias ',joy,0.614
-'@miliylauri Mucha suerte.',joy,0.435
-'Lo bueno es que me veo de 19 y nadie sabe cuántos cumplí ',joy,0.587
-'No puedo evitar cagarme de risa con los movimientos que no se le dan 😂😂',joy,0.854
-'@Jipstaah Suerte que ya soy papa casada ah',joy,0.542
-'@ElmemoV De hecho que si, pero es algo casi imposible, la única solución es que se me joda el cel ',joy,0.208
-'@AwadaNai la mala suerte del gato fichame la cara de help me pls',joy,0.25
-'#2MillonesDeMorrillos @heyitspriscila El sabado te vere hermosa,aqui en tijuana,estoy mega emocionada!!😍♥️',joy,0.833
-'@_Laura24 Esta bien hableme que yo no soy orgulloso',joy,0.45
-'a mi me dijeron feliz dia y no entendía porque, que garrón ser amigo mio',joy,0.354
-'Solicito seriamente que haya un festivo todas las semanas💋',joy,0.457
-'Nube, regresame las estrellas yo quiero encontrar la más brillante de ellas,  sueña corazón💙😇🎶',joy,0.542
-'nunca puede faltar una gallina de la suerte en votaciones #CD9 #Coders #AlonsoVillalpandoTrendy #KCAMexico',joy,0.523
-'@LaTardeEnCasa Un gusto estar con ustedes',joy,0.771
-'@TzuAG Aún así la amo ',joy,0.542
-'Ya está pidiendo demasiado ',joy,0.159
-'Que satisfacción encontrar Diles remix pero aja esperaba mucho más',joy,0.5
-'El viernes 28 viajo a USA y mi hna esta + emocionada q yo, nose si pq me voy o pq le compre todo lo q me pidio. Donde esta el amor de hnas??',joy,0.636
-'Buenas noches mis princesas, que tengan dulces sueños💕😴 MAÑANA NUEVO VIDEOOOOO estoy muy emocionada ya las extraño 😢❤️ las amo',joy,0.938
-'@allisonlopez_ @aramirodriguez @rociomeza_ Ah ya, nosotros fuimos su diversión y ahora quieren salir sin nosotros? Ok Marta',joy,0.292
-'Que te duela la panza de tanto reirte, eso no se paga con nada ',joy,0.813
-'Una locura, baila orgulloso, hoy se presenta este corazón alegre y caprichoso',joy,0.729
-'@shaiel_kosinski Sos re chistosa eh (extraño el rubio)',joy,0.667
-'Compartimos el gusto por los gatos y el odio por el llanto de los niños.',joy,0.417
-'¡Feliz día a todos los que saben que son mis amigos! (Responde este tweet, si le doy fav eres uno de ellos :D)',joy,0.688
-'JAJAJAJAJAJAJAJJAJAJAA yo no te la puedo creerrrrr ',joy,0.813
-'En realidad mi cumpleaños me chupa un huevo, solamente me aprovecho de ese tabú para comer muchas cosas ',joy,0.391
-'Frecuentemente se castiga, le pone trabas a la alegría sin entender, sin entender que lo tiene todo',joy,0.229
-'no sé sonreír',joy,0.146
-'@ReniGenzano No entiendo que es lo que te causa risa, ballena mantenida 😒❤️',joy,0.205
-'Últimamente Kai me atrae de sobre manera lpm es que es tan piola, tan alegre, tan hermoso, tan dios del baile, tan bebé tierno, tan bebo',joy,0.674
-'@hills_fuck Tu argumento es invalido, ya vete a estudiar ',joy,0.19
-'2. Solo a dos ',joy,0.364
-'@Panagiotios ME agrada ver tus videos,aunq sean losos como el de los marshmallows! Ese fue muy gracioso!',joy,0.75
-'@NathalieeParraa Tranquila después de la noche más oscura llega el día más brillante',joy,0.438
-'Mañana es festivo y tengo que madrugar amo mi vida',joy,0.417
-'Yo me encargo del presente el futuro es asunto de Dios ',joy,0.436
-'@raquel_rivarola Siempre tan amable romantica y agradable....',joy,0.652
-'esto es muy emocionante #HaroldAzuara #KCAMexico',joy,0.833
-'Uy la paraste de pelo ',joy,0.292
-'@velnti10 Perdón perdón ',joy,0.167
-'0:01 veo en ti la oportunidad de sonreír de nuevo.',joy,0.708
-'Que lindo es que re rasquen la espalda 😉 pero soy tan cosquilluda ',joy,0.727
-'Yo si que soy afortunada de las amigas que tengo, HAY QUE AGUANTARME A MI E.',joy,0.682
-'@JaviGaudino_ Nadie me reconoce por ese simple hecho ',joy,0.333
-'Parezco 🍅!!! ',joy,0.417
-'Pocos pero los mejores. ¡Feliz día!',joy,0.667
-'¡FELIZ #DiaDeLaIndependencia COLOMBIA! 😎😎😎😇😇🙌🙌🙌🙌🙌🙌🙌 @eldiariodedross @GermanGarmendia @JolinboYT',joy,0.813
-'no se por que me caliento , si era de esperarse . la prioridad primero y tercero con suerte lo mio',joy,0.389
-'El viernes se viene el frío con lluvia. Ya era necesario, ese clima me pone de buenas y cero amargado. 😀',joy,0.521
-'@Ronald_MacKay Que verga ',joy,0.109
-'Este año me tocará ir sola a la Convención de DB 😬 Vamo a conocer otakus ',joy,0.333
-'Que dicha que mañana no tengo clases .😛',joy,0.717
-'@MINDSREV0LUTI0N @PabloHiriart Tú ni filosofía tienes, solovino enajenado, solo entras a zurrar en la red a nombre de tu mesías ',joy,0.37
-'Hoy fue un hermoso día! Que satisfacción 😊',joy,0.896
-'@Genrus tu cumple y yo en las babas. Te quiero un mundo y deseo para ti todo lo bonito y lo sublime. Sé dichoso infinitamente. Besote, Juan.',joy,0.813
-'Orgullosa de ser aquella que tiene problemas y sonrie.',joy,0.542
-'Bojan no me tiene contenta.',joy,0.168
-'El dolor interior te está devorando, robándote la alegría y paralizando tu capacidad de amar... debes perdonar.',joy,0.208
-'El sábado andaba como pico y las pibas de tango me trataron re bien, re cariñosas. Parece que tengo que andar así, para que me traten bien ',joy,0.548
-'Aparecen fotos de todos lados culia ',joy,0.188
-'Amo el negro Mario ',joy,0.646
-'¿Te ha divertido el día de hoy? #bot',joy,0.458
-'@EsquivelMaylet @OLeovan Ya fui hoy 😅 ya que ustedes no quisieron acompañarme alguien más si quiso',joy,0.438
-'@moises32g Orale va se juega Pero no empiezas de gay',joy,0.292
-'tuve un lindo domingo ',joy,0.667
-'@VallOPerroLoco Juega :v los juegos friv alv :v',joy,0.417
-'|. Basta que me acordé que yo tengo una cuenta del padre Gabriel y la tentación ',joy,0.438
-'Al decano no más ya me falta hacerle una sesión en la Poli ',joy,0.271
-'@sergiod_riverae Feliz noche Sergio Chulo! Un abrazo',joy,0.646
-'@DebRyanShow @AlexXxStrecci #rayito claro que si, un cambio es genial',joy,0.75
-'@lvm__20 @rolandoB13 te hablan x2 ',joy,0.292
-'@Pezonia Así será querida Natalia ',joy,0.313
-'lo mas gracioso es q es verdad, hace 2 años no me cagaba tanto de frio',joy,0.479
-'15 días para inscribir materias y casi un mes para entrar de nuevo. Que está dicha tan hpta!',joy,0.5
-'La felicidad no consiste en todo tener, sino en saber sacar lo bueno que te da. #Fav #RT #FF #UnaVidaPk #felicidad',joy,0.609
-'Ya no se difenciar un festivo de un día normal :( que rutinaria mi puta lífe',joy,0.13
-'@MuziTizi @juliibenzo @paulifernande14 @ro_cavallo1 @ValeBenzo @valengodino @marti Feliz día estrelladas🌟 las amo!',joy,0.854
-'Soy hambre 24/7 ',joy,0.271
-'@Nachojmontero No era para que llores.. pero sentite orgulloso jajajaj',joy,0.799
-'@_julipinto yo se q no es gracioso pero me rei t amo',joy,0.565
-'@Victoria_Fons No no me pega 😅',joy,0.417
-'@kateOFF_ @cathy La cagó ah ',joy,0.05
-'@MarianaRodrigzC Jajajajajaja como cuando te exponen 😅',joy,0.667
-'@JOELSHAMPU TE AMO❤FELIZ DÍA BIABOR',joy,0.773
-'@KidGuilty @cathy @cokep Y cuando mató a otro q no me acuerdo pero una wna fue con su mamá al hospital de Buin 😂',joy,0.326
-'@NuriGutierrez1D JAJAJAJAJA nosotras en el amor en un tweet ',joy,0.667
-'@DragonMaidSucks genial, ahora me explico, esa era una imagen que era para apoyar tu ideología xd',joy,0.438
-'Ya rompí récord ',joy,0.542
-'Extraño sentir sus manitos en mi cara, su risa, TODO 😭👶💕',joy,0.227
-'@Aaron070604 Estoy muy feliz en estos momentos de mi vida. Que significa que ando conociendo chicas 😄',joy,0.913
-'Cuando no están a mi nivel de ternura o buena onda u optimismo, me molesto un poquito🙂😂',joy,0.208
-'Es idea mía o tembló? Quizás estoy hueona y solo se me movió el piso a mi (? 😅',joy,0.5
-'Ver las imágenes que he subido a Twitter es que si lo más vergonzoso ',joy,0.208
-'Quien tiene un amigo, tiene dos almas... Feliz día !',joy,0.826
-'Me encanta ver a mi crush estudiar y que ella vaya entendiendo solita las cosas, me encanta ver su entusiasmo y como le brillan sus ojitos.',joy,0.783
-'jajajajaaj por que le contestaba asi ',joy,0.577
-'En Disney estaba dando encantada pero dibujito, pongo ahora porque no hay nada para ver y está encantada pero de carne y hueso (? Ok',joy,0.438
-'@Camila_Cabello @BrunoMars YAAAAS ESTOY EMOCIONADA POR TI BEBE',joy,0.875
-'Odio usar el celular cargando es como que me envenena mucho ',joy,0.065
-'Llevo desde las 6 en pie y quería dormir. Pues no podré con la emoción #felicidad❤',joy,0.717
-'@RamaPorchietti Feliz día amigo. Tkm',joy,0.717
-'Anoche soñé que los monstruos del Festival del Terror de Six Flags me perseguían. Mis preocupaciones son muchas ',joy,0.102
-'Quisiera volver a tener 17 mi vida era más divertida 😩',joy,0.229
-'Niñas, quédense con quién les de perico,bareta y las trate mal.porque tranquilidad, respeto, comprensión, y compromiso no cualquiera. 😅',joy,0.396
-'Necesito esa puerta que me dabas para entrar a tu mundo,  ese trocito de azúcar verde, de redondo alegre.',joy,0.476
-'@mariobautista_ Tu me das tanta felicidad desde él primer día que te conocí',joy,0.938
-'Tengo tres dias sin fumar mota, me siento orgullosa jaja.',joy,0.565
-'@JadedStew La Rambla y en San Felipe ya hay colas . Imaginate ',joy,0.125
-'Aunque sean estupideces, de todo lo q he hecho ha valido la pena y eso cuenta haberme encantado contigo',joy,0.667
-'@CesarinaViz Pila de intensos ',joy,0.292
-'Esta demasiado orgullosa en verdad🌚',joy,0.5
-'PERO. YA LE HABLÉ. Y PARECE AGRADABLE. ¡ME DEDICÓ UN LOGRO!',joy,0.625
-'@guaperro1 Demasiado dulce 😅',joy,0.563
-'La verdad es que me hubiese encantado que me hable.',joy,0.333
-'No mames, qué fino. ',joy,0.522
-'@Alondra_7250 estas bien fea mija ',joy,0.146
-'@babyqueenm Jajajaja no manches ',joy,0.604
-'@Bueenito No sabe lo que se pierde, tan divertida que anda la chaviza😂',joy,0.646
-'Wow!! Que día el de hoy!!! 😍 muy cansada pero todo quedo genial!! Ahora en casita a descansar',joy,0.783
-'Cariño y admiración a quienes ejercen esta profesión #Feliz #DíaDelimpresor @mexicoimprime #MéxicoImprimeBien 🇲🇽',joy,0.75
-'@JohncarlosLeon Jajaja ojalá! Suerte ',joy,0.729
-'Mi hermano es un boom en Instagram 😆 toy perdiendo plata creo',joy,0.458
-'Ir al café de cadena y publicarlo en tus redes es de bien mal gusto 😂',joy,0.271
-'Está obsesionado ',joy,0.292
-'Ah ya que estoy emocionada 🙆🏻🙆🏻🙆🏻',joy,0.729
-'Estoy muy contento 😋😋😋 #FelizLunes #LunesDeGanarSeguidores #Contento #25Sep',joy,0.938
-'Mi sobrino hoy ayer se graduó del kinder y no saben la dicha y el orgullo que me siento de el:\')',joy,0.813
-'A veces no sé como hago para hablar tantas cagadas con total naturalidad... ',joy,0.25
-'@_HijaDeMiMadre Ahhh jajaj leí yo quería dormir hoy ',joy,0.545
-'A disfrutar este fin de semana porque el lunes se me acaba la dicha.😶',joy,0.333
-'@mariobautista_ Nos vemos muy pronto, estoy muy orgullosa de ti gracias por todo🙈❣️',joy,0.739
-'@vianeySk Éxito éxito éxito!  🙌  Si se puede 😊',joy,0.75
-'¡¡Feliz  día amigos hermanos que nos encontramos por este paso que se llama vida..¡¡',joy,0.917
-'@ImLizzieM @LizmarRodz que risa me ha dado estooo!!!🤣🤣🤣🤣',joy,0.804
-'@Aguarin531 Nah, por ahorita no. Pero deseáme suerte pa después',joy,0.313
-'Esto del fin del mundo ya es como Juanito y el lobo, un día de estos ya no vamos a creer y boom desintegrados ',joy,0.292
-'No se para que puse  de contraseña la huella digital, si sigo usando el patrón 😅',joy,0.295
-'@TheHatman666  ¿Tampoco has dormido bien?  Bon dia ',joy,0.438
-'Esta bien divertido ver streams mientras estas con amigos aunque sea en discord',joy,0.604
-'No vale la pena aferrarte a algo sólo porque te hace sonreír de vez en cuando.',joy,0.167
-'@Nallelf Que triste, pero los cambios son muy buenos. Hoy tengo en mi vida personas que me hacen más feliz y no me arrepiento de nada. 🤷🏻‍♀️',joy,0.646
-'No hay cosa que me alegre más el día que ir guiando y ver un perrito en la ventana otro carro jugando con el viento :\')',joy,0.705
-'Adivinen quién se va #Cuzco el próximo mes 🙋 #Feliz ❤👌',joy,0.813
-'No puedo creer que me haya animado a mandar un mail para audicionar!! Oh por dios 😱',joy,0.565
-'@MarioJinset @sergiomaeko @ledicenkar Como discutirle a Yisus?  ',joy,0.292
-'Cerrar el día con él al lado. Sólo eso pedía y eso tengo, gracias ',joy,0.792
-'Si hay algo q me da miedo es equivocarme de grupo y mandarme el moco del año o de la vida ',joy,0.326
-'@JSalazar9 Nah es entretenido sacarlo de sus casillas...',joy,0.375
-'Tiene dos versiones de negro: negro mate (Black) y negro brillante (Jet Black).  #Rayito',joy,0.333
-'Te amo entendelo jaja ',joy,0.696
-'Acá acostada re depre viendo #CaniggiaLibre  jajajaja ',joy,0.177
-'Creo que si fuera más copada o divertida tendría más amigos pero no #felizdiadelamigo',joy,0.479
-'Al menos ya se que no me tengo que ilusionar ',joy,0.239
-'@n_scout Prometo que el miércoles no me pasa ',joy,0.261
-'No me gusta desear el mal pero... Ojala todo le vuelva ',joy,0.063
-'Me da risa cuando nadie me cree que me sigue Justin Bieber yyyyyyy me mando dm ',joy,0.565
-'Tengo ganas de robarte una sonrisa y decirte que te quiero✨🎶',joy,0.75
-'@MARTUVERA2 Jajajajajaja desde ese lunes 😅',joy,0.771
-'@hernanmontes32 Dichoso tu que tienes esa mujer hermosa todos los dias para quererla de todas las formas 😈',joy,0.609
-'Nosotros los colombianos tenemos un festivo para todo marica, literal en un año tenemos aproximadamente 18 festivos. Somos lo mas.',joy,0.479
-'Muriéndome de sueño pero aquí ando y mañana me despierto a las 5 AM, muy bien Eveleen ',joy,0.313
-'@DebRyanShow #Rayito hay un ligero punto donde ya parece trabajo de tanto que publicas y deja de ser divertido 😥',joy,0.125
-'Es el chiste más gracioso que me han contado 🤗😂',joy,0.804
-'@yicoretas Jajajaja super joto en la pgr para denunciar sus @  ',joy,0.413
-'Estoy escabiando desde las 11 de la mañana tipo me desayune una birra y me voy a ir tomando una ',joy,0.354
-'JASJJAJSJA En definitiva no hay nada mas chistoso que mi papá con celos.',joy,0.87
-'Soy una fan oculta de damas gratis ',joy,0.543
-'Me gusta verte, jaja es como si cada pequeña parte de ti le diera más alegría a mi vida',joy,0.896
-'Sean humildes Wlbs que todo baja ',joy,0.333
-'@glucksburg_ Soy genial.',joy,0.543
-'@JAlejandroBM JAJAAJAJ totalmente tu ',joy,0.604
-'Nos encontramos por casualidad, tú tan radiante como siempre...💜🎶',joy,0.792
-'@MiguelStraube 😱😱 5 años ya no lo puedo creer ',joy,0.391
-'A mi familia le debo todo, desde mis fracasos hasta mis triunfos. #Fav #RT #FF #UnaVidaPk #felicidad #familia',joy,0.688
-'Me acaba de decir mi hermana que si me ve llorando una vez más, va a romper mi disco favorito para que llore con razón ',joy,0.208
-'@seokjinstaner @Nampeachoonie Jajajajaja yo no bueno si, bueno no, bueno no sé Jajajaja ',joy,0.795
-'Cuantos amigos conoci y cuantos que perdi, pero sigo con los que mas queria ❤️ ¡Feliz dia a ellos, mi cable a tierra!',joy,0.87
-'@R8nita Optimista - @elcaloncho',joy,0.417
-'@nevadohcris Noooo, que era bromaaa  Veremos en un par de horas si piensas lo mismo o que ',joy,0.296
-'@martinapalomequ -lloro de felicidad- yo también te quiero',joy,0.833
-'@pacitamona Jajajaja que genial, entonces tienes la mejor sensei, tenís que puro aprovechar 😊☺️',joy,0.717
-'@jorbiazzo Te veo en el recreo, y me vuelvo loco',joy,0.565
-'@fabricelelous Yo tuve muy bonita compañía 😊',joy,0.583
-'No juzgues cada día por lo que cosechas, sino por lo que plantas. #Feliz inicio de semana.',joy,0.5
-'@annia_isabella Llevo toda la semana viendo juego de tronos, dejame hablar poeticamente jajajaja ',joy,0.522
-'Veo a todos subiendo fotos con los amigos y me quedo re contenta porque le dije a mis amigos del alma todo por chat en priv sólo para ellos♡',joy,0.696
-'@nachosaldes #TodosSomosFake  y si te vas más en la volá, en la vida real muchos lo son ',joy,0.271
-'Jajajajajajajaja ta loco la minita ',joy,0.75
-'Aqui convenciendo a mis amigas con novio que me lleven de violín al cine en el 3x2 de cinemarck ',joy,0.313
-'Esta semana estaré ocupada con el tema de la Uni, me pasaré a ratos ',joy,0.375
-'@radiolared @califidalgo @soymarcelobaffa Q pedazo de caripelas ',joy,0.229
-'Estoy muy contenta contigo y tu carita 😻.',joy,0.813
-'@df_casado Hola, me agrado tu perfil',joy,0.479
-'@D99Radio @enjambremx @enjambremx @D99Radio Samantha Sofía Elizondo Gzz 👉👈 😅 😅😅 #SiTePreguntanSoloD99',joy,0.543
-'Me mantuvo entretenida pero no tanto como quisiera... si lo suficiente para seguirla... siempre y cuando no hagan lo mismo del 1 ep.',joy,0.457
-'Hoy fui a las oficinas de Google y me hice la cool pero la verdad si estaba emocionada ajajajaja',joy,0.75
-'Que ningún gil apague tu sonrisa',joy,0.479
-'Se cortó la luz. Alguien va a dejar de estudiar que alegría',joy,0.625
-'Me cago de risa viendo vídeos de @Rubeooh 😂😍',joy,0.813
-'@Daniel_lgp Jajajaja tenes que buscar un nuevo mecanismo para secar tenis entonces. ',joy,0.543
-'Les juro que no esperaba que la diversión de la peda fuera ver al hijo de alguien bailar, si tiene un año.',joy,0.583
-'Le dije a mi papá que le ponga los punto a sus jugadores, con la mirada me dijo todo ',joy,0.25
-'Uno parece pendeja ganándose enemigas por un men ',joy,0.25
-'Neta estoy muy emocionado por el nuevo trabajo loooool a la semana ya me voy a querer salir',joy,0.646
-'Check list: Boleta de @BrunoMars: ✅😍 Viaje de playa: ✅😍💜 #Felicidad',joy,0.958
-'@_Enri2_ Cuentaaaa! No me podré dormir hoy sin saber!! ',joy,0.292
-'También se antoja que me haga suya la dvd, pero ese ya es otro asunto 😊',joy,0.542
-'@Juan33Martinez Te fuiste al carajo ',joy,0.174
-'DEJEN DE PONERSE EL NOMBRE DE SEBASTIÁN Y SU FOTO QUE NO ES NADA GRACIOSO AHORA #SebastianVillalobos #PDCs #SaakTrendy #KCAMexico',joy,0.146
-'@mariobautista_ Ya me imagino la carita de felicidad de estrellita al verte ❤️ eres una persona increíble nunca cambies ❤️',joy,0.813
-'@medicendaysi El martes no hay examen, así que que sea lo que Dios quiera ',joy,0.521
-'. Y tiene muchos chistes locales por lo que si no sabes nada de Japón como yo se vuelve más chistoso porque no entiendes nada de nada.',joy,0.542
-'Esta vuelta a Capital tiene gustito a que el 5 vuelvo 😊',joy,0.667
-'@OscarAlessandr0 @GolDNakama Estoy al día con el manga y te dire una cosa, esa chica no es el waifu ideal para Tatara ',joy,0.25
-'Los vídeos de @_ELBRAYAN_ me hicieron la noche, lo amo. ',joy,0.63
-'@mandrilles Descanse en la tarde. gracias amigo.   ',joy,0.521
-'@laresolana @elcapiperez no me hagas esto, ya me quería dormir y ahora tendré que ver la resolana ',joy,0.217
-'@KayleMathers_ @softrapline me estoy quemando la cabeza leyendo en inglés y tratando de hacer teorías. tu amiga es afortunada xD 💟',joy,0.313
-'Rock of ages de Tom Cruise en argumento no es tan buena, pero su soundtrack es espectacular. Para los amantes de la música de los 80s ',joy,0.479
-'@Ivonnepapa O ustedes que todavía tienen a quien besar ',joy,0.5
-'@KevenYHensy Una madre tiene que estar orgullosa de su hijo, más con ustedes, que han hecho tanto.😅💙',joy,0.652
-'He tomado la decisión de no utilizar Waa por un tiempo, no debo explicaciones a nadie del por qué lo he hecho. Hay muchos ardidos por eso. 😅',joy,0.188
-'Muy entretenida la conversación...',joy,0.521
-'2242. Que sean tan creídas y llenas de mañas 🙄 cómo que si no cagaran igual que todos nosotros ',joy,0.125
-'@rocKo_roll Verga, bueno el martes ',joy,0.292
-'@Gabymarr_10 Jajaja chistosa 😂😂😂😂 En nuestro caso no aplica eso jajajaja',joy,0.652
-'tengo una alegría cabrona 😤',joy,0.667
-'Gracias al Lcad Segundo Hinojosa Cruz por la invitación al grupo la alegría del vivir',joy,0.646
-'Juega escuhar musica 🤙🏼',joy,0.438
-'@MilyGrandis Jaja de nada. ',joy,0.563
-'@Miguel_layun Hay que cosas le sale lo gruñon a @JorgeGonzalezGo animo optimista te sigo apoyando',joy,0.771
-'(...) que vos muchachita sigas alegre y dolorida  poniendo en tus ojos el alma  y tu mano en mi mano.  Mario Benedetti',joy,0.438
-'@NicoChiessa Ajajaj ahora estaba leyendo sobre ese ',joy,0.521
-'Vivo #feliz, #vivo #Danzando, vivo mi #música, vivo #bailando',joy,0.813
-'Que genial esas personas que no llevas ni 10 minutos hablando y ya te habla con altísima confianza, aguante la gente confite caretas',joy,0.652
-'Estoy perdiendo como 2 cm de músculo por estar hablando contigo. -@Eozmar ',joy,0.208
-'@CandeMazzuchino 😹😹😹 quiero estar BIEN negra radiante',joy,0.604
-'Hoy anduve re Chinito esto de la resaca jaj ',joy,0.438
-'@MexicanCodersMX Ya me había emocionado  #CD9 #Coders #AlonsoVillalpandoTrendy #HarryStyles #KCAMexico',joy,0.604
-'@Silencios_5678 Buenos días Daniel ',joy,0.542
-'Uh me re emocione con esa canción ',joy,0.75
-'Que lindo desactivar la alarma y dormir hasta cuando yo quiera, asi sí vale arrancar la semana 😄',joy,0.792
-'Programación de la Cuarta jornada a realizarse el día de hoy jueves 20 de Julio. Suerte a todos los equipos👏👏👏 @SecryGamer @seba1746',joy,0.522
-'@1Ballesta1 nojoda que risa yo pq no te grabe ? ah verdad no tenía cel aún',joy,0.438
-'@alvarojoa28 Feliz día amiguito ♥️',joy,0.771
-'@Lu_naiir @NatuliaNaty Amiga de mi hermano me encanta tu sonrisa❣',joy,0.792
-'@YazminCantuT Aplausos a la. Suegra',joy,0.559
-'Hace una hora esta x venir a buscarme ',joy,0.408
-'Yo amo el grupo ',joy,0.787
-'@kaarenganem Tú no te hagas la graciosa que si los pides',joy,0.348
-'@Pa_Lii Jajajajaj soy de lo de verdah, la pali no sé que da atrás si ',joy,0.479
-'@laresolana ya quiero que empiece!!! Y mañana no me podré levantar ',joy,0.604
-'La fundadora de mi academia de piano es una señora viejita y orgullosa de sus éxitos. Espero poder llegar a ser como ella!!',joy,0.896
-'@Rodrigo38740672 jajaja 28 decís? ',joy,0.604
-'No que loco,@AlvaroAmbrosi10  le puso fv a mis cosas. me siento famoso jaja ',joy,0.604
-'@_Vikinga_ @whitesheeptw jajajaja así es  ',joy,0.708
-'Mis viejos recien ahora me cargan por algo que paso hace como dos días, ya se de dónde salí tan colgada ',joy,0.304
-'Mi momento favorito de Cirque Du Soleil fue cuando se escuchó un hermoso @sebastianpinera conshetumare seguido de aplausos.',joy,0.667
-'Hoy les iba a contar una historia bien chistosa de algo que pasó en la defensoría, pero ya tengo sueño. Mejor mañana. :3',joy,0.5
-'Ahora si dormiré tranquilo 😅',joy,0.522
-'Raúl se ha vuelto tan grosero ',joy,0.146
-'lo peor es que estaba cantando re emocionada y se me re cambio la voz de tristeza JAJAJA',joy,0.417
-'Gracias WINSTON por traer tanto entretenimiento a nuestras pantallas por eso y más 🇻🇪 ✊❤️ #SomosTVES',joy,0.521
-'voy a volver a ver el episodio de bangtan en los billboard para llorar y revivir ese momento que me hace sentir orgullosa',joy,0.667
-'@LaPanteraAugust sos una persona muy agradable y muy graciosa!!! Amo juntarme con vos y tus amigos. Te quiero panterita 💖',joy,0.875
-'@Barby_kinomoto Jajajjaa no 😢 bueno pero despuesito vale ',joy,0.375
-'Soy bien pinche Jodon  Apoco No ',joy,0.396
-'—Sonrisa victoriosa y un gran beso a la tabla, su preciosa.',joy,0.688
-'@VichoDiazArt Me fui a la csm! Eliminé los nombres para no perjudicar a nadie ',joy,0.208
-'@MartinezTobias1 AAAAA feliz día loquito,te extrañoo',joy,0.604
-'| Esa imagen mental es la segunda más graciosa que tengo en este aspecto.',joy,0.652
-'@Maribolika ¿Qué se te antoja? ',joy,0.217
-'Liar , liar , liar ',joy,0.152
-'Me dice Feliz dia y me lo re trance, amigos son los de abajo y se golpean😂👋',joy,0.522
-'Aprendí que mi felicidad depende mas de mi y que la familia es la única que siempre esta pa\' ti.',joy,0.668
-'@bravedreammer @marcelosopla @zinxsoficial pelotuda jajjajaj 5 años de comu y se comunican con gifs ',joy,0.563
-'@HeavyDirtyLine_ ¡¡¡FELIZ CUMPLEAÑOS!!! Fuiste una de las primeras personas que conocí y aunque casi no nos hablemos te tengo en mi corazón.',joy,0.771
-'@BTS_twt estoy re emocionada y orgullosa por el mixtape de hoseok, apoyenlo. Es un ángel.',joy,0.826
-'@mariobautista_ ya me confundi ',joy,0.229
-'@MirandaCKte No la es para nada ',joy,0.217
-'que partida emocionante agora, holy',joy,0.74
-'Por los que siempre Estan,por los que ya no estan y por los que estan por venir. ¡Feliz dia!💖🍻',joy,0.688
-'Terminé bien el domingo 😌 😊 ahora quiero dormirmeeeeeeeeeeeee....',joy,0.479
-'Quiero ser la parte divertida de tu libro.',joy,0.409
-'Me usaron de amuleto sin que yo sepa y central perdió 4-0 ',joy,0.188
-'Que rara se siente esta nueva vida. Ya no recordaba lo que era estar en mi casa a las 5pm #Felicidad',joy,0.5
-'@sashncastillo Tenemos que ir a quitarnos ese antojo ',joy,0.458
-'Necesito personas que digan a todo si y no que salgan con peros ',joy,0.313
-'Todavía tengo amigos que me quieren como soy. ¡Feliz día del amigo!',joy,0.833
-'Me dan risa los memes de 3 doritos después, pero tambien me ponen triste.',joy,0.396
-'@El_Universal_Mx Pues a esperar más explosiones de júbilo y alegría por dicho nombramiento.',joy,0.727
-'@MarceloSureno Jajaajajajaja idiota!!! Oyeee suerte!!! Si ganas me debes unos churros! ☝️ acuérdate! 😂😂😂😂😂😂',joy,0.708
-'@andrizek @EuclidesFla JAIR VENTURA!!!',joy,0.438
-'El chamaco es risueño y tú haciéndole cosquillas #posoye',joy,0.563
-'@edusadeci es correcto, pero es ilegal… en cualquier país ',joy,0.239
-'@mpz1005 Jajajaja es una comedia española, chistosa pero salen españolas muy guapas la verdad. Jajajaa',joy,0.667
-'Mi mejor me hizo llorar con las cosas tan hermosas que me escribió 😭 qué afortunada soy',joy,0.783
-'@Juliococo Ojalá alguien tenga el guaramo de pronunciarse. Aunque no soy muy optimista al respecto. Surgirá un milagro???',joy,0.292
-'La oportunidad de estudiar una carrera, se que desde el cielo estás muy orgulloso de... #SebastianVillalobos #PDCs #SaakTrendy #KCAMexico',joy,0.5
-'@soumya_sajal @itsrkkc Super 30 confirmed ',joy,0.438
-'Me gustó el anuncio de #TAKIS, el del ex jajajajaa ',joy,0.688
-'Tomó coca cola y leo ganglios de la base ',joy,0.333
-'@tintadearena Qué bien! 😃',joy,0.563
-'Hace mucho que no veía 50 sombras de Grey. ',joy,0.479
-'@NekoJitaBlog Pues eso, que él defiende que deben dormirse en su cama... ',joy,0.188
-'Quiero hacer mis propias viñetas y una ilustradora random...soñare en un personaje(:  deseadme suerte',joy,0.565
-'@fotosguate Dichoso que tienes, yo debo, pero pagarlo😢 😂😂😂',joy,0.25
-'Aries, entre menos en serio te tomes el amor mejor te irá 😂',joy,0.521
-'A las 8 me tengo que levantar y no puedo dormir ',joy,0.229
-'Ise muchas cosas por vos que hoy en día no me arrepiento ',joy,0.375
-'Que sea lo que dios quiera, que sea 😃',joy,0.521
-'El David no me quiere jugar más a la play jajajajaja 6 le metí ',joy,0.583
-'#DeColombiaMeGusta la cultura, la alegría y las mujeres.',joy,0.708
-'Que chistosa situación; le escribo y existen mil ocupaciones. Dejo de hacerlo y esas ocupaciones por arte de magia desaparecen 😂😂',joy,0.565
-'Vaya, no había tenido la oportunidad de escuchar detenidamente  Blonde de Frank Ocean (a pesar de ser del 2016). Qué agradable es.',joy,0.646
-'@JHopeMex 😍😍😍 Jin se coló ',joy,0.477
-'Todavía tengo amigos que me quieren como soy.  ¡Feliz día del amigo!',joy,0.783
-'En Maipú hace falta una peluquería ATR ',joy,0.25
-'#FloresParaNairo y como no enviárselas si @NairoQuinCo me hace sentir muy orgulloso de esta tierra que tantos hacen quedar mal',joy,0.543
-'Que felicidad cuando están ahí apoyándote y abrazándote a pesar de todo💕',joy,0.896
-'@Paau_Liiz @GERARDONAVARR0 Es que ay :( ',joy,0.188
-'Sonreír siempre ha sido más fácil que explicar por qué estás triste',joy,0.271
-'Jamás me voy a negar a eso 😊',joy,0.396
-'@DHermoso08 Y ayudando con manos, corazón y buevitos, muchos buevitos 😆',joy,0.563
-'hoy después de 39 semanas haré vida social estoy emocionado',joy,0.813
-'Soy la persona mas buena y pelotuda a la vez, pero cuando me canso ya no estoy más ',joy,0.292
-'Me parece muy gracioso ver como las personas reaparecen en tu vida cuando les conviene',joy,0.37
-'quedarme con los momentos hermosos que me hizo pasar, y verla sonreír aunque sea sin mi me hace bien, otra no queda, a seguir para adelante',joy,0.522
-'@2010MisterChip #ElSalvador #ElSalvador #ElSalvador Pero juega bonito y no se puede aspirar a mas, porque no hacen los goles 💙💙',joy,0.478
-'Me da muchisimo gusto que lograras tu meta del mercedes, pero... ya eres mejor persona?',joy,0.455
-'@IisMgbs Yo diría:  caída libre a la felicidad! Jeje 😂',joy,0.833
-'@pistxls Hades bebé, sabes que te adoro, eres mi girl crush. Amo lo graciosa que eres y que siempre te preocupas por los demás. +',joy,0.795
-'@mariobautista_ Eres una persona genial @mariobautista_  por eso todas tus bautisters te amos  Eres el mejor ídolo TE AMO !! <3',joy,0.813
-'La felicidad está sobrevalorada.',joy,0.146
-'@moontxars Que afortunada es Crystal.',joy,0.565
-'¡FELIZ 20 DE JULIO!',joy,0.682
-'@Andresf1404 Que salga el sol por donde tenga que salir negrito ',joy,0.375
-'Me parece increíble los consejos que me da mi bestie. ',joy,0.647
-'Ir a su casa y ponerle una goliza en el FIFA: me siento entretenido(a)',joy,0.609
-'La noche está bien, ahora, elevate hasta el cielo, hazme sonreír así para siempre.',joy,0.833
-'Quien tributa en tu país ayuda a mejorar tu bienestar Eso ponía en un taxi. Qué mal se defienden.',joy,0.333
-'@Frantuitti Te llevarás mejor con mi mamá xd ven a ver sus dramas a la casa... Lo ama con pasión y locura ',joy,0.587
-'Todos los días me despierto orgulloso de los amigxs que elegí 😀',joy,0.833
-'@Mirandasv10 Llámame vos ',joy,0.283
-'3. Pero lo mejor fue la estocada: Lizarazo, sonriente, mira a Escobar Gil y le dice: Por cierto, el ponente de esta sentencia fue Ud. ¡Ja!',joy,0.542
-'@itsjoelpimentel ¡Estoy tan emocionada, mañana voy al concierto!🎉🙃',joy,0.891
-'@clssypoetry Al carajo, te amo infinitamente. Soy afortunado de tenerte y saber que estas para mi. Siempre estaré a tu lado, mi niña.',joy,0.771
-'Juega vivo y piensa mal',joy,0.25
-'@dianaguzmang27 Le fallé a la comunidad memera, explicame andale ',joy,0.261
-'Pandi 🦄✋🍃  -Osos(? -Kard -Una acc fav  -agradable persona ahre  No llegó a 5💔',joy,0.396
-'@titifenycia A feminista chorona ',joy,0.313
-'“la Teoría del chicle” 😂 @Es_Kennia',joy,0.591
-'@IchB0nerge ¿Cuál? ¿El fin del mundo o el sexo? ',joy,0.396
-'Si quieres verla sonreír háblale de mi y ella te dirá cómo fue que se le olvido todo aquello que eras tú cuando me conoció a mi',joy,0.636
-'Soy orgulloso, pero también sé pedir perdón a las personas que lo merecen.',joy,0.438
-'@Dianitha3 ¿Esto también será de familia? ',joy,0.396
-'Le dije por su nombre y cerró la cuenta 😆',joy,0.333
-'Cuando veo una foto de ella sonriendo, me hace sonreír como idiota.',joy,0.708
-'No puedo clavar el visto, aunque sea con una carita te contesto ',joy,0.391
-'@IgnacioBuiatti @ElchuiucalYT No era lo que esperaba pero estoy satisfecho AHRE',joy,0.479
-'A veces, lo que una persona necesita no es una mente brillante que le hable, sino un corazon paciente que le escuche.',joy,0.521
-'@NoTodoPasaTyC @Diego_DeGregori @LombaCaruso Y si, juega en milan. Vangioni también y Heinze jugó en el United y en el real. No jodamos',joy,0.333
-'Sinceramente es muy raro de mi, que este enojada, o triste. Siempre me van a ver contenta, y con la re buena onda.',joy,0.458
-'@albertoperezs90 Ya aguantas más que yo y eso que no fumo ',joy,0.25
-'@twentyone5sos_ 🤣 vale!!! tú dale no mas ',joy,0.292
-'@valentinabz Un aplauso para la gente guevona.',joy,0.146
-'@espefimbres igual pero con mi apa.. i have daddy issues okno ',joy,0.375
-'Decepcionada fin .  😃',joy,0.217
-'Su sonrisa es perfecta ',joy,0.652
-'@rutty315 Muchas gracias Pequeña, que descanses... 😘 el sentimiento es Mutuo, mi venezolana Favorita ',joy,0.667
-'Cosas que hago que al parecer no le molestan a nadie: -Respirar  -Comer -Existir ',joy,0.318
-'Gracias por aparecer en mi vida y llenarla siempre de alegría y amor, los amo❤ @Erika_Ailen6183 @ani_sanabrya @Tonaa15Vega @RuppFranco',joy,0.917
-'Mañana es festivo y quiero pasar todo el día viendo películas tristes.',joy,0.132
-'Una esperanza ya se Escucha #Nuvipa Es el tiempo para la prosperidad y alegría de nuestra Nación #SiHayFuturo',joy,0.652
-'Mi papa se arrecha y no me manda nada y cuando se contenta me arrecho yo y de igualito no me manda un coño. 😒😒',joy,0.13
-'Que felicidad poder decir con orgullo que mis amigas son las hermanas que me dió la vida ;tanto amistades de 6/7 años como de casi 1 o 3 ya💛',joy,0.979
-'#SanJoséDelGuaviare #Guaviare, la independencia hoy nos abraza a todos los colombianos ¡Feliz #20DeJulio! #UnLíderParaTodos',joy,0.667
-'@PaoDEdwards Te aviso pues, lo más probable que un viernes de 4-6 ',joy,0.25
-'Guanlin con quince es el segundo más alto del grupo. El basquet le va perfecto así seguramente juega muy bien.',joy,0.438
-'@lennycia Jajaja...  Ya seee ',joy,0.458
-'@AlexMurilIo Si, que ella anda en carro y tú a pie ',joy,0.167
-'Lo bueno, respecto a mi Husky y luego de ver todos los perritos se van al cielo y el propósito de un perro, guardo alegría y esperanza.',joy,0.478
-'@DebRyanShow @TecnopolisNC #RutaPais2032 Mucha suerte🙏❤',joy,0.563
-'Cosquin, Tandil, Tucuman, Jujuy y Salta. Y todavia falta V. Gral Belgrano y Cataratas 😍 Creo que este  fue el año que mas viaje #felicidad',joy,0.891
-'Amo tu sonrisa...',joy,0.717
-'Odio matemáticas pero él es una bonita vista ',joy,0.25
-'@wichouya Que diosito te escuche jaja ',joy,0.583
-'@Prisicila_RV @AylinMadridG Ya lo sabía solo no quería decirlo ',joy,0.208
-'Hoy no fue un día agradable...',joy,0.137
-'Taba Chica La Cara ',joy,0.25
-'@vannemagic Ah! Pues si... ',joy,0.326
-'@MaiteOficial ¿Cuál fue la última experiencia divertida con tus fans?#MaitePlaticandoConSusLocas 😁',joy,0.563
-'@JaYcob2423 @J_Tanie @annafvbiola Mucho gusto Juan jajajaja',joy,0.563
-'@VichoDiazArt Wajajajajajaja ohhh está para meme esta imagen xd! La leo y muero ',joy,0.696
-'@irusanabria Se me van a ver los rollos más que la tanga si sigo con mi felicidad jejej',joy,0.708
-'Nos estamos enviando nudes con mi amiga ',joy,0.479
-'Yo agrego algunas personas a Facebook solo para jugar stop, me paso de boba ',joy,0.417
-'Mi pacman significa pelea :v ',joy,0.333
-'Me pide un consejo y creo que soy la persona menos indicada para aconsejar sobre temas de pareja ',joy,0.304
-'Lo peor es que ella habla como si en católica te preguntaran nombres de autores y cosas así, por ser literatura, es tan gracioso.',joy,0.522
-'No pagues mas karaoke con animación luces pantallas humo y toda la diversión Separa tu fecha 9811864230',joy,0.479
-'@AndresParcerito Y yo de la limonada de limón ',joy,0.5
-'Yo no hago las cosas para callar bocas, yo las hago por satisfacción propia, locas.',joy,0.458
-'Sé que revisas mi perfil así mira esto MI AMOR! #FELIZ #PorelMundo #contigoemtodolado',joy,0.652
-'Real ver a Mario es como si me dieran una fórmula para sonreír todo el tiempo.',joy,0.75
-'Ya los vans ahora ahorrar 110 para los suede😂 suerte Lorena😩',joy,0.37
-'@riveraalfaro_ A mi me resultaba con cosas heladas siempre tomaba helado en esos casos 😅',joy,0.479
-'Esto esta entretenido no me pinta dormirme ni ahi',joy,0.5
-'Siempre rie cuando puedas!... Es medicina barata: 👌😜💪  Lord Byron  #Sencillo #Felíz #HayQueReir #ParaNoLLorar',joy,0.75
-'@BBarbip Jajajajajajaja no puedo, es de confidencialidad eso ',joy,0.563
-'brayand y yo no nos podemos  juntar porque la descargamos  con todo el mundo ',joy,0.333
-'@Letibohemio Repechaje amiga ',joy,0.313
-'@NQueipul Chamuyatelo! 😉 Debe tener plata! ',joy,0.563
-'@YoSoyAlita Amiga sería mega genial que puedas ir a ese lugar el 26!🙈🙊, esperemos que si se cumpla tu deseo!😉',joy,0.625
-'@ZauberinB Buenos días !!! A por él ',joy,0.512
-'a los fake me los imagino así como craig el gordito de malcolm 😆',joy,0.25
-'@Aleprezav Qué? Acaso me ves entretenida? 🤦🏻‍♀️',joy,0.283
-'Que agradable señora',joy,0.729
-'Juega arrancar el GYM de nuevo pero con este frío como que no da 😧❄',joy,0.304
-'Se acuerdan de esa época en twitter en que las polémicas eran del nivel de la #pipetón? Qué ordinarias las de ahora. ',joy,0.375
-'Acabo de ver en el cine la peor pelicula de terror pero la mas divertida y con la mejor audiencia😂😂',joy,0.813
-'Mañana me saco la duda 😊',joy,0.326
-'No la voy a odiar tanto a ver si mi hijo/a no sale igual a ella ',joy,0.109
-'Y empeze a estar orgulloso de mi desde el año pasado que aprendi a soltar todo aquello que ya no se quiera quedar.',joy,0.667
-'Una canción triste en un disco alegre. 💿🎶  Un grito ahogado. 😵  Un elefante en un pesebre. 🐘  #CosasSad ☹️',joy,0.217
-'@iivansalazar Todos los dias te pisan los pies ',joy,0.208
-'@kareennevrez @carolynaat Jajajaja ayer ya no quería sacar cuentas jajaja ',joy,0.469
-'@vito_cfc @SSFE2017 Jjaakjak , pronto lo haré ',joy,0.5
-'#FrotaLaLamparaAS definitivo este tipo Suro es cero aporte y jura que es chistoso y hay que decirlo no lo es!',joy,0.409
-'Copia de seguridad: recreo para fijarte twitter',joy,0.239
-'No hay cosa más divertida que ir con @Tanvillegasc a ponerle etiqueta a todos los outfits 😂',joy,0.783
-'Se viene el MEJOR cumpleaños del mundo ! Noviembre llega rápido !  #feliz ❤',joy,0.913
-'@gigif3 Fue gracioso me vio con cara de mierda y ahora que hago',joy,0.479
-'Me toco la mejor taxista, volumen justo y terremoto pa tu cola, olvídate que mujer tan agradable',joy,0.5
-'como sabrá que la amas ahre estoy viendo encantada',joy,0.625
-'@cynthialrm @Karina750901 Me incluyo y no estoy orgulloso de ello 😓',joy,0.283
-'Y después a lo de mi padrino que es el cumple 😄',joy,0.667
-'estoy bien feliz pero bien triste a la vez por qué ya casi termino mi serie :( es como que siiiii😬 pero noooooo 😢',joy,0.435
-'@goldevenezuela La prohibicion es solo para funcionarios chavistas. 😅',joy,0.563
-'@Daniel_ChefMX Eso depende mucho jajajaja ',joy,0.63
-'Me siento muy bendecida por Dios ',joy,0.75
-'No voy a decir que borralo porque cada vez que lo digo es peor ',joy,0.104
-'Juro que me estoy amando en este momento 😊',joy,0.826
-'Que finde tan largo y tan lindo 😊',joy,0.75
-'@DebRyanShow #Rayito creo que eres la persona más famosa que hay en este mes , eres genial por eso tienes tantos seguidores xD',joy,0.652
-'@cesciano Yo la voy a ver. Desde hoy ya por fin tengo Netflix. ',joy,0.667
-'@poxoleytor Cagamos amika ',joy,0.429
-'Si a mi me ponen fortuna eterna llena de lujos y demases, vendo hasta mi madre, eso de los valores y principios solo existe para conformarse',joy,0.435
-'@kalebalemayehu_ @NOCHlLLVlNES yo wtf ',joy,0.229
-'#SabadoJaqueMate juega y juega la free @JaqueMateDisco',joy,0.458
-'@FloresconVeneno ¿contenta?    de nada pequeña Lulú,  Muchos abrazos para vos y tu beba',joy,0.636
-'@rodotailhade / estoy orgullosa de Ud diputado . Honra su su banca, a la Patria, a nosotros, y a la verdad',joy,0.543
-'11:42 y no he estudiado un culito ',joy,0.188
-'Mañana empiezo otras materias pero me va seguir dando clases la única maestra que me caga ',joy,0.146
-'@VZaferson @diegoreba Difiero ',joy,0.333
-'Una sonrisa puede ocultar mil emociones',joy,0.304
-'Que dicha como uno va descubriendo la clase de personas con las q se relaciona.. ',joy,0.458
-'Aqui viendo la guerra de memes -los guarda-  ',joy,0.522
-'@SamsungMobile Que genial yo lo quierooo',joy,0.604
-'[20/7 1:21] Juli: A ésta hora tendríamos que estar tomando [20/7 1:21] Juli: Chupadas [20/7 1:24] Juli: Yendonos en sangreeeee ✨FELIZ DÍA✨',joy,0.563
-'Yo la engañaría con otras y ella lo sabría y no diría nada para poder seguir viviendo en mi casa gozando de mi fortuna.',joy,0.208
-'@chicaelectric_a Es que de verdad, lo único que hice fue cocinar y ver tele jajaja ',joy,0.5
-'@Bordeline10 tampoco me interesaba la verdad , solo que soy demasiado bueno recordando caras . No tengo ningun otro “talento” ',joy,0.354
-'Le dije a mi papá que me trajera cena y me dijo que si.... Llegó con sopa Maruchan ',joy,0.542
-'En dos findes o tres voy a estar en corboda 😀',joy,0.354
-'La vdd es que ya me quiero ir a SF, porque emocionado',joy,0.604
-'@LaurenJauregui No tienes idea lo emocionada que estoy por lo que tú y las chicas están preparando. Buenas Noches. Te quiero Lauren.❤🌹',joy,0.896
-'@hey_is_valerie Las leyes en México son un chiste de mal gusto',joy,0.229
-'@jbryan_x Fui a verla el año pasado y tuvo su toque divertido pero esperaba más, ya veremos cómo va esta 😃',joy,0.5
-'Diablo ni yo me lo creo ',joy,0.188
-'Por que hptas tengo que ser tan orgullosa cuando se trata de el :(',joy,0.043
-'#CaniggiaLibre que pelotudossss jajaj los amo ',joy,0.739
-'Pero la verdad es que por muy mierda que sea la Selecta, nos da más alegría que los 84 hijos de puta que solo van a ver porno a la AL (2/2)',joy,0.196
-'@haditarabiosa @viry_chio JAJAJAJA 😂',joy,0.75
-'@LaPauHC @lily_v13 Soy taaaaaaan chistoso. ¿Verdad?',joy,0.543
-'Menos mal mañana es festivo.',joy,0.609
-'Pensando fríamente él wall no me gusto 😕',joy,0.188
-'@CarlosDonoso @AlfredoVallejos @flor_azul_64 Yo estoy pobre :(. ',joy,0.182
-'JAAAA Q GONZALO DE MIERDA ',joy,0.333
-'@anettemicheltv me podrías mandar un 💋 de Buenas Noches? ',joy,0.522
-'No tengas un cuerpo delgado, ten uno fuerte, rápido, ágil y en forma.',joy,0.409
-'@Luladebrackets Rose, la de Titanic ',joy,0.354
-'Salimos pone en la foto jajajajajajajajajaja, amo a mi mamá ',joy,0.87
-'¿Juega desde ya?',joy,0.458
-'Si me gusto la feria 😍',joy,0.708
-'Sabes que no hay marcha atrás cuando comienzas a sonreír cada vez que hablas con esa persona. 😊',joy,0.833
-'Las cosas las tienes que hacer porque quieres y apetece, no para esperar nada a cambio #felicidad #actitud #valores',joy,0.604
-'Los sueños no se deben quedar sólo como sueños! Hay que hacerlos realidad 🌟👑🌼💧#Feliz 😊',joy,0.667
-'@anasof_cg Casi 10 años de entretenimiento gratis 💁🏻💗🤘🏼#YoNuncaHeLlorado #SoloElla',joy,0.609
-'Angeles me cuidan y guían mi bienestar🎵',joy,0.646
-'Activos de nuevo ',joy,0.565
-'Cuando tenía 16 , veía a los de 25 como mayores , súper mayores , meeeega mayores ! 😆 ay papá!',joy,0.521
-'Siempre es bueno leer los tuits del 2011 ',joy,0.479
-'Me gusta cuando me hablan para ver que se hará en mi cumple ',joy,0.739
-'Acá bien alegre con mi laboratorio de mate pa\' mañana',joy,0.609
-'Cuando te llaman de apple y te cambian el dia 😊 #alegria',joy,0.958
-'Estoy emocionada af porque el viernes voy a ver a mis amigos los darkies de la prepa y haremos una pedísima. 💕',joy,0.833
-'A mi aveces se me olvida que existe Messenger y respondo a las horasss jaja ',joy,0.457
-'@YamelPO97 A mi me estresan pdl pero no puedo dejar de verlos ',joy,0.348
-'@mariobautista_ Y sho que :v ntc te amo mi amor 11:14 orgullosa de decir q soy bautister',joy,0.854
-'@Karinabarbosa kari? Te refieres a . .  orco el de la serie animada . . . . . He-Man?',joy,0.378
-'Zuckerberg como no me venís a tocar el himno de la alegría con la quena, guampudo.',joy,0.478
-'@sigridalegria Siempre brilla la #Alegría 😉',joy,0.826
-'@cllnahhue JAJAJAJA estallé mal, cualquier parecido con la realidad es pura coincidencia 😅',joy,0.63
-'@atomicbold Gracias! Buenas noches ',joy,0.417
-'@Marielle_Lovee @Gee_Matas @BIackppIvlnes @PauletteGold No me estén asustando por favor ',joy,0.37
-'Ya había olvidado lo agradable que se sentía pasarme por acá.',joy,0.792
-'viaje de Lampa a Puente Alto solo para comprarle la dichosa cortina culiá a mi amiga, solo un amigo puede hacer eso',joy,0.375
-'@_stf1006 @Tota_Reloaded Igualito ',joy,0.292
-'@aparego Siii! Genial!!!',joy,0.739
-'Cada dia mas me enamoro eres mi fortuna y mi orooooo',joy,0.869
-'Ahora sólo me da miedo que mi vecina @prettyfreckles me vea en ropa interior en lo que pongo las cortinas ',joy,0.205
-'Y por los hombros le agarra /de puntitas/ para que pare de ejecutar dicha acción.   — Eso es mentira, Lotte. ¿Quién te ha dicho eso?',joy,0.271
-'@Persefone95 antes de ver el que estoy viendo pase por dos primeros capitulos de dos doramas que iugh, hasta que vi ese que me gusto',joy,0.438
-'La actitud no se negocia ',joy,0.373
-'EXPECTATIVA:  —Cuando hablemos le voy a decir esto, le preguntaré esto, hay tantas cosas por hablar  REALIDAD:  —¿Y qué más? —Bien  —Ah ya 😅',joy,0.435
-'@jimeramirez0109 Si por dicha ❤',joy,0.646
-'Pero sigo siendo el reeeey. 🎶 De los pendejos. ',joy,0.167
-'Se duerme el enano y ya no se que hacer. Despertate ,dale,no ,mejor seguí durmiendo 😅',joy,0.457
-'Juro que cuando mande ese wpp no me pude haber emocionado tanto, pero lo tenia que hacer 💪espero que lo lea😄😄',joy,0.625
-'@Natrioshka Yo a veces entro a twitter solo para leer a esta mujer. 😀 Un saludo srta!',joy,0.457
-'@FlavioKisuc Por favor ',joy,0.375
-'Dejen cenar a gusto mbre',joy,0.354
-'Nos pusimos a guliar fiambre con las pibas y mayo ',joy,0.375
-'Lo lindo de sentir cerca a esa gente con la que compartiste tanto, eso es amistad! 😍 Soy una afortunada de tener a la gente que me rodea! ❤',joy,0.978
-'Es frustrante ver como se aleja tu felicidad en cuestión de segundos. Como si de ello dependiera tu vida, ese incómodo nudo en la garganta',joy,0.104
-'Meraaaaaa vossssss juajua ',joy,0.458
-'Mañana es festivo, claro, todos cuando no he entrado a clases todo bien prrs',joy,0.391
-'@chillywilly8888 No entendí ',joy,0.271
-'Personas, momentos, mensajes, cosas que te llenan el alma. #Feliz',joy,0.875
-'@francellabrenes Literal no he ni visto el temario ni nada ',joy,0.271
-'Veo mis notas en la U y por primera vez me siento orgulloso, increible',joy,0.833
-'Queee pesados están los atunes  -Mi hermana acomodando los viveres en la escuela ',joy,0.292
-'¿Que sería de mi sin esos tres “jajaja”? Siempre me salvan de dejar en visto a la gente que medio me agrada 😂',joy,0.708
-'@Ana_Monjes14 Que persona agradable es usted',joy,0.609
-'31 la mejor por lejos, te adoro un monton, nunca me faltes, responde algo lindo o borro el tw ',joy,0.521
-'Hoy es otro de esas días dónde no puedo dormir y mañana tengo que madrugar, que dicha.',joy,0.375
-'Tía meli @meliromeo214 veni a dormir a tu sobrino que no se quiere dormir ',joy,0.354
-'@perrusky @Carlarendon @jvillalpandoc No dones perrus, neta ni una vez te hemos pedido eso ',joy,0.271
-'Estoy tan emocionada con todo lo que tenga que ver con Disney y Marvel, que hasta ganas de brincar y gritar me dieron. 😍',joy,0.955
-'Llegó la hora de descansar,mañana juega el TIBU⚽.',joy,0.542
-'@maria208055 @tonysan777 Yo solo os acompañaré una semana, pero os animaré la que os queda!',joy,0.583
-'@caminantv Ánimo! ',joy,0.438
-'@kareen_sh Super si Bebé, el viernes, hay peda con Alda🙊 Yo más forever, eres la más divertida JAJAJAJA💓',joy,0.87
-'algunas personas tienen suerte de q tenga tanta paciencia xq ya las hubiese mando a la mierda',joy,0.146
-'@haroldazuara Tira el miedo cuando vayas al baño ',joy,0.375
-'#Felíz #Aniversario de #Amistad en #Facebook y que sean muchos más 📷🍸🍰💖💋💋💋',joy,0.75
-'Me hacen mucho bien esos videos jajajaja ',joy,0.854
-'Me acorde del momento de ayer e instantáneamente sonreí, enganchada? No, ni ahí ',joy,0.5
-'Es que me dicen que comeré perche y se me pone una sonrisa de oreja a oreja❤️',joy,0.792
-'Tan rico un mensaje que me animé, me alegre la noche, que me sienta querida!',joy,0.667
-'@darlyssolanof @VictorBolivarM @AnaMarcelaPint0 Yo no hice bloqueo ',joy,0.292
-'@dejatelopavo En la fave de los pelos ',joy,0.413
-'Pero otro día ',joy,0.205
-'@millarayfgh Que eres chistosa😂😂😂',joy,0.729
-'6:45 go to badajoz. Empieza la época con cambios ',joy,0.479
-'Le mandaría eso a Sofi pero no soy tan mala porque sé que de verdad le asusta las arañas ',joy,0.152
-'Hoy si me di gusto jugando xbox',joy,0.625
-'@almadepudin Jajaja cada quien tiene sus gustos 😊',joy,0.587
-'It: Me gustó, pero en mi opinión le faltó algo, nose. Ojalá la hubieran pasado en 3D. En la espera del capítulo dos ',joy,0.5
-'@futpicante La expresión es divertida, soez claro pero nunca homofóbica. Considero una agresión a nuestra cultura el prohibirnos expresarnos',joy,0.5
-'Perfil:  — Bien webon. — Bien inocente. — Solamente juega juegos.  — Tiene actitudes de matanza.  — Seguramente me mate luego de esto¿',joy,0.109
-'Uy, mira, ya todos están casados, que divertido  Mientras todos disfrutan su matrimonio yo ando cogiendome a todas, que envidia, que envidia',joy,0.364
-'Al que no ha visto, no le consta. Por ende no inventen chismes ',joy,0.146
-'@sweetmygomez awww linda :’) don’t worry, a mi también se me pasa 😅',joy,0.521
-'@itsLuanx_ JAJAJAJAJAJAJAJA se me salio lo lesbiana, perdón por tan poco ',joy,0.539
-'@IsaCamargoSoto Siiiiiiii verdad mañana es festivo, me confundí',joy,0.604
-'Creas una dependencia de la verga por que extrañas a cierta persona, sus labios, su sonrisa, la luz de su mirada, sus caricias, sus chistes.',joy,0.364
-'@javier_ruescas Deberías cantar junto a @verogv15 la canción de tu canal bienvenidos al canal de @javier_ruescas que divertido saludos',joy,0.604
-'@MiluuGonzalez__ Muy grave para mi gusto, me wa mori',joy,0.271
-'Yo mee sientoo orgullosa de ser parte del mejor fan club de mty ! #FusionCncoMty',joy,0.688
-'@lifeislali Para mi todos no! No creo que taaaan justo Nicolás la lleve a donde están todos los malos ',joy,0.333
-'Tengo frío ',joy,0.354
-'Me voy de viaje el domingo y no estoy emocionada, bueno solamente por toda la comida que comeré 🤤',joy,0.521
-'@bellapussyxxx he aprendido a ser menos egoísta y más tragon gracias a ti, así que cuenta conmigo para todo ',joy,0.542
-'Pican jjjuerte los mosquitos ',joy,0.208
-'la satisfacción de hablar solo',joy,0.438
-'El gozo del Señor es contagioso. #LaAdoraciónADiosEngrandeceLaNación',joy,0.563
-'@TaniaPiri18 Ven tu amiga , estoy viendo greys ',joy,0.409
-'La milsgros me mando un mensaje y me puso TE AMO , jamas en la vida me habia demostrado tanto amor.. estoy emocionada',joy,0.875
-'Me comí el cereal ya ',joy,0.391
-'@aliciaenp Ajajjaa somos del clan twitteras perdidas pa eventos importantes ',joy,0.542
-'No debe haber cosa mas linda que ver a la gente sonreír !!',joy,0.875
-'@mac1eod te acompaño 😊',joy,0.542
-'Después de un día CERO productivo, ya quiero ir a trabajar ',joy,0.354
-'@paspadita Dale, lo vicho! Muchas gracias!! 😊',joy,0.652
-'@D99Radio @enjambremx @enjambremx @D99Radio Samantha Sofía Elizondo Gzz 😊 #SiTePreguntanSoloD99',joy,0.542
-'este momentazo para entrar en el #felizlunes 😀 #quetengasunbuendia  rt el ajedrez me enseñó que con un mal movimiento puedes perder a tu',joy,0.543
-'@_Dannieladc No maaaa, estoy muuuuy emocionada. 🔝 Cadena de oración para que mamá Ara te deje. ❤',joy,0.826
-'@Camila_Cabello @BrunoMars QUE LINDO TODO ESTOT MUY EMOCIONADA',joy,0.75
-'Que chevere editar/animar imagen con bonitos colores <3',joy,0.688
-'Hoy he puesto la carretera de chiclana-Medina-puerto real!!! Ya hoy me puedo dar por satisfecha!',joy,0.79
-'Entonces te das cuenta que no es quien te mueve el piso, sino quien te centra ',joy,0.479
-'Ahora tengo dos trabajos jeje. Al menos el segundo es divertido',joy,0.529
-'@JannaMaciel @Erimily_C Hahah que vaa! No hay tamaño pa dedicarse a eso, ya quisiera yo😢 Janna, si me hago famosa ya tu sabe, contratada ',joy,0.5
-'No supero mas lo del sábado en él auto de Fer cuando nos agarro la policía ',joy,0.298
-'Jajaja este gurí ',joy,0.652
-'Es horrible cuando todo juega en tu contra, incluso a quienes quieres',joy,0.146
-'Se ponen a vender twits y todavía se indignan ',joy,0.271
-'daa en serio se van a poner a subir fotos con todos sus amigos? es más divertido ver un documental de como crece el pasto',joy,0.313
-'Es la pendejada mas grande dicha por ti',joy,0.182
-'Como cuando a algún man le parece súper linda una vieja y uno le daña la ilusión mostrándole todo el Photoshop que usa ',joy,0.146
-'@framsnunez_ De teh quiz teh quiz ',joy,0.25
-'Siempre que llego a casa de noche mi perro me viene a saludar y se va corriendo a mi cama antes que llegue yo ',joy,0.523
-'@dani_moram Legalmente tenia ganas de quedarme ahí tirado ',joy,0.333
-'@josecuellar93 JAJAJAJAJA cerote si supiste como cagarte en mi tweet de optimismo',joy,0.479
-'@miledelval La dicha se repitita?',joy,0.354
-'extraño messenger era divertido',joy,0.229
-'@mariadenext Jaajajjajaa Deneeeeb ',joy,0.625
-'Te dice mejor ser soltero y lo primero que hace es tener novia jaja😂😂Tanta risa me das ya nene aburres con tus mentiras de bebe xD Suerte😘😘',joy,0.478
-'@AlexXxStrecci @Angela_ChefMX La van a eliminar ',joy,0.283
-'Mi ego aumentó un poquito con eso jajaja 😄',joy,0.652
-'No alardees que un hombre comprometido está tras tuyo,eso le sucede a cualquiera; siéntete orgullosa cuando lo RECHACES a pesar de quererlo.',joy,0.417
-'No me convenció nadie, me convenció tu sonrisa 🎵',joy,0.583
-'@TamezGaby Cada día te ves más hermosa y que hermosa sonrisa tienes saludos desde aquí cerca desde Cozumel bendiciones 😘',joy,0.708
-'Me dicen que no me ilusione pero soy tan terca que me estoy ilusionando  porque pues asi soy',joy,0.333
-'—Ugh mental para ambos adultos.—   Que soez es uno y gracioso el otro.',joy,0.313
-'LA VIDA  ES TAN BELLA  QUE  VALE LA PENA SONREÍR 😅',joy,0.813
-'por toda una vida junto a la familia que uno elige. los que están siempre, los de verdad. ¡feliz día! 💗',joy,0.717
-'Feliiiz Cumple Pasala Genial te Kiero Pibeee!❤ @BarnecheMatias',joy,0.913
-'@Jseute Las mejores personas llegan sin buscarlas.  😄',joy,0.542
-'Soy la más emocionada porque ya puedo poner emojis a mis contactos 🎉',joy,0.826
-'Hasta el hueso una de las pelis que quería que durará más ',joy,0.457
-'Ya estaba emocionada de tener roomie 🙄',joy,0.478
-'La estrella más grande y brillante eres tú 👼',joy,0.708
-'@celinegm_ @RudneyCoelho @lindberghfarias Coméquedorme ',joy,0.326
-'@AlvaritoMorales siempre queriendote hacer el gracioso eres malísimo.',joy,0.167
-'Ya funciona, gracias @CinthitaLeon 😘. Ya nada @NetflixLAT 😀',joy,0.682
-'No me gusta leer fics donde los Cullen y Bella son vampiros, pero me acabo d encontrar uno, ya me leí 3 caps y me esta gustando 😆',joy,0.458
-'@SherKitt No hay pena de carcel? ',joy,0.229
-'Quería escuchar Night rather than day pero se puso Eclipse, no es lo que esperaba pero estoy satisfecha.',joy,0.521
-'Que bendición es la gente que me rodea, que bueno es sentir el amor, que lindo es saber que nunca estoy sola ',joy,0.833
-'@Alan_frete13 Igual me respondió hace casi mes pero la felicidad sigue ahi💕💕💕💕',joy,0.609
-'Murió en el apogeo de su carrera. Ahora está en el cielo cantando junto a Amy Winehouse y mientras Hendrix toca la guitarra. #QEPDLeTongue',joy,0.13
-'Yo solo he ido a @ElAlbanBorja a Correos del Ecuador, a acompañar a una amiga a una reunión de Lbel 😅 y a ver a Papá Noel... porque pobre 😁',joy,0.458
-'Aunque siempre de las piernas porque siempre duermo sin camisa ',joy,0.341
-'@o_solorzano78 @tinunjei @javi1dc Estaba siguiendo el debate y ví que al final te quedaste solo, igual que tu partido. Chao ',joy,0.223
-'Pensé que era joda que se iba a poner ese nombre ',joy,0.37
-'+ actitud adversa cuando tropezó, le habría agradecido su preocupación.  Ahora bien; era en cierta forma muy divertido entablar una +',joy,0.478
-'Me hace enojar pero lo quiero igual ',joy,0.174
-'Que bien se siente pelear de nuevo, aunque esté bien tronco ',joy,0.438
-'@Ana_PaYT nwn thx Ana 😄  también quería poner a Endi pero ya no me dió tiempo 😥 mejor para la otra 😜',joy,0.438
-'y pensar que David ayudó a escribir el 2x25 es más emocionante, bc ha tenido continuación',joy,0.522
-'A ver cuál de mis amigos se la juega con un chocolate? ahre jajajajajaja',joy,0.667
-'Si la tristeza y el dolor continuarán mientras siga viviendo, ¿pero es normal? Yo quiero vivir con ese dolor. #feliz #lunes #felizlunes',joy,0.292
-'@Punchline04 Jajaja dale, de ti dependerá mi credibilidad aquí ',joy,0.542
-'No puedo dormir, emocionado como cabro chico porque mañana voy a Santiago 😂 Ay señor porque soy tan huaso 🙄',joy,0.813
-'@Genesisca7 En serio? Es bien sencillo hacerlo ',joy,0.5
-'Me bajo mucho en la hermana del  raton, pero es que es igual de invivible que el. ',joy,0.354
-'Me da risa caerle mal a la gente',joy,0.348
-'@Sargentoleon @PremiosTuMundo ¡ A  VOTAR !  Todas las bendiciones y éxito , LeónHermozaa , ❤🙏👏 y  ¡SUERTE! 😍😘',joy,0.813
-'Días singulares, donde Papá ve Los Pitufos, Mamá hace un flan a las 1am, mi hermano ve maratón de OITNB y yo hago hotcakes a las 3 am ',joy,0.545
-'Te quedo Rico Angela 😀 #MasterChefMx',joy,0.521
-'Sin duda, por fortuna, ahora me encuentro lejos de tener los nudillos reventados y la mente atormentada.',joy,0.477
-'No superó la noche  de ayer ',joy,0.458
-'@Mary_Gmz4 Me conoce bien esa mujer, ¿Qué esperabas? ',joy,0.304
-'Mi bien ponderada @piCkOL, ¡feliz cumpleaños! Me tomo tres cervezas a tu salud. Abrazo grande pa\' ti.',joy,0.729
-'Me tengo que hacer análisis, ya estoy sintiendo el llanto ',joy,0.188
-'@Kait_ec Sé fuerte, no caigas en tentación ',joy,0.375
-'@Eduardo_GarzaT Ventura Knight, me gusta mucho, saludos',joy,0.614
-'@TotoGameplays_ Posiblemente, el handicap me canso y tengo equipo full oro brillante jajajaja',joy,0.708
-'Mas allá de como juega, se nos va una amiga, entiendan😐',joy,0.25
-'Ella dijo que me enviaría a un colegio por meses y por un lado me alegre',joy,0.646
-'No puedo creer como Junior Arias puede ser titular en un cuadro argentino ',joy,0.188
-'TE VALGO VERGA AMA porque no veo que me lleves por jeringas ',joy,0.167
-'@sxnrisee si te llegó el tweet anterior, ignoralo mi amor, nada que ver. ',joy,0.25
-'@Liev_Melenas La resurrección de Nikki ',joy,0.457
-'@camitalaveraa si sos un fracaso ',joy,0.109
-'se viene la segunda función #Feliz ❤️',joy,0.75
-'@Yessdavsw Hermosa y sexy como siempre!! Te quedan genial eso leggins, los llenas a reventar 😍😵',joy,0.545
-'@CynthiaCayo10 Que vendría a ser lo gracioso ? 🤔 @DAngeloLu1',joy,0.375
-'@varo2114 @abi_quesada Mejor me aman y ya así se llevan menos colerones! ',joy,0.563
-'❤️✌🏾Ya somos 400 Seguidoresss✌🏾❤️ #gracias #Feliz #FelizLunes #LunesDeGanarSeguidores #SIGUEMEYTESIGO #SiguemeYTeSigoDeVuelta #Rt',joy,0.783
-'@arca_fidelidad ¡Hola! Es un gusto ayudarte, me brindas tu número vía DM, por favor.  *Moy.',joy,0.5
-'@muriodeasco es re gracioso ver saludos de compañeros de la secundaria que si ahora nos vemos agachamos la mirada para no saludarnos',joy,0.405
-'@xsangrelatina Y las respuestas de la mina fueron súper agresivas, según ella porque es de color colo y lo hizo a propósito ',joy,0.217
-'🎵 San Cristobal, San Francisco y mi San Andrés Xecul. yo te canto emocionado cuna de Atanasio Tzul.',joy,0.565
-'-Mi amiga de la ibero que siempre me visita cuando estoy triste en León. Te quiero un buen amo la vibra y la alegría que siempre transmites.',joy,0.674
-'@ToritaMyQueen @Valentin_Ass Eso lo hace más gracioso aún',joy,0.646
-'Voy a ver una pelicula asi full love por que no es full HD 😅',joy,0.583
-'Jajajaja soy un paranoico de mierda 😅',joy,0.333
-'@MrkHdz El chiste es ayudar colega! En todos lados es bueno 🙌 por eso me caes reeeeeebien 😊',joy,0.688
-'@kavegav Jajajaja para nada ',joy,0.563
-'@zumbado_valeria Yo sé que es duro amiga, pero te amo ',joy,0.5
-'#DeColombiaMeGusta Las Mujeres, La humildad, La Alegría Colombiana, La Bandeja Paisa Mijoooo🇨🇴',joy,0.729
-'@armandozhoil Cierto... ¡Disfrútalo! ',joy,0.625
-'@ysoniaaparicio_ jajajajj postaa deja ni fiesta vamos directo al civil. Yo me enamoro minimo 2 veces por dia en el subte ',joy,0.659
-'Que lindo es revivir viejos tiempos 😀',joy,0.646
-'@AgustinTerrazaa Ya lo sé ',joy,0.313
-'Hubiese sido la yo del domingo y estaria hecha un mar de lágrimas ',joy,0.188
-'Fav si qres una ft mia muy feto y graciosa',joy,0.522
-'@hum0r @EPN ajajajjaa. Perdón, my Lord. Estoy a 1 minuto de que deje de darme risa, no a menos, como a 5 😂',joy,0.75
-'Lo mejor es confiar en que vas a pasar el examen con lo poco que se te grabo en clase ',joy,0.458
-'#MeAlegraElDía Una sonrisa especial, de una persona muy especial.',joy,0.936
-'Planeaba dormirme temprano pero están pasando Encantada en Disney Channel😘',joy,0.521
-'Es muy fácil sonreír  y filosofar cuando es otro el que esta echo mierda',joy,0.208
-'@michellelovera5 @chochos Jajaja  igualitas ',joy,0.652
-'@cacorrorrea77 @ZeusSuspendido La meta la pones tú 👊🏼! ah no perdón me equivoqué de bebida ',joy,0.375
-'Los memes de 1min, no menos, como a 5 mejoraron mi fin de semana ',joy,0.542
-'@audiomano A mí tampoco me agrado mucho eso. Especialmente por tratarse de él. No hay justificación.',joy,0.104
-'Creo que voy a borrar snapchat a la mierda ',joy,0.125
-'Lo crucé a Damian disfrazado todo loco ',joy,0.542
-'@SuperIvo7 Estaría entretenida ...',joy,0.5
-'Me contaron que retomó los estudios, al parecer le va bien y que conoció a un nueva persona. Me pone contenta eso le deseo lo mejor SIEMPRE❤',joy,0.543
-'Bendito sea el que estuvo antes de mi. ',joy,0.313
-'Si no encuentro algo entretenido, me largo a dormir',joy,0.273
-'Hay gente que merece que le hagas una diapositiva en un pendrive explicándole todo y asi pueden irse a L.C.D.S.M ',joy,0.146
-'@adosvoces_tn jaja que genial bonelli y compañia, ahora creen en encuestas? Gano Vidal 😳 Gano Trump 😳 y dijeron q no servian! #PocaMemoria',joy,0.37
-'@ViviendodelasP un cago de risa esa escena. tambien la de burbage con molly y cuando agnes recibe a marlowe.',joy,0.646
-'@Javan_nunez Lo gracioso es que mucha gente no se da cuenta de eso, que solo son personajes...',joy,0.479
-'Solo espero que la persona que te gusta no te felicite hoy.  ¡Feliz Día del amigo!',joy,0.583
-'@ItzelBarajaas Te sigo de hace tiempo, y hoy tuve la fortuna de verte en el estadio, quise hablarte pero me dio pena😂🔴⚪',joy,0.478
-'@CristinaMachuca Chuuu.. tengo mala suerte en el juego, siempre!',joy,0.196
-'@LesleyNieto y mucho pinchi chamaca ',joy,0.304
-'La vida no tiene sentido Cuándo le gustas a una morra linda, femenina y divertida pero extrañas a una culera, medio vato y bien amargada. 💭',joy,0.25
-'@DebRyanShow @TecnopolisNC #rayito te irá genial',joy,0.646
-'Ambos ojos amplió por las acciones ejecutadas por el más alto, aunque no le molestó en lo absoluto; solo se estremeció por dicha acción. >',joy,0.333
-'@armymxvotes @BTS_twt Sería divertido xD #BTS #ARMY #KCAMexico',joy,0.646
-'11:45 @Bryan_SKabeche @Eddy_SKabeche Los amo demasiado,gracias por hacerme sonreír siempre😍❤️',joy,0.875
-'¡Feliz día del amigo! Les dejamos este espacio para que le dediquen unas palabras a esa persona especial que merece ser llamada como tal, x.',joy,0.75
-'@valebr2015 Feliz día valeee',joy,0.771
-'@rvenegasq Hoy todo es fake ',joy,0.146
-'Qué loco ha sido mi 2017 ',joy,0.435
-'Según Facebook, hace 7 años andaba con Fernanda ',joy,0.104
-'@Miguel_layun  te quiero conocer soy tu fan gracias a ti me gustó el fútbol todo es tu culpa layun ',joy,0.646
-'@Naano_MB Jajajajajajaja estamos enfermos ',joy,0.75
-'No estoy rota, estoy rompida ',joy,0.205
-'@GolDNakama Jaja pobre Tatara ',joy,0.455
-'@Daurreaq @OrangeSoxTeam Ponte a dieta y ready para la receptoría 😂',joy,0.458
-'Yo no tengo suerte en esto #GisselleKuri #SebastiánVillalobos #PDCs #KCAMexico',joy,0.304
-'Por tanto aguante. Gracias 💛 ¡feliz día!',joy,0.667
-'@Morgenstern2707 Y tú a mi ',joy,0.417
-'@lanaranja @ClubNaranjeros Jamás, mis propósitos son semanales ',joy,0.333
-'@abi_quesada @AleVarela08 Tan violenta ',joy,0.37
-'Tu pasando pena y yo muriéndome de la risa😂',joy,0.771
-'@MoeR_10 hasta ahora nunca he entrado a una clase de perspectiva ',joy,0.438
-'Hoy me atendió un mozo q me gustó. Llegué a mi casa y no se cómo mierda hice pero ya averigüe nombre apellido y gusto musical entre otros.',joy,0.583
-'@Danmaldonado18 Chamo, son las 12:44 am ',joy,0.283
-'agustina es la primera vez que sale y no está contenta eso xq no va algún chongo de ella seguro Chicas basta.',joy,0.167
-'mañana sin verano #felicidad',joy,0.771
-'Ahora se viene la mejor parte de Encantada lpm✨✨✨✨',joy,0.604
-'Estaba animado a hacer algo k no es usual en la mua pero este dia se fue del qlo >:v',joy,0.375
-'Un beso es un agradable recordatorio de que dos cabezas son mejores que una.',joy,0.604
-'@novaimperio @ROYALE_ARGENTO @CCRCUP Y para q lo hacen si concuerdan? ',joy,0.458
-'@Nicotalleres98 Jajajaja Naa 😆',joy,0.667
-'La Selección De #Panama Es Muy Conformista, Jugar Bien Y No Ganar Es Aplauso Y Victoria? Hasta Cuando Con Eso? #CopaOro',joy,0.354
-'Mañana es festivo y por alguna extraña razón estoy triste.',joy,0.125
-'Se vale estar triste, Se vale no siempre ser la persona alegre que todos quieren, Se vale no querer hablar con nadie. Se vale ser humano.',joy,0.167
-'Me aburre la gente que sigue a las masas, que no se la juega, que no rompe reglas.',joy,0.208
-'dame de tus labios, quiero verte sonreír',joy,0.521
-'No entiendo porqué tengo que madrugar un festivo, no entieeendo.',joy,0.174
-'@CChavez1993 Esto lo he dicho toda mi vida, al fin alguien entiende ',joy,0.304
-'Otra vez se me viene esta frase tan graciosa que una vez compartio una amiga y me quedo sonando.....',joy,0.813
-'#Feliz día a todos',joy,0.646
-'Que manera de cargarme de risa en ese baby shawer. ',joy,0.75
-'@janapaula_gr Ya se, vlv. 🤦🤦🤦 Por eso pura agua desde entonces. ',joy,0.396
-'@bahia_mall En @ElAlbanBorja no hay ñengosos!!! ',joy,0.229
-'@KevenYHensy Hasta Yo Estoy Orgullosa😍',joy,0.688
-'@nidiaferr_ Con mucho gusto 🌮😂',joy,0.708
-'el directo de hernan me dio toda la felicidad, @hchampionsliga te voy a escuchar siempre.',joy,0.813
-'@blackjim7 JAJAJAJAJAJAJA pinche manchado, versión te lo juro que no estoy amargada ',joy,0.646
-'@avilesmgl Yo tenia años sin ir, me gusto volver; hay agua, no como hace años. Descansa ',joy,0.625
-'Me imagino a los narcos yendo a la pape por sus cartulinas de colores 😂',joy,0.455
-'Las ganas que tenia de tomar una cerveza bien friaaa, lo unico que pude aprovechar hoy de la carpa 😂',joy,0.625
-'@SKabecheTV En todas te ves genial',joy,0.646
-'Dicen que las cataratas cumplen sueños, milagros y deseos! Gracias Dios por éste viaje! #Feliz',joy,0.89
-'no tienen una idea de lo orgullosa q estoy de guanlin',joy,0.708
-'Por gusto y no por gustar, nunca para demostrar, siempre para sumar 6/6  #AhoraoNunca #ControversialTonyFlow #CosaNostra #comingsoon',joy,0.292
-'@pepecandelaria @joelcanojr Con orgullo soy chillahermano. Chillé de alegría cuando les ganamos el campeonato.',joy,0.688
-'@romiolivera4 un peligro tenerte de fav a vos😂 Feliz día olvidadora, te amoooo💕💕💕💕',joy,0.875
-'@vicky_rayada Nambre como crees? Sabes mucho más que los que se dicen periodistas👉 (Víctor Hdz)👈 ',joy,0.304
-'No sé cómo mi hermana se dejó que le decolorara el cabello sin saber nada ',joy,0.283
-'Los efectos en star wars me encantan, es genial ver cómo se esforzaban antes para que todo pareciera real.',joy,0.604
-'Pero igual más adelante puedo hacer otros sondeos jajaja ',joy,0.75
-'#LaPrimavera #Vichada, en cada corazón de los colombianos late el orgullo por nuestra patria ¡Feliz #20DeJulio! #UnLíderParaTodos',joy,0.717
-'Como se atreve a venir a mi casa asi como asi ',joy,0.182
-'@pauesbonita Disculpa mi francés ',joy,0.229
-'¡Feliz cumpleaños, #Gordito @kossajah! Hay que irnos a festejar 🎂👍😁🎉🍻',joy,0.771
-'@vicki_castillo @JonyBethen Jajajajaja que gracioso, porque le dan rt pensando que lo tuiteaste em serio',joy,0.708
-'Que agradable sujeto el Valentín',joy,0.543
-'@rosarioa Culisuelta se nace ',joy,0.25
-'✴Feliz Día ✴  para quienes se considera un amigo..',joy,0.542
-'@sopitas Ahora sabemos porque tan sonriente en las fotos, seguramente decía pobres pendejos los que creen esto',joy,0.292
-'Mi relacion con yerko es un cague de risa',joy,0.717
-'Alguien puede explicarme la lógica de #TripTank? Por más que le busco lo gracioso, sólo quedo con la sensación de #WTF?',joy,0.326
-'Tu eres mi felicidad #SebastianVillalobos #PDCs #SaaKTrendy #KCAMexico',joy,0.854
-'Un domingo muy diferente a los que estoy acostumbrado a pasar fue el de hoy 😊',joy,0.604
-'JAJAJAJAJAJAJAJA, admito que eso me dio risa, me lo imagine',joy,0.882
-'@Ceci_Remigio @Julia_ChefMX Es tan neta cómo el fin del mundo pasado ',joy,0.458
-'@karma_guizmo En lugar de un novio, te brindo un amigo sincero que disfrute la peli que elijas ',joy,0.417
-'@Mariangel1888 De cerca no es tan buena 😂',joy,0.438
-'El único Espada que me resulta ligeramente agradable es Zommari. Me respeta como superior y no perturba mi existencia.',joy,0.625
-'Juega conmigo lorena ah',joy,0.292
-'Parce pues normal ',joy,0.374
-'@martamendoza5 Has el baloto porque estas de una suerte bravaaaaa',joy,0.37
-'MB si no me equivoco una vez me confundi de snap y te mande terrible escracho mio jaja,me re copa q estes estudiando el prof suerte con eso💪',joy,0.5
-'Nunca había visto una serie 🙊ya veo lo interesante y entretenido!',joy,0.583
-'¡Feliz día a todos mis amigos y a los caretas que dicen serlos síganla chupando!',joy,0.673
-'Mañana seguritito todos se van a querer sentar cerca de la puerta.. llegaré temprano 😅',joy,0.69
+' Huele a manteca quemada ... a no ya se enojo lacerda 🤣 🤣 🤣 🐽 🐷 ',anger,0.708
+' me siento mal x haberme peleado con mi prima ahre @username te amo pedazo de down enorme ',anger,0.396
+' @username @username Peor q nunca ... ',anger,0.625
+' tengo comezón en la garganta que desesperación ',anger,0.604
+' @username * Apunta furiosamente * ',anger,0.563
+' No hay nada mejor, que se salga de su fiesta, e ir hasta tú casa, sólo para calmar tú enojo😍😍',anger,0.375
+' Mi enojo dura num minutos y después ya te extraño . ',anger,0.333
+' @username Que horror 😐 🙊 ',anger,0.583
+' @username grande preocupación para docentes de entes territoriales como Bogotá y Barranquilla quienes están sujetos a la CNSC y num ',anger,0.479
+' Y apuntan y disparan y diana . Y un camino que fue llano es ahora sangre, ira, incendio en el vientre, lluvia en la mirada, obstáculos.',anger,0.5
+' Indignación en España por declaraciones que comparan a aztecas con nazis num:num am ',anger,0.565
+' @username me vas a hacer llorar lucas ',anger,0.333
+' ¡ Sólo no me ignores ! — otro pisotón . Ya está con el berrinche — . ',anger,0.563
+' Iría a molestar a mi amiga Laura porque estoy tan aburrida . Pero esta re frío . ',anger,0.333
+' Por que me arrepiento ',anger,0.37
+' Soy muy impulsiva, en el momento que me enojo digo cosas que después me termino arrepintiendo',anger,0.583
+' Cada que veo Gg me dan ganas de ser rica ',anger,0.25
+' Cuando escucho a Naranjito la ira se apodera de mí . Al final tendré que ignorarlo completamente . Mi salud es lo primero . ',anger,0.894
+' Me invitan a tomar una birra y vuelvo borracha a mi casa . Así no se puede En tres horas me levanto ',anger,0.375
+' Ojala nunca se den cuenta 😫 ',anger,0.313
+' Sabias que cuando estás enfadado con alguien, esa persona ocupa el 80 \% de tus pensamientos.',anger,0.375
+' @username @username @username Sr . Julio camejo ke no le influya chavana se ve ke los kiere intimidar . ',anger,0.646
+' @username #Rayito esperar ansioso ',anger,0.333
+' Quejarse de los spinners es igual de pendejo que usarlos . ',anger,0.688
+' Seguro se le apago el celular ',anger,0.297
+' Y toda la NFC norte perdió hoy 🙁 #NFL ',anger,0.479
+' 🎵 No me folles con tus barbas 🎵 que las tienes pringadicaaas 🎵 y si lo haces, por venganza🎵 yo te pego mis ladillaaaaas🎵🎵 #SilvesJotero',anger,0.292
+' Los dos queremos pero nos mata la cobardía ! ! ! ',anger,0.313
+' @username Amargo tu tweet mejor ni lo publico ',anger,0.578
+' @username Amargo total . ',anger,0.729
+' ¿ Que se siente ser orgasmo y verla siempre, y que no pueda esconderse? 📚',anger,0.354
+' Porque demoran en Venirme a buscar ? 😠 😠 😅 ',anger,0.604
+' se enojo ( ? ) ',anger,0.458
+' Seremos Hnas, Pero Ya No Te Aguanto  ',anger,0.783
+' Como se dice el tren atropello al perro en frances ? Le chu chx mato le gua gua ... ',anger,0.146
+' Dizque a poner la alarma en el calendario xd ',anger,0.188
+' Golpeas pataleas y haces berrinche porque no quiero ser tu novio 😝 #JustFriends ',anger,0.333
+' @username @username El viejo truco de mentir, mentir...millones? El primo es dueño? Tan desesperado Marquitos ??',anger,0.432
+' @username Insultos, denunciar la corrupción es insultar?',anger,0.565
+' SOS PILATOS ! ! ! : me siento furiosa ',anger,0.792
+' @username @username @username Tranquilo ! En Valencia hemos visto que la imprenta de @username no tiene #Porno y tiene ',anger,0.417
+' Por qué soy tan minitahhh ',anger,0.375
+' Esta alarma está establecida para dentro de num hs y num min, estoy llorando',anger,0.457
+' Dime si es verdad, me dijeron que estás cansado #SebastianVillalobos #PDCs #KCAMexico',anger,0.417
+' - provocar . Tengo que comentar algo al respecto ? ? ? ',anger,0.667
+' ¿ Cómo que Facebook es para la gente feliz ? acaso el Twitter es para gente resentida, conflictiva, renegada y antisocial como yo.',anger,0.604
+' @username @username @username Lo que toenen apretado, es el cuello de los Mexicanos👹👎',anger,0.646
+' @username @username Pues nel, nomas nos vienes a insultar mejor dinos cosas bonitas.',anger,0.542
+' @username Es el dinero de todas y debe responder . Que indignación y q impotencia . ',anger,0.938
+' #TotalmenteDivaMega grrr la mitad del capitulo dio aller 😤 😤 😤 ',anger,0.478
+' pegarle a una nena es de cobarde mi primo de num años ♥ ️ ',anger,0.396
+' Por cada mifuto de enfado perdamos sesenta segundos de felicidad . ',anger,0.167
+' Asumo mis consecuencia y admito mis errores, esos que excusé, por nerviosismo, por temores.',anger,0.292
+' @username @username vas a ir enfadada ? ',anger,0.5
+' @username Eres una gobernada indignada entonces 🤷 🏻 ‍ ♀ ️ ',anger,0.771
+' @username ¿ Cuál es la pelea ? Jajajajajaja la chismosa . ',anger,0.271
+' Me reclamó nada . A veces yo extremaba mis ausencias, mis retrasos, mi mal humor, para provocar una aclaración. #ccdBot',anger,0.467
+' Me desperté y estaba la ventana abierta . ',anger,0.229
+' Pues en su intento por insultarme me dijo negro y marico y me pregunto que cuál será el nivel de este ser al decirme eso como insulto ',anger,0.625
+' 😱 😱 😱 escucharon ese trueno ? ⚡ ️ ',anger,0.261
+' Un asco me quedo el pelo 😤 😤 ',anger,0.521
+' Tragos de amargo liqor, que no me hasen olvidar Y me siento como un cobarde ,que asta me pongo a llorar',anger,0.5
+' Quiero que mi hermana mire el internado y no quiere, es una soreta.. 😭',anger,0.457
+' A veces me gusta ser chocante ',anger,0.479
+' @username yo no pq me dijiste resentida y sabes q no lo soy ',anger,0.604
+' No me enojo si me hacen desaparecer ',anger,0.396
+' @username @username @username @username @username @username Mola insultar a culerdos . 😬 😀 ',anger,0.625
+' Yo sé que esa mirada que me das no es para nada accidental Se nota la malicia y óyeme tú sí que sabes provocar ',anger,0.375
+' Le estaba por mandar un msj y me acordé que estaba enojada ',anger,0.604
+' @username Hirviendo estoy jajajajajaja ',anger,0.354
+' No sé, si vas a hablar de alienación, comprende al menos de qué va el término y no lo uses como insulto para demostrar clasismo intelectual.',anger,0.771
+' @username @username lo consideras alguien terrible,pero¿te das cuenta de lo que escribes?',anger,0.458
+' Siempre estoy enojada, es mi don.. mi maldición.',anger,0.625
+' no me contesta y me enojo mas de lo ya estoy ',anger,0.708
+' Alguien se anda ganando su mentadita de madre ',anger,0.708
+' Mi corazón es grande pero mas grande es mi enfado ',anger,0.75
+' @username Si es por eso qué tengo yo super depresión ',anger,0.375
+' Cada una de nosotras tiene un truco para provocar a su pareja ',anger,0.208
+' Ejercicio para el Alma : Piensa en un futuro hermoso y no te quedes atrapado en un Pasado Amargo ¡ Amate a ti mismo ( a ) ! . ',anger,0.042
+' ¿ Sabéis el pulpo de buscando a Dory ? ¿ Recordáid que le faltaba un tentáculo y que vivía totalmente amargado y resentido ? ',anger,0.366
+' Que hdp es 😠 ',anger,0.826
+' Literal que todos pollerean hoy en vez de salir que onda ? Si no consigo segunda para la juntada me sumo lamentablemente ',anger,0.565
+' Ser feliz no es tener una vida perfecta ; ser feliz es reconocer que la vida vale la pena, a pesar de las dificultades.',anger,0.104
+' @username Espero valga la pena ! ! ! 😅 😅 ',anger,0.208
+' Si hay que ir se va ... a las num nos vemos #castellers #xiquetstgn #rabia #orgull ',anger,0.413
+' Si alguien me habla no me enojo ',anger,0.333
+' Misofonia : disgusto provocado por los sonidos que producen los demás, como respirar o masticar.',anger,0.417
+' Jajajajajajajajaajjajajaajaj era peligrosa la tecnica ',anger,0.229
+' @username Es que es una ofensa para la población penastica, okis.',anger,0.625
+' siempre igual ya estoy harto #indignado #enfadado ',anger,0.891
+' @username @username JAJAJAJAJAJAJAJAJA te la metieron hasta por las fosas nasales, pedazo de amargo hijo de puta.',anger,0.833
+' @username Se me ríe el tuje gagaga #indignada ',anger,0.458
+' @username Le pondre la pelea d naruto vs pain y le dire si nagato pudo cambiar tu tmb ',anger,0.354
+' #GÉMINIS : a veces piensas como ejecutar una buena venganza contra los que han sido malos contigo . Tarde o temprano la llevarás a cabo ... ',anger,0.5
+' @username @username @username El palo no va a funcionar subnormal 😤 ',anger,0.604
+' Yo sé que no me ha dado sueño porque estoy indignado . ',anger,0.688
+' @username No me enojo, es una expresión :( me refería a molestarlo un poco. Gerardito jajaj qué lindos podo(?',anger,0.479
+' @username ayer vi la fiesta Argentina en Gh, probaste el mate amargo bien argentino? Tienes que aprender a tomarlo para el desayuno😄',anger,0.25
+' Me hacen envenenar esos culiados que se hacen los puertoriqueños que problema tenes en el cerebro ',anger,0.875
+' Eso para vos no es un insulto ? ',anger,0.563
+' Ojalá y Dios ponga su mano para tener calma de la sed de venganza que puede continuar . ',anger,0.354
+' Esto es tan doloroso 😭 Ya dejen de sufrir 😭 ',anger,0.565
+' @username Detesto comer fuera de hora . 😠 ',anger,0.729
+' vivo cansada como que el cansancio ya es parte de mi, me acostumbre',anger,0.417
+' @username Ya lose,pero es tan lindo,y encima negrito,voy a llorar 😢',anger,0.354
+' La ironía que amo las plantas y nunca me regalaron ni un ramo de flores cortado de una alguna casa #Tristeza ',anger,0.542
+' Que amargado sooos, DIOS !!',anger,0.63
+' @username Bueno a estos le hemos escuchado decir cada cosa ... ! ! Infeliz ... ',anger,0.609
+' Se enojo por que le hacerte el nombre 😂 😂 ',anger,0.417
+' Comer una cucharada de mostaza con miel en ayunas = beber ácido hirviendo . ',anger,0.417
+' Que indignación le tengo al chabón que me dijo prostituta por llevar puesto un cancán calado . La puta que te parió . Ni que fuera de red man . ',anger,0.989
+' Es que esta es la venganza porque cuando estaba en mis años mozos, no me salían nunca',anger,0.609
+' Temor a estar solos . ',anger,0.239
+' Mc estar enojada con mi hermano porque veo algo y lo quiero etiquetar pero mi orgullo no me dejaaa ',anger,0.563
+' Uy lpm que miedo, espero que no sea nada grave',anger,0.417
+' está ansiosa para a premiére de dunkirk ? #askdirectioner ',anger,0.283
+' Me gustaría tomarte en serio, pero hacerlo seria ofender tu inteligencia.',anger,0.625
+' Quede de cara cuando apareció donald glover en spiderman,tremenda felicidad me dio',anger,0.229
+' @username Joe, yo te insulto y tú me halagas, así da gusto 😌',anger,0.354
+' Pero nose si el se enojo o yo ',anger,0.458
+' Paula está indignada y yo que no tengo ni para indignarme ',anger,0.5
+' La mejor arma es la que transforma el pesimismo en optimismo . ',anger,0.196
+' @username Buen dia vege, espero no estes enojado y pienses que hay gente que si sabe valorar todo el esfuerzo que tu haces, te amo💜',anger,0.174
+' Me verás volar, por la ciudad de la furia... Donde nadie sabe de mí, y yo soy parte de todos.',anger,0.542
+' @username es más enojo que persona . ',anger,0.604
+' @username si llegas a mi casa con unas así no me enojo, hasta te dejo entrar',anger,0.354
+' Estoy rodeada de personas muy resentida . 😔 ',anger,0.479
+' Y por ello, al ser una espera dramática y televisada, marco un antes y un después, una reacción lógica de ira del pueblo, q fué descafeinada',anger,0.5
+' ¿ Qué tan resentida puedes estar para querer meterte en una relación ? ¿ Quién te hizo tanto daño ? 🤔 ',anger,0.625
+' @username @username No tienes ni puta idea de lo que dices, el insulto por joder y porque se os acaba el chollo.',anger,0.891
+' Que mh wacho ',anger,0.458
+' jajajajajaj seguimos resentida ? ? ',anger,0.261
+' Tremenda bronca, mejor me voy a dormir para no matar a nadie',anger,0.792
+' @username sos amargo jugando ',anger,0.563
+' Imagino la indignación, preocupación y rabia de turistas que eligieron Perú para disfrutar y al final pasarla mal. La indiferencia es peor.',anger,0.604
+' Me enojo súper rapido,lpm🙄✋',anger,0.604
+' O mi verano cambia radical o se convertirá en el verano mas aburrido de la historia ',anger,0.563
+' Odio cuanti está todo el mundo enfadado y gritando o sea que puta culpa tengo yo ',anger,0.875
+' Tengo un hijo y apoyo que no nos dejen entrar a todos lados con ese gritón implacable . ',anger,0.354
+' via @username : @username Amargado ... Solo era una pregunta y yaaa ... Deje la amargura ',anger,0.479
+' abandonada ¯  _ ( ツ ) _ / ¯ ',anger,0.417
+' Es que mi nivel de madurez es superior al de los demás - Una amargada . ',anger,0.521
+' Estaba viendo una peli de terror y así de la nada, a mitad de la peli  comienzan a coger dos minas ahre de que me perdí dije',anger,0.333
+' Hace dos días no tenía ni idea de qué era Castlevania y hoy estoy enfadada porque solo hay num capítulos de mierda . ',anger,0.854
+' Me acuerdo que mañana viene la señora y me enojo porque me tengo que levantar temprano pero pues tq sra lidia, si no la casa fuera un asco 😢',anger,0.75
+' Igual estoy enojada con vos 😞 😘 @username ',anger,0.729
+' Vengo d mi antiguo insti dond estudié bach d artes #Getafe #antoniolopez #nostalgia #Rabia al ver q se lo están cargando al no darles apoyo 😡 ',anger,0.913
+' Un día use las cadenitas que me regalaron y La de mí bautismo, me las olvide en el dpto. Hice que me La trajera mí vieja y le robaron. Bien',anger,0.521
+' La sonrisa y el ceño no deben asaltarte cuando menos lo esperes . La sonrisa debe estar a tu servicio, acudir sólo cuando la llames.',anger,0.217
+' @username Lamentable para mi, no creo que sea posible vernos, y eso si me pone sad. 😢💔 Igual se divierten y la pasan bonito. 😃❤✨',anger,0.271
+' no les pasa que no les hablan a alguien pq piensan que está enojado, pero resulta que él igual pensaba que tu estabas enojada jaja re lokiz',anger,0.25
+' @username No me ilusiones así 😤 ',anger,0.292
+' Que bien me hace hablar con gente que siempre estuvo y está conmigo a pesar de todo 😌 👏 🏻 ',anger,0.125
+' Trago amargo, yo cada vez que veo videos de ese partido siento un vacío en el estomago feísimo',anger,0.703
+' Me estoy empezando a asustar . ',anger,0.413
+' Pesa mas la #rabia q el #cemento ',anger,0.708
+' ¿ Por qué no calculan clases en mi escuela ? No hice la exposición ',anger,0.527
+' aMARgado ayer tarde por nadar a la mañana,hoy en la mañana agujas en el brazo entraron a despertar las Olas  fluyen dentro del ohmbrito',anger,0.521
+' Me comi una palabra por estar enojada jaja ',anger,0.354
+' @username esque mi internet esta ripeando ya despues como a las num ira bien ',anger,0.125
+' Estoy re nervioso con este tema ',anger,0.292
+' @username si me contestas no me enojo . ',anger,0.333
+' @username @username @username @username @username @username Nervioso yo ? ? ? Te pica el culo porteño . Amarguísimo ',anger,0.667
+' La hacen re larga . ',anger,0.479
+' Me pronostican lluvia toda la semana . #Depresión ',anger,0.521
+' Este tweet esta deprimido por muchos recuerdos :( ',anger,0.458
+' Día tan re aburrido u_u ',anger,0.25
+' ness no te pienso responder toy enojado . ',anger,0.854
+' Me corte mi deditooo ! ! 😣 malditas pastillas buscare venganza haha 😄 ',anger,0.646
+' Dios bendice al pueblo de Venezuela en esta horas de oscuridad, que llegue la luz!!!',anger,0.229
+' Y bueno, dejemos de remar por hoy que hasta ayer estaba muy enfadado con la venta de Yuri y el posible fichaje de Iñigo por el Inter...',anger,0.667
+' Este dilema financiero me tiene con una zozobra tan brava . : me siento pensativo ',anger,0.292
+' @username A mí me dicen que aca llega apenas num mb y que rabia ',anger,0.625
+' @username Por costoso en avión y peligroso por tierra ',anger,0.333
+' @username Pa que dices na ',anger,0.208
+' @username No creo yo eso jajajajaja si conmigo estas amargado ',anger,0.348
+' @username Maaal, lo vi la semana pasada, saben mas de mi vida q yo misma!! ',anger,0.333
+' @username @username ... para gran disgusto de Quevedo 😝 ',anger,0.438
+' Mi sobrina sigue en cama . No ha comido en varias horas . Parece que la energía del cuerpo se le ha ido . La luz le molesta un poco . #tristeza ',anger,0.438
+' @username por favor a cambiado hay peligro por q sus hijos ya estan fuera del pais . ',anger,0.391
+' @username Las letras reflejaban la depresión que llevaba el loco ',anger,0.479
+' Que bajón me dio ver eso 😭 ',anger,0.396
+' @username Me hackearon ! 😢 ',anger,0.522
+' @username @username @username Cállate señorita venganza ',anger,0.729
+' @username < Elisabeth había peleado . El espejo estaba hecho añicos, y varios tramos del suelo se habían manchado de sangre. Segundo >',anger,0.479
+' @username Sii 😂 💔, eso si es incómodo Ash 😂😂',anger,0.333
+' Si alguien me quiere hablar no me enojo jajajaja ',anger,0.188
+' Fui hecha mierda a la cancha pero que manera de disfrutarrr, terrible partido',anger,0.417
+' — Tengo miedo . — ¿ De qué ? — De que te canses de mí . — ¿ Tú te cansas de respirar ? — No . — Pues es lo mismo . ',anger,0.375
+' Agradecemos a @username y a @username expresar la indignación ante la llegada mal y tarde del Gobierno al compromiso con #refugiados ',anger,0.625
+' @username Creo q fue un poco de venganza ',anger,0.417
+' Negro culiadooo, me tenés abandonado en el Paladins, en el LoL, en todo jajajajaja cuando nos juntamos a chupar?',anger,0.406
+' Me enfurece la gente que desconoce la importancia de cada delegación en la Cd de México #ira 😠 ',anger,0.833
+' @username @username Muy feo ! ! Horrible se ve la publicidad ! ! ',anger,0.625
+' Mi huerta necesita agua con desesperación y yo me duermo . ',anger,0.304
+' Cómo me enferrrman estás cosasss ',anger,0.771
+' SORPRESA EN LA PUERTA : ¬ ° unas tentadoras cajas de regalo rojas y amarillas est √ ° n causando revuelo en las puertas ! #SmurfsVillage @username ',anger,0.208
+' Como me van a decir gobernada, estoy indignada.',anger,0.833
+' Siempre sale uno enojado cuando jugamos a la lotería 😂 ',anger,0.438
+' @username Si, @Aylenmilla me lo hizo, buff muy amargo',anger,0.521
+' Bola de pendejos sin madre los que están asaltando coches en medio del tráfico #Rabia ',anger,0.966
+' @username Pare usted el carro de la indignación que se pasa de parada ♥ ♥ ♥ ',anger,0.542
+' @username Con no insultar ni descalificar ya nos podríamos conformar, pero por desgracia hay gente q no es capaz ni de eso',anger,0.625
+' El enojo me puede durar ufff 🙄 ',anger,0.587
+' @username Vamooos #PeñA ! ! ! El coach está demostrando que es gigante ! ! ! #Leo ',anger,0.146
+' Que en la batalla del amor, sé que he peleado con honor, te lo di todo y lo perdí.',anger,0.396
+' Si alguien me habla no me enojo 😜 ',anger,0.188
+' Ahora me voy a ir a dormir enojado . ',anger,0.75
+' Ya estos hps me tienen harto la verdad . 😠 ',anger,0.979
+' @username Esa quien ? Porq siempre tenes q meter a alguien che pajerito resentido jajajajajajaja ',anger,0.583
+' @username Un vago redomado que al principio hacia gracia, perdió kilos y perdió gracia, las dos cosas, al final es un resentido pelota',anger,0.542
+' @username En claro signo de desesperación por verse descubierto el gigantesco fraude cometido a la nación . ',anger,0.688
+' Odio ser tan sensible, me emociono muy rápido, me enojo muy rápido y me pongo mal el doble de rápido.',anger,0.75
+' Si empieza a llover no me enojo ',anger,0.333
+' @username estoy de acuerdo contigo lamentablemente lo economico esta por encima del deporte me refiero a dos torneos cortos saludos ',anger,0.333
+' Cuando un niño hace un berrinche porque querían un hermanito en vez de hermanita . Qué propones ? Que aborte la mamá y lo intente otra vez ? ',anger,0.542
+' @username Okay tu ganas, no eres amargada, claramente en esa foto se ve que eres suuuuuper buena onda.',anger,0.438
+' Qué es lo que busca el hombre ? Corromperse más ? Dios está indignado de esta sociedad la venida del sr . Jesucristo está cerca . ',anger,0.542
+' La gente siempre piensa que los estoy mirando mal . Yo no miro mal a nadie, tengo cara de amargado y ya.',anger,0.625
+' Lamentablemente, sí, lo conozco. —Ni se ha molestado en apartarle, le da un poco igual que se apoye en él.—',anger,0.457
+' Si me hablan no me enojo eh ',anger,0.438
+' Me dicen sin ofender y me ofende un vergo ',anger,0.729
+' Como dos Ángeles torturados por un implacable placer En el cristal azul del amanecer Sigamos tras el espejismo . Baudelaire ',anger,0.271
+' @username Son los que valen la pena 😳 #Rayito ',anger,0.083
+' Alguien anda resentido . 😂 😂 😂 ',anger,0.375
+' Me pongo nerviosa que hace media hora se escuche a la policía, o bomberos, o ambulancia. Agarrame Martaa',anger,0.354
+' Una lástima que se llevaran a @username por delante ... Salida perfecta, el podio estaba ahí... 😩 #Rabia #VamosFernando #GpSingapur #F1',anger,0.667
+' Que aburrido mi dia del amigo ! ! ! ',anger,0.271
+' @username no joda eso sí da rabia hp ',anger,0.826
+' Es muy fuerte El otro día estaba escuchando Leave out all the rest, me pone tan melancólica esa canción  Que si la escucho ahora...',anger,0.271
+' Por que sorete me dejas tan nerviosa no se AAAH me voy a morir ( ? ? ? ahr si ',anger,0.188
+' Me da mucha rabia cuando poneis : ay si yo hablara ... HOLA ? ? ? PUES CUENTALOOO ',anger,0.688
+' No seas demasiado dulce, porque te comerán; ni demasiado amargo, porque te despreciarán.',anger,0.167
+' @username @username Le bajo la nómina ya mismo, habrase visto semejante ofensa!',anger,0.726
+' @username Donde estaba independiente es lo que te digo ! ! ! Cómo jugaba, eran horrible, este es el mejor independiente de los últimos años',anger,0.417
+' #PameAlaTarde Moria la tiene ca ... do a Pamela · ! Voy a opinar dice xq me tienen pintada ! ! ! ahora los panelistas le piden opinión . #miedo ? ',anger,0.604
+' @username Te comento, por si no te acordas, que todavía me debes esa cita ',anger,0.354
+' @username Aparte de que es horrible cuando me pasa porque literal mi humor es un asco, me enojo demasiado, ¿por qué soy así?',anger,0.761
+' @username @username A ti tambien te intentaron envenenar tus padres de pequeña cuando te abandonaron ? Que triste tia . ',anger,0.708
+' Abril tiene prohibido quejarse conmigo . ',anger,0.479
+' Estoy haciendo un retrato de los daft punk y estoy al borde del colapso nervioso porque me está costando un choto . ',anger,0.563
+' Me caga irme enojada a dormir ',anger,0.917
+' Ganas de decirte lo que me pasa con vos no me faltan Pero AY QUE COBARDE QUE SOY ',anger,0.5
+' Mis papás siempre han pensado que hay algo entre Andrés y yo . La verdad me siento ofendida 🤦 🏻 ‍ ♀ ️ ',anger,0.521
+' Encima se enojo vieron es más tonto ',anger,0.583
+' Este es un mensaje encriptado y sólo las personas con coeficiente intelectual lo pueden leer . ',anger,0.333
+' @username Buenas, señorita. Algo aburrida, usted?',anger,0.148
+' @username @username Déjalo, está aburrido... 🙄',anger,0.396
+' No creo que ninguna víctima de Eta se sentirá ofendida por homenajear a Miguel Ángel Blanco . Su asesinato unió al pueblo español . ',anger,0.333
+' @username La neta yo me veo igual de feo llorando sea la situacion que sea, así que por eso siempre pregunto JAJAJJAA PERDÓN',anger,0.196
+' Cuándo van a entender que el aborto se práctica igual estén de acuerdo o no, que deje de ser considerado ilegal no provocaría tantas muertes',anger,0.646
+' Si fumo es mi problema,que tanto puterio hacen',anger,0.792
+' Pero me aguanté y me intenté volver a dormir y me levanté como a las num/num : num, y ahora estoy cansado y furioso',anger,0.917
+' fina pero en la cama tremenda sata ',anger,0.438
+' @username creen que Floyd a pactado esta pelea para perder ? va ser lo mismo que con Pacman . 🤔 ',anger,0.354
+' En la pelea, se conoce al soldado; solo en la Victoria, we conoce al caballero. - Jacinto ,enavente.',anger,0.229
+' Me caga lo politicamente correcto, los progresistas y los democratas. Chinguen a su madre, dejenos insultar a todos en paz.',anger,0.917
+' @username modifica urbanismo en montaña S . Ramón para preservar zonas verdes, construyendo pisos. Insulto a la inteligencia. @Carcelen3',anger,0.688
+' Ama ver mis fotos 😂 😂 no me enojo si me seguis amor ❤ ',anger,0.167
+' Que noche más aburrida . ',anger,0.292
+' Fran se acordo que estaba enojado conmigo 😡 ',anger,0.521
+' Ubos pera ni ira 😭 😭 ',anger,0.458
+' Me hubiera encantado nacer un febrero num, sería una anomalía provocada por la gravedad',anger,0.354
+' @username @username @username @username Terrorismo es lo que practicas tu en Venezuela, miserable!!',anger,0.875
+' Cuando me enojo lloro o tiro las cosas . ',anger,0.625
+' @username Peligroso algo sabe guima acuerdese que el hijo es celso ',anger,0.375
+' PELEA AMIGOS A LOS PUÑOS UN PAR DE WANNABES CONTRA UN PERFIL FALSO JAJAJAJJAJAJAJAJJA ',anger,0.5
+' @username @username Dónde está el insulto ? ',anger,0.479
+' Me queme con aceite hirviendo, no se dan una idea de lo que arde. Quiero llorar.',anger,0.609
+' @username Para nada ! ! Si he sonado enfadada, lo siento. ☺️',anger,0.354
+' Xq el silencio de los opositores @username y @username sobre el atropello a la procuraduría ? ? ',anger,0.625
+' @username El #Sismo se sintió con fuerza en Guarenas / Guatire . Por donde trabajo, la gente salió a la calle ',anger,0.292
+' Tengo el pelo horrible, cuando cobre me voy a comprar hasta lo imposible para tenerlo hermoso',anger,0.375
+' Primer disgusto del día . Me acaban de comunicar un robo en el colegio . Se han llevado, al menos, un ordenador. Suma y sigue, por desgracia.',anger,0.783
+' @username pues ya, cargar con un disgusto sin garantizar solucionarlo para la siguiente... :(',anger,0.625
+' Oooo me quede corte gil en el colegio esperando y el de teatro no vino ',anger,0.458
+' @username como era la anterior tanda me perdí el.nombre de la canción donde decia con . La fuerza de la rabia gracias ',anger,0.478
+' @username A-ah ... — se sentía intimidado solo con verla fruncir el ceño, se agarró un hombro y desvió la mirada— Pedirte perdón...',anger,0.438
+' @username @username eso mero, provincia. Pero no te enojes, pareces perro de la calle rabioso. Anda di algo de mi avatar.',anger,0.583
+' ESTASFANSNUEVAS QUE HAN SALIDO DE LOS CHICOS SON FALSAS Y VIENEN A INSULTAR AL FANDOM DE numD PENDEJA NI SIQUIERA HAZ VIVIDO LO QUE FUE ESO ',anger,0.917
+' @username 😞 qué triste todo ',anger,0.417
+' Inhala-exhala, no voy a caer en el juego, inhala-exhala... ',anger,0.729
+' @username Gracias, hija. Aquí estoy, poniéndome hielo, que parece que me he peleado con alguien..',anger,0.239
+' @username visita villa del cielo bajando por mi vaquita, una pelea de ayer que solo puede ser noticia en cartagena hoy, sin licencia!',anger,0.523
+' @username Estoy indignada . ',anger,0.813
+' @username Amargo o dulces ? ',anger,0.167
+' @username @username @username @username Del atropello no, pero del golpe posterior sí. Está comprobado.',anger,0.271
+' @username Ya me dio desconfianza el nuevo túnel en Acapulco ! ',anger,0.479
+' No recuerdo ninguna persona, a la que le diera tan igual dar una imagen de amargado/malfollada como a ella, pero eh, ya explotará ya.',anger,0.667
+' Lamentamos profundamente el fallecimiento del usuario de BiciMAD por atropello en c / Alcalá . Nuestro más sentido pésame a la familia . … ',anger,0.283
+' Cuando era chico mi vieja no me queria comprar un autito y quede enojado le meé la cama y le heche la culpa al perro 😂 😂 😂 ',anger,0.313
+' @username Jajajajajaj tomatela cara rota esa sos vos ',anger,0.542
+' Pon a cantar rancheras a Vicente Fernández y José José . Uno no domina el género, sería 1 encuentro ridículo. Lo mismo pienso de esta pelea',anger,0.354
+' Ando resentida, mejor me voy',anger,0.729
+' Desde ayer que vengo súper alterada y nerviosa con náuseas, y en casa me dijeron yyyy bueno MANDALE AL TILO  deja prefiero un vino',anger,0.565
+' Estoy muriendo de sueño ',anger,0.313
+' @username Pero .. era necesario que dijeses todas esas cosas ? Creí que era una venganza ',anger,0.604
+' Si de por sí me cargo a Satanas todo el tiempo, enojado más.',anger,0.729
+' @username FERNANDA YA TE DIJE QUE NO ',anger,0.667
+' Que gil fui en no comprar las entradas para ir a ver a ciro ',anger,0.5
+' Fui atacada por una tijerilla, habrá venganza. Buenas noches.',anger,0.625
+' Dudes ! Neta que se necesita estar bien pendejitos de la cabeza si piensan que con snaps asquerosos provocarán algo en una mujer . ',anger,0.9
+' Están pasando los simpsons a esta fucking hora ... Estoy felíz y enojado ',anger,0.5
+' Hay veces q me dan ganas de rajarme un tiro de lo salame q soy 😤 ',anger,0.646
+' La fuente de la uja a las num:num debe de estar hirviendo #Jaen #calorextremo ',anger,0.435
+' Digo yo no, no se puede sacarse sangre tipo 9:30? NO A LAS 8:30 😤😤',anger,0.479
+' Si alguien me habla, no me enojo',anger,0.208
+' Deje el cargador completo del celu en el bolsillo del pantalón y lo pusieron a lavar #Miedo ',anger,0.413
+' Quw bronca loco esta vieja de mierda cocina lo que se le encanta el orto y sabe q no me gusta ',anger,0.917
+' Mi más terrible año fueron los num 😖 😖 ',anger,0.542
+' @username Irina ez una casa partener, y me kiere quitar  ami rubiuh😠😠😠',anger,0.479
+' Vi rápido y furioso num pero no vi las otras . De qué me perdí todo este tiempo lpm . La amé . ',anger,0.188
+' No me puedo despertar tan chistosa porque le amargo el dia al pobre @username ',anger,0.354
+' @username : Lo de Lula me parece un espanto ',anger,0.521
+' @username La concha de tu vieja ! Mañana vas a terminar muerto en espalda ',anger,0.917
+' No estás deprimido, estás distraído  Distraído de la vida que te rodea🎶👌🏽',anger,0.271
+' No sé cómo le haces para que no pueda durar enojada contigo más de num días ',anger,0.417
+' Estoy segura de que este hilo es especista y he ofendido a no menos de cinco o seis colectivos oprimidos . Lo siento de veras . ',anger,0.413
+' RT DianaferValle : Ser universitaria te lo defino como estar y tener una depresión,enojo y estrés más grandes que los de Hanna baker litera…',anger,0.542
+' Ahora pasé de estar enojada a decepcionada ',anger,0.604
+' @username Sinceramente, creo que Bahía y Vitolo se lo hubieran comunicado al Atlético y a la prensa igual, para provocar esta situación.',anger,0.417
+' Decime porque son tan soretes los de la Cátedra que ponen el parcial un num de septiembre ! 😠 😠 SORETESSS ',anger,0.792
+' No creo que puedan comprender mi enojo eterno porque a Cinépolis se le ocurrió proyectar Mulan cuando estoy fuera del país 😡 😡 ',anger,0.667
+' @username @username Bah .. solo vi la resentida de siempre ! ',anger,0.625
+' Ay yo los amo a ustedes, yo puedo estar amargado, obstinado o deprimido pero ustedes son tan á, me hace reír todo el tiempo.',anger,0.169
+' num . Es más fácil provocar una guerra civil que ir a alecciones generales . Ya que ellos no procuran la paz sino perpetrarse en el poder . ',anger,0.522
+' Ha saltado supersubmarina en el aleatorio y ya estoy llorando xd ',anger,0.479
+' Es absurdo sobre todo porque la gente y me incluyo esta enfadada, nadie se hubiera enfadado si hubieran retrasado Baby Driver.',anger,0.688
+' @username @username Bebe que te he dicho de hablar con gente de color oscuro ? Ni la hora se les da, vente.',anger,0.5
+' @username Esto se puede considerar provocación en grado de morrotentativa . ',anger,0.792
+' Ah borrarse del mapa 😪 cansado de lo mismo, entero solo en esta vida✌ :(',anger,0.563
+' @username Puto * Hubiese peleado con luna x maxi 😂 😂 😂 ',anger,0.438
+' @username Si y el daño que pueden provocar con la broma, o el decir lo dije sin querer ... también eh?',anger,0.583
+' @username Pero que pez amargo que sos ... ',anger,0.604
+' @username #RAYITO tengo cansada la vista estube todo.el.dia en el cel espredando algo nuevo ',anger,0.351
+' @username @username @username ser de izquierdas es ser resentido, envidioso y violento. No existe izquierdista buena persona.',anger,0.667
+' quiero papas locas del Rabioso 🤦 🏻 ‍ ♀ ️ ',anger,0.304
+' Toy re triste me dejan ',anger,0.417
+' Tenía desde que estaba en secu en numo sin pelearme por redes sociales, que bien se siente descargar tu enojo escribiendo JAJAJA',anger,0.563
+' No cabe duda que el mejor método anticonceptivo es ver a un niño haciendo berrinches y llorando . ',anger,0.354
+' @username Pero ... ¿ cómo no ... ? — Le mira con su ceño ligeramente fruncido sin entenderlo . — ',anger,0.271
+' Vivo de mal genio y esta mierda me tiene mas amargada ',anger,0.826
+' @username enojado no, emputado sí',anger,0.729
+' @username Cuándo me he enojado contigo oe JAJAJAJA la hago un finde ! ',anger,0.271
+' Creo que tocando la guitarra la tristeza es mas hermosa . ',anger,0.167
+' quédate con la dulzura yo soy más de chocolate amargo 🐱 ',anger,0.146
+' Estoy tan aburrida que tengo ganas de hacerme amiga de alguien, si, a ese extremo llegó jajajaja',anger,0.25
+' Soñé cosas super raras ',anger,0.292
+' Y con este tuit intento ofender a varios grupúsculos at the very same time . ',anger,0.667
+' me voy porque quiero hacer grandes cosas y no vivir amargada con un trabajo que ni siquiera me gusta . ',anger,0.583
+' @username ¿ ya comenzarás con eso ?, búscate un nuevo insulto.',anger,0.75
+' Que perra del orto no para mas de torear ',anger,0.875
+' De nuevo Lunes num:num am 😥 ',anger,0.167
+' Estoy tan ansiosa por la numma temporada de Game of Throne que ya me siento una Targaryen . ',anger,0.167
+' @username Te odio ',anger,0.851
+' La reflexión que nos deja el video de silvestre es que, A Otro Nivel es otro programa de la televisión Colombiana que es pregrabado. #Triste',anger,0.354
+' Despertar a esta hora y sin sueño, es un insulto para mis 8 horas de descanso.',anger,0.521
+' Y que el vato anda como indignado, no entiendo todo esto',anger,0.458
+' @username @username Luego sacas un comunicado haciéndote el muy indignado y todo en paz . ',anger,0.375
+' Bueno ... todos son unos malditos idiotas . Ya entiendo el resentimiento #Feminazi ',anger,0.875
+' Tengo un antojo terrible de cafesito 😢 ',anger,0.25
+' Qué tristeza sentir que uno no es suficiente para nada ni para nadie . Meh, matenme que ya ni yo me aguanto.',anger,0.667
+' Estoy ante una terrible tesitura : Me muero de sueño pero Dalas ha subido un video y quiero enterarme del chisme . Espero a mañana o no ? 😂 ',anger,0.354
+' Creo que el peor insulto que me han hecho es gei No porque gay sea un insulto, es que lo escribieron tan mal y de paso con tanto odio...',anger,0.688
+' Y pelea de Gloria y Sophia también : o esto es vida #OITNBnumxnum ',anger,0.229
+' cuando le erras a las teclas ... #Rabia #Traición #Histeriquismo ',anger,0.708
+' @username El mio no ya me encabrone, veré luego mi peli. ',anger,0.604
+' No me duro ni medio día el enojo, eso es bueno y significa mucho',anger,0.333
+' Ayer antes de irme me salió lo de la escoba y hoy cuando me levanto sigue todo igual . ',anger,0.375
+' Y qué es lo que tu amigo más te dice ? Otros : te quiero, te extraño, vamos a comer. A mí: Qué sufrida eres csmr.   Te odio. 😢',anger,0.563
+' Cada dos días me encuentro #trolls, en mi caso unionistas demofóbicos, y tienen la mentira y el insulto como único argumento #DontFeedTroll',anger,0.792
+' Ya puse mis mejores canciones para esta etapa de enojo pasarla bien chingona ',anger,0.542
+' @username @username @username Pero ella es mala mami, muy muy mala * digo mirando a Corrida enfadada*',anger,0.521
+' @username Es el BUF MADRE MÍA QUÉ OFENDIDO QUE ESTOY sin entender absolutamente nada de lo que estás viendo . ',anger,0.75
+' Cualquier excusa me viene bien . Tremenda ',anger,0.333
+' Se ve que es hiper difícil preguntar en lugar de que te llueva el cabreo de la otra persona y encima llamarle amargado . xD ',anger,0.565
+' Aveces siento que me quieren agarrar ataques de pánico ',anger,0.409
+' Tardé más esperando que se calentara la empanada que lo que duró la pelea entre ellos JAJAKJASDFM . ',anger,0.563
+' menos mal que me quedé en mi casa pq en cualquier momento me quedo pelada de tanta depresión ',anger,0.375
+' @username ESE PHOTOSHOP AMERITA UNA DENUNCIA ! TE ESTÁ CALIFICANDO DE NAZI Y ESO ES UNA INJURIA GRAVE ! ',anger,0.918
+' @username Fisica Luis david Pelea por tu tweets ',anger,0.396
+' PORQUE SEEE QUE SIEEEMPRE,  QUE SIEMPRE ES AMARGO EL ADIOOOOS 🎤',anger,0.5
+' No sé qué me voy a poner el dda y eso me tiene demasiado nerviosa ',anger,0.5
+' Algien que alguien que me venga a alegrar la vida porque la neta soy bien amargada 😂 😂 ',anger,0.563
+' @username No hay ningún bebe en camino-murmura serio con el ceño fruncido ',anger,0.438
+' La verdad que azco me da que manchen algo tan lindo y encima lo hizo de resentido por que tienen un video de el garchando con un traba ',anger,0.848
+' @username tengan la gentileza de reparar el servicio de internet en mi casa ! Es terrible que todos los días tenga problemas con la conexión ',anger,0.674
+' Ese tema de que Leo Castro está ansioso y por eso no marca ni por error ya no se lo traga ni tu Abuela ; El nivel es PERVERSO ! ! ',anger,0.688
+' Pues al final ayer volvía a casa sin ningún bikini e indignada ',anger,0.696
+' @username Yo lo patrocinó : v aquí también hace un calor horrible ! Ya extraño el invierno y la nieve 😭 ',anger,0.417
+' No me tientes Santanaaasss ',anger,0.583
+' supongo que una se cansa de hacer daño y huye como una cobarde ( te dejé de seguir bloqueándote y desbloqueándote, no entré en tu cuenta)',anger,0.667
+' @username Vení que estamos cerca, te juro que no me enojo',anger,0.208
+' @username Es una posición dogmática de AP como Gobierno . No pueden arrastrados a todos como cómplices del criminal genocida . ',anger,0.625
+' aliade : las mujeres son x si solas no x un hombre sí al poder de decisión 💪 * se entera de que tienes novi * aliade : bua m enfado y no rspiro ',anger,0.688
+' ¡ No quiero gente amargada que este cerca de mi ! ',anger,0.542
+' @username Pas shiva ',anger,0.25
+' . @username es la peor, se tiro al sofá a ver Master chef mientras Paola y yo hacemos la maqueta. #INDIGNADA',anger,0.75
+' Venganza contra tu compita por mamarse toda la maría : - Hacer que vea un vídeo de un payaso asesino mientras está pacheco ',anger,0.708
+' Es preferible estar loco y ser feliz que ser normal y amargado . ',anger,0.391
+' The num son los mejores los amo por siempre ',anger,0.063
+' @username Dos tweets seguidos . Vos debes tener ansiedad por el viaje me parece ... ',anger,0.333
+' Hace Envenenar ! ! ! MAL ',anger,0.792
+' Sanguíneos en muchos casos . Se indica SIEMPRE que las pastillas pueden provocar trombosis y tienen otros efectos secundarios . ',anger,0.292
+' No hay alguna opción de Twitter para bloquear los tweets de minita resentida ? ',anger,0.604
+' voy a tratar de no ser tan renegada claramente mucho no me duró 😤 ',anger,0.438
+' @username @username @username Condecorado, abandonado y preso MUY PRONTO',anger,0.37
+' #ndc soy una minita re pacífica,cero rencores ,pero me encanta el gustito de la venganza.',anger,0.479
+' @username Deberías pasarme tantito pegue ',anger,0.292
+' Más horrible no puede quedar el horario de este semestre 😤 😶 ',anger,0.792
+' una dosis necesaria de adrenalina, puteadas y gente a quien insultar sin motivo🤪',anger,0.646
+' Y tu libro dice eso . — Sus labios fruncen hacía dentro para luego separarlos con un chasquido . — No me tomes del pelo, amigo.',anger,0.5
+' Búsqueda implacable de conos 😂 😂 😂 ',anger,0.25
+' Me duele un dedo del pie . Me voy sentando a ver cómo he ofendido a num colectivos con esto . ',anger,0.333
+' Hace unos años atrás decías que el olvido era una forma de venganza y de perdón . ',anger,0.417
+' 😍 😍 😍 Hay Diosss ... me va a enloquecer ! ! ! ',anger,0.375
+' Me da risa que sigan usando lo del cabello para insultar a las Bautisters . Por dios les juro que en vez de ofendernos, nos da risa.😂',anger,0.396
+' Muchos de los que opinan sobre la detención de Lula luego defienden a voz en cuello la no injerencia en asuntos extranjeros . ',anger,0.521
+' Que rabia con este guri ',anger,0.875
+' Ah no . Pasa lo mismo otra vez y me voy a enojar ',anger,0.708
+' “ El batir de las alas de una mariposa puede provocar un huracán en otra parte del mundo ” … #TheButterflyEffect ',anger,0.063
+' @username Y van por Zampedri parece ... tremendo num ',anger,0.191
+' Cuando estás enfadado con alguien, esa persona ocupa el 80\% de tus pensamientos.',anger,0.5
+' @username Que terrible ... Casi se me quebraron los dientes y me da un infarto ... Qué mujer por Dios 😍 😍 😍 ',anger,0.521
+' Ese momento de desesperación cuando no encuentro un emoji ',anger,0.5
+' Los débiles toman venganza, los fuertes perdonan y los inteligentes simplemente los ignoran. #SiguemeYteSigo #BuenosDias',anger,0.354
+' Tengo es como ira de como me tienen la moto en él parqueadero ',anger,0.542
+' Ya ni xq está viendo la situación deja de castrar > < #enojada ',anger,0.917
+' @username claro, mira el tolima perdió con nosotros por igual marcador y hoy ganó',anger,0.438
+' [ De hecho ayer lo pensé y se cogería un enfado tremendo ] ',anger,0.583
+' Algunos tienen más de lo que merecen, lamentablemente siempre va a ser así.',anger,0.479
+' Cuando me dicen : “ Te voy a decir algo pero no quiero que te enojes ”, ya estoy enojado en un 99\%.',anger,0.813
+' @username @username Te creo a veces pasan esas cosas #miedo ',anger,0.417
+' @username la función de Dunquerque en gran plaza en León, Gto se borrosa. Mal enfocada ',anger,0.646
+' Llega mi jefe y dice : Juntemosmos en mi oficina en num minutos más, osea nika salgo hoy a las 20 hrs 😤',anger,0.583
+' @username @username @username Que insulto para Hanzo ! ',anger,0.5
+' Tengo el nazo hirviendo, y las manos congeladas',anger,0.396
+' @username Yo en estos casos recurro a alguna escena de Un día de furia . ',anger,0.375
+' No coger los auriculares ha sido totalmente ilegal ',anger,0.348
+' @username Y tu queee ? ',anger,0.413
+' @username si, hay para todos. Cuando me enfado si. Si, estoy riendome ultimamente. Pero bueno, soy actor.*',anger,0.417
+' De verdad que no entiendo el enfado con Vitolo, si para los sevillistas son 40 millones gracias a un tronco, porque otra cosa no era..',anger,0.479
+' No confundas la velocidad de mi amabilidad y cortesía, con el atropello de tu imaginación',anger,0.417
+' Pilar se durmiendo ahora se va a levantar a las num de la mañana ',anger,0.292
+' Mis días estaban muy lindos pero con lo de hoy quede mas triste 😣 a levantar cabeza y seguir, vamos rojo!',anger,0.521
+' @username Eso de sin ofender sobra en Twitter ',anger,0.583
+' Maradona puede opinar lo que quiera cabros, yo no puedo opinar de lo que dijo. porque el pobre estaba tan drogado que no le entendí nada ',anger,0.479
+' @username @username @username Resentida . Hacerte tratar . Pobres alumnos . Los gestos educan y el tuyo es violento ',anger,0.521
+' @username TAMBIÉN YOOO, y en mty no hay ',anger,0.25
+' @username dice la web del marca que alberto ira cedido al rayo que hay de cierto en eso y si es asi entonces irian a por caro ? ',anger,0.292
+' He notado que cuando tengo depresión no puedo dejar de comer, me agarra ansiedad',anger,0.389
+' Hay pelís q deberían venir con un “ no recomendado para gente sensible ” al igual q hacen con la edad #Manchesterfrentealmar #pena #angustia 🔄 ',anger,0.348
+' Ya cansan con sus intentos de insulto jajjaja besos ',anger,0.521
+' * llevo un mes tosiendo * La médica : no se te ve nada, tendrás la garganta irritada Tu eres tonta o qué? Claro que si, y por eso he venido',anger,0.708
+' Eres azúcar amargo, delirio y pecado✨',anger,0.083
+' @username Ah no, se viene contigo? ',anger,0.266
+' @username « recibir su respuesta, su ceño se frunció.—  “¿Que sientes el qué? ¿Dónde estás?”',anger,0.438
+' odio ser tan desconfiado firme ',anger,0.625
+' Quiero mi buzo de vuelta, canutas 👊',anger,0.625
+' Desde primaria soy Fan fan fan faaan de hilary duff h estoy bien indignada porque no están sus albums viejos en Spotify ¡ SON LOS BUENOS ! ',anger,0.729
+' Los débiles toman venganza, los fuertes perdonan y los inteligentes simplemente los ignoran.',anger,0.438
+' @username @username Solo hay que verle la cara de amargada, gentuza y aborto viviente. Para comprender todo. Asco dais asco !!!!!',anger,0.886
+' Que rabia sentirme preocupada y no poder evadirlo 😬 😡 ',anger,0.813
+' @username @username Pues el que ya la agarro a besos fue #Raul 😡 😡 😡 ',anger,0.438
+' ok ME CANSE D ESPERAR voy a dormir #enojada #estresada #indignada ',anger,0.854
+' @username Si vegetta espero y no sigas enojado ay personas como yo q disfrutaron del video 💘 💜 😍 ',anger,0.292
+' Me sale re piola hacer enojar a Eve,pero despues para sacarle el enojo te la debo.😂💞',anger,0.458
+' @username me puedes pasar pack sin ofender porfavor ',anger,0.326
+' @username Nombre, con esos 2 tenemos. Lo de Mora no es tan grave y confío en que caute despierte esta temporada',anger,0.375
+' @username #pésimoservicio . No avisan cambio de política a usuarios y se perdió mi numero con saldo a favor . ',anger,0.667
+' @username tú y to nacimos el mismo día y nos ha salido lo mismo ... ',anger,0.25
+' @username Cala boca 😡 ',anger,0.563
+' Que partido se me fue de las manos la concha de la lora 😠 ',anger,0.771
+' @username @username @username Y el berrinche de Cs tres cuartos de lo mismo ',anger,0.563
+' cuando me enojo con él automáticamente me enojo con todo el mundo ',anger,0.75
+' Es legítimo responder a una provocación con agresión física como señal de imponer respeto . ',anger,0.542
+' Que cínica es la señora Elisabet Fernández oriunda de Tolosa ! 😡 ',anger,0.75
+' #CAPRICORNIO se puede irritar por cualquier cosa, incluso por tonterías, así que cuidado con QUÉ tonterías dices o haces.',anger,0.417
+' Te necesito en mi vida ',anger,0.167
+' ¿ Neta CDMX ? num bloqueos en toda la ciudad . num pinches bloqueos y perder num horas en el tráfico . ¿ Neta ? 😠 😠 😠 ',anger,0.938
+' @username Te iba a decir algo de la palabra Empoderado, pero resulta que está admitida por la RAE y ahora estoy enfadado con la RAE :(',anger,0.674
+' Siempre que lo veo la cara de ojete que le pongo y las ganas de tirarle agua hirviendo son inevitables ',anger,0.854
+' « daño que le hiciera a pesar de ser un crío desde su punto de vista . Ni cómo podía acabar . Volvió a pegarle una vez más, esta vez en la »',anger,0.521
+' Tb a cuando mi hermano le atropello a mi hermana el pie JAJJAJA ',anger,0.146
+' Me mente es demasiado horrible ... No aguanto le aguanto ni me aguanto . ',anger,0.708
+' Me he enojado más con él estando a distancia #mierda ',anger,0.771
+' Acullá, saya, sayo, sayón, vid, atropello, afligir, aflicción, yute, vitud... ^_^',anger,0.25
+' YO CREO que el único corto de casita del horror con kodos y kang que vale la pena es cuando maggie resulta ser su hija . ',anger,0.396
+' El disgusto de las num:num . No hay zumitos . Xd . ',anger,0.375
+' Mayco y yo organizando algo ? Nc como ira a salir eso 😂 😂 😂 ',anger,0.239
+' Me levanté c la idea de que habían quedado milanesas hechas y SE LAS COMIERON, indignada',anger,0.688
+' @username Totalmente no . Solamente la planta baja lamentablemente . Más de num negocios devastados ',anger,0.478
+' Supongo que ahora mismo puede parecer que soy un amargado y sólo sé quejarme, pero creo que he vuelto a suspender el examen de hoy.',anger,0.646
+' @username Pablo está muy enfadado, todos saben que Pablo también quiere acudir a la fiesta.',anger,0.457
+' Hoy he soñado que la gente de mi pueblo me volvía a insultar en el instituto y mira, qué asco y qué odio.',anger,0.771
+' Que pinche asco esos weyes que vienen a comer al puto gym ... porque no comen en su puta casa ? Se ponen más putos mamados o que ? ',anger,1
+' Quiero volver a ser amargada de nuevo . ',anger,0.458
+' Me da miedo encontrar a alguien con quien me encariñe mucho y que después se vaya . 🙇 🏻 ‍ ♀ ️ ',anger,0.271
+' @username saya se me acabo el cafe amargo ! ! ',anger,0.348
+' @username Y mira que para que te espanten a ti ... 😈 ',anger,0.354
+' Como me purga que le hable al viento ... #enojada ',anger,0.813
+' @username Es que me la sacaron ',anger,0.396
+' Ya me entró ansiedad y ganas de llorar porque me acaba de caer la cuenta de el poco espacio y falta de privacidad que tendré ... ',anger,0.563
+' Mi madre me ha desertado enfadada porque anoche se me olvido recoger la cocina . El otro dia se olvido de mi y yo no la desperte a las num ',anger,0.625
+' No pensé que correguir exámenes fuera tan pinche cansado ',anger,0.604
+' Hoy me tomé el caffè mocha más amargo de mi vida . ',anger,0.396
+' feliz día del amigo a la persona que perdió num pesos en la casey para que los encuentre yo . que sepa que la amo ',anger,0.208
+' Papi si me venis a buscar no me enojo ',anger,0.25
+' @username El lobo de los tres cerditos . Sigo indignado . ',anger,0.727
+' @username ya pero tampoco es algo con lo que sentirse ofendido idk, ojala yo ser de ahi',anger,0.333
+' Ains quiero hacer el reto de los num días de Américan Horror Story ',anger,0.217
+' Estoy por mandarle un mail a mi ex-tutora para preguntarle si puedo seguir con el tfg #tristeza #morriña #sentimientosencontrados #confusion ',anger,0.521
+' No cambia más x dios, que pendejo de mierda que es😠',anger,0.958
+' @username @username Cuando estés aquí 😡 ',anger,0.455
+' Recordé que un dentista estaba revisando mis dientes, se quitó los guantes e hizo movimientos obscenos con sus dedos en mi boca. ',anger,0.604
+' Tormenta con truenos 😭 ',anger,0.375
+' Cansancio para regalar . Info aquí 👋 ',anger,0.167
+' @username @username Está rabioso porque va medio bien la cosa ',anger,0.604
+' Las malas decisiones que se toman cuando uno está aburrido 🙄 @username ',anger,0.354
+' Estos pulmones asmáticos no me sirven para nada ',anger,0.542
+' @username @username @username ¡ Madre mía, ruido y la furia con 5 años! Con lo que me costó leerlo a mi con 40.',anger,0.458
+' #RecuerdosDeChibolo ser el mas tímido de mi clase 😌 😌 😌 ',anger,0.188
+' @username @username Magui siempre pensando en comer vos, jajajaja pinta ese mc furioso bue',anger,0.208
+' Ninguna de mis amigas me escucha cuando les hablo . ',anger,0.646
+' @username Indignación cuando me enteré ',anger,0.771
+' #Maracaibo me huele a peligro . Alguien sabe porque los comando de la GNB están vacíos ? Y muchos saqueados . ',anger,0.5
+' Ojalá hubiese sido algo mas grave, así tal vez se haya preocupado por mi.',anger,0.417
+' Sé que no es una ofensa pero me la voy a tomar como tal . @username ',anger,0.5
+' @username Alguien se enojo conmigo ',anger,0.313
+' Y ya he hecho la ofensa del día . Buenos días . ',anger,0.438
+' Hay que darlo todo hasta cuando estás enfadada ',anger,0.333
+' Eu si me dan otra semana de vacaciones no me enojo ',anger,0.188
+' - ¡ Me cagan los lunes ! - Pero si ya es martes . - Ya sé, pero todavía me acuerdo. 😒💔😡',anger,0.674
+' No empieza más el partido 😠 ',anger,0.479
+' Aveces me coloco a ver películas sin ninguna razón para poder llorar tranquilo y no me pregunten el por que . ',anger,0.313
+' Hace mucho que no me enojo queestápasandooo ',anger,0.333
+' Cada espacio de tu cuerpo es mi desesperación 💑 💑 ',anger,0.104
+' - te ves como de num - sí, ya se  -¿qué te dieron de chiquita para verte tan grande?  Wey, ya se que tengo cuerpo de treintona y soy amargada',anger,0.667
+' que dolor de cabeza ',anger,0.478
+' uy dios solo porque estoy 💍 no me lo quiere decir, lo odio😠',anger,0.783
+' que les agarro asco, en ésta última, la minita rubia, de ojos claros, resentida porque se la cogió y se fue a buscar un tesoro +',anger,0.841
+' que no me para ni dios, ya me cuenta que estando serio es como estar enfadado, pero mas bestia, asique nada, ahora me voy+',anger,0.792
+' @username Ma te vale igual estoy #enojada chau ',anger,0.75
+' Ya recapacito y dejo el berrinche ',anger,0.271
+' @username @username Dije las ( coshas ) plural,mal pensadas no me gustan las ostras 😡',anger,0.583
+' @username No, sigue siendo una pesadilla..',anger,0.479
+' — da un pisotón en el suelo y coloca los brazos en jarra, todo ofendido—. ¡Oe! ¡Oxigenada!',anger,0.7
+' @username @username no es insulto,pero q se puede esperar d la manada escatoligica q suDivertimento es aTakar con xno y AnaL_ogias xD',anger,0.604
+' weonnn, weooooon, WEOOOOOOOOOOOOOOOOOON EL DIECIOCHO YA PASÓ ',anger,0.542
+' Si favean menos y van mas al md no me enojo eh ',anger,0.333
+' @username Tu indignación me mata JAJAJAJ ',anger,0.125
+' Es solo enojo por no por comprenderte u . u ',anger,0.708
+' num . Niños . Sus berrinches me dan ganas de ahorcarlos, sus preguntas me hartan hasta lpm, todo rompen. NIÑO, HAZ UN FAVOR Y DEJA DE RESPIRAR',anger,0.896
+' No hay mal que dure num años ni cuerpo que lo aguante ! ! ! Gracias a muchos por su preocupación 😽 😽 😽 ',anger,0.208
+' @username * c va a amenazar gente para conseguir un dm larry * ahr 😂 😂 💜 💜 todo por ustedes 💜 ',anger,0.304
+' Tengo que estudiar, qué paja. Hace tiempo no tenía que hacerlo, la vida era más linda 😥',anger,0.646
+' Me puse a llorar de mal y después paraba enojada y decia soy fuerte . Que onda Es como si el diablo me quiere mal y Dios me dice no caigas ❤ ',anger,0.625
+' @username es horrible 😢 q onda vos tanto tiempo ',anger,0.604
+' Espero que la prensa no titubee y sea implacable . Es lo mínimo que se le pide a una profesión digna ( o que debe serlo ) . ',anger,0.646
+' @username Pobre ... necesitas comida para que se te pase el disgusto :p ',anger,0.458
+' Si van a insultar por chat al menos háganlo con buena ortografía . ',anger,0.457
+' no veré la pelea en vivo porque ese día voy a estar con la quijada trabada viendo a mi kendrick lamar . dios da, dios quita.',anger,0.354
+' Ayer me fui a dormir peleada con sofia,hoy me levante y tenia un audio de ella como si nads hubiese pasado,les juro q la amo💜',anger,0.188
+' si yo no te vuelvo a ver, yo me voy a enloquecer, es para mí, la locura automática',anger,0.313
+' Que hijo de remil puta el que anda dándole rt a payasos y cosas de terror ',anger,0.833
+' Lcdsm tengo sueño pero no me puedo dormir 😤 ',anger,0.438
+' @username « pinta de ser un caos provocado por el adolescente fugado, quien poco a poco iba espabilando por los lametones del perro »',anger,0.354
+' @username Si estas resentido la concha de tu hermana te importan mas que yo esas mugrientas ',anger,0.833
+' @username Todos chiquita ... todos 🙁 ',anger,0.174
+' estoy re indignada porque mmfd no esta en netflix y el cuarto capitulo tiene una calidad de mierda y encima ES EL MEJOR quiero llorar ',anger,0.896
+' De los num tp que dio la de matemáticas para el numdo trimestre solo entregue num 😂 Matemática a diciembre ya te siento ',anger,0.313
+' que lindo va a ser desactivar la alarma de las num am por dos semanas ',anger,0.125
+' Pobresitaa, ta resentida la nena me parece',anger,0.625
+' Ya me voy a cortar el cabello, no puedo hacer nada con el con lo largo que está ',anger,0.417
+' @username Cállate señorita venganza ',anger,0.604
+' @username Ves ? Ya te he ofendido . ',anger,0.458
+' Nunca me a gustado ser amargado ',anger,0.266
+' Me da cualquier rabia que nadie linchó a @username cuando dijo que habían violaciones violentas y no violentas . Vieja ridícula . ',anger,0.87
+' @username Tocho Curas No puedo recordar esa pelea aun ',anger,0.283
+' Estaba encontrando el sueño y a alguien le está sonando la alarma del auto odio mi barrio ',anger,0.792
+' La razón por la que estoy siempre enfadada es porque no recibí mi carta de Hogwarts ',anger,0.542
+' Me pongo triste-enojada de un momento para el otro ... Ya ni yo me banco, no me imagino el resto',anger,0.563
+' Nunca jueguen con mi ansiedad ',anger,0.563
+' Hoy mi papá me dijo que está preocupado porque aún no tengo novio 😂 🤷 🏻 ‍ ♀ ️ 💔 ',anger,0.271
+' Había olvidado todo eso del zika y chiconguya y andaba bien vergas sin repelente hasta que me tapizaron de piquetes y mentró\'l susto . ',anger,0.479
+' Me muero por ver la pelea de McGregor y Mayweather ... 💪 ',anger,0.188
+' @username @username @username Antes de hablar de Miguel Ángel Blanco lávate la boca, @AlfonsoAznar, responde y  deja de insultar',anger,0.625
+' @username @username Pues está muy claro lo que ha dicho, y decir las cosas como son no es faltar a la verdad ni ofender a nadie.',anger,0.542
+' @username Aun no sabe ? Le ira bien ! ',anger,0.125
+' Mi mayor problema es que no puedo estar enfadado . Siempre termino perdonando a las personas, incluso cuando no lo merecen.',anger,0.438
+' @username - Le espera en la puerta, frunciendo el ceño porque no tiene muy buen aspecto.-',anger,0.458
+' @username @username @username No querían ofender a sus hermanos los delincuentes de eta ; y ya sabemos, ellos son sus cachorros.',anger,0.57
+' @username Entiendo la preocupación familiar pero deberían ser más cuidadosos porque mucha gente se moviliza tras estos pedidos ',anger,0.479
+' @username @username Ahora solo existe en mi memoria ',anger,0.229
+' Mi novio subió una foto conmigo durmiendo a instahistory y recién la veo . La venganza sera terrible 😘 😘 😘 ',anger,0.563
+' El suicidio es el capítulo final de una novela más larga e incomprendida . No se resuelve diciéndole a alguien que no esté triste y ya . ',anger,0.458
+' @username ESTOY OFENDIDO ERGO TENGO RAZÓN . ',anger,0.708
+' Si hay algo que me da rabia es sentir que estoy perdiendo el tiempo con algo o alguien . ',anger,0.739
+' ¡ Mas cansada,  imposible!',anger,0.217
+' Faa estoy re lleno ',anger,0.188
+' * Frunce el ceño molesta * me marcharé cuando me tomé el café ',anger,0.583
+' Tal vez Abraham tiene razón y debo hacerlo, pero soy muy cobarde esa es la verdad.',anger,0.226
+' Solo una palabra se hubiera llevado el dolor, con el beso amargo de aquel licor hubiera bastado mi amor... 🎶🎵',anger,0.271
+' @username La furia de Yavé cayó sobre ellos :) ',anger,0.521
+' Y todavía me dejan mensaje en en buzón de voz @username ',anger,0.458
+' @username si a mi tambien me pasa,por eso nunca estudio ahre si t pones nerviosa es peor',anger,0.521
+' Te contestara tu estado pero eres tan culon que me eliminaste en una pelea similar 👀 😂 ',anger,0.771
+' Habla de oscuridad siendo buena, se hace la mua y no le sale resentida que sos y copiona, dolida buscate un poquito',anger,0.646
+' Tengo tremendas ganas de salir a caminar ahora pa sacarme un poco la decepción y el enojo y pensar bien q voy a hacer ',anger,0.845
+' @username Pero no eres amargada verdad ? ',anger,0.5
+' Mamilord se enojo ... 😝 😩 jajajaja creo me falto ponerle el : v al final de la oración . ',anger,0.229
+' ¿ Por qué los zancudos me persiguen ? 🙁 ',anger,0.479
+' What, me despertó alto relámpago ahora no duermo más 😭 ',anger,0.396
+' Yo no cambió ni cambie por nadie ni nada 😶 solamente quiero que se den cuenta porque me enojo de la nada .. no voy a decir nads ',anger,0.729
+' Las mujeres pasan, el grupo envejece, los años corren y al parecer raquel no se ira de este grupo, enhorabuena por los mios.',anger,0.354
+' Joder, qué asco dan los fachillas que pretenden convencerte de lo maravillosa que es España y siempre acaban en el insulto o el desprecio.',anger,0.891
+' Cuarenta años estuve disgustado con la nación, Y dije: Pueblo es que divaga de corazón, Y no han conocido mis caminos.',anger,0.604
+' que ironía que el café sea amargo y te endulce la vida ',anger,0.208
+' Mi prima de num años se ha enfadado conmigo porque le he explicado de el azul no es solo de chico ni el rosa de chica . QUE LES ENSEÑAN ! ? ? ! ? ! ? ! ',anger,0.646
+' Estoy hirviendo de la arrechera ',anger,0.771
+' Lihuel se hace el ofendido pero yo se que un poquitttito me ama ',anger,0.25
+' Pues hoy me he vuelto a poner unos shorts . Porque me gusta provocar y hoy quiero que me llamen la atención . ',anger,0.292
+' @username @username @username Insultar es que no te paguen . ',anger,0.542
+' Me siento como en Navidad cuando esperaba los regalos re ansioso ',anger,0.208
+' Hay tanta timidez en mi cuando se trata de ti . ',anger,0.118
+' Ojalá Dios, ponga su mano para tener calma de la sed de venganza que puede continuar.',anger,0.5
+' Keiko no tiene nada que ver con lo de Montesinos ! Él se tomó atribuciones que no debía ! El Fujimorismo es el principal opositor al terrorismo ! ',anger,0.625
+' Hank, el pulpo de Buscando a Dory, le dió su tentáculo/pene a una pulpa que le abandonó. Por eso vive amargado y resentido.',anger,0.479
+' JAJAAJA la plaga se enojo porque me anotine y les pise la tuca . Jajajajaja . Si se cayo al piso es tierra de nadie . ',anger,0.25
+' Déjame sobrepasar tus zonas de peligro hasta provocar tus gritos, y que olvides tu apellido',anger,0.239
+' @username ? ? ¿ me siento ofendida ',anger,0.646
+' Sigo indignada . Como vamos a usar NEGROOO ? ? ? Diablo perdónalos no saben lo que hacen 😂 😠 👊 ',anger,0.729
+' Por cada minuto de enfado perdemos sesenta sejun,os de felicidad.',anger,0.261
+' Culiaaa pesadaso mal 😤 ',anger,0.646
+' Preguntame si vamos a ir con toda la furia este sab ',anger,0.609
+' @username #Rayito tengo ansiedad ',anger,0.396
+' qué depresión ver todos los vídeos de las chicas que abrazaron hoy a los chicos, YO QUIERO',anger,0.396
+' MI HERMANA SE ACABA DE LEVANTAR Y HA EMPEZADO A HABLAR PERO NO HA DICHO NADA EN ESPAÑOL Y ESTABA DORMIDA ',anger,0.229
+' Tremendo estalcaso con mg incluido jaja ',anger,0.208
+' Andy aprende a tapar que estabas mas nervioso que cuando tenias la calcomania XDDD ',anger,0.333
+' Me acaban de insultar diciéndome Maluma y pos na\'a que ver ',anger,0.521
+' @username Que horror q dientes tan amarillos y q cara tan fea además yo soy más bella q vos ',anger,0.596
+' no soporto ver que maltraten a un animal o que lo maten para comerlo pero lamentablemente la carne es TAN rica ',anger,0.479
+' Es fácil para los cobardes esconder la cara en una cuenta fantasma para ofender . Pero es entendible, la envidia les corroe. #QueTristeVida',anger,0.729
+' @username Pues falta Osuna o que ser mexicano no cuenta como latino ? ⚾ 😡 😉 ',anger,0.5
+' Me pusieron el primer parcial el num d agosto .. De psicologia .. sos joda loco .. Era en septiembre .. Por q lo cambian 😠 😠 ',anger,0.604
+' El que esta segurisimo que el mercado ira hacia tal o tal dirección ya perdio . #Bitcoin ',anger,0.375
+' @username Además no necesita haber pelea de por medio . ',anger,0.333
+' Ella se ve fria, pero no lo es, en realidad es muy dulce y tierna, solo tiene miedo a que la lastimen',anger,0.271
+' Adivinen quien tiene médico el lunes que viene y tiene miedo porque la van a pesar 😣 ',anger,0.438
+' Me gusta porque son mi segunda opción en todo momento que yo me enojo jajajaja ',anger,0.283
+' @username < espalda del rubio, la cuál probablemente estaría marcada, pero ni con eso logró sofocarlo pues un gruñido salió de sus >',anger,0.304
+' El #asesinato de #MiguelAngelBlanco lo recuerdo como su fuera hoy : #Esperanza #decepción #rabia #pena #TeniaQueDecirlo ',anger,0.667
+' Hoy pase bañándome sin mentir como hora y media y en serio que me siento más blanca no jodas haha ',anger,0.354
+' @username PERO PORQUE NO PUBLICAN QUIEN LO ATROPELLO ? ? ? ',anger,0.729
+' Si iaso por tu lado y no te saludo nq o tomes como enojo que los amores q e se quieren se saludan con los ojos . ',anger,0.304
+' @username @username He visto hombres llorar con desesperación y angustia ante una pequeña y fina agujita de jeringa . ',anger,0.354
+' @username Exacto . Te cuento por la tarde que ahorita estoy leyendo algo jajaja y no puedo concentrar mi enojo de la separación bien . ',anger,0.542
+' tengo un sueño cb y Edwin sigue hirviendo huevo ',anger,0.354
+' @username Soy de la comunidad de comunidades ofendidas, y me siento terriblemente ofendido con este comentario',anger,0.705
+' Ya se me pasó la pena ',anger,0.261
+' Meeentime que me gusta . ',anger,0.217
+' El PERÚ está cansado de tanta Podredumbre Porquería y Kagadas del PresidenteDeLUJO ! No acierta una ! Se dispara a los pies ! NO AMA AL PERÚ ! ',anger,0.771
+' Tomando birras porque por un tiempo muy largo no voy a poder #Tristeza 😖 🍺 ',anger,0.333
+' Defensa de #OllantaHumala dijo que fiscal señala las niñas generan peligro . Parece que no se entero de los millóncitos de esas niñas . ',anger,0.5
+' @username boluda en serio no sabias es como la primer cosa de la q te enterás cuando entras a la secundaria ',anger,0.583
+' Mientras puedas mirar al cielo sin temor, sabrás que eres puro por dentro, y que, pase lo que pase, volverás a ser feliz.',anger,0.229
+' Como q mi hermano cumplió num y parece de num ',anger,0.167
+' @username Perdona @username ¿ puedes confirmarme que está num \% rabioso ? ',anger,0.5
+' #NowPlaying No me importa [ cBH ] - Thony y su Orq . Peligro ',anger,0.313
+' Clase cansancio 😪 😪 ',anger,0.292
+' @username Qué horror este engendro . Repulsivo . ',anger,0.826
+' La mejor venganza es ser diferente a quien causó el daño . - Marco Aurelio . ',anger,0.333
+' @username Jajajaja pues es que me enojo lo que me dijiste, sólo me hablas por el(:',anger,0.667
+' La puta madre que susto me pegué jajajajaja ',anger,0.563
+' HIJO DE TU REPUTOSIMA BOMBA PERRA ESTUPIDA BABOSA MADRE 😡 😡 😡 sin ofender a su mama no la conozco es solamente una expresión de odio así el ',anger,1
+' Thian no me suelta y quiero ir a fumar un cigarro ',anger,0.5
+' @username I Andalucia ... ? x corrupció implacable ? ',anger,0.438
+' Quemada es poco 😤 ',anger,0.674
+' @username que tema, esta muy bueno y casi no se toca entre nosotros los hombres por temor a ser criticado',anger,0.396
+' @username ... Ofensa directa es una ofensa en la que intento hacer daño, si discrepas de mi pensamiento lo dices y punto',anger,0.583
+' Pensé que se me habría pasado el disgusto pero no ',anger,0.604
+' tenía re abandonado twitter literal 😂 😂 ',anger,0.083
+' Pero a mi quien mierda me manda a elegir esta carrera de mierda ... lease entre lineas ( amo mi carrera y por eso me enojo ) #Relatosalvaje ',anger,0.667
+' Siempre que estoy enojada no puedo dormir en paz . 🙍 🏽 ',anger,0.565
+' @username @username @username @username @username Es que no me gusta faltar pero es que me pone muy nervioso :( ',anger,0.5
+' Tengo miedo de hacer matrícula ',anger,0.354
+' Esa pelea del num de Agosto se presta demasiado ! ! ',anger,0.333
+' Me acaban de traer unos papeles al despacho impresos en impresora de aguja . Parece que haya gente peleada con el Siglo XXI . ',anger,0.354
+' Hoy me sentí como mi ídolo, si como Julio César Chavez Jr. En su pelea con el Canelo.',anger,0.271
+' Sufro de insomnio provocado por la estupida guardia ',anger,0.583
+' Je q bueno esto d hacerme la ofendida y tener lo q quiero 👐 🏼 ',anger,0.313
+' Soy el perfecto ejemplo de una tuitera enojada y tiste . Bye . ',anger,0.739
+' Me impresiona todo el amor que me tiene Leia a pesar de que cada num días la dejo sola 😭 💔 ',anger,0.333
+' no me puedo creer que buckleming vaya a escribir el numxnum joder tan pronto un disgusto ',anger,0.729
+' Vergüenza me hace pasar Meli, perdón mami por las amigas que tengo jajaj',anger,0.167
+' ¿ Por qué no cancelan clases en mi escuela ? No hice la exposición ',anger,0.438
+' Vale tanto y yo no me había dado cuenta ! ',anger,0.305
+' @username Sale un pati rabioso ? Ajaja ',anger,0.375
+' Estoy viendo un especial de Linkin Park y no tenía la menos idea de el motivo de eso . Que lamentable 😔 😑 ',anger,0.542
+' Odio enojarme tan fácil ',anger,0.667
+' Cabeza e \' mango està perdido . La Humanidad en vilo porque su reserva intelectual està en peligro ... ',anger,0.396
+' @username @username @username @username @username 👏 🏻 👏 🏻 👏 🏻 ¡ Muchas gracias por haberlo peleado ! ! ',anger,0.333
+' Que inquieto está este perro 😂 😂 😂 ',anger,0.208
+' Jajajajaja pobre pendeja que se maneje,pedazo de resentida',anger,0.886
+' ¿ Soy el único amargado que se le hace estúpido estarse contestando con puros memes ? ',anger,0.646
+' si no me sigues pa q cotilleasss q pesadez ',anger,0.521
+' Pensó que me iba a dar bronca que se hable con el, resentida😝',anger,0.521
+' @username @username Y enojo ',anger,0.479
+' Hacía tiempo que no sentía el #estar #enfadada xd qué calor . ',anger,0.688
+' Mira eh,Si el dia ya lo tenia malo,me faltaba tener a @DanielaBlume enfadada por comentarios estupidos. 😡😡😡😡😡😡😡',anger,0.833
+' Ahora cada vez que escuche The Messenger lloraré . Esa canción significó mucho para mí en un momento, ahora bueno, con lo que pasó 😔',anger,0.396
+' @username Ah . . . ━ Apenas aquella irritante voz invadió la habitación principal donde el se encontraba frunció el ceño [ + ] ',anger,0.348
+' Kimberly me tiene más nerviosa ',anger,0.333
+' osea da las putas gracias que no has estado deprimido hundido en la mierda en vez de llamar a alguien cobarde ',anger,0.804
+' No puede ser tan resentido DIOMIO ',anger,0.521
+' @username @username @username papi acá ya lo están contratando para que tome unas fotos de una pelea ',anger,0.348
+' Cómo justificáis el desprecio de Carmena al #HomenajeBlancoEP ? Cómo podéis decir que Otegi es un luchador por la paz ? Os importa ofender ? ',anger,0.708
+' @username Es lo menos que se puede pedir y esperar ante tal afrenta golpista . ',anger,0.508
+' Que hago despierta a ésta hora la concha de la lora . Estoy indignada ',anger,0.833
+' @username Como que no 😠 .. uuufff Deoos mio mánda más pasiencia que se me está acabando con esta mujer ',anger,0.708
+' @username Aburrido y panza México ',anger,0.348
+' @username @username voss con el palo selfie jajajajaja @username ',anger,0.208
+' En Venezuela, el tráfico aéreo esta tan peligroso como el terrestre? Ya cayó otra avioneta.',anger,0.521
+' LIKE SI ERES ARMY REPORTENSE ARMYS Y TODAS ESAS WEAS ... NO QUIERO OFENDER,PERO ME TURBO CAGAN ESAS WEA AAAAAAH - c muere - ;;;;',anger,0.813
+' yo no soy de amenazar me gusta hablar con echosss ... ',anger,0.458
+' no se si agustin esta enojado en serio o se esta haciendo el enojado :/ / / ',anger,0.417
+' @username Deberías quitarme de tus notificaciones, sigo ofendida por lo de la peli, cambio y fuera',anger,0.646
+' el amargo sabor a traición ',anger,0.604
+' Se fue enojado conmigo ',anger,0.479
+' @username No se la verdad explicame como te tengo de amargado jajajajajajjajajajajajaja ',anger,0.396
+' Hoy me tome el caffè mocha mas amargo de mi vida . ',anger,0.458
+' @username @username Es un atropello en toda regla . ',anger,0.565
+' Hasta los webs de tanta burocracia, comisiones y getismo en general. Dan ganas de hacer de Michael Douglas en Un día de furia...',anger,0.708
+' La primera act en Derecho fue imaginar una soc sin Estado . La profesora ya va a conocer mi lado anarco 🙈 ',anger,0.375
+' Si alguien quiere traer unas facturitas no me enojo ... 😊 ',anger,0.229
+' @username @username esta preocupado ? ',anger,0.292
+' No esta @username en twitter con el partido de #PeñA ? ? ? ',anger,0.333
+' La tradicion es algo que se ira perdiendo siemfre poco a po | o . ',anger,0.313
+' Una de terror 🙏 🙏 🙏 ',anger,0.188
+' Ya necesito vacaciones y a penas van los primeros parciales ! ! ! ',anger,0.458
+' @username JAJAJAJAJAJA bueno, no es enojo, es molestia. Agh, es difícil. Hay más contras que pros. 😣',anger,0.458
+' Necesito que el colo arregle su celular ya ',anger,0.438
+' @username Que indignación 😠, con esa plata podrían sacar a cuantas familias de la pobreza',anger,0.792
+' Lo buena que está la película de rápido y furioso num 😎 🤣 . Si yo la miro un mes después del estreno por qué soy un crack ',anger,0.208
+' | Caity : Sara siendo intimidada por Supergirl — Muere — ',anger,0.438
+' RT DeboRecordarles : Hacen falta cuarenta músculos para fruncir el ceño, pero tan sólo quince para sonreír',anger,0.229
+' No sabía que estabas tan desesperada, chére.',anger,0.438
+' @username mariguanita, cuando te llegue la ley no te pongas a llorar como una marica. Se te nota la cara de pargo.',anger,0.667
+' Qué significa taciturno - que le gusta andar de noche JAJAJAJAJAJAAJAJJAAJAJJAJAJAAJJAJAJAJAJQJAJAJAAJ ',anger,0.208
+' hoy llore prácticamente la mitad del dia, la otra motad fue risa y enojo 😑💣💥',anger,0.563
+' kihyun perdió el piedra, papel o tijera con wonho y le dio tremendo empujón a hyungwon JASJASJSAJSAJSAJ',anger,0.313
+' Debora P Volpin, 50 años, acaba de darse cuenta de la pobreza /conventillos, a pesar de que era conductora, NO PERIODISTA. En A fuego lento',anger,0.438
+' Me encojona esta mierda de estar a piee odio depender de la gente 😤 ',anger,0.958
+' Evadirse del Problema Interior Provocado por la Personalidad no Es más que Avocarse hasta el Dolor, el Estrés,el Agobio o el Malestar.',anger,0.417
+' Cercano por así decirlo . Y debo decir que no esperaba que fuese así de terrible el padecer de anorexia . En verdad, me.alegro muchisimo+',anger,0.326
+' El batir de alas de una mariposa puede provocar un huracán en otra parte del mundo .. ',anger,0.167
+' No se pa que anda de ofendido si tambien ta bien torcido ',anger,0.571
+' - Su mochihermano es consumido por la oscuridad . - ',anger,0.417
+' @username Que ni culo inquieto es 😒 😂 ',anger,0.521
+' Que rabia en serio cuando hacen las cosas por obligación y no porque les nace ',anger,0.854
+' Arroba Hathor quedé re ofendida . ',anger,0.813
+' Me hace envenenar mi vieja ',anger,0.813
+' @username @username Hoy se estan pasando mucho contigo Dani,espero que tu venganza se cocine a fuego lento en tu restaurante#AndaYaChef',anger,0.5
+' El corazón amargo come a su dueño . ',anger,0.396
+' @username @username Es una vergüenza tener este tipo de cancilleres ... apoyando al genocidio .. 😠 ',anger,0.917
+' Hace num años desde la última vez ... y OMG, pánico escénico!!!',anger,0.354
+' Simplemente corruptos e infames los diputados, cubriendo sus espaldas #NoMásCorrupción #enojado #triste #Guatemala',anger,0.935
+' Un vacío amargo, es lo que siento.',anger,0.696
+' @username mucho NO SOCIO pasando en la cola delante de socios eligiendo sitio . Mucho socio indignado y esto va lento no, lo siguiente.',anger,0.75
+' Estaba buscando fotos y encontre unas de un xv con Manu cuando recien nos conociamos era re amargo Manuel . Hasta encontre fotos con Agustin 😂 ',anger,0.313
+' @username Estoy alucinando con las razones expuestas por los universitarios catalanes : mucho eslogan y nada de contenido #triste ',anger,0.667
+' y de pronto viene el conductor del autobús con una rabieta por cargarme su suelo a atropellarnos y ahí me desperté ',anger,0.604
+' @username @username Es una resentida, pues que el PP le robe a ella, no te jode , y que no le importa,!!!!',anger,0.813
+' Quiero ponerme trenzas de nuevo 😭 ',anger,0.217
+' Vamos a esta noche a enloquecer 🎶 ',anger,0.167
+' @username @username Berro larguísima ! ! Todo esta muy tétrico esto va mas allá de tensa calma ',anger,0.413
+' se puso la num Flor con un buen café y peli d terror, esa es mi amiga',anger,0.196
+' Estoy totalmente indignada con lo que me acaba de decir este chico ',anger,0.792
+' las canciones del grupo Jarcha están irremediablemente ligadas a esos días d angustia ... libertad sin ira ',anger,0.455
+' Y adivine dos cosas y @username se enfado por ello ',anger,0.5
+' Que rabia cuando se me quita el sueño ',anger,0.652
+' @username @username A QUIÉN LLAMAS RARO, ESTOY OFENDIDO.',anger,0.783
+' Si mensa, se nota tu desesperación ya todos lo notamos ntp',anger,0.63
+' Soy el terrible farsante oe ',anger,0.542
+' Ohhh hasta se me fue el sueño del disgusto 😔 ',anger,0.729
+' Hoy, a pesar de los reclamos de miles de ciudadanos, el @INEMexico aprobó por unanimidad lineamientos para censurar las redes sociales.',anger,0.563
+' @username Yo también,  pero sigo un poco enojada',anger,0.646
+' @username la depresión existe ',anger,0.375
+' A pero que lindo que anda el internet 🙄 😒 ',anger,0.208
+' @username Jajajajajaja que rabia ',anger,0.457
+' @username He visto demonios vistiendo santos, pero estos tipos por lejos los más cínicos 😒😒',anger,0.771
+' tonum me responden la hist de ig como si hubiera echo algo grave lloro JSJAJAJ ',anger,0.333
+' Es peligroso acostumbrarse a alguien ',anger,0.547
+' #SiMeMatan por decir lo que pienso, por ser sensible a al dolor humano, por luchar por mis ideales, por críticas al mal gobierno y #Enojada',anger,0.771
+' Bianquita me parece que mi novio esta resentido con vos pasame a buscar si queres, y la otra tambien 👌',anger,0.333
+' @username @username ira a la basura.una pena perder tiempo en ir a la justicia burguesa ',anger,0.625
+' Me da rabia mñ . ',anger,0.771
+' Pierna de mierda,cansada de no poder hacer cosas que antes la hacía tan fácil ',anger,0.804
+' @username @username Es una interesada no estaba tan enfadada con Alejandro ?, Xq se fue con el al hotel? Buitre es un buitre',anger,0.708
+' Estoy indignada, como van a sacar la unica libreria que habia en Solano por un local de zapatos!.',anger,0.75
+' @username @username @username Deseas relajarte . Bien . ! ! ! Practica Yoga . Te ira Súper . ! ! ! ',anger,0.167
+' ESTOY FELIZ Y ENOJADO ',anger,0.413
+' Indignación e impotencia al ver como nos ningunean, nos faltan al respeto y pisotean el escudo de nuestro club.',anger,0.833
+' @username Bah, era como evoluciones del mismo sueño, sobre una casa en Córdoba. Hace un par de años la encontré. ',anger,0.167
+' @username Fuera de joda si vi a tu hermana, vos sos la unica amargada que no sale nunca!!',anger,0.708
+' Odio la gente cerrada, que no se deja ayudar. Para colmo la mayoría de la gente que quiero es así ',anger,0.833
+' me tienes ofendido gran malparido pero espero y la saqes ahoritaaa ',anger,0.979
+' Sentir como un terrible vacío en el pecho, lo peor💔',anger,0.625
+' Y ENSERIO SI NO PARA NO MAS QUE ESTA NO PARA DE NADA Y POR NADA ESTIY FURIOSA ',anger,0.875
+' @username Por todo, me tienen mamao, me sabe a cacho viejo Venezuela ',anger,0.646
+' Es que estoy nerviosa y cuando lo estoy me da por comer, comer, comer y más comer 😢',anger,0.375
+' Desahogarte airado con tu jefe a primera hora sirve para eliminar stress y crear vínculos que al final no te llevarán a ninguna parte . ',anger,0.375
+' Hirviendo de fiebre 😭 😭 😭 ',anger,0.542
+' Me asusté mirando la momia y nisiquiera era de terror .. a mí nomas me pasa esto jaajaj ',anger,0.174
+' @username Esto si que está bien cabrón . ',anger,0.521
+' @username tú si q dass asco 🙄 😤 ',anger,0.813
+' No entiendo si no me duermo por manija, por pelotuda o porque estoy muy bajón+enojada! No se, yo ya no se 😣',anger,0.813
+' Recién hoy vi la película de rápido y furioso num por primera vez . ESTA MANSA we ',anger,0.208
+' Y esto de la recuperación a casi una semana ... Imposible ! ! #Dolor #desolación #angustia #tristeza #perdida #muerte #impotencia ',anger,0.667
+' @username Upa, tremendo salto del gueymallen triple blanco a un Starbucks',anger,0.313
+' Estoy aburrida .. quiero hacer algo ! ! ! ',anger,0.229
+' Que horrible dormir con pantalon lpm ',anger,0.542
+' Y me acuerdo que a veces me daba rabia pq no me hablaba, pasaba semanas ignroada por el pndejo y luego no recuerdo pq nos hicimos más unidos',anger,0.667
+' me siento super miserable ahorita porque soy una seria amargada de mierda pero tengo comida :) ',anger,0.792
+' No me voy perder esa pelea wachooo ',anger,0.333
+' Se me antoja una tostada de ceviche, nomás poe el puro berrinche.',anger,0.396
+' Modo puta amargada ON ',anger,0.938
+' Que bronca loco ',anger,0.479
+' #IrreversibleMaldad El amariconao se queja por el hijo de su polola . El pack se recibe completo . ',anger,0.604
+' @username Estoy ofendida porque me clavaste el visto sabes ? Asique anda con ellos ',anger,0.813
+' Que bronca cuando te hablan pero despues no te responden ! 😡 ',anger,0.854
+' @username cuando voy yo solo no, cuando voy con los crios tengo mas cuidado. sobre todo desde que le atropello una bici a la cria',anger,0.438
+' amo porque yo soy re tímida pero en el boliche me pones música y bailo con quien sea ',anger,0.208
+' Que triste querer decirle lo mucho que amo a mi novio pero mi enojo no me lo permite ',anger,0.565
+' Sigo completamente indignada . ',anger,0.851
+' Te extraño tanto que voy a enloquecer ... ',anger,0.261
+' Eso sí, lo tengo hirviendo, puedo freír perfectamente un huevo en mi brazo.',anger,0.5
+' son como Juan Carlos sacando una tirada de engaño tres para envenenar a alguien toma este veneno DIGO ... ESTA FANTA ',anger,0.563
+' @username El mejor hashtag que nunca vi ! Jajaja #MejorSacarRapido #PorLasDudas ',anger,0.171
+' Paciencia . Conozco gente que por no tener paciencia, fe y confianza perdió tanto q hoy podría disfrutar. Hay q ser leal a quien cree en ti.',anger,0.25
+' Este año estamos + alejadas pero sabes q seguís contando conmigo p todo, a pesar de todo lo q pasa quiero q sepas q t quiero y valoro 1000',anger,0.146
+' Sola nomas me hago la cabeza ',anger,0.322
+' @username a mí me has ofendido, de no ser así hubiese sudado de tu cara',anger,0.729
+' Anoche me enamore de un pibe por sus ojos, pero lo vi una sola ves estoy llorando VUELVE QUE SIN TI LA VIDA SE ME VAAAAAA OOOO VUELVEEE',anger,0.25
+' @username Tiene muchos retuits . 😟 ',anger,0.146
+' FLORES VOTA EN CONTRA LA LEY SI LO ÚNICO QUE DEFIENDE ES A SU MENTOR POLÍTICO EL CHICO ZALDÍVAR A QUIEN NO SOPORTO VERLO LLORAR ',anger,0.625
+' Así con razón se me cae tanto el pelo con tanto disgusto que me dan estos hijos de puta . ',anger,0.957
+' Hoy comi como 🐷 y ya me dio hambre otra vez ',anger,0.271
+' Gracias al sony ahora digo ira ira involuntariamente ',anger,0.348
+' @username Alguien que me entiende perfectamente Lamentablemente no tenemos control ante aquello ',anger,0.458
+' @username @username Pensé que estabas enojada wowow ',anger,0.354
+' Lamentablemente soy muy sensible y cualquier tonteria me hace daño . ',anger,0.458
+' No han sacado nada de Banri ni Itaru y me siento muy indignada . ',anger,0.708
+' Qué amargo sabor a despedida todos los momentos musicales del #DesayunoDeLasnum de esta semana . @username @username @username ',anger,0.438
+' Con la facilidad que ciertas personas me cambian el humor es tremendo . ',anger,0.583
+' Estoy demasiado llorona hoy 😭 . ',anger,0.375
+' 「 @username 」 « rabia y las maldiciones imperdonables comenzaban a sonar en su cabeza como una apetecible y tétrica cancioncilla de » ',anger,0.525
+' Si haces sangrar a un dios la gente dejara de creer en el, el agua se teñira de rojo y asistirán los tiburones',anger,0.521
+' Mi mamá me puso a cocinar con la Olla de presión, es normal que le tenga pánico a ese artefacto de cocina ?? ',anger,0.333
+' Todos estos días he estado durmiendo demasiado mal . No sé si es el país o mi ansiedad natural . ',anger,0.417
+' La pelea de la playa de WW es un gustazo por mucho CGI que tenga <num ',anger,0.208
+' Hace num días quiero ver a mi novia y no puedo,tengo una amargura una cara de orto.. ahhh pero 2 birras más y le sonrió Hasta al matambre jaja',anger,0.563
+' cuando empezó todo me prometí que no pasarían algunas cosas, y hoy... paso!!! #decepcionada #triste #enojada',anger,0.708
+' curao d espanto,',anger,0.25
+' I have questions me tiene la vida triste cada vez que quiero ver el video de crying in the club ',anger,0.313
+' Y de golpe son las num de la tarde 😱 😩 ⛈ ',anger,0.417
+' Ansiedad y frustración, gracias por ser mis fieles compañeras.',anger,0.417
+' #CuandoTengoHambre HUYE . En serio, todo lo que puedas. Cuanto más lejos mejor o mi ira caerá sobre tu vaca, tu familia y sobre ti.',anger,0.604
+' Será una noche de esas donde la mente no me dejara dormir 😟 ',anger,0.521
+' @username @username Y yo a los num iwal que tu ! ',anger,0.271
+' Horrible es todo lo que te aferras y lo difícil que es soltar ',anger,0.5
+' No es de resentimiento madre pero hubiese preferido que me pusieses en el polivalente ',anger,0.586
+' Estar lavando a esta hora, debe ser un delito ',anger,0.354
+' Horrible lo que me pasó recién, no voy a poder dormir tranquila',anger,0.542
+' @username Es el requisito número uno para ser papás we jajajaja echarse un caldazo hirviendo para combatir fuego con fuego . 🔥 ',anger,0.188
+' @username Siii, súper triste 😩',anger,0.37
+' es que archie colega sólo tienes músculos y judhead mira en serio ojalá te hubieran matado a ti y no a jason ',anger,0.563
+' ufff cuando vaya con luna a capi me llevo el parlantito y a full los red dios que nostalgia ',anger,0.188
+' #BetoASaber . Animarles Guzmán tirarse abajo economía política crear caos con su terrorismo y dar pasó a la privatización . del Perú ',anger,0.606
+' Se enojo,me dejo mandándolo a la mierda sola y se durmió.',anger,0.771
+' yo soy bien amargada y me imagino regañando a taehyung todo el día y el solo se reiría de mi y me daría besitos y yo lo perdonaría i - ',anger,0.479
+' Gianfranco dice que cuando me enojo soy el demonio hecho mujer . Jajaja no terminó de conocerme este chico . ',anger,0.458
+' ay nooo que horrible ... me acordé cuando me pasó lo mismo hace como dos años ajjajajajaja ',anger,0.25
+' va mejor venganza contra quien rompio tu corazon, es demostrar que eres nerfectamente capaz de ser feliz sin el/ella.',anger,0.521
+' @username Ñiñiñiñiñi estoy indignada con la gente de esa zona . Cada día les soporto menos .. ',anger,0.938
+' @username Soy un juegooo, tú en mi buscas venganza y yo en ti busco un sueño. Dime entonces qué hacemoss',anger,0.333
+' Nunca estuve tan enojado . ',anger,0.917
+' Esta boluda de la vidal me aparece en todos los anuncios de youtube 😠 😠 😠 ',anger,0.891
+' Arreglo la moto y la vendo a la mierda, podrido de renegar ',anger,0.896
+' @username vamos con toda equipo . Saludos desde Villavicencio . #mechita . Se perdió una ballata mas no la guerra ',anger,0.229
+' @username falsa inocencia . — Te veo un poco enfadado ... ¿ Ha ocurrido algo ? ♡ ',anger,0.396
+' Quizás antes de provocar linchamientos públicos podríais buscar algo más de fundamento que el me lo dijo no se quién . ',anger,0.521
+' — alzó ambas cejas ante su mención, mas las volvió a fruncir poco después. Sus mejillas se había ruborizado un poco más, y ahora sí que ›',anger,0.292
+' El mejor insulto de todos es melón Porque lo puedes soltar cuando sea y nadie se ofende hasta que se dan cuenta de lo que has dicho ',anger,0.54
+' - Desde que la mujer aprendió a coger sin involucrar ningún sentimiento, el hombre aprendió a hacer berrinches y dramas sin ninguna razón.',anger,0.542
+' mi gasista de burzaco en el num ponia num estufas hoy num ... ya esta, es la medida de un laburante- este sistema es deplorable',anger,0.625
+' @username @username @username @username @username @username @username ya se me paso la rabia :) ',anger,0.333
+' @username Quiero saber quien ',anger,0.292
+' me acabo de acordar de que este curso hago selectividad y tengo ',anger,0.313
+' @username pero no lo queria perder yo ',anger,0.531
+' de las cosas que podríamos estar disfrutando, pero se quiso quedar con el sabor amargo',anger,0.565
+' Echenique : Esto le sirve al PP para insultar a Carmena nummujer q es jueza y q ha luchado toda su vidaxlo derechos humanos . 👏 #HomenajeBlancoEP ',anger,0.563
+' Culia le di rt a a un tw citado de annabelle y al segundo me salio que mirara debajo de la cama ',anger,0.313
+' Esta alarma está establecida para dentro de num hs y num min, estoy llorando',anger,0.333
+' @username quien las viera a algunas ira ',anger,0.417
+' @username No puedo ',anger,0.354
+' No morra . No estas deprimida . La gente deprimida da miedo, se vuelve loca. Lo tuyo solo es berrinche de adolescente.',anger,0.521
+' @username « Casi sin pensarlo se separó de la chica y se alzó sobre sus pies de un salto . Miró con el ceño fruncido a la chica, que la »',anger,0.229
+' Hace mucho que no me sentía así ... No todo es bueno, no todo es malo... #triste #increíble #rara',anger,0.354
+' Para que me hablas si dices que te amargo ! ? 🙄 🙄 ni modo ya bye alv ',anger,0.783
+' El corazon helado como puede ser ? si dentro de mis venas fluye sangre hirviendo . ',anger,0.542
+' Sospecho de María Dolores de Cospedal con una oreo envenenada, en el comedor',anger,0.458
+' Que resentida no ? Por favorrr, el negrito algo de razon tenia al decirme que sos una traumada barbara.',anger,0.792
+' Mi grupito de amigas me tiene abandonado ',anger,0.417
+' cainemaribel num Que Nadie Olvide el nombre y el rostro de la Violencia y Terrorismo . #VotosSIBalasNO ',anger,0.521
+' @username @username JUSTO TE HE VISTO POR LA TL Y TE IBA A INSULTAR ',anger,0.729
+' EL PUEBLO DESPERTO, Y VA A CRISTALIZAR LA LIBERTAD DESTRUIDA POR TODOS AQUELLOS QUE LA JUSTICIA LOS ESPERA CON MUCHA ANSIEDAD T ANHELO',anger,0.479
+' @username Tienen el tremendo billete ... Eso tienen x que abren la boca y queda la escoba ',anger,0.521
+' Historias de un toledano enfurecido ',anger,0.604
+' Que negros de mierda,se tiene que morir todos esos hijos de puta',anger,1
+' @username Pues nada, el CM a la calle. Más de uno sabría hacerlo mejor sin ofender a nadie',anger,0.829
+' Caliéntame con besos que yo no me enojo por eso . ',anger,0.174
+' Estoy muy indignado, ellos estan ebrios y flayean que yo estoy ebrio y no me dejan tomar, alta familia',anger,0.854
+' @username Cualquiera diría que Noelia está enfadada conmigo, pero no, en realidad está enfada conmigo y ya',anger,0.595
+' Debo ser la única persona que en vacaciones se llena de trabajo porque lo elige ... acá ya estamos en el sobre, cansada y feliz 🤗☺️',anger,0.25
+' He soñado que me declaraba a un chaval, después de salvarle la vida, y me rechaza porque estoy rellenita. Decía que no era por ofender »',anger,0.576
+' Cada vez estoy más convencida que hay muchas personas que dicen palabras dulces pero tienen un corazón amargo ... ',anger,0.479
+' Ni hablemos de las manipulaciones . Hasta el día de hoy sigue pretendiendo que yo sea su títere, y si no lo logra se enoja y hace berrinches.',anger,0.688
+' @username @username Pelea de parejas a otro ladito . ',anger,0.396
+' @username Ya sé 😠 ',anger,0.458
+' mi problema es q me preocupo mucho por las personas más desagradecidas, y quiénes merecen mi atención no les paro ni 5 de bolas, que rabia',anger,0.708
+' Yo no me enojo, solo me decepciono, miro, pienso y me alejo si es necesario.',anger,0.583
+' Ah y se me abrió todo esto en la cuenta de mi hermano y cuando quise cambiar le perfil veo q el perfil de mi hermano no tiene cara ',anger,0.396
+' Tu cuerpo será mío, te llevare a la cama, te haré sudar y temblar. Te dejaré sin fuerzas. —Att: La gripe.',anger,0.25
+' Ya me desperté jajajaja lpm .. Por lo menos un poco menos enojado ',anger,0.5
+' Estaba furioso de no tener zapatos ; entonces encontré a un hombre que no tenía píes, y me sentí contento de mi mismo',anger,0.5
+' Taiga se enojo . ',anger,0.521
+' Siempre me parecio un insulto,considerar que el vulgo necesita lideres que les orienten y den ejemplo Iluso, pense que no necesitaban guia',anger,0.609
+' @username @username @username @username @username @username @username @username Informante mas antes de insultar ',anger,0.583
+' Necesito una película de terror right now ',anger,0.188
+' @username Pues ya ves ! ! ',anger,0.354
+' @username @username No mames yo no me enojo ',anger,0.5
+' Subió un chico lindo al bondi y no pare de mirarlo hasta que se acercó más y baje la mirada . Así de cagona soy . Me defraude a mi misma ',anger,0.674
+' Vivir amargado, estresado, impaciente o triste no tiene sentido. No tiene ningún sentido instrumental. Nada se va a lograr en esos estados.',anger,0.542
+' El cobarde muere muchas veces . El vals,nte solo una. - Willian Shakespeare',anger,0.229
+' @username No puedo dormir, me estoy tomando la de maradona😎!! Y bueno deja de aburrir con tu tw de resentido',anger,0.583
+' HT contra los historicos, perdió (Millos, SF, Calix2), empato (medellin, nacional, cali), gano (junio, cali). Osea mal. Solo 9 pts de 27.',anger,0.479
+' La voluntad de provocar un estado de terror la del PP, obviamente. A ver si sale otra ETA que rentabilizar.',anger,0.625
+' Soy demasiado ansiosa 🤦 ‍ ♀ ️ ',anger,0.438
+' Yo siempre quise ser caballero pero no puedo ver una pelea de mentira en la tele, imposible así.',anger,0.417
+' @username Todas las partidas de worlds y trasnochado a clases 😢 ',anger,0.417
+' excusa del cabreo y la indignación de la gente no les va a servir mucho tiempo para tapar toda la indecencia y el totalitarismo que subyace ',anger,0.87
+' Qué perra rabia cuando tienes sueño pero no puedes dormir, no lo entiendo.',anger,0.833
+' 「 @username 」 « momento entendió que quería batirse en duelo con ella . Frunció el ceño al ver sus gestos mirando al cielo apuntando con la » ',anger,0.354
+' Tengo un mal humor encima y no se por qué ',anger,0.833
+' Gracias por el hilo que acabo de RT porque no quiero ofender a nadie y conocer las palabras de origen racista me ha servido mucho ',anger,0.292
+' Me hare el enojado celoso nomas para darle el gusto 😊 😂 jajaj #pendeja ',anger,0.667
+' @username Como asturiana postiza estoy : indignada . ',anger,0.667
+' como odio dormirme así enojada ',anger,0.833
+' @username Todos los dibujos tienen cachos, sospechoso @josesalaaas @Dederlealdair @I_amghoul @JhonCruz0525 @jhonatanperez__',anger,0.417
+' En mi trabajo hay una app donde nos tenemos que dar estrellas entre compañeros .. #BlackMirror #IsHappening 😱 🤔 ',anger,0.283
+' Me rechoca este wey 😠 ',anger,0.792
+' Me re incómoda esto ',anger,0.583
+' Ni un día me dura la pieza ordenada ',anger,0.5
+' @username @username Me siento indignada 😠 😠 😠 ',anger,0.729
+' Peleado con el sueño ',anger,0.167
+' Como cuando le pides a tu hermana que duerma contigo o no dejaras de hacer berrinche : num #amoamihermana ',anger,0.271
+' @username habrá respondido la pepa con indignación o no ',anger,0.375
+' @username lol yo no había leído esto . Y ahora se ha ofendido también por esto . Es muy susceptible xd ',anger,0.563
+' No estoy automatizada . No hago actividades maliciosas . No soy troll . #AnimalesSueltos Ni Macrista . Ni K . Menos,massista. Solamente INDIGNADA',anger,0.708
+' @username [ + ] niño de num años amargado y cruel, pero eso no impidió que su curiosidad hacía aquel evento se [ + ]',anger,0.438
+' La silla de Annabelle se mueve sola o la está moviendo ? @username @username @username @username @username @username #miedo 😖 ',anger,0.313
+' Los sentimientos que más odio en esta vida sin el rencor, envidia, tristeza y enojo 🙍🏽',anger,0.708
+' Y yo, lo único que quería es que lucharás por mi, por nosotros ',anger,0.25
+' Ya se enojo el anon :( jajaja ',anger,0.545
+' Sin ofender pero, representas todo lo que desprecio en el mundo.',anger,0.873
+' @username Si lo piensas bien, he ofendido a dos colectivos, el de los muertos y el de la gente que no tiene muertos.',anger,0.458
+' El mate, amargo La milanesa, frita Se ama, se dice Se extraña, se llama La tanga, se corre',anger,0.354
+' Me había despertado con buena onda y julian la re cago como siempre 👌 ',anger,0.708
+' @username @username @username No supervivientes es estar criticando ; tomar el sol e insultar ',anger,0.708
+' @username Siii por favor 🙁 ',anger,0.146
+' No se aguantarme el enojo ni la cara de orto ',anger,0.75
+' No fue broma :( lo preguntó en serio hahahahaha ',anger,0.313
+' @username Ya se me paso eso, soy celosa me enojo todo pero dsp se me pasa no me podria enojar mas d 10min con uds.',anger,0.625
+' @username Vos que vas a saber si sos una amargada que no quiere que la llame 😢 ',anger,0.75
+' RT ESTUCRUDAVERDAD : Mi mayor problema es que no puedo estar enfadado . Siempre termino perdonando a las personas, incluso cuando no lo merec…',anger,0.396
+' El bien es sólo un punto de vista . ( Star Wars - Ep . III - La Venganza de los Sith ) ',anger,0.109
+' @username A pesar de ser chivista, si es buen jugador lo que pasa es que falla demasiadas, le falta ser un poco autocrático y humilde.',anger,0.229
+' Me voy a dormir sabiendo que salimos adelante despues de otra pelea, que hay amor y eso importa💪💪💖💖💖',anger,0.271
+' @username Hay muchas manera de morirse ... Atropello, electrocucion, ahogado...',anger,0.479
+' Que necesidad hay de quererle tanto carajo 😭 ',anger,0.375
+' Necesito salir en la oscuridad veo más claro que con dos soles, y es una porquería todo lo que se me atraviesa 😂',anger,0.354
+' No se ponga el sol sobre vuestra enojo Efesios num:num NO PUEDES EVITAR LA OFENSA PERO SI PERMANECER OFENDIDO ',anger,0.521
+' No qiero ser aprensiva pero ... si se perdió mi saco favorito del mundo .. si me voy a emputar y a sentir muy decepcionada d mi misma 😩 ',anger,0.87
+' @username enfadada, pues me recuerda a mi verdsdera madre—. Que no haya príncipe no significa que no haya salida...',anger,0.521
+' Y por la furia de tus ojos entiendo el llamarme miedo ',anger,0.479
+' Cuando lea esto se va a ofender porque no le dije que seguía despierta jjkjajsjs ay ',anger,0.283
+' Me imagino a Cande enojada y me acuerdo cuando le pintaban los celos ! num, 15 años 😂😂😂',anger,0.354
+' No soy tonta, no soy mala y no soy cobarde.',anger,0.5
+' Pero y esa furia ? No te ajites te puede dar algo ! 🤔 😂 😂 ',anger,0.5
+' La manipulación del poder en forma déspota es una afrenta contra la democracia y esto favorece la corrupción . #corrupciónColombia ',anger,0.729
+' o sea que hay una extraña que todas las noches le da la recena a mi gato y que se ha ofendido porque le hemos dicho que no se la de . ',anger,0.609
+' ... y aquí estoy, mirando la pelea de los bastardos. #GameOfThrones',anger,0.417
+' tuve un día inmensamente largo, no saben lo q disfruto la ducha hirviendo de las 3 am, las sabanas limpias y el aire en 28. re bai',anger,0.292
+' @username Aparte de la soberbia, hay mucha ira... las cambiaría por un poco de lujuria 😋',anger,0.396
+' Camaño dando clases, habiendo comprado su título a los 60 años ',anger,0.458
+' tengo tanta bronca junta q voy a terminar llorando lpm ',anger,0.914
+' Les juro q sigo indignada porque en sábado no pasaron el puti short :\'( ',anger,0.729
+' Secreto para dormirse temprano : contrata megacable y se t ira el internet toda la noche ',anger,0.354
+' @username @username @username @username Ya lo dijeron los Simpsons : No hay justicia como la impartida por una muchedumbre enfurecida . ',anger,0.583
+' No quiero ofender a nadie pero todo esto del ThisCrush y el CuriousCat está para que os regalen la oreja, porque os gusta ser protagonistas.',anger,0.604
+' No lo veo como venganza, es más como justicia poética, espero...',anger,0.396
+' Por todo me enojo, diosito ayúdame plis',anger,0.583
+' @username que miedo jajaja ',anger,0.174
+' Informe del acto : se trata de quema de basura y escombro, sin peligro de propagación, se trabaja @PrimeraCoquimbo @Cuarta_Coquimbo',anger,0.271
+' Me siento ofendida no somos así ',anger,0.625
+' Usar LOL y equisdé en público y otras maneras de provocar . ',anger,0.542
+' Voy a contener mi rabia contra los que bancan a miss bolivia ',anger,0.75
+' @username Yo me estoy riendo no soy amargado ',anger,0.146
+' @username Qué pasó Eimmy ? 🙁 ',anger,0.188
+' @username Ya estoy cansada de llorar,ya quiero q se acabe está pesadilla ,que desgracia el día q Chávez dijo por ahora .',anger,0.729
+' Quien me manda a ser tan cabeza duraaa ',anger,0.583
+' Queee uraaa 😡 😡 😡 ',anger,0.479
+' OJO QUE SE VIENE LA VENGANZA ',anger,0.458
+' Madurar es poder sonreír frente a esa persona que te hizo llorar . ',anger,0.233
+' @username Estoy enojado . ',anger,0.792
+' @username Apuesto que no sale ! ! alguien se va a ofender, a alguien no le va a cerrar el proyecto xq ñañaña',anger,0.375
+' Por más molesta que este con cuando veo la notificación de que el me escribió se me pasa el enojo 😩 😩 😩 😍 ',anger,0.438
+' num .. num .. num .. num .. num .. num .. num .. num .. num .. num Una vez alguien me dijo que en mis momentos de enojo cuente hasta num o mas ! 💪 😁 ',anger,0.375
+' A un hombxe solo le pido tres cohas : que sea guapo, implacable y estupido. - Dorothy Parker',anger,0.333
+' @username no, no ofendido no jaja pero no saludarme....😂😂',anger,0.25
+' @username Me agarraron enojada nimodooo jajaja ',anger,0.521
+' Ximena ayer mató un bicho con sus dedos y pensó que las tripitas embarradas en sus dedos eran pipí del bicho provocada por el susto . ',anger,0.313
+' Estoy muy enfadada con el mundo y con la manera en que despreciáis la relaciones humanas . ',anger,0.896
+' @username La vida esta enojada conmigo, yo soy feliz',anger,0.283
+' Mi mama : no no, no estoy enojada  Yo: no se si te creo que no estoy enojada jajaja',anger,0.354
+' No me puedo dormir bo, si alguien me habla no me enojo',anger,0.438
+' — Le está dando mucha pena Kelly porque intuye que no lo entiende — Cosas que los niños no hacen todavía, pequeñaja. Ellos dos son mayorcitos.',anger,0.479
+' Con razon mi vieja se fue rapido a Santa Fe sin invitarme, no queria que me tatue denuevo ',anger,0.333
+' No importa cuán enojado o triste me sienta, jamás te pediría que te alejes o me dejes solo.',anger,0.304
+' Bloqueo el cel, al rato lo desbloqueo y ya me comió mitad batería ',anger,0.543
+' Mi prima está internada con parto inducido,  Ambar apúrate que tu madrina no da más y quiere conocerte😍😍😍 estoy ansiosa les juro jajaja',anger,0.125
+' @username No medir las consecuencias de tus actos puede provocar eruptos con divertidas burbujitas . Happy end . 😋 ',anger,0.333
+' No estaba ofendido ? ;) ',anger,0.313
+' Yo y mi suerte para cruzarme con chabones con hijas y las hermosas madres celosas 👏 👏 😡 ',anger,0.521
+' Okay se enojo ? ',anger,0.417
+' Un día de estos me muero de la indignación ',anger,0.563
+' Y yo pensé q una estrella fugaz era una estrella muy bonita q tenía miedo de brillar, y huir lo más lejos posible. Un poco como tú, como yo.',anger,0.146
+' Me pone de mal humor hacer maletas 😤 ',anger,0.708
+' @username @username La ultima temporada de esa serie no me gustó 😢 ',anger,0.604
+' Nooo hoy quedo sola ',anger,0.354
+' amelia entró en pánico ',anger,0.479
+' @username @username @username Para qué hablar de derechos humanos, si con insultar basta no crees?',anger,0.479
+' 💢 Ssfa Puta #Rabia 🤦 ‍ ♀ ️ : me siento enojada ',anger,0.917
+' @username Pusiste azucar amargo ? ',anger,0.313
+' Es la primera vez que me pongo de nerviosa así jajj ',anger,0.261
+' una compañera del colegio subió la foto de su bebé y parecía tener una tenaza en vez de pie ',anger,0.354
+' Mi abuelo es un peligro 😅 🎬 ',anger,0.125
+' Practiquen el derecho y la justicia . Libren al oprimido del poder del opresor . - Jeremias num:num ',anger,0.313
+' Que se hace para que se te peguen num hojas en media hr ? ',anger,0.292
+' @username Este tweet ha ofendido a los latinoamericanos ',anger,0.646
+' Qué rabia que tengo y me tengo que ir a cosooo ',anger,0.696
+' Aún me siento indignada ',anger,0.75
+' @username AMARGADA, EN SERIO 🤣🤣🤣🤣😂',anger,0.625
+' @username @username @username Me enfado y nos peleamos, chau.',anger,0.604
+' @username q dira @username d q tú usas belleza autoctona como insulto racial ? Esas lagrimas ni tú t la crees hipo cr ita 😕 😮 😇 ',anger,0.708
+' @username La proxima dira que los andaluces somos del Grapo minimo, de est gente que te espera que no paran de ofender... ¿?',anger,0.739
+' Llevo num horas sintiéndome mal . ',anger,0.417
+' Mi superagenda handmade me dice hoy :P or cada minuto que estas enfadada pierdes sesenta segundos de felicidad 😀 😀 😀 ',anger,0.396
+' Si eres tranquilo y confiado, o miedoso y con baja autoestima, depende de la dopamina (hormona del placer).',anger,0.436
+' Que mi novio se informe de que odio esperarrr 😤 😤 😤 ',anger,0.646
+' Odio que se metan ',anger,0.792
+' Creo que karol hizo bien en no ir a fans, estoy segura que se iba a sentir incómoda con las preguntas que seguro le harían',anger,0.313
+' Le mandé msj y no me contesto .. ganas de ir hasta el local no tengo, maldito peco',anger,0.792
+' @username #TeLoDijeLaConstituyenteSiVa UN GUARDIA HERIDO DE GRAVEDAD EN LECHERIA Y NINGUN PARIODICO LO PUBLICA ! ! TERRORISMO ! ! ',anger,0.688
+' @username Juan Carlos le pregunto temeroso y con mucho respeto a Pinto,luego queda hablando en el programa',anger,0.375
+' @username @username @username @username @username @username Solo debes insultar, típico maltratador',anger,0.913
+' Si me hablan no me enojo ',anger,0.104
+' ¿ Algún indignado disponible ? Que me aburro . ',anger,0.271
+' @username Jajajajajajajajajajajaja fue lo mas y mas cuando perdió el arito jajjaajja ',anger,0.146
+' @username estoy muy disgustada por la gestión en mi póliza y me van pasando de un lado a otro . Decepcion Es la palabra ',anger,0.761
+' Será q me pongo a estudiar ahora como tremenda fraca ? ',anger,0.239
+' No guardo ni rencor ni resentimiento 👌 se que la vida siempre todo vuelve y es un karma ala ves 👍 ',anger,0.239
+' Que me perdone mica pero yo lo voy a leer ',anger,0.25
+' @username Si obvi y no lo digo por él, lo digo por algunas que ayer subian el de la piscina etiquetando a Aylén y me dio mucha rabia',anger,0.792
+' Que lluvia de mierda ',anger,0.917
+' @username Cosas que pasan . Estoy cansado de muchas historias a raiz del pelo . Pero mira el lado positivo, por fin te sigo.',anger,0.333
+' SIEMPRE tengo problemas para sacar las entradas por internet @username 😡 😡 😡 ',anger,0.667
+' Yo me muerdo la lengua por no insultar, y a me lo devuelven así. Veo donde radica el mínimo respeto y educación 😐',anger,0.667
+' Ira y ódio, mucho, Las cuatro d de batalla.',anger,0.688
+' La alarma de mi celular es re fea y ya me tiene re podrido en cualquier momento lo voy a revolear hasta la peron ',anger,0.708
+' Solo emana desde dentro, como la furia roja del vagabundo de las estrellas.',anger,0.5
+' @username Me estabas echando por demostrarte mi amor . Estoy ofendido ',anger,0.542
+' No sé de dónde sale estar salty porque Steve Carrell no ha ganado ningún Emmy por The Office pero estoy num \% indignada yo también . ',anger,0.542
+' @username Eeeepa, gracias! Tu cuenta parece tremenda',anger,0.078
+' se me ha caído medio vaso de leche casi hirviendo en la mano buenos días ',anger,0.37
+' es muy frustrante practicar y practicar en tu instrumento y que no sientas mejora alguna, de verdad me pone triste eso 😥',anger,0.583
+' Me tiene cansada, te deseo lo peor pero yerba mala no muere 😠',anger,0.804
+' @username — La joven bruja le dedicó una mirada de soslayo por encima de su hombro y arrugó la nariz con disgusto . — Te recuerdo que,»',anger,0.5
+' puedo parecer cool y lo soy, pero realmente soy una pendeja con mucha ansiedad, depresión y sueños en la basura ¿:D?',anger,0.542
+' @username Es que esto es mucho ya wey nomms por eso pongo esto tipo de cosas ',anger,0.667
+' Yo tengo miedo de que me guste y que vaya enloquecer 💆 🏻 ',anger,0.188
+' @username @username Uhhh salio el insulto infaltable ',anger,0.543
+' Me wa dormir con una rabia la HIJUEPUTA . ',anger,0.958
+' Ayer pri se re enojo por que la descansábamos por audio con mi herma 😂 😂 😂 ',anger,0.208
+' No me va a temblar el dedo - antonella bernal ',anger,0.333
+' Jajajajaajajaj pueden pasar num años pero yo puedo seguir resentida por algo ',anger,0.438
+' Tragos de amargo liqor, que no me hasen olvidar que asta me pongo a llorar',anger,0.563
+' Ojalá que la rabia que tengo se quede en rabia y no se transforme en tristeza ',anger,0.667
+' @username Como puede este monaguillo insultar a Carmen,pedorro no le llegas a las suelas d los zapatos?',anger,0.833
+' #ndc cuando era chica le revente el celular contra la pared a mi mm pq me habia enojado con ella ( hasta el dia d hoy no sabe q fui yo ) ',anger,0.542
+' Tenéis el odio y el resentimiento inyectado en vena . Acojonáis . ',anger,0.771
+' Ya volvi a ser tu fan, ya se me paso el berrinche.',anger,0.188
+' Que cansada estoy 😢 ',anger,0.375
+' @username Vergonzoso el papelito del Madrid . Hace como que va a pagar más para provocar la negativa y así ahorrarse la pasta . Patéticos ',anger,0.82
+' Airaos, pero no pequéis; no se ponga el sol sobre vuestro enojo,ni deis lugar al diablo. (Efesios 4-26,27) Hermanos Cristo Les Ama y Perdona',anger,0.229
+' @username @username Con todo los estudios que presumes, no sabes hablar sin insultar?',anger,0.688
+' #PereiraEnVivo . A esta hora congestión en la vía Pereira Santa Rosa por causa del trágico accidente de tránsito que dejó una mujer muerta . ',anger,0.452
+' @username QUE DEPRESIÓN ',anger,0.479
+' @username Expedito, porque es de las causas urgentes. Ideal para gente ansiosa, como sho.',anger,0.354
+' Y nunca me habias provocado tanta risa, como hoy xD xD',anger,0.049
+' ¿ A cuántos habrán mandado a la FriendZone hoy ? ... : me siento pensativo ',anger,0.146
+' Sí, soy un sangrón y un amargado jajajaja.: me siento solitario',anger,0.438
+' Hoy mi tl de facebook podría llamarse perfectamente @username enfurecida ',anger,0.646
+' @username @username @username Pero vamos que es un poco la tesis del cura Perez Pallares de no ofender a nadie . ',anger,0.375
+' estoy : enfadada y yo nunca me enfado ',anger,0.75
+' Mañana voy a lo de la colo y quiero ver películas de terror pero no me va a poner pq no le gustan ',anger,0.229
+' A veces, cuando horadaban una pared en busca de oro, encontraban en su lugar vapor, o agua hirviendo, o roca fundida.',anger,0.313
+' @username Ese resentimiento hno, anda a dor',anger,0.5
+' Es la venganza de todos los tacos que comimos en Culiacán ',anger,0.333
+' Acciones para desmitificar la depresión como tarea pendiente . ',anger,0.375
+' Gracias a los del plantón por ejercer sus derechos pisoteando los nuestros, nunca cambien gente de Chimalhuacán. 👏👏',anger,0.792
+' Detesto que la gente que esta deprimida llegue a ponerlo a uno igual o peor . ',anger,0.646
+' Un asco a la gente resentida .. ',anger,0.63
+' @username Lo siento de corazón ❤ ️ . Mucha fuerza le envió desde Galicia . ',anger,0.146
+' @username Eso tiene un nombre .. pero no quiero ofender a las profesionales relacionandolas con este sujeto ',anger,0.587
+' Me volveré amargo si un dulce no toca mi corazón ',anger,0.25
+' Cada vez que tengo que caminar y podría estar manejando el auto me enojo conmigo misma ',anger,0.625
+' Le conte y se enojo y si no le cuento se enoja igual 👌 😂 😂 ',anger,0.5
+' @username @username Tipico de amargada,que triste tu vida pabree,y tontorrona🙊',anger,0.75
+' Trepate encima de este bicho y yo te lo meto hasta enloquecer ',anger,0.375
+' @username @username @username @username 😡 y yo ? ? ? Un ollon ? Perras malditas 😢 😢 😢 ',anger,0.896
+' @username Justo eso quiero evitar ... la tristeza ! ',anger,0.313
+' Que horror quienes usan traje y converse . ',anger,0.417
+' @username @username Jajaja i was a little but eres mi amiga no me enojo para siempre 🙄 🌚 ',anger,0.333
+' La vida ya de por sí es muy peligrosa, no por las personas que hacen mal, sino por las que se sientan a ver lo que pasa.',anger,0.5
+' @username @username cierto tb.Vive enfadada . eso es verdad ',anger,0.521
+' @username Quién cojones eres y por qué me estás stalkeando si no me he dirigido a ti en la vida . Serás otro ofendido en fin . Block . ',anger,0.833
+' acabo de hacer un test de depresión y me salio num y el mayor grado de depresión grave es num opa ',anger,0.375
+' - respecto a lo de antes, provocar o que me provoquen mientras juego o juegan.',anger,0.417
+' @username Entiendo tu estado de enojo, me dejaste con la mano en el aire🤙',anger,0.563
+' Estoy tan ansiosa con el estreno de Game of Throne que ya me siento una Targaryen . ',anger,0.208
+' @username cuando quieras lisiada ;) terminé de leer el tuit y se me autoguiño el ojo #miedo ',anger,0.583
+' Eli está viendo un capítulo de ppl y me pregunta que pasa más adelante, ansiosa donde ?',anger,0.25
+' El descontento, el cansancio, la obstinacion, LA ARRECHERA esta tomando el plano atmosférico en mi país!',anger,0.771
+' Podría ir llegando mi familia, hace media hora está la comida',anger,0.396
+' Queramos o no vivimos en una sociedad cobarde, que cuando la ves te sonríen pero al darles la espalda te apuñalan.',anger,0.729
+' 📻 Estamos en directo en @username de @username hablando sobre el atropello mortal de un ciclista ayer en Madrid . ',anger,0.5
+' @username Ya duérmete ',anger,0.333
+' @username lágrimas e indignación al ver que ya no importa que una mujer con niños hoy no tenga donde dormir . ',anger,0.792
+' qué ganas de hacer berrinche juju . ',anger,0.479
+' Se antes pensaba que eras tremendo pelotudo pero por lo poco que te conozco sos muy piola, espero conocerte mejor',anger,0.438
+' Me dejo tan lleno de rabia y rencor ',anger,0.848
+' su papá se irá para allá y el ira un tiempo ',anger,0.19
+' Me duele muchisimo el machucon que tengo en la pierna 😤 ',anger,0.542
