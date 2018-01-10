@@ -29,6 +29,7 @@ def create_arg_parser():
 	parser.add_argument("-best","--bestfeatures", required=True, type=str, help="Directory to save BEST feature-files to (USE DATE AS FOLDER NAME!)")
 	parser.add_argument("-emb", "--embeddings", required=True, type=str, help="Embeddings file to use")
 	parser.add_argument("-t", "--test", default = '', type=str, help="If added contains a folder with dev or test files that will be processed by looking at the training set")
+	parser.add_argument("-c","--clf", action = 'store_true', help="Select this if it is a classification task")
 	parser.add_argument("-n","--no_extract", action = 'store_true', help="We only have to do feature extraction once, by including this parameter we just read the features from --features")
 	parser.add_argument("-u","--unix", action = 'store_true', help="If you run on some Linux system there is a different way of splitting paths etc, so then add this")
 	args = parser.parse_args()
@@ -69,18 +70,24 @@ def extract_features(feat_dir, emotion_data, lexicons_to_use, lexicons_data):
 			## Solve issues with splitting file paths in unix/windows (mac?)
 			if args.unix:
 				emotion_name = emotion_file.replace('..','').split('.')[0].split('/')[-1]
-				script = './lexicons_test.sh'
+				if args.clf:
+					script = './lexicons_test_classification.sh'
+				else:
+					script = './lexicons_test.sh'
 			else:
 				emotion_name = "-".join(re.split("[.]", emotion_file.split("\\")[-1])[0].split("-")[3:])
 				#emotion_name = "valence"
 				#print(emotion_name)
-				script = 'lexicons_test.sh'
+				if args.clf:
+					script = 'lexicons_test_classification.sh'
+				else:
+					script = 'lexicons_test.sh'
 				# dit zijn windows issues met backslash en forwardslash 
 				emotion_file = emotion_file.replace("\\", "/")
 				#lexicon = lexicon.replace("\\", "/")
 			if "dev" in emotion_file:
 				print("extracting for dev set")
-				feature_name = feat_dir + lex + "_dev" + emotion_name + ".csv"
+				feature_name = feat_dir + lex + "_dev_" + emotion_name + ".csv"
 			else:
 				feature_name = feat_dir + lex + "_" + emotion_name + ".csv"
 			# runt een bash script dat de features uit de lexicons haalt
@@ -116,9 +123,14 @@ def get_svm_results(feature_vectors):
 		
 		print("PREDICTIONS: \n", f)
 		## SVM test ##
-		svm_clf = svm.SVR()
-		print('Training SVM...\n')
-		pearson_svm = train_test_pearson(svm_clf, X, Y)
+		if args.clf:
+			svm_clf = svm.SVC()
+			print('Training SVM...\n')
+			pearson_svm = train_test_pearson(svm_clf, X, Y)
+		else:
+			svm_clf = svm.SVR()
+			print('Training SVM...\n')
+			pearson_svm = train_test_pearson(svm_clf, X, Y)
 		
 		## Save results in dictionary
 		if lexicon_name in lex_dict:
@@ -145,11 +157,17 @@ def test_all_lexicons_together(lexicons_to_use, emotion_data, lexicons_data, fea
 		## Solve issues with splitting file paths in unix/windows (mac?)
 		if args.unix:
 			emotion_name = emotion_file.replace('..','').split('.')[0].split('/')[-1]
-			script = './lexicons_test.sh'
+			if args.clf:
+				script = 'lexicons_test_classification.sh'
+			else:
+				script = './lexicons_test.sh'
 		else:
 			emotion_name = "-".join(re.split("[.]", emotion_file.split("\\")[-1])[0].split("-")[3:])
 			print(emotion_name)
-			script = 'lexicons_test.sh'
+			if args.clf:
+				script = 'lexicons_test_classification.sh'
+			else:
+				script = 'lexicons_test.sh'
 			# dit zijn windows issues met backslash en forwardslash 
 			emotion_file = emotion_file.replace("\\", "/")
 		lexicon_names = "-".join(lexicons_to_use)
@@ -184,12 +202,18 @@ def check_relevance(top_lexicons, lexicon_to_test, emotion_data, lexicons_data, 
 		## Solve issues with splitting file paths in unix/windows (mac?)
 		if args.unix:
 			emotion_name = emotion_file.replace('..','').split('.')[0].split('/')[-1]
-			script = './lexicons_test.sh'
+			if args.clf:
+				script = 'lexicons_test_classification.sh'
+			else:
+				script = './lexicons_test.sh'
 		else:
 			emotion_name = "-".join(re.split("[.]", emotion_file.split("\\")[-1])[0].split("-")[3:])
 			#emotion_name = "valence"
 			print(emotion_name)
-			script = 'lexicons_test.sh'
+			if args.clf:
+				script = 'lexicons_test_classification.sh'
+			else:
+				script = 'lexicons_test.sh'
 			# dit zijn windows issues met backslash en forwardslash 
 			emotion_file = emotion_file.replace("\\", "/")
 		lexicon_names = "-".join(top_lexicons) + "-" + lexicon_to_test
@@ -335,8 +359,11 @@ if __name__ == "__main__":
 			for root, dirs, files in os.walk(args.test):
 				for f in files:
 					if f.endswith('.arff') and emotion_to_test in f and not found_file: #check if emotion occurs
-						emotion_file 	= os.path.join(root, f).replace("\\", "/")
-						script 			= './lexicons_test.sh' if args.unix else 'lexicons_test.sh'
+						emotion_file = os.path.join(root, f).replace("\\", "/")
+						if args.clf:
+							script = './lexicons_test_classification.sh' if args.unix else 'lexicons_test_classification.sh'
+						else:
+							script = './lexicons_test.sh' if args.unix else 'lexicons_test.sh'
 						lexicon_names 	= "-".join(top_lexicons.split())
 						feature_name 	= dev_folder + lexicon_names + "_" + emotion_to_test + ".csv"
 					
