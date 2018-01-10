@@ -1,0 +1,188 @@
+anger - AdaBoost - est=1500 - learning_rate=0.01 --> 0.5759
+anger - AdaBoost - est=1500 - learning_rate=0.02 --> 0.576
+anger - AdaBoost - est=1500 - learning_rate=0.05 --> 0.5625
+anger - AdaBoost - est=1500 - learning_rate=0.075 --> 0.5674
+anger - AdaBoost - est=1500 - learning_rate=0.1 --> 0.5748
+anger - AdaBoost - est=2000 - learning_rate=0.01 --> 0.5837
+anger - AdaBoost - est=2000 - learning_rate=0.02 --> 0.5707
+anger - AdaBoost - est=2000 - learning_rate=0.05 --> 0.574
+anger - AdaBoost - est=2000 - learning_rate=0.075 --> 0.5664
+anger - AdaBoost - est=2000 - learning_rate=0.1 --> 0.5692
+anger - AdaBoost - est=3000 - learning_rate=0.01 --> 0.5736
+anger - AdaBoost - est=3000 - learning_rate=0.02 --> 0.5703
+anger - AdaBoost - est=3000 - learning_rate=0.05 --> 0.5729
+anger - AdaBoost - est=3000 - learning_rate=0.075 --> 0.5669
+anger - AdaBoost - est=3000 - learning_rate=0.1 --> 0.573
+anger - AdaBoost - est=4000 - learning_rate=0.01 --> 0.5733
+anger - AdaBoost - est=4000 - learning_rate=0.02 --> 0.5722
+anger - AdaBoost - est=4000 - learning_rate=0.05 --> 0.5729
+anger - AdaBoost - est=4000 - learning_rate=0.075 --> 0.5656
+anger - AdaBoost - est=4000 - learning_rate=0.1 --> 0.571
+anger - XGBoost - est=1500 - learning_rate=0.01 --> 0.5737
+anger - XGBoost - est=1500 - learning_rate=0.02 --> 0.5735
+anger - XGBoost - est=1500 - learning_rate=0.05 --> 0.5639
+anger - XGBoost - est=1500 - learning_rate=0.075 --> 0.5713
+anger - XGBoost - est=1500 - learning_rate=0.1 --> 0.5759
+anger - XGBoost - est=2000 - learning_rate=0.01 --> 0.575
+anger - XGBoost - est=2000 - learning_rate=0.02 --> 0.5763
+anger - XGBoost - est=2000 - learning_rate=0.05 --> 0.5634
+anger - XGBoost - est=2000 - learning_rate=0.075 --> 0.571
+anger - XGBoost - est=2000 - learning_rate=0.1 --> 0.5759
+anger - XGBoost - est=3000 - learning_rate=0.01 --> 0.5783
+anger - XGBoost - est=3000 - learning_rate=0.02 --> 0.5779
+anger - XGBoost - est=3000 - learning_rate=0.05 --> 0.5632
+anger - XGBoost - est=3000 - learning_rate=0.075 --> 0.571
+anger - XGBoost - est=3000 - learning_rate=0.1 --> 0.5759
+anger - XGBoost - est=4000 - learning_rate=0.01 --> 0.5802
+anger - XGBoost - est=4000 - learning_rate=0.02 --> 0.5762
+anger - XGBoost - est=4000 - learning_rate=0.05 --> 0.5632
+anger - XGBoost - est=4000 - learning_rate=0.075 --> 0.571
+anger - XGBoost - est=4000 - learning_rate=0.1 --> 0.5759
+anger - RandomForest - num_trees=1500 --> 0.5986
+anger - RandomForest - num_trees=2000 --> 0.5956
+anger - RandomForest - num_trees=3000 --> 0.5993
+anger - RandomForest - num_trees=4000 --> 0.5964
+anger - Default SVM --> 0.6441
+
+Best score for anger: SVM default score
+fear - AdaBoost - est=1500 - learning_rate=0.01 --> 0.5583
+fear - AdaBoost - est=1500 - learning_rate=0.02 --> 0.5572
+fear - AdaBoost - est=1500 - learning_rate=0.05 --> 0.5547
+fear - AdaBoost - est=1500 - learning_rate=0.075 --> 0.5605
+fear - AdaBoost - est=1500 - learning_rate=0.1 --> 0.5577
+fear - AdaBoost - est=2000 - learning_rate=0.01 --> 0.56
+fear - AdaBoost - est=2000 - learning_rate=0.02 --> 0.5544
+fear - AdaBoost - est=2000 - learning_rate=0.05 --> 0.5587
+fear - AdaBoost - est=2000 - learning_rate=0.075 --> 0.564
+fear - AdaBoost - est=2000 - learning_rate=0.1 --> 0.5623
+fear - AdaBoost - est=3000 - learning_rate=0.01 --> 0.5564
+fear - AdaBoost - est=3000 - learning_rate=0.02 --> 0.5544
+fear - AdaBoost - est=3000 - learning_rate=0.05 --> 0.5515
+fear - AdaBoost - est=3000 - learning_rate=0.075 --> 0.549
+fear - AdaBoost - est=3000 - learning_rate=0.1 --> 0.5553
+fear - AdaBoost - est=4000 - learning_rate=0.01 --> 0.5553
+fear - AdaBoost - est=4000 - learning_rate=0.02 --> 0.5572
+fear - AdaBoost - est=4000 - learning_rate=0.05 --> 0.5607
+fear - AdaBoost - est=4000 - learning_rate=0.075 --> 0.5507
+fear - AdaBoost - est=4000 - learning_rate=0.1 --> 0.5536
+fear - XGBoost - est=1500 - learning_rate=0.01 --> 0.626
+fear - XGBoost - est=1500 - learning_rate=0.02 --> 0.6438
+fear - XGBoost - est=1500 - learning_rate=0.05 --> 0.6462
+fear - XGBoost - est=1500 - learning_rate=0.075 --> 0.6244
+fear - XGBoost - est=1500 - learning_rate=0.1 --> 0.6243
+fear - XGBoost - est=2000 - learning_rate=0.01 --> 0.6319
+fear - XGBoost - est=2000 - learning_rate=0.02 --> 0.6458
+fear - XGBoost - est=2000 - learning_rate=0.05 --> 0.6446
+fear - XGBoost - est=2000 - learning_rate=0.075 --> 0.6246
+fear - XGBoost - est=2000 - learning_rate=0.1 --> 0.6243
+fear - XGBoost - est=3000 - learning_rate=0.01 --> 0.6386
+fear - XGBoost - est=3000 - learning_rate=0.02 --> 0.6471
+fear - XGBoost - est=3000 - learning_rate=0.05 --> 0.6441
+fear - XGBoost - est=3000 - learning_rate=0.075 --> 0.6246
+fear - XGBoost - est=3000 - learning_rate=0.1 --> 0.6243
+fear - XGBoost - est=4000 - learning_rate=0.01 --> 0.6377
+fear - XGBoost - est=4000 - learning_rate=0.02 --> 0.6459
+fear - XGBoost - est=4000 - learning_rate=0.05 --> 0.6441
+fear - XGBoost - est=4000 - learning_rate=0.075 --> 0.6246
+fear - XGBoost - est=4000 - learning_rate=0.1 --> 0.6243
+fear - RandomForest - num_trees=1500 --> 0.6058
+fear - RandomForest - num_trees=2000 --> 0.607
+fear - RandomForest - num_trees=3000 --> 0.5998
+fear - RandomForest - num_trees=4000 --> 0.6052
+fear - Default SVM --> 0.6594
+
+Best score for fear: SVM default score
+joy - AdaBoost - est=1500 - learning_rate=0.01 --> 0.6284
+joy - AdaBoost - est=1500 - learning_rate=0.02 --> 0.6445
+joy - AdaBoost - est=1500 - learning_rate=0.05 --> 0.6536
+joy - AdaBoost - est=1500 - learning_rate=0.075 --> 0.656
+joy - AdaBoost - est=1500 - learning_rate=0.1 --> 0.6581
+joy - AdaBoost - est=2000 - learning_rate=0.01 --> 0.6297
+joy - AdaBoost - est=2000 - learning_rate=0.02 --> 0.6518
+joy - AdaBoost - est=2000 - learning_rate=0.05 --> 0.6606
+joy - AdaBoost - est=2000 - learning_rate=0.075 --> 0.6608
+joy - AdaBoost - est=2000 - learning_rate=0.1 --> 0.6549
+joy - AdaBoost - est=3000 - learning_rate=0.01 --> 0.6446
+joy - AdaBoost - est=3000 - learning_rate=0.02 --> 0.6555
+joy - AdaBoost - est=3000 - learning_rate=0.05 --> 0.6593
+joy - AdaBoost - est=3000 - learning_rate=0.075 --> 0.6541
+joy - AdaBoost - est=3000 - learning_rate=0.1 --> 0.6555
+joy - AdaBoost - est=4000 - learning_rate=0.01 --> 0.6459
+joy - AdaBoost - est=4000 - learning_rate=0.02 --> 0.6556
+joy - AdaBoost - est=4000 - learning_rate=0.05 --> 0.662
+joy - AdaBoost - est=4000 - learning_rate=0.075 --> 0.6553
+joy - AdaBoost - est=4000 - learning_rate=0.1 --> 0.6529
+joy - XGBoost - est=1500 - learning_rate=0.01 --> 0.6828
+joy - XGBoost - est=1500 - learning_rate=0.02 --> 0.6948
+joy - XGBoost - est=1500 - learning_rate=0.05 --> 0.6905
+joy - XGBoost - est=1500 - learning_rate=0.075 --> 0.6982
+joy - XGBoost - est=1500 - learning_rate=0.1 --> 0.6845
+joy - XGBoost - est=2000 - learning_rate=0.01 --> 0.6881
+joy - XGBoost - est=2000 - learning_rate=0.02 --> 0.6941
+joy - XGBoost - est=2000 - learning_rate=0.05 --> 0.6905
+joy - XGBoost - est=2000 - learning_rate=0.075 --> 0.6981
+joy - XGBoost - est=2000 - learning_rate=0.1 --> 0.6845
+joy - XGBoost - est=3000 - learning_rate=0.01 --> 0.6916
+joy - XGBoost - est=3000 - learning_rate=0.02 --> 0.6926
+joy - XGBoost - est=3000 - learning_rate=0.05 --> 0.6907
+joy - XGBoost - est=3000 - learning_rate=0.075 --> 0.6981
+joy - XGBoost - est=3000 - learning_rate=0.1 --> 0.6845
+joy - XGBoost - est=4000 - learning_rate=0.01 --> 0.6895
+joy - XGBoost - est=4000 - learning_rate=0.02 --> 0.6916
+joy - XGBoost - est=4000 - learning_rate=0.05 --> 0.6907
+joy - XGBoost - est=4000 - learning_rate=0.075 --> 0.6981
+joy - XGBoost - est=4000 - learning_rate=0.1 --> 0.6845
+joy - RandomForest - num_trees=1500 --> 0.6599
+joy - RandomForest - num_trees=2000 --> 0.6604
+joy - RandomForest - num_trees=3000 --> 0.6634
+joy - RandomForest - num_trees=4000 --> 0.6574
+joy - Default SVM --> 0.7347
+
+Best score for joy: SVM default score
+sadness - AdaBoost - est=1500 - learning_rate=0.01 --> 0.6302
+sadness - AdaBoost - est=1500 - learning_rate=0.02 --> 0.6425
+sadness - AdaBoost - est=1500 - learning_rate=0.05 --> 0.6429
+sadness - AdaBoost - est=1500 - learning_rate=0.075 --> 0.6461
+sadness - AdaBoost - est=1500 - learning_rate=0.1 --> 0.6494
+sadness - AdaBoost - est=2000 - learning_rate=0.01 --> 0.6318
+sadness - AdaBoost - est=2000 - learning_rate=0.02 --> 0.6434
+sadness - AdaBoost - est=2000 - learning_rate=0.05 --> 0.65
+sadness - AdaBoost - est=2000 - learning_rate=0.075 --> 0.6475
+sadness - AdaBoost - est=2000 - learning_rate=0.1 --> 0.6482
+sadness - AdaBoost - est=3000 - learning_rate=0.01 --> 0.6385
+sadness - AdaBoost - est=3000 - learning_rate=0.02 --> 0.6437
+sadness - AdaBoost - est=3000 - learning_rate=0.05 --> 0.6484
+sadness - AdaBoost - est=3000 - learning_rate=0.075 --> 0.6553
+sadness - AdaBoost - est=3000 - learning_rate=0.1 --> 0.647
+sadness - AdaBoost - est=4000 - learning_rate=0.01 --> 0.6392
+sadness - AdaBoost - est=4000 - learning_rate=0.02 --> 0.64
+sadness - AdaBoost - est=4000 - learning_rate=0.05 --> 0.6504
+sadness - AdaBoost - est=4000 - learning_rate=0.075 --> 0.6487
+sadness - AdaBoost - est=4000 - learning_rate=0.1 --> 0.6499
+sadness - XGBoost - est=1500 - learning_rate=0.01 --> 0.6368
+sadness - XGBoost - est=1500 - learning_rate=0.02 --> 0.6341
+sadness - XGBoost - est=1500 - learning_rate=0.05 --> 0.6476
+sadness - XGBoost - est=1500 - learning_rate=0.075 --> 0.636
+sadness - XGBoost - est=1500 - learning_rate=0.1 --> 0.6466
+sadness - XGBoost - est=2000 - learning_rate=0.01 --> 0.6383
+sadness - XGBoost - est=2000 - learning_rate=0.02 --> 0.6312
+sadness - XGBoost - est=2000 - learning_rate=0.05 --> 0.6475
+sadness - XGBoost - est=2000 - learning_rate=0.075 --> 0.6356
+sadness - XGBoost - est=2000 - learning_rate=0.1 --> 0.6466
+sadness - XGBoost - est=3000 - learning_rate=0.01 --> 0.6362
+sadness - XGBoost - est=3000 - learning_rate=0.02 --> 0.6294
+sadness - XGBoost - est=3000 - learning_rate=0.05 --> 0.6473
+sadness - XGBoost - est=3000 - learning_rate=0.075 --> 0.6356
+sadness - XGBoost - est=3000 - learning_rate=0.1 --> 0.6466
+sadness - XGBoost - est=4000 - learning_rate=0.01 --> 0.6362
+sadness - XGBoost - est=4000 - learning_rate=0.02 --> 0.6294
+sadness - XGBoost - est=4000 - learning_rate=0.05 --> 0.6473
+sadness - XGBoost - est=4000 - learning_rate=0.075 --> 0.6356
+sadness - XGBoost - est=4000 - learning_rate=0.1 --> 0.6466
+sadness - RandomForest - num_trees=1500 --> 0.6217
+sadness - RandomForest - num_trees=2000 --> 0.6358
+sadness - RandomForest - num_trees=3000 --> 0.634
+sadness - RandomForest - num_trees=4000 --> 0.6331
+sadness - Default SVM --> 0.7051
+
+Best score for sadness: SVM default score
