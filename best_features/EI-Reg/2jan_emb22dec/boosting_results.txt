@@ -1,0 +1,96 @@
+nrchashemo-bingliu-negation-s140_2018-EI-reg-es-sadness-train - AdaBoost - est=750 - learning_rate=0.1 --> 0.5451
+nrchashemo-bingliu-negation-s140_2018-EI-reg-es-sadness-train - AdaBoost - est=750 - learning_rate=0.15 --> 0.5472
+nrchashemo-bingliu-negation-s140_2018-EI-reg-es-sadness-train - AdaBoost - est=750 - learning_rate=0.2 --> 0.5472
+nrchashemo-bingliu-negation-s140_2018-EI-reg-es-sadness-train - AdaBoost - est=1000 - learning_rate=0.1 --> 0.5441
+nrchashemo-bingliu-negation-s140_2018-EI-reg-es-sadness-train - AdaBoost - est=1000 - learning_rate=0.15 --> 0.5512
+nrchashemo-bingliu-negation-s140_2018-EI-reg-es-sadness-train - AdaBoost - est=1000 - learning_rate=0.2 --> 0.548
+nrchashemo-bingliu-negation-s140_2018-EI-reg-es-sadness-train - AdaBoost - est=1250 - learning_rate=0.1 --> 0.5454
+nrchashemo-bingliu-negation-s140_2018-EI-reg-es-sadness-train - AdaBoost - est=1250 - learning_rate=0.15 --> 0.5511
+nrchashemo-bingliu-negation-s140_2018-EI-reg-es-sadness-train - AdaBoost - est=1250 - learning_rate=0.2 --> 0.5496
+nrchashemo-bingliu-negation-s140_2018-EI-reg-es-sadness-train - XGBoost - est=750 - learning_rate=0.1 --> 0.6086
+nrchashemo-bingliu-negation-s140_2018-EI-reg-es-sadness-train - XGBoost - est=750 - learning_rate=0.15 --> 0.5905
+nrchashemo-bingliu-negation-s140_2018-EI-reg-es-sadness-train - XGBoost - est=750 - learning_rate=0.2 --> 0.5806
+nrchashemo-bingliu-negation-s140_2018-EI-reg-es-sadness-train - XGBoost - est=1000 - learning_rate=0.1 --> 0.6082
+nrchashemo-bingliu-negation-s140_2018-EI-reg-es-sadness-train - XGBoost - est=1000 - learning_rate=0.15 --> 0.5905
+nrchashemo-bingliu-negation-s140_2018-EI-reg-es-sadness-train - XGBoost - est=1000 - learning_rate=0.2 --> 0.5806
+nrchashemo-bingliu-negation-s140_2018-EI-reg-es-sadness-train - XGBoost - est=1250 - learning_rate=0.1 --> 0.6081
+nrchashemo-bingliu-negation-s140_2018-EI-reg-es-sadness-train - XGBoost - est=1250 - learning_rate=0.15 --> 0.5905
+nrchashemo-bingliu-negation-s140_2018-EI-reg-es-sadness-train - XGBoost - est=1250 - learning_rate=0.2 --> 0.5806
+nrchashemo-bingliu-negation-s140_2018-EI-reg-es-sadness-train - RandomForest - num_trees=750 --> 0.5435
+nrchashemo-bingliu-negation-s140_2018-EI-reg-es-sadness-train - RandomForest - num_trees=1000 --> 0.546
+nrchashemo-bingliu-negation-s140_2018-EI-reg-es-sadness-train - RandomForest - num_trees=1250 --> 0.5451
+nrchashemo-bingliu-negation-s140_2018-EI-reg-es-sadness-train - Default SVM --> 0.6777
+
+Best score for nrchashemo-bingliu-negation-s140_2018-EI-reg-es-sadness-train: SVM default score
+s140-mpqa-emoticons-nrchashemo_2018-EI-reg-es-anger-train - AdaBoost - est=750 - learning_rate=0.1 --> 0.5081
+s140-mpqa-emoticons-nrchashemo_2018-EI-reg-es-anger-train - AdaBoost - est=750 - learning_rate=0.15 --> 0.504
+s140-mpqa-emoticons-nrchashemo_2018-EI-reg-es-anger-train - AdaBoost - est=750 - learning_rate=0.2 --> 0.5058
+s140-mpqa-emoticons-nrchashemo_2018-EI-reg-es-anger-train - AdaBoost - est=1000 - learning_rate=0.1 --> 0.5112
+s140-mpqa-emoticons-nrchashemo_2018-EI-reg-es-anger-train - AdaBoost - est=1000 - learning_rate=0.15 --> 0.5074
+s140-mpqa-emoticons-nrchashemo_2018-EI-reg-es-anger-train - AdaBoost - est=1000 - learning_rate=0.2 --> 0.5073
+s140-mpqa-emoticons-nrchashemo_2018-EI-reg-es-anger-train - AdaBoost - est=1250 - learning_rate=0.1 --> 0.5091
+s140-mpqa-emoticons-nrchashemo_2018-EI-reg-es-anger-train - AdaBoost - est=1250 - learning_rate=0.15 --> 0.5102
+s140-mpqa-emoticons-nrchashemo_2018-EI-reg-es-anger-train - AdaBoost - est=1250 - learning_rate=0.2 --> 0.5106
+s140-mpqa-emoticons-nrchashemo_2018-EI-reg-es-anger-train - XGBoost - est=750 - learning_rate=0.1 --> 0.5406
+s140-mpqa-emoticons-nrchashemo_2018-EI-reg-es-anger-train - XGBoost - est=750 - learning_rate=0.15 --> 0.5264
+s140-mpqa-emoticons-nrchashemo_2018-EI-reg-es-anger-train - XGBoost - est=750 - learning_rate=0.2 --> 0.5165
+s140-mpqa-emoticons-nrchashemo_2018-EI-reg-es-anger-train - XGBoost - est=1000 - learning_rate=0.1 --> 0.5401
+s140-mpqa-emoticons-nrchashemo_2018-EI-reg-es-anger-train - XGBoost - est=1000 - learning_rate=0.15 --> 0.5264
+s140-mpqa-emoticons-nrchashemo_2018-EI-reg-es-anger-train - XGBoost - est=1000 - learning_rate=0.2 --> 0.5165
+s140-mpqa-emoticons-nrchashemo_2018-EI-reg-es-anger-train - XGBoost - est=1250 - learning_rate=0.1 --> 0.54
+s140-mpqa-emoticons-nrchashemo_2018-EI-reg-es-anger-train - XGBoost - est=1250 - learning_rate=0.15 --> 0.5264
+s140-mpqa-emoticons-nrchashemo_2018-EI-reg-es-anger-train - XGBoost - est=1250 - learning_rate=0.2 --> 0.5165
+s140-mpqa-emoticons-nrchashemo_2018-EI-reg-es-anger-train - RandomForest - num_trees=750 --> 0.5494
+s140-mpqa-emoticons-nrchashemo_2018-EI-reg-es-anger-train - RandomForest - num_trees=1000 --> 0.5538
+s140-mpqa-emoticons-nrchashemo_2018-EI-reg-es-anger-train - RandomForest - num_trees=1250 --> 0.5545
+s140-mpqa-emoticons-nrchashemo_2018-EI-reg-es-anger-train - Default SVM --> 0.6182
+
+Best score for s140-mpqa-emoticons-nrchashemo_2018-EI-reg-es-anger-train: SVM default score
+bingliu-nrc10hashsent-sentistrength_2018-EI-reg-es-joy-train - AdaBoost - est=750 - learning_rate=0.1 --> 0.6044
+bingliu-nrc10hashsent-sentistrength_2018-EI-reg-es-joy-train - AdaBoost - est=750 - learning_rate=0.15 --> 0.6037
+bingliu-nrc10hashsent-sentistrength_2018-EI-reg-es-joy-train - AdaBoost - est=750 - learning_rate=0.2 --> 0.6097
+bingliu-nrc10hashsent-sentistrength_2018-EI-reg-es-joy-train - AdaBoost - est=1000 - learning_rate=0.1 --> 0.6048
+bingliu-nrc10hashsent-sentistrength_2018-EI-reg-es-joy-train - AdaBoost - est=1000 - learning_rate=0.15 --> 0.6071
+bingliu-nrc10hashsent-sentistrength_2018-EI-reg-es-joy-train - AdaBoost - est=1000 - learning_rate=0.2 --> 0.6114
+bingliu-nrc10hashsent-sentistrength_2018-EI-reg-es-joy-train - AdaBoost - est=1250 - learning_rate=0.1 --> 0.6072
+bingliu-nrc10hashsent-sentistrength_2018-EI-reg-es-joy-train - AdaBoost - est=1250 - learning_rate=0.15 --> 0.6084
+bingliu-nrc10hashsent-sentistrength_2018-EI-reg-es-joy-train - AdaBoost - est=1250 - learning_rate=0.2 --> 0.6128
+bingliu-nrc10hashsent-sentistrength_2018-EI-reg-es-joy-train - XGBoost - est=750 - learning_rate=0.1 --> 0.6326
+bingliu-nrc10hashsent-sentistrength_2018-EI-reg-es-joy-train - XGBoost - est=750 - learning_rate=0.15 --> 0.6387
+bingliu-nrc10hashsent-sentistrength_2018-EI-reg-es-joy-train - XGBoost - est=750 - learning_rate=0.2 --> 0.5984
+bingliu-nrc10hashsent-sentistrength_2018-EI-reg-es-joy-train - XGBoost - est=1000 - learning_rate=0.1 --> 0.6331
+bingliu-nrc10hashsent-sentistrength_2018-EI-reg-es-joy-train - XGBoost - est=1000 - learning_rate=0.15 --> 0.6387
+bingliu-nrc10hashsent-sentistrength_2018-EI-reg-es-joy-train - XGBoost - est=1000 - learning_rate=0.2 --> 0.5984
+bingliu-nrc10hashsent-sentistrength_2018-EI-reg-es-joy-train - XGBoost - est=1250 - learning_rate=0.1 --> 0.6331
+bingliu-nrc10hashsent-sentistrength_2018-EI-reg-es-joy-train - XGBoost - est=1250 - learning_rate=0.15 --> 0.6387
+bingliu-nrc10hashsent-sentistrength_2018-EI-reg-es-joy-train - XGBoost - est=1250 - learning_rate=0.2 --> 0.5984
+bingliu-nrc10hashsent-sentistrength_2018-EI-reg-es-joy-train - RandomForest - num_trees=750 --> 0.6027
+bingliu-nrc10hashsent-sentistrength_2018-EI-reg-es-joy-train - RandomForest - num_trees=1000 --> 0.6028
+bingliu-nrc10hashsent-sentistrength_2018-EI-reg-es-joy-train - RandomForest - num_trees=1250 --> 0.6029
+bingliu-nrc10hashsent-sentistrength_2018-EI-reg-es-joy-train - Default SVM --> 0.6953
+
+Best score for bingliu-nrc10hashsent-sentistrength_2018-EI-reg-es-joy-train: SVM default score
+nrchashemo-mpqa-bingliu-afinn-negation_2018-EI-reg-es-fear-train - AdaBoost - est=750 - learning_rate=0.1 --> 0.4907
+nrchashemo-mpqa-bingliu-afinn-negation_2018-EI-reg-es-fear-train - AdaBoost - est=750 - learning_rate=0.15 --> 0.4982
+nrchashemo-mpqa-bingliu-afinn-negation_2018-EI-reg-es-fear-train - AdaBoost - est=750 - learning_rate=0.2 --> 0.4875
+nrchashemo-mpqa-bingliu-afinn-negation_2018-EI-reg-es-fear-train - AdaBoost - est=1000 - learning_rate=0.1 --> 0.4923
+nrchashemo-mpqa-bingliu-afinn-negation_2018-EI-reg-es-fear-train - AdaBoost - est=1000 - learning_rate=0.15 --> 0.4971
+nrchashemo-mpqa-bingliu-afinn-negation_2018-EI-reg-es-fear-train - AdaBoost - est=1000 - learning_rate=0.2 --> 0.4904
+nrchashemo-mpqa-bingliu-afinn-negation_2018-EI-reg-es-fear-train - AdaBoost - est=1250 - learning_rate=0.1 --> 0.497
+nrchashemo-mpqa-bingliu-afinn-negation_2018-EI-reg-es-fear-train - AdaBoost - est=1250 - learning_rate=0.15 --> 0.4943
+nrchashemo-mpqa-bingliu-afinn-negation_2018-EI-reg-es-fear-train - AdaBoost - est=1250 - learning_rate=0.2 --> 0.4907
+nrchashemo-mpqa-bingliu-afinn-negation_2018-EI-reg-es-fear-train - XGBoost - est=750 - learning_rate=0.1 --> 0.5594
+nrchashemo-mpqa-bingliu-afinn-negation_2018-EI-reg-es-fear-train - XGBoost - est=750 - learning_rate=0.15 --> 0.5422
+nrchashemo-mpqa-bingliu-afinn-negation_2018-EI-reg-es-fear-train - XGBoost - est=750 - learning_rate=0.2 --> 0.5423
+nrchashemo-mpqa-bingliu-afinn-negation_2018-EI-reg-es-fear-train - XGBoost - est=1000 - learning_rate=0.1 --> 0.5595
+nrchashemo-mpqa-bingliu-afinn-negation_2018-EI-reg-es-fear-train - XGBoost - est=1000 - learning_rate=0.15 --> 0.5422
+nrchashemo-mpqa-bingliu-afinn-negation_2018-EI-reg-es-fear-train - XGBoost - est=1000 - learning_rate=0.2 --> 0.5423
+nrchashemo-mpqa-bingliu-afinn-negation_2018-EI-reg-es-fear-train - XGBoost - est=1250 - learning_rate=0.1 --> 0.5597
+nrchashemo-mpqa-bingliu-afinn-negation_2018-EI-reg-es-fear-train - XGBoost - est=1250 - learning_rate=0.15 --> 0.5422
+nrchashemo-mpqa-bingliu-afinn-negation_2018-EI-reg-es-fear-train - XGBoost - est=1250 - learning_rate=0.2 --> 0.5423
+nrchashemo-mpqa-bingliu-afinn-negation_2018-EI-reg-es-fear-train - RandomForest - num_trees=750 --> 0.5038
+nrchashemo-mpqa-bingliu-afinn-negation_2018-EI-reg-es-fear-train - RandomForest - num_trees=1000 --> 0.5025
+nrchashemo-mpqa-bingliu-afinn-negation_2018-EI-reg-es-fear-train - RandomForest - num_trees=1250 --> 0.5027
+nrchashemo-mpqa-bingliu-afinn-negation_2018-EI-reg-es-fear-train - Default SVM --> 0.6369
+
+Best score for nrchashemo-mpqa-bingliu-afinn-negation_2018-EI-reg-es-fear-train: SVM default score
