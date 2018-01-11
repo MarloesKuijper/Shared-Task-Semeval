@@ -31,7 +31,8 @@ def create_arg_parser():
 	parser.add_argument("-f","--features", required=True, type=str, help="Directory to save (ALL) extracted feature-files to (or only get features if using --no_extract)")
 	parser.add_argument("-best","--bestfeatures", required=True, type=str, help="Directory to save BEST feature-files to (USE DATE AS FOLDER NAME!)")
 	parser.add_argument("-emb", "--embeddings", required=True, type=str, help="Embeddings file to use")
-	parser.add_argument("-t", "--test", default = '', type=str, help="If added contains a folder with dev or test files that will be processed by looking at the training set")
+	parser.add_argument("-t", "--test", default = '', type=str, help="If added contains a folder with dev or test files that will be processed in same way as training set")
+	parser.add_argument("-tr", "--translated", default = '', type=str, help="If added contains a folder with TRANSLATED files that will be processed in same way as training set")
 	parser.add_argument("-c","--clf", action = 'store_true', help="Select this if it is a classification task")
 	parser.add_argument("-n","--no_extract", action = 'store_true', help="We only have to do feature extraction once, by including this parameter we just read the features from --features")
 	parser.add_argument("-u","--unix", action = 'store_true', help="If you run on some Linux system there is a different way of splitting paths etc, so then add this")
@@ -138,18 +139,26 @@ def get_svm_results(feature_vectors):
 		
 		print("PREDICTIONS: \n", f)
 		## SVM test ##
-		if args.clf:
-			# le = LabelEncoder()
-			# print("old Y\n", Y)
-			# Y = le.fit(Y)
-			# print("new Y\n", Y)
-			svm_clf = svm.SVC()
-			print('Training SVM...\n')
-			pearson_svm = train_test_oc(svm_clf, X, Y)
-		else:
-			svm_clf = svm.SVR()
-			print('Training SVM...\n')
-			pearson_svm = train_test_pearson(svm_clf, X, Y)
+		from boosting_algorithms import svm_search ##import search function we use here
+		cs 		= [3,4,5,6] 			#CLF data
+		gammas  = [0.005, 0.0075, 0.01] #CLF data
+		epsilon = [0.075, 0.1, 0.125] 	#REG data
+		
+		best_list = svm_search(X, Y, [], [], epsilon, cs, gammas, '', args.clf)
+		pearson_svm = best_list[0]
+		
+		#if args.clf:
+			## le = LabelEncoder()
+			## print("old Y\n", Y)
+			## Y = le.fit(Y)
+			## print("new Y\n", Y)
+			#svm_clf = svm.SVC()
+			#print('Training SVM...\n')
+			#pearson_svm = train_test_oc(svm_clf, X, Y)
+		#else:
+			#svm_clf = svm.SVR()
+			#print('Training SVM...\n')
+			#pearson_svm = train_test_pearson(svm_clf, X, Y)
 		
 		## Save results in dictionary
 		if lexicon_name in lex_dict:
@@ -177,7 +186,7 @@ def test_all_lexicons_together(lexicons_to_use, emotion_data, lexicons_data, fea
 		if args.unix:
 			emotion_name = emotion_file.replace('..','').split('.')[0].split('/')[-1]
 			if args.clf:
-				script = 'lexicons_test_classification.sh'
+				script = './lexicons_test_classification.sh'
 			else:
 				script = './lexicons_test.sh'
 		else:
@@ -222,7 +231,7 @@ def check_relevance(top_lexicons, lexicon_to_test, emotion_data, lexicons_data, 
 		if args.unix:
 			emotion_name = emotion_file.replace('..','').split('.')[0].split('/')[-1]
 			if args.clf:
-				script = 'lexicons_test_classification.sh'
+				script = './lexicons_test_classification.sh'
 			else:
 				script = './lexicons_test.sh'
 		else:
@@ -325,6 +334,38 @@ def test_only_embeddings(emotion_data, feat_dir):
 	return best_score
 
 
+def process_extra_set(best_features, test_folder, name, emotion_to_test, clf, top_lexicons, embeddings):
+	'''Process a folder of files in exactly the same way as we did for the training set'''
+	found_file = False
+	dev_folder = best_features + name
+	if not os.path.exists(dev_folder):
+		os.makedirs(dev_folder)
+	
+	for root, dirs, files in os.walk(test_folder):
+		for f in files:
+			if f.endswith('.arff') and emotion_to_test in f.lower() and not found_file: #check if emotion occurs
+				emotion_file = os.path.join(root, f).replace("\\", "/")
+				if clf:
+					script = './lexicons_test_classification.sh' if args.unix else 'lexicons_test_classification.sh'
+				else:
+					script = './lexicons_test.sh' if args.unix else 'lexicons_test.sh'
+				lexicon_names 	= "-".join(top_lexicons.split())
+				feature_name 	= dev_folder + lexicon_names + "_" + emotion_to_test + ".csv"
+			
+				if not os.path.isfile(feature_name): ## Only do if file does not exist
+					if "sentistrength" in top_lexicons:
+						add_lexicons = " ".join([lexicons[lex] for lex in top_lexicons.split() if 'sentistrength' not in lex]) #string to add for Weka, dont add sentistrength because we add that anyway
+						os_call = " ".join([script, emotion_file, feature_name, embeddings, "sentistrength" + " " + add_lexicons])
+						subprocess.call(os_call, shell=True)
+					else:
+						add_lexicons = " ".join([lexicons[lex] for lex in top_lexicons.split()]) #string to add for Weka
+						os_call = " ".join([script, emotion_file, feature_name, embeddings, add_lexicons])
+						subprocess.call(os_call, shell=True)
+				found_file = True
+	if not found_file:
+		print ('Specified directory with dev/test files, but could not find a file for emotion {0}'.format(emotion_to_test))
+
+
 if __name__ == "__main__":
 
 	args = create_arg_parser()
@@ -346,7 +387,8 @@ if __name__ == "__main__":
 				 "sentiwordnet": "-Q", "sentistrength": "sentistrength"}
 
 		# first you put all lexicons you wanna test in here
-		lexicons_to_use = ["mpqa", "bingliu", "afinn", "negation", "s140", "emoticons", "nrc10", "nrc10expanded", "nrchashemo", "nrc10hashsent", "sentistrength", "sentiwordnet"]
+		#lexicons_to_use = ["mpqa", "bingliu", "afinn", "negation", "s140", "emoticons", "nrc10", "nrc10expanded", "nrchashemo", "nrc10hashsent", "sentistrength", "sentiwordnet"]
+		lexicons_to_use = ["mpqa", "bingliu"]
 		# you add the best lexicons (that make a difference) here
 		lexicons_top = []
 		
@@ -374,35 +416,11 @@ if __name__ == "__main__":
 		## Sometimes we also want to process the dev/test files with the lexicon we found for the training set
 		## Do this now, since at this point we know the optimal lexicon set for this emotion
 		if args.test:
-			found_file = False
-			dev_folder = args.bestfeatures + 'dev/'
-			if not os.path.exists(dev_folder):
-				os.makedirs(dev_folder)
+			process_extra_set(args.bestfeatures, args.test, 'dev/', emotion_to_test, args.clf, top_lexicons, args.embeddings)
+		## Same principle applies to the translated files
+		if args.translated:
+			process_extra_set(args.bestfeatures, args.translated, 'translated/', emotion_to_test, args.clf, top_lexicons, args.embeddings)	
 			
-			for root, dirs, files in os.walk(args.test):
-				for f in files:
-					if f.endswith('.arff') and emotion_to_test in f.lower() and not found_file: #check if emotion occurs
-						emotion_file = os.path.join(root, f).replace("\\", "/")
-						if args.clf:
-							script = './lexicons_test_classification.sh' if args.unix else 'lexicons_test_classification.sh'
-						else:
-							script = './lexicons_test.sh' if args.unix else 'lexicons_test.sh'
-						lexicon_names 	= "-".join(top_lexicons.split())
-						feature_name 	= dev_folder + lexicon_names + "_" + emotion_to_test + ".csv"
-					
-						if not os.path.isfile(feature_name): ## Only do if file does not exist
-							if "sentistrength" in top_lexicons:
-								add_lexicons = " ".join([lexicons[lex] for lex in top_lexicons.split() if 'sentistrength' not in lex]) #string to add for Weka, dont add sentistrength because we add that anyway
-								os_call = " ".join([script, emotion_file, feature_name, args.embeddings, "sentistrength" + " " + add_lexicons])
-								subprocess.call(os_call, shell=True)
-							else:
-								add_lexicons = " ".join([lexicons[lex] for lex in top_lexicons.split()]) #string to add for Weka
-								os_call = " ".join([script, emotion_file, feature_name, args.embeddings, add_lexicons])
-								subprocess.call(os_call, shell=True)
-						found_file = True
-			if not found_file:
-				print ('Specified directory with dev/test files, but could not find a file for emotion {0}'.format(emotion_to_test))		
-
 	if len(best_feature_vecs) == 1:
 		## move these items to feature folder with date of today (args.bestembeddings)
 		
