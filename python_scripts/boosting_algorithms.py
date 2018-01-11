@@ -21,7 +21,7 @@ warnings.filterwarnings("ignore") #supress annoying sklearn warnings
 
 """ Test a variety of different boosting algorithms """
 
-### USAGE: python boosting_algorithms.py -f FOLDER [--clf] [--test TEST_FOLDER] [--ensemble]
+### USAGE: python boosting_algorithms.py -f FOLDER [--clf] [--test TEST_FOLDER] [--ensemble] [--search]
 
 def create_arg_parser():
 	parser = argparse.ArgumentParser()
@@ -92,6 +92,16 @@ def load_reg_data(f):
 	Y = dataset[:,-1]   #select column
 	return X,Y
 
+
+def is_empty(X):
+	'''Super lame way of checking if it is empty but I get strange errors otherwise'''
+	empty = False
+	try:
+		temp = test_X[1]
+	except:
+		empty = True
+	return empty	
+
 	
 def cat_to_int(pred):
 	'''Convert predicted categories to numbers'''
@@ -109,20 +119,12 @@ def train_test_pearson(train_X, train_Y, test_X, test_Y, clf, clf_bool):
 	'''Function that does fitting and pearson correlation with 10-fold cross validation'''
 	
 	## Do cross validation if test files are empty
-	## Super lame way of checking if it is empty but I get strange errors otherwise
-	empty = False
-	try:
-		temp = test_X[1]
-	except:
-		empty = True
-		
+	empty = is_empty(test_X)	
 	if empty:
 		res = cross_val_predict(clf, train_X, train_Y, cv=10, n_jobs=10) ##runs on 10 CPUs
 		if clf_bool:
 			num_res = cat_to_int(res)
 			num_gold = cat_to_int(train_Y)
-			#for r,g in zip(num_res, num_gold):
-			#	print (r,g)
 			return round(pearsonr(num_res, num_gold)[0],4), num_res
 		else:
 			return round(pearsonr(res, train_Y)[0],4), res	
@@ -230,7 +232,7 @@ def ensemble(train_X, train_Y, test_X, test_Y, clf, best_parameters):
 	pred = np.asarray([float((svm_pred[idx] + ada_pred[idx] + for_pred[idx] + xgb_pred[idx])) / float(4) for idx in range(len(svm_pred))])
 	
 	## Put test_labels in correct format
-	test_labels = train_Y if test_Y == [] else test_Y
+	test_labels = train_Y if is_empty(test_Y) else test_Y
 	if args.clf:
 		test_labels = cat_to_int(test_labels)
 	ens_score = round(pearsonr(pred, test_labels)[0],4)
@@ -251,9 +253,7 @@ if __name__ == "__main__":
 	else:
 		feature_vectors_test = []	
 	
-
-	
-	##Loop over different scores per file
+	##Loop over feature vectors (emotions)
 	for idx, f in enumerate(feature_vectors_train):
 		emotion = 'single_file' if not emotion_order else emotion_order[idx] 		#get emotion
 		print ('Testing {0}'.format(emotion))
@@ -275,7 +275,7 @@ if __name__ == "__main__":
 		
 		## Do parameter search for SVM + 3 different boosting regressors currently, AdaBoost, XGBoost, RandomForrests
 		if args.search:
-			## Set parameter we want to search here
+			## Set parameters we want to search here
 			res_dict = {}
 			#estimators 		= [1500, 2000, 3000, 4000]
 			#learning_rates 	= [0.01, 0.02, 0.05, 0.075, 0.1]
