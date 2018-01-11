@@ -21,6 +21,9 @@ from sklearn.model_selection import cross_val_score, cross_val_predict
 from sklearn.model_selection import KFold
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
+from sklearn.metrics import accuracy_score
+from sklearn.preprocessing import LabelEncoder
+import pandas as pd
 
 def create_arg_parser():
 	parser = argparse.ArgumentParser()
@@ -107,6 +110,10 @@ def train_test_pearson(clf, X, Y):
 
 	return round(pearsonr(res, Y)[0],4)
 
+def train_test_oc(clf, X, Y):
+	res = cross_val_predict(clf, X, Y, cv=10)
+	return accuracy_score(Y, res)
+
 def get_svm_results(feature_vectors):
 	lex_dict = {}
 	
@@ -115,18 +122,30 @@ def get_svm_results(feature_vectors):
 		## Get lexicon name
 		lexicon_name = f.split("/")[-1].split("_")[0]
 		print(lexicon_name)
-		dataset = np.loadtxt(f, delimiter=",", skiprows = 1)
+		if not args.clf:
+			dataset = np.loadtxt(f, delimiter=",", skiprows = 1)
+			X = dataset[:,0:-1] #select everything but last column (label)
+			Y = dataset[:,-1]   #select column
+			
+		else:
+			# dataset = np.genfromtxt(f, delimiter=",", skip_header=1, dtype=None)
+			dataset = pd.read_csv(f, skiprows=0)
+			X = dataset.iloc[:,0:-1] #select everything but last column (label)
+			Y = dataset.iloc[:,-1]   #select column
 
-		## split into input (X) and output (Y) variables ##
-		X = dataset[:,0:-1] #select everything but last column (label)
-		Y = dataset[:,-1]   #select column
+
+		# print(X)
 		
 		print("PREDICTIONS: \n", f)
 		## SVM test ##
 		if args.clf:
+			# le = LabelEncoder()
+			# print("old Y\n", Y)
+			# Y = le.fit(Y)
+			# print("new Y\n", Y)
 			svm_clf = svm.SVC()
 			print('Training SVM...\n')
-			pearson_svm = train_test_pearson(svm_clf, X, Y)
+			pearson_svm = train_test_oc(svm_clf, X, Y)
 		else:
 			svm_clf = svm.SVR()
 			print('Training SVM...\n')
@@ -275,7 +294,10 @@ def find_optimal_lexicon_set(lexicons_to_use, lexicons_top, emotion_data, lexico
 			print("new best lexicons: ", " ".join(top_lexicons))
 			#lexicons_to_use.remove(lexicons_to_use[i])
 
-	return top_lexicons, best_score, feature_names[-1]
+	if feature_names:
+		return top_lexicons, best_score, feature_names[-1]
+	else:
+		return top_lexicons, best_score, None
 
 def test_only_embeddings(emotion_data, feat_dir):
 	feature_vectors = []
@@ -307,7 +329,7 @@ if __name__ == "__main__":
 
 	args = create_arg_parser()
 	emotions = ["anger", "fear", "joy", "sadness"]
-	valence = ["valence"]
+	#valence = ["valence"]
 	best_feature_vecs = []
 	best_lexicons = []
 	best_scores = []
@@ -328,11 +350,7 @@ if __name__ == "__main__":
 		# you add the best lexicons (that make a difference) here
 		lexicons_top = []
 		
-		# only use for the final 'test' phase to write stuff to extract features of test/dev and write to new file
-		#extract_features("../../test_sample/", ["../../test_sample/2018-EI-reg-es-anger-dev.arff", "../../test_sample/2018-EI-reg-es-anger-train.arff"], ["sentistrength"], lexicons)
-		#predict_and_write_output("../../test_sample/sentistrength_.csv",  "../../test_sample/sentistrength_dev.csv", "../../test_sample/test/2018-EI-reg-Es-anger-dev.txt", "../../test_sample/predictions.csv")
-
-		## Skip feature extraction if we already did that in a previous run
+		# Skip feature extraction if we already did that in a previous run
 		if not args.no_extract:	
 			extract_features(args.features, emotion_data, lexicons_to_use, lexicons)
 
@@ -343,7 +361,12 @@ if __name__ == "__main__":
 
 		## find optimal set of lexicons
 		top_lexicons, top_score, best_feature_vector = find_optimal_lexicon_set(lexicons_to_use, lexicons_top, emotion_data, lexicons, best_score)
-		best_feature_vecs.append(best_feature_vector)
+		if best_feature_vector:
+			best_feature_vecs.append(best_feature_vector)
+		else:
+			# if only the first lexicon is used
+			best_feature_vecs.append(best_lex+"_"+emotion_to_test+".csv")
+
 		top_lexicons = " ".join(top_lexicons)
 		best_lexicons.append(top_lexicons)
 		best_scores.append(str(top_score))
@@ -358,7 +381,7 @@ if __name__ == "__main__":
 			
 			for root, dirs, files in os.walk(args.test):
 				for f in files:
-					if f.endswith('.arff') and emotion_to_test in f and not found_file: #check if emotion occurs
+					if f.endswith('.arff') and emotion_to_test in f.lower() and not found_file: #check if emotion occurs
 						emotion_file = os.path.join(root, f).replace("\\", "/")
 						if args.clf:
 							script = './lexicons_test_classification.sh' if args.unix else 'lexicons_test_classification.sh'
@@ -380,7 +403,7 @@ if __name__ == "__main__":
 			if not found_file:
 				print ('Specified directory with dev/test files, but could not find a file for emotion {0}'.format(emotion_to_test))		
 
-	if len(best_feature_vecs) == 4:
+	if len(best_feature_vecs) == 1:
 		## move these items to feature folder with date of today (args.bestembeddings)
 		
 		##Fix how to call script for unix vs windows
@@ -404,29 +427,3 @@ if __name__ == "__main__":
 				outfile.write(text)
 				outfile.write("\n")
 
-
-
-    ## STUFF THAT I'VE TESTED:
-    ## test embeddings individually
-    # SCORE: 0.588 (anger),  0.528 (fear), 0.617 (joy),  0.5654 (sadness)
-    # Test lexicons individually (by running get_best_starting_point and printing all results)
-    # SCORE: 
-	  #   {'afinn': [0.58230000000000004, 0.53539999999999999, 0.61409999999999998, 0.56789999999999996],
-	  # 'bingliu': [0.58740000000000003, 0.53190000000000004, 0.61650000000000005, 0.56689999999999996], 
-	  # 'emoticons': [0.58960000000000001, 0.52939999999999998, 0.61699999999999999, 0.56530000000000002], 
-	  # 'mpqa': [0.58850000000000002, 0.53080000000000005, 0.61509999999999998, 0.5645],
-	  # 'negation': [0.58899999999999997, 0.52900000000000003, 0.61619999999999997, 0.56340000000000001], 
-	  # 'nrc10hashsent': [0.59109999999999996, 0.5323, 0.61699999999999999, 0.57310000000000005], 
-	  # 'nrc10': [0.58879999999999999, 0.52859999999999996, 0.61760000000000004, 0.5655], 
-	  # 'nrchashemo': [0.59130000000000005, 0.56299999999999994, 0.62350000000000005, 0.58540000000000003], 
-	  # 's140': [0.59089999999999998, 0.52300000000000002, 0.61519999999999997, 0.57240000000000002], 
-	  # 'sentistrength': [0.59360000000000002, 0.53349999999999997, 0.62770000000000004, 0.56369999999999998]}
-    ## test embeddings with all lexicons
-    # SCORE: 0.5977 (anger),  0.562 (fear), 0.6224 (joy), 0.5684 (sadness)
-    # TO DO:
-    ## run per emotion
-    # anger: best score:  0.6046, best lexicons:  sentistrength mpqa s140 emoticons nrc10hashsent
-	# fear: best score:  0.5706, best lexicons:  nrchashemo mpqa bingliu afinn negation sentistrength
-	# joy: best score:  0.6337, best lexicons:  sentistrength bingliu afinn emoticons nrchashemo
-	# sadness: best score:  0.5862, best lexicons:  nrchashemo bingliu emoticons
-	# NRC10 verandert de score helemaal niet > misschien iets mis mee?

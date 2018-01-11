@@ -1,0 +1,1 @@
+Best results emotion valence: 0.28671775223499363 with afinn emoticons, feature file ../../features_lexicons/afinn-emoticons_valence.csv with embeddings ../../trained_emb_5jan_mc5_s200_win40_sg0.txt.csv.gz
