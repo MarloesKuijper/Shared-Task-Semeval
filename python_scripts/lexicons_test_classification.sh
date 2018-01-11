@@ -27,7 +27,6 @@ then
 		#Remove ID
 		eval "java -cp $WEKA_CALL weka.Run weka.filters.unsupervised.attribute.RemoveByName -E ^.*id$ -i $EMOTION_FILE -o tmp1.arff"
 
-
 		#Add embeddings
 		eval "java -Xmx4G -cp $WEKA_CALL weka.Run weka.filters.unsupervised.attribute.TweetToEmbeddingsFeatureVector -I 1 -B $EMBEDDING_FILE -S 0 -K 15 -L -O -i tmp1.arff -o tmp2.arff"
 
@@ -38,27 +37,30 @@ then
 		eval "java -Xmx4G -cp $WEKA_CALL weka.Run weka.filters.unsupervised.attribute.TweetToLexiconFeatureVector -I 1 $SELECTION_W_SS -U -i tmp3.arff -o tmp2.arff"
 
 		#Reorder to have correct format
-		eval "java -cp $WEKA_CALL weka.Run weka.filters.unsupervised.attribute.Reorder -R 4-last,3 -i tmp2.arff -o tmp.arff"
+		eval "java -cp $WEKA_CALL weka.Run weka.filters.unsupervised.attribute.Reorder -R 4-last,3 -i tmp2.arff -o tmp1.arff"
+
+		#convert string label to nominal label
+		eval "java -cp $WEKA_CALL weka.Run weka.filters.unsupervised.attribute.StringToNominal -R last -i tmp1.arff -o tmp.arff"
 
 		#Save features
 		eval "java -cp $WEKA_CALL weka.Run weka.core.converters.CSVSaver -i tmp.arff -o $FEATURE_FILE"
 	else
 
-
+		echo "only sentistrength selected"
 		#Remove ID
 		eval "java -cp $WEKA_CALL weka.Run weka.filters.unsupervised.attribute.RemoveByName -E ^.*id$ -i $EMOTION_FILE -o tmp1.arff"
-
 
 		#Add embeddings
 		eval "java -Xmx4G -cp $WEKA_CALL weka.Run weka.filters.unsupervised.attribute.TweetToEmbeddingsFeatureVector -I 1 -B $EMBEDDING_FILE -S 0 -K 15 -L -O -i tmp1.arff -o tmp2.arff"
 
-
 		#Add lexicons
 		eval "java -Xmx4G -cp $WEKA_CALL weka.Run weka.filters.unsupervised.attribute.TweetToSentiStrengthFeatureVector -i tmp2.arff -o tmp3.arff"
 
-
 		#Reorder to have correct format
-		eval "java -cp $WEKA_CALL weka.Run weka.filters.unsupervised.attribute.Reorder -R 4-last,3 -i tmp3.arff -o tmp.arff"
+		eval "java -cp $WEKA_CALL weka.Run weka.filters.unsupervised.attribute.Reorder -R 4-last,3 -i tmp3.arff -o tmp1.arff"
+
+		#convert string label to nominal label
+		eval "java -cp $WEKA_CALL weka.Run weka.filters.unsupervised.attribute.StringToNominal -R last -i tmp1.arff -o tmp.arff"
 
 		#Save features
 		eval "java -cp $WEKA_CALL weka.Run weka.core.converters.CSVSaver -i tmp.arff -o $FEATURE_FILE"
@@ -75,7 +77,10 @@ else
 	eval "java -Xmx4G -cp $WEKA_CALL weka.Run weka.filters.unsupervised.attribute.TweetToLexiconFeatureVector -I 1 $SELECTION -U -i tmp2.arff -o tmp3.arff"
 
 	#Reorder to have correct format
-	eval "java -cp $WEKA_CALL weka.Run weka.filters.unsupervised.attribute.Reorder -R 4-last,3 -i tmp3.arff -o tmp.arff"
+	eval "java -cp $WEKA_CALL weka.Run weka.filters.unsupervised.attribute.Reorder -R 4-last,3 -i tmp3.arff -o tmp1.arff"
+
+	#convert string label to nominal label
+	eval "java -cp $WEKA_CALL weka.Run weka.filters.unsupervised.attribute.StringToNominal -R last -i tmp1.arff -o tmp.arff"
 
 	#Save features
 	eval "java -cp $WEKA_CALL weka.Run weka.core.converters.CSVSaver -i tmp.arff -o $FEATURE_FILE"

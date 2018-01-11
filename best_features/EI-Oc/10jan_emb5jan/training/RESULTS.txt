@@ -1,0 +1,4 @@
+Best results emotion anger: 0.46312178 with afinn mpqa emoticons, feature file afinn-mpqa-emoticons-anger.csv with embeddings of 5 jan.
+Best results emotion fear: 0.47684391 with nrchashemo afinn, feature file nrchashemo-afinn_fear.csv with embeddings of 5 jan.
+Best results emotion joy: 0.4782609 with nrchashsent bingliu s140, feature file  nrchashsent-bingliu-s140_joy.csv with embeddings of 5 jan.
+Best results emotion sadness: 0.4731369 with bingliu, feature file bingliu_sadness.csv with embeddings of 5 jan.

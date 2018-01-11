@@ -17,7 +17,7 @@
 import sys, os, re
 
 
-def create_arff(input_file,output_file):
+def create_arff(input_file,output_file, clf=False):
     """
     Creates an arff dataset
     """
@@ -26,7 +26,11 @@ def create_arff(input_file,output_file):
 
 
     out=open(output_file,"w", encoding="utf-8")
-    header='@relation '+ '"' + input_file+ '"' + '\n\n@attribute id string \n@attribute tweet string\n@attribute emotion string\n@attribute score numeric \n\n@data\n'
+    if not clf:
+        header='@relation '+ '"' + input_file+ '"' + '\n\n@attribute id string \n@attribute tweet string\n@attribute emotion string\n@attribute score numeric \n\n@data\n'
+    else:
+        header='@relation '+ '"' + input_file+ '"' + '\n\n@attribute id string \n@attribute tweet string\n@attribute emotion string\n@attribute class string \n\n@data\n'
+
     out.write(header)
 
 
@@ -44,8 +48,10 @@ def create_arff(input_file,output_file):
             emotion=parts[2]
             score=parts[3].strip()
             score = score if score != "NONE" else "?"
-
-            out_line='"{0}","{1}","{2}", {3}'.format(id, tweet, emotion, score)
+            if clf:
+                out_line='"{0}","{1}","{2}", "{3}"'.format(id, tweet, emotion, score)
+            else:
+                out_line='"{0}","{1}","{2}", {3}'.format(id, tweet, emotion, score)
             out.write(out_line)
             out.write("\n")
         else:
@@ -61,4 +67,6 @@ if __name__ == "__main__":
     file_dir = sys.argv[1]
     infile = sys.argv[2]
     outfile = sys.argv[3]
-    create_arff(infile, outfile)
+
+    ### change False to True if dealing with classification data!!!
+    create_arff(infile, outfile, False)
