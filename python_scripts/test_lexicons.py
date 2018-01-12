@@ -101,7 +101,8 @@ def extract_features(feat_dir, emotion_data, lexicons_to_use, lexicons_data):
 			selection = lexicons_data[lex]
 			#print(selection)
 			os_call = " ".join([script, emotion_file, feature_name, args.embeddings, selection])
-			subprocess.call(os_call, shell=True)
+			if not os.path.isfile(feature_name): #only do if not exists
+				subprocess.call(os_call, shell=True)
 			
 	print("Features successfully extracted")
 
@@ -118,6 +119,43 @@ def train_test_oc(clf, X, Y):
 	res = cross_val_predict(clf, X, Y, cv=10)
 	return accuracy_score(Y, res)
 
+
+def cat_to_int(pred):
+	'''Convert predicted categories to numbers'''
+	new_pred = []
+	options = []
+	for p in pred:
+		try:
+			new_value = int(p[1]) 	#predicted category looks something like this: '0: no se infieren niveles de enojo' -- so take second character as number
+		except ValueError:
+			new_value = int(p[1:3]) #predicted category looks something like this: '-1: no se infieren niveles de enojo' -- so take second + third character as number
+		new_pred.append(new_value)
+		if new_value not in options:
+			options.append(new_value)	
+	return np.asarray(new_pred), sorted(options)
+
+
+def rescale(Y, options):
+	'''Rescale categories between 0 and 1'''
+	sorted_options = sorted(options)
+	range_divider = len(options) + 1
+	new_options = []
+	
+	## Scale options between 0 and 1 evenly
+	for idx, option in enumerate(options):
+		new_val = round((float(1) / float(range_divider)) * (idx+1), 5)
+		new_options.append(new_val)
+	
+	## Rewrite the vector by new options
+	new_Y = []
+	for y in Y:
+		new_Y.append(new_options[sorted_options.index(y)])
+	
+	print ('previous categories', sorted_options)
+	print ('current categories', new_options, '\n')
+	return new_Y, sorted(new_options)
+
+
 def get_svm_results(feature_vectors):
 	lex_dict = {}
 	
@@ -130,24 +168,22 @@ def get_svm_results(feature_vectors):
 			dataset = np.loadtxt(f, delimiter=",", skiprows = 1)
 			X = dataset[:,0:-1] #select everything but last column (label)
 			Y = dataset[:,-1]   #select column
-			
+			options = []
+			old_options = []
 		else:
 			# dataset = np.genfromtxt(f, delimiter=",", skip_header=1, dtype=None)
 			dataset = pd.read_csv(f, skiprows=0)
 			X = dataset.iloc[:,0:-1] #select everything but last column (label)
 			Y = dataset.iloc[:,-1]   #select column
-
-
+			Y, old_options = cat_to_int(Y) #change label to int, keep track of different ones
+			Y, options = rescale(Y, old_options) #rescale values between 0 and 1 for classification tasks
 		# print(X)
 		
 		print("PREDICTIONS: \n", f)
 		## SVM test ##
 		from boosting_algorithms import svm_search ##import search function we use here
-		cs 		= [3,4,5,6] 			#CLF data
-		gammas  = [0.005, 0.0075, 0.01] #CLF data
-		epsilon = [0.075, 0.1, 0.125] 	#REG data
-		
-		best_list = svm_search(X, Y, [], [], epsilon, cs, gammas, '', args.clf)
+		epsilon = [0.001, 0.005, 0.35, 0.40] + [float(y * 0.01) for y in range(1,30)] #test very wide range of parameters here
+		best_list = svm_search(X, Y, [], [], epsilon, '', args.clf, options, old_options)
 		pearson_svm = best_list[0]
 		
 		#if args.clf:
@@ -213,12 +249,14 @@ def test_all_lexicons_together(lexicons_to_use, emotion_data, lexicons_data, fea
 			lexicons = " ".join(all_current_lexicons)
 			print(lexicons)
 			os_call = " ".join([script, emotion_file, feature_name, args.embeddings, "sentistrength" + " " + lexicons])
-			subprocess.call(os_call, shell=True)
+			if not os.path.isfile(feature_name):
+				subprocess.call(os_call, shell=True)
 		else:
 			lexicons = " ".join(all_current_lexicons)
 			os_call = " ".join([script, emotion_file, feature_name, args.embeddings, lexicons])
 			print(os_call)
-			subprocess.call(os_call, shell=True)
+			if not os.path.isfile(feature_name):
+				subprocess.call(os_call, shell=True)
 
 	lex_dict = get_svm_results(feature_vectors)
 	print("lex dict", lex_dict)
@@ -428,10 +466,16 @@ if __name__ == "__main__":
 		## Same principle applies to the translated files
 		if args.translated:
 			process_extra_set(args.bestfeatures, args.translated, 'translated/', emotion_to_test, args.clf, top_lexicons, args.embeddings)	
+	
+	## Range is different for Val or Reg
+	if args.val:
+		range_num = 1
+	else:
+		range_num = 4	
 			
-	if len(best_feature_vecs) == 1:
+	if len(best_feature_vecs) == range_num:
 		## move these items to feature folder with date of today (args.bestembeddings)
-		
+		print ('Copying best train features to correct location\n')
 		##Fix how to call script for unix vs windows
 		if args.unix:
 			script = './copy_best_features.sh'
@@ -448,7 +492,7 @@ if __name__ == "__main__":
 		subprocess.call(os_call, shell=True)
 		# write results to txt file
 		with open(train_folder + "/RESULTS.txt", "w") as outfile: #removed encoding="utf-8" so it also works in Python2
-			for i in range(4):
+			for i in range(range_num):
 				text = "Best results emotion {0}: {1} with {2}, feature file {3} with embeddings {4}".format(emotions[i], best_scores[i], best_lexicons[i], best_feature_vecs[i], args.embeddings)
 				outfile.write(text)
 				outfile.write("\n")
