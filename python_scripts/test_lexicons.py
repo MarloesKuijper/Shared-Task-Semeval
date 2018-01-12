@@ -31,9 +31,11 @@ def create_arg_parser():
 	parser.add_argument("-f","--features", required=True, type=str, help="Directory to save (ALL) extracted feature-files to (or only get features if using --no_extract)")
 	parser.add_argument("-best","--bestfeatures", required=True, type=str, help="Directory to save BEST feature-files to (USE DATE AS FOLDER NAME!)")
 	parser.add_argument("-emb", "--embeddings", required=True, type=str, help="Embeddings file to use")
-	parser.add_argument("-t", "--test", default = '', type=str, help="If added contains a folder with dev or test files that will be processed in same way as training set")
+	parser.add_argument("-t", "--test", default = '', type=str, help="If added contains a folder with TEST files that will be processed in same way as training set")
+	parser.add_argument("-d", "--dev", default = '', type=str, help="If added contains a folder with DEV files that will be processed in same way as training set")
 	parser.add_argument("-tr", "--translated", default = '', type=str, help="If added contains a folder with TRANSLATED files that will be processed in same way as training set")
 	parser.add_argument("-c","--clf", action = 'store_true', help="Select this if it is a classification task")
+	parser.add_argument("-v","--val", action = 'store_true', help="Select this if it is a valence task")
 	parser.add_argument("-n","--no_extract", action = 'store_true', help="We only have to do feature extraction once, by including this parameter we just read the features from --features")
 	parser.add_argument("-u","--unix", action = 'store_true', help="If you run on some Linux system there is a different way of splitting paths etc, so then add this")
 	args = parser.parse_args()
@@ -50,12 +52,13 @@ def get_files(files, lexicon_dir=False, emotion=""):
 	    		if len(name.split("_")[0].split("-")) == 1:
 	    			# if a specific emotion is selected for testing, only take those files pertaining to those emotions
 	    			if emotion:
-	    				if emotion in name:
+	    				if emotion in name.lower():
 	    					file_list.append(os.path.join(path, name))
 	    			else:
 	    				file_list.append(os.path.join(path, name))
 	    	# if not in lexicon dir (but in emotion dir), if a specific emotion is selected, only take those files related to that emotion
 	    	elif emotion:
+	    		print (emotion, name.lower())
 	    		if emotion in name.lower() and name.endswith("arff"):
 	    			file_list.append(os.path.join(path, name))
 	    	else:
@@ -369,14 +372,16 @@ def process_extra_set(best_features, test_folder, name, emotion_to_test, clf, to
 if __name__ == "__main__":
 
 	args = create_arg_parser()
-	emotions = ["anger", "fear", "joy", "sadness"]
-	#valence = ["valence"]
+	if args.val:
+		emotions = ["valence"]
+	else:
+		emotions = ["anger", "fear", "joy", "sadness"]
+		
 	best_feature_vecs = []
 	best_lexicons = []
 	best_scores = []
 	for emotion_to_test in emotions:
 		emotion_data = get_files(args.emotion, emotion=emotion_to_test)
-
 		feature_dir = args.features
 
 		lexicons = {"afinn": "-F", "bingliu": "-D", 
@@ -387,8 +392,8 @@ if __name__ == "__main__":
 				 "sentiwordnet": "-Q", "sentistrength": "sentistrength"}
 
 		# first you put all lexicons you wanna test in here
-		#lexicons_to_use = ["mpqa", "bingliu", "afinn", "negation", "s140", "emoticons", "nrc10", "nrc10expanded", "nrchashemo", "nrc10hashsent", "sentistrength", "sentiwordnet"]
-		lexicons_to_use = ["mpqa", "bingliu"]
+		lexicons_to_use = ["mpqa", "bingliu", "afinn", "negation", "s140", "emoticons", "nrc10", "nrc10expanded", "nrchashemo", "nrc10hashsent", "sentistrength", "sentiwordnet"]
+		#lexicons_to_use = ["mpqa", "bingliu"]
 		# you add the best lexicons (that make a difference) here
 		lexicons_top = []
 		
@@ -415,8 +420,11 @@ if __name__ == "__main__":
 		
 		## Sometimes we also want to process the dev/test files with the lexicon we found for the training set
 		## Do this now, since at this point we know the optimal lexicon set for this emotion
+		if args.dev:
+			process_extra_set(args.bestfeatures, args.dev, 'dev/', emotion_to_test, args.clf, top_lexicons, args.embeddings)
 		if args.test:
-			process_extra_set(args.bestfeatures, args.test, 'dev/', emotion_to_test, args.clf, top_lexicons, args.embeddings)
+			process_extra_set(args.bestfeatures, args.test, 'test/', emotion_to_test, args.clf, top_lexicons, args.embeddings)
+		
 		## Same principle applies to the translated files
 		if args.translated:
 			process_extra_set(args.bestfeatures, args.translated, 'translated/', emotion_to_test, args.clf, top_lexicons, args.embeddings)	
@@ -432,7 +440,7 @@ if __name__ == "__main__":
 		best_features = " ".join(best_feature_vecs)
 		
 		## Save train files in train folder
-		train_folder = args.bestfeatures + 'training/'
+		train_folder = args.bestfeatures + 'train/'
 		if not os.path.exists(train_folder):
 			os.makedirs(train_folder)
 		
