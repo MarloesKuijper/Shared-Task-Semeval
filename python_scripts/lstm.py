@@ -23,6 +23,7 @@ def create_arg_parser():
     parser.add_argument("-f1", required=True, type=str, help="Train file")
     parser.add_argument("-f2", required=True, type=str, help="Dev file")
     parser.add_argument("-folds", default = 10, type=int, help="Number of folds for cross validation")
+    parser.add_argument("-task_meta", required=True, type=str, help="Specify the task and emotion or valence (used in results file)")
     parser.add_argument("-scale", action='store_true', help="If added we scale the features between 0 and 1 (sometimes helps)")
     parser.add_argument("-shuffle", action='store_true', help="If added we shuffle the rows before training (different results for cross validation)")
     args = parser.parse_args()
@@ -60,7 +61,7 @@ def cv_dataset(dataset, low, up):
     #print (dataset.shape, train_X.shape, train_Y.shape, valid_X.shape, valid_Y.shape)
     return train_X, train_Y, valid_X, valid_Y
     
-def train_lstm2(train_X, train_Y, dev_X, dev_Y, input_dim, nodes):
+def train_lstm2(train_X, train_Y, dev_X, dev_Y, input_dim, nodes, batch_size, epochs, optimizer):
     # don't use -scale here
     ## Create model
     train_X = train_X.reshape((len(train_X), 1, len(train_X[0])))
@@ -71,16 +72,19 @@ def train_lstm2(train_X, train_Y, dev_X, dev_Y, input_dim, nodes):
     model.add(LSTM(neurons, input_shape=(len(train_X[0]), len(train_X[0][0])), dropout=0.1, recurrent_dropout=0.1, return_sequences=True))  
     #model.add(Dropout(0.25))
     model.add(LSTM(nodes, dropout=0.1, recurrent_dropout=0.1))  
+
     model.add(Dense(1, activation='sigmoid'))                       
-    model.compile(loss='mse', optimizer='adam', metrics=['mse']) 
+    model.compile(loss='mse', optimizer=optimizer, metrics=['mse']) 
 
     ## Train model
-    model.fit(train_X, train_Y, batch_size=16, epochs=10, validation_split = 0.1, verbose=1)
+    model.fit(train_X, train_Y, batch_size=batch_size, epochs=epochs, validation_split = 0.1, verbose=1)
     
     ## Make predictions and evaluate
-    pred = model.predict(dev_X, batch_size=16, verbose=0)
+    pred = model.predict(dev_X, batch_size=batch_size, verbose=0)
     predictions = [p[0] for p in pred] #put in format we can evaluate, avoid numpy error
     print('Score: {0}'.format(round(pearsonr(predictions, dev_Y)[0],4)))
+    score = round(pearsonr(predictions, dev_Y)[0], 4)
+    return score
 
 def train_lstm(train_X, train_Y, dev_X, dev_Y, input_dim, nodes):
     # needs -scale
@@ -107,12 +111,12 @@ def train_CNN(train_X, train_Y, dev_X, dev_Y, input_dim, nodes):
     model.add(Embedding(input_dim, output_dim=nodes))
     model.add(Dropout(0.2))
     model.add(Conv1D(nodes, kernel_size=3, activation='relu'))
+    model.add(MaxPooling1D(pool_size=4))
     model.add(LSTM(nodes))
     model.add(Dense(1, activation='sigmoid'))
 
-    epochs = 3  
     model.compile(loss='mse', optimizer='adam', metrics=['mse'])
-    model.fit(train_X, train_Y, batch_size=8, epochs=epochs, validation_split=0.1, verbose=0)
+    model.fit(train_X, train_Y, batch_size=16, epochs=10, validation_split=0.1, verbose=0)
     pred = model.predict(dev_X, batch_size=16, verbose=1)
     predictions = [p[0] for p in pred]
     score = round(pearsonr(predictions, dev_Y)[0],4)
@@ -151,7 +155,28 @@ if __name__ == "__main__":
     dev_X, dev_Y, _ = load_dataset(args.f2, args.scale, args.shuffle)
     
     ##LSTM training -- doesn't work yet, only bad results
-    train_lstm2(train_X, train_Y, dev_X, dev_Y, len(dataset[0]), 256)
+    nodes = [50, 64, 128, 256, 512, 1024]
+    batch_size = [8, 16, 32, 48]
+    epochs = [5, 10, 15, 20, 25]
+    optimizer = ["adam", "nadam", "sgd", "rmsprop", "adamax"]
+    for node in nodes:
+        for batch in batch_size:
+            for epoch in epochs:
+                for opt in optimizer:
+                    scores = []
+                    for fold in range(args.folds):
+                        low = int(len(dataset) * fold / args.folds)
+                        up = int(len(dataset) * (fold +1) / args.folds)
+                        train_X, train_Y, valid_X, valid_Y = cv_dataset(dataset, low, up)
+                        score = train_lstm2(train_X, train_Y, dev_X, dev_Y, len(dataset[0]), node, batch, epoch, opt)
+                        scores.append(score)
+    
+                    print ('Average score for {0}-fold cv: {1}'.format(str(args.folds), str(float(sum(scores)) / len(scores))))
+                    with open("../LSTM_RESULTS_{0}.txt".format(args.task_meta), "w") as outfile:
+                        outfile.write("Average score for {0}-fold cv: {1}, with nodes: {2}, batch_size: {3}, epochs: {4} and optimizer: {5}, with file: {6}".format(str(args.folds), float(sum(scores)) / len(scores), node, batch, epoch, opt, args.f1))
+                        outfile.write("\n")
+
+    
     
     ## Feed forward network training
     # nodes = [300, 125, 50, 25] #should try some different combinations at some point
@@ -174,7 +199,7 @@ if __name__ == "__main__":
     #     up  = int(len(dataset) * (fold +1) / args.folds)
     #     train_X, train_Y, valid_X, valid_Y = cv_dataset(dataset, low, up)
     #     print(train_X.shape)
-    score = train_CNN(train_X, train_Y, dev_X, dev_Y, len(dataset[0]), 128)
+    #      score = train_CNN(train_X, train_Y, dev_X, dev_Y, len(dataset[0]), 128)
     #     scores.append(score)
     
     # print ('Average score for {0}-fold cv: {1}'.format(args.folds, float(sum(scores)) / len(scores)))   
@@ -186,7 +211,3 @@ if __name__ == "__main__":
 
     # len dataset[0] = 216 + 1 (y)
     # len train_X[0] = 216
-
-
-    # nodes 256
-    # no '-scale'
