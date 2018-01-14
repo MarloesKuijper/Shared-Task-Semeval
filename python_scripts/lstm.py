@@ -172,7 +172,7 @@ if __name__ == "__main__":
                         scores.append(score)
     
                     print ('Average score for {0}-fold cv: {1}'.format(str(args.folds), str(float(sum(scores)) / len(scores))))
-                    with open("../LSTM_RESULTS_{0}.txt".format(args.task_meta), "w") as outfile:
+                    with open("../LSTM_RESULTS_{0}.txt".format(args.task_meta), "a") as outfile:
                         outfile.write("Average score for {0}-fold cv: {1}, with nodes: {2}, batch_size: {3}, epochs: {4} and optimizer: {5}, with file: {6}".format(str(args.folds), float(sum(scores)) / len(scores), node, batch, epoch, opt, args.f1))
                         outfile.write("\n")
 
