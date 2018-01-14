@@ -1,0 +1,1 @@
+Best results emotion valence: 0.74 with nrc10expanded mpqa bingliu, feature file ../../all_features/V-Reg/nrc10expanded-mpqa-bingliu_2018-Valence-reg-Es-train.csv with embeddings /net/aistaff/rikvannoord/public_html/affect_tweets/embedding_tests/jan_10/embeddings/trained_emb_mc5_s200_win45_sg0.txt.csv.gz
