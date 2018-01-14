@@ -12,6 +12,7 @@ from sklearn.preprocessing import MinMaxScaler
 from keras import backend as K
 import tensorflow as tf
 
+np.random.seed(42)
 
 '''Script that implements an LSTM network for regression
    Currently doesn't learn much but at least it does something'''
@@ -60,6 +61,7 @@ def cv_dataset(dataset, low, up):
     return train_X, train_Y, valid_X, valid_Y
     
 def train_lstm2(train_X, train_Y, dev_X, dev_Y, input_dim, nodes):
+    # don't use -scale here
     ## Create model
     train_X = train_X.reshape((len(train_X), 1, len(train_X[0])))
     dev_X = dev_X.reshape((len(dev_X), 1, len(dev_X[0])))
@@ -73,7 +75,7 @@ def train_lstm2(train_X, train_Y, dev_X, dev_Y, input_dim, nodes):
     model.compile(loss='mse', optimizer='adam', metrics=['mse']) 
 
     ## Train model
-    model.fit(train_X, train_Y, batch_size=16, epochs=20, validation_split = 0.1, verbose=1)
+    model.fit(train_X, train_Y, batch_size=16, epochs=10, validation_split = 0.1, verbose=1)
     
     ## Make predictions and evaluate
     pred = model.predict(dev_X, batch_size=16, verbose=0)
@@ -81,6 +83,7 @@ def train_lstm2(train_X, train_Y, dev_X, dev_Y, input_dim, nodes):
     print('Score: {0}'.format(round(pearsonr(predictions, dev_Y)[0],4)))
 
 def train_lstm(train_X, train_Y, dev_X, dev_Y, input_dim, nodes):
+    # needs -scale
     ## Create model
     model = Sequential()
     model.add(Embedding(input_dim, output_dim=nodes))
@@ -99,18 +102,20 @@ def train_lstm(train_X, train_Y, dev_X, dev_Y, input_dim, nodes):
     print('Score: {0}'.format(round(pearsonr(predictions, dev_Y)[0],4)))
 
 def train_CNN(train_X, train_Y, dev_X, dev_Y, input_dim, nodes):
+    # needs -scale
     model = Sequential()
     model.add(Embedding(input_dim, output_dim=nodes))
     model.add(Dropout(0.2))
     model.add(Conv1D(nodes, kernel_size=3, activation='relu'))
-    model.add(Dense(1, activation='softmax'))
+    model.add(LSTM(nodes))
+    model.add(Dense(1, activation='sigmoid'))
 
     epochs = 3  
     model.compile(loss='mse', optimizer='adam', metrics=['mse'])
     model.fit(train_X, train_Y, batch_size=8, epochs=epochs, validation_split=0.1, verbose=0)
     pred = model.predict(dev_X, batch_size=16, verbose=1)
     predictions = [p[0] for p in pred]
-    score = round(pearsonr(predict, dev_Y)[0],4)
+    score = round(pearsonr(predictions, dev_Y)[0],4)
     print("score {0}".format(score))
   
     return score
@@ -146,7 +151,7 @@ if __name__ == "__main__":
     dev_X, dev_Y, _ = load_dataset(args.f2, args.scale, args.shuffle)
     
     ##LSTM training -- doesn't work yet, only bad results
-    train_lstm2(train_X, train_Y, dev_X, dev_Y, len(dataset[0]), 128)
+    train_lstm2(train_X, train_Y, dev_X, dev_Y, len(dataset[0]), 256)
     
     ## Feed forward network training
     # nodes = [300, 125, 50, 25] #should try some different combinations at some point
@@ -169,7 +174,7 @@ if __name__ == "__main__":
     #     up  = int(len(dataset) * (fold +1) / args.folds)
     #     train_X, train_Y, valid_X, valid_Y = cv_dataset(dataset, low, up)
     #     print(train_X.shape)
-    #score = train_CNN(train_X, train_Y, dev_X, dev_Y, len(train_X[0]), 128)
+    score = train_CNN(train_X, train_Y, dev_X, dev_Y, len(dataset[0]), 128)
     #     scores.append(score)
     
     # print ('Average score for {0}-fold cv: {1}'.format(args.folds, float(sum(scores)) / len(scores)))   
@@ -181,3 +186,7 @@ if __name__ == "__main__":
 
     # len dataset[0] = 216 + 1 (y)
     # len train_X[0] = 216
+
+
+    # nodes 256
+    # no '-scale'
