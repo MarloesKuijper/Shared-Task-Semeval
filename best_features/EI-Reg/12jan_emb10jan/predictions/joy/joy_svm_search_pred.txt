@@ -1,0 +1,731 @@
+ID	Tweet	Affect Dimension	Intensity Score
+2018-Es-01432	Estás bieeen puñetas mija jajaja. 	joy	0.43347708506325977
+2018-Es-03900	Me acabo de dar cuenta que soy la persona más cizañosa del mundo 😂 pero es divertido 😈🙊😂	joy	0.6761521810758824
+2018-Es-01245	@_lisanvallejos q graciosa la primera foto, te amo o o o	joy	0.6277698873447022
+2018-Es-05943	Se que tienes un nuevo amor, sin embargo te deseo lo mejor. Si en mi no encontraste felicidad, tal vez alguien más te la dará🎶🍷	joy	0.6378449732191236
+2018-Es-02995	@KevinZeron1 De ti también 🌚 JajAjajajajaja bueno no 	joy	0.600185784593597
+2018-Es-06725	Se me cayó el celular abajo de la cama y empecé a putear: la re calcada concha puta verga. Por suerte muy normal mis puteadas. 😂	joy	0.40365544247014656
+2018-Es-05409	Maldito smirnoff , Aurora será 	joy	0.2871769326789868
+2018-Es-03742	@CariFutbolera Y no para nada esta bien mi princesa 	joy	0.2787891036879669
+2018-Es-06239	@Fernanfloo puedes jugar minecraft online seria divertido porfavor saludos 👌	joy	0.6453997535887552
+2018-Es-05996	Paso a paso y paso firme 😊	joy	0.6304584006686453
+2018-Es-02577	Qué dicha y tiene su novio al tenerla a su lado...	joy	0.4907515329400221
+2018-Es-03499	Vivo #Feliz, #Vivo #danzando, vivo mi #música, vivo #Bailando	joy	0.762768062806924
+2018-Es-01107	Que felicidad !!	joy	0.9447929787326363
+2018-Es-02075	siempre que cocino algo le mando fotos re emocionada seguro está re podrido	joy	0.4365879353284044
+2018-Es-04921	@MyLifeAsLau27 Lo se lo se 	joy	0.25542873869226834
+2018-Es-05707	Te voy a cambiar el nombre, en base a lo que haz traido, ahora te llamaras puras tragedias 	joy	0.28168229437962916
+2018-Es-02566	el mv es muy divertido me dieron ganas de estar ahí	joy	0.7539652383748154
+2018-Es-02460	Es tan divertido encontrar a alguien con quien joder por todo.	joy	0.3832691645190596
+2018-Es-02299	@Guarromantico_ Mira amigo @EPN deberiamos hacer una infreschurchur más chingona. Hay que tirar lo que no sirve 😊	joy	0.46323957087909556
+2018-Es-02102	Que sarra cumplir años en día festivo y recibir -1 regalo.	joy	0.5782308594985126
+2018-Es-00249	@rtorresabc123 @TeresaBalladare JAJAJAJAJAJAJA recién veo esto que risa hp	joy	0.6612734958354645
+2018-Es-05758	@ale_posho @RichaVega Jajaja 	joy	0.6843266017939831
+2018-Es-02935	@Sabri_CasanovaQ  demasiadoo Jajaja entonces no se, vea Titanic de nuevo 	joy	0.5072573119646826
+2018-Es-00872	Alguien que tenga un disfraz de Alicia del país de las maravillas??  Por favor!: me siento optimista	joy	0.6053804134046821
+2018-Es-05946	Eso de enojarse por cualquier estupidez ya me canso, o sea cual es el punto? Solo empeora mi humor 	joy	0.19894361180498416
+2018-Es-06903	@CamilaValleee Dale de una.  En la semana te mando 	joy	0.48341673513319633
+2018-Es-03814	Upsssss me saque sorry 	joy	0.4201299351972914
+2018-Es-03897	#DeColombiaMeGusta La gente, las empanadas, las mujeres, los paisajes, la alegría es que alo bien Colombia es muy chimba 😍🇨🇴🇨🇴💛💙❤️	joy	0.6949072019118032
+2018-Es-00886	Si aprendes a perdonar y a olvidar, vas a encontrar la verdadera felicidad. #Fav #RT #FF #UnaVidaPk #felicidad	joy	0.6237697420847885
+2018-Es-05646	@manueElLebroOn Creo q ya lo arregle 😄	joy	0.5211046455993789
+2018-Es-02133	¡¡Feliz día del amigo, bebés!! @lastkxng @ersophun @RogersK133 @g0ddxmn @AlxckK @naemoseup y a esas personitas que quedaron en facebook.	joy	0.576861504588221
+2018-Es-05282	Debería haber una versión de Rockband con cumbia peruana. "Cumbiaband" o algo así 	joy	0.35130288538094917
+2018-Es-02100	Hoy paso algo muy chistoso cuando sono el timbre. Como sabia que era mi papá salio corriendo desde el cuarto de mi mamá (+)	joy	0.49757665372035614
+2018-Es-01991	@Nextollgofjus Que sos puta?  Si yo también lo lei 	joy	0.27799006352886174
+2018-Es-06100	Como quisiera que estemos abrazaditos viendo pelis 😊	joy	0.6003494725144707
+2018-Es-04288	@OzielCVargas9 Gracias!!! 	joy	0.4794631948284634
+2018-Es-01566	Para amarte no necesito que me des la luna, solo quiero tener la fortuna, de regalarte mi amor 🎶	joy	0.6924329794231274
+2018-Es-02908	@yariela_flores Si necesito quitármelo ya 	joy	0.35731339258202915
+2018-Es-03910	@ValdattiOficial Por los huesos de que necaxista va? 	joy	0.27644080589626147
+2018-Es-03005	@pegada123 Admirable. Suerte.	joy	0.4917844276839103
+2018-Es-00552	Con razon la otra ves cuando no nos vimos y paso mas o menos esto yo estaba asi, es porque no la veo y me pongo sensible y me molesta todo 	joy	0.3130899313073307
+2018-Es-02556	@carls____ Jajajaj que agradable sujeto	joy	0.7573202324350439
+2018-Es-04475	A celebrar con gusto	joy	0.5717561100024897
+2018-Es-06793	@el_geniecito Por cada mujer un aroma, derrochando sensualidad que deslumbra. 	joy	0.6549234575554124
+2018-Es-00799	Intento hacer sonreír a la gente	joy	0.5552179767806087
+2018-Es-00703	@_DxrkJoke Me parece genial, —Comienzo a caminar hacia la cabaña 22 sin soltar a Soo— Pero hay que entrar sin hacer mucho ruido porque »	joy	0.2933313686616385
+2018-Es-06772	@Lazarini17 así te paso cuando ne viste?  	joy	0.36090608467051427
+2018-Es-05272	@PushMeJoel Si lo se jajaja ya me abrió varios pero ni para contestar 	joy	0.27801486879233434
+2018-Es-04002	yo quiero q me toque una cumbita, yo quiero q la baile Maribel, quiero ver su graciosa figuritaa, moviendo los pies, los pies, los piesss	joy	0.6466492720006538
+2018-Es-03320	Lamento decirte que tu cara no te ayuda en nada 	joy	0.28760596031003116
+2018-Es-04310	@ScarlettAguirre Es como preparar la fiesta de un hijo o así 	joy	0.33598632215149765
+2018-Es-04326	@Kotitas_Party @belindapop Eso pienso siempre, y aparece con un twit nuevo!!!! 😅	joy	0.6506745576536914
+2018-Es-04965	@AmarantaHank Solo buscan tu atencion... yo te invitaria a un cafe 	joy	0.358947785597503
+2018-Es-06160	Que lindo cuando sobra el pan y la droga jaja el money hasta ahi y las mujeres... 	joy	0.44751057187922444
+2018-Es-04064	@DebRyanShow #Rayito Jajajajajaja alegría quizá	joy	0.97302812544156
+2018-Es-06362	Hoy había un señor re gracioso en el bondi y todos lo miraban con cara de culo	joy	0.49318126745382956
+2018-Es-00633	@CattaCarp igual.....es lindo meter la pata y q se enojen ..... Jajajajajaja es una satisfacción	joy	0.6993349626094567
+2018-Es-02979	Es agradable, se siente la comodidad entre nosotros a pesar de no vernos todo el tiempo, hablar sin preocupaciones, me da tranquilidad.	joy	0.44880615371349813
+2018-Es-01537	@AlbaRosaBV Muchas felicidades Rosy!! 😊	joy	0.8134515106538276
+2018-Es-02078	Porque todo lo que hago,  lo hago por y para mí! #satisfacción	joy	0.45763395308787297
+2018-Es-06035	No soy nada orgullosa y amo ser así	joy	0.42675046681538625
+2018-Es-03945	@SoyPhoebeGrey Tsss, buenas noches.  Recuerda sonreír todos los días. 🌚💕	joy	0.7022526471188877
+2018-Es-04969	@LuliZarate6 JAJAJA 😎😎😎 por eso somos amigas, somos especiales. 😊	joy	0.7854926193374134
+2018-Es-04956	ir al supermercado a esta hora está genial.	joy	0.36375275141358326
+2018-Es-02756	Send nudes, perdón nubes* (? 	joy	0.29801667880320315
+2018-Es-03639	Me daban risa los comerciales d julio regalado dond las señoras se avientan y enloquecen cn las promos pro la realidad supera a la ficción	joy	0.5665835170928246
+2018-Es-05206	La concha de su madre con lo de la araña 	joy	0.3117795492926492
+2018-Es-01489	@beluibanez9 @elcosodelapizza Hola la re calcada concha de tu hermana volves a hacer algun chiste y te borro la sonrisa de una patada 😇👌🏻	joy	0.3740311279725657
+2018-Es-00059	Camila está tan emocionada, quiero abrazarla hasta que mis brazos ya no aguanten	joy	0.6421807595900761
+2018-Es-00057	Un mensaje basta para sonreír 😊	joy	0.5866622108118984
+2018-Es-02157	Me: Only deep and meaningful lyrics get to me Factoria: hay otro en mi vida que curó mis heridas me devolvió la alegría que daba por pérdida	joy	0.5336988784259353
+2018-Es-01131	@secretgxrden @rcalafell Gracias! 	joy	0.4789641540759629
+2018-Es-00365	Hermoso dia! Hermosa visita.  Por arrancar la rutina. #felicidad pura... 😀😀😀😀	joy	0.8395219487945724
+2018-Es-05774	@beckam102 @AdrianaRico25 Lo mismo para el chico #10 	joy	0.38155567578797883
+2018-Es-04738	@TeguaTitulado Usted es el odontologo? No sabia que había cambiado el nickname!  	joy	0.37104509103632305
+2018-Es-01427	@JeslinMorales7 Yo por eso salgo con el cell con media carga, asi si me mamo se descarga. Hay que ir un paso adelante siempre. 	joy	0.39133957725228447
+2018-Es-04222	@paulaquimor Mi felicidad va en aumento	joy	0.6698811105668927
+2018-Es-00564	@NaNoCordoba_PG Poco a poco,  😊	joy	0.5774611965253938
+2018-Es-01037	@brozoxmiswebs Complacencia, negligencia o conveniencia	joy	0.06887504259471633
+2018-Es-04085	A enrredarme a mi, a mi? Yo que invente el hilo 	joy	0.3466369455300133
+2018-Es-01193	Nada mas chistoso que hablar con alguien que cree ser interesante y ademas se sobreactúa.	joy	0.43298564995635663
+2018-Es-04850	Ni cuenta la otra 	joy	0.37813984297650577
+2018-Es-05377	@KidGuilty @cathy Jajajajaja ctm la #pipeton 	joy	0.3803915017496439
+2018-Es-02649	@dania_gamboaC Jaja el sábado trabajo todo el día 	joy	0.3297939409184855
+2018-Es-03963	Chicos el meme del dia del amigo con icardi y maxi dejo de ser gracioso en el 2014. SOLTAR	joy	0.5952438560161961
+2018-Es-00359	La vi muy abrigada 	joy	0.47472449944131506
+2018-Es-05417	Buen dia, que sea un magnifico inicio de semana lleno de éxitos y bendiciones. #SiempreAdelante #GanemoTodos #Entusiasmo #Alegria  #Dios #Fé	joy	0.7051606614859622
+2018-Es-01188	Estaba bien emocionada por mañana porque iba a ver a mi novio chiquito bebé y resulta que a la mera hora no porque puta vida. 😢💔	joy	0.48324961533252225
+2018-Es-04121	Que traidora me salió Celeste 	joy	0.2641104099992339
+2018-Es-00645	@___amsyar55 Describe plis 	joy	0.4129586179993471
+2018-Es-01090	Hoy le he dicho a un chico que estudiaba el pir y sabía lo que era. #Felicidad #LuegoDicenQueSiMeEnamoro	joy	0.5193604975673991
+2018-Es-00932	@AmyRed18 Gracias, igualmente bien inicio de semana 	joy	0.6315198581585164
+2018-Es-03543	Yo no me enojo, las personas q no suman se sacan del medio y listolis!!!!   La vida es tan corta, q no vale perder el tiempo!   #Feliz	joy	0.48066670422749863
+2018-Es-05199	Toda tv local tiene su Pedrito Sola 	joy	0.30988772872355924
+2018-Es-03534	Cada cosa que le digo se me caga de risa 😑	joy	0.37447180222501647
+2018-Es-06260	@facudelacoope10 ta bien ta bien 	joy	0.4969877232811731
+2018-Es-02742	@eliasintwiter Suerte y disfruta!!! 	joy	0.7435129130015214
+2018-Es-03662	Eres la mujer que se la vive haciendome sonreír	joy	0.6244103727602699
+2018-Es-06388	Menosmal y en clara no anda nunca nadie. Jajaja 	joy	0.31276667328743485
+2018-Es-02425	@PenaPenardz Claro que no está súper chistoso 😂	joy	0.5824687170126182
+2018-Es-02439	Taquitos de queso (del de Tampico) para el alma de un tampiqueño lejos de su terruño 	joy	0.5453659171236289
+2018-Es-05276	La cámara del Samsung se conoce 	joy	0.37307071470994346
+2018-Es-02144	kadillac juega super pussy	joy	0.4667815662311676
+2018-Es-06831	Bienestar perenne @Genrus y "Que tus ojalás nunca se conviertan en etcéteras."	joy	0.3429160046576702
+2018-Es-00636	@leoabm_ Contándonos, porque ajá 	joy	0.48058254315051757
+2018-Es-02485	J. Pelea cada mañana con tus miedos y fantasmas. Tus armas: la sonrisa, el silencio, la determinación, la palabra de Jesús, el diálogo...	joy	0.5805167277438811
+2018-Es-05021	Ayyyy ando de un drama musical 	joy	0.4585470413115483
+2018-Es-03351	@J_manuel56 Yo digo que si ... somos abogados en proceso de formación 	joy	0.45447668285874826
+2018-Es-01861	#Feliz#día#del#amigo#@	joy	0.8053879756254831
+2018-Es-06478	creo que hoy rompí el récord de ataques de risa.💜	joy	0.7338351865858264
+2018-Es-02024	Detrás de una sonrisa se esconden  tú felicidad o tú tristeza, en un abrazo tú seguridad y en tu sangre tú pasión.	joy	0.5736132712584562
+2018-Es-00132	Tengo la suerte de tener amigos de oro y por eso lo voy a festejar	joy	0.6101214637294579
+2018-Es-03736	Estamos pensando en que le puedo mandar y salte con él le digo SABIAS QUE AUMENTARON EL PAN 	joy	0.4956402433807003
+2018-Es-06672	@MishaelMejia ¿O ni twitter sabes utilizar? Clasista, ignorante y además bueno para nada con la tecnología 	joy	0.2759490419911866
+2018-Es-04888	Vos tenes que estar solter 	joy	0.3882141813585271
+2018-Es-06149	Y ahora es cuando más me doy cuenta lo afortunada que fuí.	joy	0.5802976331992136
+2018-Es-06513	@RealGDT bellismo trailer, una vez más sorprendiendonos querido Guillermo, gracias por llenar nuestros corazones de esa agradable oscuridad.	joy	0.709907335276444
+2018-Es-01219	#DigimonETC se arregloooo! Tenemos tamers, señores #felicidad	joy	0.7214022690697677
+2018-Es-02754	@jealeanetdiez brutal, felicidades, no sabes cuan orgulloso estoy de ti!	joy	0.7323993760507284
+2018-Es-05122	@erickf4lopa No se por que preguntan esas cosas te juro 	joy	0.3539749985895985
+2018-Es-04612	Tengo más antojos que una embarazada 	joy	0.43662536302383315
+2018-Es-02371	Soy dichoso 😌😂	joy	0.5972529642348112
+2018-Es-00905	Quién juega Chess?	joy	0.2868328923886981
+2018-Es-00864	Por si algún día necesitas a alguien con quien hablar, aquí estoy 	joy	0.44614168447224795
+2018-Es-04735	@ModernYeezus 💖💖 lo mejor fue el debate de artículos constitucionales con los policías 	joy	0.4957917225265019
+2018-Es-01348	Acompañenme a vivir esta triste historia 😂	joy	0.35481778298469663
+2018-Es-03860	@ferdipoca Con todo gusto 😏	joy	0.5935467330951598
+2018-Es-02581	Weón, tengo el agrado de decir que mi profesora de historia es  una de las docentes pro del colegio más "bacan" de chillan.	joy	0.5335066277590275
+2018-Es-06464	No me canso de ver los videos 	joy	0.45261871413378424
+2018-Es-04067	@LorenzoArado Feliz día Loren!👐💕	joy	0.8045676218100994
+2018-Es-01440	Su, me caes joya culiadaso ,me cago de risa con vos en el curso	joy	0.6922950856318004
+2018-Es-03484	@mariobautista_ Por esta, y una mil razones más, estoy orgullosa de ser #Bautister	joy	0.6358469284322568
+2018-Es-02313	Si no hablo en el grupo de familia no uso el wsp 	joy	0.3050574749884292
+2018-Es-01164	Me da risa q se creyeran lo de v o r	joy	0.4425809161560638
+2018-Es-01275	Mueran todos. 	joy	0.26467624744589174
+2018-Es-00053	Estoy preparando un final mientras tomo té de limón al que le agregué más limón y como un Guaymallen de fruta. Ya sé que soy divertidísima	joy	0.4553841304470522
+2018-Es-04440	@Camila_Cabello estoy muy orgullosa lpm	joy	0.76280674194447
+2018-Es-06115	Demasiada tensión. Días definitivos en los que todo se juega.  Que no se pierdan las esperanzas. Hay que seguir luchando siempre.	joy	0.39669505576784264
+2018-Es-00519	Que afortunada que soy por tener a la gente que tengo en mi vida. Que lindo que lindo que lindo todoooo💞	joy	0.8586560609982947
+2018-Es-05778	Usted afirma ANC traerá paz y prosperidad. Yo pienso resultará en dictadura, miseria, bloqueo económico, represión, humillación y Migracion.	joy	0.3100472102236894
+2018-Es-01477	@monsexgee La mesera por que la gefa es conmigo, bendito sea el descuento jajajaja 	joy	0.5768746763371115
+2018-Es-04903	@RenaCorrea15 También 	joy	0.31286622503002354
+2018-Es-05786	@dieg0_ps Esa vara era un trío waiting to happen 	joy	0.36560871240822573
+2018-Es-00611	@monlaferte Gracias por siempre hacerme sonreír incluso sin conocerme, gracias por hacerme saber que siempre estás aquí, conmigo 😢💕💕💕	joy	0.6339441469825211
+2018-Es-03972	@thekingkapo @danielh76742506 @Iturio12 @canchamural @Chivas @atlasfc Jaja que risa dan cabras	joy	0.6293666364342725
+2018-Es-02132	@MtzAnaid Nunca en tu vida habías visto tan buenos memes 	joy	0.4897868308988505
+2018-Es-00555	La estación radial de conversación del GTA 3 sigue siendo chistosa y parodiando nuestra sociedad apropiadamente.	joy	0.5554779781107329
+2018-Es-02251	Quiero viajar por el mundo. 	joy	0.47973145611802387
+2018-Es-02964	Van a vomitar cojudeces como "profesionalizar", "efecto social" y "responsabilidad"... gente como Juliana Oxenford, claro. 	joy	0.32538672432728105
+2018-Es-02610	@Maribolika Encontré una modelo ucraniana con tu foto, te pille poh comadre 	joy	0.5588281665375388
+2018-Es-06652	@jlruizmlg Es un cambio fuerte porque llevo ya varios años con Linux pero todo es acostumbrarse. Eso o un Mac 	joy	0.30905988394754874
+2018-Es-03096	Acano de descubrir la opción de "conversación secreta" de messenger, y aunque me parece entretenido me pregunto si todo esto es necesario.	joy	0.37911004885500693
+2018-Es-02839	Diay por dicha voy pasando Conta, Proba y Álgebra 😂😂😂🤦🏻‍♀️🤷🏻‍♀️	joy	0.5598043791575544
+2018-Es-02607	Madrugar es de guapas ¿no? Pues espero ser hoy miss universo... @lavecinarubia 	joy	0.5137190129145717
+2018-Es-02868	@mgalinero Total, aunque es mejor si es el mismo para todos los momentos 	joy	0.4885498901084853
+2018-Es-04531	@santiagoforero_ ¿Juegas? 	joy	0.22191284685142965
+2018-Es-03574	Ya lo conocen alegre hasta el tope.. me dan ganas de tomar🎶👻🍻	joy	0.6277240729491891
+2018-Es-05941	¡Feliz día del amigo!	joy	0.5578964574102794
+2018-Es-00815	El camino de ma felicidad, es ta verdad.	joy	0.6427737162897853
+2018-Es-01471	@futpicante Que Suarez no juega para el Barca???? Jajaja	joy	0.43519237712964925
+2018-Es-03087	Me tengo que levantar temprano y Juan me trajo a un cumple de su compinche. Soy lo mas 😊	joy	0.5844528090641872
+2018-Es-05913	@SoyFan10 #HailCantera Estoy orgulloso del pescado	joy	0.57287100096325
+2018-Es-03394	@KevenYHensy Pero la verdad asta yo estaría orgullosa de tener a un hijo tan inteligente y talentoso	joy	0.528200170160575
+2018-Es-01841	Por casualidad mañana es feriado ? 	joy	0.4014877270106809
+2018-Es-00758	@AbySampallo @FeerSalass Perdón, se me va el pedo 	joy	0.3942412866720631
+2018-Es-04974	#Felicidad es cuando tu oncologo te dice que los estudios dieron perfectos y que te ve el año que viene	joy	0.5601431717165843
+2018-Es-03135	@lauracarrranza Tu vas a quedar mal no yo 	joy	0.13215243617242195
+2018-Es-03559	@brizuela27_cone @v_rgzz Es una satisfacción verte jugar de nuevo. Muy bien cone, con todo !!!	joy	0.7330325815075966
+2018-Es-02490	El día de mañana estará emocionante.	joy	0.5654415826524347
+2018-Es-03949	Ya se lo mande, estoy muy contenta ahre	joy	0.6926227267324196
+2018-Es-04534	@HeyVampi__ Probaré la del micro a ver. 	joy	0.4333429237623803
+2018-Es-04312	Si te hubiera conocido en 2012.. igual me hubieras encantado bie.	joy	0.4458572613401158
+2018-Es-02760	@AAlbertoAA No.hay que alegrarse de la muerte ni de tu peor enemigo	joy	0.2208430299186287
+2018-Es-05290	¡¡FELIZ DÍA DEL AMIGO CHAMOS!! 😴😴	joy	0.4486640706590624
+2018-Es-01668	@R0ck1t0 Pero, apenas en formación, yo prefiero el término 'estudiantes' 	joy	0.33841198153266355
+2018-Es-00649	@J_manuel56 Kha?! Ni xq ya cerre cursos y termine la tesis 😢💔 *asesino de ilusiones 	joy	0.2248233043207601
+2018-Es-03154	@LauriDelfi Sos graciosa no?	joy	0.36605214325793506
+2018-Es-04697	Mira si me mande cagadas en la vida 😅	joy	0.43722854985328746
+2018-Es-01642	@MenaPablOficial Jalo🌚 no importa que mañana me tenga que levantar temprano 	joy	0.21233840794480535
+2018-Es-05089	Que bueno mañana tengo franco devuelta 	joy	0.5066319471493765
+2018-Es-04532	Nose desde cuando tengo esto no pero coso... Solo me siguen 72 personas q fracaso lo mio no sirvo para estas cosas 	joy	0.2855111739321114
+2018-Es-00662	Me voy a dormir feliz 💜	joy	0.6432283149734092
+2018-Es-04824	@YoSoyDeLeon Leonés hasta el alma (todavía hablo cantadito) pero también ya soy de esta ciudad 	joy	0.4309824027185342
+2018-Es-05279	@BurgosChochy Bueno dale monurdoooo, el que te viene a buscar entra y te despierta?,  hace ese servicio tambien monooo? 	joy	0.46133065200971485
+2018-Es-03835	@Vane_Twitts Utaa, no pues ya estuvo que no van a festejar 	joy	0.29561468326783685
+2018-Es-03701	Pa que me das follow si luego se lo vas a quitar 	joy	0.34093567089310833
+2018-Es-01305	No puede decir bien "vida loca'' es muy chistoso.	joy	0.4859354710978558
+2018-Es-02016	@AWE0NA0Y00NGI   ESTA TIPA ME DEFINE EN TO' SUS TWEETS. ¿CÓMO LO HACI'? 	joy	0.29666711695022124
+2018-Es-05002	@_AngieArdila_ Disptame esta 	joy	0.27236073162368224
+2018-Es-06681	@MariannaADzib @CheloB18 El jueves o viernes 	joy	0.3915596922241655
+2018-Es-06727	No quiero cerrar estas heridas no quiero curarme de ayer, prefiero llorarte de alegría 🙏🏼🌼✨	joy	0.3099698833001066
+2018-Es-02416	"Optimista" de @elcaloncho es vida, alegría y amor.	joy	0.7705067750541201
+2018-Es-04776	menos mal que por el tl no me he topado a ninguna rata hablando pestes de jongin, esto es a lo que llamo felicidad	joy	0.39839374727171234
+2018-Es-02751	Pensé en el para decirle feliz día y creo q le re mil chupo un huevo	joy	0.5881901124118245
+2018-Es-06676	Cuando se #pelean tb deben subir fotos, no solo cuando hay #felicidad @LaRadioRedonda @XavierOZevallos @ADE_personal	joy	0.5072915742489987
+2018-Es-06740	@chiagavertino Por suerte nunca entable una conversación dónde tuviera que decirlo	joy	0.42861552348815873
+2018-Es-06087	Kris no para de refregarme que hoy sale, q agradable sujeto	joy	0.4690679004694142
+2018-Es-03781	@L0UISDRUG *se de cuenta de lo idiota que es y tambien de que no es graciosa ni cool siendo racista, una hater mas, no le presten atencion	joy	0.25462768450953016
+2018-Es-00026	Fa las minitas lo acobardaron con las fotos al de combate, pobre vago! 	joy	0.372053349875271
+2018-Es-02042	Con q cara lo miro ahora? 	joy	0.4504460915732857
+2018-Es-01379	Esta negra mentirosa se hace la graciosa y no le sale	joy	0.2652546182501988
+2018-Es-04651	Calló piedra sin llover 	joy	0.07690100816633505
+2018-Es-04565	Es gracioso y lindo que mis amigos me pregunten cómo combinar su ropa 😂	joy	0.7423116047968206
+2018-Es-01011	Igual le dije a mi abuela "quédate tranquila que lo que menos tengo es un embarazo, puedo tener lo que quieras pero no un embarazo" 	joy	0.41001797019276925
+2018-Es-06060	@Aldana56789 Aaah man  no sea pue asi prima 	joy	0.3745398712067011
+2018-Es-05358	Su sonrisa es igual de linda que el	joy	0.7090749944123167
+2018-Es-04757	Puedo decir qué son Vacaciones casi casi hasta qué me digan cuándo. 😅	joy	0.5706764430287761
+2018-Es-06135	@alondraheravil @miranda_patino eres toda una doña 	joy	0.3992663092978257
+2018-Es-05381	Hace años no disfrutaba de un partido de fútbol en la cancha, ahora todos transmiten en vivo la jugada había sido 😅	joy	0.49002466153303786
+2018-Es-02924	10 el que juega poqui! Te quiero broda	joy	0.5858868779318736
+2018-Es-06233	@FernyGraciano Ferny muy buenas noches, espero que hayas tenido un buen día, descansa y cuidate mucho 	joy	0.6044515618356083
+2018-Es-06266	Porque mierda soy tan orgullosa loco por que por que POR QUEE	joy	0.35082193030508724
+2018-Es-04942	@polloxhs Era como cuando retan al hermano chico y está como "y como no le decí eso a mi hermano!!!1!1!" culiao insoportablemente hueón 	joy	0.2541639454010361
+2018-Es-00287	#EsDeMalGustoQue las 🍻🍺 esten quemadad porque les pierdes el gusto	joy	0.41437240567573125
+2018-Es-03274	@justinbieber será que tu puedes darme la felicidad de seguirme alguna vez en tu vida	joy	0.7003812578812543
+2018-Es-04151	@RafaelCrack0911 Lo aceptó 	joy	0.3882742387374027
+2018-Es-05441	SM: risa radiante. Quiero tu sonrisa y tus uñas. Linda por donde te miren ♥	joy	0.788748344241464
+2018-Es-04216	Me encanta más que nadie en este mundo, soy muy afortunada de tenerlo a mi lado.❣️😩	joy	0.7219580201895779
+2018-Es-01848	los amo mucho son muy talentosos bailan super bien (su sincronización is no joke) cantan como los dioses son hermosos rapean genial	joy	0.6571416604860079
+2018-Es-04650	Me está comenzando a gustar @BTS_twt !! Suenan tan genial	joy	0.5521664639808916
+2018-Es-01204	Gasta dinero es un gusto; no es un dinero perdido	joy	0.2554929566698096
+2018-Es-00078	@vanedesantiago Aparte en invierno siento como que no disfrutas por frío intenso ☹️y en otoño está lindo y agradable	joy	0.45988750353674174
+2018-Es-06046	#DeColombiaMeGusta la alegría de la gente❤	joy	0.7857956925398426
+2018-Es-00541	@lozan13 mucha suerte y los 9 reseñados o mas que lidiais los mas serios y no tengais bajas suerte	joy	0.33105227772110074
+2018-Es-00117	@delsimonee "PANCHOOO" "sos diosisima" "Me deprimis" "Me caes re bien" "muy loca "  " Re divertida"	joy	0.4955821114523352
+2018-Es-04130	@Camila_Cabello @BrunoMars Alegre por ti bebe cami	joy	0.7693739125003896
+2018-Es-03245	@davitinho_ Gracias hermano 	joy	0.4851942819800965
+2018-Es-05266	Gracias @BBVAContinental por hacer la pre venta de entradas para el Perú vs Colombia. 	joy	0.5170245359948105
+2018-Es-00978	@DelosCobos22 excelente profe gracias por sus buenas vivras siempre lo recordamos con agrado por que nos dio buenos triunfos a la  aficion.	joy	0.6127248894742765
+2018-Es-00510	Felicidad es: enjambarte una dosis de waffles antes de dormir 🐽🐽🐽	joy	0.707764184997731
+2018-Es-04020	@michi_alison Tienen que ser números escritos o pueden ser 1,2,3... ? 😅	joy	0.40853725729724805
+2018-Es-05516	@cristobalncs @CamiloIgnaciov Me encanta porque la abuela ni se movió para agarrarla 	joy	0.5241416617037347
+2018-Es-00234	Y luego todavia despertar y ver que me guardaron una hamburguesa para cenar! ❤ Esta pequeña parte de mi vida se llama felicidad.	joy	0.7819930336750289
+2018-Es-04476	@Tatilutteo Igual yo los preferiría a ellos en la gira antes que la susodicha 	joy	0.324887389712846
+2018-Es-00154	@Lelecbacity @TuttinMarquez JAJAJAJ que les pasa oigan 	joy	0.5129711009456481
+2018-Es-05815	Era para ahorrar tiempo uacho 	joy	0.40389135733394027
+2018-Es-06144	@chicaacocodrilo Porque no me dices que si, y después que no y con esas cervezas no se juega	joy	0.32815973270665233
+2018-Es-01217	@liliamaranta Hasta q no compre su pasaje, no voy a ilusionarme 😂	joy	0.35698518303343824
+2018-Es-02321	@Kosmosvfx21 Jajajaja 🤷x500 	joy	0.6844144623102799
+2018-Es-06531	@Camila_Cabello @BrunoMars ME TIENES ALTERADA EMOCIONADA GRITANDO Y SIN PODER DORMIR 😅	joy	0.6797627144016922
+2018-Es-00964	@el_Jorda Lo he intentado.... Cómo eso de ser gracioso en tuiter pero no me sale y me frustro. 😅 Pd: diez años? No creo q seas tan viejo.	joy	0.46337434774719594
+2018-Es-00647	@OscarSe46809331 @MasterChefMx Eso eso eso  ya que la saquen y se valla a su pueblo a llorar 	joy	0.4236349126820051
+2018-Es-05460	Mas de una vez se me pasó por la cabeza que no se por que yo me iba a morir de esquizofrenia o iba a ir a alcohólicos anonimos. Nunca bien 	joy	0.3066222048229547
+2018-Es-01669	@babythin Si tan divertido que es hacer dramas, aunque lo manden a uno a la mierda 😔😔 pero que rico  	joy	0.3812084489277647
+2018-Es-00315	Los videos de el dipy intentando cantar en ingles me causan menos risa que el canal rural	joy	0.6569721319422077
+2018-Es-04902	voy a intentar hacer matching dices UWU y estás ORGULLOSO	joy	0.5776487103200934
+2018-Es-04923	@_zxphyr Al menos no me hago el gracioso cuando no lo soy. No lo eres Zép. No lo eres.	joy	0.36935510135185134
+2018-Es-02755	Con el mame de Peña me he dado cuenta que muchos no saben usar comas. Okay, a mi también me fallan pero no tanto 	joy	0.35592638651871866
+2018-Es-00883	Pobre mi novio, casi le arranco la mano en el cine 	joy	0.31227381932457215
+2018-Es-02335	Se viene el calor y nose qué voy a hacer la ropa 	joy	0.35959523162873347
+2018-Es-01028	¿Se habrá quedado olvidado mi optimismo junto a las otras hojas que arranqué?	joy	0.5276941744504633
+2018-Es-01044	A VECES POSTA ES TAN BEBÉ TIERNO RIÉNDOSE TAN ALEGREMENTE, LO QUIERO ABRAZAR MUCHO	joy	0.7307366378943723
+2018-Es-06834	@Daii_Tsubasa21 cuando vos puedas y nosotras tambien osea 1000años 	joy	0.5688328218372398
+2018-Es-05010	@JonasAGP Cállate jonas nadie te pregunto 	joy	0.2732902613189167
+2018-Es-05113	Parece piola " la vecina " 😂	joy	0.5380849258737908
+2018-Es-05153	Se van a topar con mucha mierda con cara de amigo, y a esos hay q meterles un boleo en el orto. A los demás, q son los de verdad, feliz día	joy	0.43708023250437783
+2018-Es-03978	@SomosRayados Le clavan dos pepinos y uno segurito es a su palo. 	joy	0.3883611304967762
+2018-Es-00657	@soyflori es re gracioso porque te conocí cuando me pediste los datos SALIENDO DE KRAVI y ahora escuchas slb ahre te quiero	joy	0.6306891377916337
+2018-Es-03485	Si el Chacon llegó a Magdalena yo le doy la vuelta al mundo 	joy	0.5410526468825214
+2018-Es-03376	@GASPARlNA Por interno.  Broma 	joy	0.34332919651161947
+2018-Es-03648	Arroba fans de Bruno Mars traten bien a Camila porque es una bebita y esta emocionada y porque tengo la chancleta en la mano	joy	0.5242715744910351
+2018-Es-06083	@TodoRating @telefe Y a esa hora no hay nada 	joy	0.31565913229431336
+2018-Es-04131	Me hizo click la cabeza aunque nadie lo crea 	joy	0.3522800869325146
+2018-Es-03790	@J_Ghoul22 No se, pregúntale a tus amiguitas 	joy	0.2892547289292819
+2018-Es-06199	Aléjense de los buenos ciudadanos feligreses del optimismo neoliberal. No necesitan esa clase de negatividad en su vida.	joy	0.4224576083699498
+2018-Es-04240	Casi me da un paro al ver a mi tío y yo con mi cara de wtff escondiendo mi bebida 	joy	0.4469901050903032
+2018-Es-06311	@Kabir_Grimm Con gusto revisamos la falla de tu servicio, al tener avances te contactamos.	joy	0.503851909182516
+2018-Es-03192	🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴FELIZ DIA DE LA INDEPENDENCIA!!!!! 🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴🇨🇴	joy	0.5390832634189944
+2018-Es-01135	@javier_ruescas Javi @verogv15 canta muy bien que video tan divertido un book challenge muy gay	joy	0.532154069119865
+2018-Es-04250	A esta hora a uno se pone sad, horny, alegre con hambre	joy	0.4249407409866551
+2018-Es-01707	Con semejante frío 😆	joy	0.4724101671295433
+2018-Es-02580	@Camila_Cabello @BrunoMars ESTOY TAAAAN EMOCIONADA	joy	0.8918739117127099
+2018-Es-00653	La verdad que más que satisfecha con las amigas que me tocaron😍😍😍😍 No pido nada más que ellas!! La que no está no hace falta. Gracias Dios💞	joy	0.4705650639027528
+2018-Es-06203	Tenemos que olvidar un pasado que pesa y pisa. Y sonreír a vidas mejores.	joy	0.5486542795109408
+2018-Es-02982	Fue alto día y saber que mañana llegan mis abuelos hace que lo termine mejor. Me explota el corazón de felicidad y ganas de verlos❤	joy	0.7794901665851603
+2018-Es-06095	A mi las cosas se me dan porque siempre creo que se me van a dar, si alguna vez pienso en negativo en el fondo siempre soy optimista 	joy	0.5673912668145527
+2018-Es-03172	#DeColombiaMeGusta su gente linda, divertida, amigable y echada pa'lante.	joy	0.5867979088402699
+2018-Es-02188	@kzla_ Buena técnica? 	joy	0.33732864776454086
+2018-Es-01637	@DebRyanShow Me da mucho gusto por ti y más si es lo que te gusta !!! Éxito !! #Rayito	joy	0.5965344112794
+2018-Es-00377	@KevenYHensy Y yo también estoy tan orgullosa de ustedes 😍😩🙈	joy	0.7016055473985003
+2018-Es-06601	@LaariDalfonso @MelRomano_ Juega a dos puntas...	joy	0.3365563873154656
+2018-Es-02969	Qué lindo es pensarte 	joy	0.5208151088806132
+2018-Es-05345	La voy a subir a wsp 	joy	0.47890382913398283
+2018-Es-00094	@dua_cabello Y claro que tienen fandom y para rato cheeee 	joy	0.5886424637804231
+2018-Es-02741	Veo el vídeo del juego del yogurt y me tiento de como se reía mi tía 	joy	0.6403300003122219
+2018-Es-03264	Con vino de ese que pinta la lengua 	joy	0.50978876794497
+2018-Es-00494	@Fer17ElViaducto @Ayee_Taverniti Queridoooo, para esa peli se necesita concentración! Jaja. Es genial, me alegro que te haya gustado ajja	joy	0.7258487190927558
+2018-Es-05478	@EileenWally Gracias! 😊 igual para ti! 💪	joy	0.6370352719020457
+2018-Es-05911	Pobre el pibe que va ser novio mío en el futuro... Será maltratado verbal y físicamente  	joy	0.16557345869717038
+2018-Es-01514	Justo cuando mi hermano queria estar conmigo lo corri 	joy	0.5059168787081554
+2018-Es-02822	@romoyano_26 Tal cual, el tema es que pasó caleta de tiempo dejando plsp enamorados, que hasta le compartian sus claves de Netflix 	joy	0.35636316694162257
+2018-Es-00463	Me parece que me falta una noviesita durante la semana ahno 	joy	0.3175257802673957
+2018-Es-01785	@Pabalsesgenial Jajajaja sii  😅	joy	0.8099614197561664
+2018-Es-00609	Se revoluciona tw con zinos 	joy	0.43681175942510997
+2018-Es-02632	@QuimiCarol_ Ke buen servicio 	joy	0.4699586022825305
+2018-Es-04943	Parce yo veo mis fotos y me doy cuenta que soy re feo 	joy	0.46256308975316546
+2018-Es-03488	@polituitts No que #TvAztecaMiente? 	joy	0.1697506425864867
+2018-Es-03130	Toda la ropa que me regalaron me quedaron gigantes y la zapatilla me quedó chica. Qué suerte la mía	joy	0.41919067927846704
+2018-Es-06536	@soydarygro Que no van a regresar 	joy	0.2206846176476735
+2018-Es-00443	Ver cuanto falso va a haber va a ser muy gracioso, a lo experimento social, pues algo así :p	joy	0.3839928551451463
+2018-Es-05169	Creo en el amor porque nunca estoy satisfecho...	joy	0.5241298032444752
+2018-Es-03687	@maferestrada @clauprdzs RT X 100000000 y la conozco desde hace mas años que tu 	joy	0.6301613540093765
+2018-Es-02470	RumiZzZ Feliz. Mis dos equipos ganaron hoy 💙⚾️👊🏽	joy	0.7210985416895033
+2018-Es-06590	Un aplauso para esas cuentas que te mandan amor a un que no te conoscan	joy	0.4082452237949236
+2018-Es-01851	@sofia_gamb Desde aquí lejos de él me imagino LA hablada que se podría echar 	joy	0.5098082737315999
+2018-Es-00010	@iPxdfoot —la ojiverde esbozó una amplia sonrisa y correspondió el abrazo.— Claro dime en qué puedo ayudarte.	joy	0.5591608310465876
+2018-Es-02074	@ForoPacheco @andrespalacios1 @PaolaNunez Es unico maravilloso que bromista 😂😂😂😂💋💋❤❤	joy	0.5476362758087148
+2018-Es-06791	Haber que onda curious cat 	joy	0.37764350347941866
+2018-Es-05041	Es gracioso lo hipócritas y falsos que se ven saludando a alguien y diciéndole "amigo" 1 día mientras los otros 364 les chupa un huevo	joy	0.3535830451216699
+2018-Es-05124	@NoticiasCaracol @NairoQuinCo Ánimo Nairo, eres nuestro Héroe, gracias por tanta alegría que nos has brindado, otra será 👏👏👏	joy	0.7298066122001214
+2018-Es-01860	Personalidad de C + inteligencia de J + Físico de A + Retórica de O = El amor de mi vida. No todo se puede tener en esta vida. 	joy	0.45486296131812204
+2018-Es-04229	Jajajajajajajaja se te escapó el corazón jajajajaja mimoso 😂	joy	0.8357769614098123
+2018-Es-06503	No cuidó mis libros menos iba a cuidar mi corazón 💔 	joy	0.44375679824001196
+2018-Es-01988	¿Por qué soy tan orgulloso? 😅	joy	0.5746799862575765
+2018-Es-05449	@Fer__Stl Justo el día que se metió con un camión no estaba él. Es genial.	joy	0.41158473940823054
+2018-Es-05673	Solo uso fb para guardar memes 	joy	0.39225280605776813
+2018-Es-05518	Cuando tengo tan buen genio siento que algo muy malo va a pasarme. 	joy	0.5426696951585903
+2018-Es-01610	@passagesoflife Así estaba viendo 	joy	0.25840864135309294
+2018-Es-00794	Yo tmb puedo bardear igual 	joy	0.6126682183228954
+2018-Es-01904	@omarcrl Entonces mucho menos el amor de mi vida 	joy	0.6290246049564461
+2018-Es-02289	Alguien que me de una arepa? El hambre que tengo no juega carro	joy	0.14750786151874862
+2018-Es-00688	Proximamente contenido nuevo, genial y estupendo manada en #señiorlobo #gamers #youtubers #juegos #otakus #BuenosDias #felizjueves	joy	0.8071877050829452
+2018-Es-04149	Ya quiero que sea mañana por la tarde para sentir la satisfacción y cariño de estar entre sus brazos	joy	0.6941168755779277
+2018-Es-04947	Me senti extraño, no podía hacerla sonreír 😔	joy	0.4413225088581565
+2018-Es-02693	Seguro no. Ramen debe ser agradable y por eso lo escondes.	joy	0.3789300167484207
+2018-Es-03545	@Sexy__Queens @MexicoVoyeur @fersw82 @nalgometro Wowwww ese color menta se te ve genial	joy	0.5853685553479548
+2018-Es-02310	@pilypardo Realmente guapa jaja 	joy	0.6712612692836353
+2018-Es-02704	@xxxeyla Yo he leido ciertas cosas 	joy	0.2831770705326766
+2018-Es-05221	A que hr pasa el tren del recursado? 😂	joy	0.4234353561435405
+2018-Es-04750	¿Y si te invito a desayunar unos hot cakes de Frida en Coyoacán? 	joy	0.36223018457877204
+2018-Es-01324	Creo que me gusta que me ignoren por eso será que cuando me dan bola ya pierdo el interés en esa persona 	joy	0.3741879543173267
+2018-Es-05553	#MasterChefMx Noemi. Cuantas más Peña???? Ah! No verdad..   	joy	0.4251871997735757
+2018-Es-02795	@juanbrandolin04 @Micka_Martinez0 @nazaromanosss @mica_paolo14 que agradable sujeto este juan	joy	0.54443111124255
+2018-Es-02663	Larga Vida Al Envidioso Para Que Vea To' Lo Que Yo Gozo!🎶 -😏	joy	0.5080095514285083
+2018-Es-03893	Lo mejor es cuando cuentas algo emocionado y los demás se emocionan contigo	joy	0.6256292533703725
+2018-Es-05387	Sentir esa sensación de quererte enamorar... 😅	joy	0.5102873046897416
+2018-Es-00674	@Camila_Cabello @BrunoMars NO PUEDO ESTAR MAS EMOCIONADA POR TI Y POR LO QUE HAS LOGRADO	joy	0.7297822351273733
+2018-Es-05931	ESTOY LLORANDO DE FELICIDAD	joy	0.7137666011155788
+2018-Es-06194	desde nene he sido posero, a quien no le gusta serlo ...todo es imagen... todo es fake 	joy	0.3265334068178715
+2018-Es-03143	Vivo #Feliz, #vivo #Danzando, vivo mi #música, vivo #Bailando	joy	0.762768062806924
+2018-Es-03976	@heavydrjosh  Ay, Sof tu eres súper especial, siempre nos reímos de estupideces, es lindo y agradable. Musho loff <tres	joy	0.8869778719663699
+2018-Es-00223	@Gtafit0 Tu solo es RT  	joy	0.4071228688274456
+2018-Es-02953	Tengo sentimientos de tristeza al ver que mis compañeros ya están en prácticas 😔 pero de alegría a la vez de que cumplan este peldaño 🤗😍	joy	0.44273487759928526
+2018-Es-04561	Mi horóscopo de “cuidate de los dolores estomacales” y llevo dos hras retorciendome de dolor.  Como no quieren que sea tan creyente de eso 	joy	0.4796265321189271
+2018-Es-00210	Lo bueno de que no este el Eze en casa es que puedo tocar y marcar el ritmo con el pie sin que venga a decirme que deje de golpear el piso 	joy	0.4338330523047838
+2018-Es-05537	Bueno uno no, par de botellas, unas cuántas, bueno sii 😆	joy	0.6793960669173182
+2018-Es-00515	@SebaGuerrero19 @NottoBerna Jajajaja sobre todo porque podían mantenerse parados 😂	joy	0.5423686494296451
+2018-Es-02492	Tengo las conversaciones más interesante con el. 😊	joy	0.6828241117148868
+2018-Es-05492	Copia de seguridad: recreo para fijaste twitter	joy	0.34104354761281336
+2018-Es-04673	@iugeloc Por una vez no me has respondido en Twitter vacilandome. Estoy: contenta.	joy	0.4636997798417513
+2018-Es-03255	Pero al siguiente día que gusto conocerte y aqui todo se olvida💃🎶	joy	0.3658143359661608
+2018-Es-03734	@chochos Mejor que los horrendos corsé que le ponian, si está el saquito 	joy	0.4145474491891414
+2018-Es-00599	Que sujeto agradable mi madre	joy	0.4339758865705234
+2018-Es-06240	@Rusmandown Yo lo entendí pero bueno no fue gracioso :/	joy	0.38045078582738595
+2018-Es-05143	@kenjigi Jajaja ay soy iop vv :3 	joy	0.5657008502248766
+2018-Es-03050	#FanArmyFaceOff #ARMY Estoy escuchando Spring day y casi lloro, me siento orgullosa.	joy	0.8247832120437906
+2018-Es-06050	@AngieFretes Yo te aguanto 	joy	0.44713368195251074
+2018-Es-04887	Todos los amigos le van a mandar mensajes porque todos lo amamos, me pone contenta, pero me va a responder tipo 10 de la noche a mi...	joy	0.6128457411394985
+2018-Es-00972	El que con muchas juega con ninguna se queda. 😎😌👍	joy	0.48719600930148216
+2018-Es-00813	Duermo abrazada de mi stitch que más puedo pedir 😊	joy	0.6717188950406716
+2018-Es-04639	@MalejaRg_18 Las amo, #Familia #Felicidad 😍❤️💏🦁	joy	1.0240133802327276
+2018-Es-02988	@DominguezViki Te faltó la ratita y hubiera sido más gracioso jajajajaja	joy	0.5917027804385715
+2018-Es-05729	Llegamos a Madrid, hala... Un aplauso para el chófer de la nave 🚀 lalalalalalala	joy	0.5010794947546959
+2018-Es-03680	Chiks pls, no es gracioso que se hagan pasar por Sebastián justo ahora   #SebastianVillalobos #PDCs #SaakTrendy #KCAMexico	joy	0.37570269365053727
+2018-Es-03435	@_ELBRAYAN_ Muy malvado él que juega así con uno jejeje	joy	0.5442285508040658
+2018-Es-04039	Agradezco ah mis amigos por poder estar aki con migo y poder ser parte de mi vida: me siento emocionado	joy	0.8785969416006518
+2018-Es-05661	@MiguelStraube que oso mi yo del 2012 jajaja , te refieras de pela yolo tuitazo? , con el diego 	joy	0.5000062568237718
+2018-Es-03462	@anvalfajac taba bueno el incienso parece 	joy	0.49878373876466636
+2018-Es-04102	¿Ustedes también tienen esa risa fingida cuando un niño está fastidiando pero no le pueden pegar ni regañar porque está la mamá? Dolor puro.	joy	0.18339702141910336
+2018-Es-04901	@magalopezl @chrisfeaterick Que violencia 	joy	0.26080995721709394
+2018-Es-04090	@malenyaguilera @clauprdzs JAJAJAJA creo que ese día nunca llegará para ninguna de las 2 	joy	0.5010478094918407
+2018-Es-01968	El día del amigo es como la navidad y año nuevo, todos se aman sólo porque es un día festivo 😷	joy	0.4812456644899637
+2018-Es-05258	Jajajaja es muy gracioso pensar toda la situación	joy	0.5461171557432203
+2018-Es-00549	@paynejoyce_ Así tipo vagabundos?   	joy	0.12394467886469746
+2018-Es-01573	Ojalá pero OJALÁ... Que les vaya muy bien juntos 	joy	0.36823834983364523
+2018-Es-04120	Vivo #feliz, #vivo #Danzando, vivo mi #música, vivo #Bailando	joy	0.762768062806924
+2018-Es-03846	Esta noche es mi sábado a la noche 	joy	0.42553497186893335
+2018-Es-01541	@MientrasleoS Llueve? Donde? Invernalia? Aquí en la capital de los 7 Reinos, mañana más que agradable, procedemos al santo ritual.	joy	0.4161735097096792
+2018-Es-02486	Mira que linda curva y yo sin freno 	joy	0.37077892094332116
+2018-Es-03288	@JuanOrlandoH Muy contenta porque mi familia era mas que explotada con esos elevados intereses.. Se les termino la fiesta	joy	0.5566510415780583
+2018-Es-00126	@lucastg19 Me imagino Twitter es eso en todo caso, me pareció chistoso ver todo apelotonado en el inicio jajaja	joy	0.5153781425251573
+2018-Es-05211	Voy a ver a Pantha Du Prince, que alegría ✨	joy	0.771524551201259
+2018-Es-03539	Experiencias enriquecedoras se me presentan constantemente, que afortunada soy!	joy	0.765897267202301
+2018-Es-04834	Iba a hacer un comentario mamón pero mejor no. Ya dije que ya no seré taaaaaaan culero 	joy	0.24683131386424878
+2018-Es-02481	Mira que yo estoy bastante loca pero esta mina me gana 	joy	0.22410048482986628
+2018-Es-03611	Un poco de alegría a las penas 😊💚	joy	0.6163762446641048
+2018-Es-00340	Mañana es festivo de dormir todo el día, como persona de bien que soy.	joy	0.41161165877035105
+2018-Es-05564	@Fernandareta_ JAJAJAJAJAJAJAJAJA.  Ah que chistosa. 😂 😂 😂	joy	0.8288756646483986
+2018-Es-05465	Acostado al fin #DiaPaLargo agradable temperatura en #Viña ni tanto frío	joy	0.4227057281786541
+2018-Es-06282	jaja entonces a mi me bloquean tanta importancia me dan jajjaja caramba 	joy	0.5511051245254304
+2018-Es-04480	@ByankaNarvaez Vamos a ver si es verdad. Yo voy a escribir ahorita 	joy	0.458294607386697
+2018-Es-05017	Lo dejo que piense que ganó, si empiezo a sacar los trapitos al sol lo dejo en vergüenza y no termino más 	joy	0.3750082812328102
+2018-Es-01676	No me sigue nadie mal ahi 	joy	0.21260787764623912
+2018-Es-04685	Me da risa ver cómo la gente presume tener una relación fantástica y hasta conocer con el que cuernean al novio. 	joy	0.5748868389390209
+2018-Es-03686	Nadie es dueño de tu felicidad, por eso, no dejes tu alegria, tu paz, tu vida en manos de nadie.	joy	0.3890954006339208
+2018-Es-06459	Yo vivo muerta de la risa la verdad 	joy	0.565592610291922
+2018-Es-04158	De verdad que dicha que me di cuenta la clase de personas que están a mi alrededor 👌🏽 justo en mi cara las verdades 👌🏽	joy	0.4456136895821092
+2018-Es-06386	Gracias por absolutamente todo y sobretodo, gracias por ser la persona que me completa. ¡Feliz día! @CXClV	joy	0.5851333173165001
+2018-Es-04693	@vickyvickyf14 Feliz dia para vos tb vicky ! 😍😘	joy	0.7731859249576687
+2018-Es-01780	@GastonDH08 Puuf cada vez que se va viene con algo mejor! Jajaj gracias primo 	joy	0.80013518990082
+2018-Es-05851	"Lo veía y me daba cuenta de que pasaría el tiempo y cada vez que viera su sonrisa o escuchara su risa, moriría de ganas de que fuese mío".	joy	0.5145141048621509
+2018-Es-05983	@AlisonVivanco Brillante !!! Nada más	joy	0.5516545673862425
+2018-Es-02618	Quiero llamar a mi tío que siempre juega a la quiniela y acierta, para pedirle un nro para el sorteo de Zuluma. Postre o plomo	joy	0.4438878809058548
+2018-Es-06845	Todos los que me acompañaron ayer de vdd tienen un lugar en mi corazón ❤️ ¡Gracias amigos! (más el ceja que vive para el aeropuerto) jaja 	joy	0.7536722867545036
+2018-Es-04672	Mi abuela dice que Messenger se le perdió solo 😂 ( lo elimino )	joy	0.42116032601451375
+2018-Es-06119	Al fin hizo calorsito y pudimos salir a caminar y a comer helado 🍦hermoso fin de semana con David ❤. Ahora a dormir feliz! 	joy	0.7468518519947696
+2018-Es-05148	@AndreeaRp Sí, btw, yo también me siento orgulloso hahaha	joy	0.7245278460793008
+2018-Es-05217	Acabo de comprar el bikini más hermoso del mundo , estoy muy feliz 🌊❤️	joy	0.901911617940587
+2018-Es-00119	Que ningún gil apague tu sonrisa.	joy	0.439855755523609
+2018-Es-05764	@Luca_suarez11 Callate luca seguro te hacemos la vida mas divertida	joy	0.7117046097336603
+2018-Es-02358	@f85a2c19162a4cd @NituPerez Necesitamos realidades!!! Sino va a ser realista callase!!! 	joy	0.42792473628489
+2018-Es-01073	No me puedo dormir, así que fui a tocar a Nala para ver si vivía porque desde que vinimos de la plaza que no se levantó 	joy	0.43457520456153026
+2018-Es-04759	@c3saro Es la tapa de la burda del 84' 	joy	0.4404016295351498
+2018-Es-01266	Ahora a entrenar el viernes y el sabado ya se juega	joy	0.2568515442486879
+2018-Es-01165	Y sigo esperando la invitación 	joy	0.447701999711563
+2018-Es-02927	@angela_yama @AndreaCaroPuche Jajajajaa vea sin duda alguna este queda para la Historia bb 	joy	0.48515961045429196
+2018-Es-00451	@jcsosazpurua Yo lo llamaría socialismo populista, estado de bienestar, cohabitación criminal, culillo, en fin, tantas cosas!! Lamentable!	joy	0.4665119432875284
+2018-Es-05958	@Real_Oscarinn @lapollislicona Jajajaja si lo peor es que si cocino bien hasta hambre me dio 	joy	0.3753445104491802
+2018-Es-02343	"Stalkear es un delito federal", espero que me den una celda con vista a algún bueno y que tenga un buen colchón para dormir... Gracias 	joy	0.4732901496477679
+2018-Es-05151	@phurfemnio Con el hecho de que seas una Selena puedo decirte que me tienes a tus pies, me ha encantado todo de tu perfil. 💕 -N.	joy	0.6780511049697648
+2018-Es-02538	@Gonzz14 @braianwredeok Literaaaal Yo la fui a ver y ni pensé en eso Buen Dato eh 	joy	0.5100113384971483
+2018-Es-00306	Si planta una semilla de amistad, rmcognra un ramo de felicidad	joy	0.6679058441332424
+2018-Es-03064	@LaBarraDePacho @Joha_Jimenez @pablosabbag11 1. Entiendan Sabbag esta HOY en la Sub 20. 2. El @AsoDeporCali no juega para sus delanteros.	joy	0.3619911820743809
+2018-Es-04491	Mucho gusto, el placer viene después 😋	joy	0.7008217633992784
+2018-Es-01923	Me da risa siempre todas mis tías me preguntan si estoy pololeando🤦🏻‍♀️	joy	0.6104193617091851
+2018-Es-01464	@J_manuel56 Ah bueno jajajajaja es bueno saberlo 	joy	0.6644990583661639
+2018-Es-02587	@katerinenene Puedes escribirme cuando quieras bonita 	joy	0.5214419916644863
+2018-Es-03180	@erregina No puedo más 	joy	0.4426448808174517
+2018-Es-04627	Tengo la esperanza de que me HACKEE. no lo sé, tal ves hoy es mi día de suerte #XtiianZechTrendy #JuanPabloJaramillo #CaeliTrendy #KCAMexico	joy	0.5885904295778246
+2018-Es-03749	Estas pláticas parecen rounds que divertido👹👹	joy	0.503717435456295
+2018-Es-01565	@Smgc__ Jajaja quiero salir de esta cueva ya 	joy	0.46417977073272015
+2018-Es-01003	Jajaja la traumados por el temblor 	joy	0.43013715294417537
+2018-Es-03651	Definitivamente soy el tipo de persona que da lo que recibe, y la forma en que nos llevamos es el más claro ejemplo de eso 	joy	0.468854401461165
+2018-Es-02933	Siento mucha satisfacción ver a Diana y a Nestor tan felices 💙	joy	0.777574240752396
+2018-Es-01092	Como me cague de risa jajajajaja	joy	0.8442745091686656
+2018-Es-03043	Creo que soy la unica persona que manda un voice de 21 segundos y 18 de ellos es mi risa	joy	0.55602153470856
+2018-Es-01753	@gastonn012341 Este tw siento que es por mi...... no fue gracioso	joy	0.4271945034062498
+2018-Es-05302	Llegar a casa feliz de clase y encontrarme con más buenas noticias 💖😍 #Felicidad	joy	0.8028051292121468
+2018-Es-03606	@jormasis Que dicha. Ya puedo dormir tranquila.	joy	0.4584084738985616
+2018-Es-06278	Me retiro por el momento, mucho estrés para mi gusto.	joy	0.3159145377105656
+2018-Es-02216	@suyoshimurakami Ojalá todos los domingos sean asi 	joy	0.3710255942983272
+2018-Es-03785	@melu13ana Fo que India, justo que pase una foto graciosa ah	joy	0.5267716323581606
+2018-Es-02694	@LeandroLeunis Un aplauso para los enviados de la RAE a corregir en Twitter 😂😂😂	joy	0.36274506573712323
+2018-Es-06126	Gracias por enviarme mensaje. Has hecho mi noche maravillosa. 	joy	0.5068458275284926
+2018-Es-05829	Siempre tengo la suerte de cruzarme con gente de mierda.	joy	0.38168443364917887
+2018-Es-02352	Porque buscando tu sonrisa estaría toda mi vida.	joy	0.5700251686051778
+2018-Es-03919	Solterito se vive mejor 	joy	0.3867222889830234
+2018-Es-00600	Soy un total desastre pero me causo mucha gracia el error que cometí, a dormir feliz 😄 #BuenasNoches💋	joy	0.44693463461788624
+2018-Es-01539	@MasterChefMx  como cuando lloras en las entrevistas para conmover a los chef 	joy	0.3777156960449844
+2018-Es-05647	Yo gozo mi vida y otro que la sufra porque con lamento no se gana nada.	joy	0.3609307755637385
+2018-Es-05957	Y esta soy yo. 😊	joy	0.5171462672919547
+2018-Es-01638	Estoy tan emocionado ! 😍🎷	joy	0.812871535495383
+2018-Es-01060	Vamos a hablar de algo que nos haga divertir, Que de tanta sonrisa la muerte se va inhibir	joy	0.523046225036268
+2018-Es-02282	"Y que te queres comer un pito de mandarina" JAJAJAJAJAJAJA basta lo adoro 	joy	0.4803066749169102
+2018-Es-01283	@SULLICTRL @ROMECTRL @DONGHAECTRL Gue ga nista 😃	joy	0.49429855008675944
+2018-Es-01957	@KLeal95 Ya casi la hora de la verdad! Y estoy mas emocionado que tu! Hahaha	joy	0.7446992270963904
+2018-Es-05577	@MatiasMiguez_ seguro le hubiese encantado alta ñapi yo, igual tw amo mañana me ves y se te pasa ❤	joy	0.6733355062545041
+2018-Es-06679	Como amo no tener ese tipo de preocupaciones.... #Feliz	joy	0.49206362767065576
+2018-Es-01067	@Makpo1015 bli muy 😆	joy	0.6448604589348013
+2018-Es-05841	Feliz día manga de kokemones!	joy	0.6630990739725249
+2018-Es-01371	Esas personas que no tienen Bitmoji en snap como que desentonan 	joy	0.3759479886007893
+2018-Es-05454	@poeticjoels EN OTRAS PALABRAS CREO YO Q QUISO DECIR ES Q SI TIENEN PREFERENCIA EN UN PAIS DE ELLOS JAJA NO SE 	joy	0.348734908626911
+2018-Es-03455	A solo 5 dias de la segunda decisión mas importante de mi vida.💕💕💕👰👰💍💍 #ansiosa #Feliz #Enamorada.	joy	0.6608117205550408
+2018-Es-03672	Mi mamá ve tutoriales de youtube para pasar los niveles del "Pest Rescue Saga" de FB, que agradable señora	joy	0.5653724241551819
+2018-Es-04765	@CristinaEnAlfa  Jajajajajaja estaría genial	joy	0.722185673448482
+2018-Es-05812	Agus se caga de risa por como lo puteo😂❤	joy	0.752560283758305
+2018-Es-03203	Como me está gustando mi vida loco, porqué no me pasó esto antes. Que hermoso año 😀	joy	0.49650189102501313
+2018-Es-01125	Ta re divertido ver las historias por el día del amigo	joy	0.48319285210985446
+2018-Es-05683	@Chusita buenos días bonita, espero que tengas un día genial. Te quiero muchísimo. Ya estoy listísima para escucharte 🖤🤞🏻	joy	0.7330697801880066
+2018-Es-06473	AMADO ARCÁNGEL MIGUEL DÉJALOS AL DESCUBIERTO Q TÚ LUZ DE JUSTICIA DIVINA SEA TAN BRILLANTE Q NO PUEDAN OCULTAR LA TRAICIÓN A LOS CIUDADANOS	joy	0.4584090814563953
+2018-Es-02726	@nAhugonzA12 que hermoso que te hayan aceptado después de tanto, te re mil felicito, sos super valiente y estoy orgullosa de vos🌈	joy	0.8480123187753599
+2018-Es-03350	Embelleció haciendo las cosas que le importaban (...) El regocijo es el mejor maquillaje". —Anne Lamott	joy	0.4906881310191998
+2018-Es-04598	CTM estoy contenta y no se porque	joy	0.4630756109500119
+2018-Es-03442	@liberixngirl Encima las chabonas con alta cara de satisfacción ahí pero dejate de joder y comete una buena verga	joy	0.3572403865710934
+2018-Es-05668	@saan90 @Themummy1 @Chenoaoficial Precioso, emocionante😢😢😢 Sabias palabras de Patri❤❤❤ Gracias por el video Sandra😘	joy	0.6548082234099977
+2018-Es-00221	@_andreapaz Por lo menos hay una creatividad y un esfuerzo en desarrollar eufemismos tan desarrollados 	joy	0.5168657449833449
+2018-Es-03730	@NunkMasKK @martintetaz grabois sucio se caga en los  pobres.Hipocrita. aplausos para Lanata	joy	0.1892937805053298
+2018-Es-03788	Desde el viernes que estoy comiendo milanesas 	joy	0.4246429913069876
+2018-Es-01849	@warkentin @AnaLauraRR Mil gracias 😊	joy	0.6759378186194809
+2018-Es-03447	Si borró las etiquetas de las fotos ¿hubo amor del bueno? 	joy	0.3484917131571416
+2018-Es-01312	@c_steven07 Me estás diciendo que me callé falta de respeto mmmm 	joy	0.3406682732488649
+2018-Es-03171	@18XXX17 Regalarle un masaje así a mi mujer. Seguro que quedaría encantada. Jijiji	joy	0.5992515249082468
+2018-Es-00875	@Papelitos_azul @_pupile_ SIEMPRE 😂😂😂😂 Para suerte tuya, no tiene u.u	joy	0.3866171383183579
+2018-Es-05540	No tengo palabras para describir lo afortunado que me siento con el apoyo que me brindan cada día mas, gracias, estamos juntos en esto💥	joy	0.872502897930171
+2018-Es-02160	@ElAlbanBorja @xmarquez te recomiendo los tacos en @ElAlbanBorja  😊	joy	0.515155509732286
+2018-Es-06358	La Puteria es bien entretenida por las noches	joy	0.49429241372601
+2018-Es-00786	Una no se levanta amorosa todos los días, aprovechen 	joy	0.4570056911839299
+2018-Es-04730	Se fue el inter... Aplausos @weni_habbo @BryanBieber17HB	joy	0.41695933166833815
+2018-Es-05910	Mis 2 mejores amigas subieron historias bardeandome porque nunca más veo, yo subi una contenta porque nos organizamos. ASI SON EH	joy	0.6813513910423694
+2018-Es-02380	Con todo en general, digo con seguridad NO me equivoco 	joy	0.30430414235777553
+2018-Es-04870	Pues toma el mochi encantado.	joy	0.7133796239487766
+2018-Es-06209	Que hermoso tener esta relación con mi vieja aún a la distancia, que me cuente sus cosas, lo que le molesta y lo que la pone feliz 	joy	0.4464259967955577
+2018-Es-04423	@LAXTNITE Fue divertido mientras duro. ♡	joy	0.5670686874510378
+2018-Es-04838	@offinthemorning ¿En dónde se le da el “me divierte”? 	joy	0.4112167246766241
+2018-Es-06026	@gigimk_ Amor, quiero decirle que la extraño y le deseo una buena noche :(. Duerma y tenga un agradable día mañana ❤.	joy	0.6450015203138599
+2018-Es-04684	Yo ni en cuenta de las novedades de Facebook 	joy	0.3115412676682206
+2018-Es-02833	Que ganas de mandar todo a la mierda. 😊	joy	0.36650834485371925
+2018-Es-00855	@makikuroneko Sí, en las buenas y en las malas, hasta que la muerte nos separe 	joy	0.2843703567423989
+2018-Es-02177	Ele tentando me animar😂😂❤	joy	0.7011499385951068
+2018-Es-04854	En realidad fue divertido, para mi claro.	joy	0.48161994942263814
+2018-Es-06774	Anoche se la hice de pedo a un pendejo porque apenas me descuide 30 segundos y ya le estaba intentado hablar a mi novio. 	joy	0.441501392679676
+2018-Es-05263	no me voy a meter en el bardo me siento orgullosa de ariana y se todo lo q hace para dejar el odio de lado pero le gusta la pija ahre	joy	0.42432948395752873
+2018-Es-02640	Tic tac la aguja en las 4 por fortuna pasaron 20 minutos	joy	0.37899633848668307
+2018-Es-04454	todo aclarado ya por suerte 	joy	0.3362886194526159
+2018-Es-01744	Tan divertido es ignorarme? Para hacerlo yo también 😆	joy	0.5021586758541021
+2018-Es-05426	@gxrbxgs Qué agradable sujeta.	joy	0.6383291389536296
+2018-Es-02295	@bg_elwazoswki Cual cállate  viejo ya!	joy	0.39456864613898907
+2018-Es-05853	Gastar dinero es un gusto; no es un dinero perdido	joy	0.24599442390449155
+2018-Es-02495	@daniidmontiel Ya las cortaré 	joy	0.31868763586750565
+2018-Es-01250	@AmirDeguer jajajajaja pero según vos siempre hay pocos 	joy	0.5872909099641652
+2018-Es-05121	@kmi_tania Jajajajaja te juro que si, la comida me hace feliz 	joy	0.7135317374649066
+2018-Es-05745	No era lo que esperaba pero estoy satisfecho	joy	0.2563489196400245
+2018-Es-04488	@los40mx @PaolaGalina @CD9 Una divertida y padre entrevista Pao	joy	0.6972031054884797
+2018-Es-02296	bad es excelente a pesar de que los grammys lo despreciaron, lleno de optimismo, romance, urbanismo, vocals y su mejor gira	joy	0.5571321646368672
+2018-Es-03859	No importa lo molesto que puedas estar con alguien, sin importar la razón siempre te preocuparás por su bienestar.	joy	0.3012834449554827
+2018-Es-06184	@satlad Ya casi te abrazo 	joy	0.4874937173833719
+2018-Es-06032	Estas infranqueables ganas de no hablar con nadie también cuentan como entusiasmo.	joy	0.45656845925801076
+2018-Es-02803	Me encantaba verla sonreír cuando estábamos juntas	joy	0.7530438097564731
+2018-Es-05703	@Princcipizza Rola la 🍕. 	joy	0.47700198959847095
+2018-Es-05182	Y se hacen llamar periodistas, muy pocos los decentes eh! Aplausos @Miguel_layun	joy	0.44826301033972765
+2018-Es-06579	Ya no es divertido cuando ni siquiera llegas al metro 50 🙃🙃🙃	joy	0.3396555065585026
+2018-Es-06145	@antifazdelzorro Jajajaja me agarró a mi por andar activa 	joy	0.5881023685163489
+2018-Es-03257	#DeColombiaMeGusta Cuando la gente se incapacita porque juega la seleccion	joy	0.26371131378602936
+2018-Es-01867	La felicidad llega cuando menos la esperas; ¡Aprovéchala! que nada pierdes con tenerla. #Fav #RT #FF #felicidad	joy	0.7321833159753444
+2018-Es-06390	Vivo #Feliz, #vivo #danzando, vivo mi #música, vivo #Bailando	joy	0.762768062806924
+2018-Es-06063	Que afortunada soy de tener a los amigos que tengo, de verdad lo mejor de mi vida❤	joy	0.8001731675524735
+2018-Es-02831	Pero seee, ya te estoy contestando 	joy	0.35097784726488174
+2018-Es-04722	@AndreNoriega_ Tuitazo del 2012 	joy	0.41136689690323197
+2018-Es-02821	todos te abrazan durante los aplausos todos te ignoran durante los sollozos.	joy	0.4104454354193879
+2018-Es-06597	mañana es festivo por lo tanto no tengo que madrugar amo la vida	joy	0.43716327193442367
+2018-Es-00596	🍹🌴 Sos lindo y de belgrano asi que me caes bien 	joy	0.7338183590618119
+2018-Es-05469	La felicidad es un maquillaje	joy	0.6203487583393438
+2018-Es-03056	Se imaginan, que gracioso.	joy	0.5324292213788142
+2018-Es-01019	@obst_enrique Ja ja ja que chistoso	joy	0.6160861585983533
+2018-Es-02007	@DKev_14 Optimismo al 💯 cabron! Vengaa👊🏻	joy	0.5865911398301695
+2018-Es-00003	¿Será que tantos celos y mal genio es lo que no me deja crecer? 	joy	0.3238113324620463
+2018-Es-00476	@ImBroLyK @ImQuantiCoo__93 Il pue la merde 	joy	0.36291277448815956
+2018-Es-01951	@niniclaros @NekoJitaBlog Así es nini y hoy se siente muy fresco... El calor de días anteriores me tenia loca 	joy	0.51462796777846
+2018-Es-02511	Mañana es lunes y yo me desvelo pura estupida 	joy	0.24268680411502414
+2018-Es-02560	@Dxllnweeks Gracias. 	joy	0.4114088782339294
+2018-Es-01029	'Si te veo sonreír me siento completo'. Estallo de amor por mis amigoooos💥💖💖	joy	0.8633690553091884
+2018-Es-04972	@zinxsoficial LPM QUIEN ME PUEDE sTALKEAR A MI 	joy	0.5208025860381356
+2018-Es-06623	Después de una travesía, he de decir, bastante agradable, llegué a casa.	joy	0.5966233100251976
+2018-Es-05068	Feliz día fandom ❤	joy	0.45962059774724257
+2018-Es-01736	@Guid0Fernandez_ Feliz día amigo❤	joy	0.6485321668615608
+2018-Es-02022	Oye, ¿Y quienes eran los #PSLP que cayeron en el fake? Digo para reirme un rato, o webiarlos...No sé 	joy	0.42916118075528725
+2018-Es-04669	@CynthiaCayo10 Que es lo gracioso? 🤔	joy	0.3944616976170083
+2018-Es-01049	me quieren hacer molestar pero soy una persona muy divertida, a los 20 deje los problemas de ira	joy	0.4235711486573777
+2018-Es-01134	@Camila_Cabello estoy tan emocionada boluda, me muero de ansiedad más o menos, me siento como una mamá orgullosa that's my pollito	joy	0.7881203147245628
+2018-Es-05063	Cc cuando te vienes a casa de tu mejor amigo a conbeber con su hno y primo pero sin el 	joy	0.4294066536814833
+2018-Es-03676	Cando uno se propone tener un buen año, no importa lo que pase, solo es cuestión de actitud. Esta en uno #Felicidad 😬☺️🙌	joy	0.5396448946902543
+2018-Es-01005	La gente que tuitea con el #feliz + *inserte día de la semana* es para premio	joy	0.6586889043004038
+2018-Es-06453	@nachosaldes Estamos dentro de un capítulo de Black Mirror 	joy	0.5453236921731108
+2018-Es-05390	"Tienes esa sonrisa que me gustaría ver cada día de mi vida."	joy	0.6950717142058258
+2018-Es-02192	¿Esa parranda de los vecinos que ve?  Es miércoles aunque mañana sea festivo.	joy	0.4630426936411764
+2018-Es-03975	@isabellamadrid1 Esa foto de esa nena sonriendo me da mucha risa.	joy	0.6928044104776365
+2018-Es-03649	Hay gente levantándose ahora y yo, satisfecho, me voy a dormir.	joy	0.44513622007182946
+2018-Es-00910	Unas cervezas bien frescas y música en casa 	joy	0.459539775563053
+2018-Es-03219	Por si querías saber todavía te stalkeo jejeje 	joy	0.38755840300844857
+2018-Es-02826	@Artemisa_guerre No andes jugando con eso Yess ☝ y menos de noche 	joy	0.5580983555922747
+2018-Es-02886	✴Feliz dia a todas estas personitas de aquí, en verdad lxs quierx y aprecio mucho, espero que lo tengan siempre presente ⬇⬇⬇✴	joy	0.6425994438521536
+2018-Es-01296	@Gipsy_Toy @Dieci7Rayas Holii, yo por mí encantada JAJAJAJA	joy	0.6187045659313055
+2018-Es-03210	Estoy viendo life hacks que nunca aplicaré pero qué entretenido es.	joy	0.4582363522368342
+2018-Es-01654	Que felicidad me da saber que mañana te veo Mj amigo😻💜	joy	0.6881927722408543
+2018-Es-03407	LA PREGUNTA DEL MILLON  Soy graciosa? Ahr	joy	0.452477231527507
+2018-Es-03521	Habilidades de las que estoy orgulloso: eructar el abecedario.	joy	0.6820411101479842
+2018-Es-06045	@Martiin_29azul Jajajajaja Admite que estuvo para morirse 	joy	0.5274677681531499
+2018-Es-04330	@PliskoPova Yo lo vi hace poco, esta super chistoso jajaja. Y con la misma expresión de Vegeta mientras graba a Davis 😊	joy	0.7181560792212258
+2018-Es-04442	@EvieSd_ @Alien_Waldorf Eres una chica divertida, cállate.	joy	0.5833104422401796
+2018-Es-02035	Quien es ese actor porno salido de la carcel interpretando a yamcha? 	joy	0.4227531892483582
+2018-Es-00678	Da igual si se acaban rápido los fines total no hago nada 	joy	0.3336602413691549
+2018-Es-06912	no hay alegría sin dolor,y todavía falta lo mejor...!	joy	0.4796076552919159
+2018-Es-02059	@Valeria_Morante En mi caso, si le valgo madre 😅	joy	0.3231011980464638
+2018-Es-01310	Arruga que es gratis 	joy	0.4377277595871024
+2018-Es-03466	Quiero escuchar toditos mis dvds de una vez de Rita Lee, Marisa Monte, Ana Carolina, Ivete Sangalo, Vanessa da Mata. y KE ! Remiiix jajaja 	joy	0.7068672426291971
+2018-Es-01699	@FxmmxFxtxl   — Sí. — 10. — Sí. — Estaría encantado de recibir un mensaje tuyo.	joy	0.40087109003720245
+2018-Es-06411	@magalitajes Gracias a vos, me puso muy contenta escucharte leyendo mi libro. Ya sabés que te admiro y te quiero mucho 💜	joy	0.7353567353744994
+2018-Es-00520	@Jonathan_Miich @Mariela_Rueda Tú mismo lo dijiste, no lo cambio, además la noche es larga 😅	joy	0.47155484321411695
+2018-Es-00393	@iiann_x4 Ajajaja pero he-man era rubio y yo no 	joy	0.39693539574533127
+2018-Es-01091	No se si eso es para mi o qué , boe 	joy	0.3349042765362003
+2018-Es-06108	@ElAlbanBorja cuando eras niño el mejor plan de fds era ir a los juegos del cc y terminar comiendo en tacos california #GrandeElAlbanBorja 	joy	0.40985569972138663
+2018-Es-04057	He escuchado a personas decir que si comen por la noche luego no pueden dormir, en mi caso es al revés, si yo no como no duermo!! 😂	joy	0.4676992423724065
+2018-Es-00664	Nada más te engañe con una vieja, menos, como con 5 yo creo 	joy	0.4626440821063102
+2018-Es-06517	@Muertelenta_ 😂😂😂 "incomoduarte" hacer una sonrisa estúpida que te haga querer asesinar al que la pone!	joy	0.5337664623702254
+2018-Es-05408	@rtorresabc123 A ver alégrese carajo! Le vale madres mi felicidad😂😂	joy	0.33499131644781127
+2018-Es-03738	No quiero recordar lo que hice ayer. 	joy	0.38477382526278764
+2018-Es-04269	El vicio es la ruina, no encuentro fortuna	joy	0.2725976237705598
+2018-Es-00539	Feliz día a la mejor amiga del mundo @joelswey te agradezco por todo lo que has hecho por mí y por siempre estar ahí para mí, I love you 💙💙💙	joy	0.7595178727926957
+2018-Es-06372	#DeColombiaMeGusta sentirme orgulloso de haber nacido aquí, y que mi corazón lata super rápido cuándo suena el Himno Nacional.	joy	0.6583332444011165
+2018-Es-06457	@Fhuzer @lollapaloozacl Que nervios!! 3 días de conciertos 😆	joy	0.6651242503871193
+2018-Es-04192	@fangirlforMila Suele pasar por andar de chismosa 	joy	0.29073766143752405
+2018-Es-04553	@Loladiani Jajaja seguro era por eso! 	joy	0.6417092950978562
+2018-Es-05326	Pasó toda la noche hablando de eso 	joy	0.41336867808300254
+2018-Es-02682	en serio les sigue pareciendo gracioso lo de icardi y maxi lopez?	joy	0.36013356596408147
+2018-Es-01031	¡Feliz día a todos mis amigos y amigas de Misiones que pasen un día lleno de luz y alegria!!!	joy	0.7485889432947688
+2018-Es-04503	Mi hermana quiere dormir y no la dejo xq estoy viendo encantada . Quien tiene 7 ahora??	joy	0.3695790582825729
+2018-Es-06400	Hace tres años en el hipico me tome una Foto con un desconocido y hoy me doy cuenta que me escribió para mandarme la foto 	joy	0.5233949786435754
+2018-Es-02318	Por si me stalkeas: me va mucho mejor sin ti 	joy	0.4340140595102027
+2018-Es-01873	@NasranaAIC Jajajajajajajaja no c, weno si c pero no wa decir 	joy	0.3264905100176951
+2018-Es-01871	Mis amigos en otras provincias estan disfrutando de recis de bandas re piola gratuitos y yo aca,viendo como dan zumba en la laguna 	joy	0.4575466756428221
+2018-Es-01592	@SoSofiaReyes Que rapido se pasa el tiempo 🙈 siento que acabas de cumplir años  	joy	0.6607485538465707
+2018-Es-06244	Bienvenida Estefanía! Eres muy afortunada, tienes una familia maravillosa y unos padres muy queridos @lauragarza y @MxUlysses Felicidades!	joy	0.8651924630058805
+2018-Es-00529	Estaba muy emocionada por hacer fiesta de despedida y todo ese show pero la neta ya lo único que quiero es irme alv	joy	0.4623974671177559
+2018-Es-02119	#DeColombiaMeGusta Su alegría y calidad humana, que se identifica en cualquier parte del mundo 🇨🇴🇨🇴🇨🇴	joy	0.6180328129724209
+2018-Es-03643	@_ELBRAYAN_ Pensé que lo iban a matar porque fue el último en ver el payaso. Es el Erick kartman del grupo. 	joy	0.41352687017929485
+2018-Es-05907	@KevenYHensy Estoy super orgullosa de ustede😘👍😭👌	joy	0.7754270266954371
+2018-Es-00184	Ahora hay otro en mi vida que curo mis heridassss me devolvió la alegría que daba por perdidaaaaaaa @JuanSaplara_	joy	0.770476724412531
+2018-Es-00362	Lo mejor de todo son los memes que se hicieron de la fake 😆	joy	0.5066143052868657
+2018-Es-03549	Hoseok esta muy esperanzado y optimista con respecto a su mixtape, por eso espero que lo valoren y lo aprecien como de verdad se merece	joy	0.45384017149144623
+2018-Es-02374	Lo mejor de hoy es que mañana es festivo de no levantarme de la acama en todo el día si no me da la gana... 💪	joy	0.39851182293460186
+2018-Es-01589	@AlexXxStrecci @Angela_ChefMX JAJAJAJA JAJAJAJA TE PASASTE 	joy	0.6714467851378325
+2018-Es-05425	Qué triste que todo termino de esa manera. Soy muy chistosa para que me tengan mala.	joy	0.3402160586369935
+2018-Es-03194	Me encanta cuando las cosas salen como quiero y cuando quiero. #Contenta.	joy	0.6200429505687794
+2018-Es-04781	#LaCelia #Risaralda, la independencia hoy nos abraza a todos los colombianos ¡Feliz #20DeJulio! #UnLíderParaTodos	joy	0.649317096157539
+2018-Es-04934	@eruwings Graciasss☺ todas las fotos de mi niñez sirven como meme porque son un cago de risa	joy	0.6310957631545591
+2018-Es-05669	Al menos estoy siendo feliz, me siento más libre 😂	joy	0.7234784776750047
+2018-Es-01739	@DiaanaDu Ja, ja, ja, ja, ja, ja. Mensa. Me muero de risa. Está bien feita la situación.	joy	0.5917773309164864
+2018-Es-04485	Un mundo alegre al revés.	joy	0.5416054554789953
+2018-Es-06250	@Mariangel1888 Ksabkabbk Gracias, por cierto el tuyo también está bonito 😎 lacra pues 	joy	0.5644993258640034
+2018-Es-02253	No hay cosa que me alegre más el día que ir guiando y ver un perrito en la ventana de otro carro jugando con el viento :')	joy	0.5424349343258161
+2018-Es-00966	Te das cuenta que vale la pena cuando te llama en la madrugada borracho diciendo que te ama 	joy	0.4291896980215936
+2018-Es-05471	Lo chistoso es que uno sabe quienes son los que te destruyen a las espaldas y tienen el descaro de saludarte como si nada.	joy	0.4215632306370188
+2018-Es-05986	@heyitsYoonmin @Jimin_Mexico Todas sabemos que JPao nació en ternuralandia xD 	joy	0.4527118166547946
+2018-Es-02504	Ya no le hago Tweets lindos porque nunca me Lee,jajajaja 	joy	0.4386026637889301
+2018-Es-04248	Me voy a dormir con una alegría enorme	joy	0.68392572476765
+2018-Es-05202	Me vas valiendo verga de poquito a poquito 	joy	0.32699551536071814
+2018-Es-04798	Juro que para mis 20 va a haber mucho alcohol y un castillo inflable 	joy	0.477624232865064
+2018-Es-03207	Desde q me vine de lo romi estoy buscando formas de alejar la desgracia y mala suerte y no  encuentro nada, será posible	joy	0.4474444566018568
+2018-Es-06062	@karmilla46664 Cuando habla es como demasido sexi y su risa😈 BASTA. Ya caí en sus redes.	joy	0.3846690653981813
+2018-Es-03420	@rppdeportes JA JA JA rrodilleras magicas 😄	joy	0.5182969599770042
+2018-Es-04415	@TwoPotz Calla que la hackeas bien rico 😅	joy	0.5695549952196239
+2018-Es-03244	un pibe que me chamuyaba le puse feliz día del amigo y a mi ex también, soy la queen de mandar a la friendzone.	joy	0.513780487893599
+2018-Es-06313	RT = SI EL COPETE AZABACHE DE ALAN TE LLENA DE REGOCIJO  #CD9 #Coders #AlonsoVillalpandoTrendy #KCAMexico	joy	0.49088849204591706
+2018-Es-03456	@DeniseDresserG @EPN Eso estaría genial, pero mejor hay que hacerlo cuando salga de gira a otro país.	joy	0.537493573989694
+2018-Es-02046	◉🔚#SiguemeYTeSigo 🕪◉  🔛 Dale Rt 🔛 Sigue todos los Rt 🔛 Activa mis notificaciones  ◉🔚#LunesDeGanarSeguidores  ◉🔚#feliz lunes ◉🔚#Rt	joy	0.6697550154235519
+2018-Es-06766	Mi @Angela_ChefMX "corazón de chocolate" 👉👈 😍 😅	joy	0.6550323315227513
+2018-Es-02225	Con esa sonrisa que cambia la vida miraste y te vi.	joy	0.6934103949714527
+2018-Es-00506	@JosDice  abrazarte y jamas soltarte es lo único que pido , tu sonrisa es única tu tienes  #CD9 #AlonsoVillalpandoTrendy #Coders #KCAMexico	joy	0.6043226251240008
+2018-Es-05506	@majoiribass @marianaarchun Eso dijiste hace un mes 	joy	0.4565694387468789
+2018-Es-02562	@nariguet todo bien menos mis Giants 😆	joy	0.5896615724314758
+2018-Es-06174	Jajaj con Fede parecemos  niños chicos nos dijeronde ir a EEUU y lo Primero que dijimos fue yo quiero ir a Disney Orlando 	joy	0.5867110557892354
+2018-Es-00863	Cuando mi madre venga a su casa  Me va echar   Hace una semana que estoy aca 	joy	0.35140633808961913
+2018-Es-00924	Ahora que veo todos hablando y organizando para ir mañana a la escuela me dan ganas de ir , pero mejor me quedo a dormir 	joy	0.49702778296943523
+2018-Es-00554	la gata hija de puta me re asusto, flashe que era el momento de flotar 	joy	0.3829354089369163
+2018-Es-00569	Quiero mirar una peli graciosa y no se cual mirar ._.	joy	0.5370173942521941
+2018-Es-01958	Nunca quise tanto q fuera lunes 	joy	0.2609496805590558
+2018-Es-04341	@mybosscabello Jajajajja csm sono muy raro 	joy	0.618060664927037
+2018-Es-01032	@IamYanetGarcia ¿Estás tratando de darme un ataque cardíaco Yanet? ¡Muy agradable!	joy	0.509099069214016
+2018-Es-04571	que el sienta todo ese apoyo es la felicidad entera, nunca lo dejemos💘 #SebastianVillalobos #PDCs #SaakTrendy #KCAMexico	joy	0.5911876939881942
+2018-Es-02193	@AliciaVery ¡Feliz día!	joy	0.5628589547845619
+2018-Es-02858	La noticia más hermosa del día, de la semana, del mes 	joy	0.5596243107061905
+2018-Es-01047	@KevenYHensy Yo estaría muy orgullosa si fueras mi hijo, pero no eres mi novio, y estoy muy orgullosa de lo que mi novio esta logrando.😏💙	joy	0.6184336250455793
+2018-Es-02166	@EntreRosales Ay que bonitaaa 💖y acaso veo un asomo de sonrisa en la cara del rey emo arroba @nosoyalexalejo	joy	0.5979963150939906
+2018-Es-01959	@VallartaHa O sea aparte 	joy	0.33985147860258064
+2018-Es-03072	@Biro1_1 Jajaja ma que gracioso que sos	joy	0.6799373380629465
+2018-Es-03265	@kustomshady Una de los últimos acontecimientos 	joy	0.3981351453092844
+2018-Es-04431	—¿Cuánto tiempo lleva tú presidente haciéndose pendejo?  —Un año... no, menos, como 5 años. 	joy	0.4014134785535692
+2018-Es-04107	Feliz día, a la mejor amistad 🐶❤	joy	0.8955392968655178
+2018-Es-04875	@Patty_Mene oye es en buena onda, diciéndolo con risa xdddddd no de pesa2, eso nunca hahaha	joy	0.6156810875233674
+2018-Es-04793	A ver no estoy muy animado  Mañana si  srry ;(	joy	0.4627848513790937
+2018-Es-04681	Como me cago de risa con los tweets de Santiago 	joy	0.5458018097969988
+2018-Es-06014	@_aleper Puede ser por eso 😃	joy	0.44930961187533697
+2018-Es-02576	No se pero eres esa persona que me hace subir al cielo con tan solo esa mirada. 😀	joy	0.5643150678689406
+2018-Es-03038	yo le voy a decir feliz día a mi ansiedad que nunca me deja sola best friends 4ever	joy	0.48129254297450497
+2018-Es-06322	@YanetCein Ave María purisima, no manches 	joy	0.3216432068201133
+2018-Es-02329	@RPELAEZ9 Regresa al América 🙏 Queremos volver a sentir la alegría xe ser campeón.	joy	0.6053838425852578
+2018-Es-03000	sos super agradable, deberíamos hablarrr e.r	joy	0.7703748703650872
+2018-Es-00907	¿Cuáles twitts de enamorada? 	joy	0.47393261142950266
+2018-Es-05519	Era mi alegría	joy	0.5327135967866845
+2018-Es-02699	Terminas un libro:  -No te agradó -Quedas satisfecho -Quieres más	joy	0.44642655185797026
+2018-Es-04035	@Jerry_Eliz Es normal que me sienta orgullosa?	joy	0.5222433328072282
+2018-Es-04224	@ZelayaAlej97 Jajajaja junto con vos si bebe 	joy	0.6983160704982867
+2018-Es-04700	@12CarlosAndres el equipo juega a nada pero qué chucha	joy	0.23202666066049998
+2018-Es-01052	Volver a la pega no me entusiasma pero yo lo pedí. Capaz que me estén esperando con el medio sobre azul 😂	joy	0.4798923463551115
+2018-Es-01268	Neta, muy neta; es genial ver crecer a @GrissRom. De hecho es genial ver crecer a todos. ¡Nunca desistan! #PaLante	joy	0.6258442994521227
+2018-Es-06739	por suerte nunca me paso 😏	joy	0.5193592042826682
+2018-Es-00517	@gines_natalia Buenas noches ami gordita @gines_natalia q descanses amor mañana mos vemos tequiero amor #siempre #feliz #4y7meses	joy	0.7639467992344573
+2018-Es-05278	@Aitana_Dess Es la verdad. 	joy	0.3259668588106704
+2018-Es-05204	@PaauliGodoy Jaja nosotros de pedo q vemos jaja serán dados 	joy	0.7132794549885988
+2018-Es-03970	@dbaezare @gaaatoso @weonaenchucha @cathy Ese mismo 	joy	0.48313480089088795
+2018-Es-03086	@Ass_Avar @mbmmmmmm_ JAJAJAJA eres la peor 	joy	0.4798762532884549
+2018-Es-05306	Todos están metidos en este sorteo y en el de @ElJuanpaZurita y como no we, a ver si la suerte se nos pega a uno de nosotros :v #Rayito	joy	0.3228022405183651
+2018-Es-00175	@sanchezceren Con todo respeto y por la potestad q usted tuvo como guerrero, vete dicha reforma y acabe con la mentira d esa vil derecha!!	joy	0.30941108665320133
+2018-Es-06462	@laaficion @MilenioLaguna Se enojo el petardo puro cartucho quemado juega jajaja	joy	0.3391804889298032
+2018-Es-03405	Un aplauso para esas Chicas que son mas Fáciles que la tabla del 1, Bravo Niñas Bravooo 👏 Su nivel de puteria nadie las supera 😉	joy	0.4965250502263316
+2018-Es-06864	Si está bien padre cuando te dicen cosas bonitas 	joy	0.4338405329014751
+2018-Es-05697	Debería estar durmiendo 	joy	0.1797221578356953
+2018-Es-01675	Tengo dos trabajos y no me alcanza para vivir 😂	joy	0.3747409659222562
+2018-Es-06823	Cuanta basura 🚮 leo aquí vale pero entretiene 	joy	0.2262330428367325
+2018-Es-00168	@NekoJitaBlog Ah, como decíais que se dormía en vuestro futon y luego lo llevabais a la cuna... 	joy	0.39613744447197946
+2018-Es-05995	Que cae tan bien aunque sea un Mentiroso, Ja. 😅	joy	0.3874203909516681
+2018-Es-03259	La inmensidad del mundo no te recuerda lo pequeño que eres SINO LO GRANDE QUE PUEDES SER.  #Felicidad	joy	0.6351444574790888
+2018-Es-03624	La gente positiva y llena de alegría me vuelve loca, que lindo por favor. Enamorada de la gente así	joy	0.7206974100028383
+2018-Es-06504	Mañana es festivo aqui en Colombia, osea noche rela	joy	0.41495923863240175
+2018-Es-03285	@IvanZavaIa Soy muy acosadora? 	joy	0.4128581421296753
+2018-Es-04202	Otro entretenimiento para mi alma sin ganas tendré que encontrar	joy	0.4264750618380832
+2018-Es-02478	@Cane1956 De.nada un gusto acompañarle .	joy	0.43386034429208414
+2018-Es-00280	Que busssshona me saliste que hasta esa te sabes 	joy	0.5524543904180834
+2018-Es-02163	@_GiulianaRios eeee feliz día compa💖	joy	0.7891230733783812
+2018-Es-02900	@IvanZavaIa Si ya sabes cómo somos pa' que nos invitas ahre 	joy	0.5104380982778269
+2018-Es-04306	Like Si Sobreviviste al Fin De Mundo 💡 	joy	0.47269051743759366
+2018-Es-04782	Que es lo que más te gusto de Madrid?? #PabloAgustinResponde	joy	0.4686657725739553
+2018-Es-05128	¿Por qué resistirnos si olemos tan bien juntos? 😊	joy	0.5742880285549004
+2018-Es-01424	Soy sp afortunada por tener una relación tan bonita con mis threeMs y mi sis, no cualquiera tiene mejores amigas como familia 😢👭👭💕	joy	0.6988204211730333
+2018-Es-06754	Como dijo el gran pity alvarez,TENGO LOS AMIGOS QUE QUIERO TENER, no pido mas nada que su alegría en mi vida y festejar cada momento vivido.	joy	0.6934949164175206
+2018-Es-00787	@carrillomirko Por que sos re chantaaaaaaaaaaaa jajajajajaj 	joy	0.7134634126886765
+2018-Es-03266	Me hubiese encantado salir con mis amigos pero me tengo que levantar temprano para trabajar. 😢	joy	0.4713174244962603
+2018-Es-01201	@ramonevich llueve en Invernalia, celebro que en la capital el tiempo sea agradable. Disfrutemos del café	joy	0.5698656456996498
+2018-Es-02971	Temita y a dormir 	joy	0.17696041290119935
+2018-Es-02151	@ruggelariamor_ Ay que bien 😃	joy	0.6786670677696147
+2018-Es-01754	@KenjiFujimoriH el bienestar del pais es mas importante que un @FuerzaPopularPe de puros payasos.	joy	0.35977701186335104
+2018-Es-04105	@eri_zu3 Jajaja veci me hiciste la noche 	joy	0.5931568053950389
+2018-Es-00090	Bueno lo re faveaba 	joy	0.49712576906241296
+2018-Es-05664	@Guille_Pacheco Claramente! Era lo que me hacía falta para dormir tranquila y a gusto 	joy	0.47705925206197114
+2018-Es-04771	Me encanta Twitter, siento que la gente que me lee a esta hora, me acompaña en mi insomnio y eso está genial. 😂🙈	joy	0.5228999782376009
+2018-Es-03330	@rincondedacne De nada amigo, lo hago con mucho gusto!!! 😃	joy	0.6826538941818292
+2018-Es-00625	@sophia712 Jajaja la vea estamos igual 	joy	0.6178816611649589
+2018-Es-03793	Me faltó Minhyuk, bueno, a él tampoco lo superaré 	joy	0.5313416813228515
+2018-Es-04733	aparte creo q lo dijo en serio ajajajajajajajajajajjajaajja pero fue muy gracioso	joy	0.51102350760844
+2018-Es-04470	@DiandraViloria Y tu comes eso, loca? 	joy	0.36395020621431057
+2018-Es-02110	10 el que no juega poqui! Te quiero broda	joy	0.4724436780724745
+2018-Es-01569	De quien es este numero (833)3931767 marcaron haciendo una broma telefónica, RT hasta que salga la bromista.	joy	0.4611503712162988
+2018-Es-04495	"SIEMPRE JUNTOS" la promesa mas falsa y la mentira mas dicha	joy	0.4677896257707272
+2018-Es-04413	Pasta flora jajajajajaj  	joy	0.4543702237256221
+2018-Es-06577	@ZahiCrazy Encantado we :D	joy	0.6818937710672353
+2018-Es-04695	@Erick_Ezio Se hacer quesadillas, culero! 	joy	0.36327981357094735
+2018-Es-05314	"Se tiene que tomar un recreo" jajaja no  amiga jajaja 😂😂	joy	0.49352034142349605
+2018-Es-00031	¿Qué es amar? Nacer y morir a cada paso, alegrarse y sufrir, tener y perder. ¿Qué es amar? solo tu me lo puedes decir . A Kiko de Patri TQM	joy	0.5152325797325228
+2018-Es-03840	Las charlas que tenemos con estefanía siempre que nos juntamos,ayy dios 	joy	0.7743355388488666
+2018-Es-00532	@SIAOCTRL @JCYCTRL Males 😃	joy	0.4991253516657917
