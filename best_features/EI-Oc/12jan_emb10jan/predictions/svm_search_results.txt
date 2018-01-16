@@ -1,0 +1,4 @@
+anger: eps 0.005 and score 0.5653
+fear: eps 0.001 and score 0.521
+joy: eps 0.005 and score 0.6308
+sadness: eps 0.005 and score 0.6312
