@@ -12,7 +12,7 @@ from sklearn.preprocessing import MinMaxScaler
 from keras import backend as K
 import tensorflow as tf
 
-np.random.seed(42)
+
 
 '''Script that implements an LSTM network for regression
    Currently doesn't learn much but at least it does something'''
@@ -159,7 +159,7 @@ def train_lstm2(train_X, train_Y, dev_X, dev_Y, input_dim, nodes, batch_size, ep
     predictions = [p[0] for p in pred] #put in format we can evaluate, avoid numpy error
     print('Score: {0}'.format(round(pearsonr(predictions, dev_Y)[0],4)))
     score = round(pearsonr(predictions, dev_Y)[0], 4)
-    return score
+    return predictions, score
     
 if __name__ == "__main__":
     args = create_arg_parser()
@@ -168,32 +168,43 @@ if __name__ == "__main__":
     train_X, train_Y, dataset = load_dataset(args.f1, args.scale, args.shuffle)
     dev_X, dev_Y, _ = load_dataset(args.f2, args.scale, args.shuffle)
     
-    ##LSTM training -- doesn't work yet, only bad results
-    nodes = [128, 256, 400, 512, 1024]
-    dropouts = [0.0, 0.1, 0.2, 0.3]
+    ##LSTM training 
+    nodes = [200, 400, 600, 800]
+    dropouts = [0.1, 0.2, 0.3]
     #recurrent_dropout = [0.0, 0.1, 0.2, 0.3]
     # batch_size = [8, 16, 32, 48]
     # epochs = [5, 10, 15, 20, 25]
     #optimizer = ["adam", "nadam", "rmsprop", "adamax"]
-    lstm_layers = [2,3]
-    dense_layers = [0, 1, 2]
-    lstm_activations = ["relu", "sigmoid", "tanh"]
+    lstm_layers = [3]
+    dense_layers = [1,2,3]
+    lstm_activations = ["relu"]
+
+    # after getting optimal params for relu, check sigmoid/tanh just to be sure
+
     for node in nodes:
         for lstm_layer_option in lstm_layers:
             for lstm_activation in lstm_activations:
                 for dense_layer_option in dense_layers:
-                    for dropout in dropouts:
+                    for dropout in dropouts:                        
                         scores = []
+                        avg_scores = []
                         for fold in range(args.folds):
-                            low = int(len(dataset) * fold / args.folds)
-                            up = int(len(dataset) * (fold +1) / args.folds)
-                            train_X, train_Y, valid_X, valid_Y = cv_dataset(dataset, low, up)
-                            score = train_lstm2(train_X, train_Y, dev_X, dev_Y, len(dataset[0]), node, 16, 20, "adam", lstm_layer_option, lstm_activation, dense_layer_option, dropout)
+                            predictions = []
+                            for i in range(2):
+                                low = int(len(dataset) * fold / args.folds)
+                                up = int(len(dataset) * (fold +1) / args.folds)
+                                train_X, train_Y, valid_X, valid_Y = cv_dataset(dataset, low, up)
+                                pred, score = train_lstm2(train_X, train_Y, valid_X, valid_Y, len(dataset[0]), node, 16, 10, "adam", lstm_layer_option, lstm_activation, dense_layer_option, dropout)
+                                predictions.append(pred)
                             scores.append(score)
+                            # averaged over 2 runs
+                            avg_predictions = [(item + predictions[1][ix])/2 for ix, item in enumerate(predictions[0])]
+                            avg_score = round(pearsonr(avg_predictions, valid_Y)[0], 4)
+                            avg_scores.append(avg_score)                              
 
                         print ('Average score for {0}-fold cv: {1}'.format(str(args.folds), str(float(sum(scores)) / len(scores))))
                         with open("../LSTM_RESULTS_{0}.txt".format(args.task_meta), "a") as outfile:
-                            outfile.write("Average score for {0}-fold cv: {1}, with nodes: {2}, batch_size: {3}, epochs: {4}, lstm layers: {5}, lstm activation: {6}, dense layers: {7}, dropout: {8} and optimizer: {9}, with file: {10}".format(str(args.folds), float(sum(scores)) / len(scores), node, 16, 20, lstm_layer_option, lstm_activation, dense_layer_option, dropout, "adam", args.f1))
+                            outfile.write("Average score for {0}-fold cv: {1} (averaged over 2 runs: {11}), with nodes: {2}, batch_size: {3}, epochs: {4}, lstm layers: {5}, lstm activation: {6}, dense layers: {7}, dropout: {8} and optimizer: {9}, with file: {10}".format(str(args.folds), float(sum(scores)) / len(scores), node, 16, 20, lstm_layer_option, lstm_activation, dense_layer_option, dropout, "adam", args.f1, float(sum(avg_scores))/len(avg_scores)))
                             outfile.write("\n")
 
     
