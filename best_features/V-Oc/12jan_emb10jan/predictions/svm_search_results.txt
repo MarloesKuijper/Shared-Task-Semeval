@@ -1,1 +1,5 @@
-valence: eps 0.005 and score 0.7108
+For valence
+Best score train CV for eps 0.09: 0.7263
+Best score train on dev for eps 0.005: 0.7123
+Best score train + trans on dev for eps 0.02: 0.6966
+

@@ -1,4 +1,20 @@
-anger: eps 0.01 and score 0.6344
-fear: eps 0.04 and score 0.6549
-joy: eps 0.05 and score 0.7098
-sadness: eps 0.06 and score 0.6735
+For anger
+Best score train CV for eps 0.01: 0.6344
+Best score train on dev for eps 0.1: 0.6493
+Best score train + trans on dev for eps 0.001: 0.664
+
+For fear
+Best score train CV for eps 0.04: 0.6549
+Best score train on dev for eps 0.005: 0.6866
+Best score train + trans on dev for eps 0.08: 0.7083
+
+For joy
+Best score train CV for eps 0.05: 0.7098
+Best score train on dev for eps 0.08: 0.7057
+Best score train + trans on dev for eps 0.11: 0.7126
+
+For sadness
+Best score train CV for eps 0.06: 0.6735
+Best score train on dev for eps 0.11: 0.7035
+Best score train + trans on dev for eps 0.15: 0.6994
+
