@@ -60,31 +60,6 @@ def cv_dataset(dataset, low, up):
     valid_Y = valid_rows[:,-1] 
     #print (dataset.shape, train_X.shape, train_Y.shape, valid_X.shape, valid_Y.shape)
     return train_X, train_Y, valid_X, valid_Y
-    
-def train_lstm2(train_X, train_Y, dev_X, dev_Y, input_dim, nodes, batch_size, epochs, optimizer):
-    # don't use -scale here
-    ## Create model
-    train_X = train_X.reshape((len(train_X), 1, len(train_X[0])))
-    dev_X = dev_X.reshape((len(dev_X), 1, len(dev_X[0])))
-    model = Sequential()
-    neurons = len(dev_Y)
-    #model.add(Embedding(input_dim=input_dim, output_dim=nodes))
-    model.add(LSTM(neurons, input_shape=(len(train_X[0]), len(train_X[0][0])), dropout=0.1, recurrent_dropout=0.1, return_sequences=True))  
-    #model.add(Dropout(0.25))
-    model.add(LSTM(nodes, dropout=0.1, recurrent_dropout=0.1))  
-
-    model.add(Dense(1, activation='sigmoid'))                       
-    model.compile(loss='mse', optimizer=optimizer, metrics=['mse']) 
-
-    ## Train model
-    model.fit(train_X, train_Y, batch_size=batch_size, epochs=epochs, validation_split = 0.1, verbose=1)
-    
-    ## Make predictions and evaluate
-    pred = model.predict(dev_X, batch_size=batch_size, verbose=0)
-    predictions = [p[0] for p in pred] #put in format we can evaluate, avoid numpy error
-    print('Score: {0}'.format(round(pearsonr(predictions, dev_Y)[0],4)))
-    score = round(pearsonr(predictions, dev_Y)[0], 4)
-    return score
 
 def train_lstm(train_X, train_Y, dev_X, dev_Y, input_dim, nodes):
     # needs -scale
@@ -146,6 +121,45 @@ def train_feedforward(train_X, train_Y, dev_X, dev_Y, input_dim, nodes):
     score = round(pearsonr(predictions, dev_Y)[0],4)
     print('Score: {0}'.format(score))
     return score
+
+def train_lstm2(train_X, train_Y, dev_X, dev_Y, input_dim, nodes, batch_size, epochs, optimizer, lstm_layers, lstm_activation, dense_layers, dropout):
+    # don't use -scale here
+    ## Create model
+    train_X = train_X.reshape((len(train_X), 1, len(train_X[0])))
+    dev_X = dev_X.reshape((len(dev_X), 1, len(dev_X[0])))
+    model = Sequential()
+    neurons = len(dev_Y)
+    #model.add(Embedding(input_dim=input_dim, output_dim=nodes))
+    model.add(LSTM(neurons, input_shape=(len(train_X[0]), len(train_X[0][0])), dropout=dropout, recurrent_dropout=dropout, return_sequences=True, activation=lstm_activation))  
+    #model.add(Dropout(0.25))
+    if lstm_layers == 2:
+        model.add(LSTM(nodes, dropout=dropout, recurrent_dropout=dropout, activation=lstm_activation)) 
+    else: 
+        model.add(LSTM(nodes, dropout=dropout, recurrent_dropout=dropout, return_sequences=True, activation=lstm_activation)) 
+        model.add(LSTM(int(nodes/2), dropout=dropout, recurrent_dropout=dropout, activation=lstm_activation))
+
+    if dense_layers > 0:
+        if lstm_layers == 2:
+            model.add(Dense(int(nodes/2), activation="relu"))
+            if dense_layers > 1:
+                model.add(Dense(int(nodes/4), activation="relu"))
+        else:
+            model.add(Dense(int(nodes/4), activation="relu"))
+            if dense_layers > 1:
+                model.add(Dense(int(nodes/8), activation="relu"))
+
+    model.add(Dense(1, activation='sigmoid'))                       
+    model.compile(loss='mse', optimizer=optimizer, metrics=['mse']) 
+
+    ## Train model
+    model.fit(train_X, train_Y, batch_size=batch_size, epochs=epochs, validation_split = 0.1, verbose=1)
+    
+    ## Make predictions and evaluate
+    pred = model.predict(dev_X, batch_size=batch_size, verbose=0)
+    predictions = [p[0] for p in pred] #put in format we can evaluate, avoid numpy error
+    print('Score: {0}'.format(round(pearsonr(predictions, dev_Y)[0],4)))
+    score = round(pearsonr(predictions, dev_Y)[0], 4)
+    return score
     
 if __name__ == "__main__":
     args = create_arg_parser()
@@ -155,26 +169,32 @@ if __name__ == "__main__":
     dev_X, dev_Y, _ = load_dataset(args.f2, args.scale, args.shuffle)
     
     ##LSTM training -- doesn't work yet, only bad results
-    nodes = [50, 64, 128, 256, 512, 1024]
-    batch_size = [8, 16, 32, 48]
-    epochs = [5, 10, 15, 20, 25]
-    optimizer = ["adam", "nadam", "sgd", "rmsprop", "adamax"]
+    nodes = [128, 256, 400, 512, 1024]
+    dropouts = [0.0, 0.1, 0.2, 0.3]
+    #recurrent_dropout = [0.0, 0.1, 0.2, 0.3]
+    # batch_size = [8, 16, 32, 48]
+    # epochs = [5, 10, 15, 20, 25]
+    #optimizer = ["adam", "nadam", "rmsprop", "adamax"]
+    lstm_layers = [2,3]
+    dense_layers = [0, 1, 2]
+    lstm_activations = ["relu", "sigmoid", "tanh"]
     for node in nodes:
-        for batch in batch_size:
-            for epoch in epochs:
-                for opt in optimizer:
-                    scores = []
-                    for fold in range(args.folds):
-                        low = int(len(dataset) * fold / args.folds)
-                        up = int(len(dataset) * (fold +1) / args.folds)
-                        train_X, train_Y, valid_X, valid_Y = cv_dataset(dataset, low, up)
-                        score = train_lstm2(train_X, train_Y, dev_X, dev_Y, len(dataset[0]), node, batch, epoch, opt)
-                        scores.append(score)
-    
-                    print ('Average score for {0}-fold cv: {1}'.format(str(args.folds), str(float(sum(scores)) / len(scores))))
-                    with open("../LSTM_RESULTS_{0}.txt".format(args.task_meta), "a") as outfile:
-                        outfile.write("Average score for {0}-fold cv: {1}, with nodes: {2}, batch_size: {3}, epochs: {4} and optimizer: {5}, with file: {6}".format(str(args.folds), float(sum(scores)) / len(scores), node, batch, epoch, opt, args.f1))
-                        outfile.write("\n")
+        for lstm_layer_option in lstm_layers:
+            for lstm_activation in lstm_activations:
+                for dense_layer_option in dense_layers:
+                    for dropout in dropouts:
+                        scores = []
+                        for fold in range(args.folds):
+                            low = int(len(dataset) * fold / args.folds)
+                            up = int(len(dataset) * (fold +1) / args.folds)
+                            train_X, train_Y, valid_X, valid_Y = cv_dataset(dataset, low, up)
+                            score = train_lstm2(train_X, train_Y, dev_X, dev_Y, len(dataset[0]), node, 16, 20, "adam", lstm_layer_option, lstm_activation, dense_layer_option, dropout)
+                            scores.append(score)
+
+                        print ('Average score for {0}-fold cv: {1}'.format(str(args.folds), str(float(sum(scores)) / len(scores))))
+                        with open("../LSTM_RESULTS_{0}.txt".format(args.task_meta), "a") as outfile:
+                            outfile.write("Average score for {0}-fold cv: {1}, with nodes: {2}, batch_size: {3}, epochs: {4}, lstm layers: {5}, lstm activation: {6}, dense layers: {7}, dropout: {8} and optimizer: {9}, with file: {10}".format(str(args.folds), float(sum(scores)) / len(scores), node, 16, 20, lstm_layer_option, lstm_activation, dense_layer_option, dropout, "adam", args.f1))
+                            outfile.write("\n")
 
     
     
