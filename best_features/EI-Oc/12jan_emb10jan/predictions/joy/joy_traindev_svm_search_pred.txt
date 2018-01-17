@@ -3,11 +3,11 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-03900	Me acabo de dar cuenta que soy la persona más cizañosa del mundo 😂 pero es divertido 😈🙊😂	joy	2
 2018-Es-01245	@_lisanvallejos q graciosa la primera foto, te amo o o o	joy	1
 2018-Es-05943	Se que tienes un nuevo amor, sin embargo te deseo lo mejor. Si en mi no encontraste felicidad, tal vez alguien más te la dará🎶🍷	joy	1
-2018-Es-02995	@KevinZeron1 De ti también 🌚 JajAjajajajaja bueno no 	joy	1
+2018-Es-02995	@KevinZeron1 De ti también 🌚 JajAjajajajaja bueno no 	joy	2
 2018-Es-06725	Se me cayó el celular abajo de la cama y empecé a putear: la re calcada concha puta verga. Por suerte muy normal mis puteadas. 😂	joy	1
 2018-Es-05409	Maldito smirnoff , Aurora será 	joy	0
 2018-Es-03742	@CariFutbolera Y no para nada esta bien mi princesa 	joy	0
-2018-Es-06239	@Fernanfloo puedes jugar minecraft online seria divertido porfavor saludos 👌	joy	2
+2018-Es-06239	@Fernanfloo puedes jugar minecraft online seria divertido porfavor saludos 👌	joy	1
 2018-Es-05996	Paso a paso y paso firme 😊	joy	1
 2018-Es-02577	Qué dicha y tiene su novio al tenerla a su lado...	joy	1
 2018-Es-03499	Vivo #Feliz, #Vivo #danzando, vivo mi #música, vivo #Bailando	joy	3
@@ -16,7 +16,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-04921	@MyLifeAsLau27 Lo se lo se 	joy	0
 2018-Es-05707	Te voy a cambiar el nombre, en base a lo que haz traido, ahora te llamaras puras tragedias 	joy	0
 2018-Es-02566	el mv es muy divertido me dieron ganas de estar ahí	joy	2
-2018-Es-02460	Es tan divertido encontrar a alguien con quien joder por todo.	joy	1
+2018-Es-02460	Es tan divertido encontrar a alguien con quien joder por todo.	joy	0
 2018-Es-02299	@Guarromantico_ Mira amigo @EPN deberiamos hacer una infreschurchur más chingona. Hay que tirar lo que no sirve 😊	joy	1
 2018-Es-02102	Que sarra cumplir años en día festivo y recibir -1 regalo.	joy	1
 2018-Es-00249	@rtorresabc123 @TeresaBalladare JAJAJAJAJAJAJA recién veo esto que risa hp	joy	2
@@ -35,19 +35,19 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-01991	@Nextollgofjus Que sos puta?  Si yo también lo lei 	joy	0
 2018-Es-06100	Como quisiera que estemos abrazaditos viendo pelis 😊	joy	1
 2018-Es-04288	@OzielCVargas9 Gracias!!! 	joy	1
-2018-Es-01566	Para amarte no necesito que me des la luna, solo quiero tener la fortuna, de regalarte mi amor 🎶	joy	2
+2018-Es-01566	Para amarte no necesito que me des la luna, solo quiero tener la fortuna, de regalarte mi amor 🎶	joy	1
 2018-Es-02908	@yariela_flores Si necesito quitármelo ya 	joy	0
 2018-Es-03910	@ValdattiOficial Por los huesos de que necaxista va? 	joy	0
 2018-Es-03005	@pegada123 Admirable. Suerte.	joy	1
-2018-Es-00552	Con razon la otra ves cuando no nos vimos y paso mas o menos esto yo estaba asi, es porque no la veo y me pongo sensible y me molesta todo 	joy	0
+2018-Es-00552	Con razon la otra ves cuando no nos vimos y paso mas o menos esto yo estaba asi, es porque no la veo y me pongo sensible y me molesta todo 	joy	1
 2018-Es-02556	@carls____ Jajajaj que agradable sujeto	joy	2
 2018-Es-04475	A celebrar con gusto	joy	2
-2018-Es-06793	@el_geniecito Por cada mujer un aroma, derrochando sensualidad que deslumbra. 	joy	2
+2018-Es-06793	@el_geniecito Por cada mujer un aroma, derrochando sensualidad que deslumbra. 	joy	1
 2018-Es-00799	Intento hacer sonreír a la gente	joy	1
 2018-Es-00703	@_DxrkJoke Me parece genial, —Comienzo a caminar hacia la cabaña 22 sin soltar a Soo— Pero hay que entrar sin hacer mucho ruido porque »	joy	0
 2018-Es-06772	@Lazarini17 así te paso cuando ne viste?  	joy	0
 2018-Es-05272	@PushMeJoel Si lo se jajaja ya me abrió varios pero ni para contestar 	joy	0
-2018-Es-04002	yo quiero q me toque una cumbita, yo quiero q la baile Maribel, quiero ver su graciosa figuritaa, moviendo los pies, los pies, los piesss	joy	1
+2018-Es-04002	yo quiero q me toque una cumbita, yo quiero q la baile Maribel, quiero ver su graciosa figuritaa, moviendo los pies, los pies, los piesss	joy	2
 2018-Es-03320	Lamento decirte que tu cara no te ayuda en nada 	joy	0
 2018-Es-04310	@ScarlettAguirre Es como preparar la fiesta de un hijo o así 	joy	0
 2018-Es-04326	@Kotitas_Party @belindapop Eso pienso siempre, y aparece con un twit nuevo!!!! 😅	joy	1
@@ -62,18 +62,18 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-06035	No soy nada orgullosa y amo ser así	joy	1
 2018-Es-03945	@SoyPhoebeGrey Tsss, buenas noches.  Recuerda sonreír todos los días. 🌚💕	joy	2
 2018-Es-04969	@LuliZarate6 JAJAJA 😎😎😎 por eso somos amigas, somos especiales. 😊	joy	2
-2018-Es-04956	ir al supermercado a esta hora está genial.	joy	0
+2018-Es-04956	ir al supermercado a esta hora está genial.	joy	1
 2018-Es-02756	Send nudes, perdón nubes* (? 	joy	0
 2018-Es-03639	Me daban risa los comerciales d julio regalado dond las señoras se avientan y enloquecen cn las promos pro la realidad supera a la ficción	joy	1
 2018-Es-05206	La concha de su madre con lo de la araña 	joy	0
-2018-Es-01489	@beluibanez9 @elcosodelapizza Hola la re calcada concha de tu hermana volves a hacer algun chiste y te borro la sonrisa de una patada 😇👌🏻	joy	1
+2018-Es-01489	@beluibanez9 @elcosodelapizza Hola la re calcada concha de tu hermana volves a hacer algun chiste y te borro la sonrisa de una patada 😇👌🏻	joy	0
 2018-Es-00059	Camila está tan emocionada, quiero abrazarla hasta que mis brazos ya no aguanten	joy	2
-2018-Es-00057	Un mensaje basta para sonreír 😊	joy	1
+2018-Es-00057	Un mensaje basta para sonreír 😊	joy	2
 2018-Es-02157	Me: Only deep and meaningful lyrics get to me Factoria: hay otro en mi vida que curó mis heridas me devolvió la alegría que daba por pérdida	joy	1
 2018-Es-01131	@secretgxrden @rcalafell Gracias! 	joy	1
 2018-Es-00365	Hermoso dia! Hermosa visita.  Por arrancar la rutina. #felicidad pura... 😀😀😀😀	joy	3
 2018-Es-05774	@beckam102 @AdrianaRico25 Lo mismo para el chico #10 	joy	0
-2018-Es-04738	@TeguaTitulado Usted es el odontologo? No sabia que había cambiado el nickname!  	joy	1
+2018-Es-04738	@TeguaTitulado Usted es el odontologo? No sabia que había cambiado el nickname!  	joy	0
 2018-Es-01427	@JeslinMorales7 Yo por eso salgo con el cell con media carga, asi si me mamo se descarga. Hay que ir un paso adelante siempre. 	joy	1
 2018-Es-04222	@paulaquimor Mi felicidad va en aumento	joy	2
 2018-Es-00564	@NaNoCordoba_PG Poco a poco,  😊	joy	1
@@ -83,14 +83,14 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-04850	Ni cuenta la otra 	joy	0
 2018-Es-05377	@KidGuilty @cathy Jajajajaja ctm la #pipeton 	joy	1
 2018-Es-02649	@dania_gamboaC Jaja el sábado trabajo todo el día 	joy	1
-2018-Es-03963	Chicos el meme del dia del amigo con icardi y maxi dejo de ser gracioso en el 2014. SOLTAR	joy	2
+2018-Es-03963	Chicos el meme del dia del amigo con icardi y maxi dejo de ser gracioso en el 2014. SOLTAR	joy	1
 2018-Es-00359	La vi muy abrigada 	joy	1
 2018-Es-05417	Buen dia, que sea un magnifico inicio de semana lleno de éxitos y bendiciones. #SiempreAdelante #GanemoTodos #Entusiasmo #Alegria  #Dios #Fé	joy	2
 2018-Es-01188	Estaba bien emocionada por mañana porque iba a ver a mi novio chiquito bebé y resulta que a la mera hora no porque puta vida. 😢💔	joy	1
 2018-Es-04121	Que traidora me salió Celeste 	joy	0
-2018-Es-00645	@___amsyar55 Describe plis 	joy	1
+2018-Es-00645	@___amsyar55 Describe plis 	joy	0
 2018-Es-01090	Hoy le he dicho a un chico que estudiaba el pir y sabía lo que era. #Felicidad #LuegoDicenQueSiMeEnamoro	joy	1
-2018-Es-00932	@AmyRed18 Gracias, igualmente bien inicio de semana 	joy	2
+2018-Es-00932	@AmyRed18 Gracias, igualmente bien inicio de semana 	joy	1
 2018-Es-03543	Yo no me enojo, las personas q no suman se sacan del medio y listolis!!!!   La vida es tan corta, q no vale perder el tiempo!   #Feliz	joy	1
 2018-Es-05199	Toda tv local tiene su Pedrito Sola 	joy	1
 2018-Es-03534	Cada cosa que le digo se me caga de risa 😑	joy	1
@@ -98,7 +98,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-02742	@eliasintwiter Suerte y disfruta!!! 	joy	2
 2018-Es-03662	Eres la mujer que se la vive haciendome sonreír	joy	1
 2018-Es-06388	Menosmal y en clara no anda nunca nadie. Jajaja 	joy	0
-2018-Es-02425	@PenaPenardz Claro que no está súper chistoso 😂	joy	1
+2018-Es-02425	@PenaPenardz Claro que no está súper chistoso 😂	joy	2
 2018-Es-02439	Taquitos de queso (del de Tampico) para el alma de un tampiqueño lejos de su terruño 	joy	1
 2018-Es-05276	La cámara del Samsung se conoce 	joy	0
 2018-Es-02144	kadillac juega super pussy	joy	1
@@ -122,35 +122,35 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-04612	Tengo más antojos que una embarazada 	joy	1
 2018-Es-02371	Soy dichoso 😌😂	joy	1
 2018-Es-00905	Quién juega Chess?	joy	0
-2018-Es-00864	Por si algún día necesitas a alguien con quien hablar, aquí estoy 	joy	1
+2018-Es-00864	Por si algún día necesitas a alguien con quien hablar, aquí estoy 	joy	0
 2018-Es-04735	@ModernYeezus 💖💖 lo mejor fue el debate de artículos constitucionales con los policías 	joy	1
 2018-Es-01348	Acompañenme a vivir esta triste historia 😂	joy	1
-2018-Es-03860	@ferdipoca Con todo gusto 😏	joy	2
+2018-Es-03860	@ferdipoca Con todo gusto 😏	joy	1
 2018-Es-02581	Weón, tengo el agrado de decir que mi profesora de historia es  una de las docentes pro del colegio más "bacan" de chillan.	joy	1
 2018-Es-06464	No me canso de ver los videos 	joy	1
 2018-Es-04067	@LorenzoArado Feliz día Loren!👐💕	joy	3
 2018-Es-01440	Su, me caes joya culiadaso ,me cago de risa con vos en el curso	joy	2
-2018-Es-03484	@mariobautista_ Por esta, y una mil razones más, estoy orgullosa de ser #Bautister	joy	2
+2018-Es-03484	@mariobautista_ Por esta, y una mil razones más, estoy orgullosa de ser #Bautister	joy	1
 2018-Es-02313	Si no hablo en el grupo de familia no uso el wsp 	joy	0
 2018-Es-01164	Me da risa q se creyeran lo de v o r	joy	1
 2018-Es-01275	Mueran todos. 	joy	0
 2018-Es-00053	Estoy preparando un final mientras tomo té de limón al que le agregué más limón y como un Guaymallen de fruta. Ya sé que soy divertidísima	joy	1
 2018-Es-04440	@Camila_Cabello estoy muy orgullosa lpm	joy	2
 2018-Es-06115	Demasiada tensión. Días definitivos en los que todo se juega.  Que no se pierdan las esperanzas. Hay que seguir luchando siempre.	joy	1
-2018-Es-00519	Que afortunada que soy por tener a la gente que tengo en mi vida. Que lindo que lindo que lindo todoooo💞	joy	3
+2018-Es-00519	Que afortunada que soy por tener a la gente que tengo en mi vida. Que lindo que lindo que lindo todoooo💞	joy	2
 2018-Es-05778	Usted afirma ANC traerá paz y prosperidad. Yo pienso resultará en dictadura, miseria, bloqueo económico, represión, humillación y Migracion.	joy	0
 2018-Es-01477	@monsexgee La mesera por que la gefa es conmigo, bendito sea el descuento jajajaja 	joy	1
 2018-Es-04903	@RenaCorrea15 También 	joy	0
 2018-Es-05786	@dieg0_ps Esa vara era un trío waiting to happen 	joy	0
 2018-Es-00611	@monlaferte Gracias por siempre hacerme sonreír incluso sin conocerme, gracias por hacerme saber que siempre estás aquí, conmigo 😢💕💕💕	joy	2
-2018-Es-03972	@thekingkapo @danielh76742506 @Iturio12 @canchamural @Chivas @atlasfc Jaja que risa dan cabras	joy	1
+2018-Es-03972	@thekingkapo @danielh76742506 @Iturio12 @canchamural @Chivas @atlasfc Jaja que risa dan cabras	joy	2
 2018-Es-02132	@MtzAnaid Nunca en tu vida habías visto tan buenos memes 	joy	1
 2018-Es-00555	La estación radial de conversación del GTA 3 sigue siendo chistosa y parodiando nuestra sociedad apropiadamente.	joy	1
 2018-Es-02251	Quiero viajar por el mundo. 	joy	1
 2018-Es-02964	Van a vomitar cojudeces como "profesionalizar", "efecto social" y "responsabilidad"... gente como Juliana Oxenford, claro. 	joy	0
 2018-Es-02610	@Maribolika Encontré una modelo ucraniana con tu foto, te pille poh comadre 	joy	1
 2018-Es-06652	@jlruizmlg Es un cambio fuerte porque llevo ya varios años con Linux pero todo es acostumbrarse. Eso o un Mac 	joy	0
-2018-Es-03096	Acano de descubrir la opción de "conversación secreta" de messenger, y aunque me parece entretenido me pregunto si todo esto es necesario.	joy	0
+2018-Es-03096	Acano de descubrir la opción de "conversación secreta" de messenger, y aunque me parece entretenido me pregunto si todo esto es necesario.	joy	1
 2018-Es-02839	Diay por dicha voy pasando Conta, Proba y Álgebra 😂😂😂🤦🏻‍♀️🤷🏻‍♀️	joy	1
 2018-Es-02607	Madrugar es de guapas ¿no? Pues espero ser hoy miss universo... @lavecinarubia 	joy	1
 2018-Es-02868	@mgalinero Total, aunque es mejor si es el mismo para todos los momentos 	joy	1
@@ -167,7 +167,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-04974	#Felicidad es cuando tu oncologo te dice que los estudios dieron perfectos y que te ve el año que viene	joy	1
 2018-Es-03135	@lauracarrranza Tu vas a quedar mal no yo 	joy	0
 2018-Es-03559	@brizuela27_cone @v_rgzz Es una satisfacción verte jugar de nuevo. Muy bien cone, con todo !!!	joy	2
-2018-Es-02490	El día de mañana estará emocionante.	joy	1
+2018-Es-02490	El día de mañana estará emocionante.	joy	2
 2018-Es-03949	Ya se lo mande, estoy muy contenta ahre	joy	2
 2018-Es-04534	@HeyVampi__ Probaré la del micro a ver. 	joy	1
 2018-Es-04312	Si te hubiera conocido en 2012.. igual me hubieras encantado bie.	joy	1
@@ -184,20 +184,20 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-04824	@YoSoyDeLeon Leonés hasta el alma (todavía hablo cantadito) pero también ya soy de esta ciudad 	joy	1
 2018-Es-05279	@BurgosChochy Bueno dale monurdoooo, el que te viene a buscar entra y te despierta?,  hace ese servicio tambien monooo? 	joy	1
 2018-Es-03835	@Vane_Twitts Utaa, no pues ya estuvo que no van a festejar 	joy	0
-2018-Es-03701	Pa que me das follow si luego se lo vas a quitar 	joy	0
+2018-Es-03701	Pa que me das follow si luego se lo vas a quitar 	joy	1
 2018-Es-01305	No puede decir bien "vida loca'' es muy chistoso.	joy	1
 2018-Es-02016	@AWE0NA0Y00NGI   ESTA TIPA ME DEFINE EN TO' SUS TWEETS. ¿CÓMO LO HACI'? 	joy	0
-2018-Es-05002	@_AngieArdila_ Disptame esta 	joy	0
+2018-Es-05002	@_AngieArdila_ Disptame esta 	joy	1
 2018-Es-06681	@MariannaADzib @CheloB18 El jueves o viernes 	joy	1
 2018-Es-06727	No quiero cerrar estas heridas no quiero curarme de ayer, prefiero llorarte de alegría 🙏🏼🌼✨	joy	0
 2018-Es-02416	"Optimista" de @elcaloncho es vida, alegría y amor.	joy	2
-2018-Es-04776	menos mal que por el tl no me he topado a ninguna rata hablando pestes de jongin, esto es a lo que llamo felicidad	joy	1
-2018-Es-02751	Pensé en el para decirle feliz día y creo q le re mil chupo un huevo	joy	2
-2018-Es-06676	Cuando se #pelean tb deben subir fotos, no solo cuando hay #felicidad @LaRadioRedonda @XavierOZevallos @ADE_personal	joy	1
+2018-Es-04776	menos mal que por el tl no me he topado a ninguna rata hablando pestes de jongin, esto es a lo que llamo felicidad	joy	0
+2018-Es-02751	Pensé en el para decirle feliz día y creo q le re mil chupo un huevo	joy	1
+2018-Es-06676	Cuando se #pelean tb deben subir fotos, no solo cuando hay #felicidad @LaRadioRedonda @XavierOZevallos @ADE_personal	joy	0
 2018-Es-06740	@chiagavertino Por suerte nunca entable una conversación dónde tuviera que decirlo	joy	0
-2018-Es-06087	Kris no para de refregarme que hoy sale, q agradable sujeto	joy	1
+2018-Es-06087	Kris no para de refregarme que hoy sale, q agradable sujeto	joy	0
 2018-Es-03781	@L0UISDRUG *se de cuenta de lo idiota que es y tambien de que no es graciosa ni cool siendo racista, una hater mas, no le presten atencion	joy	0
-2018-Es-00026	Fa las minitas lo acobardaron con las fotos al de combate, pobre vago! 	joy	1
+2018-Es-00026	Fa las minitas lo acobardaron con las fotos al de combate, pobre vago! 	joy	0
 2018-Es-02042	Con q cara lo miro ahora? 	joy	1
 2018-Es-01379	Esta negra mentirosa se hace la graciosa y no le sale	joy	0
 2018-Es-04651	Calló piedra sin llover 	joy	0
@@ -208,7 +208,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-04757	Puedo decir qué son Vacaciones casi casi hasta qué me digan cuándo. 😅	joy	1
 2018-Es-06135	@alondraheravil @miranda_patino eres toda una doña 	joy	1
 2018-Es-05381	Hace años no disfrutaba de un partido de fútbol en la cancha, ahora todos transmiten en vivo la jugada había sido 😅	joy	1
-2018-Es-02924	10 el que juega poqui! Te quiero broda	joy	2
+2018-Es-02924	10 el que juega poqui! Te quiero broda	joy	1
 2018-Es-06233	@FernyGraciano Ferny muy buenas noches, espero que hayas tenido un buen día, descansa y cuidate mucho 	joy	1
 2018-Es-06266	Porque mierda soy tan orgullosa loco por que por que POR QUEE	joy	1
 2018-Es-04942	@polloxhs Era como cuando retan al hermano chico y está como "y como no le decí eso a mi hermano!!!1!1!" culiao insoportablemente hueón 	joy	0
@@ -221,15 +221,15 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-04650	Me está comenzando a gustar @BTS_twt !! Suenan tan genial	joy	1
 2018-Es-01204	Gasta dinero es un gusto; no es un dinero perdido	joy	0
 2018-Es-00078	@vanedesantiago Aparte en invierno siento como que no disfrutas por frío intenso ☹️y en otoño está lindo y agradable	joy	1
-2018-Es-06046	#DeColombiaMeGusta la alegría de la gente❤	joy	3
+2018-Es-06046	#DeColombiaMeGusta la alegría de la gente❤	joy	2
 2018-Es-00541	@lozan13 mucha suerte y los 9 reseñados o mas que lidiais los mas serios y no tengais bajas suerte	joy	0
 2018-Es-00117	@delsimonee "PANCHOOO" "sos diosisima" "Me deprimis" "Me caes re bien" "muy loca "  " Re divertida"	joy	1
 2018-Es-04130	@Camila_Cabello @BrunoMars Alegre por ti bebe cami	joy	2
 2018-Es-03245	@davitinho_ Gracias hermano 	joy	1
 2018-Es-05266	Gracias @BBVAContinental por hacer la pre venta de entradas para el Perú vs Colombia. 	joy	1
 2018-Es-00978	@DelosCobos22 excelente profe gracias por sus buenas vivras siempre lo recordamos con agrado por que nos dio buenos triunfos a la  aficion.	joy	2
-2018-Es-00510	Felicidad es: enjambarte una dosis de waffles antes de dormir 🐽🐽🐽	joy	2
-2018-Es-04020	@michi_alison Tienen que ser números escritos o pueden ser 1,2,3... ? 😅	joy	0
+2018-Es-00510	Felicidad es: enjambarte una dosis de waffles antes de dormir 🐽🐽🐽	joy	1
+2018-Es-04020	@michi_alison Tienen que ser números escritos o pueden ser 1,2,3... ? 😅	joy	1
 2018-Es-05516	@cristobalncs @CamiloIgnaciov Me encanta porque la abuela ni se movió para agarrarla 	joy	1
 2018-Es-00234	Y luego todavia despertar y ver que me guardaron una hamburguesa para cenar! ❤ Esta pequeña parte de mi vida se llama felicidad.	joy	2
 2018-Es-04476	@Tatilutteo Igual yo los preferiría a ellos en la gira antes que la susodicha 	joy	0
@@ -254,7 +254,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-06834	@Daii_Tsubasa21 cuando vos puedas y nosotras tambien osea 1000años 	joy	1
 2018-Es-05010	@JonasAGP Cállate jonas nadie te pregunto 	joy	0
 2018-Es-05113	Parece piola " la vecina " 😂	joy	1
-2018-Es-05153	Se van a topar con mucha mierda con cara de amigo, y a esos hay q meterles un boleo en el orto. A los demás, q son los de verdad, feliz día	joy	0
+2018-Es-05153	Se van a topar con mucha mierda con cara de amigo, y a esos hay q meterles un boleo en el orto. A los demás, q son los de verdad, feliz día	joy	1
 2018-Es-03978	@SomosRayados Le clavan dos pepinos y uno segurito es a su palo. 	joy	0
 2018-Es-00657	@soyflori es re gracioso porque te conocí cuando me pediste los datos SALIENDO DE KRAVI y ahora escuchas slb ahre te quiero	joy	2
 2018-Es-03485	Si el Chacon llegó a Magdalena yo le doy la vuelta al mundo 	joy	1
@@ -275,7 +275,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-06203	Tenemos que olvidar un pasado que pesa y pisa. Y sonreír a vidas mejores.	joy	1
 2018-Es-02982	Fue alto día y saber que mañana llegan mis abuelos hace que lo termine mejor. Me explota el corazón de felicidad y ganas de verlos❤	joy	2
 2018-Es-06095	A mi las cosas se me dan porque siempre creo que se me van a dar, si alguna vez pienso en negativo en el fondo siempre soy optimista 	joy	1
-2018-Es-03172	#DeColombiaMeGusta su gente linda, divertida, amigable y echada pa'lante.	joy	2
+2018-Es-03172	#DeColombiaMeGusta su gente linda, divertida, amigable y echada pa'lante.	joy	1
 2018-Es-02188	@kzla_ Buena técnica? 	joy	0
 2018-Es-01637	@DebRyanShow Me da mucho gusto por ti y más si es lo que te gusta !!! Éxito !! #Rayito	joy	1
 2018-Es-00377	@KevenYHensy Y yo también estoy tan orgullosa de ustedes 😍😩🙈	joy	2
@@ -293,7 +293,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-00463	Me parece que me falta una noviesita durante la semana ahno 	joy	0
 2018-Es-01785	@Pabalsesgenial Jajajaja sii  😅	joy	2
 2018-Es-00609	Se revoluciona tw con zinos 	joy	1
-2018-Es-02632	@QuimiCarol_ Ke buen servicio 	joy	1
+2018-Es-02632	@QuimiCarol_ Ke buen servicio 	joy	0
 2018-Es-04943	Parce yo veo mis fotos y me doy cuenta que soy re feo 	joy	1
 2018-Es-03488	@polituitts No que #TvAztecaMiente? 	joy	0
 2018-Es-03130	Toda la ropa que me regalaron me quedaron gigantes y la zapatilla me quedó chica. Qué suerte la mía	joy	1
@@ -313,12 +313,12 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-04229	Jajajajajajajaja se te escapó el corazón jajajajaja mimoso 😂	joy	3
 2018-Es-06503	No cuidó mis libros menos iba a cuidar mi corazón 💔 	joy	1
 2018-Es-01988	¿Por qué soy tan orgulloso? 😅	joy	1
-2018-Es-05449	@Fer__Stl Justo el día que se metió con un camión no estaba él. Es genial.	joy	0
+2018-Es-05449	@Fer__Stl Justo el día que se metió con un camión no estaba él. Es genial.	joy	1
 2018-Es-05673	Solo uso fb para guardar memes 	joy	1
 2018-Es-05518	Cuando tengo tan buen genio siento que algo muy malo va a pasarme. 	joy	1
 2018-Es-01610	@passagesoflife Así estaba viendo 	joy	0
 2018-Es-00794	Yo tmb puedo bardear igual 	joy	1
-2018-Es-01904	@omarcrl Entonces mucho menos el amor de mi vida 	joy	2
+2018-Es-01904	@omarcrl Entonces mucho menos el amor de mi vida 	joy	1
 2018-Es-02289	Alguien que me de una arepa? El hambre que tengo no juega carro	joy	0
 2018-Es-00688	Proximamente contenido nuevo, genial y estupendo manada en #señiorlobo #gamers #youtubers #juegos #otakus #BuenosDias #felizjueves	joy	2
 2018-Es-04149	Ya quiero que sea mañana por la tarde para sentir la satisfacción y cariño de estar entre sus brazos	joy	2
@@ -330,37 +330,37 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-05221	A que hr pasa el tren del recursado? 😂	joy	0
 2018-Es-04750	¿Y si te invito a desayunar unos hot cakes de Frida en Coyoacán? 	joy	0
 2018-Es-01324	Creo que me gusta que me ignoren por eso será que cuando me dan bola ya pierdo el interés en esa persona 	joy	0
-2018-Es-05553	#MasterChefMx Noemi. Cuantas más Peña???? Ah! No verdad..   	joy	1
+2018-Es-05553	#MasterChefMx Noemi. Cuantas más Peña???? Ah! No verdad..   	joy	0
 2018-Es-02795	@juanbrandolin04 @Micka_Martinez0 @nazaromanosss @mica_paolo14 que agradable sujeto este juan	joy	1
 2018-Es-02663	Larga Vida Al Envidioso Para Que Vea To' Lo Que Yo Gozo!🎶 -😏	joy	1
 2018-Es-03893	Lo mejor es cuando cuentas algo emocionado y los demás se emocionan contigo	joy	2
 2018-Es-05387	Sentir esa sensación de quererte enamorar... 😅	joy	1
 2018-Es-00674	@Camila_Cabello @BrunoMars NO PUEDO ESTAR MAS EMOCIONADA POR TI Y POR LO QUE HAS LOGRADO	joy	2
-2018-Es-05931	ESTOY LLORANDO DE FELICIDAD	joy	3
+2018-Es-05931	ESTOY LLORANDO DE FELICIDAD	joy	2
 2018-Es-06194	desde nene he sido posero, a quien no le gusta serlo ...todo es imagen... todo es fake 	joy	0
 2018-Es-03143	Vivo #Feliz, #vivo #Danzando, vivo mi #música, vivo #Bailando	joy	3
 2018-Es-03976	@heavydrjosh  Ay, Sof tu eres súper especial, siempre nos reímos de estupideces, es lindo y agradable. Musho loff <tres	joy	3
-2018-Es-00223	@Gtafit0 Tu solo es RT  	joy	1
+2018-Es-00223	@Gtafit0 Tu solo es RT  	joy	0
 2018-Es-02953	Tengo sentimientos de tristeza al ver que mis compañeros ya están en prácticas 😔 pero de alegría a la vez de que cumplan este peldaño 🤗😍	joy	1
 2018-Es-04561	Mi horóscopo de “cuidate de los dolores estomacales” y llevo dos hras retorciendome de dolor.  Como no quieren que sea tan creyente de eso 	joy	0
 2018-Es-00210	Lo bueno de que no este el Eze en casa es que puedo tocar y marcar el ritmo con el pie sin que venga a decirme que deje de golpear el piso 	joy	0
-2018-Es-05537	Bueno uno no, par de botellas, unas cuántas, bueno sii 😆	joy	2
+2018-Es-05537	Bueno uno no, par de botellas, unas cuántas, bueno sii 😆	joy	1
 2018-Es-00515	@SebaGuerrero19 @NottoBerna Jajajaja sobre todo porque podían mantenerse parados 😂	joy	1
 2018-Es-02492	Tengo las conversaciones más interesante con el. 😊	joy	2
 2018-Es-05492	Copia de seguridad: recreo para fijaste twitter	joy	0
 2018-Es-04673	@iugeloc Por una vez no me has respondido en Twitter vacilandome. Estoy: contenta.	joy	1
 2018-Es-03255	Pero al siguiente día que gusto conocerte y aqui todo se olvida💃🎶	joy	1
 2018-Es-03734	@chochos Mejor que los horrendos corsé que le ponian, si está el saquito 	joy	0
-2018-Es-00599	Que sujeto agradable mi madre	joy	1
+2018-Es-00599	Que sujeto agradable mi madre	joy	0
 2018-Es-06240	@Rusmandown Yo lo entendí pero bueno no fue gracioso :/	joy	0
 2018-Es-05143	@kenjigi Jajaja ay soy iop vv :3 	joy	1
 2018-Es-03050	#FanArmyFaceOff #ARMY Estoy escuchando Spring day y casi lloro, me siento orgullosa.	joy	3
 2018-Es-06050	@AngieFretes Yo te aguanto 	joy	0
 2018-Es-04887	Todos los amigos le van a mandar mensajes porque todos lo amamos, me pone contenta, pero me va a responder tipo 10 de la noche a mi...	joy	1
 2018-Es-00972	El que con muchas juega con ninguna se queda. 😎😌👍	joy	1
-2018-Es-00813	Duermo abrazada de mi stitch que más puedo pedir 😊	joy	2
+2018-Es-00813	Duermo abrazada de mi stitch que más puedo pedir 😊	joy	1
 2018-Es-04639	@MalejaRg_18 Las amo, #Familia #Felicidad 😍❤️💏🦁	joy	3
-2018-Es-02988	@DominguezViki Te faltó la ratita y hubiera sido más gracioso jajajajaja	joy	2
+2018-Es-02988	@DominguezViki Te faltó la ratita y hubiera sido más gracioso jajajajaja	joy	1
 2018-Es-05729	Llegamos a Madrid, hala... Un aplauso para el chófer de la nave 🚀 lalalalalalala	joy	1
 2018-Es-03680	Chiks pls, no es gracioso que se hagan pasar por Sebastián justo ahora   #SebastianVillalobos #PDCs #SaakTrendy #KCAMexico	joy	0
 2018-Es-03435	@_ELBRAYAN_ Muy malvado él que juega así con uno jejeje	joy	1
@@ -373,7 +373,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-01968	El día del amigo es como la navidad y año nuevo, todos se aman sólo porque es un día festivo 😷	joy	1
 2018-Es-05258	Jajajaja es muy gracioso pensar toda la situación	joy	2
 2018-Es-00549	@paynejoyce_ Así tipo vagabundos?   	joy	0
-2018-Es-01573	Ojalá pero OJALÁ... Que les vaya muy bien juntos 	joy	0
+2018-Es-01573	Ojalá pero OJALÁ... Que les vaya muy bien juntos 	joy	1
 2018-Es-04120	Vivo #feliz, #vivo #Danzando, vivo mi #música, vivo #Bailando	joy	3
 2018-Es-03846	Esta noche es mi sábado a la noche 	joy	1
 2018-Es-01541	@MientrasleoS Llueve? Donde? Invernalia? Aquí en la capital de los 7 Reinos, mañana más que agradable, procedemos al santo ritual.	joy	0
@@ -389,15 +389,15 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-05564	@Fernandareta_ JAJAJAJAJAJAJAJAJA.  Ah que chistosa. 😂 😂 😂	joy	2
 2018-Es-05465	Acostado al fin #DiaPaLargo agradable temperatura en #Viña ni tanto frío	joy	1
 2018-Es-06282	jaja entonces a mi me bloquean tanta importancia me dan jajjaja caramba 	joy	1
-2018-Es-04480	@ByankaNarvaez Vamos a ver si es verdad. Yo voy a escribir ahorita 	joy	0
+2018-Es-04480	@ByankaNarvaez Vamos a ver si es verdad. Yo voy a escribir ahorita 	joy	1
 2018-Es-05017	Lo dejo que piense que ganó, si empiezo a sacar los trapitos al sol lo dejo en vergüenza y no termino más 	joy	0
 2018-Es-01676	No me sigue nadie mal ahi 	joy	0
 2018-Es-04685	Me da risa ver cómo la gente presume tener una relación fantástica y hasta conocer con el que cuernean al novio. 	joy	1
 2018-Es-03686	Nadie es dueño de tu felicidad, por eso, no dejes tu alegria, tu paz, tu vida en manos de nadie.	joy	1
-2018-Es-06459	Yo vivo muerta de la risa la verdad 	joy	1
+2018-Es-06459	Yo vivo muerta de la risa la verdad 	joy	2
 2018-Es-04158	De verdad que dicha que me di cuenta la clase de personas que están a mi alrededor 👌🏽 justo en mi cara las verdades 👌🏽	joy	1
 2018-Es-06386	Gracias por absolutamente todo y sobretodo, gracias por ser la persona que me completa. ¡Feliz día! @CXClV	joy	1
-2018-Es-04693	@vickyvickyf14 Feliz dia para vos tb vicky ! 😍😘	joy	3
+2018-Es-04693	@vickyvickyf14 Feliz dia para vos tb vicky ! 😍😘	joy	2
 2018-Es-01780	@GastonDH08 Puuf cada vez que se va viene con algo mejor! Jajaj gracias primo 	joy	2
 2018-Es-05851	"Lo veía y me daba cuenta de que pasaría el tiempo y cada vez que viera su sonrisa o escuchara su risa, moriría de ganas de que fuese mío".	joy	1
 2018-Es-05983	@AlisonVivanco Brillante !!! Nada más	joy	1
@@ -417,7 +417,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-02927	@angela_yama @AndreaCaroPuche Jajajajaa vea sin duda alguna este queda para la Historia bb 	joy	1
 2018-Es-00451	@jcsosazpurua Yo lo llamaría socialismo populista, estado de bienestar, cohabitación criminal, culillo, en fin, tantas cosas!! Lamentable!	joy	1
 2018-Es-05958	@Real_Oscarinn @lapollislicona Jajajaja si lo peor es que si cocino bien hasta hambre me dio 	joy	1
-2018-Es-02343	"Stalkear es un delito federal", espero que me den una celda con vista a algún bueno y que tenga un buen colchón para dormir... Gracias 	joy	1
+2018-Es-02343	"Stalkear es un delito federal", espero que me den una celda con vista a algún bueno y que tenga un buen colchón para dormir... Gracias 	joy	0
 2018-Es-05151	@phurfemnio Con el hecho de que seas una Selena puedo decirte que me tienes a tus pies, me ha encantado todo de tu perfil. 💕 -N.	joy	2
 2018-Es-02538	@Gonzz14 @braianwredeok Literaaaal Yo la fui a ver y ni pensé en eso Buen Dato eh 	joy	0
 2018-Es-00306	Si planta una semilla de amistad, rmcognra un ramo de felicidad	joy	2
@@ -426,7 +426,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-01923	Me da risa siempre todas mis tías me preguntan si estoy pololeando🤦🏻‍♀️	joy	1
 2018-Es-01464	@J_manuel56 Ah bueno jajajajaja es bueno saberlo 	joy	2
 2018-Es-02587	@katerinenene Puedes escribirme cuando quieras bonita 	joy	1
-2018-Es-03180	@erregina No puedo más 	joy	1
+2018-Es-03180	@erregina No puedo más 	joy	0
 2018-Es-04627	Tengo la esperanza de que me HACKEE. no lo sé, tal ves hoy es mi día de suerte #XtiianZechTrendy #JuanPabloJaramillo #CaeliTrendy #KCAMexico	joy	1
 2018-Es-03749	Estas pláticas parecen rounds que divertido👹👹	joy	1
 2018-Es-01565	@Smgc__ Jajaja quiero salir de esta cueva ya 	joy	1
@@ -441,14 +441,14 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-06278	Me retiro por el momento, mucho estrés para mi gusto.	joy	0
 2018-Es-02216	@suyoshimurakami Ojalá todos los domingos sean asi 	joy	0
 2018-Es-03785	@melu13ana Fo que India, justo que pase una foto graciosa ah	joy	1
-2018-Es-02694	@LeandroLeunis Un aplauso para los enviados de la RAE a corregir en Twitter 😂😂😂	joy	0
+2018-Es-02694	@LeandroLeunis Un aplauso para los enviados de la RAE a corregir en Twitter 😂😂😂	joy	1
 2018-Es-06126	Gracias por enviarme mensaje. Has hecho mi noche maravillosa. 	joy	1
 2018-Es-05829	Siempre tengo la suerte de cruzarme con gente de mierda.	joy	0
 2018-Es-02352	Porque buscando tu sonrisa estaría toda mi vida.	joy	1
 2018-Es-03919	Solterito se vive mejor 	joy	1
 2018-Es-00600	Soy un total desastre pero me causo mucha gracia el error que cometí, a dormir feliz 😄 #BuenasNoches💋	joy	1
 2018-Es-01539	@MasterChefMx  como cuando lloras en las entrevistas para conmover a los chef 	joy	0
-2018-Es-05647	Yo gozo mi vida y otro que la sufra porque con lamento no se gana nada.	joy	1
+2018-Es-05647	Yo gozo mi vida y otro que la sufra porque con lamento no se gana nada.	joy	0
 2018-Es-05957	Y esta soy yo. 😊	joy	1
 2018-Es-01638	Estoy tan emocionado ! 😍🎷	joy	3
 2018-Es-01060	Vamos a hablar de algo que nos haga divertir, Que de tanta sonrisa la muerte se va inhibir	joy	1
@@ -478,9 +478,9 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-03730	@NunkMasKK @martintetaz grabois sucio se caga en los  pobres.Hipocrita. aplausos para Lanata	joy	0
 2018-Es-03788	Desde el viernes que estoy comiendo milanesas 	joy	1
 2018-Es-01849	@warkentin @AnaLauraRR Mil gracias 😊	joy	2
-2018-Es-03447	Si borró las etiquetas de las fotos ¿hubo amor del bueno? 	joy	0
+2018-Es-03447	Si borró las etiquetas de las fotos ¿hubo amor del bueno? 	joy	1
 2018-Es-01312	@c_steven07 Me estás diciendo que me callé falta de respeto mmmm 	joy	0
-2018-Es-03171	@18XXX17 Regalarle un masaje así a mi mujer. Seguro que quedaría encantada. Jijiji	joy	2
+2018-Es-03171	@18XXX17 Regalarle un masaje así a mi mujer. Seguro que quedaría encantada. Jijiji	joy	1
 2018-Es-00875	@Papelitos_azul @_pupile_ SIEMPRE 😂😂😂😂 Para suerte tuya, no tiene u.u	joy	1
 2018-Es-05540	No tengo palabras para describir lo afortunado que me siento con el apoyo que me brindan cada día mas, gracias, estamos juntos en esto💥	joy	3
 2018-Es-02160	@ElAlbanBorja @xmarquez te recomiendo los tacos en @ElAlbanBorja  😊	joy	1
@@ -492,7 +492,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-04870	Pues toma el mochi encantado.	joy	2
 2018-Es-06209	Que hermoso tener esta relación con mi vieja aún a la distancia, que me cuente sus cosas, lo que le molesta y lo que la pone feliz 	joy	1
 2018-Es-04423	@LAXTNITE Fue divertido mientras duro. ♡	joy	1
-2018-Es-04838	@offinthemorning ¿En dónde se le da el “me divierte”? 	joy	0
+2018-Es-04838	@offinthemorning ¿En dónde se le da el “me divierte”? 	joy	1
 2018-Es-06026	@gigimk_ Amor, quiero decirle que la extraño y le deseo una buena noche :(. Duerma y tenga un agradable día mañana ❤.	joy	2
 2018-Es-04684	Yo ni en cuenta de las novedades de Facebook 	joy	0
 2018-Es-02833	Que ganas de mandar todo a la mierda. 😊	joy	0
@@ -507,8 +507,8 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-05426	@gxrbxgs Qué agradable sujeta.	joy	2
 2018-Es-02295	@bg_elwazoswki Cual cállate  viejo ya!	joy	1
 2018-Es-05853	Gastar dinero es un gusto; no es un dinero perdido	joy	0
-2018-Es-02495	@daniidmontiel Ya las cortaré 	joy	0
-2018-Es-01250	@AmirDeguer jajajajaja pero según vos siempre hay pocos 	joy	2
+2018-Es-02495	@daniidmontiel Ya las cortaré 	joy	1
+2018-Es-01250	@AmirDeguer jajajajaja pero según vos siempre hay pocos 	joy	1
 2018-Es-05121	@kmi_tania Jajajajaja te juro que si, la comida me hace feliz 	joy	2
 2018-Es-05745	No era lo que esperaba pero estoy satisfecho	joy	0
 2018-Es-04488	@los40mx @PaolaGalina @CD9 Una divertida y padre entrevista Pao	joy	2
@@ -538,7 +538,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-00476	@ImBroLyK @ImQuantiCoo__93 Il pue la merde 	joy	1
 2018-Es-01951	@niniclaros @NekoJitaBlog Así es nini y hoy se siente muy fresco... El calor de días anteriores me tenia loca 	joy	1
 2018-Es-02511	Mañana es lunes y yo me desvelo pura estupida 	joy	0
-2018-Es-02560	@Dxllnweeks Gracias. 	joy	0
+2018-Es-02560	@Dxllnweeks Gracias. 	joy	1
 2018-Es-01029	'Si te veo sonreír me siento completo'. Estallo de amor por mis amigoooos💥💖💖	joy	3
 2018-Es-04972	@zinxsoficial LPM QUIEN ME PUEDE sTALKEAR A MI 	joy	1
 2018-Es-06623	Después de una travesía, he de decir, bastante agradable, llegué a casa.	joy	1
@@ -550,14 +550,14 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-01134	@Camila_Cabello estoy tan emocionada boluda, me muero de ansiedad más o menos, me siento como una mamá orgullosa that's my pollito	joy	2
 2018-Es-05063	Cc cuando te vienes a casa de tu mejor amigo a conbeber con su hno y primo pero sin el 	joy	0
 2018-Es-03676	Cando uno se propone tener un buen año, no importa lo que pase, solo es cuestión de actitud. Esta en uno #Felicidad 😬☺️🙌	joy	1
-2018-Es-01005	La gente que tuitea con el #feliz + *inserte día de la semana* es para premio	joy	2
+2018-Es-01005	La gente que tuitea con el #feliz + *inserte día de la semana* es para premio	joy	1
 2018-Es-06453	@nachosaldes Estamos dentro de un capítulo de Black Mirror 	joy	1
 2018-Es-05390	"Tienes esa sonrisa que me gustaría ver cada día de mi vida."	joy	2
 2018-Es-02192	¿Esa parranda de los vecinos que ve?  Es miércoles aunque mañana sea festivo.	joy	1
 2018-Es-03975	@isabellamadrid1 Esa foto de esa nena sonriendo me da mucha risa.	joy	2
 2018-Es-03649	Hay gente levantándose ahora y yo, satisfecho, me voy a dormir.	joy	0
 2018-Es-00910	Unas cervezas bien frescas y música en casa 	joy	1
-2018-Es-03219	Por si querías saber todavía te stalkeo jejeje 	joy	0
+2018-Es-03219	Por si querías saber todavía te stalkeo jejeje 	joy	1
 2018-Es-02826	@Artemisa_guerre No andes jugando con eso Yess ☝ y menos de noche 	joy	1
 2018-Es-02886	✴Feliz dia a todas estas personitas de aquí, en verdad lxs quierx y aprecio mucho, espero que lo tengan siempre presente ⬇⬇⬇✴	joy	2
 2018-Es-01296	@Gipsy_Toy @Dieci7Rayas Holii, yo por mí encantada JAJAJAJA	joy	1
@@ -568,7 +568,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-06045	@Martiin_29azul Jajajajaja Admite que estuvo para morirse 	joy	1
 2018-Es-04330	@PliskoPova Yo lo vi hace poco, esta super chistoso jajaja. Y con la misma expresión de Vegeta mientras graba a Davis 😊	joy	2
 2018-Es-04442	@EvieSd_ @Alien_Waldorf Eres una chica divertida, cállate.	joy	1
-2018-Es-02035	Quien es ese actor porno salido de la carcel interpretando a yamcha? 	joy	1
+2018-Es-02035	Quien es ese actor porno salido de la carcel interpretando a yamcha? 	joy	0
 2018-Es-00678	Da igual si se acaban rápido los fines total no hago nada 	joy	0
 2018-Es-06912	no hay alegría sin dolor,y todavía falta lo mejor...!	joy	1
 2018-Es-02059	@Valeria_Morante En mi caso, si le valgo madre 😅	joy	0
@@ -580,7 +580,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-00393	@iiann_x4 Ajajaja pero he-man era rubio y yo no 	joy	0
 2018-Es-01091	No se si eso es para mi o qué , boe 	joy	0
 2018-Es-06108	@ElAlbanBorja cuando eras niño el mejor plan de fds era ir a los juegos del cc y terminar comiendo en tacos california #GrandeElAlbanBorja 	joy	0
-2018-Es-04057	He escuchado a personas decir que si comen por la noche luego no pueden dormir, en mi caso es al revés, si yo no como no duermo!! 😂	joy	1
+2018-Es-04057	He escuchado a personas decir que si comen por la noche luego no pueden dormir, en mi caso es al revés, si yo no como no duermo!! 😂	joy	0
 2018-Es-00664	Nada más te engañe con una vieja, menos, como con 5 yo creo 	joy	1
 2018-Es-06517	@Muertelenta_ 😂😂😂 "incomoduarte" hacer una sonrisa estúpida que te haga querer asesinar al que la pone!	joy	1
 2018-Es-05408	@rtorresabc123 A ver alégrese carajo! Le vale madres mi felicidad😂😂	joy	0
@@ -590,7 +590,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-06372	#DeColombiaMeGusta sentirme orgulloso de haber nacido aquí, y que mi corazón lata super rápido cuándo suena el Himno Nacional.	joy	2
 2018-Es-06457	@Fhuzer @lollapaloozacl Que nervios!! 3 días de conciertos 😆	joy	2
 2018-Es-04192	@fangirlforMila Suele pasar por andar de chismosa 	joy	0
-2018-Es-04553	@Loladiani Jajaja seguro era por eso! 	joy	2
+2018-Es-04553	@Loladiani Jajaja seguro era por eso! 	joy	1
 2018-Es-05326	Pasó toda la noche hablando de eso 	joy	1
 2018-Es-02682	en serio les sigue pareciendo gracioso lo de icardi y maxi lopez?	joy	0
 2018-Es-01031	¡Feliz día a todos mis amigos y amigas de Misiones que pasen un día lleno de luz y alegria!!!	joy	2
@@ -604,7 +604,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-00529	Estaba muy emocionada por hacer fiesta de despedida y todo ese show pero la neta ya lo único que quiero es irme alv	joy	1
 2018-Es-02119	#DeColombiaMeGusta Su alegría y calidad humana, que se identifica en cualquier parte del mundo 🇨🇴🇨🇴🇨🇴	joy	1
 2018-Es-03643	@_ELBRAYAN_ Pensé que lo iban a matar porque fue el último en ver el payaso. Es el Erick kartman del grupo. 	joy	0
-2018-Es-05907	@KevenYHensy Estoy super orgullosa de ustede😘👍😭👌	joy	3
+2018-Es-05907	@KevenYHensy Estoy super orgullosa de ustede😘👍😭👌	joy	2
 2018-Es-00184	Ahora hay otro en mi vida que curo mis heridassss me devolvió la alegría que daba por perdidaaaaaaa @JuanSaplara_	joy	2
 2018-Es-00362	Lo mejor de todo son los memes que se hicieron de la fake 😆	joy	1
 2018-Es-03549	Hoseok esta muy esperanzado y optimista con respecto a su mixtape, por eso espero que lo valoren y lo aprecien como de verdad se merece	joy	1
@@ -616,7 +616,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-04934	@eruwings Graciasss☺ todas las fotos de mi niñez sirven como meme porque son un cago de risa	joy	2
 2018-Es-05669	Al menos estoy siendo feliz, me siento más libre 😂	joy	2
 2018-Es-01739	@DiaanaDu Ja, ja, ja, ja, ja, ja. Mensa. Me muero de risa. Está bien feita la situación.	joy	1
-2018-Es-04485	Un mundo alegre al revés.	joy	2
+2018-Es-04485	Un mundo alegre al revés.	joy	1
 2018-Es-06250	@Mariangel1888 Ksabkabbk Gracias, por cierto el tuyo también está bonito 😎 lacra pues 	joy	1
 2018-Es-02253	No hay cosa que me alegre más el día que ir guiando y ver un perrito en la ventana de otro carro jugando con el viento :')	joy	1
 2018-Es-00966	Te das cuenta que vale la pena cuando te llama en la madrugada borracho diciendo que te ama 	joy	1
@@ -629,7 +629,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-03207	Desde q me vine de lo romi estoy buscando formas de alejar la desgracia y mala suerte y no  encuentro nada, será posible	joy	1
 2018-Es-06062	@karmilla46664 Cuando habla es como demasido sexi y su risa😈 BASTA. Ya caí en sus redes.	joy	1
 2018-Es-03420	@rppdeportes JA JA JA rrodilleras magicas 😄	joy	1
-2018-Es-04415	@TwoPotz Calla que la hackeas bien rico 😅	joy	2
+2018-Es-04415	@TwoPotz Calla que la hackeas bien rico 😅	joy	1
 2018-Es-03244	un pibe que me chamuyaba le puse feliz día del amigo y a mi ex también, soy la queen de mandar a la friendzone.	joy	1
 2018-Es-06313	RT = SI EL COPETE AZABACHE DE ALAN TE LLENA DE REGOCIJO  #CD9 #Coders #AlonsoVillalpandoTrendy #KCAMexico	joy	1
 2018-Es-03456	@DeniseDresserG @EPN Eso estaría genial, pero mejor hay que hacerlo cuando salga de gira a otro país.	joy	1
@@ -642,7 +642,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-06174	Jajaj con Fede parecemos  niños chicos nos dijeronde ir a EEUU y lo Primero que dijimos fue yo quiero ir a Disney Orlando 	joy	1
 2018-Es-00863	Cuando mi madre venga a su casa  Me va echar   Hace una semana que estoy aca 	joy	0
 2018-Es-00924	Ahora que veo todos hablando y organizando para ir mañana a la escuela me dan ganas de ir , pero mejor me quedo a dormir 	joy	1
-2018-Es-00554	la gata hija de puta me re asusto, flashe que era el momento de flotar 	joy	1
+2018-Es-00554	la gata hija de puta me re asusto, flashe que era el momento de flotar 	joy	0
 2018-Es-00569	Quiero mirar una peli graciosa y no se cual mirar ._.	joy	1
 2018-Es-01958	Nunca quise tanto q fuera lunes 	joy	0
 2018-Es-04341	@mybosscabello Jajajajja csm sono muy raro 	joy	2
@@ -657,23 +657,23 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-03265	@kustomshady Una de los últimos acontecimientos 	joy	1
 2018-Es-04431	—¿Cuánto tiempo lleva tú presidente haciéndose pendejo?  —Un año... no, menos, como 5 años. 	joy	0
 2018-Es-04107	Feliz día, a la mejor amistad 🐶❤	joy	3
-2018-Es-04875	@Patty_Mene oye es en buena onda, diciéndolo con risa xdddddd no de pesa2, eso nunca hahaha	joy	2
+2018-Es-04875	@Patty_Mene oye es en buena onda, diciéndolo con risa xdddddd no de pesa2, eso nunca hahaha	joy	1
 2018-Es-04793	A ver no estoy muy animado  Mañana si  srry ;(	joy	1
 2018-Es-04681	Como me cago de risa con los tweets de Santiago 	joy	2
-2018-Es-06014	@_aleper Puede ser por eso 😃	joy	0
+2018-Es-06014	@_aleper Puede ser por eso 😃	joy	1
 2018-Es-02576	No se pero eres esa persona que me hace subir al cielo con tan solo esa mirada. 😀	joy	1
 2018-Es-03038	yo le voy a decir feliz día a mi ansiedad que nunca me deja sola best friends 4ever	joy	1
 2018-Es-06322	@YanetCein Ave María purisima, no manches 	joy	0
 2018-Es-02329	@RPELAEZ9 Regresa al América 🙏 Queremos volver a sentir la alegría xe ser campeón.	joy	2
 2018-Es-03000	sos super agradable, deberíamos hablarrr e.r	joy	2
 2018-Es-00907	¿Cuáles twitts de enamorada? 	joy	1
-2018-Es-05519	Era mi alegría	joy	2
+2018-Es-05519	Era mi alegría	joy	1
 2018-Es-02699	Terminas un libro:  -No te agradó -Quedas satisfecho -Quieres más	joy	1
 2018-Es-04035	@Jerry_Eliz Es normal que me sienta orgullosa?	joy	1
 2018-Es-04224	@ZelayaAlej97 Jajajaja junto con vos si bebe 	joy	2
 2018-Es-04700	@12CarlosAndres el equipo juega a nada pero qué chucha	joy	0
-2018-Es-01052	Volver a la pega no me entusiasma pero yo lo pedí. Capaz que me estén esperando con el medio sobre azul 😂	joy	0
-2018-Es-01268	Neta, muy neta; es genial ver crecer a @GrissRom. De hecho es genial ver crecer a todos. ¡Nunca desistan! #PaLante	joy	1
+2018-Es-01052	Volver a la pega no me entusiasma pero yo lo pedí. Capaz que me estén esperando con el medio sobre azul 😂	joy	1
+2018-Es-01268	Neta, muy neta; es genial ver crecer a @GrissRom. De hecho es genial ver crecer a todos. ¡Nunca desistan! #PaLante	joy	2
 2018-Es-06739	por suerte nunca me paso 😏	joy	1
 2018-Es-00517	@gines_natalia Buenas noches ami gordita @gines_natalia q descanses amor mañana mos vemos tequiero amor #siempre #feliz #4y7meses	joy	3
 2018-Es-05278	@Aitana_Dess Es la verdad. 	joy	0
@@ -690,10 +690,10 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-06823	Cuanta basura 🚮 leo aquí vale pero entretiene 	joy	0
 2018-Es-00168	@NekoJitaBlog Ah, como decíais que se dormía en vuestro futon y luego lo llevabais a la cuna... 	joy	0
 2018-Es-05995	Que cae tan bien aunque sea un Mentiroso, Ja. 😅	joy	1
-2018-Es-03259	La inmensidad del mundo no te recuerda lo pequeño que eres SINO LO GRANDE QUE PUEDES SER.  #Felicidad	joy	2
+2018-Es-03259	La inmensidad del mundo no te recuerda lo pequeño que eres SINO LO GRANDE QUE PUEDES SER.  #Felicidad	joy	1
 2018-Es-03624	La gente positiva y llena de alegría me vuelve loca, que lindo por favor. Enamorada de la gente así	joy	2
 2018-Es-06504	Mañana es festivo aqui en Colombia, osea noche rela	joy	1
-2018-Es-03285	@IvanZavaIa Soy muy acosadora? 	joy	1
+2018-Es-03285	@IvanZavaIa Soy muy acosadora? 	joy	0
 2018-Es-04202	Otro entretenimiento para mi alma sin ganas tendré que encontrar	joy	1
 2018-Es-02478	@Cane1956 De.nada un gusto acompañarle .	joy	1
 2018-Es-00280	Que busssshona me saliste que hasta esa te sabes 	joy	1
@@ -701,20 +701,20 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-02900	@IvanZavaIa Si ya sabes cómo somos pa' que nos invitas ahre 	joy	1
 2018-Es-04306	Like Si Sobreviviste al Fin De Mundo 💡 	joy	1
 2018-Es-04782	Que es lo que más te gusto de Madrid?? #PabloAgustinResponde	joy	1
-2018-Es-05128	¿Por qué resistirnos si olemos tan bien juntos? 😊	joy	1
+2018-Es-05128	¿Por qué resistirnos si olemos tan bien juntos? 😊	joy	2
 2018-Es-01424	Soy sp afortunada por tener una relación tan bonita con mis threeMs y mi sis, no cualquiera tiene mejores amigas como familia 😢👭👭💕	joy	2
 2018-Es-06754	Como dijo el gran pity alvarez,TENGO LOS AMIGOS QUE QUIERO TENER, no pido mas nada que su alegría en mi vida y festejar cada momento vivido.	joy	2
 2018-Es-00787	@carrillomirko Por que sos re chantaaaaaaaaaaaa jajajajajaj 	joy	2
 2018-Es-03266	Me hubiese encantado salir con mis amigos pero me tengo que levantar temprano para trabajar. 😢	joy	1
 2018-Es-01201	@ramonevich llueve en Invernalia, celebro que en la capital el tiempo sea agradable. Disfrutemos del café	joy	1
 2018-Es-02971	Temita y a dormir 	joy	0
-2018-Es-02151	@ruggelariamor_ Ay que bien 😃	joy	2
+2018-Es-02151	@ruggelariamor_ Ay que bien 😃	joy	1
 2018-Es-01754	@KenjiFujimoriH el bienestar del pais es mas importante que un @FuerzaPopularPe de puros payasos.	joy	1
-2018-Es-04105	@eri_zu3 Jajaja veci me hiciste la noche 	joy	1
+2018-Es-04105	@eri_zu3 Jajaja veci me hiciste la noche 	joy	2
 2018-Es-00090	Bueno lo re faveaba 	joy	1
 2018-Es-05664	@Guille_Pacheco Claramente! Era lo que me hacía falta para dormir tranquila y a gusto 	joy	1
 2018-Es-04771	Me encanta Twitter, siento que la gente que me lee a esta hora, me acompaña en mi insomnio y eso está genial. 😂🙈	joy	1
-2018-Es-03330	@rincondedacne De nada amigo, lo hago con mucho gusto!!! 😃	joy	2
+2018-Es-03330	@rincondedacne De nada amigo, lo hago con mucho gusto!!! 😃	joy	1
 2018-Es-00625	@sophia712 Jajaja la vea estamos igual 	joy	2
 2018-Es-03793	Me faltó Minhyuk, bueno, a él tampoco lo superaré 	joy	1
 2018-Es-04733	aparte creo q lo dijo en serio ajajajajajajajajajajjajaajja pero fue muy gracioso	joy	1
@@ -727,5 +727,5 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-04695	@Erick_Ezio Se hacer quesadillas, culero! 	joy	0
 2018-Es-05314	"Se tiene que tomar un recreo" jajaja no  amiga jajaja 😂😂	joy	1
 2018-Es-00031	¿Qué es amar? Nacer y morir a cada paso, alegrarse y sufrir, tener y perder. ¿Qué es amar? solo tu me lo puedes decir . A Kiko de Patri TQM	joy	1
-2018-Es-03840	Las charlas que tenemos con estefanía siempre que nos juntamos,ayy dios 	joy	2
+2018-Es-03840	Las charlas que tenemos con estefanía siempre que nos juntamos,ayy dios 	joy	3
 2018-Es-00532	@SIAOCTRL @JCYCTRL Males 😃	joy	1

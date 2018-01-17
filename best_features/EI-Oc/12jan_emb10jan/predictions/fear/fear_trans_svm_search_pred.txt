@@ -12,7 +12,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-00651	Camila se ve linda cuando se pone nerviosa	fear	1
 2018-Es-02661	@telefe  Hacen lo que quieren, cambian la programación para ver ese reportaje de SG. Son de terror!	fear	0
 2018-Es-00774	@DragonsR6 @JandritomurosHD @chimigastaca Bffff menudos refuerzos entran...	fear	0
-2018-Es-04945	@guardiacivil Como me encuentre eso en el wc,en la.vida vuelvo a hacer nada ahi!!!#susto	fear	1
+2018-Es-04945	@guardiacivil Como me encuentre eso en el wc,en la.vida vuelvo a hacer nada ahi!!!#susto	fear	0
 2018-Es-02695	gracias por el vivo , me saco el enojo y todas las dudas que tenia @sergiocelli @PaulFerreyraOK	fear	1
 2018-Es-01779	El pibe que usas esta re bueno toy on fire;)) ahre hablamos aveces aunque sos re colgado y sos tremendo marmota ahre	fear	0
 2018-Es-01147	@NatachaJaitt No me gustaria verte de noche 	fear	1
@@ -43,7 +43,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-04465	@florido_raul @Eriemer @Pablo_Iglesias_ Vaya educación tienes! Opina sin insultar por q si no tus comentarios pierden cualquier significado!	fear	0
 2018-Es-00378	¿Existe algo así como una "alarma contra estornudos"? Es que sí estornudo fuerte y mis compañeros se espantan horrible. Pobrecitos.	fear	1
 2018-Es-05335	Tou bue ansioso para dia 25 bruh	fear	1
-2018-Es-03332	Re tímido mi tio para roncar jajajajajajaja	fear	0
+2018-Es-03332	Re tímido mi tio para roncar jajajajajajaja	fear	1
 2018-Es-04303	Hay personas que de suz riquezas no tienen mas que el miedo a perderlas. - Antoine Riva d	fear	1
 2018-Es-02966	Yo me asombro de la mala suerte que tengo no pego ni una	fear	1
 2018-Es-05371	@Panshie_ me estoy poniendo nervioso	fear	3
@@ -55,17 +55,17 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-06367	@SofiaIturres Talvez vio algo...👻 	fear	1
 2018-Es-01178	Mi papá me tiene toda asustada pensando que neta me va regañar, y solo me dice que pida permiso y ya.	fear	1
 2018-Es-01684	@JCamiloRo Así de miedoso parezco?	fear	1
-2018-Es-04474	@mariemati Kore .. de brujas es lo tuyo... 😂😂😂 	fear	1
+2018-Es-04474	@mariemati Kore .. de brujas es lo tuyo... 😂😂😂 	fear	0
 2018-Es-00825	Terrible día tuve no me puedo quejar	fear	1
 2018-Es-03183	Le tire tremendo pique sobre fondos a romilanga eeee	fear	0
-2018-Es-04305	Parenle bolas a la gente que es tímida porque les digo que se pueden sorprender!!	fear	1
+2018-Es-04305	Parenle bolas a la gente que es tímida porque les digo que se pueden sorprender!!	fear	0
 2018-Es-02715	@WACO490 @PaulGoltieri @MonederoJC @PPopular Pdm denunciado insultar no es gratis	fear	0
 2018-Es-05030	Por qué @cafesproutmx cierra tan temprano hoy?! #enojado	fear	1
 2018-Es-00990	Me contaron algo que no le puedo contar a NADIE y mi ansiedad necesita contarselo a al menos una persona	fear	2
 2018-Es-05437	¿Cuál pelea? Jajajajajaja para las chismosas se les acabo el entretenimiento porque hablaremos por interno, bye.	fear	0
 2018-Es-02400	Que canción puedo poner de alarma?	fear	0
 2018-Es-01224	Que repugnante es el olor a cigarro	fear	1
-2018-Es-03685	@106557785100 @DespegarAr Bueno veo que somos muchos los estafados!. Son unos usureros! @DespegarAr de #terror!	fear	1
+2018-Es-03685	@106557785100 @DespegarAr Bueno veo que somos muchos los estafados!. Son unos usureros! @DespegarAr de #terror!	fear	0
 2018-Es-02209	De la nada arranco la música alto susto 😐😂😂😂	fear	1
 2018-Es-01121	@francontreras_7 Tengo una sospecha 😉	fear	0
 2018-Es-06417	#AnimalesSueltos Un horror como habla Asis de "hacer Plata" caradura a Costa de La politica y Fantino lo endiosa!!!	fear	1
@@ -90,12 +90,12 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-00157	@iEnterate Susto peludo!	fear	3
 2018-Es-05627	@OlamAmezkaita no solo a mi, varias personas recibimos esa respuesta y por el enojo se empezaron a mover las sillas. @anabeatrizglez1	fear	1
 2018-Es-06657	nunca me sentí más intimidado en mi vida que como cuando pasé por al lado de carolina gatica lpm mide como 2 metros ahre	fear	1
-2018-Es-06688	Me puse re nerviosa nae por eso jajajajaja	fear	1
+2018-Es-06688	Me puse re nerviosa nae por eso jajajajaja	fear	2
 2018-Es-01598	No mames @EPN como ignauragas algo peligroso? No mames...puras pendejadas #MiercolesCiudadano #Fail #Fraude	fear	1
-2018-Es-03371	Soy muy desconfiado.	fear	2
+2018-Es-03371	Soy muy desconfiado.	fear	1
 2018-Es-05125	@diazgiles Como le hiciste ? A mi me da pánico porque si la apago se me sube el muerto o eso llamado parálisis 😰	fear	2
 2018-Es-03365	La situación despertó la preocupación d investigadores que han visto fenómenos geotermicos en Michoacan	fear	1
-2018-Es-05875	No tenía idea de la potencia de la aspiradora, me enteré porque no vino la housekeeping Creo que la vecina de abajo cuelga del techo 	fear	1
+2018-Es-05875	No tenía idea de la potencia de la aspiradora, me enteré porque no vino la housekeeping Creo que la vecina de abajo cuelga del techo 	fear	0
 2018-Es-00735	Me da miedo comer	fear	3
 2018-Es-02870	@Glorette_616 El me pelea, insulta. Yo lo bloqueo. Punto. Enojate con otro.	fear	0
 2018-Es-02938	@querespostre No, Ale. Pero déjalo así... Gracias por tu preocupación 😘	fear	0
@@ -122,7 +122,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-03393	@vasplagio @copypasto @Dulcelandiajsjs @SyncedTeam no entiendo la razon de la sorpresa hola alguien	fear	0
 2018-Es-02018	Eeh mi jefe es medio pedófilo, ya decía yo que por algo me daba desconfianza	fear	1
 2018-Es-06454	Que espanto como escribíamos antes por dios, alto retraso 😂	fear	1
-2018-Es-02859	Yo siempre dañando mi celular 😍que sorpresa 🤷🏽‍♀️🤦🏽‍♀️	fear	1
+2018-Es-02859	Yo siempre dañando mi celular 😍que sorpresa 🤷🏽‍♀️🤦🏽‍♀️	fear	0
 2018-Es-01469	@affstella Normal: timidez!	fear	1
 2018-Es-04712	Me cae tan pero tan mal este flaco, tremendo careta y pelotudo	fear	0
 2018-Es-03857	El niño que más quiero no aparece y no contesta nada y la neta estoy preocupada	fear	1
@@ -130,7 +130,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-04537	Antes a estos problemas ni les prestaba atención, ahora me quitan las ganas de dormir y mas ansiedad ... La vida y sus cambios.	fear	2
 2018-Es-01926	@Kote2203 Oye la Kgo!!! Tremenda cola jjajjajajjajjajajjaja No me gustan los gatos  Pero si es lindo!	fear	0
 2018-Es-00252	Por temor a incomodarle no había podido decirle que, ese perfume que utiliza la representaa, es el aroma de una diosa magenta	fear	0
-2018-Es-00785	Soy tan ansiosa que no me voy a poder dormir	fear	3
+2018-Es-00785	Soy tan ansiosa que no me voy a poder dormir	fear	2
 2018-Es-01159	Me pone nervioso esta mina 😣	fear	2
 2018-Es-00627	Que una persona sea buena inocente y tímida no significa que sea estúpida otra cosa es que vos seas tremenda mierda	fear	0
 2018-Es-04599	Tembló y duro! #caracas #temblor 	fear	3
@@ -152,10 +152,10 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-01384	Malhumorado, presumido y descarado, desconfiado, despectivo...	fear	0
 2018-Es-00474	@WBPictures_Ar Saca la mano de ahí carajo 	fear	0
 2018-Es-01724	Le tengo un terror a éste sábado próximo que ni 23 llamadas perdidas de mi madre lo supera.	fear	1
-2018-Es-01339	Nunca había estado tan ansiosa de arreglarme las uñas	fear	2
+2018-Es-01339	Nunca había estado tan ansiosa de arreglarme las uñas	fear	3
 2018-Es-04053	@ruubenrod Estaba preocupado a quien le importa solo a los amarillistas era corrupto no era grato ni importante así que ni lo menciones	fear	1
-2018-Es-03957	@Tuitnauta @kuraitsukiryu @EdyNightmare Cara vez más fuerte la señal, cada vez más peligroso el rastro ...  Una civilización acabada... SOS	fear	1
-2018-Es-02449	No me aburro nunca con uma es de terror❤ jajaja	fear	0
+2018-Es-03957	@Tuitnauta @kuraitsukiryu @EdyNightmare Cara vez más fuerte la señal, cada vez más peligroso el rastro ...  Una civilización acabada... SOS	fear	0
+2018-Es-02449	No me aburro nunca con uma es de terror❤ jajaja	fear	1
 2018-Es-05816	@ivana_valen Que vas a ser horrenda, anda mañana e que ensayamos en el patio	fear	0
 2018-Es-03076	El cuatri mas dificil de la carrera sin dudas...... 	fear	1
 2018-Es-04802	De noche de terror de dia de comedia y por la tarde solo somos gente seria jaaaaa	fear	1
@@ -168,13 +168,13 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-01962	Quien me duerme ahora con la tremenda siesta que me pegue hoy? 😑😑	fear	1
 2018-Es-06315	Son terrible las ganas de tatuarme todo el brazo	fear	1
 2018-Es-04268	Si dejarán de comprar chocolates me harían un favor porque vivo con ansiedad y me lastro todo 😣🐄	fear	2
-2018-Es-06463	Que miedo perderte 😭	fear	3
+2018-Es-06463	Que miedo perderte 😭	fear	2
 2018-Es-05102	Como hago para tardar por lo menos 5 minutos en contestar? Que persona ansiosa q soy lpm	fear	1
 2018-Es-01035	Alguna buena pelicula en netflix (?) Terror , suspenso ....	fear	1
 2018-Es-04163	Me mira espantado y me dice En serioooo???? Igual igual? le dije sí y me dice ooohh que buena gracias amigaaa AJAJAJJAJ	fear	0
 2018-Es-04390	El cobarde Arias Cárdenas según el mismísimo Chávez, se las da de macho.Agarra un fusil y saca a los Cubanos, o recupera Guyana o el Esequiv	fear	1
 2018-Es-06924	Qué horror pelearse en la "despedida"😔😢😕😫	fear	1
-2018-Es-04412	@RyanDVJ morrissey, navajas, la esvástica nazi, protestas 2014 y la pesadilla del cortometraje	fear	2
+2018-Es-04412	@RyanDVJ morrissey, navajas, la esvástica nazi, protestas 2014 y la pesadilla del cortometraje	fear	1
 2018-Es-02410	Hay gente que le tiene pánico a los perros yo no lo puedo creer a un niño le creo pero a un adulto? Se quedan pasmados al ver uno cerca	fear	2
 2018-Es-03125	@LANACION Que inversores? La bicicleta financiera tiene temor? Si gana ,sera senadora,como Mendez.Para ampararse en los fueros.	fear	0
 2018-Es-04676	Primera vez que mi primo no me clava visto va a temblar	fear	1
@@ -191,7 +191,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-06549	Este tremendo team ensayando con toda!	fear	0
 2018-Es-02161	"Solo quiero una noche pa' vacilar"	fear	0
 2018-Es-02638	Que comience el juego... "¿lo sentiste?" xd. 	fear	0
-2018-Es-04742	No mates al tigre si le vas a tener miedo a la piel	fear	2
+2018-Es-04742	No mates al tigre si le vas a tener miedo a la piel	fear	1
 2018-Es-05451	La ventolina que hay jesus se mueve toda la puerta 	fear	0
 2018-Es-05046	@ad_Morato Ushh noo,de verdad que miedo,no sé porque siempre esas vainas molestan a los militares	fear	1
 2018-Es-05039	No bajo al que está en la cima, lo sigo subiendo hasta que le de miedo la altura.	fear	1
@@ -203,14 +203,14 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-00811	Estaba viendo videos de terror pensando que Sofi estaba despierta pero se durmió jajajaja saque todo😂	fear	1
 2018-Es-02027	Porque será que los juguetes siempre se prenden en la madrugada...	fear	0
 2018-Es-03956	@Kissilaa_ @whereistam AAAAAAAAAAAAAAAAAAA TO ANSIOSA	fear	1
-2018-Es-01076	El horóscopo me tiró un " Cuidate de la envidia, de quien menos lo esperas es quien va a traicionarte" 	fear	1
-2018-Es-00186	@verxfem Vaaaaale pensé que era la única a mi este hombre me suena de algo 	fear	1
+2018-Es-01076	El horóscopo me tiró un " Cuidate de la envidia, de quien menos lo esperas es quien va a traicionarte" 	fear	0
+2018-Es-00186	@verxfem Vaaaaale pensé que era la única a mi este hombre me suena de algo 	fear	0
 2018-Es-00407	@juanjorinconm Obviamente uno como hincha mira esa nómina tan buena y espera que el equipo lo haga bien. Pero Hernan es miedoso.	fear	0
 2018-Es-01645	En la cámara gesell se escuchan voces y pasos pero no hay nadie. 	fear	1
 2018-Es-05028	Tremenda loba había sigo	fear	1
 2018-Es-06200	Hablemos de los truenos y relámoagos que hay... 	fear	1
 2018-Es-01423	me habla y me pongo re nervioso,q onda con estoo	fear	2
-2018-Es-01169	@Ochejg11 @ManuelBartual tengo 	fear	1
+2018-Es-01169	@Ochejg11 @ManuelBartual tengo 	fear	0
 2018-Es-01416	Un espejo para @marialauratv ASAP: tilda de violento a @jlespert y tu discurso? 	fear	0
 2018-Es-01475	@MerliNetflix recién termine de ver la segunda temporada. Espero q pronto la compartan en la plataforma Ansiosa espero la tercera! ♡	fear	1
 2018-Es-02600	No se que es más triste, que me aparezcan los recuerdos cuando me saludaban por el día de amigo o la muerte de chester	fear	1
@@ -220,7 +220,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-00413	Que lindo es una persona que te cuide tanto, y este todo el tiempo preocupado por vos💖😍	fear	0
 2018-Es-00854	@Fs_YangWoo Si una pesadilla te gusta automáticamente es un sueño, ¿no?  AY, bebé. ♡	fear	1
 2018-Es-02444	@exopcyrg anjir horror😟😟	fear	0
-2018-Es-00370	Puse la alarma a las 12 qué tipa caradura que soy	fear	1
+2018-Es-00370	Puse la alarma a las 12 qué tipa caradura que soy	fear	0
 2018-Es-00239	@HiltedTardstuck Bueno aquí la agresividad en persona 	fear	0
 2018-Es-03454	Se larga tormenta mal ☔️🌩⚡️💥🌪 	fear	1
 2018-Es-00613	Volvamos a la semana que mi única preocupación era pasar alcohol a la habitación	fear	1
@@ -233,7 +233,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-04864	@DiegoGtz_ Habló el ansioso por la cabalgata	fear	1
 2018-Es-05321	[] profe: Q linda sorpresa que se acordaran uds de mi. Los quiero mucho. Grax x compartir este momento conmigo Felices vacaciones mis amores	fear	0
 2018-Es-02465	Repugnante ver a las hienas(tertulianos), morder, insultar y rabiar, por conseguir un trozo del cadáver de Miguel Ángel Blanco (homenaje)...	fear	0
-2018-Es-02989	@DebRyanShow #Rayito yo lo quiero o mando a un matón a que te de en la medre	fear	1
+2018-Es-02989	@DebRyanShow #Rayito yo lo quiero o mando a un matón a que te de en la medre	fear	0
 2018-Es-06660	Las fotos de mi hna cuando era chiquita son la cosa mas linda, era una nena cachetona negrita con tremendo ojos😍	fear	0
 2018-Es-03458	@Kellyasecas Bien jajaja ansiosa 😉	fear	0
 2018-Es-03826	@feelingbluelove 😉😉😉 a poner alarma porque se me cruzan los horarios 😂	fear	1
@@ -253,7 +253,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-03571	No creo en el horóscopo porque a veces puede y a veces no puede ser lo que te va a pasar, pero ahora si coincidió #Miedo	fear	2
 2018-Es-02130	@AilinGomezB Pega con su cara horrenda	fear	0
 2018-Es-00204	Me estoy viendo la #Season1 de #TheWalkingDead otra vez por #Netflix y que lastima que la serie ya no tenga ese aire a #Thriller y 	fear	1
-2018-Es-03869	Y si mañana es como ayer otra vez, lo que fue hermoso será horrible después	fear	1
+2018-Es-03869	Y si mañana es como ayer otra vez, lo que fue hermoso será horrible después	fear	0
 2018-Es-02331	La #klebsiella es una bacteria Gram (-), que según su especie pueden provocar infecciones urinaria, septicemia, rinitis atrofica.	fear	1
 2018-Es-05527	Está todo en silencio y de repente el gato de la vecina empieza a maullar muuy desesperadamente.. #Miedo	fear	2
 2018-Es-04666	@AgosPuig Ey estoy nerviosa no sentimental jajajaja	fear	1
@@ -280,7 +280,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-06784	@omarlavieri Jajajaja! Está fusionado con la ligustrina y cada tanto se materializa. 	fear	0
 2018-Es-03237	¿Acaso hay algo más placentero que irte a dormir sin poner una alarma? Tan planera que duele	fear	1
 2018-Es-06636	@iPxdfoot —no era sorpresa, recordó haber regresado de la biblioteca con Lily, Marlene, incluso Severus iba con ellos pero se mantenía—	fear	0
-2018-Es-05106	@xloueeh nunca nadie se había preocupado por mi ahre	fear	1
+2018-Es-05106	@xloueeh nunca nadie se había preocupado por mi ahre	fear	2
 2018-Es-04327	Hoy volvio mi teléfono, lo recibio mi papá y para probar si todo andaba bien se metio a la galeria... 	fear	1
 2018-Es-05064	👊El valiente vive hasta que el cobarde quiere 😒🖕	fear	1
 2018-Es-06885	@fenalovesmiare @ladivaza @MIAREsproject El solo se defiende como una persona normal haria,hasta lo han amenazado de muerte	fear	1
@@ -289,10 +289,10 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-04981	@kellyanmarie2 Deja que termine mi pesadilla con la uni	fear	2
 2018-Es-01225	Tanta bulla del bocón que se llevó $15.000 millones a Europa. Gallinón, apenas llegué salió corriendo. Cobarde usó el poder para perseguirme	fear	1
 2018-Es-00110	no soy egoista ni mala persona por responderte tarde un mensaje o no responderlo un gusto te paso con mi ansiedad	fear	1
-2018-Es-03722	¡Eres un peligro!	fear	2
-2018-Es-01883	Mi mayor miedo es presumir a alguien que me esté fallando.	fear	2
+2018-Es-03722	¡Eres un peligro!	fear	1
+2018-Es-01883	Mi mayor miedo es presumir a alguien que me esté fallando.	fear	1
 2018-Es-05205	#Rayito  weeee los frijoles me van a hacer cagar horrible jajajajaja 😹perdón tenía que decirlo	fear	1
-2018-Es-00775	Hoy estaba en cine y andaba una niña como de 10 meses debajo de las sillas y pues nada me pego horrendo susto.	fear	2
+2018-Es-00775	Hoy estaba en cine y andaba una niña como de 10 meses debajo de las sillas y pues nada me pego horrendo susto.	fear	1
 2018-Es-05956	Sigo intentando no rendirme ante el temor si lo que viene suele ser mucho mejor.	fear	1
 2018-Es-00002	Si riber gana alcanza a Boca. 	fear	0
 2018-Es-00507	@DaiNu_ Decime quien fue así te fabrico un insulto piola para q le digas arre	fear	0
@@ -305,9 +305,9 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-00669	Qué puto estrés con los niños que lloran. Deberían tener un botón de mute o algo NETAAAA. 🤦🏻‍♀😠	fear	1
 2018-Es-03047	Quiero llorar mucho porque no se cuando vere el último capítulo de teen wolf 	fear	1
 2018-Es-03994	@ActualidadRT @NicolasMaduro Claro, que orgullo... Pena ajena. Digan lo que pasa en palo verde a esta hora.	fear	1
-2018-Es-06859	6. Aunque la gente piensa que no, soy muy tímida y un tanto introvertida.	fear	1
+2018-Es-06859	6. Aunque la gente piensa que no, soy muy tímida y un tanto introvertida.	fear	0
 2018-Es-00153	Q horrible es querer dormir y no poder dormir la concha de la lora	fear	2
-2018-Es-06426	Jajaja preocupado 😂😂😂😂😂	fear	0
+2018-Es-06426	Jajaja preocupado 😂😂😂😂😂	fear	1
 2018-Es-01838	20. ¿Película de terror favorita?	fear	1
 2018-Es-02633	El susto de mi vida me pegué... gracias a Dios estas bien mi gordo, nuestro ángel no dejo que nada malo te pase. Ya pronto estarás mejor😍	fear	1
 2018-Es-03473	LAS FOTOS DE BTS X PUMA ME SACARON DE LA DEPRESIÓN ESO	fear	2
@@ -316,7 +316,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-01644	Quién se va a pasar toda la noche viendo películas de terror? Yo no, adivinaron	fear	1
 2018-Es-04605	@alissongouv97 @ntj_i Famoso terror 0	fear	2
 2018-Es-06365	@Marian88963751 A mí también se antojó. Traigo un buen de hambre 😂 u.u Enloqueceré.	fear	0
-2018-Es-01388	La vieja loca me pregunto si tenia biblia en mi casa. Le dije que no, y anoto mi nombre en una libreta y donde vivo. 	fear	1
+2018-Es-01388	La vieja loca me pregunto si tenia biblia en mi casa. Le dije que no, y anoto mi nombre en una libreta y donde vivo. 	fear	0
 2018-Es-01282	@GonzaGravano Q espanto la concha tuya	fear	0
 2018-Es-03784	se me movía la mesa y la silla POR EL RECITAL DE LA RENGA 	fear	0
 2018-Es-04133	@Commodorette Gracias senpaiiiiiiiii ❤️❤️❤️ -lo decubrí con las ref que me diste- Pero sigo confundida y ¿asustada? No entiendo nada D':	fear	0
@@ -344,11 +344,11 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-04575	@DebRyanShow #Rayito 169 Que clase en copa de champán me dieron mi jugo que terrible patraña 😈🎶🎶	fear	1
 2018-Es-03700	FALSA ALARMA! Si vi todas la escenas que podía ver ✌🏼(Osea si le sé a esto 🤘🏼)	fear	2
 2018-Es-05249	Voy a llegar a casa y va a estar mi vieja despierta 	fear	1
-2018-Es-04611	Sólo tengo miedo a una cosa: no sentime querida por los que me rodean. 	fear	2
+2018-Es-04611	Sólo tengo miedo a una cosa: no sentime querida por los que me rodean. 	fear	1
 2018-Es-00702	Un abrazo y felicitaciones a Tribu Dy Rasta por el premio a "Mejor álbum de Reggae" de los Premios Graffiti por ese tremendo disco!	fear	0
 2018-Es-02210	Más que risa, lo que da es mucha preocupación por el futuro de #Vzla de darse la #Constituyente, al ver las "propuestas" de sus candidatos	fear	1
 2018-Es-03423	Soy tímida al principio,  pero cuando entro en confianza,  probablemente pienses que estoy LOCA!!!! 😉😜✌	fear	1
-2018-Es-06081	@ashfromamike @CBinvaders @eldiarioes Pero resulta que en la información que yo comentaba no se explicaba las circunstancias del atropello.	fear	1
+2018-Es-06081	@ashfromamike @CBinvaders @eldiarioes Pero resulta que en la información que yo comentaba no se explicaba las circunstancias del atropello.	fear	0
 2018-Es-01146	Y cuando todo esté oscuro yo te aseguro que no serás tímida en la intimidadddd	fear	0
 2018-Es-03870	Voy a morir en paro cardiaco y eso me tiene preocupado	fear	3
 2018-Es-01264	La gente está preocupada por la rural y yo por mis papales para Argentina y que quiero hacer el post grado en gastro y hepato	fear	1
@@ -378,8 +378,8 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-06440	@NatiaLombardo sameee a mi me metió en su grupo sekreto de feibu  	fear	1
 2018-Es-04343	Me llegan banda de solicitudes.. 	fear	1
 2018-Es-01278	@CamiCaceres14_ @yamilarios2 Yo también quiero saber, mandame Ca 	fear	0
-2018-Es-00395	@CopaInterProvCR @baldes_santiago Q me pongo nervioso xd	fear	1
-2018-Es-02250	Tus bolsitas de papa y tu lata de coca armo tremendo y apocalíptico Zocavon #RenunciaRuizEsparza	fear	1
+2018-Es-00395	@CopaInterProvCR @baldes_santiago Q me pongo nervioso xd	fear	2
+2018-Es-02250	Tus bolsitas de papa y tu lata de coca armo tremendo y apocalíptico Zocavon #RenunciaRuizEsparza	fear	0
 2018-Es-00220	Pasando el susto!! #Temblor 	fear	3
 2018-Es-01329	@TownGamePlay Necesito tu abrazo ya. 	fear	0
 2018-Es-01053	Creo que en mi foto, por mi narizota, parece que estoy haciendo la britniseñal 🙁	fear	1
@@ -396,7 +396,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-03622	Odio poner la serie y que este en español, que cosa horrible las voces por dios	fear	1
 2018-Es-00979	@jeenalonso_ Loco vi ese tweet hace como 5 horas y literal pensé lo mismo 	fear	1
 2018-Es-06396	"El amor perfecto echa fuera el temor" 💙	fear	0
-2018-Es-06898	Me di cuenta que me gustan los dias super ventosos y grises como el de hoy, pero entre devuelta por las dudas de algun relampago 	fear	1
+2018-Es-06898	Me di cuenta que me gustan los dias super ventosos y grises como el de hoy, pero entre devuelta por las dudas de algun relampago 	fear	0
 2018-Es-03084	Querer lo que no se puede tener sólo lleva a la desesperación y la locura.	fear	2
 2018-Es-04628	@elquintoescalon #ElQuintoEscalon la primera vez que vi esa presentacion de Black Skinhead, me dio ese escalofrios de lo tremenda que es	fear	1
 2018-Es-06871	@el_dinamo Jajajajajaja tremendo organo reproductor masculino en el globo ocular..... Asi esta bien aplicado @PipeExt ??	fear	1
@@ -414,7 +414,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-02041	En ataque se ve a un equipo ansioso, que en la mezcla posicional no aporta volumen, que sigue dependiendo de la jerarquía de Paredes y de >	fear	0
 2018-Es-01634	sino mi yo que dormía ya después entré en desesperación y quería gritar y no pude lmao hasta que todo se volvió oscuro y desperté	fear	2
 2018-Es-00487	cosas como la premiere de mañana me alteran mucho por conseguir links y todo y no termino viendo nada por lo mal que me hace a la ansiedad	fear	2
-2018-Es-02583	Qué triste, vas a sentir la soledad	fear	2
+2018-Es-02583	Qué triste, vas a sentir la soledad	fear	1
 2018-Es-03518	Tengo q hacer algo o está ansiedad me va a consumir	fear	3
 2018-Es-00123	@LittleIsaaM o sea la chama se confundió de mesa pues, fue tremendo trambolikeo	fear	0
 2018-Es-06729	acabo de bloquear a uno que no tenia foto de perfil y seguia solo a 19 que eran todos amigos y conocidos 	fear	1
@@ -441,7 +441,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-03575	Grilletes y cuerdas y señoras que claman por Grey un sus alcobas. Y a mí que me gusta besar y hacer temblar con la lengua.	fear	1
 2018-Es-01875	Con 22 años voy a sacarme sangre con mi abuela, y se me hace un nudo en la garganta! #Decrecernihablemos #Miedo	fear	2
 2018-Es-05112	Voy a extrañar a Analu y a Tory en mis momentos de desesperación cuando ellas estén en su campa ayyy😭	fear	1
-2018-Es-04334	@MYG_ethereal Tengo un bloqueo horrendo, ya te platicaré de eso ;; por cierto, te extraño.	fear	1
+2018-Es-04334	@MYG_ethereal Tengo un bloqueo horrendo, ya te platicaré de eso ;; por cierto, te extraño.	fear	0
 2018-Es-06801	@javierveri @MonaLavro solo diré que vi 1 min. del trailer y como me amo veré friends porque me cagué de susto #tioaliennomelleve	fear	1
 2018-Es-02596	@Drop_thegame jajaja tómalo como una enseñanza, te podrán asustar pero nunca matar, así que no hay de que preocuparse (?)	fear	1
 2018-Es-04593	@YessicaNatali17 Uhhh que peligro!!!! Jajajaja	fear	1
@@ -449,11 +449,11 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-05053	Que susto me hizo pegar Flor, lpm..😭	fear	3
 2018-Es-02909	No desperdiciemos el momento de ti quiero mas bellaquera menos timidez bebe🎶😛	fear	1
 2018-Es-00913	MuchachXs recomiendenme una peli (terror no ❎)	fear	1
-2018-Es-04604	Nadie te puede preparar para el #amor y el 	fear	1
+2018-Es-04604	Nadie te puede preparar para el #amor y el 	fear	0
 2018-Es-04648	Ke visio el preguntados kuanto me voy a arrepentir cuando suene la alarma	fear	0
 2018-Es-00216	To desanimado pra krlo	fear	1
-2018-Es-00902	Hoy no estuve casi nada en wp jajaja tremenda antisocial	fear	1
-2018-Es-03443	@dani3palaciosdj una pregunta, anoche tuve una pesadilla, soñe con un Raton que se queria montar en mi cuerpo, q significado?#SexoYReligion	fear	1
+2018-Es-00902	Hoy no estuve casi nada en wp jajaja tremenda antisocial	fear	0
+2018-Es-03443	@dani3palaciosdj una pregunta, anoche tuve una pesadilla, soñe con un Raton que se queria montar en mi cuerpo, q significado?#SexoYReligion	fear	2
 2018-Es-02189	Me hizo terrible falta Ivo que agarré y lo re putie, posta que soy re calenton	fear	1
 2018-Es-03646	#DeNocheenlaCiudad Esperanzado de ganarme manillas para el #VibraTYM Y darle la sorpresa a mi esposa @Vibra1049 @CamVelandia	fear	1
 2018-Es-02657	Salté del escritorio por el #temblor pero después regrese por los tacones #ironías 	fear	1
@@ -474,7 +474,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-04061	este hijo de puta q amenaza co matar a mi gata, terrible denuncia se va a comer	fear	2
 2018-Es-03185	@SilvinaMVeliz @Juaaaan7 @MarianoMoa98 @GabbiVillagran1 Una pesadilla	fear	1
 2018-Es-03812	Tengo un stalkeador serial en instagram, le dio like a fotos de hace DOS AÑOS! 	fear	1
-2018-Es-02817	Era una mujer herida por el pasado, desconfiada, fría, una de esas que difícilmente vuelven a querer.	fear	1
+2018-Es-02817	Era una mujer herida por el pasado, desconfiada, fría, una de esas que difícilmente vuelven a querer.	fear	0
 2018-Es-00050	Qué onda lo desconfiada que soy con la gente ya	fear	0
 2018-Es-00598	@teleSURtv @LulapeloBrasil Le tienen miedo 😱. Como en Argentina 🇦🇷. A Cristina no?	fear	1
 2018-Es-04768	@CowgirlDi @Ing_Roger_Pa Ahhhh!!!! 😏😏😏😏 haré de cuenta que no leí este tweet... Pa que salga mejor la sorpresa!! 😎	fear	0
@@ -488,7 +488,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-02459	El filtro que tengo, terrible	fear	1
 2018-Es-02309	hay algo de lo q hablan siempre acá y me genera mucha ansiedad y cada vez q lo leo tiro el cel por la ventana me deben como 9 telefonos ok	fear	2
 2018-Es-04213	#NocheDeTeatro Mi @EylemYilmazCL_ siempre tan preocupada por mi 😙 #ComunidadIcerde	fear	1
-2018-Es-05572	No estoy llorando, se me metió un Hybrid Theory en el ojo.	fear	2
+2018-Es-05572	No estoy llorando, se me metió un Hybrid Theory en el ojo.	fear	1
 2018-Es-03695	@power0ut menos mal que cuando crecen algunas alergias se van pasando. es bien terrible igual	fear	2
 2018-Es-02499	Que miedo ir dentro del auto de mike mientras el maneja, como hace para grabarse y manejar al mismo tiempo😂 loquito	fear	1
 2018-Es-05129	T paso alguna vez?Vi x la puerta d la pieza pasar a alguien x el pasillo. Miro y no hay nadie. #Raro #Tepaso   	fear	2
@@ -497,14 +497,14 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-04406	@DebRyanShow #rayito no importa el color lo que importa es tu preocupación por tus seguidores, muchas gracias por esto💖💖💖	fear	0
 2018-Es-03032	2- es la niña es cute y da miedo a la vez	fear	1
 2018-Es-03081	La picadura de un alacrán es peligrosa... pero no tanto como No me Queda Más de Selena... esa madre te corta la respiración en segundos.	fear	1
-2018-Es-03934	Que sensación horrible acabo de tener, de llegar de jugar y ya no ver ese mensaje	fear	2
+2018-Es-03934	Que sensación horrible acabo de tener, de llegar de jugar y ya no ver ese mensaje	fear	1
 2018-Es-04051	@chiarabriggs antes q entraras a mis planes era un vagabundo el corazón en peligro de extinción	fear	1
 2018-Es-01937	Viste cuando la ex de tu amigo es una genia de twt pero no podes seguirla bc serias tremenda traidora	fear	0
 2018-Es-03127	Dale no seas tímida rompe abusadora	fear	0
 2018-Es-06862	Tremendo!! hace dos días me chamuyaba me decía que la novia esto lo otro y volvieron?Estoy tentadisima😂😂😝😝	fear	1
 2018-Es-05292	Espero que estés bien... En verdad me tiene muy preocupada todo esto. 😔💔	fear	2
 2018-Es-00046	El monarca español manifestó su solidaridad y la de España con el pueblo británico ante la "cobarde violencia terrorista" de la que ha sido…	fear	1
-2018-Es-05847	@_Villa21 Jajjajajjajajajajjaja es serio, jajajjajajjaja	fear	1
+2018-Es-05847	@_Villa21 Jajjajajjajajajajjaja es serio, jajajjajajjaja	fear	0
 2018-Es-05570	@flanchota que pelotudo mira si vas  a hacer eso teniendo tremenda mina como silvina luna...	fear	0
 2018-Es-05708	Esas veces que te pones muy nervioso y no sabes que hacer y terminas vomitando 😅	fear	1
 2018-Es-04408	Si tienes el cabello rizado, sabes el terror que se vuelve con el clima húmedo 🦁	fear	1
@@ -564,14 +564,14 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-02019	@TinchoVoley6 Jajajajaja #miedo ahre	fear	1
 2018-Es-03095	Que horario más horrible 😓	fear	1
 2018-Es-02322	Corea del norte lanzando misiles 	fear	2
-2018-Es-01523	@KevenYHensy Yo me pongo nerviosa😂😔	fear	1
+2018-Es-01523	@KevenYHensy Yo me pongo nerviosa😂😔	fear	0
 2018-Es-01020	Vivir una aventura más por cobardía en un mar de dudas como un cielo oscuro sin lugar seguro, sin un beso puro.	fear	0
 2018-Es-02539	La gente amargada no mas no👎	fear	0
-2018-Es-04173	Mientes por temor a la verdad	fear	2
+2018-Es-04173	Mientes por temor a la verdad	fear	1
 2018-Es-04839	@rxcketqueen__ no le des pelota isidro no vale la pena	fear	0
 2018-Es-01695	Cotto va saliendo por el túnel y mira constantemente hacia atrás a ver si Kamegai no viene cuadrao' pa enmaci. 	fear	1
 2018-Es-04664	Ojo, entiendo la preocupación y que realmente hay pibas que no vuelven. Pero justamente por eso hay que ser responsables con lo que rulamos	fear	1
-2018-Es-03377	#ndc tantos autos y ninguno me atropello	fear	2
+2018-Es-03377	#ndc tantos autos y ninguno me atropello	fear	1
 2018-Es-04001	Que horrible es estar diciendo algo que te molesta y que al otro no le importe	fear	1
 2018-Es-03421	No me pudieron vender mi remedio para la ansiedad, la dosis que hacen ahora es la mitad de lo que me dieron. Ah...estoy bien cagá entonces.	fear	1
 2018-Es-06140	@HumoVerdolaga que preocupación tengo, deme moral!	fear	1
@@ -588,7 +588,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-06829	Fui a comprar unas cosas y el chabon que me atendió me dijo "déjame tu numero x cualquier cosa" y me acaba de hablar. 	fear	1
 2018-Es-05364	Es horrible cuando te das cuenta de que tienes menos dinero del qué pensabas💔	fear	0
 2018-Es-03917	Tremendo falso dia del padre para mi jajajaja suerte en pila	fear	1
-2018-Es-02534	Te quise mucho, ¿te lo dije? No, porque soy bien cobarde.	fear	1
+2018-Es-02534	Te quise mucho, ¿te lo dije? No, porque soy bien cobarde.	fear	0
 2018-Es-03305	¿Quién se va a pasar toda la noche viendo películas de terror? Yo no porque después tengo pesadillas	fear	2
 2018-Es-01335	Estuvo bien #12DiasCHV, pero hubiese estado mejor si hubiesen recreado el robo mismo, y la detención de Ariel.	fear	0
 2018-Es-05058	Por qué Tomás sigue a todas mis amigas? 	fear	0
@@ -597,7 +597,7 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-04338	@MichelleNova__ Ay desde cuando me decís Sha que susto, prefiero que me digas negra/ oscurita dejja	fear	1
 2018-Es-05091	@wzrhan jesus que horror	fear	2
 2018-Es-01040	@LANACION Temor de inversores???? DE ESPECULADORES!!!!!!! TIBEROS!!! Q estan ganando fortuna con este gobierno corrupto	fear	2
-2018-Es-05309	Tengo la sensación que va a temblar, ahora no por favor 😓	fear	3
+2018-Es-05309	Tengo la sensación que va a temblar, ahora no por favor 😓	fear	2
 2018-Es-01773	@SebastianCDice @iocph Aquí estoy cobarde. Dale	fear	1
 2018-Es-06777	okokok un fav y espanto a los hptas gatos que estan culeando en mi ventana.	fear	2
 2018-Es-02341	Me enturca que me agarre ansiedad.😤	fear	2
@@ -606,11 +606,11 @@ ID	Tweet	Affect Dimension	Intensity Class
 2018-Es-05558	@sandrals781 @Je_senpai @SEXYKukury @Haru_kun01 @jesusAG48 @Izaak_77 @KhrizSempaii Nooo enserio joder es el mejor tono de alarma sandra	fear	0
 2018-Es-00668	@rrocontr Pero porque cual es tanto tu enojo?	fear	0
 2018-Es-04426	Quiero cambiarme el @ hace rato a "danionino" o a algo que tenga que ver con Noragami o DN pERO esta demuestra mi amor a Hobi y aYUDA PÁNICO	fear	1
-2018-Es-00374	Que en la calle sea un príncipe pero que en mi cama sea salvaje y peligroso🎵	fear	0
+2018-Es-00374	Que en la calle sea un príncipe pero que en mi cama sea salvaje y peligroso🎵	fear	1
 2018-Es-03441	Se me abrió la ventana sola 	fear	1
 2018-Es-04855	@agustinazm_ Es que soy muy ansiosa y ya quiero dejar de sufrir,tener fiebre y hacer mi vida normal 💔	fear	2
 2018-Es-05027	Yo el que te llegaría de sorpresa con ganas de arruncharse contigo todo el dia, yo que no soy nada tuyo.	fear	0
-2018-Es-05550	@Netshoes_AR que desastre que es tu #ecommerce. Experiencia única e irrepetible. Para no recomendarle a nadie. #desastre #horror 	fear	1
+2018-Es-05550	@Netshoes_AR que desastre que es tu #ecommerce. Experiencia única e irrepetible. Para no recomendarle a nadie. #desastre #horror 	fear	0
 2018-Es-00898	#Ollantahumala Abogado Espinoza cuestiona pruebas presentadas por Fiscal Juárez x posible peligro de fuga. @NuevoSolPeru	fear	1
 2018-Es-00187	Contrastes de la #Concacaf: mientras que Martinica es la sorpresa de la #CopaOro2017, E.U. y Costa Rica no están pasando por buen momento.	fear	0
 2018-Es-06922	Los de #Herbalife  son los #CAMINANTESBLANCO (#GameOfThrones ) en Jesus Maria. Cada dia uno nuevo, cada dia son mas! 😂👁 	fear	0

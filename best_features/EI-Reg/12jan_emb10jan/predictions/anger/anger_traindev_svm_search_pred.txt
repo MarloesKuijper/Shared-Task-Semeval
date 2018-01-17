@@ -1,628 +1,628 @@
 ID	Tweet	Affect Dimension	Intensity Score
-2018-Es-06254	@LeoneLGomezz_10 ... si quieren que este bien que me traten bien 😠	anger	0.5256726756083292
-2018-Es-06923	@_spessartine —Se levanta y empieza a correr. El enano corre tras él furioso.—	anger	0.3837136403258029
-2018-Es-04930	Odio mi actitud de nunca querer hacer nada, que me pregunten "hay que hacer esto?", decir "si" y seguir sin hacerlo, DALE BOLUDA HACE ALGO	anger	0.6209098459911594
-2018-Es-05660	Me dieron ganas de comer gomitas y por acá no venden😡😡😡	anger	0.35066588108460817
-2018-Es-04907	Tengo alto resentimiento con mi hermano últimamente	anger	0.5260703835757228
-2018-Es-02948	Estaba para un crobar furioso eh, dió mio. No veo la hora de dejar de laburar aca y hacer lo que quiero. No falta tanto ya	anger	0.5688109576112124
-2018-Es-00467	La Negra no esta para pelear, pero lleva como mil horas peleando, toda ofendida de la vida. Jajajajaja te amo.	anger	0.44578420363457094
-2018-Es-01577	Creía haber encontrado calma pero volví a enloquecer	anger	0.33325723515738864
-2018-Es-03786	A raiz de tanta ira causada a iglesia catolica apoyo a #LGTB por Lorena Castillo, Ulloa deberia devolver los millones incluso a nunciatura.	anger	0.4708258941300511
-2018-Es-05006	Déja de besar y dime la verdad —frunció el ceño como un niño pequeño enfadado sacándole de paso la lengua.	anger	0.4567381340687724
-2018-Es-05058	Por qué Tomás sigue a todas mis amigas? 	anger	0.43065957675121047
-2018-Es-04416	Cuando me enojo con una persona y me da mucha bronca lloro, puteo, me pego y tiro los pelos sola. *ssssssanita*	anger	0.665359733344654
-2018-Es-05627	@OlamAmezkaita no solo a mi, varias personas recibimos esa respuesta y por el enojo se empezaron a mover las sillas. @anabeatrizglez1	anger	0.5431858290636231
-2018-Es-05623	les juro que estoy re mil indignada	anger	0.7023244385916851
-2018-Es-05984	Estoy en mi momento de rabia y odio contra el mundo. Los odio a todos.	anger	0.7883463282008821
-2018-Es-01365	@zacrobinsonff @maftdaddario Es de broma, jamás me enojo con él siempre nos estamos cogiendo en dm	anger	0.41951620759457475
-2018-Es-02011	@CamiRa24 Por que te enojo	anger	0.5442896234225506
-2018-Es-03514	Por un momento creí que no regresaríamos hoy de nuestro quick trip 😲 #miedo	anger	0.34800244325072593
-2018-Es-03576	@Eury66 @MrCotorro Si fuera mujer me sentiria ofendida pero como no entonces, muerete :v	anger	0.6488292138088401
-2018-Es-06173	@tioratero @ManuelaCarmena Insisto, para decir imbecilidades e insultar a la gente prueba en tu propia casa con tu propia madre, saludos	anger	0.7321365683778385
-2018-Es-06021	Yyy se enojo, como siempre.  La entiendo.  Si, ya se, siempre la cago🤦	anger	0.4908539396008418
-2018-Es-00740	@Lunaritos27 Mismamente,xo me jode q ganen,q impotencia 😠😠😠	anger	0.7610640749639227
-2018-Es-05821	Me pongo nervioso cuando tengo que tomarle la orden a mi crush.	anger	0.3541214453014351
-2018-Es-00579	Mi padre quiere que me meta a policía, y yo le dije que si y mi madre salió del más allá diciendo que no, que era peligroso +	anger	0.6231963631477037
-2018-Es-00814	Q resentido del orto	anger	0.7335165304803443
-2018-Es-01356	Me da rabia que te hable y me contestes bien pinche cortante.	anger	0.7639564892261849
-2018-Es-05854	Mañana me saco las ganas de gulear tortas fritas rellenas	anger	0.4760560810578842
-2018-Es-05500	No serviré a Dios como un obrero a la espera de mi salario. #sufismo #rabia #dios	anger	0.5544775614968034
-2018-Es-03863	@Lauragomez_M Esa canción me la dedico un ex y le cogi rabia :( Inmadura hasta el final de mis días.	anger	0.6486348905658255
-2018-Es-01728	La búsqueda del clic en el periodismo es un insulto a la inteligencia, y es reducir el derecho a la información de la gente.	anger	0.592224728584398
-2018-Es-04190	Por que no se mete los mg en el culo 	anger	0.465583109063782
-2018-Es-05962	@lore_rs96 No sé qué entiendes tu por amargado...🙄	anger	0.4777256226344385
-2018-Es-05085	@laSextaTV Y su hermana sin inmutarse x la utilización dl nombre d su hermano para trincar, enfadada con carmena y tragando con su pp	anger	0.7064013796917606
-2018-Es-02459	El filtro que tengo, terrible	anger	0.48766731813636766
-2018-Es-03538	@LechugaEdson01 @ndstrd Lechuga estoy muy indignada contigo ya no te hablarle bai	anger	0.6892516047363567
-2018-Es-04356	@alejmai26 No podía estaba trabajando 	anger	0.41029143976713556
-2018-Es-03401	@IyashiHitora 🌸 bien pero no quiero ofender a mes amigues que están mal así que estaré mal porq son un colectivo oprimide 🌸	anger	0.5948518275148694
-2018-Es-06948	@Alex_albert_1 hola Alex, que seas muy feliz en este miércoles, inténtalo o me enfado 🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈	anger	0.35286557251860384
-2018-Es-01402	@xYoung_Hale Porque te has enfadado conmigo...	anger	0.5740245845941974
-2018-Es-05922	Me hubiera vuelto directamente a mi casa 😤	anger	0.6592018731792799
-2018-Es-03921	Nmms que estes 🙄	anger	0.33447717828498036
-2018-Es-00390	@Guaja7ely @lavecinarubia Si jajajajaja que suerte tienesxD esta gente está amargada	anger	0.5219188216412765
-2018-Es-00934	Cuando me dicen: “Te voy a decir algo pero no quiero que te enojes”, ya estoy enojada en un 99%. 🤦🏻‍♀️	anger	0.5542054225908526
-2018-Es-01587	@JuanGalt11 Tanta comparación sin sentido que apunta....?? a agravar una falta sobre otra... con el fin de??	anger	0.43948008018041873
-2018-Es-05634	@PPTenel13 Una q se dio cuenta q su pelea esta ahi.	anger	0.4653598305673048
-2018-Es-04540	Estoy frustrada 	anger	0.39009913389510276
-2018-Es-05546	Se me pasa el enojo con las pelotudeces que hace.	anger	0.60270757434149
-2018-Es-00369	Resentido lo conoces?	anger	0.41749466027848997
-2018-Es-06557	yendome a dormir sin comer pq hay una cucaracha en la cocina #tristeza	anger	0.5011513202646121
-2018-Es-02609	@gxspardeleon Igual sigo enojada con vos	anger	0.6494219183815777
-2018-Es-01547	Necesito a mi amor para mimarme y esta enojado 😣	anger	0.3821217865337726
-2018-Es-05572	No estoy llorando, se me metió un Hybrid Theory en el ojo.	anger	0.5361405759845009
-2018-Es-03713	Ve bien por la vida y te ira bien en la mida... asi ei!	anger	0.27681674568707737
-2018-Es-00346	HIJO DE TU REPUTISIMA BOMBA PERRA ESTUPIDA BABOSA MADRE😡😡😡😡😡😡😡sin ofender a su mama no la conozco es solamente una expresión de odio así el	anger	0.8055199769602741
-2018-Es-02474	La concha de tu madre Brasilero de mierda 😡😣🔫	anger	0.9998289802882172
-2018-Es-06710	El CN Electoral,al poner un acto de votación simulado el mismo día del plebiscito puede provocar más confrontación.	anger	0.5343699598658427
-2018-Es-05329	¿Estoy enloquecido o enloqueceré? ¿Estoy en lo que he sido o en lo que seré?	anger	0.477426978873834
-2018-Es-00188	Lo que no sabes es que cuando te vas a dormir, me enojo a propósito para que te quedes más tiempo hablando conmigo.	anger	0.4488211352459346
-2018-Es-01475	@MerliNetflix recién termine de ver la segunda temporada. Espero q pronto la compartan en la plataforma Ansiosa espero la tercera! ♡	anger	0.2929551644545164
-2018-Es-06188	[7/12 04:04 AM] Lore😍: Inventa algo para pasarle cap😂 pq se enojo😂 [7/12 04:06 AM] La Mas Puta: Lore mañana te paso a buscar no te olvides😒	anger	0.5349685159238423
-2018-Es-01799	#AndaYaChef#djdanymoreno ,estomago de oro....que bien se portan tus compis contigo...con lo bueno que esta el bocata de solomillo!!#venganza	anger	0.39992589000864054
-2018-Es-00169	" Casi te atropello porque yo estoy por ti sí sí sí " Joder ahora si me gusta alguien tengo que atropellarla?	anger	0.4991470837450107
-2018-Es-03782	@zarolivier No! Neta, cero amargada :(	anger	0.6365075077583033
-2018-Es-06591	Lpm q es este enojo?	anger	0.5395634791475976
-2018-Es-00968	ESTOY POR PERDER 5 FUEGOS, SI LOS PIERDO LOS ELIMINO D SNAP, DE RESENTIDA NOMAS	anger	0.5961387720518926
-2018-Es-05612	Este año no hay beca. Constitucional y Fiscal, tumbadas. Un disgusto.	anger	0.5380301220906009
-2018-Es-00198	Metele nitro viernes 	anger	0.17422865406959384
-2018-Es-02881	@As_TomasRoncero @diarioas Jajajaj.  La antimadridista disgustada	anger	0.5714635455920092
-2018-Es-02586	HOMBRES: a veces hacemos berrinche sólo para que nos consientan. Sépanlo	anger	0.39415853968102943
-2018-Es-00507	@DaiNu_ Decime quien fue así te fabrico un insulto piola para q le digas arre	anger	0.5188971360439759
-2018-Es-04885	"con esa cucharita y terrible boca no vas a terminar de comer" amorosa	anger	0.5225840841942959
-2018-Es-02505	Se enojo porque no sabia su nombre jajajajajajjaja	anger	0.46777737065877945
-2018-Es-04111	Castro ha sido un bocazas, le han engañado y ha provocado que el Sevilla haga el ridículo, pero los sinvergüenzas y la mala gente son otros.	anger	0.6729472129244256
-2018-Es-01448	@lavozdeinaki Si después del atropello te levantas pedir perdon	anger	0.5041060644585779
-2018-Es-03165	No puedo tener tanta bronca 😠😠😠	anger	0.7336492874046922
-2018-Es-02126	Cuando me enojo mucho pienso "que bueno que todavía no subi ninguna foto! No tengo que borrar nada"	anger	0.5268971784555382
-2018-Es-05437	¿Cuál pelea? Jajajajajaja para las chismosas se les acabo el entretenimiento porque hablaremos por interno, bye.	anger	0.4900926055582202
-2018-Es-05222	@AnyiInstituto Porque estas enojada? estas mas loca que una cabra y si te seguis hablando con esa vas a quedar peor jajaja	anger	0.7126213974421011
-2018-Es-05789	@EnelClientesCL lamentablemente no se notó el esfuerzo. Es más. Se notó todo lo contrario. Tarea para la casa.	anger	0.40825112361418503
-2018-Es-00652	Muy mal día para trabajar hoy, la impotencia y la rabia se mezcla con la tristeza, y todos con un mismo pensamiento: No es justo.	anger	0.6431704777744334
-2018-Es-00694	Me da rabia estar de vacaciones, cuándo podría dormir hasta la catalepsia y no aquí con insomnio 😑😑😑😑	anger	0.6500742313757745
-2018-Es-02489	Y a esta hora es cuando la respiración empieza a enloquecer	anger	0.33739703465294596
-2018-Es-00279	@renfrancis Oye we, recordé que en la firma tomé foto a Chris y tú "Guarda tu teléfono,porfa" Qué amargado, como tú los tienes todo el día😢✊	anger	0.3998148716694413
-2018-Es-03055	Nunca me voy a olvidar cuando me compre 5 paquetes de dortios en el día de los enamorados. Yo justo me había peleado jajajaaaj lpm lo amaba	anger	0.38056945996532876
-2018-Es-05938	@Darcher_7 @Nico_Medrano17 Me siento ofendida. Juega bonito comegatos	anger	0.5963583799813741
-2018-Es-02269	@matiduque1 Qué decís 	anger	0.4424642193041477
-2018-Es-06682	@izquierdotudela @agarzon Os duele la verdad y recurrís a la descalificación y al insulto. Nada nuevo.	anger	0.6825537082308205
-2018-Es-01621	Me caen de la verga las mujeres que por cualquier insulto ya se ofenden pinches morras delicadas	anger	0.8266502371041167
-2018-Es-01077	Peor de que te dejen en azúl, es que no te lean.   😡😡😡😡😡😡	anger	0.549226748083022
-2018-Es-04381	#LaCompasionDeErkut este #Erkut de mierda boto de un aletazo a la sra #Rabia	anger	0.7395324376472492
-2018-Es-00333	@chacguate Ja! Eso provocaría una furia jajajajajajajaja no que me duerma	anger	0.5755675810725447
-2018-Es-02748	soy la amiga a la que no involucran en todas las salidas porque soy una amargada de mierda y lo triste es que ni siquiera me importa	anger	0.7637659897062655
-2018-Es-02619	No puedo decirle a nadie "dsp te aviso", pq al toque se enojan	anger	0.5257345517447981
-2018-Es-01194	Si conduces, no uses el celular… evita ser presa fácil de un delincuente o provocar un accidente vehicular. #TipsDeSeguridad	anger	0.5782123367495984
-2018-Es-05877	@veysandoval Si entiendo Vey, pero yo tuve acné y las que me preguntan eso son amigas que no cuidan su higiene, sin afán de ofender !!	anger	0.6235943794353359
-2018-Es-06416	Estoy más ofendido que alzate cantando.	anger	0.546323011032436
-2018-Es-04354	Sigo ofendida porque subieran la temporada 8 de rupaul's drag race en español. 😷	anger	0.6116253951864368
-2018-Es-01053	Creo que en mi foto, por mi narizota, parece que estoy haciendo la britniseñal 🙁	anger	0.43486419454317427
-2018-Es-03693	Gente impuntual...pa' que nacieron ? 😠😡	anger	0.40193831589506657
-2018-Es-05054	@FloorRoddriguez Ya lo subi al colectivo , esperalo 	anger	0.5197578931458088
-2018-Es-00335	A estas horas me dan ganas de insultar gente	anger	0.6435534849546183
-2018-Es-02842	me hace bien saber que abel es un fiel oyente de la venganza será terrible, ven por qué lo amo?	anger	0.3910552945211826
-2018-Es-01415	Jeje se nota que estoy aburrida , le respondo todas las preguntas a @FrChinx	anger	0.4129313285858952
-2018-Es-00835	< trampa tan asquerosa!—  ¡No te atrevas a hacer eso nunca más!  —Exclamó enfurecido, propinándole una bofetada con fuerza en la mejilla, >	anger	0.5718045975017798
-2018-Es-06804	La comodidad no está peleada con el estilo. #moda #cambiodeimagen #inteligenciaemocional #modasostenible #mode #fashionemergency	anger	0.41740030603569006
-2018-Es-04027	Se siente horrible venir a clases y que tu profesor no llegue… por eso no venía la primer semana. 😭😡	anger	0.5195755887955458
-2018-Es-06169	Cada día estoy el doble de gorda😞😡🐷	anger	0.4628372483508427
-2018-Es-03116	Consecuencia, más de un lustro sin muertos por accidente de tráfico o atropello en el casco urbano.	anger	0.5222839287268699
-2018-Es-02421	@Rodriguez_Aixa5 Es que estoy re resentido boluda	anger	0.5899125004377392
-2018-Es-02570	Ali si tenía un anillo 😥💔 Oooh,Peri!!! 😱 Zafer... 😠#UnaEsperadaReconciliacion	anger	0.42324907703778525
-2018-Es-06296	@GarciaAller Anyway, lo siento, no la quise ofender, sólo que me dejé llevar por el tono inspirador de su artículo	anger	0.5204746822099013
-2018-Es-00328	@Grafocafe @programa_hoy Que bellos ojos. Espero no ofender..	anger	0.3373657035561829
-2018-Es-00685	@loisdf101 @RFPradas @peprm Menos insultar i mas aprender a respetar que haya gente que no piense como tu...	anger	0.5272215093071209
-2018-Es-00399	Si rozas minimamente cualquier juguete de mi perra se lo tomará como una provocación y no parará hasta que juegues durante horas con ella	anger	0.5008905072733695
-2018-Es-00301	@Mackerita El insultar a sus jefes tampoco ha ayudado mucho la verdad.	anger	0.5990183384159388
-2018-Es-02613	Atomizan en snap con el cosito ese😤	anger	0.3830673432641173
-2018-Es-04040	@BorjaBarba Es en plan guerra preventiva: me siento ofendido de manera preventiva. Luego ya miró algo más, pero lo 1º ofendido y ladrando	anger	0.5886106904316164
-2018-Es-02331	La #klebsiella es una bacteria Gram (-), que según su especie pueden provocar infecciones urinaria, septicemia, rinitis atrofica.	anger	0.5545909157927479
-2018-Es-01136	@babynlf Fue inevitable el chasquido de lengua que resultó posterior a la sonrisa ajena, y si bien aún no se deshacía del de rubiales, la >	anger	0.429870441212559
-2018-Es-04680	"No es labor de ONGs salvar a refugiados sino de GOBIERNO" recuerda @adrilastra a @sorayapp. Gracias por trasladar la indignación a Congreso	anger	0.5270164235878839
-2018-Es-04119	Definitivamente me volví a enloquecer	anger	0.5746328831053978
-2018-Es-00754	Estoy enfadada y odio a todo el mundo,  por qué simplemente no me puede dar igual	anger	0.7126340692626891
-2018-Es-05677	@grmanzano @MarioSuarez4 mucha suerte 🍀 os ira genial! Un abrazo chavales 😉	anger	0.2183947912554104
-2018-Es-03416	mañana podria volver a mi casa, y para que se me vaya lo ofendida pido la plata para el anillo..	anger	0.3855935810515122
-2018-Es-05171	Cuando pierde tu equipo tu enojo ¿Cuánto tiempo dura? ¿Cuál partido recuerdas más y que hiciste en ese momento? (Casa o estadio)	anger	0.43585366938128745
-2018-Es-05799	@Juanmazza12 Un amigo es una luz brillando en la oscuridad🎵	anger	0.30593188057213083
-2018-Es-03424	@35PAIS @pameaguirre1 @35PAIS ES UNA PENA,la gente y me incluyo!,esta enfadada con LENIN,creemos en AP,somos AP , pero UDs pueden CAMBIARLO!	anger	0.5353227872897541
-2018-Es-05271	El Teempo es el enemigokindestructible, puede ser vencido en mas de mil batallas, pero en la ultima permanecera implacable.	anger	0.3277619140213516
-2018-Es-00152	@HelenaWay_B - Vuelve a dejar escapar una especie de gruñido satisfecho sobre sus labios.-	anger	0.38779080945676603
-2018-Es-04625	¿Y el Mega drenaje? ¿Alguien sabe si existe? 🤔😏	anger	0.44160056092917127
-2018-Es-05974	que es eso de enojarse porque no les dan bola tan resentido vas a ser la puta que te pario MIRAME CUANDO TE HABLO	anger	0.8632276348607969
-2018-Es-06427	Me voy a dormir siesta porque me aburro y nadie quiere hacer nada ni nadie me habla porque son todos re aburridos y ortivos #enojada	anger	0.5806575760249935
-2018-Es-05751	y empieza su venganza cuando se gana tu confianza 🎶	anger	0.3730666436951919
-2018-Es-00557	@jandracs Que no estoy enfadada ...	anger	0.6302978341215931
-2018-Es-06147	@BaezAlexis2 Cobarde pega jugadores	anger	0.6438301289338295
-2018-Es-06257	OFENDIDO MANO ESO ES MUCHO EL NEGRO HIJUEPUTA	anger	0.5476879957561815
-2018-Es-03492	Todos los días me enojo o tengo bronca por algo, ya es rutina	anger	0.555600036349856
-2018-Es-05837	#youtube va de culo!! Me imagino que no soy el unico yuhuu😡😡 #enfado @dewrongta @TheBraxXter	anger	0.5249944109704971
-2018-Es-00353	Mi hermana. -encima salió re amargo +el que salio amargo? -el vómito   JAJAJAJAJAJAJAJA cerrrrrrrrda	anger	0.4070209987606662
-2018-Es-00469	Mi padre me va a apagar el wifi y estoy #enfadada	anger	0.5010579357908621
-2018-Es-04419	@diegontar Que recuerdos con esos supersonics, Shawn kemp, detlef schrempf... Una pena su desaparición por los okc...	anger	0.46677479696145985
-2018-Es-00308	Pinche gente amargada y cortante me caga	anger	0.87581979865284
-2018-Es-04285	No los arrobé porque me siguen y 	anger	0.6048979474659345
-2018-Es-00489	Me hace envenenar esto sinceramente	anger	0.6128127553949585
-2018-Es-05917	Tras que uno les hace los favores, se quejan que cojones 	anger	0.7160967091719532
-2018-Es-03751	@caterinabarbi resentimiento al palo	anger	0.5269383732385269
-2018-Es-05832	@CallMeCucho Me clavaste el visto. INDIGNADA	anger	0.749836631452609
-2018-Es-04893	Sigo indignada con esa nota de mierda y se pueden ir todos a la re puta que los pario forros	anger	0.9924794981601355
-2018-Es-04174	@Clon_39 Es que le robaron la yegua por eso quedo amargado el hombre.	anger	0.5978545186402763
-2018-Es-01191	@RondonCNE Esto del simulacro es una clara provocación más por parte del gobierno a la violencia e intolerancia. Total apoyo a @RondonCNE	anger	0.5870393588745056
-2018-Es-06921	Estoy de amargado.	anger	0.5041072338578954
-2018-Es-06208	La rabia y  rencor no llevan a nada, simplemente destruyen el alma y el corazón.	anger	0.6523437562671409
-2018-Es-03373	Siempre que me quiero bañar entran al baño 	anger	0.388141156730768
-2018-Es-00869	@tohosjinki enojo* ya esta dicho xd oka	anger	0.5016063517421306
-2018-Es-06778	Que basura de padre me toco	anger	0.5969292252907498
-2018-Es-05830	Miércoles 4:45 am Pedro se hizo pis en mi cama. Alguien lo quiere adoptar? Estoy indignada 😒	anger	0.40814852679457214
-2018-Es-03530	Está más hermoso que nunca.. 😍 Eso me da más indignación ahre	anger	0.36973009233611565
-2018-Es-01453	Todo mal Lpm 	anger	0.4823772403802236
-2018-Es-05030	Por qué @cafesproutmx cierra tan temprano hoy?! #enojado	anger	0.48398605084960244
-2018-Es-05496	Ayer me quede viendo presentaciones de En la ciudad de la furia hasta las 5 de la mañana. Si, todas. hoy toca tele-ka	anger	0.4551146462371405
-2018-Es-00172	@vegetta777 Hola Samu, como estas? Ya se te paso el enojo?	anger	0.43176065434232247
-2018-Es-03486	" la Ciudad de la furia" me recuerda a ti siempre 😌😳	anger	0.4455615000032481
-2018-Es-00232	Mi madre me acaba de llamar amargada.	anger	0.7802350724850755
-2018-Es-06634	@xpcinful -se tapa la nariz tras la mordida quejosean y dandole la espalda enfadado- Malo	anger	0.51835870085133
-2018-Es-05654	@noticierovv  ser lleno de odio y rabiosa y resentido que nunca llegará a presidente	anger	0.7068071444978052
-2018-Es-01687	Idiota ese insulto es nuevo genial	anger	0.6173656859628762
-2018-Es-06817	cuando me dicen "te voy a decir algo pero no te enojes" automáticamente me enojo un 98%	anger	0.5423782180461094
-2018-Es-01252	@vaniicaceres07 y Posta estoy indignada	anger	0.7609578175192282
-2018-Es-04462	@MiicaLucero1 sabia que era un homosexual que se hacia el garchador furioso	anger	0.47144559943550457
-2018-Es-04795	@fxmiel Me quieres envenenar, ah...	anger	0.5595804275641358
-2018-Es-04227	no puedo ser feliz aunque a veces puedas pensarlo ya que lo bueno acaba dejando un sabor amargo..	anger	0.2815870334848874
-2018-Es-02452	Tan mierda sos para aprovecharte de la gente que es buena con vos? 😡	anger	0.8019385252939641
-2018-Es-03302	Como era de esperar los mayores disparates sobre el atropello provocado por el carril bici se dicen desde cuentas B con <20 seguidores	anger	0.43698891152615993
-2018-Es-00111	@FitbitSupport La solucion es tan desagradable como que no se hacen responsables de nada. Estoy muy disgustado. El unico perjudicado soy yo.	anger	0.6481537393615463
-2018-Es-02695	gracias por el vivo , me saco el enojo y todas las dudas que tenia @sergiocelli @PaulFerreyraOK	anger	0.33960630209698606
-2018-Es-02715	@WACO490 @PaulGoltieri @MonederoJC @PPopular Pdm denunciado insultar no es gratis	anger	0.6504023379151584
-2018-Es-04995	Indignada con este tema de mierda que no me sale	anger	0.8522676239056906
-2018-Es-06136	La inteligencia no está peleada con la belleza #modasostenible #moda #belleza #cambiodeimagen #parecenmachitos #femenina #inteligente	anger	0.3154606275705818
-2018-Es-04944	Luego dicen que si me enfado... Pero con razón!	anger	0.664234456833716
-2018-Es-00497	@atwelljxlie @cressdwyer Jajaajajajajajaja si es una rayada lo simplificaran porque sino menos gente ira a verla	anger	0.5076892408187822
-2018-Es-06690	Es increíble Banfield da dos paso y ya está en el área de Boca y nosotros apena llegamos 	anger	0.38719765380509685
-2018-Es-00586	@DanteDirewolf dante, te voy a pegar y no hablo de cabezazos	anger	0.6061342805201162
-2018-Es-01725	Mi mama hace eso el jueves y no es mas mi mamá!! Lo juro 	anger	0.3819454106038579
-2018-Es-05610	@chupita13 Me da rabia tio	anger	0.5718833941529295
-2018-Es-02018	Eeh mi jefe es medio pedófilo, ya decía yo que por algo me daba desconfianza	anger	0.36557042783851135
-2018-Es-03573	@vegetta777 Alv nunca te escuche tan enojado D:	anger	0.726133836638995
-2018-Es-00804	Fav y te insulto	anger	0.5601762444962615
-2018-Es-02968	😤 Puttttttto insomnio provocado! ...	anger	0.6308547062294165
-2018-Es-00304	Yo me enojo y automáticamente me caga todo	anger	0.5544986076571295
-2018-Es-06232	de estar enojada pase a llorar, de llorar pase a estar tentandome ahorre la bipolar	anger	0.4529235312371686
-2018-Es-02539	La gente amargada no mas no👎	anger	0.6190932930128854
-2018-Es-03300	Estoy viendo rápido y furioso 8, sería más emocionante si alguien no me hubiera contado el final 🙄	anger	0.4174788133836079
-2018-Es-02517	Jorge Luis Borges: Yo no hablo de venganzas ni perdones, el olvido es la única venganza y el único perdón.	anger	0.46346226554280145
-2018-Es-02882	cual es tu furia conmigo, no entiendo hahaha !! 💋😂	anger	0.4891903764189468
-2018-Es-06461	En mi siesta vespertina tuve una pesadilla con el-que-no-debe-ser-nombrado. Estuvo bastante heavy y desperté con algo de ira. Buena esa Tom.	anger	0.335966049752892
-2018-Es-02031	estoy #frustada y #enfadada no me sale un ejercicio de matemáticas	anger	0.5190177762157698
-2018-Es-03378	@meprendorapidoo Dejen de ser cínicos, insultar a Robben es igual de vergonzoso que cuando se insultaba a Zidane, indios.	anger	0.8378702390208196
-2018-Es-00075	@Lalordz56 Nunca he estado enfado contigo, bebé 😶😒🤔	anger	0.4706264486507652
-2018-Es-00464	@SomeKralzo Vpc.... Holy shit yo hubiese explotado de la rabia como si fuera una mina de sulfúro con fosforito adentro.	anger	0.6192820687168742
-2018-Es-03515	Es fija, entra éste profesor y tengo ganas de pararme y retirarme de su clase, siento tanto tu mala energía que no la soporto 	anger	0.6235451620194578
-2018-Es-06559	¿Soy el único que abre los medicamentos SIEMPRE por el prospecto? #rabia	anger	0.41422176912727704
-2018-Es-04201	No importa cuan atenta seas cuán amable seas si lo único que notan es cuando estás enojada y mentando madres	anger	0.5158082305304867
-2018-Es-03774	@LeoDelPino7 Hola gordo estoy ofendido me cambiaste por la bola de pool estadounidense esa de tu foto	anger	0.6200819220976543
-2018-Es-01307	Me quiero descargar el sarahah ese y no tengo espacio	anger	0.49878664310237575
-2018-Es-00276	arroba florencia si me contestas no me enojo eh	anger	0.46671500179796777
-2018-Es-01517	Quién sigue diciendo "niño rata" como ofensa? 🙄😕😂	anger	0.464957719539424
-2018-Es-06554	siempre q me enojo o me frustro termino llorando 🤷🤷	anger	0.5237994880600385
-2018-Es-06868	@bascois Actos de venganza contra un dictador y sus acólitos? Por supuesto.	anger	0.6803631244631811
-2018-Es-01114	Quiero estar contigo a pesar de las peleas, llantos, risas, enojos, besos, celos y berrinches; pero siempre juntos.	anger	0.12529548229823828
-2018-Es-01075	@pulsionparcial @vikidonda Donda digna hija d los q mataban c orgullo puro resentimiento y choreo algún día todos van a pagar todo se acaba	anger	0.6628366025749493
-2018-Es-03630	@CristianChucu26 No ni a palo 😤	anger	0.6784999682701176
-2018-Es-00224	@diariocorreo Entonces no hay disculpas es venganza. Por lo general las personas de hoy en dia toman la ley como acto de venganza....	anger	0.5447537706016468
-2018-Es-01087	Rabia Tv  #TRTyeİsimÖnerim	anger	0.560517119778527
-2018-Es-06365	@Marian88963751 A mí también se antojó. Traigo un buen de hambre 😂 u.u Enloqueceré.	anger	0.35895943288531146
-2018-Es-04160	@HaterGH Ahora me enfado y no respiro! Patética!!!!	anger	0.7022214831477341
-2018-Es-01906	Entrar a esta hora y mirar cositas por ahí y volver a dormirme ofendida😔	anger	0.2887931305313417
-2018-Es-05662	Que nos pasa que no somos capaces de ganar en el bernabeu!! Que forma de tirar la liga. #impotencia #rabia	anger	0.5932896014039991
-2018-Es-03920	No cené por hacerme la enojada y ahora estoy muriendo de hambre, quien me manda a ser tan enojona 😥	anger	0.6713423884429351
-2018-Es-03342	Hdp desconectensen del Wifi 	anger	0.5943200595670111
-2018-Es-00542	@eldiarioes Ante la presentación de los hechos, las hordas zombis no saben sino insultar. Este es el nivel.	anger	0.6167137311955073
-2018-Es-04975	@ArevaloJuanP Eso se llama 	anger	0.3550999698608525
-2018-Es-05007	Cuánto odio hay en un país para que hasta una noticia buena, la conviertan en insulto?	anger	0.6765226520975659
-2018-Es-05149	Lo de libertad libertad, sin ira libertad, no hay que tomarselo al pie de la letra	anger	0.35479564812007225
-2018-Es-04459	Acaban de asaltar a mi hermano menor, lo han pateado en la cara, en emergencias por la lacra de la sociedad, rabia e impotencia	anger	0.7829834328515995
-2018-Es-03354	#HomenajeMABPdV La indignación del PP con @ManuelaCarmena es mucha Con su socio PNV ya menos porque donde hay pasta por medio ellos ya tal.	anger	0.6297078372826695
-2018-Es-01522	@montse469 @TeresaRodr_ @BroggiElisa Hacía tiempo que no leía un tuit tan desafortunado y cateto. Opinar y ofender sin tener NI PUTA IDEA	anger	0.7390054451293805
-2018-Es-00246	@Sinner_Silas «en cierta medida, soy una humana con poderes…  —El enfado se disipó con rapidez y dejó lugar a una mueca divertida, la cual»	anger	0.388222141022012
-2018-Es-04226	@estherpalomera Pues si estás ahí te estará comiendo la ira escuchando al irredento y prepotente #oubiña @HoyPorHoy	anger	0.586799430992803
-2018-Es-00013	Bueno una más, no le vuelvo a decir ni picha, gran amargada.	anger	0.6284718787100334
-2018-Es-04890	La tercera es una copa q vivi por un Idiota 🍸🐕😡	anger	0.5403767444795644
-2018-Es-05859	@ambarncf Ira nomas kien abla xd xd	anger	0.3918539483898987
-2018-Es-02731	Si alguien me habla no me enojo eeeh	anger	0.262035231985302
-2018-Es-04758	@randymeeks @VidaModernaOML VOY A PLASMARLO POR AQUÍ (y en mayúsculas) PARA QUE SE NOTE MI ENFADO	anger	0.5502187744611715
-2018-Es-04372	Si os enojáis, no pequéis: procurad que el enojo no os dure todo el día. No deis oportunidad al diablo.  EFESIOS 4:26-27	anger	0.4499464800165085
-2018-Es-02258	El lugar que se tiene en el corazón de otro se gana, no se pelea.	anger	0.4456494532612576
-2018-Es-06889	@26_albelo @Agusmonte_ok *se siente ofendida*	anger	0.6381648672934068
-2018-Es-05249	Voy a llegar a casa y va a estar mi vieja despierta 	anger	0.4435613117629701
-2018-Es-03966	Descargando música y preciso la q me encanta no descargo 😡 #enojada	anger	0.5091435191814893
-2018-Es-02167	La odio literalmente a esa Piba 😑😡	anger	0.7096628367258535
-2018-Es-04100	Nunca me he bajado del barco ni lo haré pero esta temporada @atlasfc me ha decepcionado como hace mucho no lo hacía #triste #enojado 😥😣	anger	0.501159700631938
-2018-Es-03296	@DavidGmez99 Piensa lo que quieras y como quieras que ellos seguirán donde están y tú igual de amargado por estos temas #XD	anger	0.5320797939474587
-2018-Es-06198	@apolo4u2 Quiero que me digas los motivos de tu enfado	anger	0.5075226763720458
-2018-Es-05071	@vegetta777 Buenos días samu esperó y ya no estés enojado , recuerda que ay millones de personas que valoramos tu esfuerzo 💜✨	anger	0.3742077491962855
-2018-Es-02360	Cómo no voy a estar gorda así? 😤	anger	0.6097098275212739
-2018-Es-05807	@WasabiiGirl @MrVago_ mmmta que es broma ira pues	anger	0.4748663203478688
-2018-Es-05162	Buenos días a todos, menos a los que nunca he ofendido.	anger	0.4116582335487775
-2018-Es-01183	Si es neta, esa señora está super frustrada, peleada con el mundo y le hace falta una bueeeena... Cena para que se ponga feliz :)	anger	0.4770747506377777
-2018-Es-05322	Odio a la gente que un rato esta bien y a los dos minutos tiene cara de orto 	anger	0.7498062972906993
-2018-Es-01158	Bates Motel 2x03: •Emma y el de los porros<3 •-Sr Simpson entienda q esto puede provocar perturbación y ligera psicosis -sí venga el incesto	anger	0.42062911091127797
-2018-Es-02015	@PacoRoca11 @joseperdi33 @orue_s @Elaguijon_ @eldiarioes Por qué le iba a insultar, si lo hace usted mismo, y solito.	anger	0.5732364143609261
-2018-Es-06545	"la ira te vuelve imbécil y los imbéciles mueren"  Amo a Michonne, que lo sepáis	anger	0.5673725422250022
-2018-Es-04829	via @Belkis_Inciarte:  @alecita2611 Peor q nunca... 	anger	0.5901693334680083
-2018-Es-03473	LAS FOTOS DE BTS X PUMA ME SACARON DE LA DEPRESIÓN ESO	anger	0.4597840770796703
-2018-Es-03275	@Pablo_Iglesias_ Estás enfadado porque no te han invitado? Los celos son muy malos.....	anger	0.4842879107069402
-2018-Es-02028	@Muzskatolista Lo digo porque a la peña se la sopla si es para ofender o no, lo van a hacer igual xd	anger	0.5872063690128604
-2018-Es-02170	Va perdiendo Millos y perdió el América, una palabra mas y mi cucha y mi ancestra me echan de la rancha.	anger	0.5516762685018991
-2018-Es-05178	Me voy a dormir estoy envenenado	anger	0.627621588555654
-2018-Es-06535	@NathanThom_BS Vaya...*Enarca una ceja disgustado* Mira a quien tenemos aquí...	anger	0.4955483562910573
-2018-Es-03762	@paolaarl1622 Tu y tus berrinches mujer!. Háblame aqui que msn no me jala	anger	0.4716633310558571
-2018-Es-05523	Sofía amargada tiene sentimientos	anger	0.4215664974969763
-2018-Es-05552	Jajajajaj se me enojo Santi, ya mañana se le pasa jajajaja	anger	0.29307935783678096
-2018-Es-04273	Vi la pelea del grupo y no paro de pensar en bianca, ojalá no se suicide	anger	0.510784993425827
-2018-Es-01724	Le tengo un terror a éste sábado próximo que ni 23 llamadas perdidas de mi madre lo supera.	anger	0.46305716743153413
-2018-Es-03994	@ActualidadRT @NicolasMaduro Claro, que orgullo... Pena ajena. Digan lo que pasa en palo verde a esta hora.	anger	0.509335804697231
-2018-Es-00142	@waldorftty < cabeza y reprimió una mueca de disgusto mientras hacía a Astarthea alzar la cabeza. "Búscala", fue todo lo que dijo. La >	anger	0.4263404269280233
-2018-Es-06022	Buoh, me dormí de nuevo y me acabo de despertar y me encuentro que crush de mierda me ha bloqueado 👀 está resentido	anger	0.6358017856197266
-2018-Es-06693	Cuando se mato #ChrisCornell con tristeza total, lo único que pensaba era que me quedaba la voz de #Chester de #LinkinPark y ahora? 😭	anger	0.611818938650363
-2018-Es-06081	@ashfromamike @CBinvaders @eldiarioes Pero resulta que en la información que yo comentaba no se explicaba las circunstancias del atropello.	anger	0.5376020389230356
-2018-Es-02986	Decir que el PP es una Mafia es un insulto a Lucky Luciano, la Familia Genovese y tantos otros honrados delincuentes.	anger	0.8355694561801208
-2018-Es-05436	Pues he empezado a perder el disgusto por el francés ahora que estoy escuchando al Saïan Supa Crew :/	anger	0.4419115889741968
-2018-Es-00396	quien me lleva a Italia para insultar al hijo de diosdado	anger	0.6328262630809315
-2018-Es-01781	Y ahora un poco de política:  Maduro tiene miedo.	anger	0.5034037491069714
-2018-Es-05468	Tengo mucho enojo, necesito controlarme.	anger	0.4708329793533845
-2018-Es-02013	Indignada porque el temario de música dice que vamos a ver cumbia colombiana, y estamos viendo OPERA🤦🏼‍♀️	anger	0.458701301941277
-2018-Es-06735	@lumaria6688 @SrtaLyna No me enojo con ella	anger	0.5034216667842967
-2018-Es-03429	Son los hombres los que nos violan, asesinan y desaparecen, pero tranquilas ellos también pueden ser feministas!!! *Sarcasmo* #Enojada	anger	0.6267217644715479
-2018-Es-01238	No crítico lo insoportable q son las publicidades de Spotify pero decir q Coldplay es la mejor banda de la historia es un insulto a Queen	anger	0.6693670078398242
-2018-Es-06057	Nego adora provocar .. kkkkk opss	anger	0.5073610652074975
-2018-Es-00503	Puta madre, en la vida había estado más enojada	anger	0.7429257845233647
-2018-Es-03944	Porque todos me dicen *espero que cuides el celular*? Rompi varios pero no tengo 8años🙃...para que me anden diciendo cada rato 😑	anger	0.5857486682941884
-2018-Es-06628	Que amargado se te ve, cuando vos andas patruyando me la como a tu mujer	anger	0.5059236935964704
-2018-Es-03585	Me encanta el "no te vayas, no te puedes ir" mientras te jodo y te insulto...	anger	0.42364527321215906
-2018-Es-00816	La justicia pertenece al Estado, la venganza a las personas.	anger	0.5674448216964274
-2018-Es-05195	@DonBurroReal Fuera correa dictador 	anger	0.6078234044040811
-2018-Es-05809	@BlizzardCSEU_ES  no se puede jugar desde él sabado ..	anger	0.20644060062611558
-2018-Es-06626	Indignada con @orange_es me podéis pasar una dirección para reclamar, llevo solo 2 meses con vosotros y ya me quiero IR!!!! 😡	anger	0.6957639079537216
-2018-Es-01272	Después de subir eso me gané un cd de Guasones y se pasó el parcial para la semana que viene. 	anger	0.41928083119144033
-2018-Es-03927	@D_Nacional Más bien: "Sabemos lo que hicisteis antes de provocar una guerra".	anger	0.39392796278199016
-2018-Es-03007	@ThunderKiiwi Aquí la ofendida eres tú guapa,que has ido a decir algo	anger	0.6201279841175422
-2018-Es-03962	La vdd no sé si estoy enojada, triste o idk,	anger	0.4916875725650306
-2018-Es-01852	@xDefectiveTwin Uhm... Lengua larga.  —Arruga el gesto haciéndose la ofendida con la situación sabiendo que hay veces que el chico »	anger	0.48708112481384847
-2018-Es-03343	@GaunaIzaac Y con la demas gente sp rápido que me enojo	anger	0.6181548854029749
-2018-Es-01633	Sino es por Ayame (fue metida muy gratuitamente) y que lo usara para dar celos (y me daba rabia) en serio que Koga quedaba mejor con ella	anger	0.5710569914684366
-2018-Es-00403	Déjame sobrepasar tus zonas de peligro, hasta provocar tus gritos y que olvides tu apellido	anger	0.33891621064933075
-2018-Es-02248	El cielo está que se cae!!!!! 😥	anger	0.3498336006613358
-2018-Es-00949	@Tlahuicole1318 Gracias Tlahuicole. Me da mucho coraje que hayan rebajado a los piropos a algo tan sucio.	anger	0.457120306355544
-2018-Es-05013	Esta noche me ha picado un mosquito en una teta, estoy enfadada.	anger	0.4944462884339804
-2018-Es-01715	El pueblo indignado pasará descontrolado a otro nivel de protestas;sobrepasará a la dirigencia y escogerá el camino libertario a la salida	anger	0.6115240098148111
-2018-Es-00669	Qué puto estrés con los niños que lloran. Deberían tener un botón de mute o algo NETAAAA. 🤦🏻‍♀😠	anger	0.6293573363805619
-2018-Es-05336	Que ofendida, decepción.	anger	0.8314490449413396
-2018-Es-00325	Que rabia y que miedo que cualquier hijueputa vaya electrocutando gente como con tanta libertad.	anger	0.6282145348777252
-2018-Es-05152	@MatiasRiveroDj Ayer vi caminando entre tumbas y hoy la de búsqueda implacable 3, son viejas pero están re copadas	anger	0.48810626285331304
-2018-Es-06428	Repito, si me hablas no me enojo	anger	0.5302415390651576
-2018-Es-02937	@Jahiluz iggggh no sé si sentirme indignada o que >:v xD!	anger	0.6556659443944396
-2018-Es-05836	Necesito algo en que canalizar mi ira, mi tristeza, mi vida y mi todo. Estoy infumable	anger	0.5068099433664353
-2018-Es-02733	@TheSexyOwl No busco remplazarte y no me gusta que estés enfadado conmigo.	anger	0.39853545690043113
-2018-Es-05736	Dentro de 3 años se me va el enojo 🤗😊	anger	0.47426319707304276
-2018-Es-06703	Por que no me habia dado cuenta que tengo público mis publicaciones de fb?😤😤😤😨	anger	0.5742276876922433
-2018-Es-00076	No puede haber un canal exclusivo donde pasen todo el día deportes? No es mucho pedir, cansada estoy de perderme partidos 	anger	0.45216466673136213
-2018-Es-01750	@anapalacio  ficha por Marruecos contra el Sahara Occidental. Parece mentira que se venda por dinero. Lea sentencias Judiciales "Indignidad"	anger	0.5072106338550332
-2018-Es-05069	Que estrés las personas hipocritas.	anger	0.5499933376393515
-2018-Es-02076	Ojalá algún día Diosito me quite lo amargada y celosa.😒	anger	0.5979108207278688
-2018-Es-03757	@fedesan9 @nicojusid Se cagó todo el amargo	anger	0.5062622811061814
-2018-Es-01629	@EmiOlmos87 Claro el señor no habla nunca, pero para bardear es el primero en la fila 😡 jajaja	anger	0.5993167153397594
-2018-Es-04159	@xxpolaroid QUIERES PELEA FÍSICA?	anger	0.30599591728381637
-2018-Es-06848	eh dormido tres horas y estoy entre triste y enfadada	anger	0.5844645568864832
-2018-Es-03035	@kittlab @Carlosurrutiacp @joantier @gabrielrufian @blindonion8 Miralo, Pobrecito, le da rabia que pongan likes. Va, uno de regalo!	anger	0.3591221454135365
-2018-Es-02768	Mentiras y más mentiras 😠😠😠	anger	0.5849662594753923
-2018-Es-04649	Provoca es salir corriendo de esta casa	anger	0.3465303104399393
-2018-Es-03898	@Ritalin_P si tiene win10, está de moda esa pantallita 	anger	0.4366291864392477
-2018-Es-00610	Ya de buena mañana exasperada con el puñetero papeleo	anger	0.5018259125481328
-2018-Es-04949	Su hay algo que detesto, es esperar. 	anger	0.49904412936538667
-2018-Es-02427	@YarielaMora @Haylock049 @jits2899 @Danielaeche07 Que cansado 😪	anger	0.5227408218251892
-2018-Es-03413	"Las palabras severas provocan ira. Pero las que se usan apropiadamente la quitan" Proverbios 15:1 #FamiliaSana	anger	0.44768442025178745
-2018-Es-01286	El del uber no atropello a mi ex, media estrellita.	anger	0.5186070809102424
-2018-Es-05159	@AweloJos Huelen la desesperación	anger	0.47071717105505084
-2018-Es-00054	Encima no estoy para aguantarme a una amargada por seis horas.	anger	0.5743721163446585
-2018-Es-03885	Es solo enojo, por no poder comprenderte u.u	anger	0.44683711198750087
-2018-Es-02828	@maydana34 @joaquinkremel Este tiene bula para insultar, la ley mordaza le excluye	anger	0.6614661167873906
-2018-Es-06541	@Miotroyo2parte La venganza de ultratumba! Son brutos hasta decir "basca". Todo idiota nos sale caro.	anger	0.6038921936376702
-2018-Es-05391	Que @KikoMatamoros no haya conseguido enchufar a ninguno de sus inútiles hijos en salvame y #huracanalba lo consiga tiene que joder #rabia	anger	0.779157576308518
-2018-Es-04135	Planear tu venganza cuando estás enojado/a y que a los 5 minutos andes como si nada.	anger	0.5527213698965283
-2018-Es-02117	Estoy en medio de una descompostura abismal 	anger	0.47473984762878413
-2018-Es-02106	@gemapayan00 Perdón , me siento ofendida	anger	0.745610140452007
-2018-Es-02825	@JorgeBustos1 @vilpetrus Asco, indignidad y que dice Pedro Sánchez ?	anger	0.649146390550519
-2018-Es-02896	@YisesArr @MichelPesquera Aunque no soy estúpida, a mi me atropello un carro de helados jejeje	anger	0.48263800015362057
-2018-Es-04472	Es una gilipollez y me da igual pero tócate los cojones que se me cuelen viejas en el bus cuando luego son las primeras en quejarse #RABIA	anger	0.7873024132966948
-2018-Es-00762	no me molesta que use el edit me jode que no me likeo la selfy pero tuvo el DESCARO de sacarme el edit 	anger	0.6694971067222423
-2018-Es-06650	@salvaoret Jo, q rabia!	anger	0.64159705503934
-2018-Es-05088	Y se vienen más cambios...😤	anger	0.5616172173306111
-2018-Es-06176	Niñas si sus novios tienen amiguitas CREANME no son solo amiguitas. Son las bellas niñas que los "escuchan" cuando ustedes hacen berrinche.	anger	0.5718461475738811
-2018-Es-04764	Me da chills pensar en la pelea de mayweather vs. conor	anger	0.37643639264676987
-2018-Es-02608	No hay cosa que me de más rabia que madrugar, bueno si, madrugar en verano, bueno y madrugar en verano para hacer trámites en el puto banco.	anger	0.7009395333081145
-2018-Es-01928	Con Gastón me hago la enojada y me tira un "te extraño" 😭💗	anger	0.43646251464817876
-2018-Es-06406	Me voy a matar😤😩😩	anger	0.6221731641150179
-2018-Es-06437	#pokemonsinlimite mika, enciende todas las luces de tu casa para provocar que salte el contador, sera mejor	anger	0.2560227095861696
-2018-Es-02600	No se que es más triste, que me aparezcan los recuerdos cuando me saludaban por el día de amigo o la muerte de chester	anger	0.4991950582194207
-2018-Es-03382	@manolomejia20 Típico insulto de pendejo	anger	0.920686413005222
-2018-Es-04987	No me dejes, no me sueltes, puedo enloquecer !!	anger	0.2908449031794772
-2018-Es-04297	Si nos organizamos podemos ofender a todos los colectivos.	anger	0.4712517331066064
-2018-Es-05670	No tenia que haber ido, me duele una banda ahora😠	anger	0.5227593923345745
-2018-Es-01384	Malhumorado, presumido y descarado, desconfiado, despectivo...	anger	0.7455422079394228
-2018-Es-05095	Aún estoy envenenada de ti	anger	0.4531999135873861
-2018-Es-00155	Si saben en el peo que esta metido el pais donde estamos viviendo verdad? Si estan claros de lo grave y escoñetados que estamos?	anger	0.6289401734143042
-2018-Es-05210	Ve bien por la vid  y te ira bien en la vidar.. asi es!	anger	0.366146321292545
-2018-Es-03887	Siento que me ahogo de la ira	anger	0.5245231152374652
-2018-Es-04141	@Bohncs El drama, ni me wa ofender peor va eh	anger	0.6106522044621017
-2018-Es-05504	@guidocass Juro que recién lo leí perdón, pensé que faltaban mas partidos igual 😥	anger	0.43027056970175936
-2018-Es-02633	El susto de mi vida me pegué... gracias a Dios estas bien mi gordo, nuestro ángel no dejo que nada malo te pase. Ya pronto estarás mejor😍	anger	0.44176993670247816
-2018-Es-05756	@naroh @ilse0101 No, el corrector ha preferido censurarme el insulto previo, eso sí. Qué lastima porque se lo merecía.	anger	0.6672848796684306
-2018-Es-05944	Empezando el dia #enojada con los onvres 🔧	anger	0.46330171209946325
-2018-Es-03754	Dicen que no es bueno que duermas enojada, yo por eso comento lo que no me parece, eso no quiere decir que me enoje.	anger	0.5946066742831788
-2018-Es-06451	@bendysy yo no te insulto... a veces te doy tu tiempo y creo que cuando no estas un par de preguntas y luego al buzon de mensajeria	anger	0.5919256559950219
-2018-Es-01138	¿Estoy enloquecido o enloqueceré?	anger	0.5047180302749694
-2018-Es-05373	@la_patilla @NicolasMaduro la emboscaron, la atropello con la moto, le monta la sucia bota y de paso la detiene con refuerzos de 30gnbasura	anger	0.5229789911626701
-2018-Es-05044	@JesusCintora Y la Cospe estara irritada con la UDEF...	anger	0.46710977821598176
-2018-Es-05003	¿Cómo salirte de un grupo de WhatsApp sin que piensen que eres agria y resentida?	anger	0.7277715365683173
-2018-Es-01915	@MrKinoccio Jajajaja, hay que ganar audiencia tío y hay que provocar	anger	0.4368866170828286
-2018-Es-03175	@ManuelaCarmena ¿Conoces a una sola victima que pueda sentirse ofendida por homenajear a #MiguelAngelBlanco?¿Una sola?	anger	0.6043319081836633
-2018-Es-05972	yo soy re bacana pero cuando me enojo dios santo agárrate catalina	anger	0.42931388324237485
-2018-Es-01981	Ahora es como si se hubiera peleado con Courtney Love y se puso con la Tigresa del oriente. He dicho.	anger	0.3892904381372194
-2018-Es-04761	12 de julio del 2017, azul hace berrinche y decide salirse de la carrera de diseño porque no le salen sus cartelitos para su banda.	anger	0.5378892078395318
-2018-Es-00524	Buena vista 1ra vmella, sin luz @EdeesteRD  nos someterán a la oscuridad antes del desastre! Estúpidos! #rabia #abuso @ProConsumidorRD	anger	0.5154842554877546
-2018-Es-03173	@PauMancilla_ @Tincho_moras10 Compas de mate amargo jaja	anger	0.2794994351292349
-2018-Es-02885	Hasta acá escucho a mi hermano coger con la novia así que en venganza rapeo-feo a todo volumen.	anger	0.4442574506413345
-2018-Es-06494	@glxymuse bueno maja a que me enfado >:( me estás llamando mentirosa?	anger	0.6606849991608617
-2018-Es-02206	Si el anon de Matías se quiere pasar por mi cc no me enojo	anger	0.40216740361808423
-2018-Es-00974	Me decis que soy un loquito y a continuacion  decis "la verdad no tiene que ofender" pero cuando te digo pelotuda te ofendes...que onda?	anger	0.6958260463114803
-2018-Es-04108	Tengo ganas de escribir una carta con intención de provocar diabetes.	anger	0.4189269130243408
-2018-Es-01757	@vegetta777 @YouTube Hoy no hay saludo con "Hermosooos o guapisimooos"? Sigues enojado vege? Esque me preocupas :c	anger	0.4077897573327648
-2018-Es-04026	Si alguien me trae un doble cuarto juro que no me enojo	anger	0.35592101434396606
-2018-Es-05914	No fuimos y me habré enojado 1 hora como mucho, no sirvo para estar enojado más tiempo 😂😂	anger	0.5597723696714106
-2018-Es-06553	@mundodeportivo @RogerTorello se le ve el enfado en la cara, jijiji	anger	0.508689161240158
-2018-Es-00663	@ponminombreaca No es mal hablada, pero puta que es amargada!	anger	0.7403911461454646
-2018-Es-04839	@rxcketqueen__ no le des pelota isidro no vale la pena	anger	0.3488277921749928
-2018-Es-04473	Ves las noticias y es un sinfin de muert@s,maltratad@s,torturad@s... Es pa amargar a los que estan de vacaciones?	anger	0.5619788160758731
-2018-Es-02392	@uhhhmaria Me siento ofendido con mi voz	anger	0.655725035586449
-2018-Es-04657	@vegetta777 Quiero verte triste ni enfadado. Te queremos muchísimo 💜💜💜	anger	0.4400861930595264
-2018-Es-05906	@ju4nkhalifa Igual sigo.indignada	anger	0.7167732365601589
-2018-Es-02306	Cuando te dicen ?sin ofender?, preparate para ser ofendido.	anger	0.6413367272080294
-2018-Es-06274	bue es que son re carrots y me da rabia que no quieran cambiar ay que linda gracias vos igual me caes re bien	anger	0.4697456226845951
-2018-Es-00133	Lo peor es que dice cosas enojado y yo me río jajajajjajajaa lo amo tanto al taradito este	anger	0.5213351231469353
-2018-Es-03834	@DrefanHardy X cierto,se te ha pasado ya el disgusto x lo d Halep???	anger	0.521403808557842
-2018-Es-04335	@Rafael_Gaidovar @agarzon Pero para ti la ofensa es llamar miserable a quienes usan las instituciones para saquear.	anger	0.7113702986882668
-2018-Es-00334	Me enojo por todo 😂	anger	0.4311513523679423
-2018-Es-05308	Siempre he dicho que elegiría twitter si solo pudiera usar una red social: aquí hay memes y gente amargada como yo, no necesito más PERO	anger	0.5712797001503328
-2018-Es-04113	HIJO DE TU REPUTISIMA BOMBA PERRA ESTUPIDA BABOSA MADRE😡😡😡😡😡😡(sin ofender a su mama no la conozco es solamente una expresión de odio así el)	anger	0.8147484827315916
-2018-Es-03374	Que le pinta a este culia, me hace envenenar	anger	0.5896317740770974
-2018-Es-00811	Estaba viendo videos de terror pensando que Sofi estaba despierta pero se durmió jajajaja saque todo😂	anger	0.16253572171067493
-2018-Es-04927	Cuando estoy enferma soy más amargada y demasiado sensible, creo que me tocan y me pongo a gritar o a llorar no sé por qué	anger	0.6237088424518749
-2018-Es-06821	Mañana no habrá nuevo vídeo gracias a mi puta escuela!😢😠	anger	0.46575796085964033
-2018-Es-00073	Si fuera por mi seguiría viendo todos los capitulos, pero si sigo mirando no me levanta ni una grua. 😟	anger	0.5381365226400227
-2018-Es-01538	Soy súper berrinches, ok.	anger	0.3901041536063833
-2018-Es-00320	@Mireyam8 encima de tongazo, ofendida. Ya no me bloqueas mas mi cuenta. Sino quedate en casa o se mas sutil.Eres simple,incapaz y evidente	anger	0.5651672299971724
-2018-Es-03838	Como nos jodio la de biología con la actividad que mando 	anger	0.46922030153809346
-2018-Es-01318	Yo la mejor y que te contesten así nomas me infla la vena😠😡	anger	0.498667996359235
-2018-Es-02616	Pilar ya me empieza a mandar audios de los cordobeses, jajajaja me va a enloquecer	anger	0.43655751222347317
-2018-Es-03741	Estly indignada con mis pies que no me respondian el sabado, re queria ir a esa joda l	anger	0.6078357574813671
-2018-Es-06341	Divino arrancar el día cayéndote con furia en la vereda a las 5 y media de la mañana.	anger	0.45849487767963015
-2018-Es-04478	Donde deje mis trabajossssssssss😤😩	anger	0.43423129411241923
-2018-Es-06721	Otra vez la misma historia. Hagan cárceles es 2 señoras ni queriendo podrán controlar la furia y el hambre del pueblo.	anger	0.6458308547245795
-2018-Es-03522	Me caga que las personas abusen de la confianza que uno les da, y más cuando son las más cercanas #enojada	anger	0.6315764511792737
-2018-Es-01476	Al principio estaba tentado, Ahora estoy envenenado	anger	0.5048040337511354
-2018-Es-03850	Pedro tenía temor de ofender a sus compatriotas que volvió a sus antiguas costumbres y ya no comía ni se juntaba con los gentiles. #LESAdv	anger	0.515811650341121
-2018-Es-02911	Jajajajaj que indignación en Twitter ayer no?	anger	0.5021460788835667
-2018-Es-04465	@florido_raul @Eriemer @Pablo_Iglesias_ Vaya educación tienes! Opina sin insultar por q si no tus comentarios pierden cualquier significado!	anger	0.6469143738741501
-2018-Es-03125	@LANACION Que inversores? La bicicleta financiera tiene temor? Si gana ,sera senadora,como Mendez.Para ampararse en los fueros.	anger	0.49825373078989577
-2018-Es-05870	Yo puedo estar feliz, triste, enojada, con miedo, cansada, aborrecia, eléctrica, pensativa, borracha o sobria y mi cara siempre será 👉🏽 😒	anger	0.5345056410743917
-2018-Es-04506	Resentimiento Resentimiento™  gracias por seguirme ;)	anger	0.17404891620471127
-2018-Es-03732	@ideasgraficasrs De aplaudirlos, con dos ladrillos, en la cara 	anger	0.548307251897442
-2018-Es-05806	No se puede estar bien siempre busca pelea.	anger	0.27888307961933356
-2018-Es-05993	Nunca hay que creer que los artistas se suicidan porque son cool. Son cool muy a pesar de ese destino fatal.	anger	0.4729303350102597
-2018-Es-06166	Me dan ganas de meterles una piña	anger	0.5658726725956578
-2018-Es-04197	Esta indignado el Botto por el cargador jajaja	anger	0.5592912408463143
-2018-Es-02434	demasiado tiempo perdido y amargada	anger	0.46643034194275906
-2018-Es-04351	@RominaIbarraL @arantzaosunal no fuimos 	anger	0.35210108157775527
-2018-Es-05652	-Mamá, quiero ser Wedding Planner. -¿Sabes el disgusto que le vas a dar a tu padre?	anger	0.44062037257302367
-2018-Es-04232	Da rabia igual que haya gente que busca tanto y nunca llega, y otros que lo tienen enfrente y no lo quieren ver. Pero bueno, decisiones.	anger	0.6471453483235444
-2018-Es-00521	Que bronca culiado 	anger	0.5804013719440099
-2018-Es-02998	@logiczzzzzzz @ByAdri10YT @JustMagaZ @AyudasEsP @Toony11_ Okey y te hice algo para q empieces a insultar jaja random no soy lo serás tu	anger	0.6044518138125162
-2018-Es-00851	#Barakaldo El secuestro y asesinato de Miguel A. Blanco me dejó el mismo poso amargo q 20 años atrás,los últimos fusilamientos del dictador.	anger	0.5529822830760972
-2018-Es-03384	mi venganza ya está hecha but ahora me siento mal	anger	0.6293628625965485
-2018-Es-00005	"ay yo cuando me enojo soy la persona más mala de todas".   Si loquita te olvidaste de Adolfito, Josephcito y un par más.	anger	0.5066704773175883
-2018-Es-04093	@GustiSandoval1 Y no convidas 😒 No es de resentido 😒	anger	0.695926589362299
-2018-Es-02772	estoy muy enfadado con mi perra porque me ha despertado a las 9	anger	0.6681376832477691
-2018-Es-01121	@francontreras_7 Tengo una sospecha 😉	anger	0.2733943690249715
-2018-Es-00582	Veo mucha gente haciendo papelon. #rabia #LlegaGH	anger	0.4410523691498348
-2018-Es-05805	@chxlemr No es un insulto, es lo que SOS, GARCA, PUTO. Al menos viniste, chau, ortiba, ya me vas a buscar.	anger	0.6754510099190593
-2018-Es-00356	alguien me explica como hacen para insultar tipo abreviado "lpm, lcdh, ect". esta bien que tengan paja, pero yo así no me puedo descargar!!!	anger	0.623989187238687
-2018-Es-05578	@_Laura_OMG_ @Elisa19452 No va para ofender va?	anger	0.355855957966713
-2018-Es-03090	Aparte que la de Jason esté tan abajo me deja >:( #enojada	anger	0.6032807476310689
-2018-Es-05766	@____17CR es q no la he insultado ..voy a buscar los TT ya veras a lo que llama insulto	anger	0.5580105522595757
-2018-Es-06201	@Deny_hh Los cojones, me voy a dormir que ya me he amargado 😂	anger	0.5511344773312525
-2018-Es-02064	Mis súper nombres para nada comunes; y luego tengo a Evan Rabbitt Russell.  El más amargado con un muy tierno nombre.	anger	0.45634381426533066
-2018-Es-01457	@kattyarg5 Muchas gracias, lo tengo todo irritado de tanto dejarlo de foto de perfil jajajaj	anger	0.29322330146791176
-2018-Es-04144	@hampeon Me refería a tu boca. Lávatela con jabón, a ver si así dejas de insultar gratuitamente.	anger	0.6882587795635573
-2018-Es-06777	okokok un fav y espanto a los hptas gatos que estan culeando en mi ventana.	anger	0.5262157598905037
-2018-Es-01943	@RaybanUnderlord ¡Heterosexual! 👉 (Ya tienes otro insulto que meter)	anger	0.6113431028861093
-2018-Es-05019	Es bien heavy esto de tuiter. Se pasan por todas las emociones aca! En un ratito pasé de la rabia a alegría-pena-risa. Mejor me duermo. ✨✨💚💍	anger	0.4288738363060557
-2018-Es-02836	@waldorftty < Puso la más pura y creíble cara de enfado y frustración y entró en la sala varita en mano para después arrodillarse ante su >	anger	0.4736015801848655
-2018-Es-05543	Siempre que me enojo la termino cagando	anger	0.5074451248171421
-2018-Es-02709	Están justificando que abusaran de ella por enseñar las tetas en el chupinazo, cuando estaba en un bar sin provocar a ningún baboso	anger	0.6469107192774173
-2018-Es-00764	Aún sigo indignada 😂	anger	0.4838021309337748
-2018-Es-06832	La ava se enojo😄😄😄	anger	0.4515245425793583
-2018-Es-05438	@marianoobarrio  qué te pasa q estas tan furioso con MM.  Vas de candidato con alguien? Me acuerdo cuando criticabas  a Brancatelli...	anger	0.555681147539722
-2018-Es-01527	@FuriaRojaNet @TmT_ProFR bienvenido a furia 📛	anger	0.5978177506737297
-2018-Es-02899	@chrischile Qué rabia, qué impotencia, qué dolor por la cresta!	anger	0.7792674374156008
-2018-Es-02645	Lo mosquitos me estan aturdiendo😡	anger	0.5591950484888428
-2018-Es-02256	Me caga que me hablen para contarme algo y ya no me cuenten	anger	0.5097021526945866
-2018-Es-02708	Mi indignación viene de que me sepa hasta cómo crece una puta uña o todas las capas de los dientes, y luego nos saltemos una parte del	anger	0.6719312345067204
-2018-Es-06668	Que pelea hermosa entre artistas , una locura	anger	0.31758906580837437
-2018-Es-03820	Mi vecina es la hermana de don vergas 😡 hija de @$%@+?*	anger	0.6278120545296904
-2018-Es-06281	La pobre mujer se sentia como que  habia hecho algo mal  Estaba enfadada con ella misma   NORMAL	anger	0.5250224741450212
-2018-Es-03017	la gente suele tomar como insulto cuando les dicen "yo escribía/dibujaba así como tú cuando empecé a escribir/dibujar" pero no es un insulto	anger	0.6164178834878029
-2018-Es-06256	Ok la mayoría de esos prompts de mierda en exo!g*rls si fueron elegidos pero no los míos que eran geniales. #enojada	anger	0.6505510585748975
-2018-Es-00416	@OkenCosplay QUIEN SE ESTA METIENDO CONTIGO?	anger	0.33766533832397505
-2018-Es-02234	Más que enojo es decepción🤷🏼‍♀️	anger	0.48360729180711987
-2018-Es-06359	ALGUIEN QUE RESPONDA provocar es ser zorra?????	anger	0.46584771541262676
-2018-Es-02654	El sarcasmo, el estado a la defensiva, el vacío, el enojo, la indiferencia  tienen contaminada mi alma.	anger	0.5900924728500798
-2018-Es-00285	Se amargado se te ve, cuando vos andas patruyando me la como a tu mujer	anger	0.4868616106536725
-2018-Es-03249	@Oskhar111099 Con Milito un equipo nefasto, horrible, y los mismos jugadores, con Holan todos rinden, juegan muy bien	anger	0.6174224708491944
-2018-Es-05514	O brujas que cazan. La venganza no sirve para nada, en mi caso.	anger	0.5954556897619006
-2018-Es-06093	Querer eliminar un comentario y eliminar la foto, si, sólo ha mi me pasan esas cosas	anger	0.6877648650702906
-2018-Es-02898	Fav si eres la que me la pone como pata de perro envenenado.	anger	0.5081048415210346
-2018-Es-06807	He visto malas adaptaciones, pero peores que esa, imposible. Rick, esto es un insulto hacia tus maravillosos libros.	anger	0.38624760008546444
-2018-Es-04616	@KioteKiote toda su carrera n malaga?37 partidos,1 temporada  jajajaja Infórmate antes bocazas,q solo sabes insultar x tú falta d argumentos	anger	0.7333938116650592
-2018-Es-04830	@cayeruby Y sacarse la carrera de fisica si le da la gana, eh? #MonarquíaEspañola. Y que conste que no insulto a nadie👍	anger	0.7097415666170692
-2018-Es-02468	@KioteKiote nadie te ha dicho que te guste, te pregunto en que basas para comprarlo con finbo y tú respuesta es insultar como argumento 👏🏻👏🏻	anger	0.5234095125884322
-2018-Es-01074	@morecar89 @SimonPerera @pablo_gps @vruizaldana @Koolasuchus @Eleder_ mira que te gusta provocar, pero tienes razón, son expresiones cultura	anger	0.5141789624162005
-2018-Es-03592	"Hija, pues qué disgusto, pero el retrasado de la serie se parece a tu ex". Mamá y la sinceridad estival.	anger	0.5430667993996213
-2018-Es-06862	Tremendo!! hace dos días me chamuyaba me decía que la novia esto lo otro y volvieron?Estoy tentadisima😂😂😝😝	anger	0.46510081061529795
-2018-Es-06111	Ver "indigenta' pidiendo  € para comer y hablando por móvil último modelo 😡 #indignante #rabia	anger	0.5654114116248402
-2018-Es-01468	@DanielaBlume tía, como coño convenzo a mi madre pa que me deje ir a verte, ¿me enfado y no respiro? 😥	anger	0.6681411807888803
-2018-Es-00779	@KingArtabricus, sabías que... cumprir anos pode provocar vellez? #gotitasdeconocimiento.	anger	0.42765736030598794
-2018-Es-03047	Quiero llorar mucho porque no se cuando vere el último capítulo de teen wolf 	anger	0.426298960465318
-2018-Es-04683	Estoy feliz y enojado	anger	0.5128711563872375
-2018-Es-03361	Quiero encontrar algo que me haga feliz sin estar obligado a hacer otra cosa. #Rabia	anger	0.32789734668691406
-2018-Es-04451	@Maria__Ospina Nada como "pelea de ardillas con música de linkin park de fondo." :v	anger	0.29925014586880927
-2018-Es-03527	@brenbertoldo Cala boca 	anger	0.49108237255494386
-2018-Es-02265	Si yo hubiera sabido que en esta vida había que madrugar, trabajar, aguantar celos y berrinches; le hubiera dado paso a otro espermatozoide.	anger	0.6169026878501772
-2018-Es-02345	@Josetenecesita Blanquito molestando, y enfadado, que raro no?	anger	0.5334738126067771
-2018-Es-04013	@ConBici @HoyPorHoy Triste que se usen cosas como las que decís para hacer carriles bici como el que ha causado este atropello mortal.	anger	0.607549088623595
-2018-Es-00581	@ClaramJauregui @tayyjaguarr son personas que no tienen nada que hacer en esta vida! 	anger	0.5162331021769638
-2018-Es-01430	Si con eso me pongo nervioso, no quiero imaginar el dia que suceda.	anger	0.362316173006172
-2018-Es-06879	@GranaNacho @EscJmiranda @aznarez_toti @AnaKafci @noelmesa @Cybertario En vez de insultar a realizar mas comprension lectora	anger	0.6014152870560783
-2018-Es-02956	Mi papá bajo a la cocina a hablar con mi hermana y mi mamá estaba enojada pero nos quedamos arriba echando chisme y terminamos riendo.	anger	0.3735141560229993
-2018-Es-06304	@LothricBorgunll < venganza. Y de esa manera la cadena de odio, venganzas y sangre nunca terminaría. Ella tenía en sus manos el poder que >	anger	0.5560324571768875
-2018-Es-05790	Ahre la mina seguía resentida	anger	0.4597055387024762
-2018-Es-00939	@st4rs87 @garciabanchs Ni hablar del desplome del $ "tal cuál pronosticó" el "profeta". El tipejo es un peligro, jajajaja.	anger	0.47631242740483265
-2018-Es-02583	Qué triste, vas a sentir la soledad	anger	0.49180235842890085
-2018-Es-01234	@julietabarros10 Ya te había dicho que sos mas linda enojada ?	anger	0.5104539934966575
-2018-Es-03998	Y después se preguntan pq es q me enojo..	anger	0.5322552557347532
-2018-Es-02976	@ escritores de missing 9 sigo enfadada	anger	0.5172221038625938
-2018-Es-05894	Cuanto resentido suelto 😂	anger	0.52345936267739
-2018-Es-03697	@lucasotor 'ira tu... no miacordaba, cómo hasta sin querer le da uno al clavo 😎	anger	0.42082143243423253
-2018-Es-02957	Yo creo que nunca me había enojado tanto como lo hice hoy 🙇🏻‍♀️	anger	0.37988401563548646
-2018-Es-02656	tener el pelo lacio y fino es horrible, se me enredatoooooodo	anger	0.5575966645503456
-2018-Es-06495	Mi mamá me dice que esta preocupada porque estoy loca por Flandria, y si ma lo 100to es la hija que te toco 🐥💛	anger	0.5375856539542339
-2018-Es-00718	@iOneGentleman_ @Resentimiento El problema es que no está claro si el primero era realmente afirmativo jajaja	anger	0.4921844236458822
-2018-Es-01994	@CristoAtado Ese tipo de personas no dan ni tristeza. Dan vergüenza. #rabia	anger	0.8118962578116354
-2018-Es-01010	@mc112149 Sería un insulto para Guardiola decir que estan igual de sobrevalorados, lo de Tomlin es otro nivel, un completo mediocre.	anger	0.6494057311727812
-2018-Es-02542	Es increíble como te olvidan en tan sólo un chasquido	anger	0.48836202012740737
-2018-Es-06342	Oh, Café Helado. Es increíble que el resto del año te tome hirviendo. Quizá no seas el mismo. Quizá no lo sea yo. Quizá nada tenga sentido.	anger	0.24563501902104562
-2018-Es-02199	Yo nunca olvido una ofensa	anger	0.4511539904548398
-2018-Es-00747	Talvez me ponga nervioso si te veo, pero no quiere decir que te deseo. No te olvide, en el proceso estoy.	anger	0.4022080176039977
-2018-Es-04537	Antes a estos problemas ni les prestaba atención, ahora me quitan las ganas de dormir y mas ansiedad ... La vida y sus cambios.	anger	0.6846257389003263
-2018-Es-03271	@PokemonShuffleM con la última vida nunca se hace una fase gradual, salvo que se haya enfadado. Eso es de 1° de Shuffle XD	anger	0.3345888066298558
-2018-Es-04382	mal parado rossi lpm..😠	anger	0.6646567165522659
-2018-Es-04329	@diegoofrias por qué vives enojado con la vida amigo?😟	anger	0.4115682989364985
-2018-Es-02384	Si pyso por tu lado y no te saludo no lo tomesqcomo enojo que los amores que se ..ieren se saludan con los ojos.	anger	0.39160247802364667
-2018-Es-06581	Ojalá una precuela de Imperator Furiosa.	anger	0.6415461016683346
-2018-Es-01175	Pues me da que el hijo de Trump (parece un insulto pero no lo es) se está inmolando por papá y la abogada rusa tapa los verdaderos contactos	anger	0.6310015257988899
-2018-Es-01161	Juro que estoy muy enojado en este momento	anger	0.5037059478049877
-2018-Es-03750	se enojo porq le aplique la del maincra	anger	0.4942598453073097
-2018-Es-00035	Quiero cigarrillos lpm😤😤😤	anger	0.36614147737291
-2018-Es-06037	no mames que pinche enojo, no vuelvo a hacer ninguna broma!!	anger	0.7669009841340673
-2018-Es-01329	@TownGamePlay Necesito tu abrazo ya. 	anger	0.21274939973888368
-2018-Es-04638	Imperator Furiosa! #Madmax	anger	0.5947692052365839
-2018-Es-03128	Ayyyyyy quiero que se pongan las pilas asi así me dan el 28 a mi, lpmmmmm	anger	0.43081506880509024
-2018-Es-03021	#manosblancasm4 Donde estaban los del #ppcorrupto y vuestra indignación en el homenaje a las víctimas del franquismo,en el congreso??? 🖕🖕🖕🖕🖕	anger	0.7028445227360223
-2018-Es-05393	UPA CUCHA AMARGO O DULCE	anger	0.22608320014045336
-2018-Es-00933	@el_pais Con este titular parecéis cortos de mente así sin ofender  ahí lo dejo 😂. Si se sabe otra cosa es que le deis la espalda al asunto.	anger	0.5048635522057165
-2018-Es-00144	@SEUR_responde lo hice anoche, esta mañana, y pasan de mi cara #vergüenza #enfado #impotencia .. llamadme de una vez y dadme una solución!!	anger	0.5205008227861475
-2018-Es-00392	@Mubrutico @AlvaroVadin @aracnoideo Estoy enfadado con él , no saca la bici... 😂😂	anger	0.5571162098213019
-2018-Es-06430	Sospecho de Judas Iscariote con una oreo envenenada, en Coyoacán, México	anger	0.4925753747176169
-2018-Es-03805	Desanimado legal de sair sábado	anger	0.3195536442667125
-2018-Es-00408	@DemDagon « alguien les estuviera siguiendo y hubiera provocado aquello, pues no veía al demonio cayéndose sin más o inventándose algo »	anger	0.4715883354294188
-2018-Es-03646	#DeNocheenlaCiudad Esperanzado de ganarme manillas para el #VibraTYM Y darle la sorpresa a mi esposa @Vibra1049 @CamVelandia	anger	0.3726522999637508
-2018-Es-05584	@maftdaddario Qué amargado cabron	anger	0.4854355790880955
-2018-Es-02465	Repugnante ver a las hienas(tertulianos), morder, insultar y rabiar, por conseguir un trozo del cadáver de Miguel Ángel Blanco (homenaje)...	anger	0.4113872302946669
-2018-Es-04452	@gonzale_pedro @La9deAnon Lo mismo digo. Me acabo de enterar y qué disgusto.	anger	0.6245500905854423
-2018-Es-06133	Doy mi vida por alguien que me traiga helado a estas hora, tengo un antojo terrible.	anger	0.34339555887708595
-2018-Es-03796	Los domingos son para descansar no para hacer cosas d la facultad 😒🖕🏻#enojada	anger	0.5492758216016088
-2018-Es-06413	este programa es un insulto a la psiquiatría por qué lo sigo viendo?	anger	0.5116738182049653
-2018-Es-04391	Aún recuerdo a la gente super indignada por lo de Kirigiri y lo de Nanami  Mi alimento su odio fuck yeah	anger	0.6766473152284486
-2018-Es-05620	-Ella enojada me putea en 12 idiomas. En ese momento es la mas hermosa! #enojada #love #tarde	anger	0.44730627100930676
-2018-Es-00823	dibujo hojitas le doy color a los pezones para que resalten de furia en fin es un trabajo duro pero alguien debe hacerlo	anger	0.3399828895094965
-2018-Es-06398	Estoy yo mas preocupada porque mi mejor amiga aprueba la previa que ella misma	anger	0.37376786732420175
-2018-Es-00986	@Apixelados Y aqui es de noche y esta llovien pta que sad😡	anger	0.4353228244608096
-2018-Es-03471	@JosDice Si me sigues no me enojo😜	anger	0.4046948386082754
-2018-Es-05626	3 cosas que no puedo ocultar:  •Mis hijueputas celos. •Mi hijueputa enojo. •Mi hijueputa gusto por usted.	anger	0.6279780033960668
-2018-Es-04453	No podemos estar bien que ya me enojo por algo que pienso o me invento ajajajaj	anger	0.38932321986022356
-2018-Es-00574	Me perdí culpa de DNI Culiado locoo y mi inrresponsabilidad 	anger	0.6327920607003864
-2018-Es-06701	Una vez estaba muy enojada con el ex de mi mejor amiga (la había hecho sufrir mucho) le mandé un priv diciendo que todo lo malo	anger	0.5828799276490363
-2018-Es-02262	No le sale estar enojada 😏🔥	anger	0.5062871946141443
-2018-Es-00068	que ganas de comer chocolate amargo	anger	0.2823354967565534
-2018-Es-03327	Cada que quiero insultar la pendejes de alguien mi "good vibes interior" me dice que lo deje ser si es feliz yo soy feliz VIVE Y DEJA VIVIR.	anger	0.4920891848370567
-2018-Es-02147	Que puñetera es la vida a veces eh 	anger	0.48575993096362025
-2018-Es-02101	No me enojo si me hablan	anger	0.2523684076925522
-2018-Es-05871	Mi hermano se la pasa en la casa de Lala, vive más allá que acá 	anger	0.419938352419686
-2018-Es-06270	@Pedrito_Vm sos yo en la vida, estafado y indignado	anger	0.5284114053077779
-2018-Es-03390	Llegue al punto que ni enojo me causan las cosas. Claramente ni ai estoy 💆🏽 0 importancia	anger	0.567318555461692
-2018-Es-04092	@findxjoy @draxler_leon NADA QUÉ, ¿POR QUÉ TE HACEN OJITOS? *INDIGNADA*	anger	0.5616838428890524
-2018-Es-01319	Odio estar tan enojada y que me de risa💆	anger	0.7545156192943873
-2018-Es-05205	#Rayito  weeee los frijoles me van a hacer cagar horrible jajajajaja 😹perdón tenía que decirlo	anger	0.6212306699105679
-2018-Es-06356	Acabo de votar mi carterra 	anger	0.42045803898010164
-2018-Es-01072	@TamaraCapeche Jajaja ella enojada	anger	0.4275700278176416
-2018-Es-03060	@Cristian_B15 lo missssmo de siempre	anger	0.5005818443161366
-2018-Es-01734	@CaamiAlvarez3 Uy pero que enojada estas que me respondes el twitt, si ya se que querés hablarme no te hagas la difícil jajaja	anger	0.4809760199902048
-2018-Es-01202	Se cae el cielo... que lave todo lo que angustia... #Rabia #Miedo #Oscuridad	anger	0.5009732308333911
-2018-Es-05194	@PrensaPEsquivel Una actitud persecutoria, muy de "Marica" mala, caprichosa y resentida...	anger	0.6344338283902592
-2018-Es-01347	me encanta que me insistan cuando me enojo o que m sigan hablando cuando les clavo visto, perdon	anger	0.49349709579574275
-2018-Es-00546	Muy indignada con la película que acabo de ver 😭😭😭😭	anger	0.5321676389285784
-2018-Es-00926	@lLumosl Deja la indignación a un lado!  Ya veras cuando te vea en la universidad 😡	anger	0.7530858518384859
-2018-Es-04563	Me siento enojado con la vida y por muchas razones 😶	anger	0.44430268668496364
-2018-Es-06099	@__iDann MUY TARDE. JAJAJAJA como cuando le dijiste a mi novio que no me contestara.. ¡AQUÍ ESTÁ MI VENGANZA PUTO! 😗	anger	0.5004688153140151
-2018-Es-00989	@stressedhayley Esa venganza no te la robo	anger	0.625731960967445
-2018-Es-01100	Mi gata nina qué haría sin esa amargada gruñona😻	anger	0.5109106043000174
-2018-Es-02387	Pero que ganas de que tengas un caniche así te lo pateo hijo de puta un insulto que diga	anger	0.7633444559699777
-2018-Es-06102	@jotajordi13 @somhiserem @jmbartomeu Que estas enfadado por que no cojen los crack que tu representa	anger	0.5947930769010864
-2018-Es-03925	Casi una hora esperando la caga de micro!!!!‼️‼️😡	anger	0.41680989592154366
-2018-Es-01888	Si me hablas no me enojo	anger	0.294057921675358
-2018-Es-00774	@DragonsR6 @JandritomurosHD @chimigastaca Bffff menudos refuerzos entran...	anger	0.47945096534753895
-2018-Es-03062	Estoy tan amargada que a todo le encuentro peros o algo malo.	anger	0.5094473615689306
-2018-Es-04095	@draco_malfoyesp —La rubia intentó asimilar aquellas palabras lo mejor que pudo, pero acabó por fruncir el ceño con una expresión que»	anger	0.4241678609673255
-2018-Es-04103	Sí, odio trabajar en equipo, aquí sólo uno de cada tres trabaja, los demás sólo estorban y entorpecen todo #enojada	anger	0.6353265726801087
-2018-Es-02324	vienen a visitarme a mi y se ponen a jugar a la play 	anger	0.3582948015764095
-2018-Es-04846	@Tomasbetico07 @lucharsgs @Nuestro_Betis Te he contestado antes, la salida vuestra es no leer e insultar (gilipolleces)	anger	0.6632416482154688
-2018-Es-00421	soy rubén rabioso y estoy muerto hace 28472838 años, si no me crees búscame en google	anger	0.50439959411045
-2018-Es-05599	@SxrcasticBatman < la cara en su mano. De reojo, no podía dejar de mirar al pálido, pensando en si estaría enfadado por algo con él.-	anger	0.4510955347952209
-2018-Es-04365	@SChecoPerez @HawkersMX Que vergüenza que sean de mi tierra 😠 os pido perdón por la ofensa mexicanos!!	anger	0.7520816064280054
-2018-Es-03355	Para que ponen funciones en su cartelera si cuando vas a llegar al cine resulta que cerraron 😠 #cinemex me fallaste #enojada	anger	0.6652198771450962
-2018-Es-05952	🎵No me folles con tus barbas😊 que las tienes pringadicaaaaas 🎵y si lo haces, por venganza🎵 yo te pego mis ladillaaaaas🎵😊 #SilvesJotero	anger	0.48223914861219386
-2018-Es-04056	Y además, en aquella oscuridad candente había gusanos. —¿Lombrices de tierra? —preguntó con el ceño fruncido.	anger	0.393873036556892
-2018-Es-05055	Sólo estoy muy enojado con todos son razón aparente.	anger	0.5975886578355057
-2018-Es-04724	El mejor slasher de películas de terror? #TalentoVenezolano #arte #SIGUEMEYTESIGO #SiguemeYTeSigoAlInstante #LunesDeGanarSeguidores 	anger	0.31832654109774794
-2018-Es-00849	Voy a desenterrar Under the Red Hood y Lost Days para leerlos otra vez y dejar de sentirme ofendida	anger	0.4829220047207
-2018-Es-02394	Que odio que la rabia se convierta en lágrimas	anger	0.7183035770731108
-2018-Es-00242	Te querés tomar un cortado rápido y te lo sirven hirviendo 😐	anger	0.628559415069494
-2018-Es-02712	Le mejor de todas las veces que me e enojado es cuando llega la hora de mi venganza.🧐😎🤩	anger	0.4621541830236504
-2018-Es-04096	@sebasvargas05 Yo me siento indignada digamos	anger	0.5516708375246258
-2018-Es-03315	Hacer un pedido en @AmazonESP,que digan que llega en un día,pero no llega..  ¿Es engaño? ¿Para eso me suscribí a @amazonprimenow? #enfadado	anger	0.5598424108028967
-2018-Es-02870	@Glorette_616 El me pelea, insulta. Yo lo bloqueo. Punto. Enojate con otro.	anger	0.5510409428470314
-2018-Es-04800	Ya no me contestó, pero con ella no me enojo jeje	anger	0.37563171728143396
-2018-Es-01774	Mi mama se enojo con abi por que no comió hoy y cerro el negocio con llave.. Ahora no puedo buscar comida.. Estoy a punto de llorar.	anger	0.5331975202499061
-2018-Es-02670	Estoy tan enojada con mi novio que me dormi sin abrazarlo. Soy re cruel lo se jijiji	anger	0.47457641135970885
-2018-Es-06441	Me enojo en secreto cuando veo tus etiquetas de memes de putería.	anger	0.4570911487433281
-2018-Es-00561	26. Soy muy sincera, realista y directa. Y muchas veces es un problema porque no mido lo que digo y puedo ofender o hacer sentir mal):	anger	0.5322298396536554
-2018-Es-04156	OVIALCDMX Exceder los límites de velocidad puede hacer que pierda el control de su vehículo y provocar accidentes. Art. 9. …	anger	0.47086881692398064
-2018-Es-02849	@FuriaRojaNet @luismaoriginal bienvenido a furia vene ;) 📛	anger	0.5178697763866544
-2018-Es-00665	En este momento estoy odiando mucho a irina 	anger	0.5282076988366966
-2018-Es-03430	Siempre dije que es de resentido borrar las fotos con tu ex	anger	0.596299397552293
-2018-Es-00034	Hoy voy a soñar con el derecho al trabajador😤😤😤	anger	0.4353533688287518
-2018-Es-06756	enfurecida y sedienta de vino	anger	0.4398671245090677
-2018-Es-03508	@Tusbesosenmi Porquè duele, decepciona y a veces es amargo.	anger	0.46352452205166633
-2018-Es-02779	El internet viene y va, así como el ánimo del Venezolano.	anger	0.41012545945800316
-2018-Es-06724	Ayer, pillé a mi hermano pequeño masturbándose. Hoy le he pillado otra vez en el mismo sitio y se ha enfadado…	anger	0.46203555016979203
-2018-Es-04418	« me encuentro al supuesto tío y le digo si es suficiente ya. Y el tío se raya, y yo me enfado, hasta que descubro que ese es su gemelo. »	anger	0.4875896184367613
-2018-Es-01766	Creo que lo que odié de Nocturnal Animals es lo mismo que odié de Gone Girl. Se están robando mis ideas de venganza.	anger	0.5418528953323841
-2018-Es-02413	Cuando se homenajea a una víctima varios días seguidos, y al resto no, deja se ser un homenaje y pasa a ser una ofensa. #HomenajeBlancoEP	anger	0.5757072998390422
-2018-Es-01387	#Rabia por el contraste brutal entre la entrega al 100% de la población civil y el cinismo e inmovilidad de la clase política #FuerzaMexco.	anger	0.6138761661856926
-2018-Es-04388	¿Qué tan resentida puedes estar para meterte en una relación? ¿Quién te hizo tanto daño? 🤔	anger	0.5593644831745002
-2018-Es-01869	Estoy bien ofendido, sin palabras!	anger	0.5892249155522076
-2018-Es-03908	Como se puede poner un mg a algo cuando te da #coraje que suceda. Un icono q represente #rabia en twitter ya. @marlol9 @labasculaTV	anger	0.5398119212295606
-2018-Es-03708	Me enojo por todo😩	anger	0.6469162968657327
-2018-Es-00098	esto me recuerda a cuando confirmaron a chloe para Ariel, like rlly?? sin ofender pero no se le parece EN NADA a Ariel	anger	0.4582247429511028
-2018-Es-04686	porq cuando hablaba de venganza se ponia triste, pero por ahi le recordaba a una venganza q tenia q ver con otra cosa y no con el"adulterio"	anger	0.5177431948218134
+2018-Es-06254	@LeoneLGomezz_10 ... si quieren que este bien que me traten bien 😠	anger	0.5224233793669719
+2018-Es-06923	@_spessartine —Se levanta y empieza a correr. El enano corre tras él furioso.—	anger	0.3259251872196285
+2018-Es-04930	Odio mi actitud de nunca querer hacer nada, que me pregunten "hay que hacer esto?", decir "si" y seguir sin hacerlo, DALE BOLUDA HACE ALGO	anger	0.6545256378584743
+2018-Es-05660	Me dieron ganas de comer gomitas y por acá no venden😡😡😡	anger	0.34589853198735365
+2018-Es-04907	Tengo alto resentimiento con mi hermano últimamente	anger	0.5032169469285231
+2018-Es-02948	Estaba para un crobar furioso eh, dió mio. No veo la hora de dejar de laburar aca y hacer lo que quiero. No falta tanto ya	anger	0.48632397220304097
+2018-Es-00467	La Negra no esta para pelear, pero lleva como mil horas peleando, toda ofendida de la vida. Jajajajaja te amo.	anger	0.5139805274874392
+2018-Es-01577	Creía haber encontrado calma pero volví a enloquecer	anger	0.2639138928357084
+2018-Es-03786	A raiz de tanta ira causada a iglesia catolica apoyo a #LGTB por Lorena Castillo, Ulloa deberia devolver los millones incluso a nunciatura.	anger	0.41184188587347825
+2018-Es-05006	Déja de besar y dime la verdad —frunció el ceño como un niño pequeño enfadado sacándole de paso la lengua.	anger	0.46654801326284234
+2018-Es-05058	Por qué Tomás sigue a todas mis amigas? 	anger	0.4210280500808792
+2018-Es-04416	Cuando me enojo con una persona y me da mucha bronca lloro, puteo, me pego y tiro los pelos sola. *ssssssanita*	anger	0.6535949164837024
+2018-Es-05627	@OlamAmezkaita no solo a mi, varias personas recibimos esa respuesta y por el enojo se empezaron a mover las sillas. @anabeatrizglez1	anger	0.5450307695105701
+2018-Es-05623	les juro que estoy re mil indignada	anger	0.7431136322623786
+2018-Es-05984	Estoy en mi momento de rabia y odio contra el mundo. Los odio a todos.	anger	0.8286034478254476
+2018-Es-01365	@zacrobinsonff @maftdaddario Es de broma, jamás me enojo con él siempre nos estamos cogiendo en dm	anger	0.3826568349036961
+2018-Es-02011	@CamiRa24 Por que te enojo	anger	0.524837526286952
+2018-Es-03514	Por un momento creí que no regresaríamos hoy de nuestro quick trip 😲 #miedo	anger	0.3268619155831625
+2018-Es-03576	@Eury66 @MrCotorro Si fuera mujer me sentiria ofendida pero como no entonces, muerete :v	anger	0.7370982365744136
+2018-Es-06173	@tioratero @ManuelaCarmena Insisto, para decir imbecilidades e insultar a la gente prueba en tu propia casa con tu propia madre, saludos	anger	0.6936283076269902
+2018-Es-06021	Yyy se enojo, como siempre.  La entiendo.  Si, ya se, siempre la cago🤦	anger	0.5047240280550143
+2018-Es-00740	@Lunaritos27 Mismamente,xo me jode q ganen,q impotencia 😠😠😠	anger	0.8365676538669431
+2018-Es-05821	Me pongo nervioso cuando tengo que tomarle la orden a mi crush.	anger	0.23474944926254926
+2018-Es-00579	Mi padre quiere que me meta a policía, y yo le dije que si y mi madre salió del más allá diciendo que no, que era peligroso +	anger	0.5903620670267962
+2018-Es-00814	Q resentido del orto	anger	0.7780528466010262
+2018-Es-01356	Me da rabia que te hable y me contestes bien pinche cortante.	anger	0.8086739575980895
+2018-Es-05854	Mañana me saco las ganas de gulear tortas fritas rellenas	anger	0.43944387016398023
+2018-Es-05500	No serviré a Dios como un obrero a la espera de mi salario. #sufismo #rabia #dios	anger	0.5822731232625069
+2018-Es-03863	@Lauragomez_M Esa canción me la dedico un ex y le cogi rabia :( Inmadura hasta el final de mis días.	anger	0.6313952615675279
+2018-Es-01728	La búsqueda del clic en el periodismo es un insulto a la inteligencia, y es reducir el derecho a la información de la gente.	anger	0.6200158617920533
+2018-Es-04190	Por que no se mete los mg en el culo 	anger	0.46878484148845906
+2018-Es-05962	@lore_rs96 No sé qué entiendes tu por amargado...🙄	anger	0.5294197212864706
+2018-Es-05085	@laSextaTV Y su hermana sin inmutarse x la utilización dl nombre d su hermano para trincar, enfadada con carmena y tragando con su pp	anger	0.7061867464877982
+2018-Es-02459	El filtro que tengo, terrible	anger	0.4505290670611072
+2018-Es-03538	@LechugaEdson01 @ndstrd Lechuga estoy muy indignada contigo ya no te hablarle bai	anger	0.723354268814273
+2018-Es-04356	@alejmai26 No podía estaba trabajando 	anger	0.3274272301923342
+2018-Es-03401	@IyashiHitora 🌸 bien pero no quiero ofender a mes amigues que están mal así que estaré mal porq son un colectivo oprimide 🌸	anger	0.6550749959755824
+2018-Es-06948	@Alex_albert_1 hola Alex, que seas muy feliz en este miércoles, inténtalo o me enfado 🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈	anger	0.4031417186690159
+2018-Es-01402	@xYoung_Hale Porque te has enfadado conmigo...	anger	0.5683903912750883
+2018-Es-05922	Me hubiera vuelto directamente a mi casa 😤	anger	0.5956068703750923
+2018-Es-03921	Nmms que estes 🙄	anger	0.33700263657736773
+2018-Es-00390	@Guaja7ely @lavecinarubia Si jajajajaja que suerte tienesxD esta gente está amargada	anger	0.5508783659901147
+2018-Es-00934	Cuando me dicen: “Te voy a decir algo pero no quiero que te enojes”, ya estoy enojada en un 99%. 🤦🏻‍♀️	anger	0.5752597456779134
+2018-Es-01587	@JuanGalt11 Tanta comparación sin sentido que apunta....?? a agravar una falta sobre otra... con el fin de??	anger	0.4212473002073042
+2018-Es-05634	@PPTenel13 Una q se dio cuenta q su pelea esta ahi.	anger	0.35490928529092763
+2018-Es-04540	Estoy frustrada 	anger	0.365250537171525
+2018-Es-05546	Se me pasa el enojo con las pelotudeces que hace.	anger	0.6173745378098214
+2018-Es-00369	Resentido lo conoces?	anger	0.3580241172800243
+2018-Es-06557	yendome a dormir sin comer pq hay una cucaracha en la cocina #tristeza	anger	0.5538980126088446
+2018-Es-02609	@gxspardeleon Igual sigo enojada con vos	anger	0.6593676061297271
+2018-Es-01547	Necesito a mi amor para mimarme y esta enojado 😣	anger	0.3131828352480922
+2018-Es-05572	No estoy llorando, se me metió un Hybrid Theory en el ojo.	anger	0.4896933462593429
+2018-Es-03713	Ve bien por la vida y te ira bien en la mida... asi ei!	anger	0.30004273065128145
+2018-Es-00346	HIJO DE TU REPUTISIMA BOMBA PERRA ESTUPIDA BABOSA MADRE😡😡😡😡😡😡😡sin ofender a su mama no la conozco es solamente una expresión de odio así el	anger	0.8690655845493278
+2018-Es-02474	La concha de tu madre Brasilero de mierda 😡😣🔫	anger	1.0756460319095562
+2018-Es-06710	El CN Electoral,al poner un acto de votación simulado el mismo día del plebiscito puede provocar más confrontación.	anger	0.4521969637309904
+2018-Es-05329	¿Estoy enloquecido o enloqueceré? ¿Estoy en lo que he sido o en lo que seré?	anger	0.4308664979113112
+2018-Es-00188	Lo que no sabes es que cuando te vas a dormir, me enojo a propósito para que te quedes más tiempo hablando conmigo.	anger	0.41526972537780277
+2018-Es-01475	@MerliNetflix recién termine de ver la segunda temporada. Espero q pronto la compartan en la plataforma Ansiosa espero la tercera! ♡	anger	0.27414722957025645
+2018-Es-06188	[7/12 04:04 AM] Lore😍: Inventa algo para pasarle cap😂 pq se enojo😂 [7/12 04:06 AM] La Mas Puta: Lore mañana te paso a buscar no te olvides😒	anger	0.5381918940727676
+2018-Es-01799	#AndaYaChef#djdanymoreno ,estomago de oro....que bien se portan tus compis contigo...con lo bueno que esta el bocata de solomillo!!#venganza	anger	0.3814991756625089
+2018-Es-00169	" Casi te atropello porque yo estoy por ti sí sí sí " Joder ahora si me gusta alguien tengo que atropellarla?	anger	0.4959576735641674
+2018-Es-03782	@zarolivier No! Neta, cero amargada :(	anger	0.7012722451703943
+2018-Es-06591	Lpm q es este enojo?	anger	0.514913903460271
+2018-Es-00968	ESTOY POR PERDER 5 FUEGOS, SI LOS PIERDO LOS ELIMINO D SNAP, DE RESENTIDA NOMAS	anger	0.6336265903636469
+2018-Es-05612	Este año no hay beca. Constitucional y Fiscal, tumbadas. Un disgusto.	anger	0.5768049758710942
+2018-Es-00198	Metele nitro viernes 	anger	0.19269223350713677
+2018-Es-02881	@As_TomasRoncero @diarioas Jajajaj.  La antimadridista disgustada	anger	0.5767465583746483
+2018-Es-02586	HOMBRES: a veces hacemos berrinche sólo para que nos consientan. Sépanlo	anger	0.3039276965695167
+2018-Es-00507	@DaiNu_ Decime quien fue así te fabrico un insulto piola para q le digas arre	anger	0.5320009612960541
+2018-Es-04885	"con esa cucharita y terrible boca no vas a terminar de comer" amorosa	anger	0.5058802051605016
+2018-Es-02505	Se enojo porque no sabia su nombre jajajajajajjaja	anger	0.5000873079381283
+2018-Es-04111	Castro ha sido un bocazas, le han engañado y ha provocado que el Sevilla haga el ridículo, pero los sinvergüenzas y la mala gente son otros.	anger	0.6813097857483592
+2018-Es-01448	@lavozdeinaki Si después del atropello te levantas pedir perdon	anger	0.4929998743251769
+2018-Es-03165	No puedo tener tanta bronca 😠😠😠	anger	0.7062503068507715
+2018-Es-02126	Cuando me enojo mucho pienso "que bueno que todavía no subi ninguna foto! No tengo que borrar nada"	anger	0.5298614487311086
+2018-Es-05437	¿Cuál pelea? Jajajajajaja para las chismosas se les acabo el entretenimiento porque hablaremos por interno, bye.	anger	0.48182233887048526
+2018-Es-05222	@AnyiInstituto Porque estas enojada? estas mas loca que una cabra y si te seguis hablando con esa vas a quedar peor jajaja	anger	0.673212276221204
+2018-Es-05789	@EnelClientesCL lamentablemente no se notó el esfuerzo. Es más. Se notó todo lo contrario. Tarea para la casa.	anger	0.32961402997128586
+2018-Es-00652	Muy mal día para trabajar hoy, la impotencia y la rabia se mezcla con la tristeza, y todos con un mismo pensamiento: No es justo.	anger	0.6843636642419453
+2018-Es-00694	Me da rabia estar de vacaciones, cuándo podría dormir hasta la catalepsia y no aquí con insomnio 😑😑😑😑	anger	0.6476396876704703
+2018-Es-02489	Y a esta hora es cuando la respiración empieza a enloquecer	anger	0.17421701588783728
+2018-Es-00279	@renfrancis Oye we, recordé que en la firma tomé foto a Chris y tú "Guarda tu teléfono,porfa" Qué amargado, como tú los tienes todo el día😢✊	anger	0.415967408857826
+2018-Es-03055	Nunca me voy a olvidar cuando me compre 5 paquetes de dortios en el día de los enamorados. Yo justo me había peleado jajajaaaj lpm lo amaba	anger	0.44316747653386906
+2018-Es-05938	@Darcher_7 @Nico_Medrano17 Me siento ofendida. Juega bonito comegatos	anger	0.6621549434573567
+2018-Es-02269	@matiduque1 Qué decís 	anger	0.34529687952763943
+2018-Es-06682	@izquierdotudela @agarzon Os duele la verdad y recurrís a la descalificación y al insulto. Nada nuevo.	anger	0.7568528675275955
+2018-Es-01621	Me caen de la verga las mujeres que por cualquier insulto ya se ofenden pinches morras delicadas	anger	0.8855191894318202
+2018-Es-01077	Peor de que te dejen en azúl, es que no te lean.   😡😡😡😡😡😡	anger	0.5846545618309058
+2018-Es-04381	#LaCompasionDeErkut este #Erkut de mierda boto de un aletazo a la sra #Rabia	anger	0.7819089941073321
+2018-Es-00333	@chacguate Ja! Eso provocaría una furia jajajajajajajaja no que me duerma	anger	0.5574459561403483
+2018-Es-02748	soy la amiga a la que no involucran en todas las salidas porque soy una amargada de mierda y lo triste es que ni siquiera me importa	anger	0.773397158322177
+2018-Es-02619	No puedo decirle a nadie "dsp te aviso", pq al toque se enojan	anger	0.5537165321936579
+2018-Es-01194	Si conduces, no uses el celular… evita ser presa fácil de un delincuente o provocar un accidente vehicular. #TipsDeSeguridad	anger	0.5511329842119368
+2018-Es-05877	@veysandoval Si entiendo Vey, pero yo tuve acné y las que me preguntan eso son amigas que no cuidan su higiene, sin afán de ofender !!	anger	0.6570817211838552
+2018-Es-06416	Estoy más ofendido que alzate cantando.	anger	0.45413288274586006
+2018-Es-04354	Sigo ofendida porque subieran la temporada 8 de rupaul's drag race en español. 😷	anger	0.6160633206057786
+2018-Es-01053	Creo que en mi foto, por mi narizota, parece que estoy haciendo la britniseñal 🙁	anger	0.4222478401481452
+2018-Es-03693	Gente impuntual...pa' que nacieron ? 😠😡	anger	0.4615598685278623
+2018-Es-05054	@FloorRoddriguez Ya lo subi al colectivo , esperalo 	anger	0.5479903471644002
+2018-Es-00335	A estas horas me dan ganas de insultar gente	anger	0.6927012079362358
+2018-Es-02842	me hace bien saber que abel es un fiel oyente de la venganza será terrible, ven por qué lo amo?	anger	0.43567837191572567
+2018-Es-01415	Jeje se nota que estoy aburrida , le respondo todas las preguntas a @FrChinx	anger	0.4381657575680747
+2018-Es-00835	< trampa tan asquerosa!—  ¡No te atrevas a hacer eso nunca más!  —Exclamó enfurecido, propinándole una bofetada con fuerza en la mejilla, >	anger	0.6249615409910569
+2018-Es-06804	La comodidad no está peleada con el estilo. #moda #cambiodeimagen #inteligenciaemocional #modasostenible #mode #fashionemergency	anger	0.35686982253515137
+2018-Es-04027	Se siente horrible venir a clases y que tu profesor no llegue… por eso no venía la primer semana. 😭😡	anger	0.568468900784153
+2018-Es-06169	Cada día estoy el doble de gorda😞😡🐷	anger	0.38689675469943896
+2018-Es-03116	Consecuencia, más de un lustro sin muertos por accidente de tráfico o atropello en el casco urbano.	anger	0.589109629203397
+2018-Es-02421	@Rodriguez_Aixa5 Es que estoy re resentido boluda	anger	0.6878533320562532
+2018-Es-02570	Ali si tenía un anillo 😥💔 Oooh,Peri!!! 😱 Zafer... 😠#UnaEsperadaReconciliacion	anger	0.3939095513728676
+2018-Es-06296	@GarciaAller Anyway, lo siento, no la quise ofender, sólo que me dejé llevar por el tono inspirador de su artículo	anger	0.5765620501989004
+2018-Es-00328	@Grafocafe @programa_hoy Que bellos ojos. Espero no ofender..	anger	0.2729384457238407
+2018-Es-00685	@loisdf101 @RFPradas @peprm Menos insultar i mas aprender a respetar que haya gente que no piense como tu...	anger	0.570220914342521
+2018-Es-00399	Si rozas minimamente cualquier juguete de mi perra se lo tomará como una provocación y no parará hasta que juegues durante horas con ella	anger	0.5213206252227065
+2018-Es-00301	@Mackerita El insultar a sus jefes tampoco ha ayudado mucho la verdad.	anger	0.6242020457019493
+2018-Es-02613	Atomizan en snap con el cosito ese😤	anger	0.2793468013360488
+2018-Es-04040	@BorjaBarba Es en plan guerra preventiva: me siento ofendido de manera preventiva. Luego ya miró algo más, pero lo 1º ofendido y ladrando	anger	0.5560644082234434
+2018-Es-02331	La #klebsiella es una bacteria Gram (-), que según su especie pueden provocar infecciones urinaria, septicemia, rinitis atrofica.	anger	0.6061892291670021
+2018-Es-01136	@babynlf Fue inevitable el chasquido de lengua que resultó posterior a la sonrisa ajena, y si bien aún no se deshacía del de rubiales, la >	anger	0.421594227612914
+2018-Es-04680	"No es labor de ONGs salvar a refugiados sino de GOBIERNO" recuerda @adrilastra a @sorayapp. Gracias por trasladar la indignación a Congreso	anger	0.5499352092196191
+2018-Es-04119	Definitivamente me volví a enloquecer	anger	0.4620430408929759
+2018-Es-00754	Estoy enfadada y odio a todo el mundo,  por qué simplemente no me puede dar igual	anger	0.7809846463317182
+2018-Es-05677	@grmanzano @MarioSuarez4 mucha suerte 🍀 os ira genial! Un abrazo chavales 😉	anger	0.25004591990101743
+2018-Es-03416	mañana podria volver a mi casa, y para que se me vaya lo ofendida pido la plata para el anillo..	anger	0.3150677261423936
+2018-Es-05171	Cuando pierde tu equipo tu enojo ¿Cuánto tiempo dura? ¿Cuál partido recuerdas más y que hiciste en ese momento? (Casa o estadio)	anger	0.5203381450144426
+2018-Es-05799	@Juanmazza12 Un amigo es una luz brillando en la oscuridad🎵	anger	0.274614348707925
+2018-Es-03424	@35PAIS @pameaguirre1 @35PAIS ES UNA PENA,la gente y me incluyo!,esta enfadada con LENIN,creemos en AP,somos AP , pero UDs pueden CAMBIARLO!	anger	0.5117928076825041
+2018-Es-05271	El Teempo es el enemigokindestructible, puede ser vencido en mas de mil batallas, pero en la ultima permanecera implacable.	anger	0.325068132827623
+2018-Es-00152	@HelenaWay_B - Vuelve a dejar escapar una especie de gruñido satisfecho sobre sus labios.-	anger	0.4655390709145002
+2018-Es-04625	¿Y el Mega drenaje? ¿Alguien sabe si existe? 🤔😏	anger	0.4278692435183803
+2018-Es-05974	que es eso de enojarse porque no les dan bola tan resentido vas a ser la puta que te pario MIRAME CUANDO TE HABLO	anger	0.8989046092842665
+2018-Es-06427	Me voy a dormir siesta porque me aburro y nadie quiere hacer nada ni nadie me habla porque son todos re aburridos y ortivos #enojada	anger	0.6701377254722602
+2018-Es-05751	y empieza su venganza cuando se gana tu confianza 🎶	anger	0.4145486733497331
+2018-Es-00557	@jandracs Que no estoy enfadada ...	anger	0.6454678698067964
+2018-Es-06147	@BaezAlexis2 Cobarde pega jugadores	anger	0.5854570509395263
+2018-Es-06257	OFENDIDO MANO ESO ES MUCHO EL NEGRO HIJUEPUTA	anger	0.6247325569074074
+2018-Es-03492	Todos los días me enojo o tengo bronca por algo, ya es rutina	anger	0.6663533560530341
+2018-Es-05837	#youtube va de culo!! Me imagino que no soy el unico yuhuu😡😡 #enfado @dewrongta @TheBraxXter	anger	0.46696203772078715
+2018-Es-00353	Mi hermana. -encima salió re amargo +el que salio amargo? -el vómito   JAJAJAJAJAJAJAJA cerrrrrrrrda	anger	0.41663257678984567
+2018-Es-00469	Mi padre me va a apagar el wifi y estoy #enfadada	anger	0.5840645229118806
+2018-Es-04419	@diegontar Que recuerdos con esos supersonics, Shawn kemp, detlef schrempf... Una pena su desaparición por los okc...	anger	0.5351712192875036
+2018-Es-00308	Pinche gente amargada y cortante me caga	anger	0.9410848810940544
+2018-Es-04285	No los arrobé porque me siguen y 	anger	0.7060330075283832
+2018-Es-00489	Me hace envenenar esto sinceramente	anger	0.6537386388403937
+2018-Es-05917	Tras que uno les hace los favores, se quejan que cojones 	anger	0.7716319046662233
+2018-Es-03751	@caterinabarbi resentimiento al palo	anger	0.5272042092962255
+2018-Es-05832	@CallMeCucho Me clavaste el visto. INDIGNADA	anger	0.764400181018457
+2018-Es-04893	Sigo indignada con esa nota de mierda y se pueden ir todos a la re puta que los pario forros	anger	1.045196771381254
+2018-Es-04174	@Clon_39 Es que le robaron la yegua por eso quedo amargado el hombre.	anger	0.6448546775028845
+2018-Es-01191	@RondonCNE Esto del simulacro es una clara provocación más por parte del gobierno a la violencia e intolerancia. Total apoyo a @RondonCNE	anger	0.6431238513700093
+2018-Es-06921	Estoy de amargado.	anger	0.5508070336435853
+2018-Es-06208	La rabia y  rencor no llevan a nada, simplemente destruyen el alma y el corazón.	anger	0.7224013959987189
+2018-Es-03373	Siempre que me quiero bañar entran al baño 	anger	0.3065781496098262
+2018-Es-00869	@tohosjinki enojo* ya esta dicho xd oka	anger	0.43181719491221693
+2018-Es-06778	Que basura de padre me toco	anger	0.599547466045931
+2018-Es-05830	Miércoles 4:45 am Pedro se hizo pis en mi cama. Alguien lo quiere adoptar? Estoy indignada 😒	anger	0.40887322265591314
+2018-Es-03530	Está más hermoso que nunca.. 😍 Eso me da más indignación ahre	anger	0.4875926351351724
+2018-Es-01453	Todo mal Lpm 	anger	0.49509128708351596
+2018-Es-05030	Por qué @cafesproutmx cierra tan temprano hoy?! #enojado	anger	0.5170640788492665
+2018-Es-05496	Ayer me quede viendo presentaciones de En la ciudad de la furia hasta las 5 de la mañana. Si, todas. hoy toca tele-ka	anger	0.4550894191458958
+2018-Es-00172	@vegetta777 Hola Samu, como estas? Ya se te paso el enojo?	anger	0.492014556341319
+2018-Es-03486	" la Ciudad de la furia" me recuerda a ti siempre 😌😳	anger	0.40059881887452653
+2018-Es-00232	Mi madre me acaba de llamar amargada.	anger	0.8285279067429261
+2018-Es-06634	@xpcinful -se tapa la nariz tras la mordida quejosean y dandole la espalda enfadado- Malo	anger	0.46311301506144975
+2018-Es-05654	@noticierovv  ser lleno de odio y rabiosa y resentido que nunca llegará a presidente	anger	0.8358364590673073
+2018-Es-01687	Idiota ese insulto es nuevo genial	anger	0.7036974679073116
+2018-Es-06817	cuando me dicen "te voy a decir algo pero no te enojes" automáticamente me enojo un 98%	anger	0.593642842198308
+2018-Es-01252	@vaniicaceres07 y Posta estoy indignada	anger	0.7748609477253425
+2018-Es-04462	@MiicaLucero1 sabia que era un homosexual que se hacia el garchador furioso	anger	0.43258359008279473
+2018-Es-04795	@fxmiel Me quieres envenenar, ah...	anger	0.5821448685743471
+2018-Es-04227	no puedo ser feliz aunque a veces puedas pensarlo ya que lo bueno acaba dejando un sabor amargo..	anger	0.29007585629348975
+2018-Es-02452	Tan mierda sos para aprovecharte de la gente que es buena con vos? 😡	anger	0.8383950642911366
+2018-Es-03302	Como era de esperar los mayores disparates sobre el atropello provocado por el carril bici se dicen desde cuentas B con <20 seguidores	anger	0.44803805647764755
+2018-Es-00111	@FitbitSupport La solucion es tan desagradable como que no se hacen responsables de nada. Estoy muy disgustado. El unico perjudicado soy yo.	anger	0.582446934351158
+2018-Es-02695	gracias por el vivo , me saco el enojo y todas las dudas que tenia @sergiocelli @PaulFerreyraOK	anger	0.3174463687265726
+2018-Es-02715	@WACO490 @PaulGoltieri @MonederoJC @PPopular Pdm denunciado insultar no es gratis	anger	0.610538425815764
+2018-Es-04995	Indignada con este tema de mierda que no me sale	anger	0.942257477500247
+2018-Es-06136	La inteligencia no está peleada con la belleza #modasostenible #moda #belleza #cambiodeimagen #parecenmachitos #femenina #inteligente	anger	0.381956135982032
+2018-Es-04944	Luego dicen que si me enfado... Pero con razón!	anger	0.621448992938644
+2018-Es-00497	@atwelljxlie @cressdwyer Jajaajajajajajaja si es una rayada lo simplificaran porque sino menos gente ira a verla	anger	0.603572807913882
+2018-Es-06690	Es increíble Banfield da dos paso y ya está en el área de Boca y nosotros apena llegamos 	anger	0.3592696628721905
+2018-Es-00586	@DanteDirewolf dante, te voy a pegar y no hablo de cabezazos	anger	0.6189404224603345
+2018-Es-01725	Mi mama hace eso el jueves y no es mas mi mamá!! Lo juro 	anger	0.441860442036122
+2018-Es-05610	@chupita13 Me da rabia tio	anger	0.6703243026887851
+2018-Es-02018	Eeh mi jefe es medio pedófilo, ya decía yo que por algo me daba desconfianza	anger	0.4402712966412602
+2018-Es-03573	@vegetta777 Alv nunca te escuche tan enojado D:	anger	0.7877628673757368
+2018-Es-00804	Fav y te insulto	anger	0.5425796176086596
+2018-Es-02968	😤 Puttttttto insomnio provocado! ...	anger	0.5700075274870711
+2018-Es-00304	Yo me enojo y automáticamente me caga todo	anger	0.5286837275019483
+2018-Es-06232	de estar enojada pase a llorar, de llorar pase a estar tentandome ahorre la bipolar	anger	0.4322158199033065
+2018-Es-02539	La gente amargada no mas no👎	anger	0.6955381449203767
+2018-Es-03300	Estoy viendo rápido y furioso 8, sería más emocionante si alguien no me hubiera contado el final 🙄	anger	0.4128513383802235
+2018-Es-02517	Jorge Luis Borges: Yo no hablo de venganzas ni perdones, el olvido es la única venganza y el único perdón.	anger	0.49882259830611303
+2018-Es-02882	cual es tu furia conmigo, no entiendo hahaha !! 💋😂	anger	0.5588513500061737
+2018-Es-06461	En mi siesta vespertina tuve una pesadilla con el-que-no-debe-ser-nombrado. Estuvo bastante heavy y desperté con algo de ira. Buena esa Tom.	anger	0.3204968390284721
+2018-Es-02031	estoy #frustada y #enfadada no me sale un ejercicio de matemáticas	anger	0.47445805382117934
+2018-Es-03378	@meprendorapidoo Dejen de ser cínicos, insultar a Robben es igual de vergonzoso que cuando se insultaba a Zidane, indios.	anger	0.8616747144301768
+2018-Es-00075	@Lalordz56 Nunca he estado enfado contigo, bebé 😶😒🤔	anger	0.43906250760682886
+2018-Es-00464	@SomeKralzo Vpc.... Holy shit yo hubiese explotado de la rabia como si fuera una mina de sulfúro con fosforito adentro.	anger	0.6605628188615076
+2018-Es-03515	Es fija, entra éste profesor y tengo ganas de pararme y retirarme de su clase, siento tanto tu mala energía que no la soporto 	anger	0.6626246863796972
+2018-Es-06559	¿Soy el único que abre los medicamentos SIEMPRE por el prospecto? #rabia	anger	0.39600985202917516
+2018-Es-04201	No importa cuan atenta seas cuán amable seas si lo único que notan es cuando estás enojada y mentando madres	anger	0.6073169286834837
+2018-Es-03774	@LeoDelPino7 Hola gordo estoy ofendido me cambiaste por la bola de pool estadounidense esa de tu foto	anger	0.6405994532731649
+2018-Es-01307	Me quiero descargar el sarahah ese y no tengo espacio	anger	0.5873183191420026
+2018-Es-00276	arroba florencia si me contestas no me enojo eh	anger	0.5275857203525026
+2018-Es-01517	Quién sigue diciendo "niño rata" como ofensa? 🙄😕😂	anger	0.5103946596490726
+2018-Es-06554	siempre q me enojo o me frustro termino llorando 🤷🤷	anger	0.5652075672985204
+2018-Es-06868	@bascois Actos de venganza contra un dictador y sus acólitos? Por supuesto.	anger	0.7087025401375839
+2018-Es-01114	Quiero estar contigo a pesar de las peleas, llantos, risas, enojos, besos, celos y berrinches; pero siempre juntos.	anger	0.03928127234169726
+2018-Es-01075	@pulsionparcial @vikidonda Donda digna hija d los q mataban c orgullo puro resentimiento y choreo algún día todos van a pagar todo se acaba	anger	0.6749623096355529
+2018-Es-03630	@CristianChucu26 No ni a palo 😤	anger	0.6590127366832507
+2018-Es-00224	@diariocorreo Entonces no hay disculpas es venganza. Por lo general las personas de hoy en dia toman la ley como acto de venganza....	anger	0.6617185291939975
+2018-Es-01087	Rabia Tv  #TRTyeİsimÖnerim	anger	0.6248042031116527
+2018-Es-06365	@Marian88963751 A mí también se antojó. Traigo un buen de hambre 😂 u.u Enloqueceré.	anger	0.336316048537192
+2018-Es-04160	@HaterGH Ahora me enfado y no respiro! Patética!!!!	anger	0.6627901306935121
+2018-Es-01906	Entrar a esta hora y mirar cositas por ahí y volver a dormirme ofendida😔	anger	0.2670030988342643
+2018-Es-05662	Que nos pasa que no somos capaces de ganar en el bernabeu!! Que forma de tirar la liga. #impotencia #rabia	anger	0.6262263960663973
+2018-Es-03920	No cené por hacerme la enojada y ahora estoy muriendo de hambre, quien me manda a ser tan enojona 😥	anger	0.6767752571117711
+2018-Es-03342	Hdp desconectensen del Wifi 	anger	0.6134978007260798
+2018-Es-00542	@eldiarioes Ante la presentación de los hechos, las hordas zombis no saben sino insultar. Este es el nivel.	anger	0.5757678983376631
+2018-Es-04975	@ArevaloJuanP Eso se llama 	anger	0.3867438864198527
+2018-Es-05007	Cuánto odio hay en un país para que hasta una noticia buena, la conviertan en insulto?	anger	0.7343131046109046
+2018-Es-05149	Lo de libertad libertad, sin ira libertad, no hay que tomarselo al pie de la letra	anger	0.3149640338953587
+2018-Es-04459	Acaban de asaltar a mi hermano menor, lo han pateado en la cara, en emergencias por la lacra de la sociedad, rabia e impotencia	anger	0.7913440200556816
+2018-Es-03354	#HomenajeMABPdV La indignación del PP con @ManuelaCarmena es mucha Con su socio PNV ya menos porque donde hay pasta por medio ellos ya tal.	anger	0.6372166844249694
+2018-Es-01522	@montse469 @TeresaRodr_ @BroggiElisa Hacía tiempo que no leía un tuit tan desafortunado y cateto. Opinar y ofender sin tener NI PUTA IDEA	anger	0.6843659731280529
+2018-Es-00246	@Sinner_Silas «en cierta medida, soy una humana con poderes…  —El enfado se disipó con rapidez y dejó lugar a una mueca divertida, la cual»	anger	0.33586759130132327
+2018-Es-04226	@estherpalomera Pues si estás ahí te estará comiendo la ira escuchando al irredento y prepotente #oubiña @HoyPorHoy	anger	0.6457104588439123
+2018-Es-00013	Bueno una más, no le vuelvo a decir ni picha, gran amargada.	anger	0.6561004089502078
+2018-Es-04890	La tercera es una copa q vivi por un Idiota 🍸🐕😡	anger	0.4899853662642174
+2018-Es-05859	@ambarncf Ira nomas kien abla xd xd	anger	0.47064069820301324
+2018-Es-02731	Si alguien me habla no me enojo eeeh	anger	0.2650003081985616
+2018-Es-04758	@randymeeks @VidaModernaOML VOY A PLASMARLO POR AQUÍ (y en mayúsculas) PARA QUE SE NOTE MI ENFADO	anger	0.5454519028720952
+2018-Es-04372	Si os enojáis, no pequéis: procurad que el enojo no os dure todo el día. No deis oportunidad al diablo.  EFESIOS 4:26-27	anger	0.45277452839751453
+2018-Es-02258	El lugar que se tiene en el corazón de otro se gana, no se pelea.	anger	0.4871789267461488
+2018-Es-06889	@26_albelo @Agusmonte_ok *se siente ofendida*	anger	0.7427071930745988
+2018-Es-05249	Voy a llegar a casa y va a estar mi vieja despierta 	anger	0.48426304705176476
+2018-Es-03966	Descargando música y preciso la q me encanta no descargo 😡 #enojada	anger	0.5282869338590008
+2018-Es-02167	La odio literalmente a esa Piba 😑😡	anger	0.7212110694735581
+2018-Es-04100	Nunca me he bajado del barco ni lo haré pero esta temporada @atlasfc me ha decepcionado como hace mucho no lo hacía #triste #enojado 😥😣	anger	0.43479916495086485
+2018-Es-03296	@DavidGmez99 Piensa lo que quieras y como quieras que ellos seguirán donde están y tú igual de amargado por estos temas #XD	anger	0.578469617848778
+2018-Es-06198	@apolo4u2 Quiero que me digas los motivos de tu enfado	anger	0.48327362292027665
+2018-Es-05071	@vegetta777 Buenos días samu esperó y ya no estés enojado , recuerda que ay millones de personas que valoramos tu esfuerzo 💜✨	anger	0.4631894354287119
+2018-Es-02360	Cómo no voy a estar gorda así? 😤	anger	0.6417947819709967
+2018-Es-05807	@WasabiiGirl @MrVago_ mmmta que es broma ira pues	anger	0.49516855876656884
+2018-Es-05162	Buenos días a todos, menos a los que nunca he ofendido.	anger	0.4616400337044596
+2018-Es-01183	Si es neta, esa señora está super frustrada, peleada con el mundo y le hace falta una bueeeena... Cena para que se ponga feliz :)	anger	0.5182992485291844
+2018-Es-05322	Odio a la gente que un rato esta bien y a los dos minutos tiene cara de orto 	anger	0.8102675683572067
+2018-Es-01158	Bates Motel 2x03: •Emma y el de los porros<3 •-Sr Simpson entienda q esto puede provocar perturbación y ligera psicosis -sí venga el incesto	anger	0.4253278633624953
+2018-Es-02015	@PacoRoca11 @joseperdi33 @orue_s @Elaguijon_ @eldiarioes Por qué le iba a insultar, si lo hace usted mismo, y solito.	anger	0.5725507425016231
+2018-Es-06545	"la ira te vuelve imbécil y los imbéciles mueren"  Amo a Michonne, que lo sepáis	anger	0.656815766524254
+2018-Es-04829	via @Belkis_Inciarte:  @alecita2611 Peor q nunca... 	anger	0.5321363561898032
+2018-Es-03473	LAS FOTOS DE BTS X PUMA ME SACARON DE LA DEPRESIÓN ESO	anger	0.5317383756112516
+2018-Es-03275	@Pablo_Iglesias_ Estás enfadado porque no te han invitado? Los celos son muy malos.....	anger	0.37627660117447614
+2018-Es-02028	@Muzskatolista Lo digo porque a la peña se la sopla si es para ofender o no, lo van a hacer igual xd	anger	0.5885055754720059
+2018-Es-02170	Va perdiendo Millos y perdió el América, una palabra mas y mi cucha y mi ancestra me echan de la rancha.	anger	0.5794132079916163
+2018-Es-05178	Me voy a dormir estoy envenenado	anger	0.6788899081276583
+2018-Es-06535	@NathanThom_BS Vaya...*Enarca una ceja disgustado* Mira a quien tenemos aquí...	anger	0.5821330274677987
+2018-Es-03762	@paolaarl1622 Tu y tus berrinches mujer!. Háblame aqui que msn no me jala	anger	0.5316178683083823
+2018-Es-05523	Sofía amargada tiene sentimientos	anger	0.440609446210712
+2018-Es-05552	Jajajajaj se me enojo Santi, ya mañana se le pasa jajajaja	anger	0.3054929354843928
+2018-Es-04273	Vi la pelea del grupo y no paro de pensar en bianca, ojalá no se suicide	anger	0.4863274095527329
+2018-Es-01724	Le tengo un terror a éste sábado próximo que ni 23 llamadas perdidas de mi madre lo supera.	anger	0.48602901887893935
+2018-Es-03994	@ActualidadRT @NicolasMaduro Claro, que orgullo... Pena ajena. Digan lo que pasa en palo verde a esta hora.	anger	0.5018736373656693
+2018-Es-00142	@waldorftty < cabeza y reprimió una mueca de disgusto mientras hacía a Astarthea alzar la cabeza. "Búscala", fue todo lo que dijo. La >	anger	0.3853867363340993
+2018-Es-06022	Buoh, me dormí de nuevo y me acabo de despertar y me encuentro que crush de mierda me ha bloqueado 👀 está resentido	anger	0.5342446009164736
+2018-Es-06693	Cuando se mato #ChrisCornell con tristeza total, lo único que pensaba era que me quedaba la voz de #Chester de #LinkinPark y ahora? 😭	anger	0.5352024251638878
+2018-Es-06081	@ashfromamike @CBinvaders @eldiarioes Pero resulta que en la información que yo comentaba no se explicaba las circunstancias del atropello.	anger	0.5010290476809738
+2018-Es-02986	Decir que el PP es una Mafia es un insulto a Lucky Luciano, la Familia Genovese y tantos otros honrados delincuentes.	anger	0.8658989032697797
+2018-Es-05436	Pues he empezado a perder el disgusto por el francés ahora que estoy escuchando al Saïan Supa Crew :/	anger	0.37737862911704406
+2018-Es-00396	quien me lleva a Italia para insultar al hijo de diosdado	anger	0.588126993935344
+2018-Es-01781	Y ahora un poco de política:  Maduro tiene miedo.	anger	0.4611741290110374
+2018-Es-05468	Tengo mucho enojo, necesito controlarme.	anger	0.5019322842874282
+2018-Es-02013	Indignada porque el temario de música dice que vamos a ver cumbia colombiana, y estamos viendo OPERA🤦🏼‍♀️	anger	0.4328595260559587
+2018-Es-06735	@lumaria6688 @SrtaLyna No me enojo con ella	anger	0.48062978810137374
+2018-Es-03429	Son los hombres los que nos violan, asesinan y desaparecen, pero tranquilas ellos también pueden ser feministas!!! *Sarcasmo* #Enojada	anger	0.7177059570383606
+2018-Es-01238	No crítico lo insoportable q son las publicidades de Spotify pero decir q Coldplay es la mejor banda de la historia es un insulto a Queen	anger	0.6316689870389616
+2018-Es-06057	Nego adora provocar .. kkkkk opss	anger	0.4924347396119253
+2018-Es-00503	Puta madre, en la vida había estado más enojada	anger	0.7450214253862677
+2018-Es-03944	Porque todos me dicen *espero que cuides el celular*? Rompi varios pero no tengo 8años🙃...para que me anden diciendo cada rato 😑	anger	0.6622462212389078
+2018-Es-06628	Que amargado se te ve, cuando vos andas patruyando me la como a tu mujer	anger	0.5525977323739231
+2018-Es-03585	Me encanta el "no te vayas, no te puedes ir" mientras te jodo y te insulto...	anger	0.38390232172769495
+2018-Es-00816	La justicia pertenece al Estado, la venganza a las personas.	anger	0.5917579295067661
+2018-Es-05195	@DonBurroReal Fuera correa dictador 	anger	0.6563428695968232
+2018-Es-05809	@BlizzardCSEU_ES  no se puede jugar desde él sabado ..	anger	0.22221787000644067
+2018-Es-06626	Indignada con @orange_es me podéis pasar una dirección para reclamar, llevo solo 2 meses con vosotros y ya me quiero IR!!!! 😡	anger	0.7336920654850081
+2018-Es-01272	Después de subir eso me gané un cd de Guasones y se pasó el parcial para la semana que viene. 	anger	0.437501769662026
+2018-Es-03927	@D_Nacional Más bien: "Sabemos lo que hicisteis antes de provocar una guerra".	anger	0.33050812513682604
+2018-Es-03007	@ThunderKiiwi Aquí la ofendida eres tú guapa,que has ido a decir algo	anger	0.64503461117314
+2018-Es-03962	La vdd no sé si estoy enojada, triste o idk,	anger	0.5132001155063644
+2018-Es-01852	@xDefectiveTwin Uhm... Lengua larga.  —Arruga el gesto haciéndose la ofendida con la situación sabiendo que hay veces que el chico »	anger	0.5089034182047505
+2018-Es-03343	@GaunaIzaac Y con la demas gente sp rápido que me enojo	anger	0.6030157721474082
+2018-Es-01633	Sino es por Ayame (fue metida muy gratuitamente) y que lo usara para dar celos (y me daba rabia) en serio que Koga quedaba mejor con ella	anger	0.5521312971504899
+2018-Es-00403	Déjame sobrepasar tus zonas de peligro, hasta provocar tus gritos y que olvides tu apellido	anger	0.24914230848582805
+2018-Es-02248	El cielo está que se cae!!!!! 😥	anger	0.31450745625112486
+2018-Es-00949	@Tlahuicole1318 Gracias Tlahuicole. Me da mucho coraje que hayan rebajado a los piropos a algo tan sucio.	anger	0.5179545493381704
+2018-Es-05013	Esta noche me ha picado un mosquito en una teta, estoy enfadada.	anger	0.5410333068313131
+2018-Es-01715	El pueblo indignado pasará descontrolado a otro nivel de protestas;sobrepasará a la dirigencia y escogerá el camino libertario a la salida	anger	0.6546225491394899
+2018-Es-00669	Qué puto estrés con los niños que lloran. Deberían tener un botón de mute o algo NETAAAA. 🤦🏻‍♀😠	anger	0.6647578536652836
+2018-Es-05336	Que ofendida, decepción.	anger	0.8707482819290937
+2018-Es-00325	Que rabia y que miedo que cualquier hijueputa vaya electrocutando gente como con tanta libertad.	anger	0.6065944013738522
+2018-Es-05152	@MatiasRiveroDj Ayer vi caminando entre tumbas y hoy la de búsqueda implacable 3, son viejas pero están re copadas	anger	0.49230777022648453
+2018-Es-06428	Repito, si me hablas no me enojo	anger	0.5677366974639495
+2018-Es-02937	@Jahiluz iggggh no sé si sentirme indignada o que >:v xD!	anger	0.662645919209996
+2018-Es-05836	Necesito algo en que canalizar mi ira, mi tristeza, mi vida y mi todo. Estoy infumable	anger	0.5639447719932946
+2018-Es-02733	@TheSexyOwl No busco remplazarte y no me gusta que estés enfadado conmigo.	anger	0.29494097407401626
+2018-Es-05736	Dentro de 3 años se me va el enojo 🤗😊	anger	0.46035373843829963
+2018-Es-06703	Por que no me habia dado cuenta que tengo público mis publicaciones de fb?😤😤😤😨	anger	0.5723027567350953
+2018-Es-00076	No puede haber un canal exclusivo donde pasen todo el día deportes? No es mucho pedir, cansada estoy de perderme partidos 	anger	0.4243018229231066
+2018-Es-01750	@anapalacio  ficha por Marruecos contra el Sahara Occidental. Parece mentira que se venda por dinero. Lea sentencias Judiciales "Indignidad"	anger	0.5109778862133342
+2018-Es-05069	Que estrés las personas hipocritas.	anger	0.6202681350948658
+2018-Es-02076	Ojalá algún día Diosito me quite lo amargada y celosa.😒	anger	0.6272668324558008
+2018-Es-03757	@fedesan9 @nicojusid Se cagó todo el amargo	anger	0.515197497742735
+2018-Es-01629	@EmiOlmos87 Claro el señor no habla nunca, pero para bardear es el primero en la fila 😡 jajaja	anger	0.6464473189451982
+2018-Es-04159	@xxpolaroid QUIERES PELEA FÍSICA?	anger	0.19205432650625273
+2018-Es-06848	eh dormido tres horas y estoy entre triste y enfadada	anger	0.6024526688091123
+2018-Es-03035	@kittlab @Carlosurrutiacp @joantier @gabrielrufian @blindonion8 Miralo, Pobrecito, le da rabia que pongan likes. Va, uno de regalo!	anger	0.3566037735522613
+2018-Es-02768	Mentiras y más mentiras 😠😠😠	anger	0.5826105167062292
+2018-Es-04649	Provoca es salir corriendo de esta casa	anger	0.3508508512377144
+2018-Es-03898	@Ritalin_P si tiene win10, está de moda esa pantallita 	anger	0.4231669770139776
+2018-Es-00610	Ya de buena mañana exasperada con el puñetero papeleo	anger	0.47523607357529707
+2018-Es-04949	Su hay algo que detesto, es esperar. 	anger	0.587946970251934
+2018-Es-02427	@YarielaMora @Haylock049 @jits2899 @Danielaeche07 Que cansado 😪	anger	0.44127930496531964
+2018-Es-03413	"Las palabras severas provocan ira. Pero las que se usan apropiadamente la quitan" Proverbios 15:1 #FamiliaSana	anger	0.4597892816565092
+2018-Es-01286	El del uber no atropello a mi ex, media estrellita.	anger	0.4503731572380461
+2018-Es-05159	@AweloJos Huelen la desesperación	anger	0.44317610674009916
+2018-Es-00054	Encima no estoy para aguantarme a una amargada por seis horas.	anger	0.5410901238460154
+2018-Es-03885	Es solo enojo, por no poder comprenderte u.u	anger	0.5173117544398588
+2018-Es-02828	@maydana34 @joaquinkremel Este tiene bula para insultar, la ley mordaza le excluye	anger	0.7438647594809249
+2018-Es-06541	@Miotroyo2parte La venganza de ultratumba! Son brutos hasta decir "basca". Todo idiota nos sale caro.	anger	0.6563977744842368
+2018-Es-05391	Que @KikoMatamoros no haya conseguido enchufar a ninguno de sus inútiles hijos en salvame y #huracanalba lo consiga tiene que joder #rabia	anger	0.8351345551951055
+2018-Es-04135	Planear tu venganza cuando estás enojado/a y que a los 5 minutos andes como si nada.	anger	0.568528100249907
+2018-Es-02117	Estoy en medio de una descompostura abismal 	anger	0.460734306249486
+2018-Es-02106	@gemapayan00 Perdón , me siento ofendida	anger	0.7522266801373995
+2018-Es-02825	@JorgeBustos1 @vilpetrus Asco, indignidad y que dice Pedro Sánchez ?	anger	0.6950333676784566
+2018-Es-02896	@YisesArr @MichelPesquera Aunque no soy estúpida, a mi me atropello un carro de helados jejeje	anger	0.4864687050594631
+2018-Es-04472	Es una gilipollez y me da igual pero tócate los cojones que se me cuelen viejas en el bus cuando luego son las primeras en quejarse #RABIA	anger	0.8543123309728733
+2018-Es-00762	no me molesta que use el edit me jode que no me likeo la selfy pero tuvo el DESCARO de sacarme el edit 	anger	0.6346518239939996
+2018-Es-06650	@salvaoret Jo, q rabia!	anger	0.6471202121638304
+2018-Es-05088	Y se vienen más cambios...😤	anger	0.5149006423865099
+2018-Es-06176	Niñas si sus novios tienen amiguitas CREANME no son solo amiguitas. Son las bellas niñas que los "escuchan" cuando ustedes hacen berrinche.	anger	0.6393361116005518
+2018-Es-04764	Me da chills pensar en la pelea de mayweather vs. conor	anger	0.34644454513770756
+2018-Es-02608	No hay cosa que me de más rabia que madrugar, bueno si, madrugar en verano, bueno y madrugar en verano para hacer trámites en el puto banco.	anger	0.6125712222283985
+2018-Es-01928	Con Gastón me hago la enojada y me tira un "te extraño" 😭💗	anger	0.41141346246976435
+2018-Es-06406	Me voy a matar😤😩😩	anger	0.6018950378653442
+2018-Es-06437	#pokemonsinlimite mika, enciende todas las luces de tu casa para provocar que salte el contador, sera mejor	anger	0.2397493514505779
+2018-Es-02600	No se que es más triste, que me aparezcan los recuerdos cuando me saludaban por el día de amigo o la muerte de chester	anger	0.4891956548548463
+2018-Es-03382	@manolomejia20 Típico insulto de pendejo	anger	1.0421773070227505
+2018-Es-04987	No me dejes, no me sueltes, puedo enloquecer !!	anger	0.28451519211067167
+2018-Es-04297	Si nos organizamos podemos ofender a todos los colectivos.	anger	0.4896763105824896
+2018-Es-05670	No tenia que haber ido, me duele una banda ahora😠	anger	0.5702693901192999
+2018-Es-01384	Malhumorado, presumido y descarado, desconfiado, despectivo...	anger	0.8580001446423562
+2018-Es-05095	Aún estoy envenenada de ti	anger	0.37822871485098564
+2018-Es-00155	Si saben en el peo que esta metido el pais donde estamos viviendo verdad? Si estan claros de lo grave y escoñetados que estamos?	anger	0.6185439157118462
+2018-Es-05210	Ve bien por la vid  y te ira bien en la vidar.. asi es!	anger	0.4336677498581671
+2018-Es-03887	Siento que me ahogo de la ira	anger	0.424328115444519
+2018-Es-04141	@Bohncs El drama, ni me wa ofender peor va eh	anger	0.6109642500736963
+2018-Es-05504	@guidocass Juro que recién lo leí perdón, pensé que faltaban mas partidos igual 😥	anger	0.42686473880079706
+2018-Es-02633	El susto de mi vida me pegué... gracias a Dios estas bien mi gordo, nuestro ángel no dejo que nada malo te pase. Ya pronto estarás mejor😍	anger	0.3865695517862464
+2018-Es-05756	@naroh @ilse0101 No, el corrector ha preferido censurarme el insulto previo, eso sí. Qué lastima porque se lo merecía.	anger	0.7059669111540128
+2018-Es-05944	Empezando el dia #enojada con los onvres 🔧	anger	0.35792174147085765
+2018-Es-03754	Dicen que no es bueno que duermas enojada, yo por eso comento lo que no me parece, eso no quiere decir que me enoje.	anger	0.5439979105926169
+2018-Es-06451	@bendysy yo no te insulto... a veces te doy tu tiempo y creo que cuando no estas un par de preguntas y luego al buzon de mensajeria	anger	0.56420402215882
+2018-Es-01138	¿Estoy enloquecido o enloqueceré?	anger	0.3778892620445053
+2018-Es-05373	@la_patilla @NicolasMaduro la emboscaron, la atropello con la moto, le monta la sucia bota y de paso la detiene con refuerzos de 30gnbasura	anger	0.5941754515700843
+2018-Es-05044	@JesusCintora Y la Cospe estara irritada con la UDEF...	anger	0.4335572331460755
+2018-Es-05003	¿Cómo salirte de un grupo de WhatsApp sin que piensen que eres agria y resentida?	anger	0.7313010229612031
+2018-Es-01915	@MrKinoccio Jajajaja, hay que ganar audiencia tío y hay que provocar	anger	0.43079454898625746
+2018-Es-03175	@ManuelaCarmena ¿Conoces a una sola victima que pueda sentirse ofendida por homenajear a #MiguelAngelBlanco?¿Una sola?	anger	0.5976377860240267
+2018-Es-05972	yo soy re bacana pero cuando me enojo dios santo agárrate catalina	anger	0.4736603326470318
+2018-Es-01981	Ahora es como si se hubiera peleado con Courtney Love y se puso con la Tigresa del oriente. He dicho.	anger	0.35594276953427173
+2018-Es-04761	12 de julio del 2017, azul hace berrinche y decide salirse de la carrera de diseño porque no le salen sus cartelitos para su banda.	anger	0.6140999836717046
+2018-Es-00524	Buena vista 1ra vmella, sin luz @EdeesteRD  nos someterán a la oscuridad antes del desastre! Estúpidos! #rabia #abuso @ProConsumidorRD	anger	0.6450461169989399
+2018-Es-03173	@PauMancilla_ @Tincho_moras10 Compas de mate amargo jaja	anger	0.27326043844589887
+2018-Es-02885	Hasta acá escucho a mi hermano coger con la novia así que en venganza rapeo-feo a todo volumen.	anger	0.3212313210975216
+2018-Es-06494	@glxymuse bueno maja a que me enfado >:( me estás llamando mentirosa?	anger	0.6667495729512042
+2018-Es-02206	Si el anon de Matías se quiere pasar por mi cc no me enojo	anger	0.39856287953109604
+2018-Es-00974	Me decis que soy un loquito y a continuacion  decis "la verdad no tiene que ofender" pero cuando te digo pelotuda te ofendes...que onda?	anger	0.7533045072958748
+2018-Es-04108	Tengo ganas de escribir una carta con intención de provocar diabetes.	anger	0.326031652084998
+2018-Es-01757	@vegetta777 @YouTube Hoy no hay saludo con "Hermosooos o guapisimooos"? Sigues enojado vege? Esque me preocupas :c	anger	0.41690354310191857
+2018-Es-04026	Si alguien me trae un doble cuarto juro que no me enojo	anger	0.3635366082955793
+2018-Es-05914	No fuimos y me habré enojado 1 hora como mucho, no sirvo para estar enojado más tiempo 😂😂	anger	0.510223757686094
+2018-Es-06553	@mundodeportivo @RogerTorello se le ve el enfado en la cara, jijiji	anger	0.4743601966210776
+2018-Es-00663	@ponminombreaca No es mal hablada, pero puta que es amargada!	anger	0.8209974375100162
+2018-Es-04839	@rxcketqueen__ no le des pelota isidro no vale la pena	anger	0.3762030422681409
+2018-Es-04473	Ves las noticias y es un sinfin de muert@s,maltratad@s,torturad@s... Es pa amargar a los que estan de vacaciones?	anger	0.5933234612042237
+2018-Es-02392	@uhhhmaria Me siento ofendido con mi voz	anger	0.582001745265351
+2018-Es-04657	@vegetta777 Quiero verte triste ni enfadado. Te queremos muchísimo 💜💜💜	anger	0.38602206479691015
+2018-Es-05906	@ju4nkhalifa Igual sigo.indignada	anger	0.7539068696220661
+2018-Es-02306	Cuando te dicen ?sin ofender?, preparate para ser ofendido.	anger	0.6692044732015017
+2018-Es-06274	bue es que son re carrots y me da rabia que no quieran cambiar ay que linda gracias vos igual me caes re bien	anger	0.4772752929906476
+2018-Es-00133	Lo peor es que dice cosas enojado y yo me río jajajajjajajaa lo amo tanto al taradito este	anger	0.4781429987477943
+2018-Es-03834	@DrefanHardy X cierto,se te ha pasado ya el disgusto x lo d Halep???	anger	0.5420854442820873
+2018-Es-04335	@Rafael_Gaidovar @agarzon Pero para ti la ofensa es llamar miserable a quienes usan las instituciones para saquear.	anger	0.7437123274283305
+2018-Es-00334	Me enojo por todo 😂	anger	0.45441035350104253
+2018-Es-05308	Siempre he dicho que elegiría twitter si solo pudiera usar una red social: aquí hay memes y gente amargada como yo, no necesito más PERO	anger	0.58002656222304
+2018-Es-04113	HIJO DE TU REPUTISIMA BOMBA PERRA ESTUPIDA BABOSA MADRE😡😡😡😡😡😡(sin ofender a su mama no la conozco es solamente una expresión de odio así el)	anger	0.8770625148387128
+2018-Es-03374	Que le pinta a este culia, me hace envenenar	anger	0.5766681271678121
+2018-Es-00811	Estaba viendo videos de terror pensando que Sofi estaba despierta pero se durmió jajajaja saque todo😂	anger	0.06940765681650574
+2018-Es-04927	Cuando estoy enferma soy más amargada y demasiado sensible, creo que me tocan y me pongo a gritar o a llorar no sé por qué	anger	0.6502563463764317
+2018-Es-06821	Mañana no habrá nuevo vídeo gracias a mi puta escuela!😢😠	anger	0.4743209715553271
+2018-Es-00073	Si fuera por mi seguiría viendo todos los capitulos, pero si sigo mirando no me levanta ni una grua. 😟	anger	0.6201139314006325
+2018-Es-01538	Soy súper berrinches, ok.	anger	0.40225090112171463
+2018-Es-00320	@Mireyam8 encima de tongazo, ofendida. Ya no me bloqueas mas mi cuenta. Sino quedate en casa o se mas sutil.Eres simple,incapaz y evidente	anger	0.5145294026914795
+2018-Es-03838	Como nos jodio la de biología con la actividad que mando 	anger	0.3778908129753657
+2018-Es-01318	Yo la mejor y que te contesten así nomas me infla la vena😠😡	anger	0.46075319043022633
+2018-Es-02616	Pilar ya me empieza a mandar audios de los cordobeses, jajajaja me va a enloquecer	anger	0.4333994936396328
+2018-Es-03741	Estly indignada con mis pies que no me respondian el sabado, re queria ir a esa joda l	anger	0.6067809254451333
+2018-Es-06341	Divino arrancar el día cayéndote con furia en la vereda a las 5 y media de la mañana.	anger	0.41801426847113127
+2018-Es-04478	Donde deje mis trabajossssssssss😤😩	anger	0.38935414708763993
+2018-Es-06721	Otra vez la misma historia. Hagan cárceles es 2 señoras ni queriendo podrán controlar la furia y el hambre del pueblo.	anger	0.6758738926654257
+2018-Es-03522	Me caga que las personas abusen de la confianza que uno les da, y más cuando son las más cercanas #enojada	anger	0.6407894001965684
+2018-Es-01476	Al principio estaba tentado, Ahora estoy envenenado	anger	0.5060142660551381
+2018-Es-03850	Pedro tenía temor de ofender a sus compatriotas que volvió a sus antiguas costumbres y ya no comía ni se juntaba con los gentiles. #LESAdv	anger	0.5467569243560592
+2018-Es-02911	Jajajajaj que indignación en Twitter ayer no?	anger	0.49009306202691416
+2018-Es-04465	@florido_raul @Eriemer @Pablo_Iglesias_ Vaya educación tienes! Opina sin insultar por q si no tus comentarios pierden cualquier significado!	anger	0.6577733640325032
+2018-Es-03125	@LANACION Que inversores? La bicicleta financiera tiene temor? Si gana ,sera senadora,como Mendez.Para ampararse en los fueros.	anger	0.5236869965087037
+2018-Es-05870	Yo puedo estar feliz, triste, enojada, con miedo, cansada, aborrecia, eléctrica, pensativa, borracha o sobria y mi cara siempre será 👉🏽 😒	anger	0.5123303148630545
+2018-Es-04506	Resentimiento Resentimiento™  gracias por seguirme ;)	anger	0.17166084908847
+2018-Es-03732	@ideasgraficasrs De aplaudirlos, con dos ladrillos, en la cara 	anger	0.4797565418669083
+2018-Es-05806	No se puede estar bien siempre busca pelea.	anger	0.2746765838406239
+2018-Es-05993	Nunca hay que creer que los artistas se suicidan porque son cool. Son cool muy a pesar de ese destino fatal.	anger	0.5513836325019077
+2018-Es-06166	Me dan ganas de meterles una piña	anger	0.47363380341128125
+2018-Es-04197	Esta indignado el Botto por el cargador jajaja	anger	0.5477042711885567
+2018-Es-02434	demasiado tiempo perdido y amargada	anger	0.3849647373483718
+2018-Es-04351	@RominaIbarraL @arantzaosunal no fuimos 	anger	0.277894555372259
+2018-Es-05652	-Mamá, quiero ser Wedding Planner. -¿Sabes el disgusto que le vas a dar a tu padre?	anger	0.43064815305357673
+2018-Es-04232	Da rabia igual que haya gente que busca tanto y nunca llega, y otros que lo tienen enfrente y no lo quieren ver. Pero bueno, decisiones.	anger	0.628992520097621
+2018-Es-00521	Que bronca culiado 	anger	0.5054233785036744
+2018-Es-02998	@logiczzzzzzz @ByAdri10YT @JustMagaZ @AyudasEsP @Toony11_ Okey y te hice algo para q empieces a insultar jaja random no soy lo serás tu	anger	0.631437743769004
+2018-Es-00851	#Barakaldo El secuestro y asesinato de Miguel A. Blanco me dejó el mismo poso amargo q 20 años atrás,los últimos fusilamientos del dictador.	anger	0.5609925977781425
+2018-Es-03384	mi venganza ya está hecha but ahora me siento mal	anger	0.6522646209576066
+2018-Es-00005	"ay yo cuando me enojo soy la persona más mala de todas".   Si loquita te olvidaste de Adolfito, Josephcito y un par más.	anger	0.5350780832362516
+2018-Es-04093	@GustiSandoval1 Y no convidas 😒 No es de resentido 😒	anger	0.7594519161034265
+2018-Es-02772	estoy muy enfadado con mi perra porque me ha despertado a las 9	anger	0.6757045386633309
+2018-Es-01121	@francontreras_7 Tengo una sospecha 😉	anger	0.20377835368778174
+2018-Es-00582	Veo mucha gente haciendo papelon. #rabia #LlegaGH	anger	0.4216832401192388
+2018-Es-05805	@chxlemr No es un insulto, es lo que SOS, GARCA, PUTO. Al menos viniste, chau, ortiba, ya me vas a buscar.	anger	0.6613868623231154
+2018-Es-00356	alguien me explica como hacen para insultar tipo abreviado "lpm, lcdh, ect". esta bien que tengan paja, pero yo así no me puedo descargar!!!	anger	0.6615351106573766
+2018-Es-05578	@_Laura_OMG_ @Elisa19452 No va para ofender va?	anger	0.3648181078685455
+2018-Es-03090	Aparte que la de Jason esté tan abajo me deja >:( #enojada	anger	0.6071317071948049
+2018-Es-05766	@____17CR es q no la he insultado ..voy a buscar los TT ya veras a lo que llama insulto	anger	0.539748966742911
+2018-Es-06201	@Deny_hh Los cojones, me voy a dormir que ya me he amargado 😂	anger	0.6150582607346596
+2018-Es-02064	Mis súper nombres para nada comunes; y luego tengo a Evan Rabbitt Russell.  El más amargado con un muy tierno nombre.	anger	0.4287236406328864
+2018-Es-01457	@kattyarg5 Muchas gracias, lo tengo todo irritado de tanto dejarlo de foto de perfil jajajaj	anger	0.14571361902183627
+2018-Es-04144	@hampeon Me refería a tu boca. Lávatela con jabón, a ver si así dejas de insultar gratuitamente.	anger	0.645035728993882
+2018-Es-06777	okokok un fav y espanto a los hptas gatos que estan culeando en mi ventana.	anger	0.48991797071548343
+2018-Es-01943	@RaybanUnderlord ¡Heterosexual! 👉 (Ya tienes otro insulto que meter)	anger	0.6571586533896634
+2018-Es-05019	Es bien heavy esto de tuiter. Se pasan por todas las emociones aca! En un ratito pasé de la rabia a alegría-pena-risa. Mejor me duermo. ✨✨💚💍	anger	0.4014617825331811
+2018-Es-02836	@waldorftty < Puso la más pura y creíble cara de enfado y frustración y entró en la sala varita en mano para después arrodillarse ante su >	anger	0.4921206134188039
+2018-Es-05543	Siempre que me enojo la termino cagando	anger	0.4713816816673028
+2018-Es-02709	Están justificando que abusaran de ella por enseñar las tetas en el chupinazo, cuando estaba en un bar sin provocar a ningún baboso	anger	0.6165453299435216
+2018-Es-00764	Aún sigo indignada 😂	anger	0.5259069711670741
+2018-Es-06832	La ava se enojo😄😄😄	anger	0.36122174637974724
+2018-Es-05438	@marianoobarrio  qué te pasa q estas tan furioso con MM.  Vas de candidato con alguien? Me acuerdo cuando criticabas  a Brancatelli...	anger	0.5127851715739276
+2018-Es-01527	@FuriaRojaNet @TmT_ProFR bienvenido a furia 📛	anger	0.5911854169792125
+2018-Es-02899	@chrischile Qué rabia, qué impotencia, qué dolor por la cresta!	anger	0.8458734898777718
+2018-Es-02645	Lo mosquitos me estan aturdiendo😡	anger	0.6193846629824893
+2018-Es-02256	Me caga que me hablen para contarme algo y ya no me cuenten	anger	0.49666732235304156
+2018-Es-02708	Mi indignación viene de que me sepa hasta cómo crece una puta uña o todas las capas de los dientes, y luego nos saltemos una parte del	anger	0.7316146574099394
+2018-Es-06668	Que pelea hermosa entre artistas , una locura	anger	0.3349380982179532
+2018-Es-03820	Mi vecina es la hermana de don vergas 😡 hija de @$%@+?*	anger	0.6005963974174959
+2018-Es-06281	La pobre mujer se sentia como que  habia hecho algo mal  Estaba enfadada con ella misma   NORMAL	anger	0.5453094302264916
+2018-Es-03017	la gente suele tomar como insulto cuando les dicen "yo escribía/dibujaba así como tú cuando empecé a escribir/dibujar" pero no es un insulto	anger	0.5899418008246664
+2018-Es-06256	Ok la mayoría de esos prompts de mierda en exo!g*rls si fueron elegidos pero no los míos que eran geniales. #enojada	anger	0.7109502055607779
+2018-Es-00416	@OkenCosplay QUIEN SE ESTA METIENDO CONTIGO?	anger	0.2544191291863245
+2018-Es-02234	Más que enojo es decepción🤷🏼‍♀️	anger	0.510064981308544
+2018-Es-06359	ALGUIEN QUE RESPONDA provocar es ser zorra?????	anger	0.5170895931725026
+2018-Es-02654	El sarcasmo, el estado a la defensiva, el vacío, el enojo, la indiferencia  tienen contaminada mi alma.	anger	0.6027504240618973
+2018-Es-00285	Se amargado se te ve, cuando vos andas patruyando me la como a tu mujer	anger	0.5547066947771788
+2018-Es-03249	@Oskhar111099 Con Milito un equipo nefasto, horrible, y los mismos jugadores, con Holan todos rinden, juegan muy bien	anger	0.7035679674013127
+2018-Es-05514	O brujas que cazan. La venganza no sirve para nada, en mi caso.	anger	0.6524633956152754
+2018-Es-06093	Querer eliminar un comentario y eliminar la foto, si, sólo ha mi me pasan esas cosas	anger	0.7738743780844898
+2018-Es-02898	Fav si eres la que me la pone como pata de perro envenenado.	anger	0.4612972883381311
+2018-Es-06807	He visto malas adaptaciones, pero peores que esa, imposible. Rick, esto es un insulto hacia tus maravillosos libros.	anger	0.46679231352336614
+2018-Es-04616	@KioteKiote toda su carrera n malaga?37 partidos,1 temporada  jajajaja Infórmate antes bocazas,q solo sabes insultar x tú falta d argumentos	anger	0.6895122015620115
+2018-Es-04830	@cayeruby Y sacarse la carrera de fisica si le da la gana, eh? #MonarquíaEspañola. Y que conste que no insulto a nadie👍	anger	0.7332507906768011
+2018-Es-02468	@KioteKiote nadie te ha dicho que te guste, te pregunto en que basas para comprarlo con finbo y tú respuesta es insultar como argumento 👏🏻👏🏻	anger	0.5512664188997358
+2018-Es-01074	@morecar89 @SimonPerera @pablo_gps @vruizaldana @Koolasuchus @Eleder_ mira que te gusta provocar, pero tienes razón, son expresiones cultura	anger	0.5946119704939307
+2018-Es-03592	"Hija, pues qué disgusto, pero el retrasado de la serie se parece a tu ex". Mamá y la sinceridad estival.	anger	0.5126533745251207
+2018-Es-06862	Tremendo!! hace dos días me chamuyaba me decía que la novia esto lo otro y volvieron?Estoy tentadisima😂😂😝😝	anger	0.45025641976450653
+2018-Es-06111	Ver "indigenta' pidiendo  € para comer y hablando por móvil último modelo 😡 #indignante #rabia	anger	0.5997296940343018
+2018-Es-01468	@DanielaBlume tía, como coño convenzo a mi madre pa que me deje ir a verte, ¿me enfado y no respiro? 😥	anger	0.648141577526982
+2018-Es-00779	@KingArtabricus, sabías que... cumprir anos pode provocar vellez? #gotitasdeconocimiento.	anger	0.37243657431983435
+2018-Es-03047	Quiero llorar mucho porque no se cuando vere el último capítulo de teen wolf 	anger	0.4120873806356589
+2018-Es-04683	Estoy feliz y enojado	anger	0.4233120480155651
+2018-Es-03361	Quiero encontrar algo que me haga feliz sin estar obligado a hacer otra cosa. #Rabia	anger	0.3122613000365375
+2018-Es-04451	@Maria__Ospina Nada como "pelea de ardillas con música de linkin park de fondo." :v	anger	0.2919882369687765
+2018-Es-03527	@brenbertoldo Cala boca 	anger	0.4231669331517372
+2018-Es-02265	Si yo hubiera sabido que en esta vida había que madrugar, trabajar, aguantar celos y berrinches; le hubiera dado paso a otro espermatozoide.	anger	0.5618256721730366
+2018-Es-02345	@Josetenecesita Blanquito molestando, y enfadado, que raro no?	anger	0.5530011049905186
+2018-Es-04013	@ConBici @HoyPorHoy Triste que se usen cosas como las que decís para hacer carriles bici como el que ha causado este atropello mortal.	anger	0.6306662277459067
+2018-Es-00581	@ClaramJauregui @tayyjaguarr son personas que no tienen nada que hacer en esta vida! 	anger	0.49009788026221834
+2018-Es-01430	Si con eso me pongo nervioso, no quiero imaginar el dia que suceda.	anger	0.34962639107382976
+2018-Es-06879	@GranaNacho @EscJmiranda @aznarez_toti @AnaKafci @noelmesa @Cybertario En vez de insultar a realizar mas comprension lectora	anger	0.5957156850294405
+2018-Es-02956	Mi papá bajo a la cocina a hablar con mi hermana y mi mamá estaba enojada pero nos quedamos arriba echando chisme y terminamos riendo.	anger	0.3819510419233083
+2018-Es-06304	@LothricBorgunll < venganza. Y de esa manera la cadena de odio, venganzas y sangre nunca terminaría. Ella tenía en sus manos el poder que >	anger	0.6169610048166552
+2018-Es-05790	Ahre la mina seguía resentida	anger	0.5216065837390305
+2018-Es-00939	@st4rs87 @garciabanchs Ni hablar del desplome del $ "tal cuál pronosticó" el "profeta". El tipejo es un peligro, jajajaja.	anger	0.4503639096594505
+2018-Es-02583	Qué triste, vas a sentir la soledad	anger	0.4944523320504566
+2018-Es-01234	@julietabarros10 Ya te había dicho que sos mas linda enojada ?	anger	0.5780181404311995
+2018-Es-03998	Y después se preguntan pq es q me enojo..	anger	0.5698847428192779
+2018-Es-02976	@ escritores de missing 9 sigo enfadada	anger	0.5297682668333815
+2018-Es-05894	Cuanto resentido suelto 😂	anger	0.6146488125048066
+2018-Es-03697	@lucasotor 'ira tu... no miacordaba, cómo hasta sin querer le da uno al clavo 😎	anger	0.4811586312618046
+2018-Es-02957	Yo creo que nunca me había enojado tanto como lo hice hoy 🙇🏻‍♀️	anger	0.4600203289146449
+2018-Es-02656	tener el pelo lacio y fino es horrible, se me enredatoooooodo	anger	0.6181722227578076
+2018-Es-06495	Mi mamá me dice que esta preocupada porque estoy loca por Flandria, y si ma lo 100to es la hija que te toco 🐥💛	anger	0.5498623816572822
+2018-Es-00718	@iOneGentleman_ @Resentimiento El problema es que no está claro si el primero era realmente afirmativo jajaja	anger	0.4426476889406091
+2018-Es-01994	@CristoAtado Ese tipo de personas no dan ni tristeza. Dan vergüenza. #rabia	anger	0.9004028547528145
+2018-Es-01010	@mc112149 Sería un insulto para Guardiola decir que estan igual de sobrevalorados, lo de Tomlin es otro nivel, un completo mediocre.	anger	0.6630389616292184
+2018-Es-02542	Es increíble como te olvidan en tan sólo un chasquido	anger	0.5620029437521651
+2018-Es-06342	Oh, Café Helado. Es increíble que el resto del año te tome hirviendo. Quizá no seas el mismo. Quizá no lo sea yo. Quizá nada tenga sentido.	anger	0.20304570708571368
+2018-Es-02199	Yo nunca olvido una ofensa	anger	0.48607674681076785
+2018-Es-00747	Talvez me ponga nervioso si te veo, pero no quiere decir que te deseo. No te olvide, en el proceso estoy.	anger	0.35290187341198814
+2018-Es-04537	Antes a estos problemas ni les prestaba atención, ahora me quitan las ganas de dormir y mas ansiedad ... La vida y sus cambios.	anger	0.6619228111921029
+2018-Es-03271	@PokemonShuffleM con la última vida nunca se hace una fase gradual, salvo que se haya enfadado. Eso es de 1° de Shuffle XD	anger	0.3085988290847548
+2018-Es-04382	mal parado rossi lpm..😠	anger	0.625014320119299
+2018-Es-04329	@diegoofrias por qué vives enojado con la vida amigo?😟	anger	0.31837294304303876
+2018-Es-02384	Si pyso por tu lado y no te saludo no lo tomesqcomo enojo que los amores que se ..ieren se saludan con los ojos.	anger	0.38188117792243026
+2018-Es-06581	Ojalá una precuela de Imperator Furiosa.	anger	0.6146394563406843
+2018-Es-01175	Pues me da que el hijo de Trump (parece un insulto pero no lo es) se está inmolando por papá y la abogada rusa tapa los verdaderos contactos	anger	0.6518702306748747
+2018-Es-01161	Juro que estoy muy enojado en este momento	anger	0.5071952597050484
+2018-Es-03750	se enojo porq le aplique la del maincra	anger	0.5241004478487884
+2018-Es-00035	Quiero cigarrillos lpm😤😤😤	anger	0.34674695232400077
+2018-Es-06037	no mames que pinche enojo, no vuelvo a hacer ninguna broma!!	anger	0.7250302090101589
+2018-Es-01329	@TownGamePlay Necesito tu abrazo ya. 	anger	0.17265852754048458
+2018-Es-04638	Imperator Furiosa! #Madmax	anger	0.5739994538647111
+2018-Es-03128	Ayyyyyy quiero que se pongan las pilas asi así me dan el 28 a mi, lpmmmmm	anger	0.3895326179173582
+2018-Es-03021	#manosblancasm4 Donde estaban los del #ppcorrupto y vuestra indignación en el homenaje a las víctimas del franquismo,en el congreso??? 🖕🖕🖕🖕🖕	anger	0.836180455274482
+2018-Es-05393	UPA CUCHA AMARGO O DULCE	anger	0.11942100161494293
+2018-Es-00933	@el_pais Con este titular parecéis cortos de mente así sin ofender  ahí lo dejo 😂. Si se sabe otra cosa es que le deis la espalda al asunto.	anger	0.5096619461536482
+2018-Es-00144	@SEUR_responde lo hice anoche, esta mañana, y pasan de mi cara #vergüenza #enfado #impotencia .. llamadme de una vez y dadme una solución!!	anger	0.4623449714659284
+2018-Es-00392	@Mubrutico @AlvaroVadin @aracnoideo Estoy enfadado con él , no saca la bici... 😂😂	anger	0.5122233265306471
+2018-Es-06430	Sospecho de Judas Iscariote con una oreo envenenada, en Coyoacán, México	anger	0.5237397757191382
+2018-Es-03805	Desanimado legal de sair sábado	anger	0.36656567198541823
+2018-Es-00408	@DemDagon « alguien les estuviera siguiendo y hubiera provocado aquello, pues no veía al demonio cayéndose sin más o inventándose algo »	anger	0.5202432464107807
+2018-Es-03646	#DeNocheenlaCiudad Esperanzado de ganarme manillas para el #VibraTYM Y darle la sorpresa a mi esposa @Vibra1049 @CamVelandia	anger	0.36492822788524826
+2018-Es-05584	@maftdaddario Qué amargado cabron	anger	0.5666669700650258
+2018-Es-02465	Repugnante ver a las hienas(tertulianos), morder, insultar y rabiar, por conseguir un trozo del cadáver de Miguel Ángel Blanco (homenaje)...	anger	0.4615670540462641
+2018-Es-04452	@gonzale_pedro @La9deAnon Lo mismo digo. Me acabo de enterar y qué disgusto.	anger	0.6070707652414659
+2018-Es-06133	Doy mi vida por alguien que me traiga helado a estas hora, tengo un antojo terrible.	anger	0.30839562588027736
+2018-Es-03796	Los domingos son para descansar no para hacer cosas d la facultad 😒🖕🏻#enojada	anger	0.5449701743546707
+2018-Es-06413	este programa es un insulto a la psiquiatría por qué lo sigo viendo?	anger	0.4807966721376667
+2018-Es-04391	Aún recuerdo a la gente super indignada por lo de Kirigiri y lo de Nanami  Mi alimento su odio fuck yeah	anger	0.6921197404757833
+2018-Es-05620	-Ella enojada me putea en 12 idiomas. En ese momento es la mas hermosa! #enojada #love #tarde	anger	0.4245303020973942
+2018-Es-00823	dibujo hojitas le doy color a los pezones para que resalten de furia en fin es un trabajo duro pero alguien debe hacerlo	anger	0.36509638610549094
+2018-Es-06398	Estoy yo mas preocupada porque mi mejor amiga aprueba la previa que ella misma	anger	0.34635460823800285
+2018-Es-00986	@Apixelados Y aqui es de noche y esta llovien pta que sad😡	anger	0.44991243837498557
+2018-Es-03471	@JosDice Si me sigues no me enojo😜	anger	0.4283995032783426
+2018-Es-05626	3 cosas que no puedo ocultar:  •Mis hijueputas celos. •Mi hijueputa enojo. •Mi hijueputa gusto por usted.	anger	0.6360438187531873
+2018-Es-04453	No podemos estar bien que ya me enojo por algo que pienso o me invento ajajajaj	anger	0.4398129104734557
+2018-Es-00574	Me perdí culpa de DNI Culiado locoo y mi inrresponsabilidad 	anger	0.5449609490963625
+2018-Es-06701	Una vez estaba muy enojada con el ex de mi mejor amiga (la había hecho sufrir mucho) le mandé un priv diciendo que todo lo malo	anger	0.506978951402705
+2018-Es-02262	No le sale estar enojada 😏🔥	anger	0.5781649769942814
+2018-Es-00068	que ganas de comer chocolate amargo	anger	0.2870181412757994
+2018-Es-03327	Cada que quiero insultar la pendejes de alguien mi "good vibes interior" me dice que lo deje ser si es feliz yo soy feliz VIVE Y DEJA VIVIR.	anger	0.4892098041527517
+2018-Es-02147	Que puñetera es la vida a veces eh 	anger	0.3755910539533955
+2018-Es-02101	No me enojo si me hablan	anger	0.3231532666783762
+2018-Es-05871	Mi hermano se la pasa en la casa de Lala, vive más allá que acá 	anger	0.40412265071490827
+2018-Es-06270	@Pedrito_Vm sos yo en la vida, estafado y indignado	anger	0.49872057313827733
+2018-Es-03390	Llegue al punto que ni enojo me causan las cosas. Claramente ni ai estoy 💆🏽 0 importancia	anger	0.5123659163394204
+2018-Es-04092	@findxjoy @draxler_leon NADA QUÉ, ¿POR QUÉ TE HACEN OJITOS? *INDIGNADA*	anger	0.5416047754948575
+2018-Es-01319	Odio estar tan enojada y que me de risa💆	anger	0.7918193957297571
+2018-Es-05205	#Rayito  weeee los frijoles me van a hacer cagar horrible jajajajaja 😹perdón tenía que decirlo	anger	0.6412367158374699
+2018-Es-06356	Acabo de votar mi carterra 	anger	0.4001593421767546
+2018-Es-01072	@TamaraCapeche Jajaja ella enojada	anger	0.45275393049142165
+2018-Es-03060	@Cristian_B15 lo missssmo de siempre	anger	0.45872361688379304
+2018-Es-01734	@CaamiAlvarez3 Uy pero que enojada estas que me respondes el twitt, si ya se que querés hablarme no te hagas la difícil jajaja	anger	0.43075718839654475
+2018-Es-01202	Se cae el cielo... que lave todo lo que angustia... #Rabia #Miedo #Oscuridad	anger	0.49106143927393237
+2018-Es-05194	@PrensaPEsquivel Una actitud persecutoria, muy de "Marica" mala, caprichosa y resentida...	anger	0.6463639209864485
+2018-Es-01347	me encanta que me insistan cuando me enojo o que m sigan hablando cuando les clavo visto, perdon	anger	0.46255256160771896
+2018-Es-00546	Muy indignada con la película que acabo de ver 😭😭😭😭	anger	0.4889690110746565
+2018-Es-00926	@lLumosl Deja la indignación a un lado!  Ya veras cuando te vea en la universidad 😡	anger	0.7839746567266433
+2018-Es-04563	Me siento enojado con la vida y por muchas razones 😶	anger	0.34802766762129356
+2018-Es-06099	@__iDann MUY TARDE. JAJAJAJA como cuando le dijiste a mi novio que no me contestara.. ¡AQUÍ ESTÁ MI VENGANZA PUTO! 😗	anger	0.46849498309641613
+2018-Es-00989	@stressedhayley Esa venganza no te la robo	anger	0.6125340297427246
+2018-Es-01100	Mi gata nina qué haría sin esa amargada gruñona😻	anger	0.46480711158889715
+2018-Es-02387	Pero que ganas de que tengas un caniche así te lo pateo hijo de puta un insulto que diga	anger	0.7246738805378352
+2018-Es-06102	@jotajordi13 @somhiserem @jmbartomeu Que estas enfadado por que no cojen los crack que tu representa	anger	0.6340138857142524
+2018-Es-03925	Casi una hora esperando la caga de micro!!!!‼️‼️😡	anger	0.4069142079816007
+2018-Es-01888	Si me hablas no me enojo	anger	0.3393256094153675
+2018-Es-00774	@DragonsR6 @JandritomurosHD @chimigastaca Bffff menudos refuerzos entran...	anger	0.4208042928967083
+2018-Es-03062	Estoy tan amargada que a todo le encuentro peros o algo malo.	anger	0.47902090620215126
+2018-Es-04095	@draco_malfoyesp —La rubia intentó asimilar aquellas palabras lo mejor que pudo, pero acabó por fruncir el ceño con una expresión que»	anger	0.3985463228961551
+2018-Es-04103	Sí, odio trabajar en equipo, aquí sólo uno de cada tres trabaja, los demás sólo estorban y entorpecen todo #enojada	anger	0.6443978968939772
+2018-Es-02324	vienen a visitarme a mi y se ponen a jugar a la play 	anger	0.30369983440354464
+2018-Es-04846	@Tomasbetico07 @lucharsgs @Nuestro_Betis Te he contestado antes, la salida vuestra es no leer e insultar (gilipolleces)	anger	0.6971796288415228
+2018-Es-00421	soy rubén rabioso y estoy muerto hace 28472838 años, si no me crees búscame en google	anger	0.5144407698873587
+2018-Es-05599	@SxrcasticBatman < la cara en su mano. De reojo, no podía dejar de mirar al pálido, pensando en si estaría enfadado por algo con él.-	anger	0.46472398513753727
+2018-Es-04365	@SChecoPerez @HawkersMX Que vergüenza que sean de mi tierra 😠 os pido perdón por la ofensa mexicanos!!	anger	0.8149055876127969
+2018-Es-03355	Para que ponen funciones en su cartelera si cuando vas a llegar al cine resulta que cerraron 😠 #cinemex me fallaste #enojada	anger	0.6488882704110988
+2018-Es-05952	🎵No me folles con tus barbas😊 que las tienes pringadicaaaaas 🎵y si lo haces, por venganza🎵 yo te pego mis ladillaaaaas🎵😊 #SilvesJotero	anger	0.473095499202568
+2018-Es-04056	Y además, en aquella oscuridad candente había gusanos. —¿Lombrices de tierra? —preguntó con el ceño fruncido.	anger	0.409031627092617
+2018-Es-05055	Sólo estoy muy enojado con todos son razón aparente.	anger	0.5978584669745037
+2018-Es-04724	El mejor slasher de películas de terror? #TalentoVenezolano #arte #SIGUEMEYTESIGO #SiguemeYTeSigoAlInstante #LunesDeGanarSeguidores 	anger	0.2856658380190349
+2018-Es-00849	Voy a desenterrar Under the Red Hood y Lost Days para leerlos otra vez y dejar de sentirme ofendida	anger	0.4931147985137047
+2018-Es-02394	Que odio que la rabia se convierta en lágrimas	anger	0.719248028068165
+2018-Es-00242	Te querés tomar un cortado rápido y te lo sirven hirviendo 😐	anger	0.5813097991286291
+2018-Es-02712	Le mejor de todas las veces que me e enojado es cuando llega la hora de mi venganza.🧐😎🤩	anger	0.4653352704687126
+2018-Es-04096	@sebasvargas05 Yo me siento indignada digamos	anger	0.5692876165124676
+2018-Es-03315	Hacer un pedido en @AmazonESP,que digan que llega en un día,pero no llega..  ¿Es engaño? ¿Para eso me suscribí a @amazonprimenow? #enfadado	anger	0.541715522034471
+2018-Es-02870	@Glorette_616 El me pelea, insulta. Yo lo bloqueo. Punto. Enojate con otro.	anger	0.5288756173204583
+2018-Es-04800	Ya no me contestó, pero con ella no me enojo jeje	anger	0.3924970699272957
+2018-Es-01774	Mi mama se enojo con abi por que no comió hoy y cerro el negocio con llave.. Ahora no puedo buscar comida.. Estoy a punto de llorar.	anger	0.48145569994766985
+2018-Es-02670	Estoy tan enojada con mi novio que me dormi sin abrazarlo. Soy re cruel lo se jijiji	anger	0.4225730707827261
+2018-Es-06441	Me enojo en secreto cuando veo tus etiquetas de memes de putería.	anger	0.4371533762320253
+2018-Es-00561	26. Soy muy sincera, realista y directa. Y muchas veces es un problema porque no mido lo que digo y puedo ofender o hacer sentir mal):	anger	0.48470722435824387
+2018-Es-04156	OVIALCDMX Exceder los límites de velocidad puede hacer que pierda el control de su vehículo y provocar accidentes. Art. 9. …	anger	0.444386505830737
+2018-Es-02849	@FuriaRojaNet @luismaoriginal bienvenido a furia vene ;) 📛	anger	0.5175860117923894
+2018-Es-00665	En este momento estoy odiando mucho a irina 	anger	0.5037670772681195
+2018-Es-03430	Siempre dije que es de resentido borrar las fotos con tu ex	anger	0.6063559987403331
+2018-Es-00034	Hoy voy a soñar con el derecho al trabajador😤😤😤	anger	0.33576981023600966
+2018-Es-06756	enfurecida y sedienta de vino	anger	0.4289942324389119
+2018-Es-03508	@Tusbesosenmi Porquè duele, decepciona y a veces es amargo.	anger	0.5329063466570642
+2018-Es-02779	El internet viene y va, así como el ánimo del Venezolano.	anger	0.4054949379648224
+2018-Es-06724	Ayer, pillé a mi hermano pequeño masturbándose. Hoy le he pillado otra vez en el mismo sitio y se ha enfadado…	anger	0.48957935285871107
+2018-Es-04418	« me encuentro al supuesto tío y le digo si es suficiente ya. Y el tío se raya, y yo me enfado, hasta que descubro que ese es su gemelo. »	anger	0.4387437043336495
+2018-Es-01766	Creo que lo que odié de Nocturnal Animals es lo mismo que odié de Gone Girl. Se están robando mis ideas de venganza.	anger	0.53180234154084
+2018-Es-02413	Cuando se homenajea a una víctima varios días seguidos, y al resto no, deja se ser un homenaje y pasa a ser una ofensa. #HomenajeBlancoEP	anger	0.6749270074095146
+2018-Es-01387	#Rabia por el contraste brutal entre la entrega al 100% de la población civil y el cinismo e inmovilidad de la clase política #FuerzaMexco.	anger	0.6964014242137093
+2018-Es-04388	¿Qué tan resentida puedes estar para meterte en una relación? ¿Quién te hizo tanto daño? 🤔	anger	0.5418286551836093
+2018-Es-01869	Estoy bien ofendido, sin palabras!	anger	0.6091001815311677
+2018-Es-03908	Como se puede poner un mg a algo cuando te da #coraje que suceda. Un icono q represente #rabia en twitter ya. @marlol9 @labasculaTV	anger	0.5393692429729366
+2018-Es-03708	Me enojo por todo😩	anger	0.6148271438186315
+2018-Es-00098	esto me recuerda a cuando confirmaron a chloe para Ariel, like rlly?? sin ofender pero no se le parece EN NADA a Ariel	anger	0.4635053009169182
+2018-Es-04686	porq cuando hablaba de venganza se ponia triste, pero por ahi le recordaba a una venganza q tenia q ver con otra cosa y no con el"adulterio"	anger	0.5713732651875021
