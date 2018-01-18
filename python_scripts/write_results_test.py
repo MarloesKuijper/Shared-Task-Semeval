@@ -9,12 +9,8 @@ import pandas as pd
 
 def create_arg_parser():
 	parser = argparse.ArgumentParser()
-	parser.add_argument("-f1","--feat_train", required=True, type=str, help="Features dir training data")
-	parser.add_argument("-f2","--feat_dev", required=True, type=str, help="Features dir dev data")
-	parser.add_argument("-f3","--feat_test", required=True, type=str, help="Features dir test data")
-	parser.add_argument("-f4","--feat_trans", default = '', type=str, help="Features dir with translated data")
+	parser.add_argument("-f1","--main_dir", required=True, type=str, help="Main directory with train/dev/test/trans data (csv features)")
 	parser.add_argument("-to","--original_test", required=True, type=str, help="Dir with original .txt test files")
-	parser.add_argument("-d","--out_dir", required=True, type=str, help="Directory where you want the results to be written to")
 	parser.add_argument("-c","--clf", action = 'store_true', help="Select this if it is a classification task")
 	args = parser.parse_args()
 	return args
@@ -111,9 +107,9 @@ def load_clf_data(f, test):
 		#Y = dataset.iloc[:,-1]   #select column
 		Y, old_options = cat_to_int(Y)
 		Y, options = rescale(Y, old_options)
-		return X,Y, options, old_options
+		return np.asarray(X), np.asarray(Y), options, old_options
 	else:
-		return X
+		return np.asarray(X)
 
 def load_reg_data(f):	
 	'''Load dataset for regression data'''
@@ -153,11 +149,11 @@ def svm_search(train_X, train_Y, dev_X, dev_Y, epsilon, clf, options, old_option
 	best = [0,0]
 	scores = []
 	for eps in epsilon:
-		svm_score, _ = train_test_pearson(train_X,train_Y, dev_X, dev_Y, svm.SVR(kernel='rbf', epsilon=eps), clf, options, old_options)
+		svm_score, svm_pred = train_test_pearson(train_X,train_Y, dev_X, dev_Y, svm.SVR(kernel='rbf', epsilon=eps), clf, options, old_options)
 		scores.append(svm_score)
 		if svm_score > best[0]:
-			best = [svm_score, eps]					
-	return best[0], best[1]
+			best = [svm_score, eps, svm_pred]					
+	return best[0], best[1], best[2]
 
 
 def nearest_value(num, options, old_options):
@@ -167,6 +163,42 @@ def nearest_value(num, options, old_options):
 	return return_value
 
 
+def cv_dataset(train_X, train_Y,  low, up):
+	'''Apparently Keras has no cross validation functionality built in so do it here
+	   The rows between low and up are for the validation set, rest is for train set'''
+	return_train_X = np.concatenate((train_X[:low, :], train_X[up:, :] ), axis=0)
+	return_valid_X = train_X[low:up, :]
+	return_train_Y = np.concatenate((train_Y[:low], train_Y[up:] ), axis=0)
+	return_valid_Y = train_Y[low:up]
+	return return_train_X, return_train_Y, return_valid_X, return_valid_Y
+
+
+def cross_val_svm(train_X, train_Y ,trans_X, trans_Y, best_eps_train, clf, options, old_options, folds):
+	'''Have to do our own cross validation for SVM since we want to add the translated data ONLY to train'''
+	all_preds = np.asarray([])
+	all_scores = []
+	for fold in range(folds):
+		## Get datasets
+		low = int(len(train_X) * fold / folds)
+		up  = int(len(train_X) * (fold +1) / folds)
+		new_train_X, new_train_Y, new_valid_X, new_valid_Y = cv_dataset(train_X, train_Y, low, up)
+		final_train_X = np.concatenate((new_train_X, trans_X), axis=0)
+		final_train_Y = np.concatenate((new_train_Y, trans_Y), axis=0)
+
+		## Get predictions + score
+		clf = svm.SVR(epsilon=best_eps_train, kernel='rbf')
+		test_pred = clf.fit(final_train_X, final_train_Y).predict(new_valid_X)
+		
+		## Save predictions + correct score
+		if args.clf: ##For a classification problem we are not allowed to output 0.45 for example, output nearest value instead
+			test_pred = [nearest_value(y, options, old_options) for y in test_pred] 
+		all_preds = np.concatenate((all_preds, test_pred), axis=0)
+		score = round(pearsonr(test_pred, new_valid_Y)[0],4)
+		all_scores.append(score)
+	
+	return round(float(sum(all_scores)) / float(len(all_scores)),4), np.asarray(all_preds)
+
+		
 def test_and_write_output(train_X, train_Y, test_X, epsilon, options, old_options, out_dir, emotion, original_test_file, ident):
 	
 	## Use this value to fit model to use on test set
@@ -193,27 +225,28 @@ def test_and_write_output(train_X, train_Y, test_X, epsilon, options, old_option
 		out.close()			
 
 
-def predict_and_write_output(features_train, features_dev, features_test, features_trans, original_test_file, out_dir, emotion):
+def predict_and_write_output(features_train, features_dev, features_test, features_trans, original_test_file, out_dir, emotion, ens_dir):
 	""" Adds train + dev together. Then does CV search for best parameters -- those are used on test set"""
 	train_X, train_Y, options, old_options = get_datasets(features_train, args.clf)
 	dev_X, dev_Y, options, old_options = get_datasets(features_dev, args.clf)
 	trans_X, trans_Y, options, old_options = get_datasets(features_trans, args.clf)
 	train_trans_X = np.concatenate((train_X, trans_X), axis=0)
 	train_trans_Y = np.concatenate((train_Y, trans_Y), axis=0)
-	train_dev_X = np.concatenate((train_X, dev_X), axis=0)
-	train_dev_Y = np.concatenate((train_Y, dev_Y), axis=0)
-	train_trans_dev_X = np.concatenate((train_dev_X, trans_X), axis=0)
-	train_trans_dev_Y = np.concatenate((train_dev_Y, trans_Y), axis=0)
 	
 	## Find best epsilon value for cross validation
 	epsilon = [0.001, 0.005, 0.35, 0.40] + [float(y * 0.01) for y in range(1,30)] #test very wide range of parameters here
+	#epsilon = [0.02]
 	
-	## Find best parameters for: train + CV, train + translated optimized on dev and train optimized on dev
-	best_score_dev, best_eps_dev = svm_search(train_X, train_Y, dev_X, dev_Y, epsilon, args.clf, options, old_options)
-	best_score_normal, best_eps_normal = svm_search(train_X, train_Y, [], [], epsilon, args.clf, options, old_options)
-	best_score_trans, best_eps_trans = svm_search(train_trans_X, train_trans_Y, dev_X, dev_Y, epsilon, args.clf, options, old_options)
-	best_score = max([best_score_normal, best_score_trans])
-	prt_str = "Best score train CV for eps {3}: {0}\nBest score train on dev for eps {4}: {1}\nBest score train + trans on dev for eps {5}: {2}".format(best_score_normal, best_score_dev, best_score_trans, best_eps_normal, best_eps_dev, best_eps_trans)
+	## Find best parameters for: train + CV
+	best_score_train, best_eps_train, pred_train  = svm_search(train_X, train_Y, [], [], epsilon, args.clf, options, old_options)
+	
+	## Apply parameter to get scores for dev set for train and train + translated
+	best_score_train_trans, pred_train_trans = cross_val_svm(train_X, train_Y, trans_X, trans_Y, best_eps_train, args.clf, options, old_options, 10)
+	best_score_dev, _, pred_dev   = svm_search(train_X, train_Y, dev_X, dev_Y, [best_eps_train], args.clf, options, old_options)
+	best_score_dev_trans, _, pred_dev_trans = svm_search(train_trans_X, train_trans_Y, dev_X, dev_Y, [best_eps_train], args.clf, options, old_options)
+	
+	
+	prt_str = "Train 10-fold CV (eps {0}) score: {1}\nDev-score: {2}\nTrain + trans on dev: {3}\nTrain + trans on 10-fold CV: {4}".format(best_eps_train, best_score_train, best_score_dev, best_score_dev_trans, best_score_train_trans)
 	print (prt_str)
 	
 	## Get test set (without labels)
@@ -222,19 +255,42 @@ def predict_and_write_output(features_train, features_dev, features_test, featur
 	else:
 		test_X, _ = load_reg_data(features_test)	
 	
-	test_and_write_output(train_dev_X, train_dev_Y, test_X, best_eps_dev, options, old_options, out_dir, emotion, original_test_file, 'traindev')
-	test_and_write_output(train_trans_dev_X, train_trans_dev_Y, test_X, best_eps_trans, options, old_options, out_dir, emotion, original_test_file, 'trans')
+	## Write to file in correct format
+	test_and_write_output(train_X, train_Y, test_X, best_eps_train, options, old_options, out_dir, emotion, original_test_file, 'traindev')
+	test_and_write_output(train_trans_X, train_trans_Y, test_X, best_eps_train, options, old_options, out_dir, emotion, original_test_file, 'trans')
+	
+	## Write to files because we want to train ensembles later
+	ens_dir_train = "{0}/{1}/train/".format(ens_dir, emotion)
+	ens_dir_dev   = "{0}/{1}/dev/".format(ens_dir, emotion)
+	
+	write_ens_file(ens_dir_train , 'svm_train.txt', pred_train)
+	write_ens_file(ens_dir_train , 'svm_train_trans.txt', pred_train_trans)
+	write_ens_file(ens_dir_dev , 'svm_dev.txt', pred_dev)
+	write_ens_file(ens_dir_dev , 'svm_dev_trans.txt', pred_dev_trans)
+	
 	return prt_str
+
+
+def write_ens_file(f, name, pred):
+	'''Write to ensemble file -- prediction only'''
+	if not os.path.exists(f):
+		os.system("mkdir -p {0}".format(f))
+	f_name = f + name
+	with open(f_name,'w') as out_f:
+		for p in pred:
+			out_f.write(str(p) +'\n')
+	out_f.close()		
 
 
 if __name__ == "__main__":
 	args = create_arg_parser()
-	train_dir 	  = args.feat_train
-	dev_dir 	  = args.feat_dev
-	test_dir 	  = args.feat_test
-	trans_dir	  = args.feat_trans
+	train_dir 	  = args.main_dir + 'train/'
+	dev_dir 	  = args.main_dir + 'dev/'
+	test_dir 	  = args.main_dir + 'test/'
+	trans_dir	  = args.main_dir + 'translated/'
+	ens_dir	 	  = args.main_dir + 'ensemble/'
+	out_dir	 	  = args.main_dir + 'predictions/'
 	original_test = args.original_test
-	out_dir	 	  = args.out_dir
 	
 	if not os.path.exists(out_dir):
 		os.system("mkdir -p {0}".format(out_dir))
@@ -255,6 +311,6 @@ if __name__ == "__main__":
 		for ix, file in enumerate(training_feats):
 			print("For {0}".format(emotion_order[ix]))
 			out_file.write("For {0}\n".format(emotion_order[ix]))
-			prt_str = predict_and_write_output(training_feats[ix], dev_feats[ix], test_feats[ix], trans_feats[ix], original_txts[ix], out_dir, emotion_order[ix])
+			prt_str = predict_and_write_output(training_feats[ix], dev_feats[ix], test_feats[ix], trans_feats[ix], original_txts[ix], out_dir, emotion_order[ix], ens_dir)
 			out_file.write(prt_str + '\n\n')
 	out_file.close()		

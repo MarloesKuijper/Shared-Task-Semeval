@@ -1,20 +1,24 @@
 For anger
-Best score train CV for eps 0.01: 0.6344
-Best score train on dev for eps 0.1: 0.6493
-Best score train + trans on dev for eps 0.001: 0.664
+Train 10-fold CV (eps 0.01) score: 0.6344
+Dev-score: 0.6304
+Train + trans on dev: 0.6632
+Train + trans on 10-fold CV: 0.6306
 
 For fear
-Best score train CV for eps 0.04: 0.6549
-Best score train on dev for eps 0.005: 0.6866
-Best score train + trans on dev for eps 0.08: 0.7083
+Train 10-fold CV (eps 0.04) score: 0.6549
+Dev-score: 0.6831
+Train + trans on dev: 0.7001
+Train + trans on 10-fold CV: 0.6401
 
 For joy
-Best score train CV for eps 0.05: 0.7098
-Best score train on dev for eps 0.08: 0.7057
-Best score train + trans on dev for eps 0.11: 0.7126
+Train 10-fold CV (eps 0.05) score: 0.7098
+Dev-score: 0.7024
+Train + trans on dev: 0.7105
+Train + trans on 10-fold CV: 0.7012
 
 For sadness
-Best score train CV for eps 0.06: 0.6735
-Best score train on dev for eps 0.11: 0.7035
-Best score train + trans on dev for eps 0.15: 0.6994
+Train 10-fold CV (eps 0.06) score: 0.6735
+Dev-score: 0.6897
+Train + trans on dev: 0.6958
+Train + trans on 10-fold CV: 0.6702
 
