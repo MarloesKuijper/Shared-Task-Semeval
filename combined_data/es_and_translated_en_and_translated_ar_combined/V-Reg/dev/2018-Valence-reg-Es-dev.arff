@@ -1,0 +1,824 @@
+@relation "temp2.txt"
+
+@attribute id string
+@attribute tweet string
+@attribute emotion string
+@attribute score numeric
+
+@data
+"00766"," Dios que susto lpmmm 🙏 😡 ","valence", 0.250
+"01333"," Que lindo que es viajar en moto vieja ","valence", 0.792
+"06190"," que ansiedad de mierda vo ","valence", 0.146
+"05144"," La ansiedad no desaprovecha ni un segundo . ","valence", 0.239
+"04187"," @username Mucho gusto . ","valence", 0.750
+"03080"," @username Fala tu ","valence", 0.380
+"00352"," NOOO WE NO ESTOY ENOJADO, asi soy normalmente 🙄","valence", 0.304
+"02237"," @username LA MEJOR DE TODAS ! ! ❤ ❤ ❤ Feliz dia Andrea ! ! ! Gracias por todooo ","valence", 0.958
+"05705"," Mandar a la mierda no es un insulto, es una buena manera de ayudar a cierta gente a encontrar su camino.","valence", 0.386
+"05350"," Vine a ver si se habían muerto en el apocalipsis y aún sigo leyendo sus tuits bien de la chingada ","valence", 0.391
+"02391"," @username Desgraciado infeliz jajaj ","valence", 0.174
+"03661"," Creo que me quede libre hace un montón y todavía me queda un trimestre ","valence", 0.457
+"06235"," @username te saqué la careta ... economista y asustás a la gente . Vos sos El hombre de la bolsa ! ","valence", 0.391
+"05066"," @username Se vio muy feo ? andas igual ? Vos no tenes corazón cierto ? ","valence", 0.370
+"05918"," Que nunca te ame de verdad, que rabia me da 🎵","valence", 0.409
+"00455"," fav y te mando privado 😊 ","valence", 0.770
+"00226"," Me alegro la noche este gil ","valence", 0.750
+"05005"," @username se te atoró el escabio hdnum ","valence", 0.517
+"04721"," Se ira quien se tenga que ir y se quedará quien tenga que quedarse . ","valence", 0.494
+"02679"," #Nostalgia En unas horas es el lanzamiento oficial de la secuela de Splatoon 😆 siempre recordaré al primero con mucho gusto . 😢 ","valence", 0.479
+"05422"," Ya se a quien sacó la mala ortografía la pobre ","valence", 0.391
+"02639"," Si prensa y opinión pública tolera la indignación con Ramos por irse igual del vecino, ¿por qué nosotros somos palmeros por indignarnos?","valence", 0.354
+"06483"," A veces estoy tan cansada que no puedo dormir #ironía ","valence", 0.354
+"05515"," Necesito compartir con alguien la alegría que me da ver las puertas de guido kaczka ","valence", 0.667
+"05043"," @username #Rayito ¿ Cuando nos das la sorpresa de que seras papa ? 🙈 😂 ","valence", 0.739
+"00792"," @username en realidad si me interesaba porque trabaja en street machine y hay ropa bonita . Lo hice por eso, por un descuento ","valence", 0.500
+"01800"," Se hace el enojado cuando yo debería estar cagandolo a piñas . ","valence", 0.208
+"00744"," @username el mejor smeralda en scoria, el mas wn pero se te aprecia bro  no tengo el agrado de conocerte mucho pero por lo poco me caes bn","valence", 0.625
+"03942"," Luis y yo nos vamos a ir al infierno por ser así ","valence", 0.354
+"03006"," / / Soy un Batman super chistoso . Ni confirmen 🤣 🤣 ","valence", 0.688
+"01248"," Empiezo los cursos y estoy súper contenta ","valence", 0.917
+"00318"," @username Ahora para ser gay se debe ser mayor de edad #ironia #calmapueblo ","valence", 0.271
+"06435"," num me enteré un par tuyas, sos peligrosa","valence", 0.182
+"05936"," @username Es graciosa la situación jajajajajja ","valence", 0.891
+"01243"," Lo de solucionar las cosas con violencia es de un gran ejemplo para la sociedad . Enhorabuena ! #ironía ","valence", 0.188
+"04140"," @username Con amar azul estoy 😄 ","valence", 0.833
+"05710"," este Tito me hace llorar de la risa ","valence", 0.848
+"01555"," @username @username Creo que me tienes que seguir, para poder mandarte dm ","valence", 0.625
+"01882"," num horas trabajando verg que cansancio ","valence", 0.292
+"00899"," Lo sé, soy hermosa!: me siento genial","valence", 0.909
+"05827"," Ya quiero que sea vierneees ","valence", 0.563
+"06347"," #DesafioSuperHumanos aquí pensando como serán las pestañas de Valentina cuando vaya mañana a @username #Susto ","valence", 0.500
+"00178"," @username @username Todo muy del estilo Dinamarca del Sur . Jaja . #ironía ","valence", 0.241
+"05341"," Estoy re boba hoy ","valence", 0.523
+"00354"," @username El bis de furia jajaja lastima que ahora se juega armas T_T ","valence", 0.542
+"04128"," Hug Hefner invirtio $ num,000 prestados y los volvió $20mill. Mensuales🤷🏼‍♂️#crack Hug Hefner en lugar de venirse, se fué! 😌#Ironía","valence", 0.458
+"03092"," Ya quiero que sea la pelea de Conor McGregor y Floyd Mayweather #McGregorVsMayweather ","valence", 0.543
+"01810"," @username @username KKK emocionado cara 🤦 🏼 ‍ ♀ ️ ","valence", 0.739
+"00064"," @username @username Me cago en la puta ","valence", 0.208
+"03950"," David Bowie decía : La religión es para la gente que tiene miedo de irse al infierno . La espiritualidad es para aquellos que han estado allí . ","valence", 0.565
+"04134"," Todo llega en su momento, vive el #presente ríe, siente, baila, enamorate de cada minuto vivido, vive la #Felicidad","valence", 0.833
+"01608"," @username El insomnio es divertido a veces ","valence", 0.609
+"04129"," El sol, los perros y una birra ! #felicidad","valence", 0.826
+"00202"," ¿ Como puede hacer la gente para no sentir odio y resentimiento en sus corazones ? ","valence", 0.292
+"00511"," Necesito abrazar a alguien el nudo en la garganta es tremendo ","valence", 0.238
+"04898"," @username eso es raro, desaparece el comisario del pueblo y a nadie le parece llamativo, no hace el intento de buscarlo? 😅 sospechosa la we..","valence", 0.604
+"04933"," gabriel bola atoa, pavor","valence", 0.521
+"00791"," Coño ! He acabado la carrera y aún no he sacado el libro de Física I del coche, ahí sigue decolorándose al sol! #venganza","valence", 0.523
+"02181"," #FelizLunes cosas hermosas ! #Feliz ","valence", 0.935
+"02378"," @username Perdona ! Pero a mi no me tienen miedo jajajaja 😂 ","valence", 0.761
+"01451"," Pa qué me enojo con gente que se le hace trágica la numeración de butacas ... ","valence", 0.271
+"00987"," Amo joderlo a franco o hacerme la enojada con el 😂 💞 ","valence", 0.688
+"05188"," Si como amiga me seguía los caprichos no me imagino que pasará ahora, próximamente termino tinturado ","valence", 0.553
+"01419"," OIGAAA COMO PUEDE VER MIS HISTORIAS DE INSTAGRAM SÍ NO ACEPTÉ LA SOLICITUD DE SEGUIMIENTO 😡 ","valence", 0.146
+"06052"," + emocionante . ¿ No era algo hermoso, que la música pudiera conectar a todas las personas? ~  Sí señor, si lo era.  A este paso acabaron +","valence", 0.688
+"02006"," Ya ahora la palabra no vale nada ? #ironía ","valence", 0.360
+"06696"," Un semáforo malogrado cumple mejor función que un policía de transito 😤 ","valence", 0.413
+"02879"," Lo que más me da tristeza es que es aparente suicidio . Nunca sabes lo que otra persona sufre, nunca te lo imaginas.  #RIPChesterBennigton","valence", 0.125
+"01720"," Ya siento tus pasos acercarse, Señor. Tiempos de llanto y también de regocijo. Cúbreme con la justicia de Cristo. ¡VEN, SEÑOR JESÚS!","valence", 0.542
+"02531"," La Mastrofobia es el miedo a los senos ","valence", 0.430
+"06580"," Fui a comer con mis amigos y ya estoy comiendo compota en mi casa, estoy muy ansiosa.","valence", 0.646
+"03008"," @username Resentido, 👋","valence", 0.146
+"01963"," Loca se enojo conmigo pq segun ella lo acababa d conocer y ya le hablaba como si fuera de hace mucho PERO PARALE LOCA ","valence", 0.396
+"03882"," Se mandan tarde los tweets ","valence", 0.391
+"01195"," Después de tres meses sin agua esta llego #Feliz gracias intergaláctico hasta que ustedes llegaron . Las tuberías no existían #NMJ 😤 😤 😤 ","valence", 0.583
+"00516"," @username Que graciosa he 😢 ","valence", 0.545
+"03410"," @username Haste la muertita ","valence", 0.438
+"05592"," ¿ Sabéis que Yoli tiene num años ? Yo por poco no me entero . Solo lo ha dicho una vez . #GalanumGH #ironia ","valence", 0.720
+"00971"," Con num semanas intensas de Squad Battles te dan un trofeo en el que pone que te has pasado Ultimate Team #Ironía #FIFAnum ","valence", 0.500
+"04168"," @username se re nota que es una resentida, por favor mamita supéralo JAJAJA","valence", 0.333
+"04022"," Soy tan orgullosa que no le voy a decir Felíz día . ","valence", 0.771
+"02698"," @username Cómo me haría falta ese taller en estos momentos, carajo...  #Novela #Miedo #Temor #Bloqueo #ParálisisMental #NoSeaCoyón","valence", 0.396
+"01413"," Q agradable sujeto Icardi jajajaja ","valence", 0.632
+"04075"," El tiempo pasa incluso aunque parezck imposible, incluso a pesar de que cada movimiento de la manecilla uel reloj duela.","valence", 0.292
+"00192"," @username Me importa un reverendo coño ver programas de interés social exclusivo de personas con menos de dos dedos de frente 😀 ","valence", 0.292
+"03123"," @username JuajuajuajuajauJauJuJajajuajaua que chistoso ","valence", 0.771
+"03903"," Una persona puede dar mucho o poco, todo a su manera, pero no esta nada padre que lo vean a reclamo cuando solo quieres su bienestar.","valence", 0.438
+"02089"," @username @username Gracias a la cnstituyente ","valence", 0.548
+"00957"," Te bajan al ex . Y estás llorando ? POR FAVOR . Nadie pelea por un pendejo ! ","valence", 0.261
+"06850"," Yo creo que me voy a hacer un tatuaje, o menos como cinco. ","valence", 0.646
+"04008"," De lo que se entera uno 😂 ","valence", 0.587
+"05268"," Va a tener que pedir perdón por celebrar el día de Catalunya e ir con su bandera, porque eso es ser anti español. Claro que sí. #Ironía","valence", 0.438
+"04449"," No te olvides : el #ejercicio y la #actividadfísica mejoran el #ánimo, estimula la agilidad mental y alivia la #depresión. #CuidaTuVida","valence", 0.750
+"04519"," En qué momento me hice así ajjjajjajajaa ","valence", 0.833
+"03208"," @username Oye carnal ya no me gusto la pinche vieja se volvio muy pinche sangrona ","valence", 0.261
+"00262"," Estoy muy emocionada, ni hablar de lo que voy a llorar cuando me digan que ya nació Vamos princesa❤👶","valence", 0.930
+"02293"," @username Logré ver esto y dije ; ¿ mi amigo ? Me da alegría saber que lo puede lograr, es más esto merece comida, ¿nos fuimos? 😂","valence", 0.612
+"03816"," Peli de terror,toy re cagada","valence", 0.354
+"03483"," Al principio no me llamó la atención, luego lo vi sonreír y fue como aplicar mil filtros de Instagram.","valence", 0.773
+"01620"," ¡ LAMENTABLE ! Andrés Uzcátegui murió al explotarle mortero en el pechohttp :/ / www.lechuguinos.com/andres-uzcategui-murio-mortero/ ","valence", 0.292
+"00200"," @username Susto * * ","valence", 0.457
+"05136"," @username en mi escuela lo hicieron y las profesoras hicieron un drama y los encerraron todo el recreo para hablarles de dios ","valence", 0.417
+"00809"," @username @username Ya pasó ","valence", 0.646
+"06904"," Lo bueno es que las mentiras tienen patas cortas y las caretas se caen solas 😉 lo bueno de tener la consciencia limpia ... 😊 ","valence", 0.500
+"03098"," Siento alivio al escribirlo . ","valence", 0.688
+"06156"," En el tráfico pedís vía y no te la dan luego el que no te dio vía pide vía adelante y quiere que alguien más haga lo que el no hace #Ironía ","valence", 0.354
+"06344"," Tu clamor pone al diablo a temblar, tu Alabanza lo confunde. #LaAdoraciónADiosEngrandeceLaNación","valence", 0.667
+"03724"," @username @username LPM ESTOY TAN EMOCIONADA COMO TÚ ","valence", 0.826
+"01197"," @username el salto de cama de la presentadora fue un intento de tener audiencia ? ","valence", 0.500
+"05802"," Baby a veces me hago la enojada solo porque quiero el sexo de reconciliación . ","valence", 0.542
+"04499"," Aveces le tengo tanta bronca a la sarnoza de mi hermana 🙄 😤 ","valence", 0.250
+"02241"," Cagaron a tiro a alguien y si todo esos tiros fue para alguna persona la dejaron echo un colador 😂 ","valence", 0.521
+"02168"," @username exactamente, con eso queda claro lo mierda que está todo ahora ","valence", 0.239
+"01442"," @username fernan por que no eres animado #FERNANYANOESCOMOANTES ","valence", 0.564
+"04286"," @username ¡ Buenos días ! Yo tengo un social 😥 ","valence", 0.708
+"01280"," Para que me bloqueas hija de tu pu * a madre ","valence", 0.087
+"01036"," Si se enojan, no pequen; que el enojo no les dure todo el día. No le de oportunidad al diablo.","valence", 0.333
+"04515"," La mamá de gaby me manda mensajes y me dice que deje de tomar ","valence", 0.420
+"01235"," El mundo es un lugar peligroso . ","valence", 0.208
+"00560"," Menos mal que el #ReydeBastos nos ha dicho que estemos tranquilos, pensaba que esta noche no dormía sin escucharle... #ironía","valence", 0.458
+"04622"," #felizdiadelamigo al amor de mi vida, que es, a su vez, mi más valioso amigo. ¡Feliz día, mi corazón!!","valence", 0.958
+"03843"," Solo le dije feliz dia a una persona jajja nose en la unica que pense 😏 ","valence", 0.708
+"05779"," Robben en banca y Muller titular #Irónico 🤦 ‍ ♂ ️ ","valence", 0.609
+"06326"," @username Jajajaja no el chiste es que sea un buen susto jajaja ","valence", 0.854
+"06869"," @username Estaría genial, ya que en otros lados no se fabrican  y se los llevarían.","valence", 0.688
+"02614"," num semana que no fui al colegio ","valence", 0.500
+"06619"," Cursar tanto me estresa #sarcasmo ","valence", 0.417
+"02390"," No les conté pero hoy me fue genial con la nutricionista ! ! num % menos de grasa corporal y subí num.num kg en músculo 🙌 🏻 💪 🏻 con edad metabólica de num ","valence", 0.854
+"03829"," Lo llame a mi novio que dormía, solamente para cagarme de risa dos hs","valence", 0.688
+"00475"," @username jaja y quedarte dormida del susto no ? ? jaja ","valence", 0.667
+"04770"," Mis sueños me dan miedo 😥 ","valence", 0.180
+"04747"," @username Víctimas dl terrorismo en Argentina sin DDHH . Terrorista con cenotafio q figuran en muro de MEMORIA ! ! Cdo tendrán justicia ? ","valence", 0.174
+"05502"," Que triste lo mio, Ni amigas tengo ","valence", 0.104
+"06272"," @username @username El sarcasmo esta bajito ","valence", 0.509
+"06073"," Llorarás más de diez veces por amorrr ","valence", 0.229
+"04211"," Solamente aquel que es demasiado fuerte para perdonar, una ofensa sabe amar. #RT #FF #amor","valence", 0.491
+"06808"," #NoVolveriaA bloquearte porque ya me das igual ","valence", 0.396
+"04713"," Yo se que le gusto, ajá, pero mejor así. No quiero nada serio con alguien..","valence", 0.396
+"05344"," ¡ Cómo me fascina hacer el trabajo que pertenece a otros departamentos ! #Ironia 😧 ","valence", 0.360
+"00698"," Como estoy un poco aburrida ... Cada fav / mg es un dato de mi . ","valence", 0.333
+"00330"," En estos partidos es cuando mi corazón se divide terrible, me siento tan santandereana como rola.","valence", 0.458
+"00122"," Estoy a dos de entregarte mi corazón, yo creo que a menos como 5 ","valence", 0.682
+"01038"," Dios yo se qué tu tienes los planes originales pero si son iguales a los míos no me enojo ","valence", 0.458
+"06284"," @username Tras de matón ladron ? Bueno algo así dice el dicho ","valence", 0.480
+"02274"," @username @username Felicitaciones keiko ","valence", 0.729
+"00372"," [ num/num num:num AM ] Traidora : Ay te amo ❤ Feliz día mi puti . Otro año mas con vos . Sos única siendo como sos, y te amo así. Mañana estamos juntas","valence", 0.896
+"01832"," Expresión que da a entender algocontrario o diferente de lo que se dice, generalmente como burla disimulada. #ironía","valence", 0.440
+"04367"," es gracioso ver gente q nunca se conforma con el amor que le brindan, siempre quieren más y más y más y PARA UN POCO LOCA YA TENÉS A ALGUIEN","valence", 0.413
+"00659"," Resaca le mandó gallardo Pero hacete culiar amargo ","valence", 0.304
+"03746"," Que no me falte nunca mi amigo ale ","valence", 0.792
+"01412"," @username Olé de verdad #Ironía ","valence", 0.543
+"02685"," @username @username @username @username Esa es la idea Claro . #ironía ","valence", 0.542
+"02910"," ibas a patin, nunca te conoci bien pero me caes genial","valence", 0.813
+"06016"," @username Si no decime a mi que bese el piso ","valence", 0.420
+"04355"," Mi no tolerar a ese par . @username dame cachetadas por fa . ¡ Feliz dia del amigo cariño a ti y a @username los quiero ! 💖 ","valence", 0.739
+"06127"," @username No se te vaya a olvidar, yo que tú lo fijaba ","valence", 0.646
+"02510"," @username Para no se ni que escribi, esto de ponerme ansiosa no es lo mio","valence", 0.333
+"03199"," Siempre tiene que estar Dios primero en tu vida y te ira bien ! ","valence", 0.780
+"02856"," Estoy muy aburrido . ","valence", 0.250
+"03153"," @username Lamentablemente asi es mucha gente ","valence", 0.164
+"02115"," Miedo es la primera vez que no puedes hechar el segundo ; pánico, la segunda vez que no puedes hechar el primero. ","valence", 0.479
+"03808"," He ido a donar sangre al Clínico para los num heridos del domingo y hemos acabado cantando el Imagine . Piel de gallina #ironía ","valence", 0.646
+"06708"," Se me pasó volando la estudiantina ","valence", 0.509
+"02091"," Acabo de abrir mi snap y tengo fotos guardadas del finde y me quiero MORIRRR JAJAJA POR KEEE ","valence", 0.542
+"05215"," @username me cae re bien, tremenda diosa, ella y su grupo me odian creopp igual la mejor","valence", 0.604
+"04663"," @username @username Teniendo en cuenta que esas denuncias sólo ocurren cuando está la derecha en el poder ... Tiene su gracia . #Ironía ","valence", 0.479
+"06616"," Vamos esta noche a enloquecer 🎶 ","valence", 0.833
+"02382"," La única razón por la que me esta gustando insultar es solo para provocarle . ","valence", 0.370
+"05666"," Sigo pensando, en que suerte que esa vez que tuve parálisis del sueño estaba durmiendo conmigo,  si no me moría del susto sola.","valence", 0.313
+"02477"," @username @username Esto es terrible e inaceptable . ","valence", 0.152
+"04006"," La #Felicidad se guarda en naftalina, se esconde de los malos debajo de la cama  🎈  - @montanertwiter","valence", 0.667
+"00283"," Me caga dormirme enojado carajo ","valence", 0.135
+"02498"," @username #ironía El ciudadano tuvo num años para prepararse ante los sismos y aprender sobre ellos y hoy todo es como arte de magia . ","valence", 0.391
+"03728"," Ademas andan leyendo los insultos y sintiéndose mal por eso . #ModoHumor #Ironía ","valence", 0.400
+"03037"," @username @username @username @username ¡ Que no lo veamos ! #susto ","valence", 0.300
+"02398"," Ha sido larga la comparecencia del Rey sobre la crisis de estado que estamos sufriendo ... #ironía . #numOct ","valence", 0.239
+"02738"," Yo : flotaras pa . El : no puedo flotar por qué estoy gordito . ","valence", 0.521
+"04709"," T paso alguna vez ? Vi x la puerta d la pieza pasar a alguien x el pasillo . Miro y no hay nadie . #raro #Tepaso #Espanto ","valence", 0.458
+"02721"," @username @username ESTOY EMOCIONADA AAAH ","valence", 0.948
+"00074"," @username jaj tan resentido ? ","valence", 0.333
+"06583"," Fin de semana de descanso total, dormir + de 10 horas seguidas, comer rico con heladito incluido y 24 hrs viendo the big bang theory 😋#feliz","valence", 0.977
+"02626"," @username bebito, ¡feliz cumpleaños! espero que disfrutes mucho el día 🤗 eres el mejor.","valence", 0.917
+"01308"," @username FELICIDADES FER 💕 QUE ESTA PASANDO AL AGUS PARA DARLE LIKE A FOTOS DE CARO JAJAAA ","valence", 0.700
+"01658"," Nada se olvida más despacio que una ofensa ; y nada, más rápido que un favor Martin Luther King BUENOS DÍAS FELIZ MIÉRCOLES","valence", 0.717
+"03348"," Lo peor andar en el @username q gente más mal educada 😡 ","valence", 0.164
+"00590"," Más bellaquera, menos timidez","valence", 0.522
+"06425"," Que feo está el cielo ","valence", 0.458
+"01748"," Estoy tan contenta, goddddddd, voy pa Grecia","valence", 0.938
+"03015"," @username Preparando la venganza 😚 😀 ","valence", 0.479
+"04032"," @username Es el CuriousCat en versión moderna ","valence", 0.652
+"06338"," Que feo se siente perder a una persona muy cercana 😥 ","valence", 0.125
+"03825"," Tan resentida vas a estar locaaa ? ","valence", 0.375
+"04763"," Poder sorprender y que te sorprendan . Qué fortuna . ","valence", 0.875
+"05384"," Brillante @username gran monologo ! ! ! ","valence", 0.708
+"03250"," @username pero es con cariño, si no te quisiera no hubiera caído en tu chantaje del piojito ","valence", 0.565
+"03397"," @username Es lo más probable ","valence", 0.563
+"02777"," Hacia tanto tiempo que no sonreía tanto a mi celular mientras hablaba con alguien 😊 ","valence", 0.875
+"03777"," Pucha ya no me sirven todos los carros a Rondizzoni ... #ironía jajajjajaja #unañomas ","valence", 0.540
+"00291"," Me agarro sueño que miedo ","valence", 0.333
+"01579"," Siguen los amigos que quiero tener, no me puedo quejar... Gracias por todo, ¡Feliz día! 💘","valence", 0.955
+"05739"," @username El que nunca me saluda 😟 ","valence", 0.333
+"05538"," @username anon sos terrible cornuda y bla etc ","valence", 0.250
+"01228"," @username Cabal ! Ahí van bolos, no crudos. ","valence", 0.545
+"02128"," @username Me pone nervioso que tenga el pecho tan grande 😂 ","valence", 0.720
+"01420"," Soñe contigo, más que una sonrisa me sacaste.","valence", 0.696
+"03688"," @username @username Son tipos de doble rasero, se creen abanderados de la justicia, permitan que me sonría 😀","valence", 0.380
+"05016"," @username En caso de ser mujer ... Piensan en embarazo, quisiera tener anemia en ese caso. 😅","valence", 0.583
+"04414"," Una maravilla del mundo es beber café hirviendo a esta hora . ","valence", 0.783
+"01701"," Feliz día a todos los amigos ! ! ! ","valence", 0.740
+"00983"," Si espera rencor o alegría de verme sufrir ... ","valence", 0.419
+"01986"," Mañana es festivo 😍 ","valence", 0.868
+"01485"," Me tiene todo tan cansada ","valence", 0.306
+"04564"," @username Ahi vas a poder ahora . ","valence", 0.604
+"04784"," @username Las apoderadas son lo pior ! ! ! ","valence", 0.326
+"01623"," x dios q aburrida estoy q alguien me charle un rato ","valence", 0.271
+"01274"," Humilde o está intimidada ? ? ? #Bailadisimo o ardidaaa @username jajajaja 😂 ","valence", 0.587
+"02185"," Y que tal si mejor estoy de oyente @username ? ","valence", 0.660
+"05545"," Domingo, 23:36   Quiero escuchar música y cantar a todo pulmón pero no quiero despertar a los demás ","valence", 0.717
+"04284"," @username Yo salí en la camioneta, desayuné McDonald's, almorcé China Wok y también se m olvidó ponerlo en las redes #sarcasmo ","valence", 0.563
+"05637"," Hasta mañana ","valence", 0.640
+"05242"," @username Jajajajajajajajaja lpm quedo horrible ","valence", 0.521
+"02978"," El hey me gustas quieres salir con tal y no se que es lo que mas me ha dado risa en mucho tiempo ","valence", 0.826
+"05671"," harry está emocionado por la gira mundial, y yo estoy deprimida de vuelta porque no tengo entrada.","valence", 0.261
+"03719"," Estaba #triste y ","valence", 0.313
+"02893"," Ustedes que saben de terror si sus hij @username no les encargan a sus nietos para irse de fiesta ","valence", 0.375
+"03654"," @username Un gusto .. ","valence", 0.729
+"01556"," @username A lo loco ! ! ! ¿ Lo próximo qué será ... ? ¿ Que puedan votar ? #ironía Menudos retrógrados . ","valence", 0.213
+"06385"," @username @username tiburón eres un enchufado mas y un laboratorio mejor ni te contesto no vale la pena ","valence", 0.261
+"02860"," @username Ahora es aburrida pero con música 🙌 ","valence", 0.441
+"2018-En-02354","	Tan @Ryanair accidentes de sitio everytime  intento reservar - cómo   ayudan? Me digo hay nada incorrecto &amp; cuelga #furioso #helpless @SimonCalder	","valence",	0.141
+"2018-En-00124","	Tema de semana: Preguntar el Señor para fuerza &amp; perspectiva a persevere en #integridad y esfuerzo, a pesar de ser #disheartened &amp; decepcionado.	","valence",	0.317
+"2018-En-02603","	@F1 Por qué anunciando tan tarde, sea duro de hacer él de Mánchester y organizando un día fuera. #Triste	","valence",	0.145
+"2018-En-00450","	La felicidad más grande está viendo alguien te gusta la estancia feliz - Daidouji Tomoyo [Cardcaptor Sakura ]	","valence",	0.813
+"2018-En-00502","	omg tan agradecido de tener una educación pero ive estado de vuelta en escolar para 2 (dos) días y mi atrás hace daño, im agotado y rompiendo fuera ya 😍	","valence",	0.672
+"2018-En-02500","	Debido a vuestra @sonrisa,  @haces la #vida más #bonito:::::::::::::::::::::::::::::::::::::::::	","valence",	0.845
+"2018-En-02737","	@mashable Para algunos razonan esto me ha llenado con delicia. Ve Auntie risa.	","valence",	0.774
+"2018-En-01354","	@LoveMyFFAJacket FaceTime - Todavía te podemos molestar 😂	","valence",	0.677
+"2018-En-03750","	e i shouldve les cortó fuera el momento i me empezó hacer daño encima les :o	","valence",	0.283
+"2018-En-01292","	@VescioDiana  olvidaste #risa también ❤️❤️❤️	","valence",	0.700
+"2018-En-01838","	@maidinaustralia D: Aquello es horrid. *hugs*	","valence",	0.350
+"2018-En-01198","	 Era habiendo un #BadDay e i fue en #YouTube y mirado @domoandcrissy reacción a viejo pics. #Gracias #Señoras para las #risas	","valence",	0.758
+"2018-En-00459","	Wtf shawty asno en 😤	","valence",	0.188
+"2018-En-01908","	@dom_conlon  está asombrando no es lo. Soy un seguidor grande de B&amp;W pero la vida estas restauraciones dan las fotografías es sobrecogimiento inspirando.	","valence",	0.717
+"2018-En-01474","	No supo el @ChickfilA cosa de día de la vaca acabada en 7:30 así que apareció 30 min tardío pareciendo una vaca sin sandwich #tristeza 😅😅😅	","valence",	0.397
+"2018-En-02459","	@BBCWorld Curso él  no. #Sarcasmo	","valence",	0.360
+"2018-En-01733","	@thatradiogeek Aquello es una cosa enorme para despertar a y leído, hombre. Feliz de oírlo, cuando  necesitamos MANERA más las personas que ayudan con este.	","valence",	0.517
+"2018-En-03041","	#ThingsIveLearned El pastor #sensato nunca confía en su rebaño a un #lobo de sonreír. #TeamFollowBack #Hecho #wisewords	","valence",	0.532
+"2018-En-00405","	los medios de comunicación es tan centrados en malos noticiosos que  olvidamos cuántas cosas buenas/más grandes pasan diariamente. #Thinkpositive #goodnews #Optimismo #goodmorning	","valence",	0.613
+"2018-En-01183","	@WhiskurMew cumpleaños Feliz, bonito!  Espero hoy es tan precioso, maravilloso, y pasmoso cuando  eres!!  Mereces no menos de aquel! 😊🎉🎂💞	","valence",	0.850
+"2018-En-03279","	Bien Alex y yo tienen vecinos de chico del partido que música de explosión	","valence",	0.448
+"2018-En-03129","	Amazona Feliz día Primo a todo mi primers 😆	","valence",	0.629
+"2018-En-02573","	@praddy06 señor..   tenemos la necesidad para paraguas hoy anochecer.. El sol parece para ser más fuerte de adoquinar manera para nubes.. 😟	","valence",	0.313
+"2018-En-02502","	Nah Pero como gobernador cómo   llamas alguien un bum &amp; aquello te encantan las llamadas de 'comunista en Montclair' ? 😂 #Llorando	","valence",	0.536
+"2018-En-02178","	#dmme #kikme  #sext #horny  #asno #bbw  #travieso  #pussy #kik   #desnudos  chicas  únicas  😩 horny  #chasquear    jacobgigs	","valence",	0.417
+"2018-En-03955","	Qué es este tiempo de asno desgraciado todo sobre 😭 oscuro y gloomy #deprimiendo #weekoff #wheresthesun	","valence",	0.200
+"2018-En-00477","	@BBCBreaking  tengo algún mistrust de la profesión médica.  La cubierta arriba era más importante que los pacientes.	","valence",	0.315
+"2018-En-02934","	Es u #deprimido #hypo #maníaco #solitario #aburrido #nofriends #needfreinds #amigo  siento chatty  quiero ayuda ppl o justo #makefriend   #dm #las mamás	","valence",	0.359
+"2018-En-00749","	#ansiosas no sabe por qué ................. #Preocupación 😶 despacio yendo #loco hahahahahahahahaha	","valence",	0.531
+"2018-En-01435","	@o_guijarros No de este uno tristemente! 😪	","valence",	0.172
+"2018-En-04144","	' Podemos echar piedras, reniega aproximadamente les, stumble encima les, sube encima les, o complexión con ellos.' — William Arthur Ward. #Inspirando	","valence",	0.581
+"2018-En-00653","	@JoySparkleBS siendo capaz de sentar con tanto sólido info mientras otros vinieron en su preparados de matar es una señal cierta de fuerza. #Inspirando	","valence",	0.672
+"2018-En-03459","	cumpleaños Feliz a ma hermano de otro Oficial @de madre1Cedi dis año Más bendiciendo #Rotura itz	","valence",	0.866
+"2018-En-03476","	@neobrainless Así que... Mucho bastante pintado blobs de azúcar?  Significo soy dispuesto de probarlo,  soy justo no seguro  entiendo el punto de él 😅	","valence",	0.500
+"2018-En-03633","	 siento gusta  tendría que ser mirar #glee, pero #glee justo me hará el grito y yo estoy intentando recordar el tiempo feliz	","valence",	0.468
+"2018-En-03935","	se Acostó un 1:30, cayó dormido después de que, mi sobrina empezó llorar en 4.  Estoy muriendo... 😧	","valence",	0.100
+"2018-En-01696","	aleesha—La cocina se hunde, veinte un pilotos (!!)	","valence",	0.641
+"2018-En-03913","	Y el #chico maravilloso en el Jardín creció en cordura y estatura y a favor con Dios y hombres, el cual, literalmente, era sus padres.\n#VSS365	","valence",	0.594
+"2018-En-03719","	El blackest abismo de desesperación, Alonzo	","valence",	0.133
+"2018-En-03255","	Ha ha descripción de pisos del amor de Marlie packer... Default Encuadre 'modo de combate'.... 😂😂😂😂😂  #Brillante \n@davidflatman @MarliePacker #WRWC2017	","valence",	0.817
+"2018-En-00912","	#redvelvet #wendy #seulgi #irene #yeri #alegría \n1. Qué miembro que no puede beber sparkling agua ?	","valence",	0.547
+"2018-En-00534","	Conseguir el sentimiento @Eurosport_Reino Unido y @itvcycling podría ser revisar mostrando todas las  etapas en llenos. Pobre @robhatchtv @nedboulting 😴😴😴 😉 #atenúa	","valence",	0.300
+"2018-En-02789","	@bloggerlinds deseándote alegría en vuestro día. #Felicidad #de alegría #empowerri	","valence",	0.871
+"2018-En-03667","	@_ruthharvey_ feliz bday Ruth, esperanza  tienes un día asombroso 💘💘x	","valence",	0.917
+"2018-En-03237","	era uno moron  conduciendo su oversize tonka camión con la bandera grande en la cama atrás y adelante blaring música de país. 😐 #Decepción	","valence",	0.125
+"2018-En-03184","	siento malo para albóndiga, no realmente pero  sabes qué I malo #vetoad #irónico #BB19	","valence",	0.403
+"2018-En-01192","	@TheEllenShow  te sigues bc vuestro espectáculo de televisión me mantengo riendo🤣.  Cuándo tú #startle vuestro huésped que sienta en aquel couch...booo...	","valence",	0.783
+"2018-En-00095","	@PiersatPenn Gracias Emily querida. Esto es una participación maravillosa me encanta. Emily, tiene momento muy feliz allí mi amigo bonito	","valence",	0.845
+"2018-En-02517","	la aerolínea Unida en Newark necesita más Quioscos de modo que las personas no perderán su corte fuera tiempo.  Y contratar más ppl demasiado.  #Horrible	","valence",	0.179
+"2018-En-03002","	 necesitamos pero poco aprendizaje para vivir afortunadamente - Michel de Montaigne #cita #cordura #de filosofía #wisewords #mentalhealth #ansiedad #de psicología	","valence",	0.679
+"2018-En-02148","	@hatzepueh y no le llama creepy,  es el más guapo, tiburón adorable y más bueno nunca 😭 vale Zora, buuuuuut  parece un tiburón	","valence",	0.483
+"2018-En-00332","	@IainDale @LBC La palabra única peor que  soyoist' en mi opinión es  escrape'. #ugh #Estremecimiento	","valence",	0.276
+"2018-En-00999","	@KylieSpearsXo cumpleaños Feliz a ti #Kylie bonita! 🤗😙❤🎁🎂🥂	","valence",	0.717
+"2018-En-01120","	'Este un?' \n'Un poco extraño mirando no es él? Puntiagudo.' El alienígena preguntó. \n'Quizás. Pero sea #maravilloso.  Es del Steve pila.' #vss365	","valence",	0.617
+"2018-En-04103","	@Jack_Hierba_de Ojo Séptico que crece el simulador se agravia	","valence",	0.344
+"2018-En-01568","	@silverstein 13.º tiempo que te ve tipos hoy y  cancelas el conocer y saludar debido a la tormenta. Somos todos remojó.. 😡 #dissapointed	","valence",	0.183
+"2018-En-03625","	@LogicIsPowerful No todos de ellos son malos. Pero  apoyo vuestro correcto de ofenderles todo.	","valence",	0.547
+"2018-En-04229","	@rachelkennedy84 @callummay @Ned_Donovan @JeyyLowe @jimwaterson @dats Puede él  la campana ringing e incienso en consagración?	","valence",	0.500
+"2018-En-03286","	Encontrando una tienda que está cerrando es ambos triste y #awesome. 50% fuera todo!? Me entro ahora! Mi bolsa es nada pero #redbull &amp; aloe agua	","valence",	0.642
+"2018-En-01375","	@eben4u #se quedó encima te...Marcas  aprecias amor worshiping....Todo i quiere hacer es adoración tú!!	","valence",	0.645
+"2018-En-00628","	No puede manejar personas groseras. No importa qué trabajo tú , un asesor o no, tratar personas cómo gustarías ser tratado 😡 #disapointed	","valence",	0.067
+"2018-En-01726","	Una pérdida no es una pérdida es una lección #sonríe	","valence",	0.615
+"2018-En-01293","	los auriculares nuevos de Mi socio trabaja 2 bien. Es malo. No me pueda oír yelling @ le cuándo i era aproximadamente 5ft delante le! #Tecnología #irónica	","valence",	0.333
+"2018-En-03037","	@airish_cloudly aaww! iam Enviando virtual hug entonces, eonnie se preocupa aproximadamente te así que aclama arriba y estudio bien!	","valence",	0.656
+"2018-En-02278","	Sueños peores. 😥	","valence",	0.250
+"2018-En-00338","	Hombres de favores del dios y mujeres que delicia en ser hecho digno de felicidad antes de la felicidad él.	","valence",	0.621
+"2018-En-01197","	Jeong su Es fácil de llevarse bien con a todo el mundo le gusta y no intimidado por él.. Me gusta..  Me recuerdo de seunghoon	","valence",	0.617
+"2018-En-03941","	Alguien es nicked mi comida fuera de la nevera en trabajo!! Asa cena también! #fuming	","valence",	0.167
+"2018-En-04173","	Tiempo para una #explosión #burstcoin tenedor??	","valence",	0.485
+"2018-En-03899","	Casi 60% de GOP los miembros piensan que la educación más alta está arruinando este país. Aquello incluye GOP miembros con grados de educación más alta. #Ironía	","valence",	0.397
+"2018-En-02951","	@ShojoPower Sí, o aquellas películas de libro de cómic animadas!	","valence",	0.532
+"2018-En-00102","	Aquel momento cuándo la preocupación es lifted #lección	","valence",	0.741
+"2018-En-02055","	#agradecida de @KevinHart4libro #real  aplicaré:  En #vida U siempre tener una elección.  Kev Tuvo grimey las cosas pasan &amp;  #escoja #el optimismo	","valence",	0.571
+"2018-En-04125","	Perdió mi apetito para el pasado 5 días y yo juran ya perdí 3 libras que #deprimen #en #menos #i #será # #flaco #para #fin de semana #de orgullo	","valence",	0.200
+"2018-En-03974","	@HasegawaSona Grande, toothy sonrisa cuando ella wiggles aproximadamente!	","valence",	0.688
+"2018-En-02331","	I wont rt cosas que podría ofender vuestro faves bcs soy mejor que que	","valence",	0.484
+"2018-En-00790","	Sido en trabajo para ni siquiera 4 horas y yo han echado hirviendo té en todas partes, rompió un mug, rompió una jarra de leche y sliced mi dedo abre😐	","valence",	0.207
+"2018-En-00420","	I malo, no que  quise cabras a faint... Pero  quise ver las cabras faint.  #Eclipse	","valence",	0.241
+"2018-En-04078","	Tan feliz de ser casa de Eivissa el sitio es alguna cosa más loco gaff que , la necesidad encuentra un pájaro ahora  quiero empezar haciendo cosas románticas ahora 😂😂	","valence",	0.903
+"2018-En-02368","	#lol #sarcasmo #de comedia #graciosa me: i no se preocupa :)\n\nme, uno segundo más tardío: *los inicios que lloran*	","valence",	0.554
+"2018-En-01472","	O, el melancholy las catacumbas deprisa vagadas sobre el Rue Morgue, Madman!	","valence",	0.350
+"2018-En-02484","	La misma parte de barra de techo (el lado del conductor) está robado de Magnífico Vitara coches. Dejado lo ser sabido. Esto es realmente #disheartening #brunei	","valence",	0.288
+"2018-En-01491","	Siempre que  te ves mi día mejora y mejor ☺ #sarcastic	","valence",	0.683
+"2018-En-03165","	Esto es clase de jodió arriba, pero mi hermano está a punto de unir la academia policial....Y no soy feliz aproximadamente. Y no soy el único un.	","valence",	0.103
+"2018-En-00258","	@KhaoJimmy Vale awak 😆	","valence",	0.581
+"2018-En-01720","	Nunca oído de #CaraCaraOranges hasta que hoy. Muy #tasty! Altamente les recomiendo! #Delicioso #GoodForYou #naranjas  #de frutas	","valence",	0.925
+"2018-En-03250","	no entendéis. La ira de esta mujer es REAL. 🌹🖤	","valence",	0.328
+"2018-En-01723","	Soy tipo 'feo' whos agradable geuine  y feliz &gt; un mal tipo atractivo whos amargo y coniving y superficial	","valence",	0.417
+"2018-En-04326","	#DamilolaOurLovedBoy Tan hincapié 😢😢. Por qué hacer las personas quieren hacer daño otros! Un mundo tan cruel  vivimos en #desgarradores	","valence",	0.032
+"2018-En-04347","	I soy atrás en Twitter! #Enloquece #enloquece18 #maddenmobile #ea #nfl #espn #packers	","valence",	0.734
+"2018-En-00142","	+ cant consigue para decirles qué les ofenderá o no	","valence",	0.283
+"2018-En-04256","	Despertó sentir fresco con una mente clara. Aquello nunca es pasado antes de que.\n#La mañana #serena	","valence",	0.581
+"2018-En-02824","	@JoyceMeyer @mrsglessman #día de #vengeance de nuestro #Dios; para #consolar todo quiénes #lloran, A consola quienes #lloran en #Zion, para dar [4/7]	","valence",	0.379
+"2018-En-00207","	5 objetivos en 87 aspectos última estación entre McKay, Holt y Windass! Sencillamente es horrific! Consigue midfield el equilibrio ordenado y el equipo despedirá!	","valence",	0.419
+"2018-En-02293","	La manera  soy siempre en twitter en el trabajo es un poco alarmante 🤦🏾‍♀️	","valence",	0.468
+"2018-En-03381","	🇿🇦ha devenido un sitio donde personas incluso el más timid de nosotros todos son baying para sangre alrededor de cada esquina.	","valence",	0.431
+"2018-En-02139","	@realDonaldTrump Manera de unir el país - tal presidental tweet #ÉXITO	","valence",	0.500
+"2018-En-02185","	de sarcasmo no es justo sobre qué  cumples en vida,  es sobre qué  inspiras otros para hacer. #La inspiración  #inspira	","valence",	0.633
+"2018-En-03337","	@JoshuaRozenberg Oh querido! #tantrums	","valence",	0.383
+"2018-En-02830","	@Peligro_McLovin Bien hecho! 😀 (Vuestros gemelos Charlii y Cadance)	","valence",	0.833
+"2018-En-03770","	Brown envelopes puede inducir pánico. #posttruth	","valence",	0.403
+"2018-En-01489","	Caleb tuvo una pesadilla sobre zombis.  Tuve un sueño aproximadamente libertad.......	","valence",	0.380
+"2018-En-02298","	Qué   hago con mi corazón que está temblando por justo el pensado de él?\nI Realmente no sabe qué amor	","valence",	0.396
+"2018-En-01665","	es Algo #awestruck me hoy tan i reía a un no subtitle korean espectáculo de variedad...	","valence",	0.938
+"2018-En-00155","	uau :o Esto estuvo incluido en el playlist #awesome	","valence",	0.922
+"2018-En-01668","	Justo miró @JoeNBC en @colbertlateshow -- &amp; tiene que decir... Soy intimidado. Qué productos de cabello es utilizando, @greggutfeld ?? #El trabajo #celoso	","valence",	0.806
+"2018-En-02424","	bonito me va a matar y 5 o'el reloj es en ninguna parte cercano 😟	","valence",	0.226
+"2018-En-02798","	Siempre que I vuelta en el radiofónico y oír Bob Dylan está Golpeando encima el ser de Puerta del cielo jugó,  supongo  está muerto. #Aliviado #notyet #someday	","valence",	0.417
+"2018-En-00828","	era feliz en aquel posando que  esperé para correr cuándo el sol salió causa I normalmente corrido cuándo es oscuro por la mañana.	","valence",	0.516
+"2018-En-03475","	justo me encanta #húmedo NYC #sarcasmo 🔥🙄💦 #de verano	","valence",	0.617
+"2018-En-01890","	La luna esta noche 😮 #bonita	","valence",	0.677
+"2018-En-00851","	@maritzabuys666 Miradas maravillosas!!!  Deseo sea mi gallo tho!!!  😍	","valence",	0.733
+"2018-En-02744","	Si  construyes arriba el resentimiento en silencio eres realmente haciendo cualquiera cualquiera favorece	","valence",	0.345
+"2018-En-02727","	Cada cual y cada vez I registro encima a aquel sitio web para ver la Lindsey Vonn pics  estoy #entristecido por el courseness de nuestra cultura.	","valence",	0.069
+"2018-En-02511","	No deja el miedo de perder ser más grande que la emoción de ganador. ~Robert Kiyosaki\n\nAllOutDenimFor KISSMARC	","valence",	0.567
+"2018-En-03559","	joder un nigga los sentimientos cultivan  encuentro un nigga  estoy sintiendo 😆	","valence",	0.383
+"2018-En-03821","	@wengzyjb no incluso sé na naa koy pesadilla bonita hahahaha oks	","valence",	0.667
+"2018-En-01328","	café el piso; Y el alma creció furiosa como el stillness roto por pequeño,	","valence",	0.255
+"2018-En-01395","	@_Buddh_ @rohit_mhpl @indujalali @rajnathsingh  somos también wating cuándo terrorismo willb historia. Y una cosa kashmir no es India	","valence",	0.552
+"2018-En-00716","	@badpostyoongi I sabe para un hecho tampoco ignorarán el hecho tiff no es o cambio Cindy  de fondo	","valence",	0.428
+"2018-En-03361","	si no entonces #teamchristine bc todo tana ha hecho es provocar su por tweeting mierda sombría e intentando ser una mendicidad de puta dura para una lucha	","valence",	0.138
+"2018-En-00807","	@virtualalien hay más #asustando cosas en vida\n\n#BeyondTheSphereOfReasonableDoubt	","valence",	0.320
+"2018-En-02497","	la frustración Tenida sueña aquello me dejé absolutamente f**el rey furioso. Lado de plus: tan enojado no podría dormir, escribió 1500 palabras. Minus Lado: todavía bramando!	","valence",	0.194
+"2018-En-02149","	Freakin Un... Eliminé a medias el episodio de BIP encima accidente  #bachelorinparadise	","valence",	0.355
+"2018-En-03948","	Ella loco sus colgado encima me 😂	","valence",	0.645
+"2018-En-03916","	Consiguió despertado por una carretera sweeper  intentaba dormir	","valence",	0.317
+"2018-En-01031","	soy pálido, ya no quiero risa, O sonrisa, Todo  quiero hacer es justo grito maldito,	","valence",	0.083
+"2018-En-02322","	la cabeza que hace daño 😤	","valence",	0.226
+"2018-En-04314","	Complacer la parón que arruina mi deprimiendo memes con vuestro positivity y el optimismo	","valence",	0.449
+"2018-En-03499","	soñó que  estás riendo y despertó de mi sueño por primera vez sin una cara triste , Feria bastante para ver tú en mi sueño '	","valence",	0.783
+"2018-En-04018","	@itejasmehta @QTalker Mi placer 😊	","valence",	0.724
+"2018-En-01685","	Mi perro no pararía ladrando tan ahora  soy arriba en ocho soy con un dolor de cabeza furioso	","valence",	0.136
+"2018-En-03033","	#wtf lo que una #idea maravillosa \nyou've todo compró vuestro tweets y gusta aquello es bastante pointless para mí #adiós #adiós #Twat	","valence",	0.438
+"2018-En-00745","	conseguía un Dr. libre.Pimienta del vending máquina #awesome	","valence",	0.833
+"2018-En-00681","	@FangornForest1 @Brexit a cuyos clientes les lo encanta. Imagina ser un tajo estos días, teniendo que cantar la tonada el paymaster llamadas. #dismal	","valence",	0.468
+"2018-En-01580","	De repente los sueños de mina están viniendo ciertos. #Feliz	","valence",	0.919
+"2018-En-00350","	I soy #feliz cuando f*** para ser aceptado con mi #chromesthesia por mi #CBT doctress, nunca llamado 'loco' para mis #colores :-)	","valence",	0.900
+"2018-En-01557","	@laurenwils0n_ cumpleaños Feliz gorg, tiene un bueno uno 😘 x	","valence",	0.758
+"2018-En-03058","	@ThomasEWoods me gustaría oír un podcast de ti yendo de refuting su artículo entero. La indignación extra complace.	","valence",	0.438
+"2018-En-02288","	@NewsByKatherine @jonkarl @ABC TE El sonido del tipo asombrado!!  Cualquiera laborable w Triunfo WH tener un muy ético,moraleja, valores? 🙈🙉🙊	","valence",	0.333
+"2018-En-04350","	Alaina y yo son en 90 días en nuestro chasquear streak. Así que?	","valence",	0.604
+"2018-En-00076","	@1ncamera @Weehugs @DavidYoungPA @PA la estupidez es parte de su identidad cultural orgullosa. 😠	","valence",	0.306
+"2018-En-01678","	@ehtesham_toi @RaviShastriOfc unfortunate Decisión, nuestros jugadores son más de superstars que cricketers. BCCI Asustado de su tantrums.	","valence",	0.400
+"2018-En-03304","	@KermodeMovie  Seré mooning le alegremente cuándo  llega. A pesar de que probablemente no sea presidente por entonces...	","valence",	0.500
+"2018-En-02434","	@ScottAdamsSays Lo rompió abajo encima #chasquear análisis grande en #CNBC	","valence",	0.563
+"2018-En-02702","	@CNN hablando sobre reuniones encima recogiendo averiando información en una figura política y cuándo más para liberar por @DonaldJTrumpJr. #Irónico	","valence",	0.345
+"2018-En-04274","	@Cmdr_Hadfield CNN  Lobo Blitzer te llamas un astronauta americano y tú no le corrigen? #dissapointed	","valence",	0.150
+"2018-En-01822","	@softytwt hola bby Hoy era vale i e-mailed empresas de diseño para mi internship y ahora i soy nervioso ;u; cómo es vuestro día? :D	","valence",	0.371
+"2018-En-00914","	CUMPLEAÑOS FELIZ! :D	","valence",	0.742
+"2018-En-01617","	@ADsXe De hecho actualmente escuchar a aquella canción cuando tú tweeted me, #irónico	","valence",	0.625
+"2018-En-02222","	Totalmente susto para este upcoming resultados .	","valence",	0.417
+"2018-En-04041","	Chelsea y unido tiene que ser furioso	","valence",	0.323
+"2018-En-04276","	Su interlocutor explosión fuera riendo varios tiempo en sus respuestas; y más que nunca, cuándo a la cuestión, ‘ si haya sido curado?�	","valence",	0.567
+"2018-En-01176","	@elegantlywasted @ChelseaClinton Son el nuevos kennedy es de política americana.. Tristemente ambas mamá y la hija son tan encantadoras como Dios de uña	","valence",	0.433
+"2018-En-01824","	del dedo este partido es atenúa #Wimbledon	","valence",	0.133
+"2018-En-01225","	@cubewatermelon @JonKimbel  es hilarious pero hay legit milkshake Pato apologizers. Sí, justo el hypothetic milkshake pato.	","valence",	0.548
+"2018-En-01509","	Tuvo que eliminar mi Facebook demasiado para mí 🤣	","valence",	0.419
+"2018-En-02584","	@rickysnecklace soy tan orgulloso Mils! Mantiene sonreír ❤️	","valence",	0.741
+"2018-En-04214","	  me meto en problemas si @Cody_Nolove o @GordonRamsay aparecer en #UFC215 y  intento encontrarles en Rogers? 😂 (Debajo 3 semanas!!) #Emoción	","valence",	0.828
+"2018-En-00898","	No seguro tequila los tiros en mi comida de cumpleaños familiar es allí arriba con las ideas mejores  he nunca tuvo #siniestro	","valence",	0.500
+"2018-En-04014","	hecho mi mente a \nmake un inicio nuevo	","valence",	0.531
+"2018-En-00428","	@mrjamesob @LBC 😂 snowflake aleatorio un hombre tan gracioso nunca un atenuar el momento brillante	","valence",	0.879
+"2018-En-03330","	@NitashaKaul @Snehakaul2Kaul tan bonito querido, gracias,todo el mundo sabe  es en beneficio de India &amp; GOI ha hecho este terror ataca tan antes	","valence",	0.500
+"2018-En-00135","	Y soy realmente meado el joder fuera porque yo  un trabajo bueno de mantener mi niño bien porque no me gusta para ver su enfermo y triste.	","valence",	0.121
+"2018-En-04352","	#Twitter Estos días es justo un debate crítico masivo encima los que las personas no gustan #molestas #deprimiendo y #atenuar 😑	","valence",	0.207
+"2018-En-01051","	soy tan #feliz mi #criatura no puede oír qué I estoy #pensando	","valence",	0.710
+"2018-En-03411","	@OxandCart_Reino Unido @jamieoliver  lo hice demasiado  #quickandeasyfood	","valence",	0.629
+"2018-En-00357","	@azizansari estación acabada Justo 2 de #MasterofNone.  Eres un dotado storyteller! #Encantador #cinematography #hilarious	","valence",	0.855
+"2018-En-04111","	 es un bonito pout. c:	","valence",	0.750
+"2018-En-01143","	Mis amigos mejores que conducen por primera vez conmigo en el automovilístico #aterrando	","valence",	0.333
+"2018-En-03820","	@granlund_aarne Suicidio  también ayuda. #Sarcasmo	","valence",	0.232
+"2018-En-01637","	 desperté todavía no difícilmente creyendo qué todo pasó anoche 😰	","valence",	0.281
+"2018-En-02739","	CUMPLEAÑOS FELIZ Al PANDERIFIC PANDA Ik.@theorionsound espero que tienes un día asombroso Oli i amor u tanto e i ❤️ur vids  me hacemos 😃	","valence",	0.981
+"2018-En-00613","	no lo Puede estar cuándo los chicos puestos su dedo medio arriba en pics	","valence",	0.258
+"2018-En-04291","	@UKSportsZone En otras palabras,, no me gusta el resultado de la encuesta así que  estoy empaquetando arriba de mis encuestas &amp; tomándoles en casa mientras yo pout. 😂😂😻 #bbn	","valence",	0.685
+"2018-En-02445","	Si vas a ser un enfermero, aprende para ser una persona paciente buena, Jesus 🙃	","valence",	0.484
+"2018-En-03064","	Hoy es 71117. 😀	","valence",	0.750
+"2018-En-02180","	Justo pagó mi arsehole para un par de tickets de Gloria Encontrados Nuevos pero él va a ser un inicio GRANDE a mi fin de semana de cumpleaños 👊	","valence",	0.694
+"2018-En-04213","	Cómo mierda y deprimiendo es este deseo de tiempo  puedo viajar el mundo para un viviente	","valence",	0.200
+"2018-En-01027","	@JohnMayer Ningún DSM espectáculos. #Fracaso	","valence",	0.155
+"2018-En-03051","	de tristeza es una parte de éxito. No puedes experimentar la alegría de éxito con también experimentando fracaso. #bethehero #Alegría #de fracaso #del éxito	","valence",	0.617
+"2018-En-01936","	que mira Serio folks adolece unused músculos de sonrisa \n\n #behappy  #hatersgonnahate	","valence",	0.578
+"2018-En-03097","	Tiroteo más que nunca, haciendo más equivocaciones que nunca pero  salté en la piscina de tiburones un tiempo largo hace.  #Implacable *#resilient	","valence",	0.552
+"2018-En-04302","	adivinar quién se quedó arriba hasta que 2soy justo incase alguien llamado pero nunca hicieron como i supo ya ,  soy, las equivocaciones estuvieron hechas	","valence",	0.328
+"2018-En-00469","	Criatura,  estoy bailando en la oscuridad	","valence",	0.516
+"2018-En-01339","	Cuándo Duane Allman murió,  aprendí para apreciar Stevie Rayo Vaughan. Historia cierta.  #blues #Leyendas	","valence",	0.621
+"2018-En-00689","	Que momento cuándo  miras atrás y realizar  has sido un #egoísta #horrible #judgemental persona. #FeelingAshamed	","valence",	0.183
+"2018-En-00938","	@_Oteraw Infeliz y unfulfilled 😂	","valence",	0.276
+"2018-En-03783","	@GILMONK1 Quizás para estar en el campo para asustar fuera los cuervos	","valence",	0.400
+"2018-En-03087","	 somos realmente no temerosos de ti todo. Te encontráis bastante #molestos &amp; #divirtiendo. 😎😜🤣😂😂	","valence",	0.641
+"2018-En-03131","	@jaassiieeeee No caeré al lado oscuro😂😂	","valence",	0.466
+"2018-En-04051","	@denisebatters Pero para $20k,  conseguirán a paseo de bicicleta abajo el Canal con el Ministro ella. #Sarcasmo #ornot	","valence",	0.466
+"2018-En-04327","	@JusticeWillett Señor, no entendemos tragedia. Hacer qué Tú  más: trae bien grom lo y consolar quienes lloran. El amén que	","valence",	0.371
+"2018-En-03406","	Deja va de la rabia es clave a felicidad. Complacer ayudarme dejado va de estos sentimientos enojados. #Rabia #de felicidad	","valence",	0.536
+"2018-En-01155","	i no entiende ppl quiénes salvan wasps , posibilidad próxima que lil dude consigue él gnna picadura ur abuelita	","valence",	0.336
+"2018-En-00862","	 pensarías reservar unas vacaciones para 2 serías sentado luego a cada cual otro en el avión sangriento #fuming 😡@ThomsonHolidays	","valence",	0.222
+"2018-En-03853","	[ @TheChicMystique ] — haciendo daño mal y que  pueda no justo dejarle gustar aquello. Enojado y heartless. ]\n\nI Te prometes que  estaré de vuelta, —	","valence",	0.129
+"2018-En-02035","	Siendo profundamente encantado por alguien te das fuerza, mientras amoroso alguien profundamente te das valor. Lao Tzu #Boda #el amor #feliz	","valence",	0.710
+"2018-En-00535","	Finalmente acabó el libro de clase de este plazo, Cielo Hawk por @gill_lewis niños en lágrimas y de hecho aclamando al final #bien leídos	","valence",	0.773
+"2018-En-03360","	Coulda jurados lo era Entrevista Con Un Vampiro. Hmmm......Mandela Efectúa cualquiera? \n#interviewwithavampire #annerice #Horror #de libros #ilovevamps	","valence",	0.516
+"2018-En-00520","	Bastante posiblemente los himnos peores nunca he oído en pro deportes por ambos cantantes.  Deseo era sordo. #ASG2017 #mlb #MLBAllStarGame	","valence",	0.203
+"2018-En-01512","	película de Comedia de horror Mejor de 2017 #AnandoBrahma @taapsee #SrinivasReddy . En 2.º media I garganta conseguida dolor #toomuch #risas	","valence",	0.733
+"2018-En-01284","	@BrettKeeble  lo adivino nunca. @smartassunit #Dificultades	","valence",	0.310
+"2018-En-03296","	de preocupación, por bracing la mente para vencerles, asiste cheerfulness, cuando el ejercicio asiste digestión.\nChristian Nestell Bovee #Cita	","valence",	0.517
+"2018-En-01300","	@tootaehyung omggg i'll ser hinchado entonces ;;-;; pero es una idea maravillosa i'll el inicio que lo hace mañana!!	","valence",	0.767
+"2018-En-04358","	Nada es más #bonito que una #sonrisa aquello ha luchado a través de lágrimas.	","valence",	0.720
+"2018-En-01408","	@3lectric5heep Bien que tener que picadura  no él @CNN ?	","valence",	0.517
+"2018-En-01502","	@Activehours I necesidad alguien para responder atrás a mí inmediatamente. No soy feliz y no consiguiendo respuestas oportunas a través de la aplicación! #Ayuda	","valence",	0.293
+"2018-En-03322","	Sin duda algo pasando hoy #SolarEclipse2017 #UNESCO #molestada	","valence",	0.219
+"2018-En-03803","	@extraña Recuerda no para extender #aversión y #fakenews en el internet. No maltrata #Hashtag10 para extender #ArabNationalism!	","valence",	0.466
+"2018-En-01059","	@BillMoyersHQ Anciano pertenece w/familia; nuestro sistema social está roto.  Este mayúsculo  soyeancare' lo reorganizará, desgraciadamente.	","valence",	0.281
+"2018-En-00036","	@SenRonJohnson @Neomi_Rao #25thAmendmentNow   significas  esgulations' como agua y aire limpios? Porque quién necesita que, bien? #Sarcasmo	","valence",	0.371
+"2018-En-00481","	@KicchaSudeep Ningún Señor de palabras... Gracias Para la preocupación..	","valence",	0.500
+"2018-En-03726","	 Tengo la novia mejor en el mundial 😍 #bendito	","valence",	0.800
+"2018-En-04090","	EEEEEKKKK!!!!\nProduct LANZADOR 😍✋💖\nI soy soy literalmente B•U•Z•Z•I•N•G!!!\nSingle sachets 😍😍\n \nMessage me Para el vuestro! 😜🙆💜#loveyourlifestyle #Sacudidas	","valence",	0.887
+"2018-En-02781","	El sonido de lluvia es bastante pacífico cuándo  eres en un humor muy molestado 😅	","valence",	0.406
+"2018-En-00551","	#90sWereTheBestBecause la asimilación no significó pérdida de individualidad. Las etiquetas y las categorías devenían obsoletas. #thanksobama #Sarcasmo	","valence",	0.532
+"2018-En-00941","	@ProfessorF @Mediaite @ley_newz Infantil templa #tantrums es toda la izquierda ha dejado. :)	","valence",	0.234
+"2018-En-01896","	El @GOP quiere excluir condiciones preexistentes. #Ironía	","valence",	0.383
+"2018-En-02842","	Pronto el trailer  haber más gusta que vistas 😆	","valence",	0.645
+"2018-En-01101","	Esta noche  carrera.... #Inquieto	","valence",	0.403
+"2018-En-01717","	Literalmente trabaja casi diario no puede esperar para empezar mi PT #bendito 🙏💙	","valence",	0.875
+"2018-En-03733","	Oh @BentleySystems lo que hast thou hecho a thy configuraciones? #La desesperación	","valence",	0.226
+"2018-En-00916","	justo vio un tipo ensucia fuera de su Prius😅 #irónico	","valence",	0.547
+"2018-En-03622","	Por qué el JODE ha i justo vio un Juego de Tronos spoiler en snapchat? ALGUNOS DE EE.UU. HAVENT LO VIO TODAVÍA 🖕🏻🖕🏻🖕🏻🖕🏻🖕🏻 #arsehole	","valence",	0.207
+"2018-En-01887","	Si  sientas atrás, reloj &amp; escucha a cada .@thedemocrats &amp; .@dnc miembro, deprisa aprenderás  es #Victimhood, #racismo, &amp; #aversión.  Soy #DESPERTÓ	","valence",	0.242
+"2018-En-02646","	Beware la ira de un enojado, abuelita #frustrada, ágil con una red. 👵🏼😡  Soy justo sayin'. #objectlesson	","valence",	0.161
+"2018-En-00657","	Damn  Estoy cansado tan infierno I nunca conseguir un fuera día durante la semana anymore 😭  quiero llamada en tan malo pero estos lil 60 hrs sonidos tan buenos.	","valence",	0.355
+"2018-En-01974","	 Puedes tener una arrogancia #segura, y  creo que es bien, pero qué nunca tendrías que perder es el #respeto para el otros.	","valence",	0.419
+"2018-En-02366","	 Siento agotado ...\nI Probado para hacer un trabajo bueno, pero aparentemente el dios no me ve bien. Soy cansado!  EXISTO! 😟💔📢\n#Existe #cansado #misonorotta	","valence",	0.250
+"2018-En-01334","	Nunca lamentar cualquier cosa que una vez hizo  sonríes :) \n #positivo	","valence",	0.806
+"2018-En-00169","	no Puede esperar para tomar cuadros familiares 😩💜💜 justo tan entusiasmados para empezar haciendo cosas divertidas con mis criaturas 👨‍👩‍👧	","valence",	0.768
+"2018-En-01335","	@AGlyndwr @TeaPainUSA Todo  sé es la frase empezará con 'mirada...' Como cualquier instituto punk empezaría una amenaza.	","valence",	0.350
+"2018-En-00255","	...Con el par, así que  decides ignorar todo y acabar el vuestro mientras tratando la risa y todo en el fondo.	","valence",	0.600
+"2018-En-02113","	@AmandaHolden Foto preciosa Amanda! #summerhols #carefree	","valence",	0.737
+"2018-En-03464","	Simon Bell 'decepcionado en OMS' ....Aquello es una llamada grande del equipo afirmativo!! #Sarcasmo #PharmEd17	","valence",	0.471
+"2018-En-03432","	im clapping y aclamando para ambos equipos ...	","valence",	0.804
+"2018-En-03758","	Uno de los momentos/horribles grandes como profesor está viendo un estudiante maravilloso que deja vuestro universitario de perseguir su/su pasión cierta.	","valence",	0.367
+"2018-En-03065","	El pessimist reniega sobre el viento; el optimista lo espera para cambiar; el realista ajusta las velas.	","valence",	0.484
+"2018-En-02378","	Qué enfermo tener que alguien ser que  desean a 'castigar' alguien para no siendo su amigo?  #insecure #Solitario #desgraciado #vengativo #RHOC	","valence",	0.121
+"2018-En-00123","	En un groovy restaurante. Conseguido un cheeseburger y fríe. No discrimino. Índice; 5/7 #yummy #delicioso #politicallycorrect	","valence",	0.767
+"2018-En-03010","	I justo miró el vídeo que i tomó en troye  concierto último año durante feliz poca píldora y ahora im llorando i perderle @troyesivan 😭	","valence",	0.310
+"2018-En-02296","	Imaginar cuántos ksones está llorando correcto ahora para no consiguiendo tickets 😭 Entretanto, isones dont incluso conseguir una posibilidad de ir en guerra para tickets 😭	","valence",	0.300
+"2018-En-03840","	@marcdeacon_ Cumpleaños Feliz Marc tiene un bueno un! Xx	","valence",	0.722
+"2018-En-03843","	Si @TheRock  la carrera Presidencial es tan mala como su aspecto en #Baywatch ni necesidad de partido teme su carrera. Aquello es $8 nunca volveré #cagar	","valence",	0.226
+"2018-En-00946","	I finalmente decidido para crear un twitter cuenta.  No nosotros todos necesitan medios de comunicación más sociales en nuestras vidas? #Sarcasmo 😀	","valence",	0.655
+"2018-En-00942","	@sophieathertonn @lillynewtonx Aquello es de hecho terrible!  Eres en para un tratar cuándo  consigues en casa tho!!	","valence",	0.352
+"2018-En-01253","	@theIeansquad @SatanHeavenly Rap Es tan unbearable y horrific.	","valence",	0.172
+"2018-En-03875","	Todo I orden on-line justo viene parecer una pieza de Humor 😤	","valence",	0.094
+"2018-En-03357","	de mierda : Feliz 🙂 #bendiciendo	","valence",	0.879
+"2018-En-00559","	África tiene problemas únicos y enormes con guerra, superpoblación, inanición y tribalism cuál hace mover África envía dura.	","valence",	0.278
+"2018-En-02116","	No puede beber todo el día si u no empieza por la mañana .. Drake me consigo 😛	","valence",	0.600
+"2018-En-00291","	Mi novio es mi entero mundial 😭	","valence",	0.444
+"2018-En-01022","	#Wimbeldon  no lo ser grande si un inmigrante ganó el título para Gran Bretaña #irónica #Brexit	","valence",	0.576
+"2018-En-02521","	I ansiedad de amor #sarcasmo	","valence",	0.500
+"2018-En-03749","	@TheView la alegría no es un comedian. Es un matón para gordo shaming el gobernador. Ejemplo grande  está poniendo para su nieto.	","valence",	0.379
+"2018-En-02341","	Las personas eran siempre temerosas que stodgy las plazas matarían rock y corro, pero la amenaza legítima única era nunca coros de niño.	","valence",	0.435
+"2018-En-01207","	El tiempo bueno nunca se desvanece #sonrisa	","valence",	0.672
+"2018-En-03640","	@RGUpdate Tiene  probaste comida de hospital inglés ?? #yak #Bruto	","valence",	0.290
+"2018-En-03920","	-c- y desarmado de su equipamiento encima sospecha de ser un cómplice potencial a Annie Leonhart.	","valence",	0.527
+"2018-En-01634","	Exterior ha básicamente devenir una película de horror donde gypsy las polillas toman sobre el mundo por flitting agresivamente aproximadamente.\n\n#creaturedoublefeature	","valence",	0.266
+"2018-En-00438","	Hacer las personas notan que refrán único 'eres tan bonito' cuando  tengo maquillaje encima. Es offense! \n&amp;  Tomo nota que nunca lo dicen cuándo yo  no.	","valence",	0.230
+"2018-En-02512","	Es supuesto para ser este arduo de interaccionar con otras personas?  Soy 'otras personas' a ellos y ellos no parecen para luchar.	","valence",	0.350
+"2018-En-03990","	Aquello te ha esfumado vuestra tristeza propia, la manera  soy? #somber	","valence",	0.433
+"2018-En-01368","	462 aspectos en PL y 200 objetivos!! 2.31 juegos por objetivo. Aquello es muy casi un objetivo en cada 2 juegos #caga 😂😂 🙄🙄🤔🤔 #Rooney	","valence",	0.661
+"2018-En-00530","	@WDA_Punisher @SgtDangerCow @Battlefield  creo que sí también. \nCasual La audiencia era particularmente infeliz con servidor admins y reglas de servidor.	","valence",	0.133
+"2018-En-01378","	INICIOS de ESTACIÓN de la CAÍDA HOY!!!!!	","valence",	0.640
+"2018-En-01863","	@NisaLocally @CocaCola_GB Da las gracias a el amor comparte un coke y vacaciones con mi sonrisa  #familiar para una posibilidad de #Ganar :)	","valence",	0.800
+"2018-En-04082","	Leviticus 19:14\nYou no maldecirá el #sordo o poner un stumbling #bloque antes del #ciego, pero  temerás # vuestro #Dios:  soy el [1/2]	","valence",	0.532
+"2018-En-02314","	Qué es peor que sintiendo desanimado? No encontrando un emoji para sentir desalentado	","valence",	0.150
+"2018-En-02447","	Cuándo las luces cerradas fuera y es mi vuelta para sentar cabeza, mi preocupación principal...	","valence",	0.383
+"2018-En-03053","	@GarfieldLineker @TimCRoberts *En su atrás. Disculpas para retweeting un tweet con error gramatical #mybad 😱	","valence",	0.367
+"2018-En-01657","	Vio mi primer Larsen trampa hoy con acentuado magpie. NUNCA NUNCA quiero ver que otra vez  #fauna y flora #afligida #enojada	","valence",	0.172
+"2018-En-02397","	es un yuxtaposición tan extraña de emociones. Un sentido de euforia pero un sentido de fuera la mayoría de desesperación.	","valence",	0.355
+"2018-En-03036","	Tan ahora  tengo que comprar un ordenador nuevo entero	","valence",	0.321
+"2018-En-02214","	Cuándo  pienso sobre Yondu &amp; su tripulación, Cohete, &amp; Groot haciendo 700 saltos a Ego planeta,  empiezo reír.	","valence",	0.788
+"2018-En-04353","	3 y una hora media más 😤 #EXO	","valence",	0.250
+"2018-En-00322","	@zapato0nhead @ObscuredLeg Hola I justo te quiso desear dos un feliz tuesday.😊	","valence",	0.867
+"2018-En-02612","	#Deprimido Hoy era amargo dulce mirando todos los niños vuelven a la escuela me hice realmente perder mis criaturas.  Soy así que rompió #backtoschool2017	","valence",	0.147
+"2018-En-01152","	@Argos_servicio de cliente On-line es terrible, factura de teléfono es enorme y conseguir pasado de persona 2 persona y mantener tomando dinero de mis idiotas #de tarjeta	","valence",	0.125
+"2018-En-03334","	peplamb: stevenfurtick #comodidad todo quiénes #lloran, A consola quienes #lloran en #Zion, para darles #belleza para #cenizas, El #aceite de #alegría para…	","valence",	0.518
+"2018-En-00688","	@AwardsDaily Miradas que manera.  No quiero ver qué Q va a manejar Tate asesinato.  #El estremecimiento	","valence",	0.284
+"2018-En-00326","	Es u triste o trastornado?	","valence",	0.411
+"2018-En-00133","	 Pienso yo  eternally ser irritado por nuestro profesor ENCENDIDO que 😂	","valence",	0.306
+"2018-En-03269","	Escucha a estos niños de refugiado, apenas una década vieja, describir el horrific actos  estuvieron forzados para cometer está aterrando. #DatelineSBS	","valence",	0.232
+"2018-En-00410","	Nunca sido tan relived 😆	","valence",	0.867
+"2018-En-03022","	Omgsh Alexis es sooooo freaking gracioso en #BachelorInParadise 😂 Que segmento de pizza! Plus me encanta y Jazzy  amistad!	","valence",	0.821
+"2018-En-01097","	@washingtonpost @silvajanes Qué terrible!!!!!!	","valence",	0.167
+"2018-En-01015","	Novak Está viendo aquellas pelotas como melones, condiciones perfectas para él 😊 #Wimbledon	","valence",	0.594
+"2018-En-01137","	A veces,  tienes que sonrisa, pretende todo es vale, y paseo justo fuera.	","valence",	0.500
+"2018-En-03619","	@Bravotv Es allí una manera de mirar NYC Dólar de Millón que Lista &amp; filtro @FredrikEklundNY Fuera de los episodios? #primadonna #duckface #tantrum	","valence",	0.452
+"2018-En-01204","	@Smilejamtvj @clarkecooper @DahliaHarris Mirando fab hoy complaciendo al ojo artístico! #GirlPowerTuesday	","valence",	0.683
+"2018-En-03355","	@del_krushnic Yo knw  tienes un templar paaa lol el frío justo querido no es meado waii o más me preocuparé u saaa pero  siento 😫	","valence",	0.293
+"2018-En-03440","	@Chan_lfc10 @paul_regla @Nuttall1878 @DeadlineDayLive @Everton  seríamos fuming si el hijacked nuestras 8 millones de libras movimiento para un relegated lleno atrás 😡	","valence",	0.306
+"2018-En-03859","	Tan decepcionado en yo para gastar £50 en un outfit para conocer un chico #noselfcontrol #nervioso	","valence",	0.267
+"2018-En-01994","	@lauramuiruns @a Liga_de Diamante le Encantó aclamar te encima con mis niños!!!! X	","valence",	0.887
+"2018-En-01855","	Si  pegué tú con el ser bendecido  es sobre 😂	","valence",	0.719
+"2018-En-00627","	@chelseanews4te Más de suerte blues el ejército nos hago sintiendo goofy esta estación otra vez  BLUES ETERNIDAD de CAJA	","valence",	0.656
+"2018-En-02952","	@SaikalyJihad @RimaNJEIM Mejor birthy el día sexy Rima l'deseo a ti una vida feliz	","valence",	0.867
+"2018-En-03005","	@ThomasSanders Esto era grande, quedando a la espera de parte próxima! 😄	","valence",	0.833
+"2018-En-03289","	Gusta  puedo've puesto lo abajo arriba de mi automovilístico &amp; si tan, aquella mierda es Hombre ido 😭	","valence",	0.259
+"2018-En-00709","	mucho tiempo  siento gusta caga hoy 😰	","valence",	0.083
+"2018-En-03398","	Paul Ehrlich dicho que la humanidad es una amenaza a toda vida. Tal grande noticioso de empezar el día. Si  podría blush yo .	","valence",	0.645
+"2018-En-00334","	Resaca de migraña tiene que ser la cosa peor nunca 😣 #estallado	","valence",	0.097
+"2018-En-02683","	Sí @itv2 @LoveIsland poniendo que Ángel @MikeThalassitis atrás en la villa era el movimiento mejor #revenge #returnofthemike #LoveIsland #Sonrisa	","valence",	0.677
+"2018-En-02706","	caliente!!! #Sonrisa #feliz	","valence",	0.938
+"2018-En-03662","	después de dormir mediodía pasado, I mirada fuera de la ventana para ver mi hotel tiene una CUBA CALIENTE!!!!! #bliss	","valence",	0.692
+"2018-En-01810","	No puede Hablar A Una Persona Incompetente. Entra Una Oreja y Fuera del Otro. #Irritado #NoPoint #MassiveEyeRoll	","valence",	0.161
+"2018-En-03752","	Que el eclipse era  Angelic 🙏🏿 #bendición	","valence",	0.724
+"2018-En-01052","	' necesitamos hacer algo. Algo tiene que ser hecho!!!!!'\n\nyour La ansiedad está divirtiendo. Nada será hecho. Desesperación.	","valence",	0.328
+"2018-En-03248","	No puede esperar para actuar 2nite en @CrashTestComedy en #Verns! #yyc #Calgary $5 #comedia #comedian #yycComedy #CalgaryComedy #las risas #divertidas #viven	","valence",	0.845
+"2018-En-02662","	@jihnwi u literalmente nombrarnos una palabra cierra a prostitutas vale oomf...... 😰	","valence",	0.177
+"2018-En-02388","	@swish41 Ningún offense pero el mavs es sólo mi 2.ª parte favorita aproximadamente Dallas, 1# es la barbacoa #Salmos	","valence",	0.793
+"2018-En-01961","	#de verdad #de Jesus deliciosos 32:11 Te aquello es righteous, ser feliz y rejoice debido a qué el Señor ha hecho. Tú aquello le obedece, grito para alegría!	","valence",	0.857
+"2018-En-02949","	 Tengo constructores en mi oficina y yo tienen un juego para hacer. Quizás inicio enfermo sketching el juego próximo... #gamedev #indiedev	","valence",	0.558
+"2018-En-03798","	@angrydwarf9 @carolinesandall  arruina mi frigging noche cada noche en 9pm. A Señora le encanta, i've sido temprano para empotrar para un mes. #Terrible	","valence",	0.150
+"2018-En-04307","	+++ '#Mucho #amado, venga no vosotros, sino dar sitio unto #ira: para  está #escrito, #Vengeance es #mina; yo …' #romanos12v19	","valence",	0.387
+"2018-En-02921","	Nadie 'gustado' este? Realmente? #Sarcasmo #nevergowiththeincrowd #Theincrowdhasalwaysbeensuspect #resisttheincrowd	","valence",	0.339
+"2018-En-03238","	@hollloman @nessa_babbby @ajvannozzi97 Cuando a medias un conjunto de gemelos  me molesto aquello!	","valence",	0.481
+"2018-En-03458","	Necesidad vuestra encuesta de tipos 😊 de la ayuda para un	","valence",	0.633
+"2018-En-01581","	amigo @wizkidayo Bro u justo dey estallado mi cerebro Bro  necesito u 2 pls fin todo rift BTW u nd mi hommie davido pls Bro 4 d bien de luv.	","valence",	0.565
+"2018-En-04370","	ESPERA...El amigo de Lawrence arrastró el joder outta le!!	","valence",	0.387
+"2018-En-02832","	Soy feliz mis niños no joden con Blac Youngsta. Aquel nigga terrible para nuestra comunidad	","valence",	0.533
+"2018-En-01806","	'vuestro profesor de marcador'.i Mirado en él n justo estallado fuera riendo i jurar estos niños nunca me tomarán seriamente 🤦🏻‍♀️	","valence",	0.776
+"2018-En-04198","	@Zineeta_R @RusEmbUSA @mfa_russia La aversión y temer muchos russians tiene para cualquier cosa no-russian es justo triste.	","valence",	0.155
+"2018-En-04005","	Complacer arruinar este partido, @NSWRL. #Origen #blues	","valence",	0.417
+"2018-En-02590","	 estoy haciendo todo este para hacer seguro te sonriendo abajo encima me bro	","valence",	0.641
+"2018-En-02381","	Hizo los hombres se llaman tímidos y significarlo? Así que  le tranquilizo que justo estoy haciendo seguro es una inversión buena y alla que 🙄	","valence",	0.593
+"2018-En-03257","	05.30 es mi tiempo......brew, tostada y televisión antes de que cualquiera más se levanta  #earlydoors #mumlife #lifewithtoddlers	","valence",	0.703
+"2018-En-03099","	@CTAFails @cta es vale para vuestros conductores para sonreír no abren la puerta y paseo de Blah	","valence",	0.333
+"2018-En-04047","	blah blah Kyrie, ÉL, etc. @CJC9JEFE que deja Boston es el real noticioso y  estoy #devastado! #celtics #fave  #someonegetmeajerseyteeasap	","valence",	0.321
+"2018-En-01289","	Vale @BTS_twt lo Era divertido y todo  puedes cambiar vuestro layout atrás a algo goofy y doméstico como habitual pls soy intimidado rn	","valence",	0.588
+"2018-En-02813","	@prageru En un estado dónde el suicidio asistido es legal. Charla sobre intelectual dishonesty. Qué estúpido hace el a la izquierda pensar las personas son? #Ironía	","valence",	0.183
+"2018-En-00311","	Hey, cuándo  muero,  alguien complace hacer un #Facebook cosa Viva de mí en la arqueta en mi despertar? Gusto ser #irónico a veces.	","valence",	0.569
+"2018-En-01910","	No podría ser más feliz con mi vida bien ahora 😊	","valence",	0.952
+"2018-En-00874","	la cordura de Un programador está entendiendo la diferencia entre conseguir programa para correr y teniendo un runnable programa.  #puppy	","valence",	0.565
+"2018-En-02079","	@Delta.  Eres bromeando?  Retrasado de 7:30pm a 11:00 - único de cancelarlo porque el piloto es overtime.	","valence",	0.304
+"2018-En-02753","	VENDIDO FUERA!!!! Lote próximo en 3 días!!!!	","valence",	0.683
+"2018-En-04360","	Desmond era dormido cuándo  llamé después de que  salí de mi reunión... Él todavía contestado y dejado me ventilación a él la casa de manera entera 😍 #sweetness	","valence",	0.679
+"2018-En-01659","	 soy soooo molestó. Espera para empezar mi mañana.	","valence",	0.063
+"2018-En-03740","	@Espolones_adictos Cos ellos todos tienen  es vale entonces. #Cumpleaños	","valence",	0.536
+"2018-En-01932","	Feliz grande a #Olímpico #grande y #champ @jordyn_wieber 🎉 🎂 🎈	","valence",	0.781
+"2018-En-02352","	#AmericasGotTalent espectáculos vivos con tantas culpas técnicas #disheartening	","valence",	0.065
+"2018-En-00980","	siento intimidado	","valence",	0.242
+"2018-En-02759","	Un #profesor que está intentando para enseñar sin #inspirar el #alumno con un #deseo de aprender está picando hierro frío. #HoraceMann	","valence",	0.593
+"2018-En-02533","	 No jodiendo tag me en cuadros cuando 'familia primero' cuando  me corté fuera hace 5 años. Eres nadie a mí.	","valence",	0.161
+"2018-En-00279","	@BAEK0FF @byunglows Filipinas 😃	","valence",	0.567
+"2018-En-02593","	sea un día frío brillante en April, y los relojes golpeaban trece. ~ George Orwell, 1984	","valence",	0.683
+"2018-En-02845","	Literalmente colgando encima por una necesidad de hilo algún taylor a rayo esta noche le encantando un perro malo chupa #taylorrayholbrook #haciendo daño @TaylorRaysTweet	","valence",	0.317
+"2018-En-01168","	Tres retweets de mierda de Zorro mudo y uno original tweet aquello es una mentira descarada de SCROTUS esta mañana--nada sobre su wretched descendencia. 🤣	","valence",	0.355
+"2018-En-03202","	@BernadetteAlly Sonrisa linda!	","valence",	0.692
+"2018-En-00622","	@nextofficial Orden colocado para casi un magnífico hace SEIS semanas, llamó ayer, el orden  soyissing' y ninguna llamada respalda hoy! #Impresionante	","valence",	0.113
+"2018-En-00997","	Al llegar a este punto no puedo decir si justo sigo más personas en políticas en twitter ahora o si  necesito amigos nuevos. #wheresthefunny #Deprimiendo	","valence",	0.226
+"2018-En-02677","	@JackRuff4  tienen este puding horrible aquí. Butterscotch Puding los lunes, es terrible. #Fleco	","valence",	0.190
+"2018-En-01524","	@NRO @Acosta @CNN @realDonaldTrump recordar cuándo NRO dio CNN dolor sobre su implacable HC cruzada de email? me Tampoco.	","valence",	0.362
+"2018-En-03275","	#La preocupación nunca atraca mañana de su #sorrow; él sólo savias hoy de su #fuerza - Un. J. Fe #de corona #motivación #positiva	","valence",	0.516
+"2018-En-01131","	@Steadi_Señora  estás comiendo piel que podría haber sido enviado a un tannery para procesamiento de cuero. 😄	","valence",	0.793
+"2018-En-02820","	@SRuhle @MSNBC Sebestian Gorka, lo que un arrogante Un~agujero! Tiene no empresarial hablando!	","valence",	0.297
+"2018-En-04066","	@FierzaaRBX hola fierzaa i Te esperas ser mi amigo en roblox btw i amor kat y username:USATylerX 😀	","valence",	0.790
+"2018-En-03047","	@JadeOdette_ Porque uno de ellos tiene que ser incorrecto :) justo queremos creer  es H&amp;M haha 🙃	","valence",	0.609
+"2018-En-01793","	Uau! Hoy, totalmente viendo alot de #personas #malas fuera en este #mundo! Vuelta él alrededor y #el inicio que cultiva #bondad! #SuccessTRAIN #Guerrero	","valence",	0.617
+"2018-En-00747","	5,000 EE.UU. nuevos #los ciudadanos que juran en ahora! #Felicitaciones #de lágrimas	","valence",	0.677
+"2018-En-02101","	Tipoftheday:no es distraído por los que acusan tú para hacer qué es bien para Su misión para ti.Continúa vivir y complaciéndole	","valence",	0.548
+"2018-En-01294","	@H0lliejburrows Congrats bonito 😘	","valence",	0.742
+"2018-En-04244","	@MonikaGoswamiRK I justo ver 2 episodios #DilLagi pero quietos curiosos por qué  estás cayendo para el Héroe que 😆 mira más pronto.. 😉😃	","valence",	0.650
+"2018-En-03544","	Tiempo para cama en una cama real después de que cuatro noches que acampan. #bliss	","valence",	0.621
+"2018-En-01603","	Historia de Rusia enfurecerá Triunfo hoy. Medios de comunicación otherwise sería dar le baño de lengua para caída de ISIS en Mosul + al-Baghdadi muerte.	","valence",	0.547
+"2018-En-03161","	Oyendo la Canción por Telefonear glued a a orejas les gusta si el cantante habló a mí... #Loco #loco hahah	","valence",	0.586
+"2018-En-01125","	B4 I couldnt salir de cama o mirada en espejo Thankful4todo el soporte  he recieved aquí ImWakingUpHappyNot temiendo theday	","valence",	0.734
+"2018-En-02025","	Cuando  él todo empezó? Toda esta depresión &amp; mierdas de ansiedad?Todos estos pensamientos de suicidio?Todo de estos pensamientos malos thts hugging me por la noche?	","valence",	0.297
+"2018-En-03339","	@beautifuIbaek Uau!  Espero i gana. 😭 Da las gracias por esto. 😊	","valence",	0.648
+"2018-En-00755","	Cómo   sientes sobre @Snapchat característica nueva #SnapMap 👎👍❓ #twitterpoll #Encuesta #de voto #de las encuestas #Snapchat  #twitter #tecnología #de tecnología	","valence",	0.569
+"2018-En-00581","	i exceptuado el eclipse para hacerme cree en un omniscience fuerza #dissapointed	","valence",	0.059
+"2018-En-01682","	@doranadal @JaneForRafffa #grande-sonreír #correo grande #greatRafa #loveRafa	","valence",	0.793
+"2018-En-01835","	@chrisyour no es triste, finalmente  es aparentemente no apoyado completamente pero mayoritariamente trabajando :-)	","valence",	0.403
+"2018-En-02255","	@iamjpk @NameisNani lo que el phd!  eesav gattiga 😆	","valence",	0.714
+"2018-En-00321","	@candycmarketing Qué pasa si no quieres mirar esto 'contenido'? No puede votar entonces 😆	","valence",	0.783
+"2018-En-00492","	Demasiada cafeína, y  soy dyyyying. #jitters #Paranoia #de sacudidas #heartbeat1000 ☕💔	","valence",	0.304
+"2018-En-02386","	Hmm...Parece nadie @Tampax es disponible a respond. Su gustar esperando a un #doomsday respuesta. Aquella #cuestión en llamas sin #contestar	","valence",	0.164
+"2018-En-01394","	Ser gentil a mí O Dios...Para mi alma toma #refuge en ti; en la sombra de Vuestras alas  tomaré #refuge... Salmo 57:1 #esperanza #jesus #alegría	","valence",	0.484
+"2018-En-01798","	Brighten arriba de un gloomy día con un @SiennaXOfficial bronceado de espray,  tenemos un bronceado para convenir todo el mundo! #spraytan #Verano #de bronceado #godalming #hurtmore	","valence",	0.420
+"2018-En-01080","	@stuael Ano hombre,  estoy anonadado! En uno señala que nuestras cabezas estuvieron idas y  puntuaban en voluntad! #Aliviado	","valence",	0.583
+"2018-En-00208","	soy tan feliz I no soy gustar algunos de las personas tristes on-line quiénes alcahuetean y matón otros para su diversión porque no tienen ninguna vida.	","valence",	0.350
+"2018-En-03599","	#Hope #youngins #mentalHealth el equilibrio crucial a nuestra existencia sustenance de vida-no demasiado triste albeit deseamos #felices perpetuos,no es🤣	","valence",	0.567
+"2018-En-04196","	@jewleree @GameOfThrones Lmao sonrisas de rey de la noche 😂	","valence",	0.844
+"2018-En-03867","	si hoy es el primer tiempo  estás jugando FFXII soy feliz para ti. #Zodiacage	","valence",	0.867
+"2018-En-00103","	i Ya tener 3 Nico URs e i realmente necesitar una sonrisa UR ;; i estoy confundido	","valence",	0.323
+"2018-En-00161","	Despertando a la #fragancia de #café, hay no otro #placer .\n\n#Mañana #carliforniadreaming #Escritores	","valence",	0.767
+"2018-En-03091","	I como el #fulgor en el #oscuro #fidgetspinner. No porque él fulgores el oscuros tampoco. Siente más más ligero y más liso que el otros	","valence",	0.768
+"2018-En-03936","	 tienes que aprender cómo para vivir vida a toda costa de circunstancias &amp; no dejar la vida te dejas. \n#Proceso #de Crecimiento  #del propósito #alegría #feliz #segura	","valence",	0.793
+"2018-En-04247","	@RKsAllyCat82 No, pero  estoy planeando encima lo antes de que septiembre 😊	","valence",	0.694
+"2018-En-02922","	@devlinjim @SophieLong01 Qué aproximadamente Daniel 7:9? - Su trono era como el fiery llama, y sus ruedas como fuego en llamas.	","valence",	0.387
+"2018-En-03252","	@AliceT120 @shaney_waney1 @shaney_waney1 u horrible no género el chico binario va fangirl encima algunos cantantes mediocres que CANT INCLUSO el soporte	","valence",	0.500
+"2018-En-00836","	Acecha para dejar vuestra chica que sacude en un sitio mojado ....	","valence",	0.484
+"2018-En-03817","	@elebelfiore No es él siempre aproximadamente control y mistrust?	","valence",	0.453
+"2018-En-02678","	No es siempre sobre el consiguiendo pero su sobre el recibiendo de qué ya ha sido dado. Recibir la alegría hizo disponible! #jesus	","valence",	0.556
+"2018-En-02748","	#RIPBiwott  Pienso Robert oukos el alma puede ahora rejoice y resto en paz. Llamada un mal de hombre del mal y un hombre bueno un hombre bueno. Sea un hombre de mal	","valence",	0.387
+"2018-En-04243","	Buenos días y martes feliz! Espero que tienes un día fabuloso! Lo disfruta toneladas 😃	","valence",	0.828
+"2018-En-03658","	Que era absolutamente el dos Himno Nacional peor cantantes nunca he oído, ambos de ellos screwed arriba de las palabras #terribles	","valence",	0.241
+"2018-En-02070","	I clic encima descarga en mi PC. El mensaje dice 'Gracias para descargar #iTunes \nSo, dónde es la descarga?! #Las oberturas recientes de Israel	","valence",	0.161
+"2018-En-03249","	frustrado hacia África Del oeste parece para ser atrayendo algunos elementos de sospecha...Una sospecha innecesaria aun así.	","valence",	0.433
+"2018-En-02937","	 He de hecho fármacos de reloj destruyen una Madre familiar 😢entera es en skid fila. La hija más vieja perdió su niño. El padre es estranged. #horrific	","valence",	0.063
+"2018-En-03230","	Es un #inicio grande para #principiantes para saltar al coche que #comercia. PROVECHOSO FX EA te dará soporte lleno, manuales &amp; soporte de Espectador del Equipo.	","valence",	0.645
+"2018-En-00773","	@caseydellacqua @ashbar96 será aclamar para ti ambos! Va @caseydellacqua y @ashbar96	","valence",	0.750
+"2018-En-01864","	@CNN @NewDay Si #triunfo #whitehouse no es aguantado responsable para sus acciones,qué precedente está siendo puesto para presidencias futuras. #Pesadilla	","valence",	0.300
+"2018-En-01538","	Si u #sonrisa demasiado😀\nu conseguir arrugar la frente líneas,\nif u #grito demasiado😣 \nu consigue ojo wrinkles,\n\n🔂 risa&amp;grito\n\n ...Es #vida 💗\n\nHave un día grande\n\n🍯🐝 es	","valence",	0.661
+"2018-En-01504","	SÍ, Joe Buck! Justo cómo  quiero gastar mi anochecer. Soy tan feliz I consigue para oír su voz dulce para el próximo 2-3 horas #AllStarGame #Rabia	","valence",	0.650
+"2018-En-03715","	#de sarcasmo y #hombre de decepción.... Es que vida o qué? Lol	","valence",	0.250
+"2018-En-02808","	Alguien necesita empezar escuchando a @OssoKXLY sobre #AllStarGame2017 ideas. #Brillante @700espn	","valence",	0.600
+"2018-En-04317","	los chicos son tan terribles pero también tan asombrosos.... Correcto?	","valence",	0.536
+"2018-En-04332","	@1720maryknoll  era #fuming Kenny.	","valence",	0.183
+"2018-En-03823","	@FFigureFBust Cómo tan?  He sido pensando de conseguirlo hecho y ahora  me has dado un asustar.	","valence",	0.293
+"2018-En-01997","	Venidero arriba dentro de poco #WetinDeyHappen #la sátira #ríe #local #Pidgin cc @McTalkinDrum y @Gracioso_Udeme #stayTuned #premiumTalkStation	","valence",	0.603
+"2018-En-00779","	@wvgmltd @DalefootCompost @ThomasEtty  te gusta limpiar mi parte superior de cocina, complacer??? 😉😊 #sparkling #nomess #sunglassesneeded	","valence",	0.625
+"2018-En-01719","	@michaelsloan87 @SkyFootball La decepción cuándo es de hecho un patrocinador de club nuevo! 😂	","valence",	0.603
+"2018-En-02669","	Las universidades muchísimas activamente desalentan incluso justo uno separa-trabajo de tiempo porque  tiene un impacto negativo en estudios--	","valence",	0.339
+"2018-En-02878","	Felices de compartir mi preestreno de vídeo nuevo con algunos de mi locales fav es!\n#Compone #emoción @CBCMusic @Musicyyc  @CJSW @BreakOutWest @HifiClub	","valence",	0.828
+"2018-En-03680","	@theAliceRoberts @FryRsquared @AdamRutherford nunca han probado evidentemente  estápulsando' una cabeza roja #fiery	","valence",	0.333
+"2018-En-02394","	@LeahRemini  Un  esligion' aquellas personas de empujones a suicidio, y castiga tú para hacer la cosa correcta?? #Desgarrador	","valence",	0.069
+"2018-En-02948","	que nubes de alcohol todo el mundo es juicio.  Alborea encima me que algunos los hombres jóvenes REALMENTE no entienden qué medio 'vulnerable'. #Irónico	","valence",	0.419
+"2018-En-01671","	Nigga escribirme hablando bout  soñé aproximadamente te, fresco I esperanza  perseguía tú en una pesadilla	","valence",	0.350
+"2018-En-02063","	4 horas. \n4,189 palabras.\n1 historia.\n#amwriting #Horror #publishorperish	","valence",	0.481
+"2018-En-00159","	Hey @NHSEngland imagina ser azul encendido a hospital incapaz de respirar sólo para ser vertido en un cubicle y no visto para 4 horas #horrendous	","valence",	0.161
+"2018-En-01124","	Cómo venidos tranquilos bien behaved los gatos y los perros tienen que paseo en un avión en una bolsa minúscula mientras chillando los humanos pequeños vagan libres? #Ultraje #teampet	","valence",	0.241
+"2018-En-01501","	#LouiseLinton - haters yendo para odiar seguir siendo vuestro#fabulous self  seguirán siendo  #Mirada	","valence",	0.355
+"2018-En-02599","	desgraciada a aflicción #de mina &amp; mi ​​​#dolor​; &amp; perdonar todos mis pecados. -Ps 25:18	","valence",	0.534
+"2018-En-00832","	@skh4808 @theveteran425FA @TomiLahren Entonces por qué'd  esperan hasta que ahora para empezar consiguiendo pissy?	","valence",	0.391
+"2018-En-01993","	@BadHombreNPS @SecretaryPerry Si esto no me hizo tan enojado,  sería reír en este tweet!	","valence",	0.362
+"2018-En-03643","	@WhiteJennyB @EmreUslu jenny Blanco  u r el más mudo aquí .. Qué r u probando ? Consigue perdido..	","valence",	0.117
+"2018-En-03362","	Envuelto En Este Burrito, Gotta Sudor Esto Todo Fuera 😰	","valence",	0.345
+"2018-En-00452","	otra vez i realiza algunos de ti se pueden preocupar aproximadamente me siendo idos tan mucho tiempo! Teme no, para i ha hecho una vida nueva en nombre propio en el sewers,	","valence",	0.266
+"2018-En-01563","	@emmajckson sobrecogimiento gracias (,:	","valence",	0.750
+"2018-En-03352","	Vendiendo desnudos pics y vids kik me para comprar! Cochinamente_becca69\n\n#kik #kikme #kikusernames #chasquea #snapchat #findom #desnudos #slut #kiktrade #horny	","valence",	0.550
+"2018-En-00900","	soy tímido al principio.Normalmente me tomo unos cuantos minutos para evaluar la mandíbula de las personas i estoy colgando fuera con y entonces i actuará según🤷🏽‍♀️	","valence",	0.500
+"2018-En-01725","	Da las gracias por tal emocionante #AllStarGame @MLB. #Sarcasmo	","valence",	0.589
+"2018-En-03236","	@andyfleming83 ardillas de Bastardo. 😡	","valence",	0.141
+"2018-En-02462","	Dannie Eres una influencia terrible, agujereando tiempo😂💉	","valence",	0.516
+"2018-En-03571","	@realDonaldTrump Tan duro de creer después de que  has trabajado #bigly duro de traer el país sarcasmo #junto #impeachTrump #25AmendmentNow	","valence",	0.448
+"2018-En-03686","	@MikeAndMike @Buster_ESPN si consigues tiempo.. @Orioles Compradores él vendedores o qué somos yendo para hacer!!?! #Pánico	","valence",	0.267
+"2018-En-02551","	El tiempo próximo  voy a Lagos yo  la puerta choca alguien es owambe vestido en encaje y gele para comer amala y sacudir mi cintura😑	","valence",	0.648
+"2018-En-03186","	@Popstufs3 Café es bueno y la vista es incluso mejor 😊	","valence",	0.732
+"2018-En-01246","	@TikiTakaConnor Eduardo sin el daño honestamente asombraba gusta tan triste no es mirado en en la luz correcta debido a sus Daños.	","valence",	0.400
+"2018-En-02339","	#AI #revolation, pronto es posible!\n#Correo  #de bondad #bueno	","valence",	0.732
+"2018-En-02522","	temeroso #osado TRNSMT blues	","valence",	0.400
+"2018-En-04182","	Idk por qué pero cuándo  ayudo alguien,  una sonrisa viene en mis labios.\n\n#thatisall #ieverwant #noneeds #justyou #Paz #de amor que #sonríe #bondad #de caras	","valence",	0.903
+"2018-En-01428","	 pienso  esleep' es mi favorito de Cómo  conseguimos tan oscuros?, quizás porque  soy insomniac	","valence",	0.328
+"2018-En-01755","	Qué  Amelia quiere?! Sarah era v agradecido  #CBB	","valence",	0.690
+"2018-En-01911","	es carencia de #fe que personas #de marcas #temerosas de #conocer #retos …\n\n#MuhammadAli	","valence",	0.500
+"2018-En-03038","	James Badajo  cary y perturbando'.  #25thAmendmentNow #ImpeachTrump  #aterrorizado #nuclearcodes  #Godhelpus	","valence",	0.296
+"2018-Ar-00297","	louay partícipes de Zmaan buenas y respetado y querido nuestro Señor y la mutilación ayuda usted y afrg 💞 💞	","valence",	0.613
+"2018-Ar-03228","	aislamiento adicto miedo tiempos de atención excesivas no mejora el aislamiento de todo Altsrvivsd #	","valence",	0.328
+"2018-Ar-00857","	Recuerde que después de la miseria y la felicidad después de las lágrimas # sonreír	","valence",	0.625
+"2018-Ar-02764","	MAF se casó preguntar sobre el matrimonio, pero la maldición y la maldición y me pida casarse inconsciente sólo una vez Sahbi Wenta dulce y después de eso supe Anu mi madre, que es Mrslaho 😠😠😡😡	","valence",	0.422
+"2018-Ar-00582","	25 Por desgracia, lo que Barafk mucho B en Pine Minih la sangre y la luz de nuestro Señor por favor, que siempre 🌸	","valence",	0.547
+"2018-Ar-02756","	Corazón Aaoukt y auto Lo que se sienten cómodos con el latido del corazón y lo que se alivia de la próxima vez # Mstr_talal_llodavat	","valence",	0.422
+"2018-Ar-01501","	Manténgase @kasimf medios profesionales como una sola Ahdnak usted mismo y hermanos disputa Atakzk dieta Qatar	","valence",	0.462
+"2018-Ar-02288","	# Km_ouselt_aidt_ana_hzh_allhza proporcionar eidia para los niños y llevarlos a sonreír inocentemente tightwads Saadeh no conocidos	","valence",	0.781
+"2018-Ar-03073","	Por lo tanto la oferta de hoy muy Bzaal en qué medida y Agi Azgzg Matzgzgsh o se ríe	","valence",	0.532
+"2018-Ar-00672","	El uso de un nuevo lenguaje en esta guerra, sino que indica que está destinado a esta crisis que no termina y la llegada de los medios de comunicación para esta etapa de un mal augurio Decadencia	","valence",	0.355
+"2018-Ar-01786","	@ JeeHaan5 todos los dolores de cabeza de Ashan un cuento !! \ n azúcares Elly mana y estúpida Mbhabh Barda Kltha😤😭😭	","valence",	0.387
+"2018-Ar-01952","	Si el premio más meticulosa miedo de enfermedades ganó BHAA Annnaaa 😃	","valence",	0.438
+"2018-Ar-04066","	@Amjed_BenIssa Gracias por su preciado Hedda 😀	","valence",	0.750
+"2018-Ar-02767","	🍃 🌸 la felicidad no es un sueño y no ھ O m ni tiendas ordenados, pero es el optimismo y buen pensamiento y paciencia y sin prisas por la mañana optimismo 🌺	","valence",	0.844
+"2018-Ar-00946","	Me Lissa Zaal de Elly llave Bgieb en el cuerpo Azaal que Beverd mismo Bicolk existo malla es que Hataraf difícil hacer caso de mí mismo, que se Bejlak	","valence",	0.156
+"2018-Ar-02051","	Aalzh fiesta Loya dulce y Ante Idi, que cada año es única alma completa, el resplandor Viqueque 😢 ♥ ️ ♥ ️	","valence",	0.672
+"2018-Ar-01460","	@ _iSh9 Anhst con ellos para cantar necesaria Balhasteqat Ashan sabe de u hablan 😂	","valence",	0.469
+"2018-Ar-01347","	# Dja_qlb y \ n corazón si no una herida murió HIHS dolor de \ n la muerte cómoda \ n asegurarse de que la palabra áspera Elly tocino de la graduación de la lengua y vieron su corazón moler cualquier Pinzv	","valence",	0.219
+"2018-Ar-02375","	# Fin de semana planes energéticos felices de su vida con el fin de no condiciones Tsirc	","valence",	0.781
+"2018-Ar-01593","	Buenos días por la mañana \ n y buena satisfacción Miliana y ampliar \ n llamado a mi Señor antes Ätnam \ n y tiene Almchaarghyr \ n ATTT mi Señor desea \ n toda la necesidad de referirse a ellos \ n Este es el día de la esperanza \ n una mosca \ n # boda	","valence",	0.703
+"2018-Ar-03190","	`Resolverse entre las costillas y el amor importante ya reír Snini y Naim días 💭 💖 # Karob_gam_lda'm	","valence",	0.694
+"2018-Ar-00272","	Usted es la peor persona que te ama y que reserve un momento de felicidad y se pregunta cómo el amor y el distanciamiento se reunieron en el corazón de un hombre y cómo atormentado amor del corazón I # crueldad	","valence",	0.094
+"2018-Ar-03745","	Artículo especial: un comienzo positivo para las conversaciones Brixt pero persisten las dudas había una atmósfera de optimismo después de la primera ronda de negociaciones, la salida de Gran Bretaña de la Unión Alou	","valence",	0.484
+"2018-Ar-03815","	Hija de nubes rosas y mi hermana flores cabina ángel de Zein Lin se convirtió en Mraiytk piensa que su casa 💕 💘	","valence",	0.717
+"2018-Ar-04266","	En el momento de la confesión de amor es un momento de debilidad eso es lo que leo en sus ojos: se ve confundido y la voz inocente estremeció a pesar de que usted es diferente Heptk	","valence",	0.375
+"2018-Ar-00827","	@NassifZeytoun intruso Qlbo beduinos leer todo Alm❤❤ no leer y estás atormentando Nos Rah hace doble 🔝anda Estoy convencido de que la muerte de	","valence",	0.625
+"2018-Ar-00336","	Htamot triste si esperaba mucho # afrg	","valence",	0.344
+"2018-Ar-03147","	Francamente que Ahsbk arrogante porque sabía Zine B sentó Assoulv Mas Talaata Tioppe y Aahh corazón Tdkhlin Me encanta Aslobs suave amor feliz Connie Muah	","valence",	0.581
+"2018-Ar-02796","	Vi un vídeo que dicen Michael Jackson mientras Ayesh y es todo Samson Hallouet Ashan desaparece y pruebas Hatin .. Choi estaba Khrah 😰	","valence",	0.516
+"2018-Ar-00711","	A pesar de la triste noticia en las noticias # Mcherqna un único rayo de esperanza: # militar de Estados Unidos hacia atrás y morir en verde en lugar de su tanque de color desierto	","valence",	0.422
+"2018-Ar-02618","	# Frha_bundq cada año y que son buenos, oh Bro❤	","valence",	0.887
+"2018-Ar-01173","	dulces tiempos cuando se sabe Maine porque amo tiempos muy tristes cuando se mezcla con el amor de compasión	","valence",	0.613
+"2018-Ar-02540","	Mahd predijo episodio Ashan así le gusta por lo 😍 recordó el último episodio triste Shui	","valence",	0.625
+"2018-Ar-01370","	Ver acuerdo de hoy significa que de p Aghast la otra .. cebú sola Hanthr :)	","valence",	0.328
+"2018-Ar-04049","	Agradecido por cada persona en la vida inculcar Fini efecto hermoso y me llamó una llamada sincera desde el corazón y me dejó la palabra dulce felicidad y el amor Tjia 💌 💛	","valence",	0.875
+"2018-Ar-02348","	cifras de miedo revelan la realidad oscura e infeliz del pueblo iraní y el gobierno iraní está gastando miles de organizaciones terroristas realidad momento en espera de las personas infelices	","valence",	0.016
+"2018-Ar-03503","	Todavía en un montón de la vida porque soñamos que vislumbramos las flores de la alegría de nuestros corazones, los hacemos lo puso en la frente de los collares mundo en el que la paz reposará	","valence",	0.719
+"2018-Ar-03132","	Cualquiera que sea llegado y mi dolor que cualquier pensamiento humano Maamra Adharh Mo debilidad, tengo la convicción de que el Señor B afligen a todos los demás en la misma que de otro modo 😞.	","valence",	0.313
+"2018-Ar-02959","	# Frha_qbak_taatmthel_vi alegría del corazón y las lágrimas llenaron los ojos	","valence",	0.661
+"2018-Ar-00777","	# # Mi madre miedo a la vida sin ti	","valence",	0.290
+"2018-Ar-01266","	Y finalmente nos salvó otro examen # # resto Rahh_nevsah	","valence",	0.813
+"2018-Ar-01770","	# Col_ha_an_alhab amor es la felicidad, la seguridad y el confort de Baldva amor de primavera inundaciones y anhelo y Alolh y la más bella Maver estar basada en la honestidad y la credibilidad	","valence",	0.688
+"2018-Ar-00164","	Cada extremo Pinzl mar el hecho de que Arif Llano posible desplome !! \ n \ n B en la aventura tarado es más fuerte que el miedo a la formación de ahogamiento 💙🌊🌊	","valence",	0.547
+"2018-Ar-03418","	Twitter entró inmodesto modestia y luego se marchitó como si fueran objeto de burlas gradualmente los hombres Osedkaiqa en los corazones de los jóvenes de estos Almmazhat fantasías de sus niñas la vida Atdrickha # 74	","valence",	0.391
+"2018-Ar-01727","	Oh Dios, yo alabo al Señor, la alegría del éxito y la graduación 🌸 🎓 # Farahta_njahi	","valence",	0.859
+"2018-Ar-02680","	Saeed Al Harthy: Abdullah Alnaguiban educado, positivos y fotoactivos ajuste se mueve encajan agua estancada hace un ambiente alegre y remover su vida 👏 🏻 # 60	","valence",	0.719
+"2018-Ar-03838","	Mabsout Miro los Halparwa en el suelo después de cuántos años, si Dios quiere	","valence",	0.781
+"2018-Ar-01511","	Nvsik es una brújula para su escritura # # # amor melancólica felicidad	","valence",	0.516
+"2018-Ar-03396","	# Hdu_gram_lda'm el sentimiento más hermoso cuando vea una oración usted demanda se ha logrado en la alegría de mi pecho, Señor alentado no ha descubierto su cuenta	","valence",	0.641
+"2018-Ar-03868","	Me Gillanh que se enojen y no peques da derecho Azaal B en el inconsciente para que sea uniforme aterrizó antes de Cristo, ya sabes Ahan es Kaddotk	","valence",	0.250
+"2018-Ar-03742","	@ 3_october Dios me parece que lo muestra entrar en hospitales mentales y de advertencia de salud Majkova y Te conozco personas que llamamos los medios de comunicación y Tambores	","valence",	0.313
+"2018-Ar-02977","	Entonces Dios anhela ver sus ojos, y su criado conoce sus secretos Vyagmurh satisfechos si lo Aodjah McCann Mahdt💙	","valence",	0.641
+"2018-Ar-02715","	Ante a adoptar y Bchowh ante sus ojos y todos los puntos de vista de más de lo que todos los Ts que Ed R. éxito \ n necesidad de optimismo tiene que Ptda duro (Balnspala)	","valence",	0.578
+"2018-Ar-02304","	323: Bokeh mi mejor uno en el mundo y muy estimulante de Dios significa Mbzbeh o muñón y Bihtajk gran parte de nuestro Señor, mi amor por favor, que Aarb😻❤ ♥	","valence",	0.781
+"2018-Ar-00289","	Otros 10 Dqaig escuela y se guarda la segunda B en las caras de red Mstaln 😀	","valence",	0.469
+"2018-Ar-00624","	La tristeza se derriten y un gran placer para llegar a casi termina también lo son nuestros sentimientos Unidos sus días	","valence",	0.432
+"2018-Ar-01605","	Atalgueni de este mundo no aman :( ábside	","valence",	0.250
+"2018-Ar-00816","	Lejos de todo lo que no Ngfloa para pedir perdón por los elogios de alegría al respecto verdad la felicidad tahmíd para aquellos que buscan la felicidad 💭 ✨ Astgvrallah❤	","valence",	0.672
+"2018-Ar-02877","	@hamza_alkhayyat @ yanabee3_t realidad .. hay que romper la rutina de cuotas \ n Badgahm un poco 😄	","valence",	0.578
+"2018-Ar-03433","	Dice que fue amor con otros Mmeltha y el dolor en la oportunidad más fuerte para ver Daem ríe. Si lo extraño lejos de cualquier amor del ya charla ignorante	","valence",	0.453
+"2018-Ar-03963","	Es si yo valgo Aaoz ayunar el último día de Ramadán en el carrete p mar en Alejandría mantiene loco y de mantiene normal y natural 😏 🙈 😏 # # Tarq_ldermira Dgta_mpthzrh	","valence",	0.581
+"2018-Ar-00421","	# Aidkm_mbark para mi familia agradable para todo el mundo sobre mi vida cada año y cada año Anto Ngmrkm fina y alegre y hermoso Aptsamtkm Lo Aekrha tristeza 🙏 🏻 💕	","valence",	0.797
+"2018-Ar-01494","	# 6 Ahtda_hrva Ivotkm ❤ Ver Harvey y personas divertidas y todos nosotros Salman 💚: :) (;	","valence",	0.828
+"2018-Ar-03257","	@RadiniaHatter vidente Tstmtaa cuando su familia de vacaciones? la saturación Tavakoli Molokhia? \ N sin universidad sin ellos disfrutan de 😂💃🏻	","valence",	0.750
+"2018-Ar-02040","	# Farahta_njahi Dios quiere Mbrwok todo, oh Señor, y Akbna años que nos separan de alcanzar el sueño 😭	","valence",	0.781
+"2018-Ar-02223","	Me Aktar necesita Bla I sea la causa del fin Zaal de mi temor de que Mesamhanih de Petrabna	","valence",	0.375
+"2018-Ar-04115","	Yo no era un átomo de respeto para la gente que está hablando en forma de alguien malas palabras Tani personas insulto Petrma inofensivos y no tienen sentido en hacer Palli	","valence",	0.258
+"2018-Ar-03747","	de mi hermano Fiqida: Idi menos que están en los brazos de su tumba en mi memoria y la cara sonriente y el tono de su voz en mi corazón el dolor de la pérdida y el anhelo misericordia de Dios que el dolor # Aidy_naqs	","valence",	0.167
+"2018-Ar-04098","	@thansulii Machaouallah vino espumoso Makinte, Wen pronunció? Abe Vic😻❤️ firma!	","valence",	0.609
+"2018-Ar-03591","	Dah que esperan en los ojos, \ n locura orgasmo horas.	","valence",	0.750
+"2018-Ar-03865","	Mezquita @AlsharqiyaCafe @abd_llaziz de Munir Sheikh Mansour al-Zahrani 👌 entrar en la atmósfera y la tranquilidad y Dios bendiga Khcowoowoa B necesitaba consiguiente vuelve Badri, pero Ptsali calle	","valence",	0.839
+"2018-Ar-00617","	# Bahjh_zhor_enba la creatividad y el tráfico de papel excelencia Te deseo más éxito y progreso	","valence",	0.781
+"2018-Ar-03793","	Dulce Alakeshnh B temor a Almassaab	","valence",	0.328
+"2018-Ar-00184","	@ Nubes Reeo12e @NajranWeather Hallelujah en forma de corazón 😊	","valence",	0.661
+"2018-Ar-00556","	* Asahaaaaabi💛 \ n Ashan Ramadán cerca de la \ n Allah esté satisfecho Saadeh m eterna entonces ni ellos ni llanto, ni apretado, transmisiones Dios Boutriqkm éxito y la comodidad y la seguridad de Dios Adimkm😔💜.	","valence",	0.750
+"2018-Ar-00590","	Qué hermoso es hacer una pequeña Ofraha a su alrededor, lo que más necesitan de corazones ahora se regocijan con la alegría y la esperanza de la llama	","valence",	0.828
+"2018-Ar-00155","	# Kinsh_vi_hah_athaddak \ n la belleza del mundo, además de Eineik poderosa guerrera se enorgullece de Vic Beck tiene el mundo	","valence",	0.766
+"2018-Ar-02654","	# Lluvia 😍 \ n # Aid_melady 😄 \ n # Vanus_ramadan Kmaan😘 \ n lealtad al igual que Kthier dura 😃 - sensación fantástica	","valence",	0.813
+"2018-Ar-03996","	Di lágrimas de alegría Iaarb xD ❤️ amor dura Daemaa 😍 😍 😘 😘 💖 💖 🌸	","valence",	0.766
+"2018-Ar-01981","	El primer amor de los pasos elevados alegría apli mínimo y velas ~	","valence",	0.828
+"2018-Ar-01017","	Oh Dios, por favor @PrincessBasmah el dueño Alsmowo y hace que toda la felicidad y Drbakk Basma, como su nombre nos Ayuda	","valence",	0.766
+"2018-Ar-01382","	el actual episodio Maaljt sólo dio a Maaisalon que han tenido remordimientos de conciencia Shui excusa Anu creencia en el corazón de toda la garganta abortiva Matnih llamar a mi predecesor # 3	","valence",	0.297
+"2018-Ar-03328","	AgrD y todo y específica me conoce una sensación agradable	","valence",	0.608
+"2018-Ar-01277","	Más luego terminar su voz seguros de que es dulce a un grado competitivo cantantes Ptvkra alto 😂 😂 Bhsk y compartió su ayuda Minihh sencilla y Dios está con su vida 🌸 🌸 y Ncovk ingeniero más dulce ❤️	","valence",	0.688
+"2018-Ar-01270","	@ @ 0ta4 iAnas5 Dios multiplique su bondad y ex Señor Dios, donde la duración de su edad, mis hijas lo llevaron a Athton los pechos expansión 😅	","valence",	0.750
+"2018-Ar-02261","	Cielo la estrella del centelleo ✨ unidad de silencio calma espera para satisfacer la conciencia de diversión sin fin	","valence",	0.878
+"2018-Ar-03894","	# Ahtda_aid_ariyad Ntam cosas dulces B Manbeha Juvenil 🏃 🏼 😂 profeta algo dulce para ser las familias de las dos partes Aradwa Stales	","valence",	0.548
+"2018-Ar-02138","	Gracias por su respuesta, mi querido hermano y 👍 optimismo mañana	","valence",	0.672
+"2018-Ar-01638","	Almas Tayyiba placer y Salha Asaadkm Dios con esperanza y no satisfechos Thblgoh no tiene satisfechos que han aprendido y siempre y cuando no le contaste mañana Rizk subió 🌺	","valence",	0.750
+"2018-Ar-01944","	El otro transpirante Rah derecha y todos nosotros con la alegría del corazón y la mente Mamnsmah límite Aavea 😊 💔	","valence",	0.600
+"2018-Ar-01713","	@ 6PYCuiT2ln8Qfh4 bus en la cabeza, lo más importante no estás triste 😅	","valence",	0.629
+"2018-Ar-02945","	Oh la alegría no le veo la tristeza y la felicidad Aekrha miseria y Afia no desaparecen 🎼 💜	","valence",	0.641
+"2018-Ar-01117","	Estoy triste, oh Dios, estoy triste más que simples relaciones terminaron contra mi dolor o la traición y no esperaban un acontecimiento triste y Juro que es más profundo que el sueño no se hizo realidad	","valence",	0.094
+"2018-Ar-03708","	@aya_mardy Bbosc mi vida Ashan Tvtkirna 😗	","valence",	0.859
+"2018-Ar-03180","	Su sangre es lugar luz 😍	","valence",	0.661
+"2018-Ar-02964","	# Mdzrh_alkimoa una muestra que estaba consternado por lo que está pasando, tratando de mantenerse dentro del alcance de la humanidad, pero es consciente de que muchos de los animales está consternada	","valence",	0.113
+"2018-Ar-01976","	# Gracias Hkura_aallah número maravilloso adorna maravillosas gracias a la sensación de la alegría y el dolor de la vida Gracias maravilloso toda la sensibilidad al tigre Gracias # Wonderful Life Kona_drh # 52	","valence",	0.750
+"2018-Ar-01485","	El domingo era la alegría de convertirse en Farahtin 💘	","valence",	0.891
+"2018-Ar-02481","	Hospital de Magdi Yacoub anunció Btaa Ahmed Helmy y Donia Samir Ghanem es un gran Dios de Levi 👌🏻👏🏻	","valence",	0.734
+"2018-Ar-02896","	Woody agrD en Farah y yo Milliyet agrD triste # Hzna_onic	","valence",	0.211
+"2018-Ar-00348","	# # Oh contento y más allá de la estrecha # # # Acerca de nosotros Señor nos conceda la vida y dulce # # # belleza de la suerte y la capacidad de los medios de vida y # # # comodidad de la mente y el tipo # # # nosotros más de lo que deseamos # $ 💜	","valence",	0.726
+"2018-Ar-02555","	No deje nada en su corazón contra uno; perdona y perdona e ignorar los mejores momentos de la vida es probablemente merece ser experimentado y cómodo Trahl️ # # Ramadán a Aala_ramadan	","valence",	0.453
+"2018-Ar-04187","	3 Cumpleaños forma a nuestro festival, si Dios quiere, la alegría de Dios Eid pago de vacaciones y vacaciones # Tmim_almagd permiso victoria por un un 🙏 🏻	","valence",	0.781
+"2018-Ar-02463","	Propiedad Caourin siempre contigo la mitad os y medio Nabzk igual que mi intento de Taktik y un gran sentido Bal_husrp en los días que están perdidos sin ti amo	","valence",	0.484
+"2018-Ar-01482","	Su forma Mazbenk Qatar y su gente y el número Farhan Wade asciende a ofrecerle regodeo abajo en el barrio Piense cara más despreciable del objeto Tierra	","valence",	0.297
+"2018-Ar-01662","	Las personas @Bion_xz Ptsom y deshacerse de la apuesta y cuando Hahahahahahahahahahaha .. noche noche Maalih éxito Aabaadi dejar de antemano feliz ❤️	","valence",	0.694
+"2018-Ar-02295","	# Kpatn_karim_mtzmron empresa crema oportunista a la ley del estado en un cínico no es una prueba clara de que están jugando en el capitán y el cliente sin Mallenson alta proporción 3	","valence",	0.310
+"2018-Ar-01219","	# Rih_madam \ n Alkpot \ n # Bahjat: Er ... Cabot Tabooot "\ n duro cada dulce garganta y la comedia más de lo que antes 😂👌💪	","valence",	0.710
+"2018-Ar-02315","	# Bahjat Yala queremos un Albast completa Hace # Shawkat morir 😂😂😂 \ n \ n mueren de Ahazzar mueren de la risa 😂😂😂 \ n \ n # Rih_madam😂👏	","valence",	0.774
+"2018-Ar-03848","	Gracias por las cosas simples Una delicia en nosotros, las personas ❤	","valence",	0.797
+"2018-Ar-01649","	Un espectáculo de audio Alaratjavh \ n Si en su localidad más fresco Abbiati.	","valence",	0.547
+"2018-Ar-03511","	Lemme alegría que recibió Aavni momento de dolor	","valence",	0.629
+"2018-Ar-01504","	Felicitaciones a Madrdi se muestran con el derecho a emitir Tweet celebraciones deseos desagrada	","valence",	0.703
+"2018-Ar-04099","	# 7 Ramadán 🌙 recogió primer Ramadán; Oh Dios, este gran día en el más feliz de nuestro corazón y perdona nuestros pecados y aceptar nuestro favor, y perdónanos por nuestros muertos está en todas las cosas omnipotente ✨ ✨ 🌙	","valence",	0.726
+"2018-Ar-00501","	# Attab_aharov de alguien que te disculpes esta condición mo que son verdad, un error puede no te amor y respeto que usted y el respeto hiper ULC lo que quiere Akhosrk # Lo siento por cada uno Dojtah 😐 😌 ✌	","valence",	0.406
+"2018-Ar-02078","	@AlfaAqwa hola, el paquete no está disponible en el mercado, es posible Bs unidad Tvose de contenedores llegando a través de su puesto Bmsabqatna 😊	","valence",	0.594
+"2018-Ar-01619","	Eid feliz y todos los años y todo el mundo hicieron en la salud y el bienestar y cada año agregamos el mundo árabe de los líderes Okhosa Mdnson de trabajo y la humillación	","valence",	0.727
+"2018-Ar-03746","	Celebraciones del estadio es lo suficientemente virgen Lin	","valence",	0.694
+"2018-Ar-01264","	# Alhacd_aahtm_ahalam_ardogan y los sueños de cada paciente Taghi multitud esperan la multitud de mañana multitud brillante y el resto de los que están involucrados	","valence",	0.281
+"2018-Ar-03802","	Estoy de acuerdo en que una pequeña aventura y firmar con él, pero sus peticiones realistas y equipo de observadores, así como lo que se devuelve en el tiempo	","valence",	0.516
+"2018-Ar-04241","	@ssstygh uno MAPH Manténgalo dos dimensiones Haram después del Ramadán fiesta como el monumento 😜😜😜	","valence",	0.391
+"2018-Ar-03329","	Deja que tu sonrisa es la primera que es su características # # caridad de la salud en la religión y en la felicidad del corazón # y quienes le rodean un bello efecto 🎶 🍃	","valence",	0.766
+"2018-Ar-00125","	salvación @drsamia @allahim de buenas mujeres se les impide la compra de los hombres Ashan después de mezclarlo Maaasir 😤	","valence",	0.531
+"2018-Ar-00183","	la gente común OK Todos estos son la alegría de sus costumbres Khalhm Aswo a Ibgouna ☺	","valence",	0.726
+"2018-Ar-03473","	Los cuatro mala señal cuando los japoneses	","valence",	0.370
+"2018-Ar-03878","	# 😍 alegrarse y dejar que la alegría y da por lo general después de Putnam Tsaha Alih🌸 # Ridi Htlaqa # Saadeh que Bah❤ Want To	","valence",	0.859
+"2018-Ar-00374","	La alegría de su madre y el padre de Beck, y que están orgullosos de su sentido Beck	","valence",	0.828
+"2018-Ar-01420","	Después de saber lo que escucho tu voz Haasir Fini? \ N se convierte en mi corazón late rápido me siento omite, siento la alegría de Tjia Klee, sentarse risa sin Caourin sin saberlo?	","valence",	0.859
+"2018-Ar-00833","	Bremer Lage Irak perdió batallas de su ejército Mo como si Tnton 4 mil millones Trump # queso	","valence",	0.375
+"2018-Ar-04254","	Soy el dueño ayza Ze Akram Hosni # Rih_madam 😂😂 todos dicen que ponen el contrario, dice tazón O \ n 😂😂😂😂 \ n # # Bahjat Sultan 😂😂💙💙	","valence",	0.694
+"2018-Ar-01721","	Dios vino a usted y la voz del mundo de Dios Unión Attakm perdona sus posibilidades celebraciones KMILO dibujan Kmilo	","valence",	0.516
+"2018-Ar-00199","	Poner en mi vestido de negro luto tuviere real Karar puede soplar guiada Osaqev general Anwar Al-Rashad extinguir el odio contrató # Aaala	","valence",	0.419
+"2018-Ar-01489","	# Aidytk_ma_rgd_mamed nada de ti lo más importante es dulce regalo 😢 😢	","valence",	0.548
+"2018-Ar-00609","	Maad P lago lugar del pecho \ n Aahsrh en los días de la época	","valence",	0.274
+"2018-Ar-00196","	@ Palabras W1_h2 mo Mis fans dulces y la cosa apariencia física B Maalih 🤞🏼	","valence",	0.469
+"2018-Ar-03768","	Danos la paz de corazón y mente, Señor 💙 🤦 🏻 ♀️	","valence",	0.547
+"2018-Ar-00659","	Lessa le Filtrar resultados # Alfarahh_ank	","valence",	0.548
+"2018-Ar-02157","	Nuestro Señor hace que la luz de nuestras palabras deliciosa Zarif Latif Ali, que sabemos y la gente Mnarafhash	","valence",	0.500

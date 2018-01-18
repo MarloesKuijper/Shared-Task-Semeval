@@ -1,0 +1,724 @@
+@relation "./files_to_convert\2018-EI-reg-Es-joy-dev.txt"
+
+@attribute id string
+@attribute tweet string
+@attribute emotion string
+@attribute score numeric
+
+@data
+"2018-Es-05016"," @username En caso de ser mujer ... Piensan en embarazo, quisiera tener anemia en ese caso. 😅","joy", 0.375
+"2018-Es-03661"," Creo que me quede libre hace un montón y todavía me queda un trimestre ","joy", 0.326
+"2018-Es-02063"," — Cómo quitarle la diversión a la vida, libro escrito por Jiwoo.—","joy", 0.250
+"2018-Es-01986"," Mañana es festivo 😍 ","joy", 0.688
+"2018-Es-00372"," [ num/num num:num AM ] Traidora : Ay te amo ❤ Feliz día mi puti . Otro año mas con vos . Sos única siendo como sos, y te amo así. Mañana estamos juntas","joy", 0.833
+"2018-Es-02136"," @username LAMENTO MI CONFUSIÓN DE RAMA LEGISLATIVA : Habida cuenta, publicamente corregí. Espero haber satisfecho el reclamo.","joy", 0.205
+"2018-Es-02181"," #FelizLunes cosas hermosas ! #Feliz ","joy", 0.854
+"2018-Es-01681"," La alegria se multiplica compartiéndola 😀 ","joy", 0.750
+"2018-Es-01259"," Buenas noches a toda la pipuuul . Que tengan una excelente semana ","joy", 0.688
+"2018-Es-01520"," @username Es entretenida, te la recomiendo","joy", 0.604
+"2018-Es-00792"," @username en realidad si me interesaba porque trabaja en street machine y hay ropa bonita . Lo hice por eso, por un descuento ","joy", 0.500
+"2018-Es-02185"," Y que tal si mejor estoy de oyente @username ? ","joy", 0.478
+"2018-Es-00243"," Seguro el año que viene si nos acordamos ","joy", 0.208
+"2018-Es-06583"," Fin de semana de descanso total, dormir + de 10 horas seguidas, comer rico con heladito incluido y 24 hrs viendo the big bang theory 😋#feliz","joy", 0.864
+"2018-Es-03553"," @username Siempre, jajajajaja sos la mejor ","joy", 0.771
+"2018-Es-00516"," @username Que graciosa he 😢 ","joy", 0.478
+"2018-Es-02274"," @username @username Felicitaciones keiko ","joy", 0.729
+"2018-Es-03098"," Siento alivio al escribirlo . ","joy", 0.396
+"2018-Es-05936"," @username Es graciosa la situación jajajajajja ","joy", 0.750
+"2018-Es-04140"," @username Con amar azul estoy 😄 ","joy", 0.542
+"2018-Es-02300"," Ya quiero que llegue mañana ! ! 😜 😜 Ya que mañana juega mi @username A darle fuerza con toda • • • ¡ Descanso, casita y no se que mas! 🏢📺🍻⚽","joy", 0.792
+"2018-Es-06869"," @username Estaría genial, ya que en otros lados no se fabrican  y se los llevarían.","joy", 0.458
+"2018-Es-02463"," Dios está conmigo neta ","joy", 0.583
+"2018-Es-04278"," @username @username So re gracioso bro, es mi actual socioo","joy", 0.646
+"2018-Es-04367"," es gracioso ver gente q nunca se conforma con el amor que le brindan, siempre quieren más y más y más y PARA UN POCO LOCA YA TENÉS A ALGUIEN","joy", 0.381
+"2018-Es-04634"," @username dichoso de aquel q la uso,, y lástima x el ardido q comento eso jajaj ok no!!","joy", 0.563
+"2018-Es-04275"," @username Ya vas a andar como el Juan en el salón ","joy", 0.326
+"2018-Es-02721"," @username @username ESTOY EMOCIONADA AAAH ","joy", 0.848
+"2018-Es-04564"," @username Ahi vas a poder ahora . ","joy", 0.333
+"2018-Es-03843"," Solo le dije feliz dia a una persona jajja nose en la unica que pense 😏 ","joy", 0.813
+"2018-Es-03912"," @username me puso contenta leer eso jajajaja yo a ustedes también, banco a ese grupito","joy", 0.833
+"2018-Es-05341"," Estoy re boba hoy ","joy", 0.217
+"2018-Es-02237"," @username LA MEJOR DE TODAS ! ! ❤ ❤ ❤ Feliz dia Andrea ! ! ! Gracias por todooo ","joy", 0.854
+"2018-Es-02175"," Si estar contigo es un delito, hago cien años en prision 😃","joy", 0.696
+"2018-Es-01648"," Kajajajaj no lo superó, no puedo ser tan pelotuda ","joy", 0.357
+"2018-Es-04622"," #felizdiadelamigo al amor de mi vida, que es, a su vez, mi más valioso amigo. ¡Feliz día, mi corazón!!","joy", 0.875
+"2018-Es-01195"," Después de tres meses sin agua esta llego #Feliz gracias intergaláctico hasta que ustedes llegaron . Las tuberías no existían #NMJ 😤 😤 😤 ","joy", 0.625
+"2018-Es-06228"," Cuanto amor hay en tus brazos .. ","joy", 0.771
+"2018-Es-01694"," ¿ pupusas con albahaca y piña ? donde es que te vas a meter @username ","joy", 0.292
+"2018-Es-06469"," Aún existe gente que amenaza con dar unfollow 😂 ","joy", 0.292
+"2018-Es-04392"," @username Considerate afortunada . El mío hasta me ignora . ;) ","joy", 0.377
+"2018-Es-04006"," La #Felicidad se guarda en naftalina, se esconde de los malos debajo de la cama  🎈  - @montanertwiter","joy", 0.688
+"2018-Es-00122"," Estoy a dos de entregarte mi corazón, yo creo que a menos como 5 ","joy", 0.604
+"2018-Es-03848"," @username jajajajajajajajajajajja me muero ","joy", 0.646
+"2018-Es-06850"," Yo creo que me voy a hacer un tatuaje, o menos como cinco. ","joy", 0.396
+"2018-Es-01701"," Feliz día a todos los amigos ! ! ! ","joy", 0.750
+"2018-Es-06052"," + emocionante . ¿ No era algo hermoso, que la música pudiera conectar a todas las personas? ~  Sí señor, si lo era.  A este paso acabaron +","joy", 0.652
+"2018-Es-01321"," @username Se llevaron mi juventud estos disque hombres . 😟 😟 Ya viene lo bueno ","joy", 0.333
+"2018-Es-02168"," @username exactamente, con eso queda claro lo mierda que está todo ahora ","joy", 0.125
+"2018-Es-04187"," @username Mucho gusto . ","joy", 0.500
+"2018-Es-05428"," Soy libre de hacer circular el amor y la alegría por todas partes en mi mundo,amo la vida.","joy", 0.891
+"2018-Es-04091"," Mujeres que tienen nombre de perras y le hacen honor a el 😅 ","joy", 0.396
+"2018-Es-01106"," @username Muchas gracias ! 😊 ","joy", 0.604
+"2018-Es-03397"," @username Es lo más probable ","joy", 0.271
+"2018-Es-02910"," ibas a patin, nunca te conoci bien pero me caes genial","joy", 0.708
+"2018-Es-04713"," Yo se que le gusto, ajá, pero mejor así. No quiero nada serio con alguien..","joy", 0.370
+"2018-Es-05964"," @username @username @username Explicame que entendieron los num que RT ... ? ","joy", 0.227
+"2018-Es-06645"," Pago los precios de tenerte, darte amor y ser feliz","joy", 0.646
+"2018-Es-06438"," Novio : si un día una amiga ocupa donde dormir, puede en nuestra casa? Yo: es una pregunta capciosa? porque tu no tienes amigas 🙂🔪 o sí? 😀","joy", 0.354
+"2018-Es-01376"," Yo no les digo Feliz día a mis amigos porque son mis hermanos ! Bro bro bro ","joy", 0.708
+"2018-Es-03829"," Lo llame a mi novio que dormía, solamente para cagarme de risa dos hs","joy", 0.646
+"2018-Es-01810"," @username @username KKK emocionado cara 🤦 🏼 ‍ ♀ ️ ","joy", 0.636
+"2018-Es-01151"," felicidad mode on 💖 ","joy", 0.783
+"2018-Es-00770"," @username Se me hace que es el numGS ","joy", 0.364
+"2018-Es-01413"," Q agradable sujeto Icardi jajajaja ","joy", 0.682
+"2018-Es-02128"," @username Me pone nervioso que tenga el pecho tan grande 😂 ","joy", 0.413
+"2018-Es-00608"," Que satisfacción que alguien se preocupe por vos,nose me encanta","joy", 0.827
+"2018-Es-01228"," @username Cabal ! Ahí van bolos, no crudos. ","joy", 0.176
+"2018-Es-01608"," @username El insomnio es divertido a veces ","joy", 0.413
+"2018-Es-00192"," @username Me importa un reverendo coño ver programas de interés social exclusivo de personas con menos de dos dedos de frente 😀 ","joy", 0.104
+"2018-Es-01197"," @username el salto de cama de la presentadora fue un intento de tener audiencia ? ","joy", 0.326
+"2018-Es-04284"," @username Yo salí en la camioneta, desayuné McDonald's, almorcé China Wok y también se m olvidó ponerlo en las redes #sarcasmo ","joy", 0.354
+"2018-Es-03080"," @username Fala tu ","joy", 0.196
+"2018-Es-01218"," @username JAJAJAJAJA clavada ","joy", 0.604
+"2018-Es-03688"," @username @username Son tipos de doble rasero, se creen abanderados de la justicia, permitan que me sonría 😀","joy", 0.438
+"2018-Es-06016"," @username Si no decime a mi que bese el piso ","joy", 0.326
+"2018-Es-03250"," @username pero es con cariño, si no te quisiera no hubiera caído en tu chantaje del piojito ","joy", 0.417
+"2018-Es-00412"," @username @username JAJDLZOXKSÑXJA estoy muy emocionada por ti, te lo mereces chica, te quiero","joy", 0.854
+"2018-Es-01420"," Soñe contigo, más que una sonrisa me sacaste.","joy", 0.864
+"2018-Es-00237"," @username Seee, mucha, viajar por este estadote no es rentable pero sí divertido.","joy", 0.630
+"2018-Es-00007"," @username Vivimos en un tiempo de exhibicionismo tremendo, Pao. Me intriga cuál fue tu respuesta a eso. ","joy", 0.433
+"2018-Es-01985"," @username Ahora van a fumar porros todos los días ... Coalición Jamaica 🇯 🇲 ja ja 😆 ","joy", 0.587
+"2018-Es-03951"," Mi sobrina vio la foto que esta en la pared, la que estoy con vos y me dijo Mira tía cuando ahí estabas contenta @AbrahamMateo","joy", 0.375
+"2018-Es-05511"," La riqueza más grande es hacer un mundo que le pertenezca a la gente y lo sientan suyo, porque eso es lo que da felicidad.","joy", 0.761
+"2018-Es-03122"," Siempre que quiero escribir una nota utilizo twitter para que se quede como borrador ","joy", 0.413
+"2018-Es-06629"," @username Yo soy hija de Yecenia . ","joy", 0.457
+"2018-Es-04134"," Todo llega en su momento, vive el #presente ríe, siente, baila, enamorate de cada minuto vivido, vive la #Felicidad","joy", 0.833
+"2018-Es-01856"," @username Pues no le veo sentido a sentirse orgulloso porque los niños deseen estar ahí . Además Morata también fue chico y lo deseó . ","joy", 0.354
+"2018-Es-06272"," @username @username El sarcasmo esta bajito ","joy", 0.283
+"2018-Es-04008"," De lo que se entera uno 😂 ","joy", 0.479
+"2018-Es-02246"," Mis amigas ya tomaron sus fotos con humo de colores menos io y las necesito en mi vida . ","joy", 0.417
+"2018-Es-00983"," Si espera rencor o alegría de verme sufrir ... ","joy", 0.250
+"2018-Es-02710"," Guanlin con quince años es el segundo más alto del grupo . El basquet le va perfecto así seguramente juega muy bien . ","joy", 0.674
+"2018-Es-00455"," fav y te mando privado 😊 ","joy", 0.500
+"2018-Es-02264"," Daría lo que fuera por verte sonreír ","joy", 0.435
+"2018-Es-00360"," @username Es festivo ! Pero a mi me toca ir a trabajar ! 😧 ","joy", 0.250
+"2018-Es-00293"," Me enviaron mensajes amigos no estoy tan olvidada 😅 ","joy", 0.391
+"2018-Es-06537"," Tengo mi propia versión del optimismo . Si no puedo cruzar una puerta, cruzaré otra o haré otra puerta.  Rabindranath Tagore","joy", 0.587
+"2018-Es-00262"," Estoy muy emocionada, ni hablar de lo que voy a llorar cuando me digan que ya nació Vamos princesa❤👶","joy", 0.938
+"2018-Es-03497"," @username Quien no estaría orgullosa 😂 mi Amirsotee 😂 😍 ","joy", 0.750
+"2018-Es-06455"," Con eso no se juega . ","joy", 0.188
+"2018-Es-05066"," @username Se vio muy feo ? andas igual ? Vos no tenes corazón cierto ? ","joy", 0.229
+"2018-Es-03483"," Al principio no me llamó la atención, luego lo vi sonreír y fue como aplicar mil filtros de Instagram.","joy", 0.792
+"2018-Es-05720"," Yo que ya no quiero tomar y mi mamá llegó con mis botellas de tequila que estaban en la casa de mi abuela 😍 #Felicidad ","joy", 0.783
+"2018-Es-04763"," Poder sorprender y que te sorprendan . Qué fortuna . ","joy", 0.565
+"2018-Es-06838"," @username JAJAJAJAJAKA no te pases de corneta ","joy", 0.604
+"2018-Es-06129"," La #frasedeldia el amor es la mayor necesidad del ser humano . Perlas de Sabidurìa . #amor #Motivacion #Felicidad ","joy", 0.696
+"2018-Es-01308"," @username FELICIDADES FER 💕 QUE ESTA PASANDO AL AGUS PARA DARLE LIKE A FOTOS DE CARO JAJAAA ","joy", 0.771
+"2018-Es-03986"," @username Auch ! ! - relame sus labios al mismo tiempo que deja salir una sonrisa - . Mmh, no mucho. Traje otra mascota. -sonríe-.","joy", 0.521
+"2018-Es-01929"," Me la topé años más tarde luce igual de radiante . ","joy", 0.604
+"2018-Es-00401"," Es gracioso como la gente que me trató como basura, hoy me salude para el día del amigo.","joy", 0.430
+"2018-Es-03360"," q sarna el año pasado le estaba diciendo feliz dia a alguien q hoy ni saludo y me recontramil cago . como cambia todo ","joy", 0.239
+"2018-Es-01787"," Oooo que agradable sujeto ❣ ❣ ❣ ","joy", 0.688
+"2018-Es-02241"," Cagaron a tiro a alguien y si todo esos tiros fue para alguna persona la dejaron echo un colador 😂 ","joy", 0.458
+"2018-Es-00882"," En el verano ya voy a ir con el auto o con la camioneta, no camino nunca mas ","joy", 0.413
+"2018-Es-00744"," @username el mejor smeralda en scoria, el mas wn pero se te aprecia bro  no tengo el agrado de conocerte mucho pero por lo poco me caes bn","joy", 0.435
+"2018-Es-01230"," @username @username No jodas mañana es día de escuela hay que levantarse temprano ","joy", 0.125
+"2018-Es-01579"," Siguen los amigos que quiero tener, no me puedo quejar... Gracias por todo, ¡Feliz día! 💘","joy", 0.750
+"2018-Es-01828"," Estoy escuchando a mi hija y sobrino enviarse audios, y no necesitaré pasiflora con lo mucho que me están haciendo sonreír =') #LesNiñesRule","joy", 0.792
+"2018-Es-04355"," Mi no tolerar a ese par . @username dame cachetadas por fa . ¡ Feliz dia del amigo cariño a ti y a @username los quiero ! 💖 ","joy", 0.729
+"2018-Es-05887"," me siento un fracaso pero es divertido hacer encuestas ","joy", 0.417
+"2018-Es-02738"," Yo : flotaras pa . El : no puedo flotar por qué estoy gordito . ","joy", 0.396
+"2018-Es-05005"," @username se te atoró el escabio hdnum ","joy", 0.438
+"2018-Es-01956"," Cuando se tienen muchas cosas que meter en él, el día tiene cien bolsillos #motivación #superación #felicidad","joy", 0.667
+"2018-Es-03410"," @username Haste la muertita ","joy", 0.167
+"2018-Es-02390"," No les conté pero hoy me fue genial con la nutricionista ! ! num % menos de grasa corporal y subí num.num kg en músculo 🙌 🏻 💪 🏻 con edad metabólica de num ","joy", 0.761
+"2018-Es-01764"," Es bacanísimo tener el día libre el día del cumpleaños 😋 😜 😝 😛 😬 😄 😁 😆 #felicidad ","joy", 0.917
+"2018-Es-02978"," El hey me gustas quieres salir con tal y no se que es lo que mas me ha dado risa en mucho tiempo ","joy", 0.729
+"2018-Es-05502"," Que triste lo mio, Ni amigas tengo ","joy", 0.042
+"2018-Es-01473"," #DeColombiaMeGusta todo . Orgulloso de ser Colombia hijumadre ! ! ! ","joy", 0.717
+"2018-Es-00708"," @username ¡ Feliz cumple ! ","joy", 0.563
+"2018-Es-00659"," Resaca le mandó gallardo Pero hacete culiar amargo ","joy", 0.167
+"2018-Es-03601"," @username Ya vamos a cortarnos el pelo man . ","joy", 0.417
+"2018-Es-00957"," Te bajan al ex . Y estás llorando ? POR FAVOR . Nadie pelea por un pendejo ! ","joy", 0.167
+"2018-Es-03123"," @username JuajuajuajuajauJauJuJajajuajaua que chistoso ","joy", 0.739
+"2018-Es-02097"," @username D: Me encanta tu cuenta . Amo como llevas a tu pj y tus fotos destacadas . Pareces una persona agradable . ","joy", 0.708
+"2018-Es-04068"," @username Jajajaja lose wachita ","joy", 0.458
+"2018-Es-05515"," Necesito compartir con alguien la alegría que me da ver las puertas de guido kaczka ","joy", 0.813
+"2018-Es-03654"," @username Un gusto .. ","joy", 0.457
+"2018-Es-02328"," @username Jajaj Gracias Oscarin ! ! 😊 ","joy", 0.696
+"2018-Es-05350"," Vine a ver si se habían muerto en el apocalipsis y aún sigo leyendo sus tuits bien de la chingada ","joy", 0.310
+"2018-Es-04519"," En qué momento me hice así ajjjajjajajaa ","joy", 0.604
+"2018-Es-00812"," Tanto vas a junar a tu marido ","joy", 0.304
+"2018-Es-01561"," Hoy me ha pasado una de esas cosas tan importantes que no pueden contarse en Twitter pero que darán mucho que hablar #feliz ","joy", 0.771
+"2018-Es-02293"," @username Logré ver esto y dije ; ¿ mi amigo ? Me da alegría saber que lo puede lograr, es más esto merece comida, ¿nos fuimos? 😂","joy", 0.771
+"2018-Es-02211"," Que domingo herrrmoso ! ","joy", 0.896
+"2018-Es-02091"," Acabo de abrir mi snap y tengo fotos guardadas del finde y me quiero MORIRRR JAJAJA POR KEEE ","joy", 0.500
+"2018-Es-05710"," este Tito me hace llorar de la risa ","joy", 0.652
+"2018-Es-06904"," Lo bueno es que las mentiras tienen patas cortas y las caretas se caen solas 😉 lo bueno de tener la consciencia limpia ... 😊 ","joy", 0.333
+"2018-Es-06492"," Mi hermana delira demasiado cuando tiene tanta hambre ","joy", 0.341
+"2018-Es-06843"," @username El mes de mi cumpleaños #Octubre #Libra #Enamorado y sobre todo #Feliz . #TeAmo ❤ 😍 ","joy", 0.826
+"2018-Es-04646"," @username Jajajajjaaa creí que era el pirata de Culiacán JAJAJJAJA ","joy", 0.717
+"2018-Es-04447"," La satisfacción por el deber cumplido ❤ ️ ","joy", 0.804
+"2018-Es-05048"," Sonrie aunque tu sonrisa sea triste porque masztriste que una sonrisa triste es la tristeza no poder so,reir.","joy", 0.438
+"2018-Es-02184"," @username Que afortunado ! ! cojerse tan buena vieja ","joy", 0.625
+"2018-Es-03059"," @username Estaría entretenida y cansada, más cansada ..confirmado jajaajja","joy", 0.522
+"2018-Es-02905"," @username @username @username si al menos tuvieras buen gusto en numd se te perdonaria ","joy", 0.326
+"2018-Es-05671"," harry está emocionado por la gira mundial, y yo estoy deprimida de vuelta porque no tengo entrada.","joy", 0.370
+"2018-Es-03903"," Una persona puede dar mucho o poco, todo a su manera, pero no esta nada padre que lo vean a reclamo cuando solo quieres su bienestar.","joy", 0.417
+"2018-Es-00899"," Lo sé, soy hermosa!: me siento genial","joy", 0.875
+"2018-Es-01248"," Empiezo los cursos y estoy súper contenta ","joy", 0.833
+"2018-Es-05545"," Domingo, 23:36   Quiero escuchar música y cantar a todo pulmón pero no quiero despertar a los demás ","joy", 0.521
+"2018-Es-04129"," El sol, los perros y una birra ! #felicidad","joy", 0.804
+"2018-Es-00616"," @username Estoy re encantada con la forma de tu boca, es demasiado lindaaaa 💛💛💛💛","joy", 0.896
+"2018-Es-00578"," CTM que me hacen reir 😂 ","joy", 0.750
+"2018-Es-00167"," Encima hace rato que me quiero hacer esto y estoy re contenta ♡ ","joy", 0.750
+"2018-Es-05208"," @username #Feliz #LunesDeAmorAzul en compañia de #MiDjFavorita besitos y abrazos reina @username porfis un tema de marco antonio solis 💙 ","joy", 0.792
+"2018-Es-06067"," Mis sonrizas cual muecas ","joy", 0.587
+"2018-Es-05188"," Si como amiga me seguía los caprichos no me imagino que pasará ahora, próximamente termino tinturado ","joy", 0.292
+"2018-Es-04515"," La mamá de gaby me manda mensajes y me dice que deje de tomar ","joy", 0.283
+"2018-Es-06768"," @username Alguien se la comió ? O se la llevaron las hormigas ","joy", 0.261
+"2018-Es-01748"," Estoy tan contenta, goddddddd, voy pa Grecia","joy", 0.957
+"2018-Es-03240"," Le mande un mensaje lindo a sofia y me manda ANTES DE LEER ESTO QUIERO DECIRTE QUE ENTRE PARA PASARTE UN VIDEO CHISTOSO AHORA LEO TE AMO ","joy", 0.667
+"2018-Es-04308"," #MePoneBien Contenta que nos compres TODO lo que quisimos ... adore el vestido y las zapatillas 👗 👠 😍 Thanks ... 😘 ","joy", 0.826
+"2018-Es-05422"," Ya se a quien sacó la mala ortografía la pobre ","joy", 0.271
+"2018-Es-00256"," Magali tajes me tiene podrida, quiere meter psicología y hacerse la graciosa a la vez y no, la vdd que no, para","joy", 0.292
+"2018-Es-04705"," @username señora ... Me pongo de pie por la platica tan dinámica, divertida, versátil, fresca, fluida... 33 mins de amenidad en mi vida!","joy", 0.708
+"2018-Es-03208"," @username Oye carnal ya no me gusto la pinche vieja se volvio muy pinche sangrona ","joy", 0.087
+"2018-Es-02892"," Yo tengo un gozo, tengo alegría, tengo a Jesús, tengo el amor tengo la vida. #LaAdoraciónADiosEngrandeceLaNación","joy", 0.792
+"2018-Es-05320"," que suerte que empece el tratamiento, increible el cambio desde mayo hasta ahora 😆","joy", 0.667
+"2018-Es-05384"," Brillante @username gran monologo ! ! ! ","joy", 0.542
+"2018-Es-03740"," Esta noche entre ligueos, lecturas de Tarot y ensaladas. Vaya que estoy entretenido.","joy", 0.604
+"2018-Es-05823"," Me hubiera encantado conocerte de otra forma, pero me estoy enamorando de tu interior, que eso es lo que realmente me importa","joy", 0.604
+"2018-Es-06797"," Que nunca se pierda mi bonita costumbre de enamorarme de alguien e inmediatamente verme con familia y futuro chingon . 😂 😂 😂 ","joy", 0.792
+"2018-Es-03724"," @username @username LPM ESTOY TAN EMOCIONADA COMO TÚ ","joy", 0.771
+"2018-Es-02736"," Ha sido divertido me equivocaria otra veeezzz ","joy", 0.860
+"2018-Es-02777"," Hacia tanto tiempo que no sonreía tanto a mi celular mientras hablaba con alguien 😊 ","joy", 0.813
+"2018-Es-00838"," Es muy demasiado chistoso lo que lei cuando abrí Twitter jajajajaja ","joy", 0.688
+"2018-Es-00712"," @username Que te estaras comiendo no sé ","joy", 0.396
+"2018-Es-00468"," @username Fue suave y corto . No alcanzó ni a prometer ","joy", 0.250
+"2018-Es-02614"," num semana que no fui al colegio ","joy", 0.313
+"2018-Es-01333"," Que lindo que es viajar en moto vieja ","joy", 0.586
+"2018-Es-04843"," @username ¡ En Bolivia seguiremos los pasos de Alemania ! #Feliz ","joy", 0.873
+"2018-Es-03677"," Ahora si buenas noches alegría 🤗 ","joy", 0.688
+"2018-Es-01966"," ♥ Feliz día del amigo ♥ Gracias por todo, aunque miles de cosas hayan pasado o no nos hablemos más como antes, siguen siendo muy especial+","joy", 0.878
+"2018-Es-05637"," Hasta mañana ","joy", 0.273
+"2018-Es-03520"," Ando buscando mis ganas de estudiar ","joy", 0.326
+"2018-Es-06127"," @username No se te vaya a olvidar, yo que tú lo fijaba ","joy", 0.396
+"2018-Es-05603"," Tengo mucha suerte ❤ ","joy", 0.792
+"2018-Es-02816"," La felicidad de tu vida depende de la calidad de tus pensamientos . ","joy", 0.565
+"2018-Es-04022"," Soy tan orgullosa que no le voy a decir Felíz día . ","joy", 0.518
+"2018-Es-05136"," @username en mi escuela lo hicieron y las profesoras hicieron un drama y los encerraron todo el recreo para hablarles de dios ","joy", 0.217
+"2018-En-02968","	@username Oh ! Aquello de hecho era mi primera suposición pero ... Pensé que sea demasiado oscuro para un hombre irlandés de BCE . Da las gracias por aclarar lo arriba :D	","joy", 0.470
+"2018-En-04038","	@username Nope, gracias aun así.  Me tomé yrs para encontrar mi hubby y es grande.   Hace la vida grande. # Realmente es #awesomeness	","joy", 0.742
+"2018-En-00164","	' Qué te tienes sonriendo como aquel ' \ n'Dominos me envié un cupón ' 😬	","joy", 0.359
+"2018-En-01137","	A veces,  tienes que sonrisa, pretende todo es vale, y paseo justo fuera.	","joy", 0.325
+"2018-En-00322","	@username @username Hola I justo te quiso desear dos un feliz tuesday . 😊	","joy", 0.609
+"2018-En-03726","	 Tengo la novia mejor en el mundial 😍 #bendecido	","joy", 0.871
+"2018-En-02194","	El Templo Dorado es bonito ! 😍	","joy", 0.719
+"2018-En-04044","	@username @username Gracias @username Para ser #awesome Cuando alguien quién adolece #Ansiedad y migrañas yo siempre estigma de miedo .  Me doy esperanza .	","joy", 0.439
+"2018-En-02035","	Siendo profundamente encantado por alguien te das fuerza, mientras amoroso alguien profundamente te das valor. Lao Tzu #Boda #amor #feliz	","joy", 0.727
+"2018-En-01806","	' vuestro profesor de marcador ' . i Miraba en él n justo estallado fuera riendo i jurar estos niños nunca me tomarán seriamente 🤦 🏻 ‍ ♀ ️	","joy", 0.609
+"2018-En-03345","	A veces, justo necesitas comer una pieza deliciosa de chocolate para recordar tú que hay ninguna necesidad de ser amargo. Sweetness Redime.	","joy", 0.591
+"2018-En-01168","	Tres retweets de mierda de Zorro mudo y uno original tweet aquello es una mentira descarada de SCROTUS esta mañana--nada sobre su wretched descendencia . 🤣	","joy", 0.234
+"2018-En-03974","	@username Grande, toothy sonrisa cuando ella wiggles aproximadamente!	","joy", 0.625
+"2018-En-02832","	Soy feliz mis niños no joden con Blac Youngsta . Aquel nigga terrible para nuestra comunidad	","joy", 0.219
+"2018-En-04196","	@username @username Lmao sonrisas de rey de la noche 😂	","joy", 0.667
+"2018-En-03998","	 quiero mis diamantes como brillantes como mi futuros	","joy", 0.594
+"2018-En-00996","	@username Sí  está pasando . Si u tener un escudo de soldadura u puede conseguir una primera vista de mano .	","joy", 0.359
+"2018-En-02789","	@username Deseándote alegría en vuestro día . #Felicidad #de alegría #empowerri	","joy", 0.719
+"2018-En-01611","	@username pareciendo una buena compra en precio . Plataforma grande y Dev futuro de equipo mira #brillante	","joy", 0.547
+"2018-En-01161","	@username Esta comparación me hago tan feliz . #Halagado #englnummu	","joy", 0.788
+"2018-En-03033","	#wtf lo que una #idea maravillosa \ nyou've todo compró vuestro tweets y gusta aquello es bastante pointless para mí #adiós #adiós #Twat	","joy", 0.234
+"2018-En-03544","	Tiempo para cama en una cama real después de que cuatro noches que acampan . #bliss	","joy", 0.500
+"2018-En-03752","	Que el eclipse era Angelic 🙏 🏿 #bendición	","joy", 0.563
+"2018-En-02252","	 tiene que sonrisa encantadora que realmente puede hacer  sonríes también . Me creo .	","joy", 0.580
+"2018-En-04248","	Jamesss 😭 Bueno adiós mi querido, está sido un placer teniéndote	","joy", 0.294
+"2018-En-01052","	'  necesitamos hacer algo . Algo tiene que ser hecho ! ! ! ' \ n \ nyour La ansiedad está divirtiendo . Nada será hecho . Desesperación .	","joy", 0.197
+"2018-En-04023","	Cuánto tiempo ? ? @username 😢 😢 😢 #Phelan #Brillantez	","joy", 0.059
+"2018-En-01046","	Nada me hago más feliz que dirigiendo mi depresión bien .	","joy", 0.542
+"2018-En-02798","	Siempre que I vuelta en el radiofónico y oír Bob Dylan está Golpeando encima el ser de Puerta del cielo jugó,  supongo  está muerto. #Aliviado #notyet #someday	","joy", 0.219
+"2018-En-02214","	Cuándo  pienso aproximadamente Yondu & su tripulación, Cohete, &amp; Groot haciendo 700 saltos a Ego planeta,  empiezo reír.	","joy", 0.547
+"2018-En-03877","	Caído mi control de nacimiento en el piso y cant encuentra  lo cause blends con la alegría 🙃 #de alfombra	","joy", 0.422
+"2018-En-01849","	#intl hey, bae @ssyhoe feliz 7.º aniversario de mes 😚💕 Ily -el vuestro	","joy", 0.839
+"2018-En-03149","	es una cosa maravillosa para ser capaz de empezar vuestro día con risa .	","joy", 0.787
+"2018-En-01936","	Que mira serio folks adolecer unused músculos de sonrisa \ n \ n #behappy #hatersgonnahate	","joy", 0.281
+"2018-En-00745","	conseguía un Dr. libre.Pimienta del vending máquina #awesome	","joy", 0.682
+"2018-En-02619","	Entrar y poseer vuestra #brillantez . #womeninbiz #womeninbusiness #successs #femaleleaders #femaleentrepeneurs	","joy", 0.547
+"2018-En-03617","	Nunca he sido tan entusiasmado para empezar un semestre !	","joy", 0.969
+"2018-En-01641","	I delicia	","joy", 0.333
+"2018-En-04111","	 es un bonito pout . c :	","joy", 0.500
+"2018-En-01198","	 Era habiendo un #BadDay e i fue en #YouTube y mirado @username reacción a viejo pics . #Gracias #Señoras para las #risas	","joy", 0.578
+"2018-En-02368","	#lol #sarcasmo #de comedia #graciosa me : i no se preocupa :) \ n \ nme, uno segundo más tardío: *los inicios que lloran*	","joy", 0.474
+"2018-En-02748","	#RIPBiwott  pienso Robert oukos el alma puede ahora rejoice y resto en paz . Llamada un mal de hombre del mal y un hombre bueno un hombre bueno . Sea un hombre de mal	","joy", 0.172
+"2018-En-04182","	Idk por qué pero cuándo  ayudo alguien,  una sonrisa viene en mis labios.\n\n#thatisall #ieverwant #noneeds #justyou #Paz #de amor que #sonríe #bondad #de caras	","joy", 0.766
+"2018-En-04144","	'  podemos echar piedras, reniega aproximadamente les, stumble encima les, sube encima les, o complexión con ellos.' — William Arthur Ward. #Inspirando	","joy", 0.348
+"2018-En-04000","	' El punto de viviente, y siendo un optimista, es para ser bastante tonto para creer el mejor es todavía para venir' - Peter Ustinov #el optimismo #cita	","joy", 0.250
+"2018-En-00857","	@username Vale, qué  estoy haciendo es mejor que que 😆	","joy", 0.500
+"2018-En-01060","	Mi @username el tren está anunciando absolutamente todo overground estación en la risita #de red	","joy", 0.391
+"2018-En-00467","	@username  no te Arbusto malo ... Ningún Triunfo ... Ninguno risitas #de Arbusto #hipocrite #Mentiroso #TroubleMaker #AntifaSupporter	","joy", 0.125
+"2018-En-03499","	soñó que  estás riendo y despertó de mi sueño por primera vez sin una cara triste, Feria bastante para ver tú en mi sueño '	","joy", 0.359
+"2018-En-03478","	El JJPH ADMIN la búsqueda empezará el viernes ! ! ! Cómo entusiasmado eres ?	","joy", 0.656
+"2018-En-00309","	@username  Vine para el ' damn chico ' chistes pero quedados porque eres grande en vuestro trabajo real 👍 🏾	","joy", 0.516
+"2018-En-03064","	Hoy es num . 😀	","joy", 0.406
+"2018-En-01183","	@username Cumpleaños feliz, bonito!  Espero hoy es tan precioso, maravilloso, y pasmoso cuando  eres!!  Mereces no menos de aquel! 😊🎉🎂💞	","joy", 0.891
+"2018-En-00639","	Cuándo sólo conoces cada cual otro una vez en una entrevista y tú reconocen cada cual otro en las calles 🙆 no incluso sé qué es vuestro nombre 😂	","joy", 0.470
+"2018-En-02101","	Tipoftheday :D o no ser distraído por los que acusan tú para hacer qué es bien para Su misión para ti.Continúa vivir y complaciéndole	","joy", 0.412
+"2018-En-00823","	Sólo halfway a través de #madeforlove por @username . Pero es absolutamente #brillante . #Leyendo  me tengo riendo fuera de fuerte .	","joy", 0.713
+"2018-En-01225","	@username @username  Es hilarious pero hay legit milkshake Pato apologizers . Sí, justo el hypothetic milkshake pato.	","joy", 0.422
+"2018-En-04276","	Su interlocutor explosión fuera riendo varios tiempo en sus respuestas ; y más que nunca, cuándo a la cuestión, ‘ si haya sido curado?�	","joy", 0.359
+"2018-En-00387","	@username Buenos días ! Día de invierno feliz . :)	","joy", 0.661
+"2018-En-01015","	Novak Está viendo aquellas pelotas como melones, condiciones perfectas para él 😊 #Wimbledon	","joy", 0.485
+"2018-En-00037","	Justo recibió el fantástico noticioso que nuestro próximo num cama ' Sui Generis ' HMO tiene permiso de planificación llena . Complexión para empezar num septiembre . #Entusiasmado	","joy", 0.819
+"2018-En-03082","	' Sleepy ' loción por @username a olores les gusta si un ramo de espliego y un ramo de tostado marshmallows tuvo un niño de amor . #Delicioso	","joy", 0.576
+"2018-En-00119","	' no es uncommon para #personas para gastar su vida entera que espera para empezar viviente . ' ~ Eckhart Tolle #La felicidad #vive	","joy", 0.406
+"2018-En-02511","	Don ' t dejó el miedo de perder ser más grande que la emoción de ganador . ~ Robert Kiyosaki \ n \ nAllOutDenimFor KISSMARC	","joy", 0.359
+"2018-En-00535","	Finalmente acabó el libro de clase de este plazo, Cielo Hawk por @gill_lewis niños en lágrimas y de hecho aclamando al final #bien leídos	","joy", 0.661
+"2018-En-02819","	@username Y somos todos tan agradecidos para vuestro perseverance ! Gemelo de Aniversario feliz !	","joy", 0.750
+"2018-En-00932","	Películas en mi a-lista de reloj : Araña-Regreso de Hombre y Guerra Para El Planeta de Los Simios . 😍 #Entusiasmó #películas	","joy", 0.797
+"2018-En-02773","	@username Hahaha conseguía el mismo delantero ! !  Quiero encontrar la fuente y enseñar 🤣	","joy", 0.484
+"2018-En-03314","	 estoy sonriendo como un mf	","joy", 0.750
+"2018-En-03186","	@username el café es bueno y la vista es incluso mejor 😊	","joy", 0.766
+"2018-En-03005","	@username Esto era grande, quedando a la espera de parte próxima! 😄	","joy", 0.688
+"2018-En-02500","	Debido a vuestro @username,  @haces la #vida más #bonito:::::::::::::::::::::::::::::::::::::::::	","joy", 0.652
+"2018-En-02753","	VENDIDO FUERA ! ! ! Lote próximo en num días ! ! !	","joy", 0.375
+"2018-En-01246","	@username Eduardo sin el daño honestamente asombraba gusta tan triste no es mirado en en la luz correcta debido a sus Daños .	","joy", 0.303
+"2018-En-00595","	Galleta ♥ Nutella, coronando más Amable BuenoWhite\n#galleta #muffin #nutella #alimentario #delicioso #foodporn #pastel #de chocolate #de postre #feliz #junkfood	","joy", 0.561
+"2018-En-03334","	peplamb : stevenfurtick #consuela todo quiénes #lloran, A consola quienes #lloran en #Zion, para darles #belleza para #cenizas, El #aceite de #alegría para…	","joy", 0.250
+"2018-En-01994","	@username @username Encantó aclamar te encima con mis niños ! ! ! X	","joy", 0.677
+"2018-En-03165","	Esto es clase de jodió arriba, pero mi hermano está a punto de unir la academia policial....Y no soy feliz aproximadamente. Y no soy el único un.	","joy", 0.094
+"2018-En-00653","	@username Siendo capaz de sentar con tanto sólido info mientras otros vinieron en su preparados de matar es una señal cierta de fuerza . #Inspirando	","joy", 0.375
+"2018-En-00350","	soy #feliz como f * * * para ser aceptado con mi #chromesthesia por mi #CBT doctress, nunca llamado 'loco' para mis #colores :-)	","joy", 0.750
+"2018-En-00102","	Que momento cuándo la preocupación es lifted #agradecido	","joy", 0.529
+"2018-En-00088","	Da las gracias por seguir me encima Twitter . Qué  te gusta ver ? #Gracioso #feliz thefactably	","joy", 0.688
+"2018-En-00763","	@username @username Lmao la carencia de self concienciación en este último tweet es sinceramente el sobrecogimiento que inspira	","joy", 0.403
+"2018-En-02658","	@username @username Da las gracias por las Dificultades de risa de ❤	","joy", 0.781
+"2018-En-03296","	mañana tempranas, por bracing la mente para vencerles, asiste cheerfulness, cuando el ejercicio asiste digestión.\nChristian Nestell Bovee #Cita	","joy", 0.422
+"2018-En-03731","	Tenido una aproximación diferente hoy en Ciudad de Londres . Me & @username Charló . Bueno ol ' fashioned natter #cannotbeatachat #hablando #riendo	","joy", 0.412
+"2018-En-03411","	@username @username  lo hice demasiado #quickandeasyfood	","joy", 0.513
+"2018-En-01417","	@username uno de GH más bueno energético #dancehall el acto que #bendice disfrazado 🙏 tan tan prolífico 🙏	","joy", 0.625
+"2018-En-03476","	@username Así que ... Mucho bastante pintado blobs de azúcar ?  Significo soy dispuesto de probarlo,  soy justo no seguro  entiendo el punto de él 😅	","joy", 0.500
+"2018-En-00773","	@username @username será aclamar para ti ambos ! Va @username y @username	","joy", 0.500
+"2018-En-01726","	Una pérdida no es una pérdida es una sonrisa #de lección	","joy", 0.250
+"2018-En-02667","	baña en una piscina de #estrellas y #sol . Lavado fuera suposiciones y rejoin el #joyful ruido de @username y #amor . #LoveOverHate #ResistInBeauty	","joy", 0.735
+"2018-En-01051","	Soy tan #feliz mi #criatura no puede oír qué I estoy #pensando	","joy", 0.515
+"2018-En-00090","	I necesidad para estudiar arriba en celebridades ' cumpleaños bc mi corazón casi parado cuándo  vi Harrison Ford trending ... 😯 #Aliviado	","joy", 0.281
+"2018-En-03037","	@username aaww ! iam Enviando virtual hug entonces, eonnie se preocupa aproximadamente te así que aclama arriba y estudio bien!	","joy", 0.594
+"2018-En-02882","	... O es siendo cerrado en un bucle de un tesoro diario caza ? #Optimismo	","joy", 0.203
+"2018-En-04070","	bonless sirlion consejos,mezclados veggies browngravy &amp; homemade mashed patatas #inthekitchen  #latenightmunchies #yummy #getuagirlthatcancook	","joy", 0.500
+"2018-En-02117","	@username @username I deseo  podría así dos veces . #hilarious	","joy", 0.594
+"2018-En-02448","	@username Gracias Para siguiente me . Complacer leído mi asombroso ( e ) libro #FlightOfALifetime ; tú ' ll ser muy feliz tú  #las sonrisas #felices	","joy", 0.636
+"2018-En-02743","	Introducen este código para num libre Lyfts PARX #no Es lo grande de salvar dinero cuándo te tienda ? #blissful #FREECAB	","joy", 0.419
+"2018-En-00049","	 Tenemos que tomar la #emoción del #solareclipse para #inspirar nuestros #niños para #encantar #Ciencia	","joy", 0.656
+"2018-En-00138","	@username @username Dónde es ? : O Porque es tan bonito	","joy", 0.661
+"2018-En-03432","	im clapping y aclamando para ambos equipos ...	","joy", 0.452
+"2018-En-03357","	Humor : bendición 🙂 #Feliz	","joy", 0.828
+"2018-En-01174","	@username Quizás esta anochecer si  puedo 😀	","joy", 0.338
+"2018-En-01908","	@username Lo ' s asombroso isn ' t lo . Yo ' m un seguidor grande de B & W pero la vida estas restauraciones dan las fotografías es sobrecogimiento inspirando .	","joy", 0.578
+"2018-En-03740","	@username Cos Ellos todos tienen  es vale entonces . #Grande	","joy", 0.420
+"2018-En-00279","	@username @username Filipinas 😃	","joy", 0.409
+"2018-En-01031","	soy pálido, ya no quiero risa, O sonrisa, Todo  quiero hacer es justo grito maldito,	","joy", 0.063
+"2018-En-03599","	#Hope #youngins #mentalHealth equilibra crucial a nuestra existencia sustenance de vida-no demasiado triste albeit deseamos #felices perpetuos,no es🤣	","joy", 0.375
+"2018-En-01525","	@username Ninguna necesidad de darme las gracias a .. Justo estoy diciendo le gusta él es 😊 Espera  tienes un día grande también ! 😃	","joy", 0.641
+"2018-En-02815","	Tomando tiempo fuera de nuestro ocupado de coger el #eclipse #americano #grande ! Es realmente increíble de ver incluso nuestra vista parcial ! Cómo era vuestra vista ?	","joy", 0.438
+"2018-En-04214","	  me meto en problemas si @username o @username aparecer en #UFCnum y  intento encontrarles en Rogers ? 😂 ( Bajo num semanas ! ! ) #Emoción	","joy", 0.636
+"2018-En-00255","	... Con el par, así que  decides ignorar todo y acabar el vuestro mientras tratando la risa y todo en el fondo.	","joy", 0.197
+"2018-En-00006","	Mi película favorita #nueva con fuera de una sombra de una duda él #Okja #beautifull #gracioso #triste #emocional #real #Netflix #MUSTWATCH #ahora	","joy", 0.563
+"2018-En-01307","	Sólo  podría ser hablar a un catfish en tinder 💁 😂 feliz no lo utilizo seriamente 🤣	","joy", 0.578
+"2018-En-00934","	Allí ha mucho para ver en este mundial lleno de glee .	","joy", 0.621
+"2018-En-03667","	@username Feliz bday Ruth, esperanza  tienes un día asombroso 💘💘x	","joy", 0.703
+"2018-En-02237","	'  eres aquí para alimentarme . No moriré de inanición,'  diga, ligeramente sonriendo.  Arrugué la frente. Panira. Kainis.	","joy", 0.177
+"2018-En-01394","	Ser gentil a mí O Dios ... Para mi alma toma #refuge en ti ; en la sombra de Vuestras alas  tomaré #refuge ... Salmo num:num #esperanza #jesus #ÉXITO	","joy", 0.387
+"2018-En-02185","	de alegría no es justo sobre qué  cumples en vida,  es sobre qué  inspiras otros para hacer. #La inspiración  #inspira	","joy", 0.348
+"2018-En-03577","	@username Todo aquel dicho,  eres hilarious y listo. Lovett O Dejar es brillante. Complacer venido  un espectáculo vivo en Florida!	","joy", 0.545
+"2018-En-02678","	No es siempre sobre el consiguiendo pero su sobre el recibiendo de qué ya ha sido dado . Recibir la alegría hizo disponible ! #jesus	","joy", 0.588
+"2018-En-04236","	me Cuándo mis amigos son tristes : básicamente deviene un psiquiatra \ nmy amigos cuándo im tristes : vale #gracioso #lol	","joy", 0.281
+"2018-En-01822","	@username hola bby hoy era vale i e-mailed empresas de diseño para mi internship y ahora i soy nervioso ; u ; cómo es vuestro día ? :D	","joy", 0.438
+"2018-En-02739","	CUMPLEAÑOS FELIZ Al PANDERIFIC PANDA IK . @username I esperanza  tienes un día asombroso Oli i amor u tanto e i ❤ ️ ur vids  me hacemos 😃	","joy", 0.797
+"2018-En-01533","	@username Qué es la marca así que  podemos pánico 😃	","joy", 0.279
+"2018-En-02759","	Un #profesor que está intentando para enseñar sin #inspirar el #alumno con un #deseo de aprender está picando hierro frío . #HoraceMann	","joy", 0.250
+"2018-En-03784","	@username  Supongo el manga es #bien ?	","joy", 0.269
+"2018-En-02292","	Pensó era un conductor malo hasta que  fui a la universidad #alivió	","joy", 0.391
+"2018-En-00511","	finalmente dejé la habitación oscura  he sido llorando en & en vez de conseguir algún sol en mi piel traslúcida, conseguía 6000 mordiscos de mosquito. #El tiempo	","joy", 0.242
+"2018-En-01207","	Bueno bendito nunca se desvanece #sonrisa	","joy", 0.563
+"2018-En-03936","	 tienes que aprender cómo para vivir vida a toda costa de las circunstancias & no dejan la vida te dejas . \ n #Proceso #de Crecimiento #del propósito #alegría #feliz #segura	","joy", 0.515
+"2018-En-00779","	@username @username @username  te gusta limpiar mi parte superior de cocina, complacer??? 😉😊 #sparkling #nomess #sunglassesneeded	","joy", 0.364
+"2018-En-03459","	Cumpleaños feliz a ma hermano de otra madre @username dis año Más bendiciendo #Rotura itz	","joy", 0.594
+"2018-En-02952","	@username @username Más birthy el día sexy Rima l'deseo a ti una vida feliz	","joy", 0.645
+"2018-En-00321","	@username Qué pasa si no quieres mirar esto ' contenido ' ? No puede votar entonces 😆	","joy", 0.387
+"2018-En-00338","	hombres de favores del Dios y mujeres que delicia en ser hecho digno de felicidad antes de la felicidad él .	","joy", 0.453
+"2018-En-04066","	@username hola fierzaa i Te esperas ser mi amigo en roblox btw i amor kat y username : USATylerX 😀	","joy", 0.578
+"2018-En-01580","	De repente los sueños de mina están viniendo ciertos . #Feliz	","joy", 0.800
+"2018-En-01717","	Literalmente trabaja casi diario no puede esperar para empezar mi PT #bendito 🙏 💙	","joy", 0.625
+"2018-En-03041","	#ThingsIveLearned El pastor #sensato nunca confía en su rebaño a un #lobo de sonreír . #TeamFollowBack #Hecho #wisewords	","joy", 0.348
+"2018-En-01295","	no te puedo perder, porque si nunca hice,  habría perdido mi amigo mejor, mi compañero de alma, mi sonrisa, mi risa, mi todo.	","joy", 0.266
+"2018-En-03129","	Amazona feliz día Primo a todo mi primers 😆	","joy", 0.629
+"2018-En-03563","	@username predicción Grande bro ! Optimismo bueno #FAKEFAN	","joy", 0.453
+"2018-En-02590","	 estoy haciendo todo este para hacer seguro te sonriendo abajo encima me bro	","joy", 0.387
+"2018-En-00680","	Bedtime . Después de un lleno escuchar del transformador de álbum de Lou Reed . Los álbumes llenos son underrated estos días . #backnumback #Diversión 💿 🎶 x	","joy", 0.594
+"2018-En-04247","	@username No, pero  estoy planeando encima lo antes de que el septiembre 😊	","joy", 0.500
+"2018-En-03818","	Ayer está ido thats una canción vieja la canción nueva es viva num hoy y conseguir #pizza #risa #de amor #vivo #WednesdayWisdom #sigue @username 🍕	","joy", 0.422
+"2018-En-01300","	@username omggg i'll ser hinchado entonces ; ; - ; ; pero es una idea maravillosa i'll empieza hacer lo mañana ! !	","joy", 0.353
+"2018-En-01682","	@username @username #Grande-sonreír #correo grande #greatRafa #loveRafa	","joy", 0.557
+"2018-En-03257","	num.num Es mi tiempo ... brew, tostada y televisión antes de que cualquiera más se levanta  #earlydoors #mumlife #lifewithtoddlers	","joy", 0.526
+"2018-En-00865","	' Dejado me ya no languish en #dolor, pero delantero de mirada con #alegría a todo he sido dotado de conseguir en mi vida.' ~ #Eleesha ღ #Cita	","joy", 0.364
+"2018-En-01080","	@username Ano hombre,  estoy anonadado! En uno señala que nuestras cabezas estuvieron idas y  puntuaban en voluntad! #Aliviado	","joy", 0.368
+"2018-En-01668","	Justo mirado @username en @username - - & tiene que decir ... Soy intimidado . Qué productos de cabello es utilizando, @greggutfeld ?? #El fracaso #celoso	","joy", 0.484
+"2018-En-03051","	bonito es una parte de éxito . No puedes experimentar la alegría de éxito con también experimentando fracaso . #bethehero #Alegría #de fracaso #del éxito	","joy", 0.328
+"2018-En-02918","	La cosa mejor aproximadamente cocinando con los huevos es que incluso si vuestra idea original no trabaja,  has todavía conseguía huevos revueltos! #Optimismo	","joy", 0.469
+"2018-En-00502","	omg tan agradecido de tener una educación pero ive estado de vuelta en escolar para num ( dos ) días y mi atrás hace daño, im agotado y rompiendo fuera ya 😍	","joy", 0.212
+"2018-En-03386","	soy realmente halagado y feliz de oír aquellos complementa para mi blog ! Tú los tipos me motivo para escribir más para mi blog . Gracias ! sml 💞	","joy", 0.906
+"2018-En-02935","	También num mil millones para el opiod la crisis es peniques, chiste completo casi tan hilarious cuando 65 mil millones para piscinas de riesgo alto! Itll #dryupquick	","joy", 0.328
+"2018-En-01890","	La luna esta noche 😮 #bonita	","joy", 0.694
+"2018-En-00072","	Chocando fragancias en la casa de enfriamiento de esponja de la canela y tamarillo chutney cocina . #Dulce #picante #homemade #delicioso	","joy", 0.478
+"2018-En-00208","	I ' m tan feliz I ' m no gustar algunos de las personas tristes on-line quiénes alcahuetean y matón otros para su diversión porque no tienen ninguna vida .	","joy", 0.344
+"2018-En-03483","	Tan #feliz todo cuatro de nuestra #parte superior elige conseguida a través de en #AGT	","joy", 0.585
+"2018-En-00591","	Ser la razón alguien sonríe hoy #felicidad #de sonrisa	","joy", 0.656
+"2018-En-01557","	@username cumpleaños Feliz gorg, tiene un bueno un 😘 x	","joy", 0.719
+"2018-En-02113","	@username foto Preciosa Amanda ! #summerhols #carefree	","joy", 0.581
+"2018-En-01910","	No podría ser más feliz con mi vida bien ahora 😊	","joy", 0.875
+"2018-En-02388","	@username Ningún offense pero el mavs es sólo mi numnd parte favorita aproximadamente Dallas, 1# es la barbacoa #deliciosa	","joy", 0.438
+"2018-En-02356","	Uau @username  eres #awesome hombre ! #FatalsWay #SummerSlam #WWE #wrestling #champ	","joy", 0.609
+"2018-En-03662","	Después de dormir mediodía pasado, I mirada fuera de la ventana para ver mi hotel tiene una CUBA CALIENTE!!!!! #bliss	","joy", 0.750
+"2018-En-03559","	Jode un nigga caja de sentimientos  encuentro un nigga  estoy sintiendo 😆	","joy", 0.281
+"2018-En-02680","	les encantarás pero odio  causas no te pueden ser ... #Sonrisa	","joy", 0.262
+"2018-En-02471","	@username venga bueno babe no se preocupa 😘 😘	","joy", 0.500
+"2018-En-02339","	#AI #revolation, pronto es posible!\n#Bondad  #buena #temerosa #osada	","joy", 0.438
+"2018-En-03913","	Y el #chico maravilloso en el Jardín creció en cordura y estatura y a favor con Dios y hombres, el cual, literalmente, era sus padres.\n#VSS365	","joy", 0.625
+"2018-En-00405","	Medios de comunicación es tan centrados en malos noticiosos que  olvidamos cuántas cosas buenas / más grandes pasan diariamente . #Thinkpositive #goodnews #Optimismo #goodmorning	","joy", 0.355
+"2018-En-02808","	Alguien necesita empezar escuchando a @username sobre #AllStarGamenum ideas . #Brillante @username	","joy", 0.456
+"2018-En-03758","	Uno de los momentos / horribles grandes como profesor está viendo un estudiante maravilloso que deja vuestro universitario de perseguir su / su pasión cierta .	","joy", 0.406
+"2018-En-04358","	Nada es más #bonito que una #sonrisa aquello ha luchado a través de lágrimas .	","joy", 0.359
+"2018-En-00914","	CUMPLEAÑOS FELIZ ! :D	","joy", 0.548
+"2018-En-01832","	Ve tú en nuestro #CampaignMasterclass el viernes @username, somos muy entusiasmados y esperamos que eres demasiado 😊 #emailmarketing	","joy", 0.625
+"2018-En-01593","	Cuándo  andas a través de la puerta a un cuppa ! #bliss	","joy", 0.719
+"2018-En-03891","	“ #Woe unto #Tú aquello es #lleno ! Para ye  #hunger . #Woe unto Tú aquello #ríe ahora ! Para ye llorará # y #llorar . ” \ nLuke num:num	","joy", 0.288
+"2018-En-01238","	La ceniza tiene la risa más extraña	","joy", 0.344
+"2018-En-01292","	@username  olvidaste #risa también ❤ ️ ❤ ️ ❤ ️	","joy", 0.453
+"2018-En-02786","	@username no me podría forzar para darle cualquier dinero . 😀	","joy", 0.328
+"2018-En-00657","	Damn  Estoy cansado tan infierno I nunca conseguir un fuera día durante la semana anymore 😭  quiero llamada en tan malo pero estos lil num hrs suena tan bueno .	","joy", 0.156
+"2018-En-02614","	#Mirada en #quienes son #sinceros y #buenos, para un #futuro #maravilloso #aguarda quienes #paz #de amor.	","joy", 0.712
+"2018-En-00912","	#redvelvet #wendy #seulgi #irene #yeri #Alegría \ nnum . Qué miembro que no puede beber sparkling agua ?	","joy", 0.156
+"2018-En-00851","	@username Mira maravilloso ! ! ! Deseo sea mi gallo tho ! ! ! 😍	","joy", 0.625
+"2018-En-03248","	No puede esperar para actuar numnite en @username en #Verns ! #yyc #Calgary $ num #comedia #comedian #yycComedy #CalgaryComedy #la diversión #ríe #viva	","joy", 0.734
+"2018-En-04018","	@username @username Mi placer 😊	","joy", 0.531
+"2018-En-02186","	Un unchallenged el presente crea un complacent futuro . #TuesdayThought #selfimprovement #Emoción #de éxito	","joy", 0.516
+"2018-En-04360","	Desmond era dormido cuándo  llamé después de que  salí de mi reunión ... Él todavía contestado y dejado me ventilación a él la casa de manera entera 😍 #sweetness	","joy", 0.734
+"2018-En-00410","	Nunca sido tan relived 😆	","joy", 0.530
+"2018-En-01008","	Bruhhh 🙄 por qué es Ar soyencima tan lindo de @username . Él justo frío y ughhh 😍 😍 😍 . #Atractivo #whyamIsingle #Houston	","joy", 0.583
+"2018-En-02969","	cumpleaños Feliz Zanele \ nI esperanza  tienes un día maravilloso 💓 @username \ n 🎊 🎉 🎈	","joy", 0.672
+"2018-En-01863","	@username @username da las gracias a el amor comparte un coke y vacaciones con mi sonrisa #familiar para una posibilidad de #Ganar :)	","joy", 0.547
+"2018-En-00169","	no Puede esperar para tomar cuadros familiares 😩 💜 💜 justo tan entusiasmados para empezar haciendo cosas divertidas con mis criaturas 👨 ‍ 👩 ‍ 👧	","joy", 0.833
+"2018-En-01294","	@username Congrats bonitos 😘	","joy", 0.641
+"2018-En-00182","	Mi editar, no mis fotos #SPNFamily #SamWinchester #JaredPadalecki  #labios #tease	","joy", 0.309
+"2018-En-02929","	Perfectamente #Recordar #asombroso #surreal #totalsolareclipse tan #afortunado de #experimentar en #Europa #ManyYearsAgo #Vivo \ n #Feliz num #YouGuys #EE.UU. 😘	","joy", 0.697
+"2018-En-03633","	 siento gusta  tendría que ser mirar #glee, pero #glee justo me hará el grito y yo estoy intentando recordar el tiempo feliz que	","joy", 0.281
+"2018-En-03286","	Encuentra una tienda que está cerrando es ambos triste y #awesome . num % Fuera todo ! ? Me entro ahora ! Mi bolsa es nada pero #redbull & aloe agua	","joy", 0.441
+"2018-En-02584","	@username soy tan orgulloso Mils ! Mantiene sonreír ❤ ️	","joy", 0.818
+"2018-En-02842","	Pronto el trailer  haber más gusta que las vistas 😆	","joy", 0.468
+"2018-En-01723","	Soy tipo 'feo' whos agradables geuine y felices > un mal tipo atractivo whos amargo y coniving y superficial	","joy", 0.125
+"2018-En-03255","	Ha ha descripción de pisos del amor de Marlie packer ... Default Encuadre ' modo de combate ' ... 😂 😂 😂 #Brillante \ n @username @username #WRWCnum	","joy", 0.563
+"2018-En-01477","	 pensaba aproximadamente Fergie  música M . I . L . F Y seriamente, si soy una madre someday, seré un M.I.L.F  #lmao #Empowerment #Adorable	","joy", 0.662
+"2018-En-03022","	Omgsh Alexis es sooo freaking gracioso encima #BachelorInParadise 😂 Aquel segmento de pizza ! Plus me encanta y Jazzy  amistad !	","joy", 0.813
+"2018-En-02055","	#Lección de @username #libro  aplicaré : En #vida U siempre tener una elección . Kev Tuvo grimey las cosas pasan &  #escoja #optimismo	","joy", 0.324
+"2018-En-00161","	Despertando a la #fragancia de #café, hay no otro #placer .\n\n#Mañana #carliforniadreaming #Escritores	","joy", 0.777
+"2018-En-00314","	@username Hola, namjoo unnie! Bienvenido a paradox.💕 i Soy profundamente triste para el saludo tardío 😥 Chaey está deseándote para tener un agradable +	","joy", 0.328
+"2018-En-04314","	Complacer la parón que arruina mi deprimiendo memes con vuestro positivity y optimismo	","joy", 0.141
+"2018-En-03567","	#ContentwiththeLordsPortion : Incluso en tiempo de scarcity,”Aún así yo  #rejoice en el #SEÑOR, yo  #alegría en el Dios de mi #salvación.” #Hab 3:18	","joy", 0.406
+"2018-En-02255","	@username @username lo que el phd ! eesav gattiga 😆	","joy", 0.368
+"2018-En-01334","	Nunca lamentar cualquier cosa que una vez hizo  sonríes :) \ n #positivo	","joy", 0.636
+"2018-En-03330","	@username @username tan bonito querido, da las gracias a,todo el mundo sabe  es en beneficio de India &amp; GOI ha hecho este terror ataca tan antes	","joy", 0.344
+"2018-En-02951","	@username Sí, o aquellas películas de libro de cómic animadas!	","joy", 0.297
+"2018-En-01997","	Venidero arriba dentro de poco #WetinDeyHappen #la sátira #ríe #local #Pidgin cc @username y @username #stayTuned #premiumTalkStation	","joy", 0.333
+"2018-En-01720","	Nunca oído de #CaraCaraOranges hasta que hoy . Muy #tasty ! Altamente les recomiendo ! #Delicioso #GoodForYou #naranjas #de frutas que	","joy", 0.703
+"2018-En-00057","	Mueren mi cabello un color extremo por primera vez #cambio #nervioso #entusiasmado #notfastenough	","joy", 0.597
+"2018-En-01388","	@username @username @username ' sentido nuestra alma ' ! hilarious !	","joy", 0.613
+"2018-En-03077","	Da las gracias por el reciente sigue @username @username @username Feliz de conectar :) tiene un martes grande .	","joy", 0.636
+"2018-En-02878","	Feliz de compartir mi preestreno de vídeo nuevo con algunos de mi locales fav es ! \ n #Compone #emoción @username @username @username @username @username	","joy", 0.734
+"2018-En-01509","	Tuvo que eliminar mi Facebook demasiado para mí 🤣	","joy", 0.094
+"2018-En-02593","	sea un día frío brillante en April, y los relojes golpeaban trece. ~ George Orwell, 1984	","joy", 0.242
+"2018-En-01378","	ESTACIÓN de CAÍDA INICIOS HOY ! ! !	","joy", 0.531
+"2018-En-03840","	@username Cumpleaños feliz Marc tiene un bueno un ! Xx	","joy", 0.734
+"2018-En-03867","	Si hoy es el primer tiempo  estás jugando FFXII soy feliz para ti . #Zodiacage	","joy", 0.719
+"2018-En-01512","	Película de Comedia de horror mejor de num #AnandoBrahma @username #SrinivasReddy . En numnd mitad conseguía dolor de garganta #toomuch #Sonrisa	","joy", 0.677
+"2018-En-02706","	de risas ! ! ! #Sonrisa #feliz	","joy", 0.734
+"2018-En-01932","	Cumpleaños Feliz a #Olímpico #grande y #champ @username 🎉 🎂 🎈	","joy", 0.594
+"2018-En-03047","	@username Porque uno de ellos tiene que ser incorrecto :) justo queremos creer  es H & M haha 🙃	","joy", 0.500
+"2018-En-01325","	@username Demasiado ser divertido entrevistado por el supremely talented y gracioso #DatPhan #sopa #de risa #de la Comedia	","joy", 0.609
+"2018-En-01390","	Cada cual de nosotros tiene habilidades #de regalos #de talentos & #diversas Si nosotros #todos #trabajan #juntos # podemos #ayudar #hacer el #mundial un #sitio & #más brillante #mejor	","joy", 0.547
+"2018-En-01131","	@username  estás comiendo piel que podría haber sido enviado a un tannery para procesamiento de cuero . 😄	","joy", 0.359
+"2018-En-00357","	@username Estación acabada justo num de #MasterofNone .  Eres un dotado storyteller ! #Encantador #cinematography #hilarious	","joy", 0.606
+"2018-En-02633","	mañana de martes Bueno ... Ser la persona que hace alguien sonríe justo en el pensado de ti . \ n \ nBe Bendito y ser una bendición ! #BBaBaB	","joy", 0.578
+"2018-En-02446","	Justo acabado #TheKeeperOfLostThings . Libro #increíble, #encantador!  ENCANTADO lo!! @ruthmariehogan   Tramas historia diciendo magia!  AMOR!!!!	","joy", 0.727
+"2018-En-04244","	@username I justo ver num episodios #DilLagi pero quietos curiosos por qué  estás cayendo para el Héroe que 😆 mira más pronto .. 😉 😃	","joy", 0.394
+"2018-En-01993","	@username @username Si esto no me hizo tan enojado,  sería reír en este tweet!	","joy", 0.197
+"2018-En-00095","	@username Gracias Emily querida . Esto es una participación maravillosa me encanta . Emily, tiene momento muy feliz allí mi amigo bonito	","joy", 0.726
+"2018-En-00258","	@username Vale awak 😆	","joy", 0.391
+"2018-En-03876","	@username Honestamente, sido oyendo este encima y encima otra vez... Es kinda imprinted en mi mente ahora. Da las gracias a! ❤️✌️  #La estrategia	","joy", 0.703
+"2018-En-01881","	#Triste I #perdido #GDragon #esta noche en #Seattle . Podría ser awhile antes de que  es atrás,  espero todo el mundo quién atendió el #concierto tuvo un #tiempo #grande!	","joy", 0.303
+"2018-En-03304","	@username  Seré mooning le alegremente cuándo  llega . A pesar de que probablemente no sea presidente por entonces ...	","joy", 0.348
+"2018-En-01120","	' Este un ? ' \ n'Un poco extraño mirando no es él ? Puntiagudo . ' El alienígena preguntó . \ n'Quizás . Pero sea #maravilloso .  Es del Steve pila . ' #vssnum	","joy", 0.355
+"2018-En-03527","	@username Cumpleaños feliz Manisharma sirr ... Tiene una cabeza de año grande	","joy", 0.516
+"2018-En-03262","	@username @username tanto es awesome . Las personas faltan fuera no mirando miedo ! ! !	","joy", 0.375
+"2018-En-00999","	@username Cumpleaños feliz a ti #Kylie bonita ! 🤗 😙 ❤ 🎁 🎂 🥂	","joy", 0.813
+"2018-En-01923","	Hey buddy, justo pasé por para alimentar mi Venus Flytrap. —Demanda (S1E13) #glee	","joy", 0.411
+"2018-En-04317","	los chicos son tan terribles pero también tan asombrosos ... Correcto ?	","joy", 0.375
+"2018-En-01204","	@username @username @username Mirando fab hoy complaciendo al ojo artístico ! #GirlPowerTuesday	","joy", 0.574
+"2018-En-01751","	Vuestra #sonrisa es siempre la vuestra, lo hacemos tan fáciles como posibles para ti para conseguir el mejor orthodontic se preocupa ningún asunto cuándo  lo necesitas.	","joy", 0.412
+"2018-En-00828","	Era feliz en aquel posando que  esperé para correr cuándo el sol salió causa I normalmente corrido cuándo es oscuro por la mañana .	","joy", 0.470
+"2018-En-03087","	 Somos realmente no temerosos de ti todo . Te encontráis bastante #molestos & #divirtiendo . 😎 😜 🤣 😂 😂	","joy", 0.324
+"2018-En-01855","	Si  pegué tú con el ser bendecido  es encima 😂	","joy", 0.455
+"2018-En-03339","	@username Uau !  Espero i gana . 😭 Da las gracias por esto . 😊	","joy", 0.683
+"2018-En-00818","	Yo sólo cortado mi cabello así que  puedo fucc hoes en un durag #glee #sg	","joy", 0.359
+"2018-En-02891","	Soy I la persona única que no es aquello entusiasmó para ir allí . Yeah im Entusiasmó, pero im más temeroso.Adaptando y estudiando. I dont quiere ser	","joy", 0.234
+"2018-En-01835","	@username no es triste, finalmente  es aparentemente no apoyado completamente pero mayoritariamente trabajando :-)	","joy", 0.402
+"2018-En-03393","	@username era tan ocupado ayer  olvidé para desear u un cumpleaños feliz tan aquí conseguía CUMPLEAÑOS TARDÍO FELIZ I esperanza u tuvo un día maravilloso	","joy", 0.664
+"2018-En-01176","	@username @username Son el nuevos kennedy es de política americana .. Tristemente ambas mamá y la hija son tan encantadoras como uña de dedo	","joy", 0.206
+"2018-En-03821","	@username no incluso sé na naa koy pesadilla bonita hahahaha oks	","joy", 0.344
+"2018-En-00835","	bien mi día empezado de grande 🙃 el mocha la máquina no fue laborable @ mcdonalds .	","joy", 0.234
+"2018-En-03830","	Día apasionante adelante ... Comida @username con las chicas #Foodie #yummy #myday #Amigos	","joy", 0.719
+"2018-En-03910","	@username cumpleaños feliz ! ! ! Eres uno de mi creador de contenido favorito ! i Esperanza  tienes un cumpleaños maravilloso ! ! ! 🎉 🎉 🎉	","joy", 0.797
+"2018-En-00450","	La felicidad más grande está viendo alguien te gusta la estancia feliz - Daidouji Tomoyo [ Cardcaptor Sakura ]	","joy", 0.706
+"2018-En-00666","	Hola @username Thanku para #seguir 👍 \ nUs #a peluqueros les encantan compartir #las sonrisas 😁 \ nIt es una lengua universal ! 👌 \ nHave Un fab día ! 😘	","joy", 0.667
+"2018-En-01266","	 yo nunca NO ser cansado otra vez ? Este segundo niño me puse encima el superior 🙃 #workmom #agradecido	","joy", 0.348
+"2018-En-00123","	En un groovy restaurante . Conseguido un cheeseburger y fríe . No discrimino . Índice ; num/num #yummy #delicioso #politicallycorrect	","joy", 0.636
+"2018-En-02655","	@username cumpleaños feliz buddy ☺ deseando u mucho #éxito & #de sonrisas 🌸 #ameen ☺ mi bday en #numdays 😍 yaayyaaa 💃	","joy", 0.813
+"2018-En-00449","	@username @username PERO   consigues un LIBRE planner ? No creo que sí 😤 #CSUF #mofuckintitans	","joy", 0.188
+"2018-En-01961","	#Salmos #de verdad del Jesus num:num Tú aquello es righteous, ser feliz y rejoice debido a qué el Señor ha hecho. Tú aquello le obedece, grito para alegría!	","joy", 0.563
+"2018-En-00155","	uau : o Esto era incluido en el playlist #awesome	","joy", 0.806
+"2018-En-03809","	Si tú los tipos quieren un super inhealthy, pero bocado delicioso, @cheezit metido en queso de crema es la manera de ir 👌🏼👌🏼 #delicioso #preggocravings	","joy", 0.531
+"2018-En-03202","	@username sonrisa linda !	","joy", 0.578
+"2018-En-02830","	@username Bien hecho ! 😀 ( Vuestros gemelos Charlii y Cadance )	","joy", 0.694
+"2018-En-03458","	Necesita vuestra encuesta de tipos 😊 de la ayuda para un	","joy", 0.242
+"2018-En-02148","	amigo @username y no le llama creepy,  es el más guapo, tiburón adorable y más bueno nunca 😭 vale Zora, buuuuuut  parece un tiburón	","joy", 0.484
+"2018-En-02291","	@username @username @username @username @username Esto es una actitud que me hago viga con delicia cada vez  lo encuentro .	","joy", 0.609
+"2018-En-02737","	@username Para algunos razonan esto me ha llenado con delicia . Ve Auntie risa .	","joy", 0.851
+"2018-En-00428","	@username @username 😂 snowflake Aleatorio un hombre tan gracioso nunca un atenuar brillante de momento	","joy", 0.591
+"2018-En-01326","	Justo conseguía un regalo vía este ayudante virtual fresco @username . Quiere experiencia ? Dejado me saber,  te puedo enviar un regalo🎁  #mágico #delicioso 😊	","joy", 0.662
+"2018-En-00103","	i ya tener num Nico URs e i realmente necesitar una sonrisa UR ; ; i estoy confundido	","joy", 0.250
+"2018-En-04289","	Último YouTube de domingo glitch haciéndome perder hasta num subs es desgarrador para un canal mi medida ! Casi en numK aunque #numKsubs #youtube pronto 😀	","joy", 0.328
+"2018-En-01917","	Añadirme encima chasquear Whoa.Jay . #Chasquea #streaks #snapchat #amigos #de historia #añaden #seguir #el amor que #viaja #la fotografía #graciosa	","joy", 0.565
+"2018-En-03230","	es un #inicio grande para #principiantes para saltar al coche que #comercia . PROVECHOSO FX EA te dará soporte lleno, manuales &amp; soporte de Espectador del Equipo.	","joy", 0.406
+"2018-Ar-03503","	Todavía en un montón de la vida porque soñamos que vislumbramos las flores de la alegría de nuestros corazones, los hacemos lo puso en la frente de los collares mundo en el que la paz reposará	","joy",	"0.484"
+"2018-Ar-02170","	# # # # Thblh fluencia risa bromea 2017	","joy",	"0.500"
+"2018-Ar-02767","	🍃 🌸 la felicidad no es un sueño y no ھ O m ni tiendas ordenados, pero es el optimismo y buen pensamiento y paciencia y sin prisas por la mañana optimismo 🌺	","joy",	"0.625"
+"2018-Ar-03838","	Mabsout Miro los Halparwa en el suelo después de cuántos años, si Dios quiere	","joy",	"0.817"
+"2018-Ar-04228","	Les encanta Bicoloa les Aceh Bicoloa hjn lágrimas primer amor de los pasos elevados alegría Qadley mínimo y velas Afrah dictado mínimo Amani. Usted no Onawla Hnahq Tani ♥ ️🥀	","joy",	"0.516"
+"2018-Ar-03556","	Para Allhin no Otmathl a una recuperación total después de 😫 😫 🤕 🤕 B me dan la energía Tomo Qin y me da una sensación de vitalidad cuando la veo 😍 😍	","joy",	"0.250"
+"2018-Ar-03708","	@aya_mardy Bbosc mi vida Ashan Tvtkirna 😗	","joy",	"0.406"
+"2018-Ar-02138","	Gracias por su respuesta, mi querido hermano y 👍 optimismo mañana	","joy",	"0.453"
+"2018-Ar-03145","	Fajr la oración y la tranquilidad sonrisa feliz de la vida y el amor Alankiee a ver dos rak'at por Naim al paraíso ❤️ mezquitas Yamen quiere comodidad 🌹	","joy",	"0.750"
+"2018-Ar-00940","	Como la lluvia Kalak alegría como Hawa Vick vida # lluvia ☔	","joy",	"0.563"
+"2018-Ar-02225","	El optimismo no significa que no se va a enfermar no se cansará no llorar no va a morir significa que ha cumplido todos los destinos de Dios y experimentado Hamda agradecidos optimismo 🕊	","joy",	"0.266"
+"2018-Ar-03815","	Hija de nubes rosas y mi hermana flores cabina ángel de Zein Lin se convirtió en Mraiytk piensa que su casa 💕 💘	","joy",	"0.500"
+"2018-Ar-02420","	# La felicidad es Anu estar con la gente y terminar con la alegría y la felicidad Becono Hannan Festival Bespbolek de Juatc # felicidad estar con el mundo Ptahbun	","joy",	"0.703"
+"2018-Ar-03193","	Dios salve a Siria y su gente y la seguridad y la seguridad de su gente preparada, crema O	","joy",	"0.217"
+"2018-Ar-03841","	Allah es el camino de la felicidad # 😍 dijo el Todopoderoso (quién y cuyos corazones UMNO recuerdo de Dios no es el recuerdo de Alá hacer corazones) # Atminan❤️ Buenos días	","joy",	"0.672"
+"2018-Ar-03190","	`Resolverse entre las costillas y el amor importante ya reír Snini y Naim días 💭 💖 # Karob_gam_lda'm	","joy",	"0.597"
+"2018-Ar-03526","	Gracias por todos los miembros de la Media Luna honor le dio un gran apoyo y hecho sorprendente de los hombres amantes de la Media Luna primero y principal no gracias a su derecha Aovicm 💙 # Ars_azaaamh	","joy",	"0.438"
+"2018-Ar-01724","	O creador de la felicidad; # feliz mi corazón ❤⚘ # # corazón de ❤⚘ Iaarb ❤ lee la tarde,	","joy",	"0.484"
+"2018-Ar-00645","	Por cada persona agradable a lo largo de mi vida cada año y cada año que estés bien y feliz Ngmrk y hermosa sonrisa de tristeza Aekrha 🕊 ♥ ️	","joy",	"0.609"
+"2018-Ar-01526","	Abrir Facebook y Twitter para ver que la gente Huwalia Farhana y alegre, me gustaría ver Msjat gracias y gratitud 🙈 .. \ n no quiero Aktar keda Señor ❤😍 \ n \ n # Hkura_aly_aleom 💚	","joy",	"0.700"
+"2018-Ar-01713","	@ 6PYCuiT2ln8Qfh4 bus en la cabeza, lo más importante no estás triste 😅	","joy",	"0.250"
+"2018-Ar-01812","	Pide a Dios que la corona y la mañana alegre a los corazones de las preocupaciones y el placer obtuso y la salud y lleno de buenos niños y oraciones aceptantes y eliminar la religión y curar al paciente y la misericordia	","joy",	"0.645"
+"2018-Ar-03997","	❥ 💭 ❥ Arozkh # O el placer no está contaminada por la tristeza y la felicidad # # Aekrha Hqaae y la alegría nunca desaparecen ┈┅ • ❥❥ • ┅┈	","joy",	"0.594"
+"2018-Ar-00656","	Tales como la Puerta de aves creció Bohoudank \ n Yo mismo seguro y Jnhani	","joy",	"0.532"
+"2018-Ar-02391","	Mantenga puentes de comunicación con los que te rodean no saben los puentes día que le llevará a la isla de la seguridad y la felicidad, relaciones de la vida y las asociaciones # # HE relaciones	","joy",	"0.422"
+"2018-Ar-03745","	Artículo especial: un comienzo positivo para las conversaciones Brixt pero persisten las dudas había una atmósfera de optimismo después de la primera ronda de negociaciones, la salida de Gran Bretaña de la Unión Alou	","joy",	"0.219"
+"2018-Ar-03865","	Mezquita @AlsharqiyaCafe @abd_llaziz de Munir Sheikh Mansour al-Zahrani 👌 entrar en la atmósfera y la tranquilidad y Dios bendiga Khcowoowoa B necesitaba consiguiente vuelve Badri, pero Ptsali calle	","joy",	"0.516"
+"2018-Ar-01498","	Amable y rápido p Otzhr como la gente de la mar ... abuelo del Este 🙄	","joy",	"0.250"
+"2018-Ar-00096","	Estas son las chicas de texto Masban y Zaalanin días, a pesar de la sensación de satisfacción ane m dividida conmigo alabanzas a Allah 💜	","joy",	"0.250"
+"2018-Ar-03626","	# Comer comer más feliz y se sentía Bonash Lech 🤔	","joy",	"0.532"
+"2018-Ar-01906","	Oh Señor, que nos gusta soñar Bali :) Mo sueño Bali Mandre sobre ellos ni sobre lo que él llama	","joy",	"0.359"
+"2018-Ar-00545","	Yally Gharamak el momento más dulce y mi sueño Bohoudank dulce 😍	","joy",	"0.625"
+"2018-Ar-00921","	Metálica Manzl texto lluvia # verano ✋ Rah Legge Farah texto 😍 dolor Bhalayam virtud 💔 Antwoo Golo # B Iaarb 👐 ❤	","joy",	"0.500"
+"2018-Ar-02534","	advertencias Facebook Melian Llano noche Rah se convierten en el tiroteo mantener Bokatr de Muttrah Beirut y Siria, llevan Monte regocijo una boda. \ N \ n # Una vez 😂😂😂😂😂	","joy",	"0.359"
+"2018-Ar-02286","	Que eres para mí la alegría de sus datos	","joy",	"0.688"
+"2018-Ar-02680","	Saeed Al Harthy: Abdullah Alnaguiban educado, positivos y fotoactivos ajuste se mueve encajan agua estancada hace un ambiente alegre y remover su vida 👏 🏻 # 60	","joy",	"0.406"
+"2018-Ar-00659","	Lessa le Filtrar resultados # Alfarahh_ank	","joy",	"0.597"
+"2018-Ar-02620","	Mantenga un ojo entusiasmo y la emoción	","joy",	"0.452"
+"2018-Ar-02288","	# Km_ouselt_aidt_ana_hzh_allhza proporcionar eidia para los niños y llevarlos a sonreír inocentemente tightwads Saadeh no conocidos	","joy",	"0.641"
+"2018-Ar-03746","	Celebraciones del estadio es lo suficientemente virgen Lin	","joy",	"0.516"
+"2018-Ar-01397","	Mañana con una bonita sonrisa y la misma Guenuah Así que vive la belleza de la felicidad de la vida # # mañana para Ahaly_bbah Hrov_ogahoh	","joy",	"0.750"
+"2018-Ar-00374","	La alegría de su madre y el padre de Beck, y que están orgullosos de su sentido Beck	","joy",	"0.766"
+"2018-Ar-01981","	El primer amor de los pasos elevados alegría apli mínimo y velas ~	","joy",	"0.656"
+"2018-Ar-04237","	Cada momento Khalitni sonrió en el mismo; Dios no hace triste tu corazón y que Dios te hace más feliz de su creación	","joy",	"0.688"
+"2018-Ar-00183","	la gente común OK Todos estos son la alegría de sus costumbres Khalhm Aswo a Ibgouna ☺	","joy",	"0.438"
+"2018-Ar-03579","	🌸: Marafkh dulce Ala ڤ atar B Baldgh de delicioso 😅 💙 nuestro Señor y protegerle y sostenida por Ikhalik que Baahbuk 💕	","joy",	"0.578"
+"2018-Ar-00816","	Lejos de todo lo que no Ngfloa para pedir perdón por los elogios de alegría al respecto verdad la felicidad tahmíd para aquellos que buscan la felicidad 💭 ✨ Astgvrallah❤	","joy",	"0.516"
+"2018-Ar-01374","	Horas comienza con su cumpleaños Yally alegría de cumpleaños de historia de vida Mo ups. # Melad_rak_alotaibi	","joy",	"0.781"
+"2018-Ar-00747","	Ptgala de alegría # # Bgalk sobre pequeño bebé # # Me encanta ups y muestra que Petrk Todo lo que tiene que Bergd 😍	","joy",	"0.719"
+"2018-Ar-01619","	Eid feliz y todos los años y todo el mundo hicieron en la salud y el bienestar y cada año agregamos el mundo árabe de los líderes Okhosa Mdnson de trabajo y la humillación	","joy",	"0.422"
+"2018-Ar-03418","	Twitter entró inmodesto modestia y luego se marchitó como si fueran objeto de burlas gradualmente los hombres Osedkaiqa en los corazones de los jóvenes de estos Almmazhat fantasías de sus niñas la vida Atdrickha # 74	","joy",	"0.203"
+"2018-Ar-01494","	# 6 Ahtda_hrva Ivotkm ❤ Ver Harvey y personas divertidas y todos nosotros Salman 💚: :) (;	","joy",	"0.672"
+"2018-Ar-00185","	Muchos de nuestros pecados y remordimientos cobarde # # Baudelaire Ozhar_achar	","joy",	"0.156"
+"2018-Ar-01838","	Señor, la luz de su corazón y explicar a su pecho y se mostró satisfecho por su excelencia el eterno 🌟	","joy",	"0.516"
+"2018-Ar-04043","	Aquí hay una pareja y mis días en la fecha de su boda en bata, Señor vistió alegría y hacer que sus días y sus combinaciones felices Dios se complementan en lo mejor que la novia más bella 👰 💍 💕	","joy",	"0.844"
+"2018-Ar-00164","	Cada extremo Pinzl mar el hecho de que Arif Llano posible desplome !! \ n \ n B en la aventura tarado es más fuerte que el miedo a la formación de ahogamiento 💙🌊🌊	","joy",	"0.453"
+"2018-Ar-01511","	Nvsik es una brújula para su escritura # # # amor melancólica felicidad	","joy",	"0.385"
+"2018-Ar-01867","	Aref lo que está en necesidad Tighe en el lago Sueño sensación de alegría lo primero que Ptsahy tocino Sci 😊	","joy",	"0.677"
+"2018-Ar-00556","	* Asahaaaaabi💛 \ n Ashan Ramadán cerca de la \ n Allah esté satisfecho Saadeh m eterna entonces ni ellos ni llanto, ni apretado, transmisiones Dios Boutriqkm éxito y la comodidad y la seguridad de Dios Adimkm😔💜.	","joy",	"0.531"
+"2018-Ar-03080","	Donar anuncios tacto, donde la cantidad es la alegría de nuestro Señor sanar Tabieih❤ Adeolhm	","joy",	"0.703"
+"2018-Ar-02375","	# Fin de semana planes energéticos felices de su vida con el fin de no condiciones Tsirc	","joy",	"0.661"
+"2018-Ar-03147","	Francamente que Ahsbk arrogante porque sabía Zine B sentó Assoulv Mas Talaata Tioppe y Aahh corazón Tdkhlin Me encanta Aslobs suave amor feliz Connie Muah	","joy",	"0.563"
+"2018-Ar-02113","	* Señor O گ nosotros tb felicidad Daim ہ * * y Optsam ہ no pierden corazón, y no estrecha ✨ 🌸 * - * Asad Allah Bbaagm 💗 ✨	","joy",	"0.565"
+"2018-Ar-03901","	Las delicias de su público al que gracias por la hermosa Abbahiat que siempre disfrutaron 👍 y si el resto de la Sbahiat nos desean feliz de que estés allí donde su vida 🙏 🙏 # 86	","joy",	"0.717"
+"2018-Ar-02342","	mínimo análisis con mis propios ojos Tjia satisfecho a Dios ♥ ️	","joy",	"0.710"
+"2018-Ar-00711","	A pesar de la triste noticia en las noticias # Mcherqna un único rayo de esperanza: # militar de Estados Unidos hacia atrás y morir en verde en lugar de su tanque de color desierto	","joy",	"0.266"
+"2018-Ar-01976","	# Gracias Hkura_aallah número maravilloso adorna maravillosas gracias a la sensación de la alegría y el dolor de la vida Gracias maravilloso toda la sensibilidad al tigre Gracias # Wonderful Life Kona_drh # 52	","joy",	"0.609"
+"2018-Ar-02928","	Oh gente anhelo en la noche del amor 💞 O Ghinwa Pthaly grano 🎤 O sueño de lo Abiedah Bal ✨ # Kinsh_ndjemh_ln_ttakerr	","joy",	"0.656"
+"2018-Ar-01904","	¿Cuál es la seguridad por encima de todo sentimiento # combina dulce	","joy",	"0.581"
+"2018-Ar-03996","	Di lágrimas de alegría Iaarb xD ❤️ amor dura Daemaa 😍 😍 😘 😘 💖 💖 🌸	","joy",	"0.734"
+"2018-Ar-00289","	Otros 10 Dqaig escuela y se guarda la segunda B en las caras de red Mstaln 😀	","joy",	"0.250"
+"2018-Ar-02157","	Nuestro Señor hace que la luz de nuestras palabras deliciosa Zarif Latif Ali, que sabemos y la gente Mnarafhash	","joy",	"0.406"
+"2018-Ar-00340","	canciones Azay Mahmoud El Esseily Estimulante de esa manera ❤️	","joy",	"0.719"
+"2018-Ar-02261","	Cielo la estrella del centelleo ✨ unidad de silencio calma espera para satisfacer la conciencia de diversión sin fin	","joy",	"0.547"
+"2018-Ar-00582","	25 Por desgracia, lo que Barafk mucho B en Pine Minih la sangre y la luz de nuestro Señor por favor, que siempre 🌸	","joy",	"0.500"
+"2018-Ar-00949","	# 2 Aidytk_kash_alagafara_llsjad hay más dios que Allah sólo, sin compañeros de elogiarlo y Él es sobre todas las cosas 🍁 🍂 🌿 ☘️	","joy",	"0.339"
+"2018-Ar-03551","	# Resumir en dos horas de felicidad Elly Bnqad amor, algunos de ellos después de todo # Chokehold	","joy",	"0.563"
+"2018-Ar-02941","	Usted ha Htbaun Taathmson oras y rápido y Taatmnon paraíso habló de charla maravillosa sobre su corazón para tirar B se envuelve alrededor de amor y tranquilidad 💓 💓	","joy",	"0.483"
+"2018-Ar-01782","	@AhmedAdeb huía de alegre de Xue Lessa que el rostro de violín de 12 días y la mayor alegría de alejarse 😂	","joy",	"0.823"
+"2018-Ar-02462","	No hay más bueno que Dios podemos Khvat nuestros problemas de duelo invisible y luego Ofrahna P Almighty cómo se maneja y la usa para ti y te 💕 ✨ día de fiesta feliz	","joy",	"0.500"
+"2018-Ar-01959","	Nueva mañana espero que nos guíe ayer un nuevo borrar las decepciones de la mañana pinta la sonrisa de optimismo Tgrena dictar la alegría de nuestros corazones	","joy",	"0.609"
+"2018-Ar-03951","	# sonrisa	","joy",	"0.500"
+"2018-Ar-01587","	Dios te bendiga mi hermano Omar Usted es la persona más prominente es posible hablar de cualquier tema serio con un poco de humor continuo	","joy",	"0.359"
+"2018-Ar-00808","	@eidelyehya @yaserahmad Stales Lo que obliga a las personas y la gente Itapaok segundo Shi Haloaam girar la gente humor que lo hace girar la cosa se aplana y se ríen lo que aprenda ETBI 😅✋🏼	","joy",	"0.281"
+"2018-Ar-01392","	# Rd_jor y Xu aman lo PTGi	","joy",	"0.547"
+"2018-Ar-02166","	Estoy satisfecho # asegurar si mensual que alivia 💜 # Hsohrlk Oh luna si de # afrg 😊 👌	","joy",	"0.531"
+"2018-Ar-04153","	# Alegría: tomar unos pocos que llena mi necesidad y Strew Bwaekayaa todos los necesitados	","joy",	"0.729"
+"2018-Ar-00617","	# Bahjh_zhor_enba la creatividad y el tráfico de papel excelencia Te deseo más éxito y progreso	","joy",	"0.500"
+"2018-Ar-00246","	O G'rourk! \ N Les seguridad Hevcna ocultar S'rourk💙?	","joy",	"0.328"
+"2018-Ar-04147","	@RahmaMadany yo soy Dios, el niño 😂😂 da la sangre, la miel suave y muy 😍	","joy",	"0.609"
+"2018-Ar-04254","	Soy el dueño ayza Ze Akram Hosni # Rih_madam 😂😂 todos dicen que ponen el contrario, dice tazón O \ n 😂😂😂😂 \ n # # Bahjat Sultan 😂😂💙💙	","joy",	"0.469"
+"2018-Ar-00451","	El público en voz alta Ooooh O Rabah Abu Sakr dijo Choi y lloré 😍❤ \ n # Hvlh_rabh_sqr_utoba_kit	","joy",	"0.516"
+"2018-Ar-02564","	Con la brisa esta hermosa mañana, pido a Dios que Arozkkm la alegría de la tristeza y la felicidad consecuencias y la necesidad de lograr sus secuelas Omanicm Buenos días todo lo mejor 🌷 💗	","joy",	"0.656"
+"2018-Ar-01017","	Oh Dios, por favor @PrincessBasmah el dueño Alsmowo y hace que toda la felicidad y Drbakk Basma, como su nombre nos Ayuda	","joy",	"0.672"
+"2018-Ar-00957","	Astodat de mi Señor es más querido para mí Oh Dios, guardarlo y Arzgaha largo de su vida llena de alegría y satisfacción Ptcherq sol no importa cómo la otra noche cubierta 💜	","joy",	"0.438"
+"2018-Ar-03889","	Oh Dios, haz que el mes de Ramadán de este 🌙 ✨ anillo para el comienzo de nuestras penas y Ofrahna y me refugio en Ti de este mes de todo pecado y encerrado vida invalida el ayuno	","joy",	"0.531"
+"2018-Ar-01882","	Si dormían Macamwa si Manamua .. Algunos Amordan .. Ellos se entienden bien 😗	","joy",	"0.125"
+"2018-Ar-01561","	A mí mismo en una sorpresa Tkhlina Mnckhh An_kah Mnckhhoush Mnckh en la historia de Almnckahin 😂 😁 💃	","joy",	"0.516"
+"2018-Ar-01601","	La desesperación será de ninguna utilidad al lado más bello, si Dios quiere, # optimismo	","joy",	"0.406"
+"2018-Ar-03768","	Danos la paz de corazón y mente, Señor 💙 🤦 🏻 ♀️	","joy",	"0.531"
+"2018-Ar-02481","	Hospital de Magdi Yacoub anunció Btaa Ahmed Helmy y Donia Samir Ghanem es un gran Dios de Levi 👌🏻👏🏻	","joy",	"0.609"
+"2018-Ar-00281","	@retaj_alobidie Aksriha en ella y beber Kpaih y hedonista Bay 😂😂 Hsseh que Kberti 😂	","joy",	"0.438"
+"2018-Ar-03329","	Deja que tu sonrisa es la primera que es su características # # caridad de la salud en la religión y en la felicidad del corazón # y quienes le rodean un bello efecto 🎶 🍃	","joy",	"0.613"
+"2018-Ar-03396","	# Hdu_gram_lda'm el sentimiento más hermoso cuando vea una oración usted demanda se ha logrado en la alegría de mi pecho, Señor alentado no ha descubierto su cuenta	","joy",	"0.484"
+"2018-Ar-00624","	La tristeza se derriten y un gran placer para llegar a casi termina también lo son nuestros sentimientos Unidos sus días	","joy",	"0.355"
+"2018-Ar-00196","	@ Palabras W1_h2 mo Mis fans dulces y la cosa apariencia física B Maalih 🤞🏼	","joy",	"0.188"
+"2018-Ar-02776","	# Asaad_gark 1 \ n mu Bs litros laborales Encantado de Dios y nos complace Amaaahm	","joy",	"0.758"
+"2018-Ar-03669","	# Ahtda_aid_ariyad ETBI reír y expandir el pecho afiliada a lamentar Beautifull Mara Saleh Al-Qahtani Insta s2leh_q @	","joy",	"0.617"
+"2018-Ar-00573","	Mil felicitaciones fraternal y amigo Mustafa # enérgica 😘 😘 digno de todo el bien que me gusta Alzlamh para llevar a cabo su promesa le Zlamh 😎 Felicidades Khtopetk y Señor, felicidad permanente de su vida 😍	","joy",	"0.719"
+"2018-Ar-03706","	@ 78llli lo que se convierte en el Zaal convierte todo el amor y la felicidad	","joy",	"0.563"
+"2018-Ar-01940","	# # O-como noticias # # Ghaith y la alegría de borrar todo el dolor y # Faraj Sabre todos y # sanar cada paciente y # # respuesta a cada oración que sobre todas las cosas. # Señor 💝	","joy",	"0.328"
+"2018-Ar-03043","	El hombre busca a una buena chica educada y hermosa chica una vez la gente encuentra esta joya de modo que guían su propio equivalente '- Ahmed Khaled Tawfiq	","joy",	"0.328"
+"2018-Ar-01770","	# Col_ha_an_alhab amor es la felicidad, la seguridad y el confort de Baldva amor de primavera inundaciones y anhelo y Alolh y la más bella Maver estar basada en la honestidad y la credibilidad	","joy",	"0.597"
+"2018-Ar-00184","	@ Nubes Reeo12e @NajranWeather Hallelujah en forma de corazón 😊	","joy",	"0.391"
+"2018-Ar-02945","	Oh la alegría no le veo la tristeza y la felicidad Aekrha miseria y Afia no desaparecen 🎼 💜	","joy",	"0.578"
+"2018-Ar-04241","	@ssstygh uno MAPH Manténgalo dos dimensiones Haram después del Ramadán fiesta como el monumento 😜😜😜	","joy",	"0.323"
+"2018-Ar-01270","	@ @ 0ta4 iAnas5 Dios multiplique su bondad y ex Señor Dios, donde la duración de su edad, mis hijas lo llevaron a Athton los pechos expansión 😅	","joy",	"0.484"
+"2018-Ar-02551","	❥ ˓ * * ˓ ˛✿ me lleva desde la parte superior de la CEBRA B # sonrisa aún más sus pasos no me Otzhlh rieron	","joy",	"0.453"
+"2018-Ar-01114","	Ramadán malla odio Saidh❤️	","joy",	"0.750"
+"2018-Ar-00297","	louay partícipes de Zmaan buenas y respetado y querido nuestro Señor y la mutilación ayuda usted y afrg 💞 💞	","joy",	"0.500"
+"2018-Ar-02698","	Tengo una canción Balh Anjbk y su sentimiento mutuo Yaklba Ante y mi Señor 💞	","joy",	"0.547"
+"2018-Ar-02315","	# Bahjat Yala queremos un Albast completa Hace # Shawkat morir 😂😂😂 \ n \ n mueren de Ahazzar mueren de la risa 😂😂😂 \ n \ n # Rih_madam😂👏	","joy",	"0.641"
+"2018-Ar-01952","	Si el premio más meticulosa miedo de enfermedades ganó BHAA Annnaaa 😃	","joy",	"0.203"
+"2018-Ar-02654","	# Lluvia 😍 \ n # Aid_melady 😄 \ n # Vanus_ramadan Kmaan😘 \ n lealtad al igual que Kthier dura 😃 - sensación fantástica	","joy",	"0.719"
+"2018-Ar-03783","	Oh, Dios, la felicidad y la satisfacción de la mente conciencia	","joy",	"0.500"
+"2018-Ar-00552","	I Feel One vidente día más feliz optimismo # # # siendo sueño # # lechuga Islas Omnia humana	","joy",	"0.609"
+"2018-Ar-01264","	# Alhacd_aahtm_ahalam_ardogan y los sueños de cada paciente Taghi multitud esperan la multitud de mañana multitud brillante y el resto de los que están involucrados	","joy",	"0.266"
+"2018-Ar-00131","	@aya_rageb @Nana_K_Khald @raghebalama y si Dios quiere Rah Tkdra Detener en la recompensa y Tafrha Ragheb y Tafrhana y Tafrha aniquilados violín 💋	","joy",	"0.609"
+"2018-Ar-04226","	Mientras se ve que la cara y la sonrisa todavía soy capaz de luchar contra el abuso de su mundo ❤	","joy",	"0.563"
+"2018-Ar-03878","	# 😍 alegrarse y dejar que la alegría y da por lo general después de Putnam Tsaha Alih🌸 # Ridi Htlaqa # Saadeh que Bah❤ Want To	","joy",	"0.828"
+"2018-Ar-01219","	# Rih_madam \ n Alkpot \ n # Bahjat: Er ... Cabot Tabooot "\ n duro cada dulce garganta y la comedia más de lo que antes 😂👌💪	","joy",	"0.677"
+"2018-Ar-02757","	Usted puede ser agradecidos Matjia Farah	","joy",	"0.578"
+"2018-Ar-03057","	# Hvlh_hahin_bnadi_medinhnasr Shaheen razón audiencia más feliz	","joy",	"0.609"
+"2018-Ar-01489","	# Aidytk_ma_rgd_mamed nada de ti lo más importante es dulce regalo 😢 😢	","joy",	"0.313"
+"2018-Ar-01721","	Dios vino a usted y la voz del mundo de Dios Unión Attakm perdona sus posibilidades celebraciones KMILO dibujan Kmilo	","joy",	"0.172"
+"2018-Ar-01571","	Esperado con impaciencia para las fotos de llanto Buffon cuando la copa y Allegri con él y con la alegría de la taza con Zizou Don y el resto	","joy",	"0.375"
+"2018-Ar-01944","	El otro transpirante Rah derecha y todos nosotros con la alegría del corazón y la mente Mamnsmah límite Aavea 😊 💔	","joy",	"0.250"
+"2018-Ar-03180","	Su sangre es lugar luz 😍	","joy",	"0.375"
+"2018-Ar-00045","	Dios creado en su voz se refiere Nstana más amable Navarra Dnaaa y amargo 💛 🎶 🎼 # calma	","joy",	"0.563"
+"2018-Ar-03328","	AgrD y todo y específica me conoce una sensación agradable	","joy",	"0.438"
+"2018-Ar-00049","	@ @ Astrophys94 almuna94 lo Betrouh día y la noche, por desgracia 😅 \ n necesitados a generaciones y generaciones de una educación adecuada y elevar el nivel de \ n nacional, especialmente en el mundo árabe	","joy",	"0.266"
+"2018-Ar-03545","	Gracias a Dios muy feliz de cómo la boda no es un líder y Ashana en Htterk continuó el estanque millones Nstahl de orgullo 💙	","joy",	"0.844"
+"2018-Ar-01420","	Después de saber lo que escucho tu voz Haasir Fini? \ N se convierte en mi corazón late rápido me siento omite, siento la alegría de Tjia Klee, sentarse risa sin Caourin sin saberlo?	","joy",	"0.688"
+"2018-Ar-00387","	la paz y la tranquilidad psicológica Elly yo soy el Señor, ahora prefiere la longevidad y la malla Ayza necesidad Tanih y el gran Dios de esa manera y aumentar el alto suficiente.	","joy",	"0.453"
+"2018-Ar-00336","	Htamot triste si esperaba mucho # afrg	","joy",	"0.250"
+"2018-Ar-02078","	@AlfaAqwa hola, el paquete no está disponible en el mercado, es posible Bs unidad Tvose de contenedores llegando a través de su puesto Bmsabqatna 😊	","joy",	"0.297"
+"2018-Ar-00590","	Qué hermoso es hacer una pequeña Ofraha a su alrededor, lo que más necesitan de corazones ahora se regocijan con la alegría y la esperanza de la llama	","joy",	"0.547"
+"2018-Ar-03848","	Gracias por las cosas simples Una delicia en nosotros, las personas ❤	","joy",	"0.846"
+"2018-Ar-03405","	Con mucho gusto anunciar esta noche te añada	","joy",	"0.581"
+"2018-Ar-04088","	La vida no es siempre feliz, y no de forma permanente sonrisa melancólica y la confianza en Dios en tal vez mañana Nasibkk❤	","joy",	"0.453"
+"2018-Ar-01505","	Estos son los negocios @MEIZVhnWszMhlBk envía esperanza y optimismo de que el mundo todavía está bien ,, Dios guiarlos	","joy",	"0.500"
+"2018-Ar-03752","	Pensando cómo distribuidor Asir 😊 - se siente optimista	","joy",	"0.323"
+"2018-Ar-01727","	Oh Dios, yo alabo al Señor, la alegría del éxito y la graduación 🌸 🎓 # Farahta_njahi	","joy",	"0.859"
+"2018-Ar-02051","	Aalzh fiesta Loya dulce y Ante Idi, que cada año es única alma completa, el resplandor Viqueque 😢 ♥ ️ ♥ ️	","joy",	"0.581"
+"2018-Ar-00969","	Para cada extremo de Schaff Atawaith \ n \ n # Señor le guiará y # purificar su corazón del pecado y # bendiga su alma descanse en paz \ n \ n # y regocijarse en su corazón y alcanzar sus sueños y # # relaja su mente	","joy",	"0.548"
+"2018-Ar-02040","	# Farahta_njahi Dios quiere Mbrwok todo, oh Señor, y Akbna años que nos separan de alcanzar el sueño 😭	","joy",	"0.766"
+"2018-Ar-03802","	Estoy de acuerdo en que una pequeña aventura y firmar con él, pero sus peticiones realistas y equipo de observadores, así como lo que se devuelve en el tiempo	","joy",	"0.297"
+"2018-Ar-03857","	MSAC # la fuente de mi Señor, por favor, que 🌹 😍	","joy",	"0.672"
+"2018-Ar-02590","	La misma semana Gai mismo día el tiempo Hakon Juve avanzada sea Dios hilarante dispuesto, Señor Yakeram 🖤	","joy",	"0.547"
+"2018-Ar-03257","	@RadiniaHatter vidente Tstmtaa cuando su familia de vacaciones? la saturación Tavakoli Molokhia? \ N sin universidad sin ellos disfrutan de 😂💃🏻	","joy",	"0.344"
+"2018-Ar-02685","	@Fifiabduoffcial Egipto Fifi Abdo decir una sonrisa distintiva bajo ligereza atraer en torno a una fuerte resistencia de la personalidad y el valor de la otra abiertamente Fifi Abdo y uno de malla B Htkrr	","joy",	"0.403"
+"2018-Ar-04049","	Agradecido por cada persona en la vida inculcar Fini efecto hermoso y me llamó una llamada sincera desde el corazón y me dejó la palabra dulce felicidad y el amor Tjia 💌 💛	","joy",	"0.625"
+"2018-Ar-03894","	# Ahtda_aid_ariyad Ntam cosas dulces B Manbeha Juvenil 🏃 🏼 😂 profeta algo dulce para ser las familias de las dos partes Aradwa Stales	","joy",	"0.484"
+"2018-Ar-01058","	@ M7mmdSala7 Aha O Salah Eid en su examen turbocompresor cumpleaños? : "D \ n cada año y usted es un buen Aasita .. Dios quiere, nuestro Señor Hastrha, lo Tqlakec	","joy",	"0.219"
+"2018-Ar-01266","	Y finalmente nos salvó otro examen # # resto Rahh_nevsah	","joy",	"0.726"
+"2018-Ar-01638","	Almas Tayyiba placer y Salha Asaadkm Dios con esperanza y no satisfechos Thblgoh no tiene satisfechos que han aprendido y siempre y cuando no le contaste mañana Rizk subió 🌺	","joy",	"0.484"
+"2018-Ar-02540","	Mahd predijo episodio Ashan así le gusta por lo 😍 recordó el último episodio triste Shui	","joy",	"0.400"
+"2018-Ar-03963","	Es si yo valgo Aaoz ayunar el último día de Ramadán en el carrete p mar en Alejandría mantiene loco y de mantiene normal y natural 😏 🙈 😏 # # Tarq_ldermira Dgta_mpthzrh	","joy",	"0.359"
+"2018-Ar-04157","	Hoy nació cuentos de alegría en la más hermosa # cumpleaños cada año todos los años y Ante la cruel y hermoso cada año y alegría en mi vida Thtwik 💜 7/7 ✨	","joy",	"0.734"
+"2018-Ar-02630","	¿Estás despierto Buenos días a ti también me encontré con aquellos que desean estoy feliz	","joy",	"0.391"
+"2018-Ar-00317","	Sbouhha- día de nacimiento y el mínimo fiesta Baaona creció en mi corazón esta edad mundo y años de Dios hace toda la alegría Snenk Aafarahh Aldnia❤ ✨	","joy",	"0.734"
+"2018-Ar-00191","	Estoy satisfecho con usted si usted está lleno de silencio, lo suficiente sensación de seguridad Elli se siente con usted.	","joy",	"0.547"
+"2018-Ar-01504","	Felicitaciones a Madrdi se muestran con el derecho a emitir Tweet celebraciones deseos desagrada	","joy",	"0.500"
+"2018-Ar-00381","	R. No No No 😉 😉 alegría Haboz en la unidad murió y er 😂 😂 🙊 🙉 🙈 🙈 😂 😂 # Okrm_hassana amor # # ❤ Khvh_dm 🙈 🙉 💚 💚 😂 # Rih_madam	","joy",	"0.531"
+"2018-Ar-03855","	viajes tronco presión Asán nubes de texto de las más bellas presiones de la vida 😅	","joy",	"0.484"
+"2018-Ar-02304","	323: Bokeh mi mejor uno en el mundo y muy estimulante de Dios significa Mbzbeh o muñón y Bihtajk gran parte de nuestro Señor, mi amor por favor, que Aarb😻❤ ♥	","joy",	"0.641"
+"2018-Ar-01485","	El domingo era la alegría de convertirse en Farahtin 💘	","joy",	"0.828"
+"2018-Ar-02638","	@ @ Atef919 osama0589 \ n sueño mosca sabiduría de los ojos 😀	","joy",	"0.188"
+"2018-Ar-03736","	- Jay ceguera le pido Ed hija \ N-- toda la mejilla, mi hijo, nadie Taigha en casa originalmente .. 😄 \ n # Michael!	","joy",	"0.550"
+"2018-Ar-02618","	# Frha_bundq cada año y que son buenos, oh Bro❤	","joy",	"0.672"
+"2018-Ar-01753","	Cuando se piensa que Dios Sabdlk después de la miseria de la felicidad y lágrimas después de la sonrisa se ha realizado el culto Una gran saber, el buen pensamiento, en Dios Buenas noches 🌹	","joy",	"0.563"
+"2018-Ar-01530","	Blessed diez días de este mes sagrado, el doble del salario, ¿y si fuera por la felicidad de un niño a la espera de la galería de donación # Basmh_aid_10 ❤️	","joy",	"0.667"
+"2018-Ar-03591","	Dah que esperan en los ojos, \ n locura orgasmo horas.	","joy",	"0.531"
+"2018-Ar-00421","	# Aidkm_mbark para mi familia agradable para todo el mundo sobre mi vida cada año y cada año Anto Ngmrkm fina y alegre y hermoso Aptsamtkm Lo Aekrha tristeza 🙏 🏻 💕	","joy",	"0.672"
+"2018-Ar-02740","	Mi madre sonreír felicidad no tiene precio, por lo que mi Señor, no me priva de su presencia en mi vida todos los años y Ante mi felicidad, mi madre 💗	","joy",	"0.766"
+"2018-Ar-00155","	# Kinsh_vi_hah_athaddak \ n la belleza del mundo, además de Eineik poderosa guerrera se enorgullece de Vic Beck tiene el mundo	","joy",	"0.438"
+"2018-Ar-02555","	No deje nada en su corazón contra uno; perdona y perdona e ignorar los mejores momentos de la vida es probablemente merece ser experimentado y cómodo Trahl️ # # Ramadán a Aala_ramadan	","joy",	"0.344"
+"2018-Ar-02782","	Un mundo distante sonrió y Tefi infeliz 🌾🍂	","joy",	"0.375"
+"2018-Ar-03816","	# Fresca sonrisa Malk Hua medicina .. Por cada disparate .. !!	","joy",	"0.172"
+"2018-Ar-01277","	Más luego terminar su voz seguros de que es dulce a un grado competitivo cantantes Ptvkra alto 😂 😂 Bhsk y compartió su ayuda Minihh sencilla y Dios está con su vida 🌸 🌸 y Ncovk ingeniero más dulce ❤️	","joy",	"0.468"
+"2018-Ar-04098","	@thansulii Machaouallah vino espumoso Makinte, Wen pronunció? Abe Vic😻❤️ firma!	","joy",	"0.422"
+"2018-Ar-03420","	Esto es como siempre el secreto de su fuerza creciente que termina la alegría de esta noche y se preparan para las alegrías de la Media Luna sin fin es Dios mediante "regocijarse más" 💙 # 360_drjh	","joy",	"0.645"
+"2018-Ar-02959","	# Frha_qbak_taatmthel_vi alegría del corazón y las lágrimas llenaron los ojos	","joy",	"0.719"
+"2018-Ar-02977","	Entonces Dios anhela ver sus ojos, y su criado conoce sus secretos Vyagmurh satisfechos si lo Aodjah McCann Mahdt💙	","joy",	"0.391"
+"2018-Ar-00137","	@ Me7a24_ malla Hhawkk a Aier😭😔 y \ n Ante y para la salud Alsalamh🎈😍🎉	","joy",	"0.306"
+"2018-Ar-03480","	Es claro que un diario feliz 💐 💚	","joy",	"0.750"
+"2018-Ar-03362","	# 74 kilo hablamos sin la debida Si sólo nos hacemos y tratamos de Mo sólo hablar a mí mismo la mayor parte de Samson concierto cancelar algo y Evens prestación mínima y otra	","joy",	"0.188"
+"2018-Ar-00019","	B Dios Jordna suerte de paraíso \ n ¿Cuál es la suerte como mínimo del número calma Jordna \ n \ n	","joy",	"0.417"
+"2018-Ar-01593","	Buenos días por la mañana \ n y buena satisfacción Miliana y ampliar \ n llamado a mi Señor antes Ätnam \ n y tiene Almchaarghyr \ n ATTT mi Señor desea \ n toda la necesidad de referirse a ellos \ n Este es el día de la esperanza \ n una mosca \ n # boda	","joy",	"0.719"
+"2018-Ar-01460","	@ _iSh9 Anhst con ellos para cantar necesaria Balhasteqat Ashan sabe de u hablan 😂	","joy",	"0.250"
+"2018-Ar-02032","	# Basm_altgier queremos vivir con seguridad y dignidad tienen miedo a las cuestiones humanas vírgenes primeros intereses Líbano último dinero Hamu Asergne Bdoualsahh y tranquilidad 🌹 🌹	","joy",	"0.219"
+"2018-Ar-01044","	Dios hace que nuestros días y que son el pueblo de Kuwait alegría y el placer # Kerkien	","joy",	"0.594"
+"2018-Ar-01662","	Las personas @Bion_xz Ptsom y deshacerse de la apuesta y cuando Hahahahahahahahahahaha .. noche noche Maalih éxito Aabaadi dejar de antemano feliz ❤️	","joy",	"0.609"
+"2018-Ar-00857","	Recuerde que después de la miseria y la felicidad después de las lágrimas # sonreír	","joy",	"0.422"
+"2018-Ar-03511","	Lemme alegría que recibió Aavni momento de dolor	","joy",	"0.391"
+"2018-Ar-00348","	# # Oh contento y más allá de la estrecha # # # Acerca de nosotros Señor nos conceda la vida y dulce # # # belleza de la suerte y la capacidad de los medios de vida y # # # comodidad de la mente y el tipo # # # nosotros más de lo que deseamos # $ 💜	","joy",	"0.672"
+"2018-Ar-02062","	Dios sostiene la alegría en la tierra de los buenos Árabes queridos tiene derecho a las personas que se regocijan Bofrah Shuwaikh Distinguido # Afrah_al_nhian	","joy",	"0.813"
+"2018-Ar-00841","	# La felicidad no es un sueño o dos, pero es # optimismo y buen pensamiento en Dios y en la paciencia y sin prisas siempre confió en que la mano extendida a # Dios; no volver nunca se vacía	","joy",	"0.563"
+"2018-Ar-01439","	Sobh Hana convierte Wafa se convierte en bodas se convierten en Safa convertirse en Anaka y la paz de la mente se vuelve brillante esperanza de lo mejor clave para que mis seguidores abarcan todo el lapso de la Antha	","joy",	"0.703"
+"2018-Ar-03688","	# Bahjh_oml \ n76. Alabado sea Allah, sálvanos Mmakrp 💛🌼😍 \ n Nuestro Señor facilita y fácil prueba de O-Z se convierte en terrones de azúcar pura 💛🌼💛🌼💛	","joy",	"0.688"
+"2018-Ar-03747","	de mi hermano Fiqida: Idi menos que están en los brazos de su tumba en mi memoria y la cara sonriente y el tono de su voz en mi corazón el dolor de la pérdida y el anhelo misericordia de Dios que el dolor # Aidy_naqs	","joy",	"0.016"
+"2018-Ar-00753","	Hospital de genio 500.500 anuncio # alegría 👌💙	","joy",	"0.625"
+"2018-Ar-03360","	# # Risa Aly_ohdhm todo plantado en mi corazón un amor al lugar que creció	","joy",	"0.672"
+"2018-Ar-03867","	Suficiente para ser feliz cada mañana felicidad Wiczra en los corazones de los demás una mañana brillante a Bjrhecm brillante brillante de la mañana a la esperanza, y la esperanza y la ambición más allá de la imaginación # Daam_lljer	","joy",	"0.719"
+"2018-Ar-01577","	Para ocultar los extremos distal y proximal prosperidad que vivimos en todos los campos gracias a Dios y cuidar el paternalismo que se llenan por nuestros gobernantes, y todos nos gusta la sensación Nbadelhm	","joy",	"0.484"
+"2018-Ar-04383","	Para mi familia a mis amigos por cada persona agradable sobre mi vida 'cada año y cada año Anto fina y alegre y hermoso Ngmrkm Aptsamtkm m tristeza Aekrha Eid Mubarak 💕	","joy",	"0.688"
+"2018-Ar-01482","	Su forma Mazbenk Qatar y su gente y el número Farhan Wade asciende a ofrecerle regodeo abajo en el barrio Piense cara más despreciable del objeto Tierra	","joy",	"0.219"
+"2018-Ar-04066","	@Amjed_BenIssa Gracias por su preciado Hedda 😀	","joy",	"0.391"
+"2018-Ar-02715","	Ante a adoptar y Bchowh ante sus ojos y todos los puntos de vista de más de lo que todos los Ts que Ed R. éxito \ n necesidad de optimismo tiene que Ptda duro (Balnspala)	","joy",	"0.500"
+"2018-Ar-00827","	@NassifZeytoun intruso Qlbo beduinos leer todo Alm❤❤ no leer y estás atormentando Nos Rah hace doble 🔝anda Estoy convencido de que la muerte de	","joy",	"0.468"
+"2018-Ar-00506","	Mo Radna pero Mustafa Habib 💜 # Trfait_almedinh	","joy",	"0.419"
+"2018-Ar-02877","	@hamza_alkhayyat @ yanabee3_t realidad .. hay que romper la rutina de cuotas \ n Badgahm un poco 😄	","joy",	"0.547"
+"2018-Ar-04099","	# 7 Ramadán 🌙 recogió primer Ramadán; Oh Dios, este gran día en el más feliz de nuestro corazón y perdona nuestros pecados y aceptar nuestro favor, y perdónanos por nuestros muertos está en todas las cosas omnipotente ✨ ✨ 🌙	","joy",	"0.578"
+"2018-Ar-04187","	3 Cumpleaños forma a nuestro festival, si Dios quiere, la alegría de Dios Eid pago de vacaciones y vacaciones # Tmim_almagd permiso victoria por un un 🙏 🏻	","joy",	"0.625"
