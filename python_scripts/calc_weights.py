@@ -9,6 +9,7 @@ def create_arg_parser():
     parser = argparse.ArgumentParser()
     parser.add_argument("-scores", required=True, type=str, help="Pickle file with the scores of all models as a list of lists")
     parser.add_argument("-real_y", required=True, type=str, help="Pickle file with the real labels as list")
+    parser.add_argument("-clf", action = 'store_true', help="Add this if it is a classification task")
  
     args = parser.parse_args()
     return args
@@ -81,6 +82,62 @@ def shuffle_weights(scores, real_y, weights):
 	return best_score, best_combination
 
 
+def cat_to_int(pred):
+	'''Convert predicted categories to numbers'''
+	new_pred = []
+	options = []
+	for idx, p in enumerate(pred):
+		try:
+			new_value = int(p[1]) 	#predicted category looks something like this: '0: no se infieren niveles de enojo' -- so take second character as number
+		except ValueError:
+			new_value = int(p[1:3]) #predicted category looks something like this: '-1: no se infieren niveles de enojo' -- so take second + third character as number
+		new_pred.append(new_value)
+		if new_value not in options:
+			options.append(new_value)	
+	
+	return np.asarray(new_pred), options
+
+def rescale(Y, options):
+	'''Rescale categories between 0 and 1'''
+	sorted_options = sorted(options)
+	range_divider = len(options) + 1
+	new_options = []
+	
+	## Scale options between 0 and 1 evenly
+	for idx, option in enumerate(options):
+		new_val = round((float(1) / float(range_divider)) * (idx+1), 5)
+		new_options.append(new_val)
+	
+	## Rewrite the vector by new options
+	new_Y = []
+	for y in Y:
+		new_Y.append(new_options[sorted_options.index(y)])
+	return new_Y, new_options
+
+
+def reconvert_y(Y, options_original, options_original_txt):
+	sorted_options = sorted(set(Y))
+	range_divider = len(options_original) + 1
+	new_options = []
+
+	for idx, option in enumerate(sorted_options):
+		new_val = round((option * float(range_divider)) * (idx+1), 5)
+		new_options.append(new_val)
+
+	new_Y = []
+	for y in Y:
+		new_Y.append(new_options[sorted_options.index(y)])
+
+	new_pred = []
+	for y in new_Y:
+		for option in options_original_txt:
+			if option.startswith(y):
+				new_pred.append(option)
+
+	assert len(new_pred) == len(new_Y)
+
+	return new_pred
+
 
 
 
@@ -88,12 +145,18 @@ if __name__ == "__main__":
     args = create_arg_parser()
     scores = pickle.load(args.scores)
     real_y = pickle.load(args.real_y)
+    if clf:
+    	real_y = reconvert_y(real_y, options_original, options_original_txt)
     avg_score = calculate_pearson(scores, real_y)
     best_score, approved_models = check_strength_scores(scores, real_y, avg_score)
 
     best_score2, best_combo = shuffle_weights(scores, real_y, [0.4, 0.3, 0.2, 0.1])
 
 
+
+    ## TO DO: 
+    # incorporate into the prediction files: write scores to pickle
+    # write functions to fetch original options for certain (OC) task from original .txt or .arff
 
 
 
