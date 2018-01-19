@@ -145,7 +145,7 @@ if __name__ == "__main__":
     args = create_arg_parser()
     scores = pickle.load(args.scores)
     real_y = pickle.load(args.real_y)
-    if clf:
+    if args.clf:
     	real_y = reconvert_y(real_y, options_original, options_original_txt)
     avg_score = calculate_pearson(scores, real_y)
     best_score, approved_models = check_strength_scores(scores, real_y, avg_score)
@@ -155,8 +155,9 @@ if __name__ == "__main__":
 
 
     ## TO DO: 
-    # incorporate into the prediction files: write scores to pickle
-    # write functions to fetch original options for certain (OC) task from original .txt or .arff
+    # write function to fetch original options for classification tasks (or fetch columns from predictions file > 1 column has float val, the other the int val)
+    # write function to transform gold data of clf tasks into floats ?
+    # write function to read in all data as list of lists of scores
 
 
 
