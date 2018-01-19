@@ -1,0 +1,68 @@
+
+
+For EI-Oc-anger
+
+Original average (10 runs): 0.603
+Original avg over preds: 0.6671
+Range: 0.5701 -- 0.6367
+
+Trans average (10 runs): 0.5961
+Trans avg over preds: 0.6647
+Range: 0.5541 -- 0.6364
+
+0.15: keep 57341 out of 81799
+Silver average (10 runs): 0.6324
+Silver avg over preds: 0.6799
+Range: 0.596 -- 0.6775
+
+
+
+For EI-Oc-fear
+
+Original average (10 runs): 0.5725
+Original avg over preds: 0.6205
+Range: 0.52 -- 0.6217
+
+Trans average (10 runs): 0.5676
+Trans avg over preds: 0.6348
+Range: 0.5372 -- 0.6011
+
+0.1: keep 18569 out of 54114
+Silver average (10 runs): 0.6072
+Silver avg over preds: 0.6481
+Range: 0.5713 -- 0.6459
+
+
+
+For EI-Oc-joy
+
+Original average (10 runs): 0.62
+Original avg over preds: 0.6793
+Range: 0.5923 -- 0.6509
+
+Trans average (10 runs): 0.6225
+Trans avg over preds: 0.6756
+Range: 0.5666 -- 0.6584
+
+0.125: keep 32354 out of 51136
+Silver average (10 runs): 0.6353
+Silver avg over preds: 0.6888
+Range: 0.6139 -- 0.6629
+
+
+
+For EI-Oc-sadness
+
+Original average (10 runs): 0.5848
+Original avg over preds: 0.6446
+Range: 0.5471 -- 0.6249
+
+Trans average (10 runs): 0.5696
+Trans avg over preds: 0.6469
+Range: 0.545 -- 0.6137
+
+0.125: keep 35981 out of 102802
+Silver average (10 runs): 0.5837
+Silver avg over preds: 0.6419
+Range: 0.5432 -- 0.623
+
