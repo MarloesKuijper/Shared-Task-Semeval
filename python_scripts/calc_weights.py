@@ -21,11 +21,11 @@ def calculate_pearson(scores, real_y, weights=None):
 			instance_scores = []
 			for ix, item in enumerate(instance):
 				instance_scores.append(item * weights[ix])
-			y.append(sum(instance_scores))
+			pred_y.append(sum(instance_scores))
 	else:
 		# take average
 		for instance in scores:
-			y.append(sum(instance)/len(instance))
+			pred_y.append(sum(instance)/len(instance))
 
 	score = round(pearsonr(pred_y, real_y)[0],4)
 
@@ -64,8 +64,11 @@ def check_strength_scores(scores, real_y, best_score):
 			return best_score, approved_models
 		i++
 
+	return best_score, approved_models
+
 
 def shuffle_weights(scores, real_y, weights):
+	# find all combinations of the weights, apply all to the labels, find optimal weight combo
 	combinations = list(itertools.permutations(weights, len(weights)))
 	best_score = 0
 	best_combination = []
@@ -86,7 +89,11 @@ if __name__ == "__main__":
     scores = pickle.load(args.scores)
     real_y = pickle.load(args.real_y)
     avg_score = calculate_pearson(scores, real_y)
-    check_strength_scores(scores, real_y, avg_score)
+    best_score, approved_models = check_strength_scores(scores, real_y, avg_score)
+
+    best_score2, best_combo = shuffle_weights(scores, real_y, [0.4, 0.3, 0.2, 0.1])
+
+
 
 
 
