@@ -3,6 +3,7 @@ import os
 from scipy.stats import pearsonr
 import numpy as np
 import pickle
+import itertools
 from itertools import permutations
 
 def create_arg_parser():
@@ -79,13 +80,16 @@ def check_strength_scores(scores, real_y, best_score, options=None):
     return best_score, approved_models
 
 
-def shuffle_weights(scores, real_y, weights):
+def shuffle_weights(scores, real_y, weights, options=None):
     # find all combinations of the weights, apply all to the labels, find optimal weight combo
     combinations = list(itertools.permutations(weights, len(weights)))
     best_score = 0
     best_combination = []
     for combo in combinations:
-        score = calculate_pearson(scores, real_y, combo)
+        if args.clf:
+            score = calculate_pearson(scores, real_y, combo, options=options)
+        else:
+            score = calculate_pearson(scores, real_y, combo)
         if score > best_score:
             best_score = score
             best_combination = combo
@@ -184,7 +188,8 @@ if __name__ == "__main__":
         print(avg_score)
         best_score, approved_models = check_strength_scores(all_pred_labels, gold_labels, avg_score)
         print(best_score, approved_models)
-        #best_score2, best_combo = shuffle_weights(scores, real_y, [0.4, 0.3, 0.2, 0.1])
+        best_score2, best_combo = shuffle_weights(all_pred_labels, gold_labels, [0.3, 0.0, 0.0, 0.3, 0.4])
+        print(best_score2, best_combo)
     else:
         # order of labels should be consistent with directory structure!
         string_pred_labels, options_pred = fetch_labels(model_dir) # string pred labels
@@ -208,9 +213,12 @@ if __name__ == "__main__":
 
         #print(specific_pred_labels)
         avg_score = calculate_pearson(specific_pred_labels, scaled_gold_labels, options=scaled_options)
-
+        print(avg_score)
         best_score, approved_models = check_strength_scores(specific_pred_labels, scaled_gold_labels, avg_score, options=scaled_options)
         print(best_score, approved_models)
+
+        best_score2, best_combo = shuffle_weights(specific_pred_labels, scaled_gold_labels, [0.3, 0.2, 0.0, 0.5], options=scaled_options)
+        print(best_score2, best_combo)
         
 
 
