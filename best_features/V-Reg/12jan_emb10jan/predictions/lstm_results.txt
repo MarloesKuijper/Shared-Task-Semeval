@@ -1,0 +1,12 @@
+
+
+For V-Reg-valence
+
+Original average (10 runs): 0.6996
+Original avg over preds: 0.7294
+Range: 0.6723 -- 0.7323
+
+Trans average (10 runs): 0.729
+Trans avg over preds: 0.7658
+Range: 0.706 -- 0.7553
+
