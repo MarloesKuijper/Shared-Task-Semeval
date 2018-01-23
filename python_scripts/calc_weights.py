@@ -5,6 +5,7 @@ import numpy as np
 import pickle
 import itertools
 from itertools import permutations
+from copy import deepcopy
 
 def create_arg_parser():
 	parser = argparse.ArgumentParser()
@@ -111,6 +112,39 @@ def remove_if_better(predictions, gold_labels, original_score, model_order, opti
 	return original_score	
 
 
+def remove_highest_lowest(predictions, gold_labels, model_order, options=None, old_options=None):
+	'''Function that removes highest and lowest prediction to see if it improves score'''
+	new_preds = []
+	for preds in predictions:
+		cp_preds = list(deepcopy(preds))
+		del cp_preds[cp_preds.index(min(cp_preds))] #remove lowest
+		del cp_preds[cp_preds.index(max(cp_preds))] #remove highest
+		new_preds.append(cp_preds)				    #append new predictions
+	high_low_score = calculate_pearson(new_preds, gold_labels, options=options, old_options = old_options)
+	print ("Score for removing highest/lowest: {0}\n".format(high_low_score))
+	
+
+def remove_farthest(predictions, gold_labels, model_order, options=None, old_options=None):
+	'''Function that removes highest and lowest prediction to see if it improves score'''
+	new_preds = []
+	for preds in predictions:
+		idx = get_most_far_pred(preds)
+		new_preds.append(preds[0:idx] + preds[idx+1:])
+	high_low_score = calculate_pearson(new_preds, gold_labels, options=options, old_options = old_options)
+	print ("Score for removing farthest away: {0}\n".format(high_low_score))	
+	
+
+def get_most_far_pred(preds):
+	'''Get the prediction that is the most different from all the other predictions'''
+	highest_diff = -1
+	for idx in range(len(preds)):
+		diff = abs(np.mean(preds[0:idx] + preds[idx+1:]) - preds[idx])
+		if diff > highest_diff:
+			highest_diff = diff
+			far_idx = idx
+	return far_idx		
+
+	
 def shuffle_weights(scores, real_y, weights, options=None, old_options=None):
 	# find all combinations of the weights, apply all to the labels, find optimal weight combo
 	combinations = list(itertools.permutations(weights, len(weights)))
@@ -249,12 +283,20 @@ if __name__ == "__main__":
 				avg_score = calculate_pearson(all_pred_labels, gold_labels)
 				print('\nAveraging all models', avg_score, '\n')
 				
+				## Remove highest and lowest prediction from averaging
+				remove_highest_lowest(all_pred_labels, gold_labels, model_order)
+				
+				## Remove prediction that is the farthest away from other predictions
+				remove_farthest(all_pred_labels, gold_labels, model_order)
+				
 				## Then check if it is better to not include all models in the ensemble
 				best_score, approved_models = check_strength_scores(all_pred_labels, gold_labels, avg_score)
 				print("Best score (leave-one-out method): {0}\n\nFor models:\n{1}\n".format(best_score, "\n".join([model_order[x] for x in approved_models])))
 				
 				## Keep removing models until it does not help anymore
 				remove_if_better(all_pred_labels, gold_labels, avg_score, model_order)
+				
+
 				
 				## Not doing weights for now
 				#best_score2, best_combo = shuffle_weights(all_pred_labels, gold_labels, [0.3, 0.3, 0.2, 0.2])
@@ -279,6 +321,12 @@ if __name__ == "__main__":
 				## Print average score
 				avg_score = calculate_pearson(specific_pred_labels, scaled_gold_labels, options=options, old_options = old_options)
 				print('\nAveraging all models', avg_score, '\n')
+				
+				## Remove highest and lowest prediction from averaging
+				remove_highest_lowest(specific_pred_labels, scaled_gold_labels, model_order, options=options, old_options=old_options)
+				
+				## Remove prediction that is the farthest away from other predictions
+				remove_farthest(specific_pred_labels, scaled_gold_labels, model_order, options=options, old_options=old_options)
 				
 				## Check if it is better to leave one model out
 				best_score, approved_models = check_strength_scores(specific_pred_labels, scaled_gold_labels, avg_score, options=options, old_options = old_options)
