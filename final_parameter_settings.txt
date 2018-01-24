@@ -1,0 +1,37 @@
+Final parameters for all models for all tasks/emotions:
+
+For SVM (epsilon):
+	EI-Reg-anger: 0.01
+	EI-Reg-fear : 0.04
+	EI-Reg-joy : 0.05
+	EI-Reg-sadness : 0.06
+	EI-Oc-anger : 0.005
+	EI-Oc-fear : 0.06 
+	EI-Oc-joy : 0.04
+	EI-Oc-sadness : 0.005
+	V-Reg-valence : 0.07
+	V-Oc-valence : 0.09
+
+For LSTM -- num_dense_layers, num_lstm_layers, nodes, dropout, similarity_max, 
+	EI-Reg-anger : 0, 2, 400, 0.001, 0.05, 2500
+	EI-Reg-fear : 1, 2, 400, 0.01, 0.05, 1500
+	EI-Reg-joy : 0, 2, 200, 0.1, 0.15, 500
+	EI-Reg-sadness : 0, 2, 600, 0.001, 0.1, 2500
+	EI-Oc-anger : 0, 2, 200, 0.001, 0.1, 2500
+	EI-Oc-fear : 0, 2, 200, 0.001, 0.1, 2500
+	EI-Oc-joy : 1, 3, 400, 0.001, 0.05, 500
+	EI-Oc-sadness : 1,3,800, 0.01, 0.05, 2500
+	V-Reg-valence : 1,2, 200, 0.001, 0, 0
+	V-Oc-valence : 1,3, 600, 0.01, 0, 0
+			
+For feed-forward -- dense_layer_nodes, last_layer_nodes, num_dense_layers, dropout, similarity_max, number of silver instances added
+	EI-Reg-anger : 600, 200, 0, 0.001, 0.1, 2500
+	EI-Reg-fear : 700, 200, 0, 0.001, 0.1, 1500
+	EI-Reg-joy : 500, 500, 0, 0.001, 0.125, 1500
+	EI-Reg-sadness : 400, 300, 0, 0.001, 0.1, 5000
+	EI-Oc-anger : 600, 200, 0, 0.001, 0.1, 1000
+	EI-Oc-fear : 700, 300, 0, 0.001, 0.075,1000
+	EI-Oc-joy : 800, 200, 0, 0.001, 0.05, 500
+	EI-Oc-sadness : 500, 200, 0, 0.001, 0.125, 2000
+	V-Reg-valence : 400, 400, 1, 0.001, 0, 0
+	V-Oc-valence : 400, 100, 1, 0.001, 0, 0
