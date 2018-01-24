@@ -343,8 +343,7 @@ def write_output(test_pred, out_dir, emotion, original_test_file, task_name):
             out.write(infile[0])
             for line in data:
                 out.write(line)
-                if not args.clf:
-                    out.write("\n")
+                out.write("\n")
         out.close()         
 
 
@@ -494,7 +493,7 @@ if __name__ == "__main__":
                     for item in unique_string_labels:
                         if item.startswith("'"+str(reconverted_score)):
                             # to remove the redundant quotation marks
-                            item = item[1:-1]
+                            item = item.strip()[1:-1]
                             rescaled_final_predictions.append(item)
 
 
