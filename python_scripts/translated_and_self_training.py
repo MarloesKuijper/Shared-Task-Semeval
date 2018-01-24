@@ -168,9 +168,9 @@ def train_lstm(train_X, train_Y, dev_X, dev_Y, test_X,  input_dim, dense_layers,
 		dev_Y = np.asarray(dev_Y)
 		dev_X = dev_X.reshape((len(dev_X), 1, len(dev_X[0])))
 	
-	if len(silver_X) > 0:
-		silver_X = np.asarray(silver_X)
-		silver_X = silver_X.reshape((len(silver_X), 1, len(silver_X[0])))
+	if len(test_X) > 0:
+		test_X = np.asarray(test_X)
+		test_X = test_X.reshape((len(test_X), 1, len(test_X[0])))
 	#print (train_X.shape, train_Y.shape, dev_X.shape, dev_Y.shape)
 	
 	## Get model
@@ -234,7 +234,6 @@ def train_feedforward(train_X, train_Y, valid_X, valid_Y, test_X,  input_dim, de
 
 def make_predictions (model, dev_X, dev_Y, test_X, options, old_options, clf):
 	'''Make predictions on dev and test set with model'''
-	
 	if len(dev_X) > 0 and len(dev_Y) > 0:
 		## Do dev predictions + score
 		pred_dev = model.predict(dev_X, batch_size=8, verbose=0)
@@ -286,7 +285,7 @@ def get_averages(predictions, silver_X, similarity_max):
 			new_avg.append(average(avges))
 	return new_silver_X, new_avg			
 
-def get_silver_data(train_file, dev_file, silver_file, shuffle, runs, similarity_max, arg1, arg2, arg3, arg4, clf, out_file, lstm_bool):
+def get_silver_data(train_file, dev_file, silver_file, shuffle, runs, similarity_max, arg1, arg2, arg3, arg4, clf, out_file, lstm_bool, options, options_old):
 	'''Get predictions for silver data -- first take average over 10 models and only take predictions that are similar enough to SVM
 	   Arg1-4 are dependent on whether we use LSTM or feed-forward'''
 	silver_X, silver_Y, _,_ ,_, _ = get_dataset(silver_file, False, True)
@@ -294,7 +293,7 @@ def get_silver_data(train_file, dev_file, silver_file, shuffle, runs, similarity
 	predictions = []
 	predictions_rounded = []
 	for run in range(runs):
-		train_X, train_Y, _ , options, options_old, _ = get_dataset(train_file, clf, shuffle)
+		train_X, train_Y, _ , _, _, _ = get_dataset(train_file, clf, shuffle)
 		dev_X, dev_Y, _, _, _, _ = get_dataset(dev_file, clf, shuffle)
 		
 		## Get predictions on silver data set
@@ -302,8 +301,9 @@ def get_silver_data(train_file, dev_file, silver_file, shuffle, runs, similarity
 			_, _, silver_pred = train_lstm(train_X, train_Y, [], [], silver_X, len(train_X[0]), arg1, arg2, arg3, arg4, clf, options, options_old, len(dev_Y))
 		else:	
 			_, _, silver_pred = train_feedforward(train_X, train_Y, [], [], silver_X,  len(train_X[0]), arg1, arg2, arg3, arg4, clf, options, options_old)
+		if clf:
+			predictions_rounded.append([min(options, key=lambda x:abs(x-num)) for num in silver_pred]) ##scale predictions to nearest allowed output
 		predictions.append(silver_pred)
-	
 	## Simply average predictions
 	average_predictions = np.mean(np.asarray(predictions), axis=0)
 	
@@ -311,7 +311,12 @@ def get_silver_data(train_file, dev_file, silver_file, shuffle, runs, similarity
 	prev_len = len(silver_X)
 	silver_X, average_predictions = get_averages(predictions, silver_X, similarity_max)
 	print_both('{0}: keep {1} out of {2}'.format(similarity_max, len(silver_X), prev_len), out_file)
-	return silver_X, average_predictions
+	if clf:
+		average_rounded = [min(options, key=lambda x:abs(x-num)) for num in average_predictions]
+		return silver_X, average_predictions, average_rounded
+	else:
+		return silver_X, average_predictions, _
+	
 
 
 def get_task(f, lst):
@@ -467,14 +472,14 @@ if __name__ == "__main__":
 	
 	if args.lstm: 
 		## For LSTM this contains [num_dense_layers, num_lstm_layers, nodes, dropout, similarity_max, add_sil]
-		para_dict["EI-Reg-anger"] = [0, 2, 400, 0.001, 0,0]
-		para_dict["EI-Reg-fear"] = [1, 2, 400, 0.01, 0,0]
-		para_dict["EI-Reg-joy"] = [0, 2, 200, 0.1, 0,0]
-		para_dict["EI-Reg-sadness"] = [0, 2, 600, 0.001, 0,0]
-		para_dict["EI-Oc-anger"] = [0, 2, 200, 0.001, 0,0]
-		para_dict["EI-Oc-fear"] = [0, 2, 200, 0.001, 0,0]
-		para_dict["EI-Oc-joy"] = [1, 3, 400, 0.001, 0, 0]
-		para_dict["EI-Oc-sadness"] = [1,3,800, 0.01, 0, 0]
+		para_dict["EI-Reg-anger"] = [0, 2, 400, 0.001, 0.05, 2500]
+		para_dict["EI-Reg-fear"] = [1, 2, 400, 0.01, 0.05, 1500]
+		para_dict["EI-Reg-joy"] = [0, 2, 200, 0.1, 0.15, 500]
+		para_dict["EI-Reg-sadness"] = [0, 2, 600, 0.001, 0.1, 2500]
+		para_dict["EI-Oc-anger"] = [0, 2, 200, 0.001, 0.1, 2500]
+		para_dict["EI-Oc-fear"] = [0, 2, 200, 0.001, 0.1, 2500]
+		para_dict["EI-Oc-joy"] = [1, 3, 400, 0.001, 0.05, 500]
+		para_dict["EI-Oc-sadness"] = [1,3,800, 0.01, 0.05, 2500]
 		para_dict["V-Reg-valence"] = [1,2, 200, 0.001, 0, 0]
 		para_dict["V-Oc-valence"] = [1,3, 600, 0.01, 0, 0]
 		
@@ -484,10 +489,10 @@ if __name__ == "__main__":
 		para_dict["EI-Reg-fear"] = [700, 200, 0, 0.001, 0.1, 1500]
 		para_dict["EI-Reg-joy"] = [500, 500, 0, 0.001, 0.125, 1500]
 		para_dict["EI-Reg-sadness"] = [400, 300, 0, 0.001, 0.1, 5000]
-		para_dict["EI-Oc-anger"] = [600, 200, 0, 0.001, 0.15, 500]
-		para_dict["EI-Oc-fear"] = [700, 300, 0, 0.001, 0.1, 500]
-		para_dict["EI-Oc-joy"] = [800, 200, 0, 0.001, 0.125, 500]
-		para_dict["EI-Oc-sadness"] = [500, 200, 0, 0.001, 0.125, 500]
+		para_dict["EI-Oc-anger"] = [600, 200, 0, 0.001, 0.1, 1000]
+		para_dict["EI-Oc-fear"] = [700, 300, 0, 0.001, 0.075,1000]
+		para_dict["EI-Oc-joy"] = [800, 200, 0, 0.001, 0.05, 500]
+		para_dict["EI-Oc-sadness"] = [500, 200, 0, 0.001, 0.125, 2000]
 		para_dict["V-Reg-valence"] = [400, 400, 1, 0.001, 0, 0]
 		para_dict["V-Oc-valence"] = [400, 100, 1, 0.001, 0, 0]
 	
@@ -504,39 +509,40 @@ if __name__ == "__main__":
 		alg_type = 'feed_forward'
 	
 	for idx in range(len(feature_vectors_train)):
-		print_both("\n\nFor {0}-{1}\n".format(task, emotion_order[idx]), out_file)
-		arg1, arg2, arg3, arg4, similarity_max, add_sil = para_dict["{0}-{1}".format(task, emotion_order[idx])]
-		
-		## Get initial train data (non-shuffled)
-		full_train_X, full_train_Y, dataset, options, options_old, num_dict = get_dataset(feature_vectors_train[idx], args.clf, args.shuffle)
-		dev_X, dev_Y,_,_,_ , _= get_dataset(feature_vectors_dev[idx], args.clf, args.shuffle)
-		test_X, test_Y,_,_,_, _ = get_dataset(feature_vectors_test[idx], False, args.shuffle) #args.clf alwals false for test since we put 0 as category
-		translated_X, translated_Y, _, _, _ , _= get_dataset(feature_vectors_translated[idx], args.clf, args.shuffle)
-		
-		## Get original score (average score over 10 runs + score over averaged predictions over X runs)
-		avg_preds_dev, avg_preds_test = get_original_score(full_train_X, full_train_Y, dev_X, dev_Y, test_X,  len(full_train_X[0]), arg1, arg2, arg3, arg4, args.clf, options, options_old, runs, args.lstm, out_file)
-		
-		## Now add translated data to the training data and test on dev (average of X runs again)
-		avg_preds_trans_dev, avg_preds_trans_test  = translate_train(full_train_X, full_train_Y, dev_X, dev_Y, translated_X, translated_Y, test_X, arg1, arg2, arg3, arg4, options, options_old, args.lstm, args.clf, runs, out_file)
-		
-		if similarity_max != 0 and add_sil != 0:		
-			## Filter silver data --> train 10 different models and only keep silver predictions that are similar enough
-			silver_X, silver_preds = get_silver_data(feature_vectors_train[idx], feature_vectors_dev[idx], feature_vectors_silver[idx], args.shuffle, runs, similarity_max, arg1, arg2, arg3, arg4,args.clf, out_file, args.lstm)
+		if emotion_order[idx] == 'sadness':	
+			print_both("\n\nFor {0}-{1}\n".format(task, emotion_order[idx]), out_file)
+			arg1, arg2, arg3, arg4, similarity_max, add_sil = para_dict["{0}-{1}".format(task, emotion_order[idx])]
 			
-			## Now use that silver data to train new model and test on dev (average of X runs again)
-			avg_preds_sil_dev, avg_preds_sil_test = silver_train(full_train_X, full_train_Y, dev_X, dev_Y, silver_X, test_X, silver_preds, arg1, arg2, arg3, arg4, args.clf, options, options_old, args.lstm, runs, add_sil, out_file)
-		else:
-			print ('Not doing silver because of', similarity_max, add_sil)
-		
-		## Predictions for training on train and testing on dev + test
-		pred_to_file(original_dev[idx], avg_preds_dev, args.o, 'dev/', emotion_order[idx], "{0}_normal".format(alg_type), options, options_old, args.clf, num_dict)
-		pred_to_file(original_test[idx], avg_preds_test, args.o, 'test/', emotion_order[idx], "{0}_normal".format(alg_type), options, options_old, args.clf,num_dict)
-		
-		## Predictions for training on train + translated
-		pred_to_file(original_dev[idx], avg_preds_trans_dev, args.o, 'dev/', emotion_order[idx], "{0}_translated".format(alg_type), options, options_old, args.clf, num_dict)
-		pred_to_file(original_test[idx], avg_preds_trans_test, args.o, 'test/', emotion_order[idx], "{0}_translated".format(alg_type), options, options_old, args.clf, num_dict)
-		
-		if similarity_max != 0 and add_sil != 0:
-			## Predictions for training on train + silver
-			pred_to_file(original_dev[idx], avg_preds_sil_dev, args.o, 'dev/', emotion_order[idx], "{0}_silver".format(alg_type), options, options_old, args.clf, num_dict)
-			pred_to_file(original_test[idx], avg_preds_sil_test, args.o, 'test/', emotion_order[idx], "{0}_silver".format(alg_type), options, options_old, args.clf, num_dict)
+			## Get initial train data (non-shuffled)
+			full_train_X, full_train_Y, dataset, options, options_old, num_dict = get_dataset(feature_vectors_train[idx], args.clf, args.shuffle)
+			dev_X, dev_Y,_,_,_ , _= get_dataset(feature_vectors_dev[idx], args.clf, args.shuffle)
+			test_X, test_Y,_,_,_, _ = get_dataset(feature_vectors_test[idx], False, args.shuffle) #args.clf alwals false for test since we put 0 as category
+			translated_X, translated_Y, _, _, _ , _= get_dataset(feature_vectors_translated[idx], args.clf, args.shuffle)
+			
+			## Get original score (average score over 10 runs + score over averaged predictions over X runs)
+			avg_preds_dev, avg_preds_test = get_original_score(full_train_X, full_train_Y, dev_X, dev_Y, test_X,  len(full_train_X[0]), arg1, arg2, arg3, arg4, args.clf, options, options_old, runs, args.lstm, out_file)
+			
+			## Now add translated data to the training data and test on dev (average of X runs again)
+			avg_preds_trans_dev, avg_preds_trans_test  = translate_train(full_train_X, full_train_Y, dev_X, dev_Y, translated_X, translated_Y, test_X, arg1, arg2, arg3, arg4, options, options_old, args.lstm, args.clf, runs, out_file)
+			if similarity_max != 0 and add_sil != 0:		
+				## Filter silver data --> train 10 different models and only keep silver predictions that are similar enough
+				silver_X, silver_preds, silver_round_preds = get_silver_data(feature_vectors_train[idx], feature_vectors_dev[idx], feature_vectors_silver[idx], args.shuffle, runs, similarity_max, arg1, arg2, arg3, arg4,args.clf, out_file, args.lstm, options, options_old)
+				
+				## Now use that silver data to train new model and test on dev (average of X runs again) -- train on explicit values
+				avg_preds_sil_dev, avg_preds_sil_test = silver_train(full_train_X, full_train_Y, dev_X, dev_Y, silver_X, test_X, silver_preds, arg1, arg2, arg3, arg4, args.clf, options, options_old, args.lstm, runs, add_sil, out_file)
+			
+			else:
+				print ('Not doing silver because of', similarity_max, add_sil)
+			
+			## Predictions for training on train and testing on dev + test
+			pred_to_file(original_dev[idx], avg_preds_dev, args.o, 'dev/', emotion_order[idx], "{0}_normal".format(alg_type), options, options_old, args.clf, num_dict)
+			pred_to_file(original_test[idx], avg_preds_test, args.o, 'test/', emotion_order[idx], "{0}_normal".format(alg_type), options, options_old, args.clf,num_dict)
+			
+			## Predictions for training on train + translated
+			pred_to_file(original_dev[idx], avg_preds_trans_dev, args.o, 'dev/', emotion_order[idx], "{0}_translated".format(alg_type), options, options_old, args.clf, num_dict)
+			pred_to_file(original_test[idx], avg_preds_trans_test, args.o, 'test/', emotion_order[idx], "{0}_translated".format(alg_type), options, options_old, args.clf, num_dict)
+			
+			if similarity_max != 0 and add_sil != 0:
+				## Predictions for training on train + silver
+				pred_to_file(original_dev[idx], avg_preds_sil_dev, args.o, 'dev/', emotion_order[idx], "{0}_silver".format(alg_type), options, options_old, args.clf, num_dict)
+				pred_to_file(original_test[idx], avg_preds_sil_test, args.o, 'test/', emotion_order[idx], "{0}_silver".format(alg_type), options, options_old, args.clf, num_dict)
