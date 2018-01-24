@@ -131,7 +131,7 @@ def remove_highest_lowest(predictions, gold_labels, model_order, options=None, o
         print ("Score for removing highest/lowest: {0}\n".format(high_low_score))
         return high_low_score
     else:
-        return new_preds
+        return [sum(instance)/len(instance) for instance in new_preds]
     
 
 def remove_farthest(predictions, gold_labels, model_order, options=None, old_options=None, final=None):
@@ -145,7 +145,7 @@ def remove_farthest(predictions, gold_labels, model_order, options=None, old_opt
         print ("Score for removing farthest away: {0}\n".format(high_low_score))  
         return high_low_score  
     else:
-        return new_preds
+        return [sum(instance)/len(instance) for instance in new_preds]
     
 
 def get_most_far_pred(preds):
@@ -293,9 +293,9 @@ def calculate_final_predictions(all_predictions, best_method, model_types, model
         elif best_method == "averaging":
             final_predictions = averaging(all_predictions, models)
         elif best_method == "remove_highest_lowest":
-            final_predictions = remove_highest_lowest(all_pred_labels, gold_labels, model_order, final=True)
+            final_predictions = remove_highest_lowest(all_predictions, gold_labels, model_order, final=True)
         else:
-            final_predictions = remove_farthest(all_pred_labels, gold_labels, model_order, final=True)
+            final_predictions = remove_farthest(all_predictions, gold_labels, model_order, final=True)
 
     # if method is removing or leave one out we know which models we should include
     else:
