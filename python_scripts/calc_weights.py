@@ -331,7 +331,10 @@ def write_output(test_pred, out_dir, emotion, original_test_file, task_name):
     if not os.path.exists(out_dir_full):
         #os.system("mkdir -p {0}".format(out_dir_full))
         subprocess.call(["mkdir", "-p", out_dir_full])
-    name = "{0}{1}/{2}-{1}_pred.txt".format(out_dir, emotion, task_name)
+    if emotion == "valence":
+        name = "{0}{1}/{2}_es_pred.txt".format(out_dir, emotion, task_name)
+    else:
+        name = "{0}{1}/{2}_es_{1}_pred.txt".format(out_dir, emotion, task_name)
     with open(original_test_file, 'r', encoding="utf-8") as infile:
         infile = infile.readlines()
         infile = [x for x in infile if x]
@@ -401,12 +404,19 @@ if __name__ == "__main__":
                 best_method, best_models = get_best_model_data(emotion_scores, flat_model_types)
                 print(best_method, best_models)
 
-                final_predictions_test = calculate_final_predictions(all_test_predictions, best_method, flat_model_types, best_models)
+                # write predictions for test or dev
+                write_test = False
+                if write_test:
+                    final_predictions = calculate_final_predictions(all_test_predictions, best_method, flat_model_types, best_models)
+                else:
+                    final_predictions = calculate_final_predictions(all_pred_labels, best_method, flat_model_types, best_models)
+
+
 
                 original_test_file = [os.path.join(args.orig_test_dir,f) for f in os.listdir(args.orig_test_dir) if os.path.isfile(os.path.join(args.orig_test_dir, f)) and f.endswith(".txt") and emotion in f.lower()]
                 
 
-                write_output(final_predictions_test, args.out_dir, emotion, original_test_file[0], args.task_name)
+                write_output(final_predictions, args.out_dir, emotion, original_test_file[0], args.task_name)
 
                 
                 ## Not doing weights for now
@@ -427,6 +437,8 @@ if __name__ == "__main__":
                 all_test_predictions, _, _ = fetch_labels(test_pred_dir+emotion+"/", model_types, ix=-3) #
 
                 assert sorted(options_pred) == sorted(options_test)
+
+                print(sorted(options_test))
 
                 ## Print individual scores of the models to see if some model stands out (very high/low score) -- calculate this based on category data (so 4, -2, -1, 0, etc)
                 print ("Individual scores of models\n")
@@ -465,16 +477,24 @@ if __name__ == "__main__":
                 best_method, best_models = get_best_model_data(emotion_scores, flat_model_types)
                 print(best_method, best_models)
 
-                final_predictions_test = calculate_final_predictions(all_test_predictions, best_method, flat_model_types, best_models)
+                # write predictions for test or dev
+                write_test = False
+                if write_test:
+                    final_predictions = calculate_final_predictions(all_test_predictions, best_method, flat_model_types, best_models)
+                else:
+                    final_predictions = calculate_final_predictions(specific_pred_labels, best_method, flat_model_types, best_models)
+
 
                 rescaled_final_predictions = []
                 unique_string_labels = list(set([model for instances in test_labels for model in instances if "infiere" in model]))
                 print(unique_string_labels)
-                for item in final_predictions_test:
+                for item in final_predictions:
                     scaled_item = min(options, key=lambda x:abs(x-item))
                     reconverted_score = old_options[options.index(scaled_item)]
                     for item in unique_string_labels:
                         if item.startswith("'"+str(reconverted_score)):
+                            # to remove the redundant quotation marks
+                            item = item[1:-1]
                             rescaled_final_predictions.append(item)
 
 
@@ -482,6 +502,8 @@ if __name__ == "__main__":
                 
 
                 write_output(rescaled_final_predictions, args.out_dir, emotion, original_test_file[0], args.task_name)
+
+                print(args.task_name)
 
                 ## Not doing weights for now    
                 #best_score2, best_combo = shuffle_weights(specific_pred_labels, scaled_gold_labels, [0.3, 0.2, 0.0, 0.5], options=scaled_options)
