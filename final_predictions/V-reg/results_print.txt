@@ -1,0 +1,26 @@
+
+Doing tests for valence:
+
+Individual scores of models
+
+SVM Normal: 0.7281
+SVM Translated: 0.735
+Feed Forward Normal: 0.7514
+Feed Forward Translated: 0.7645
+LSTM normal: 0.7294
+LSTM translated: 0.7658
+
+Averaging all models 0.7668 
+
+Try to remove models from averaging to see if score improves:
+
+Remove LSTM normal from averaging
+Remove SVM Translated from averaging
+
+Found best model with score 0.7718, includes:
+SVM Normal
+Feed Forward Normal
+Feed Forward Translated
+LSTM translated
+
+

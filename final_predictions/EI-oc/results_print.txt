@@ -1,0 +1,120 @@
+
+Doing tests for anger:
+
+Individual scores of models
+
+SVM Normal: 0.663
+SVM Translated: 0.6448
+Feed Forward Normal: 0.6106
+Feed Forward Translated: 0.6587
+Feed Forward Silver: 0.6397
+LSTM normal: 0.6023
+LSTM translated: 0.6728
+LSTM silver: 0.5889
+
+Averaging all models 0.6575 
+
+Try to remove models from averaging to see if score improves:
+
+Remove SVM Translated from averaging
+Remove Feed Forward Normal from averaging
+Remove LSTM normal from averaging
+
+Found best model with score 0.6775, includes:
+SVM Normal
+Feed Forward Translated
+Feed Forward Silver
+LSTM translated
+LSTM silver
+
+
+
+Doing tests for fear:
+
+Individual scores of models
+
+SVM Normal: 0.6207
+SVM Translated: 0.579
+Feed Forward Normal: 0.596
+Feed Forward Translated: 0.5982
+Feed Forward Silver: 0.6289
+LSTM normal: 0.6104
+LSTM translated: 0.6027
+LSTM silver: 0.6151
+
+Averaging all models 0.6426 
+
+Try to remove models from averaging to see if score improves:
+
+Remove SVM Normal from averaging
+
+Found best model with score 0.6655, includes:
+SVM Translated
+Feed Forward Normal
+Feed Forward Translated
+Feed Forward Silver
+LSTM normal
+LSTM translated
+LSTM silver
+
+
+
+Doing tests for joy:
+
+Individual scores of models
+
+SVM Normal: 0.626
+SVM Translated: 0.6741
+Feed Forward Normal: 0.6162
+Feed Forward Translated: 0.6384
+Feed Forward Silver: 0.6278
+LSTM normal: 0.6703
+LSTM translated: 0.6567
+LSTM silver: 0.6708
+
+Averaging all models 0.6686 
+
+Try to remove models from averaging to see if score improves:
+
+Remove SVM Normal from averaging
+Remove LSTM normal from averaging
+
+Found best model with score 0.6952, includes:
+SVM Translated
+Feed Forward Normal
+Feed Forward Translated
+Feed Forward Silver
+LSTM translated
+LSTM silver
+
+
+
+Doing tests for sadness:
+
+Individual scores of models
+
+SVM Normal: 0.579
+SVM Translated: 0.6211
+Feed Forward Normal: 0.5791
+Feed Forward Translated: 0.6333
+Feed Forward Silver: 0.5954
+LSTM normal: 0.5897
+LSTM translated: 0.6122
+LSTM silver: 0.6097
+
+Averaging all models 0.6116 
+
+Try to remove models from averaging to see if score improves:
+
+Remove SVM Normal from averaging
+Remove LSTM normal from averaging
+
+Found best model with score 0.6448, includes:
+SVM Translated
+Feed Forward Normal
+Feed Forward Translated
+Feed Forward Silver
+LSTM translated
+LSTM silver
+
+
