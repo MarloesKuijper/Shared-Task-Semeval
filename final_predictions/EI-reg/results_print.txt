@@ -1,4 +1,3 @@
-
 Doing tests for anger:
 
 Individual scores of models
@@ -12,7 +11,7 @@ LSTM translated: 0.6716
 LSTM silver: 0.6828
 Feed Forward Silver: 0.6811
 
-Averaging all models 0.6843 
+Averaging all models 0.6843
 
 Try to remove models from averaging to see if score improves:
 
@@ -47,7 +46,7 @@ LSTM translated: 0.702
 LSTM silver: 0.682
 Feed Forward Silver: 0.6736
 
-Averaging all models 0.7091 
+Averaging all models 0.7091
 
 Try to remove models from averaging to see if score improves:
 
@@ -83,7 +82,7 @@ LSTM translated: 0.7092
 LSTM silver: 0.6986
 Feed Forward Silver: 0.7097
 
-Averaging all models 0.7206 
+Averaging all models 0.7206
 
 Try to remove models from averaging to see if score improves:
 
@@ -118,7 +117,7 @@ LSTM translated: 0.67
 LSTM silver: 0.6782
 Feed Forward Silver: 0.7043
 
-Averaging all models 0.7107 
+Averaging all models 0.7107
 
 Try to remove models from averaging to see if score improves:
 
