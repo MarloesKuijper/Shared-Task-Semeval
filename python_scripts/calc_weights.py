@@ -215,7 +215,7 @@ def write_output(test_pred, out_dir, emotion, dev_test, original_test_file, task
 		subprocess.call(["mkdir", "-p", out_dir_full])
 	
 	if emotion == "valence":
-		name = "{0}{1}_es_pred.txt".format(out_dir_full, emotion)
+		name = "{0}{1}_es_pred.txt".format(out_dir_full, task_name)
 	else:
 		name = "{0}{1}_es_{2}_pred.txt".format(out_dir_full,task_name, emotion)
 
