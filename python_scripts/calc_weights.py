@@ -273,8 +273,8 @@ if __name__ == "__main__":
 				original_dev_file  = [os.path.join(args.orig_dev ,f) for f in os.listdir(args.orig_dev)  if os.path.isfile(os.path.join(args.orig_dev, f))  and f.endswith(".txt") and emotion in f.lower()]
 				original_test_file = [os.path.join(args.orig_test,f) for f in os.listdir(args.orig_test) if os.path.isfile(os.path.join(args.orig_test, f)) and f.endswith(".txt") and emotion in f.lower()]
 				
-				#write_output(final_predictions_dev,  args.out_dir,  emotion, 'dev' ,original_dev_file[0],  args.task_name)
-				#write_output(final_predictions_test, args.out_dir,  emotion, 'test',original_test_file[0], args.task_name)
+				write_output(final_predictions_dev,  args.out_dir,  emotion, 'dev' ,original_dev_file[0],  args.task_name)
+				write_output(final_predictions_test, args.out_dir,  emotion, 'test',original_test_file[0], args.task_name)
 				
 			else:
 				# Prediction labels for dev
