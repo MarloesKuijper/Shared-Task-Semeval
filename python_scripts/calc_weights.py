@@ -20,7 +20,7 @@ def create_arg_parser():
 	parser.add_argument("-ot", "--orig_test", required=True, type=str, help="Dir with original test files")
 	parser.add_argument("-o","--out_dir", required=True, type=str, help="Dir to write results to")
 	parser.add_argument("-ta", "--task_name", choices = ['EI-reg', 'EI-oc', 'V-reg', 'V-oc'], type=str, help="Name of task - choose EI-reg, EI-oc, V-reg or V-oc")
-	parser.add_argument("-diff", "--difference", default = 0.002, type=float, help="The amount the F-score should increase by before we discard a model (default 0.1)")
+	parser.add_argument("-diff", "--difference", default = 0.002, type=float, help="The amount the F-score should increase by before we discard a model (default 0.002)")
 	parser.add_argument("-c", "--clf", action = 'store_true', help="Add this if it is a classification task -- important!")
  
 	args = parser.parse_args()
@@ -65,6 +65,7 @@ def remove_if_better(predictions, gold_labels, original_score, model_order, extr
 		
 		## Set new best score we have to beat
 		original_score = original_score + best_diff
+		print ("New original score: {0}".format(original_score))
 		## Throw out worst model from predictions (if we found one), print which one it is      
 		if worst_model != -1:
 			predictions = [x[0:worst_model] + x[worst_model + 1:] for x in predictions]
@@ -179,6 +180,7 @@ def fetch_labels(dir, model_types, emotion=None, ix=-1):
 
 def averaging(all_predictions, indices):
 	final_predictions = []
+	print ("Taking average for {0} models".format(len(indices)))
 	for instance in all_predictions:
 		new_instance = []
 		for index, item in enumerate(instance):
@@ -233,7 +235,7 @@ if __name__ == "__main__":
 	args = create_arg_parser()
 	gold_labels_dir = args.dev_gold
 	emotions = ["anger", "fear", "joy", "sadness", "valence"]
-	model_types = [["traindev_svm", "SVM Normal"], ["trans_svm","SVM Translated"], ["feed_forward_normal","Feed Forward Normal"], ["feed_forward_translated","Feed Forward Translated"],["feed_forward_silver","Feed Forward Silver"], ["lstm_normal","LSTM normal"], ["lstm_translated","LSTM translated"],["lstm_silver","LSTM silver"]]  
+	model_types = [["traindev_svm", "SVM Normal"], ["trans_svm","SVM Translated"], ["feed_forward_normal","Feed Forward Normal"], ["feed_forward_translated","Feed Forward Translated"], ["lstm_normal","LSTM normal"], ["lstm_translated","LSTM translated"],["lstm_silver","LSTM silver"], ["feed_forward_silver","Feed Forward Silver"]]  
 	
 	for emotion in emotions:
 		## Get correct models for dev/test predictions
@@ -262,7 +264,7 @@ if __name__ == "__main__":
 				best_score_removing, models = remove_if_better(all_pred_labels, gold_labels, avg_score, model_order, args.difference)
 				flat_model_types = [model[1] for model in model_types] ## only keep models
 				indices_models = [flat_model_types.index(model) for model in models]
-
+				#print ('indices', indices_models)
 				## Write predictions for dev and test
 				final_predictions_dev  = averaging(all_pred_labels, indices_models)
 				final_predictions_test = averaging(all_test_predictions, indices_models)
@@ -271,8 +273,8 @@ if __name__ == "__main__":
 				original_dev_file  = [os.path.join(args.orig_dev ,f) for f in os.listdir(args.orig_dev)  if os.path.isfile(os.path.join(args.orig_dev, f))  and f.endswith(".txt") and emotion in f.lower()]
 				original_test_file = [os.path.join(args.orig_test,f) for f in os.listdir(args.orig_test) if os.path.isfile(os.path.join(args.orig_test, f)) and f.endswith(".txt") and emotion in f.lower()]
 				
-				write_output(final_predictions_dev,  args.out_dir,  emotion, 'dev' ,original_dev_file[0],  args.task_name)
-				write_output(final_predictions_test, args.out_dir,  emotion, 'test',original_test_file[0], args.task_name)
+				#write_output(final_predictions_dev,  args.out_dir,  emotion, 'dev' ,original_dev_file[0],  args.task_name)
+				#write_output(final_predictions_test, args.out_dir,  emotion, 'test',original_test_file[0], args.task_name)
 				
 			else:
 				# Prediction labels for dev

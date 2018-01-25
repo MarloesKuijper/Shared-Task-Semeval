@@ -14,7 +14,9 @@ Averaging all models 0.728
 
 Try to remove models from averaging to see if score improves:
 
+New original score: 0.7438
 Remove SVM Normal from averaging
+New original score: 0.7438
 
 Found best model with score 0.7438, includes:
 SVM Translated
@@ -24,3 +26,5 @@ LSTM normal
 LSTM translated
 
 
+Taking average for 5 models
+Taking average for 5 models
